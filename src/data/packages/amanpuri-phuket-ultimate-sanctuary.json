@@ -1,0 +1,178 @@
+{
+  "slug": "amanpuri-phuket-ultimate-sanctuary",
+  "title": "7-Day Amanpuri Phuket Ultimate Golf & Peace Sanctuary",
+  "description": "Iconic ultra-luxury at Amanpuri on Pansea Beach. Play Red Mountain, Blue Canyon (Canyon Course), and Aquella with bespoke holistic care.",
+  "heroImage": "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-private-pool-pavilion-1.webp",
+  "destination": "Phuket, Thailand",
+  "country": "Thailand",
+  "groupProfile": "Discerning Couples & Golfers",
+  "intent": "Ultra-Luxury & Pure Golf",
+  "duration": "7 Days / 6 Nights (3 Rounds)",
+  "guidePriceUsd": 5865,
+  "guidePriceFrom": 9030,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "thailand-royal-siam",
+    "title": "Thailand Royal Siam",
+    "duration": "10 Days / 9 Nights",
+    "heroImage": "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-private-pool-pavilion-1.webp",
+    "highlight": "Upgrade to our ultimate royal tour pairing Amanpuri with Bangkok’s finest suites and private helicopter transfers."
+  },
+  "featuredVenues": [
+    {
+      "name": "Red Mountain Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/red-mountain/",
+      "image": "/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+      "badge": "Johnathan Morrow / Al Tikkanen",
+      "highlight": "Par 72 • 7,002 Yards"
+    },
+    {
+      "name": "Blue Canyon Country Club",
+      "type": "course",
+      "href": "/courses/thailand/blue-canyon/",
+      "image": "/images/courses/thailand/blue-canyon/blue-canyon-country-club-phuket-thailand-1.webp",
+      "badge": "Yoshikazu Kato",
+      "highlight": "Par 72 (Canyon) • 7,165 Yards (Canyon)"
+    },
+    {
+      "name": "Aquella Golf Resort & Country Club",
+      "type": "course",
+      "href": "/courses/thailand/aquella/",
+      "image": "/images/courses/thailand/aquella/aquella-golf-resort-phuket-thailand-1.webp",
+      "badge": "Pacific Coast Design",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Amanpuri Phuket",
+      "type": "accommodation",
+      "href": "/accommodations/thailand/amanpuri/",
+      "image": "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-private-pool-pavilion-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Chauffeured private luxury vehicles for all airport, resort, and golf course journeys."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: Red Mountain, Blue Canyon (Canyon Course), and Aquella."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "6 nights in an Ocean Pavilion at Amanpuri on secluded Pansea Beach."
+    },
+    {
+      "item": "Aman Spa Journey",
+      "detail": "Signature holistic wellness bodywork and hydrotherapy relaxation."
+    },
+    {
+      "item": "VIP Golf Logistics",
+      "detail": "Guaranteed morning tee sheets, private caddies, and dedicated equipment staging."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival on Pansea Beach & Aman Pavilion Check-In",
+      "subtitle": "Aman Sanctuary Welcome",
+      "stayName": "Amanpuri Phuket",
+      "stayHref": "/accommodations/thailand/amanpuri/",
+      "transferTime": "25 mins from HKT Airport",
+      "image": "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-private-pool-pavilion-1.webp",
+      "imageCaption": "Amanpuri Phuket — Luxury Sanctuary Base",
+      "imageAlt": "Amanpuri Phuket luxury accommodation Asia Golf Specialists",
+      "description": "Arrive in Phuket where your private luxury transfer whisks you to <a href=\"/accommodations/thailand/amanpuri/\">Amanpuri</a>, the legendary flagship of the Aman brand nestled in a secluded coconut grove on Pansea Beach. Settle into your Ocean Pavilion featuring classic Ayutthaya-inspired Thai architecture and an expansive outdoor sala.<br><br>Unwind with a welcome herbal infusion overlooking the turquoise Andaman Sea before dining at Nama, Amanpuri’s signature Japanese washoku restaurant."
+    },
+    {
+      "day": 2,
+      "title": "Tin-Mine Quarry Drama at Red Mountain Golf Club",
+      "subtitle": "Round 1: Red Mountain Quarry Test",
+      "courseName": "Red Mountain Golf Club",
+      "courseHref": "/courses/thailand/red-mountain/",
+      "architect": "Johnathan Morrow / Al Tikkanen",
+      "stayName": "Amanpuri Phuket",
+      "stayHref": "/accommodations/thailand/amanpuri/",
+      "transferTime": "35 mins door-to-door",
+      "image": "/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+      "imageCaption": "Red Mountain Golf Club — Johnathan Morrow / Al Tikkanen (Par 72, 7,002 Yards)",
+      "imageAlt": "Red Mountain Golf Club championship golf course Johnathan Morrow / Al Tikkanen Asia Golf Specialists",
+      "description": "Tackle <a href=\"/courses/thailand/red-mountain/\">Red Mountain Golf Club</a>, Asia's most dramatic championship track. Sculpted through a historic tin mine with towering red cliffs and sheer vertical drops, this par-72 layout requires tactical driving and pinpoint club selection.<br><br>Return to Amanpuri for an afternoon relaxation session by the iconic midnight-black tiled swimming pool, followed by cocktails at the Sunset Bar."
+    },
+    {
+      "day": 3,
+      "title": "Championship Heritage at Blue Canyon (Canyon Course)",
+      "subtitle": "Round 2: Tiger Woods Johnnie Walker Layout",
+      "courseName": "Blue Canyon Country Club",
+      "courseHref": "/courses/thailand/blue-canyon/",
+      "architect": "Yoshikazu Kato",
+      "stayName": "Amanpuri Phuket",
+      "stayHref": "/accommodations/thailand/amanpuri/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/thailand/blue-canyon/blue-canyon-country-club-dramatic-finish-2.webp",
+      "imageCaption": "Blue Canyon Country Club — Yoshikazu Kato (Par 72 (Canyon), 7,165 Yards (Canyon))",
+      "imageAlt": "Blue Canyon Country Club championship golf course Yoshikazu Kato Asia Golf Specialists",
+      "description": "Play the world-famous Canyon Course at <a href=\"/courses/thailand/blue-canyon/\">Blue Canyon Country Club</a>. Walk the exact fairways where Tiger Woods staged his historic 1998 comeback, taking on the legendary par-4 13th canyon carry hole.<br><br>After your round, enjoy lunch in the clubhouse before an executive transfer returns you to Amanpuri for a 90-minute signature Aman Spa holistic massage."
+    },
+    {
+      "day": 4,
+      "title": "Pansea Beach Seclusion & Aman Spa Restoration",
+      "subtitle": "Aman Day of Rest",
+      "stayName": "Amanpuri Phuket",
+      "stayHref": "/accommodations/thailand/amanpuri/",
+      "transferTime": "At leisure at the resort",
+      "image": "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-sea-view-2.webp",
+      "imageCaption": "Amanpuri Phuket — Luxury Sanctuary Base",
+      "imageAlt": "Amanpuri Phuket luxury accommodation Asia Golf Specialists",
+      "description": "A day of complete tranquility on Amanpuri's private crescent beach. Enjoy unhurried breakfast on your sala, snorkel over the coral reef in Pansea Bay, or participate in private yoga in the open-air pavilion. An optional private Aman yacht charter is available on request.<br><br>In the evening, savor authentic southern Thai cuisine at The Terrace, dining under the stars above the Andaman surf."
+    },
+    {
+      "day": 5,
+      "title": "Andaman Coastal Links at Aquella Golf Resort",
+      "subtitle": "Round 3: Coastal Links Finale",
+      "courseName": "Aquella Golf Resort & Country Club",
+      "courseHref": "/courses/thailand/aquella/",
+      "architect": "Pacific Coast Design",
+      "stayName": "Amanpuri Phuket",
+      "stayHref": "/accommodations/thailand/amanpuri/",
+      "transferTime": "45 mins door-to-door",
+      "image": "/images/courses/thailand/aquella/aquella-golf-resort-phuket-thailand-1.webp",
+      "imageCaption": "Aquella Golf Resort & Country Club — Pacific Coast Design (Par 72, 7,000+ Yards)",
+      "imageAlt": "Aquella Golf Resort & Country Club championship golf course Pacific Coast Design Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/thailand/aquella/\">Aquella Golf & Country Club</a> along the Andaman coast of Phang Nga. With firm turf, beachside holes, and cooling ocean breezes, this modern links layout provides an exhilarating finale to your Phuket golf experience.<br><br>Celebrate with drinks at Aquella’s clubhouse before returning to Amanpuri for an exclusive private beachfront dinner beside the waves."
+    },
+    {
+      "day": 6,
+      "title": "Pansea Bay Relaxation & Sunset Wine Tasting",
+      "subtitle": "Bespoke Island Leisure",
+      "stayName": "Amanpuri Phuket",
+      "stayHref": "/accommodations/thailand/amanpuri/",
+      "transferTime": "At leisure at the resort",
+      "image": "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-private-pool-pavilion-1.webp",
+      "imageCaption": "Amanpuri Phuket — Luxury Sanctuary Base",
+      "imageAlt": "Amanpuri Phuket luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy an unhurried morning with breakfast served in your pavilion sala. Spend the day lounging on Pansea Beach or taking an optional sailing cruise into the sunset.<br><br>Gather for a private sommelier-led wine tasting and farewell dinner at Amanpuri's Mediterranean restaurant."
+    },
+    {
+      "day": 7,
+      "title": "VIP Departure via Phuket International Airport",
+      "subtitle": "Departure",
+      "stayName": "Amanpuri Phuket",
+      "stayHref": "/accommodations/thailand/amanpuri/",
+      "transferTime": "25 mins to HKT Airport",
+      "image": "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-private-pool-pavilion-1.webp",
+      "imageCaption": "Amanpuri Phuket — Luxury Sanctuary Base",
+      "imageAlt": "Amanpuri Phuket luxury accommodation Asia Golf Specialists",
+      "description": "Take a final swim in the Andaman Sea before checking out with the assistance of your personal Aman host and AGS concierge.<br><br>Your private luxury transfer delivers your party to Phuket International Airport for your onward flight."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Pansea Beach entirely private?",
+      "answer": "Yes, Pansea Beach is accessible exclusively by guests of Amanpuri and its neighboring property, ensuring complete seclusion."
+    }
+  ]
+}

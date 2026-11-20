@@ -1,0 +1,154 @@
+{
+  "slug": "bangkok-elite-private-clubs",
+  "title": "5-Day Bangkok Private Club Access & Cosmopolitan Luxury",
+  "description": "Exclusive private club golf in the Thai capital. Play Thai Country Club, Alpine Golf Club, and Nikanti, staying at Sindhorn Kempinski.",
+  "heroImage": "/images/accommodations/thailand/sindhorn-kempinski/thailand-luxury-hotel-sindhorn-kempinski-bangkok-lobby-2.webp",
+  "destination": "Bangkok, Thailand",
+  "country": "Thailand",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Private Club & City Luxury",
+  "duration": "5 Days / 4 Nights (3 Rounds)",
+  "guidePriceUsd": 1585,
+  "guidePriceFrom": 2440,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-bangkok-and-hua-hin-fairways",
+    "title": "The Bangkok & Hua Hin Fairways",
+    "duration": "9 Days / 8 Nights",
+    "heroImage": "/images/courses/thailand/thai-country-club/thai-country-club-1.webp",
+    "highlight": "Upgrade to our comprehensive 9-day tour pairing Bangkok’s elite private clubs with Hua Hin’s royal links."
+  },
+  "featuredVenues": [
+    {
+      "name": "Thai Country Club",
+      "type": "course",
+      "href": "/courses/thailand/thai-country-club/",
+      "image": "/images/courses/thailand/thai-country-club/thai-country-club-1.webp",
+      "badge": "Denis Griffiths",
+      "highlight": "Par 72 • 7,097 Yards"
+    },
+    {
+      "name": "Alpine Golf & Sports Club",
+      "type": "course",
+      "href": "/courses/thailand/alpine-golf-club/",
+      "image": "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-bangkok-thailand-1.webp",
+      "badge": "Ronald M. Garl",
+      "highlight": "Par 72 • 7,007 Yards"
+    },
+    {
+      "name": "Nikanti Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/nikanti/",
+      "image": "/images/courses/thailand/nikanti/nikanti-golf-club-bangkok-thailand-1.webp",
+      "badge": "Pirapon Namatra / Golf East",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Sindhorn Kempinski Bangkok",
+      "type": "accommodation",
+      "href": "/accommodations/thailand/sindhorn-kempinski/",
+      "image": "/images/accommodations/thailand/sindhorn-kempinski/thailand-luxury-hotel-sindhorn-kempinski-bangkok-lobby-2.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Executive high-roof luxury transport with motorway pass to bypass city gridlock."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: Thai Country Club, Alpine Golf Club, and Nikanti Golf Club."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights in an Executive Suite at Sindhorn Kempinski Hotel Bangkok."
+    },
+    {
+      "item": "Clubhouse Dining",
+      "detail": "Curated clubhouse dining and private executive locker access."
+    },
+    {
+      "item": "Rooftop Cocktail Access",
+      "detail": "Curated reservations at Bangkok’s premier skyline rooftop cocktail lounges."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Bangkok & Langsuan Garden Oasis Check-In",
+      "subtitle": "Capital Arrival",
+      "stayName": "Sindhorn Kempinski Bangkok",
+      "stayHref": "/accommodations/thailand/sindhorn-kempinski/",
+      "transferTime": "35 mins from BKK Airport",
+      "image": "/images/accommodations/thailand/sindhorn-kempinski/thailand-luxury-hotel-sindhorn-kempinski-bangkok-lobby-2.webp",
+      "imageCaption": "Sindhorn Kempinski Bangkok — Luxury Sanctuary Base",
+      "imageAlt": "Sindhorn Kempinski Bangkok luxury accommodation Asia Golf Specialists",
+      "description": "Arrive in Bangkok and transfer via private executive vehicle to <a href=\"/accommodations/thailand/sindhorn-kempinski/\">Sindhorn Kempinski Hotel Bangkok</a>, set in the prestigious garden enclave of Langsuan. Unpack in your spacious Executive Suite.<br><br>Sip cocktails in the hotel’s soaring lobby lounge before dining at Flourish, sampling modern Thai and Mediterranean cuisine."
+    },
+    {
+      "day": 2,
+      "title": "Tiger Woods Victory Venue: Thai Country Club",
+      "subtitle": "Round 1: Exclusive Private Club",
+      "courseName": "Thai Country Club",
+      "courseHref": "/courses/thailand/thai-country-club/",
+      "architect": "Denis Griffiths",
+      "stayName": "Sindhorn Kempinski Bangkok",
+      "stayHref": "/accommodations/thailand/sindhorn-kempinski/",
+      "transferTime": "45 mins via motorway",
+      "image": "/images/courses/thailand/thai-country-club/thai-country-club-1.webp",
+      "imageCaption": "Thai Country Club — Denis Griffiths (Par 72, 7,097 Yards)",
+      "imageAlt": "Thai Country Club championship golf course Denis Griffiths Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/thailand/thai-country-club/\">Thai Country Club</a>, the prestigious private venue where Tiger Woods won the 1997 Asian Honda Classic. Impeccably manicured Paspalum fairways, sculpted bunkering, and tournament greens deliver an unforgettable test.<br><br>Enjoy an authentic lunch in the legendary clubhouse restaurant before returning to the city for evening cocktails overlooking the Bangkok skyline."
+    },
+    {
+      "day": 3,
+      "title": "Championship Challenge at Alpine Golf Club Bangkok",
+      "subtitle": "Round 2: Johnnie Walker Classic Host",
+      "courseName": "Alpine Golf & Sports Club",
+      "courseHref": "/courses/thailand/alpine-golf-club/",
+      "architect": "Ronald M. Garl",
+      "stayName": "Sindhorn Kempinski Bangkok",
+      "stayHref": "/accommodations/thailand/sindhorn-kempinski/",
+      "transferTime": "50 mins door-to-door",
+      "image": "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-bangkok-thailand-1.webp",
+      "imageCaption": "Alpine Golf & Sports Club — Ronald M. Garl (Par 72, 7,007 Yards)",
+      "imageAlt": "Alpine Golf & Sports Club championship golf course Ronald M. Garl Asia Golf Specialists",
+      "description": "Play <a href=\"/courses/thailand/alpine-golf-club/\">Alpine Golf Club</a>, Ronald Fream’s championship layout that hosted Tiger Woods’ victory in the 2000 Johnnie Walker Classic. Heavy contouring, narrow fairways, and water hazards make this one of Bangkok’s strictest tests.<br><br>Return to Sindhorn Kempinski for an afternoon treatment at the world-class Sindhorn Wellness thermal spa."
+    },
+    {
+      "day": 4,
+      "title": "All-Inclusive Innovative Golf at Nikanti Golf Club",
+      "subtitle": "Round 3: Unique 6-6-6 Layout",
+      "courseName": "Nikanti Golf Club",
+      "courseHref": "/courses/thailand/nikanti/",
+      "architect": "Pirapon Namatra / Golf East",
+      "stayName": "Sindhorn Kempinski Bangkok",
+      "stayHref": "/accommodations/thailand/sindhorn-kempinski/",
+      "transferTime": "60 mins door-to-door",
+      "image": "/images/courses/thailand/nikanti/nikanti-golf-club-bangkok-thailand-1.webp",
+      "imageCaption": "Nikanti Golf Club — Pirapon Namatra / Golf East (Par 72, 7,000+ Yards)",
+      "imageAlt": "Nikanti Golf Club championship golf course Pirapon Namatra / Golf East Asia Golf Specialists",
+      "description": "Experience <a href=\"/courses/thailand/nikanti/\">Nikanti Golf Club</a>, an innovative par-72 course arranged in three six-hole loops. Impeccable all-inclusive hospitality, GPS-enabled carts, and tournament conditioning make this one of the finest golf experiences in Thailand.<br><br>Celebrate the final round with a grand farewell dinner at a Michelin-recommended Bangkok rooftop restaurant."
+    },
+    {
+      "day": 5,
+      "title": "VIP Departure via Suvarnabhumi Airport",
+      "subtitle": "Departure",
+      "stayName": "Sindhorn Kempinski Bangkok",
+      "stayHref": "/accommodations/thailand/sindhorn-kempinski/",
+      "transferTime": "35 mins to BKK Airport",
+      "image": "/images/accommodations/thailand/sindhorn-kempinski/thailand-luxury-hotel-sindhorn-kempinski-bangkok-lobby-2.webp",
+      "imageCaption": "Sindhorn Kempinski Bangkok — Luxury Sanctuary Base",
+      "imageAlt": "Sindhorn Kempinski Bangkok luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast before packing your clubs with assistance from your AGS host.<br><br>Your private executive transfer delivers you directly to Suvarnabhumi Airport for your return flight home."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Thai Country Club open to the general public?",
+      "answer": "Thai Country Club is a strictly private members' club; Asia Golf Specialists secures privileged guest tee times for our traveling clients."
+    }
+  ]
+}

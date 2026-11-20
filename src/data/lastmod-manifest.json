@@ -1,0 +1,1346 @@
+{
+ "src/app/about/page.tsx": {
+  "hash": "7c929e477ddde252",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/accommodations/cambodia/amansara/page.tsx": {
+  "hash": "ffefa389cfd9d150",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/cambodia/jaya-house-river-park/page.tsx": {
+  "hash": "319d2acf07b41d95",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/cambodia/phokeethra-country-club/page.tsx": {
+  "hash": "2bb63e7108123ff0",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/cambodia/raffles-grand-dangkor/page.tsx": {
+  "hash": "26fe5953101e094e",
+  "lastmod": "2026-11-12"
+ },
+ "src/app/accommodations/cambodia/raffles-hotel-le-royal/page.tsx": {
+  "hash": "e68ecee9853b5772",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/cambodia/rosewood-phnom-penh/page.tsx": {
+  "hash": "06fd43cf8a848e97",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/cambodia/song-saa-private-island/page.tsx": {
+  "hash": "83df74aa914f1daf",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/cambodia/zannier-phum-baitang/page.tsx": {
+  "hash": "57624e48683cc388",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/page.tsx": {
+  "hash": "63bc01ba42b9cc62",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/accommodations/thailand/amanpuri/page.tsx": {
+  "hash": "e93ca103da2c1ec5",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/thailand/banyan-tree-phuket/page.tsx": {
+  "hash": "37f4870005ddc290",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/thailand/chiva-som/page.tsx": {
+  "hash": "1b46e41dffee172a",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/thailand/four-seasons-chiang-mai/page.tsx": {
+  "hash": "06f1f98c4e0fe25c",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/thailand/intercontinental-khao-yai/page.tsx": {
+  "hash": "bf0e4e7aff04d2d5",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/thailand/riva-surya-bangkok/page.tsx": {
+  "hash": "5b37400cab1db968",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/thailand/sindhorn-kempinski/page.tsx": {
+  "hash": "fbd3d27ce7ae9fb1",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/thailand/tamarind-village/page.tsx": {
+  "hash": "5b2cfb71f0aeb7be",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/thailand/the-standard-hua-hin/page.tsx": {
+  "hash": "61f9803fbfaca0af",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/thailand/v-villas-hua-hin/page.tsx": {
+  "hash": "b2b5c66c0805c9a5",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/almanity-hoi-an/page.tsx": {
+  "hash": "0048cc6d364c0411",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/an-bang-beach-villas/page.tsx": {
+  "hash": "f849f707a6a2b4a5",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/accommodations/vietnam/anantara-hoi-an/page.tsx": {
+  "hash": "dfc4562c81003cf8",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/banyan-tree-lang-co/page.tsx": {
+  "hash": "c688ee06a9b55cbe",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/bel-marina-hoi-an/page.tsx": {
+  "hash": "946d13adbebd5858",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/bluffs-grand-ho-tram/page.tsx": {
+  "hash": "fea58e4204b1f9ed",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/capella-hanoi/page.tsx": {
+  "hash": "a26cd3b78e6bea82",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/chicland-da-nang/page.tsx": {
+  "hash": "b458dfb8c9b6e229",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/flc-halong-bay/page.tsx": {
+  "hash": "a22b1cffe75140bf",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/four-seasons-nam-hai/page.tsx": {
+  "hash": "45e2114075d3099d",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/fusion-resort-villa-da-nang/page.tsx": {
+  "hash": "2a72bd5f70c41052",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/fusion-suites-saigon/page.tsx": {
+  "hash": "903039b73831b123",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/hotel-des-artes-saigon/page.tsx": {
+  "hash": "cad7e3e9a28bb31c",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/intercontinental-danang/page.tsx": {
+  "hash": "c96bb6fe23117276",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/legacy-yen-tu-m-gallery/page.tsx": {
+  "hash": "8ba82d97b93edb0b",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/little-riverside-hoi-an/page.tsx": {
+  "hash": "fc3fd3f4683122cd",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/m-hotel-danang/page.tsx": {
+  "hash": "0fa8c42108744159",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/namia-river-retreat-hoi-an/page.tsx": {
+  "hash": "1d91bcfd9319f942",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/new-world-hoiana/page.tsx": {
+  "hash": "9f40a8cc5a055bb0",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/palm-gardens-hoi-an/page.tsx": {
+  "hash": "4a39d88aa3e7a071",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/park-hyatt-saigon/page.tsx": {
+  "hash": "23d1b541c0ac3f25",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/silk-path-dong-trieu/page.tsx": {
+  "hash": "6a2d08bb0952e6f3",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/sofitel-metropole-hanoi/page.tsx": {
+  "hash": "84d257578cfb8f3a",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/the-caravelle/page.tsx": {
+  "hash": "f6ca18b4ec834acc",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/the-oriental-jade/page.tsx": {
+  "hash": "f5688f76118a46c2",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/the-reverie-saigon/page.tsx": {
+  "hash": "b73f664016906296",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/accommodations/vietnam/tia-wellness-resort-danang/page.tsx": {
+  "hash": "fd789e530b4db8f0",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/blog/[slug]/page.tsx": {
+  "hash": "0e48b520587fa039",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/blog/page.tsx": {
+  "hash": "de93b7cb9e87060f",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/cambodia/angkor-golf-resort/page.tsx": {
+  "hash": "3b2b1120edf53b1f",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/cambodia/chhun-on-golf-resort/page.tsx": {
+  "hash": "20e0dc6beb6aa523",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/cambodia/garden-city/page.tsx": {
+  "hash": "2e72f464b6fb3558",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/cambodia/grand-phnom-penh/page.tsx": {
+  "hash": "623d904c62bd6353",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/cambodia/phokeethra/page.tsx": {
+  "hash": "6caa97940da280d0",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/cambodia/royal-phnom-penh/page.tsx": {
+  "hash": "42c28e957f496886",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/cambodia/siem-reap-booyoung/page.tsx": {
+  "hash": "58a07b647dea65bf",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/cambodia/vattanac-east/page.tsx": {
+  "hash": "ce978bfb9939dfce",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/cambodia/vattanac-west/page.tsx": {
+  "hash": "9508b78be935240b",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/cambodia/vattanac/page.tsx": {
+  "hash": "eea90764099a9b07",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/page.tsx": {
+  "hash": "ba5c5999ef9fccab",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/alpine-chiang-mai/page.tsx": {
+  "hash": "bdb3aa4d0417e627",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/alpine-golf-club/page.tsx": {
+  "hash": "8adc9897d5a9f429",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/thailand/aquella/page.tsx": {
+  "hash": "1bd8b39113cead8f",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/ballyshear/page.tsx": {
+  "hash": "df9da4e4cc5cbde7",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/bangkok-golf-club/page.tsx": {
+  "hash": "4e777b9244385618",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/black-mountain/page.tsx": {
+  "hash": "1df4475c90f5b121",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/thailand/blue-canyon/page.tsx": {
+  "hash": "2a3f709d6fc7311a",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/thailand/cascata/page.tsx": {
+  "hash": "5a381cd9e589e42d",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/chiang-mai-highlands/page.tsx": {
+  "hash": "bec646e7358c9623",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/thailand/flora-ville/page.tsx": {
+  "hash": "bb4ae57904830491",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/laem-chabang/page.tsx": {
+  "hash": "d3b66ade086892f7",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/laguna-phuket/page.tsx": {
+  "hash": "493d610975418b67",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/thailand/lake-view/page.tsx": {
+  "hash": "5ae4e0df5edab345",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/mae-jo/page.tsx": {
+  "hash": "7a985823c972f60c",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/thailand/mission-hills-kanchanaburi/page.tsx": {
+  "hash": "f22b2247f1e30217",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/mission-hills-phuket/page.tsx": {
+  "hash": "22ec65f8a79d4f51",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/thailand/nikanti/page.tsx": {
+  "hash": "b2742cb04ad689fb",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/pineapple-valley/page.tsx": {
+  "hash": "9e3f3058c63c60d4",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/red-mountain/page.tsx": {
+  "hash": "dad1afa199ae9a2b",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/thailand/siam-country-club/page.tsx": {
+  "hash": "f1ff499a332f0f2c",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/thailand/springfield-royal/page.tsx": {
+  "hash": "bc6b04c2f88a7caf",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/thailand/thai-country-club/page.tsx": {
+  "hash": "aa97eb1e19172c15",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/ba-na-hills/page.tsx": {
+  "hash": "5753fd804870c78d",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/brg-da-nang-nicklaus/page.tsx": {
+  "hash": "2f73a35402e719ae",
+  "lastmod": "2026-11-06"
+ },
+ "src/app/courses/vietnam/brg-da-nang-norman/page.tsx": {
+  "hash": "d8fc336d409b3d8e",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/chi-linh-golf/page.tsx": {
+  "hash": "354b33d3fe11706c",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/dragon-golf-links/page.tsx": {
+  "hash": "938b8eb05f7af638",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/eschuri-vung-bau/page.tsx": {
+  "hash": "757c0e875b099a9a",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/flc-ha-long-bay/page.tsx": {
+  "hash": "5915d6a17c485352",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/golden-sands/page.tsx": {
+  "hash": "1f4f3781e0b41250",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/heron-lake/page.tsx": {
+  "hash": "d0b028a9b519a89a",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/hoiana-shores/page.tsx": {
+  "hash": "2756e3b9373e1aeb",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/kings-island/page.tsx": {
+  "hash": "896f6c6a98934789",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/kn-golf-links/page.tsx": {
+  "hash": "57d0e97786fef288",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/laguna-lang-co/page.tsx": {
+  "hash": "ee5da288ac293151",
+  "lastmod": "2026-11-06"
+ },
+ "src/app/courses/vietnam/legend-hill/page.tsx": {
+  "hash": "b2c7ac8ef1e2698b",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/long-thanh/page.tsx": {
+  "hash": "24d52b8122a6f5d0",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/montgomerie-links/page.tsx": {
+  "hash": "fd99dc87a13efa8a",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/nara-binh-tien/page.tsx": {
+  "hash": "b3f181fd97203d39",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/pga-ocean-course/page.tsx": {
+  "hash": "53a7120d867a9b8a",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/phoenix-golf-resort/page.tsx": {
+  "hash": "245a7065fe442b6a",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/royal-long-an/page.tsx": {
+  "hash": "56cfa16197babadf",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/sapa-grand/page.tsx": {
+  "hash": "106b224a972da498",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/sea-links-golf-club/page.tsx": {
+  "hash": "0ffc1fd88a2c8651",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/silk-path-dong-trieu/page.tsx": {
+  "hash": "58a0d7493f043f14",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/sky-lake-lake/page.tsx": {
+  "hash": "0039bfd53daad10c",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/sky-lake-sky/page.tsx": {
+  "hash": "d1ea27a305a4fd98",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/sky-lake/page.tsx": {
+  "hash": "16f83ace6ef6d8cb",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/taekwang-jeongsan/page.tsx": {
+  "hash": "846b74a7c9e8ea9e",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/tan-son-nhat/page.tsx": {
+  "hash": "0546ed00a5715164",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/thanh-lanh-valley/page.tsx": {
+  "hash": "69f3d5ed43a8a552",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/the-bluffs-ho-tram/page.tsx": {
+  "hash": "9a8ce36197086f37",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/twin-doves/page.tsx": {
+  "hash": "4bc53e08dff0cfc8",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/van-tri-golf-club/page.tsx": {
+  "hash": "0befd8fdb47fd24e",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/vgcc/page.tsx": {
+  "hash": "305ae59aaa6d3181",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/courses/vietnam/vinpearl-nam-hoi-an/page.tsx": {
+  "hash": "0733ba7154638d61",
+  "lastmod": "2026-11-02"
+ },
+ "src/app/courses/vietnam/west-lakes-golf-club/page.tsx": {
+  "hash": "47cebc2045a54219",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/cambodia/[slug]/page.tsx": {
+  "hash": "d00831d6827034ef",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/destinations/cambodia/accommodations/page.tsx": {
+  "hash": "7dcdc357606145b7",
+  "lastmod": "2026-10-22"
+ },
+ "src/app/destinations/cambodia/courses/page.tsx": {
+  "hash": "bc17d0b3e5662694",
+  "lastmod": "2026-10-22"
+ },
+ "src/app/destinations/cambodia/culinary/page.tsx": {
+  "hash": "e1b64b9e0f52f7b8",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/cambodia/culture/page.tsx": {
+  "hash": "df041946ae9bfe4c",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/cambodia/nightlife/page.tsx": {
+  "hash": "7b407428273b28ed",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/cambodia/page.tsx": {
+  "hash": "64882f945581dce3",
+  "lastmod": "2026-11-12"
+ },
+ "src/app/destinations/page.tsx": {
+  "hash": "f20903ca4b5026e8",
+  "lastmod": "2026-10-30"
+ },
+ "src/app/destinations/thailand/[slug]/page.tsx": {
+  "hash": "2850c84e216006fd",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/destinations/thailand/accommodations/page.tsx": {
+  "hash": "4b2b48fe5232b59b",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/destinations/thailand/courses/page.tsx": {
+  "hash": "0538bef37b98b391",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/thailand/culinary/page.tsx": {
+  "hash": "f44406c0b1446811",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/thailand/culture/page.tsx": {
+  "hash": "f99bba23d9f546b7",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/thailand/nightlife/page.tsx": {
+  "hash": "f4780af2c45185fe",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/thailand/page.tsx": {
+  "hash": "3b475482cb3f7d96",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/vietnam/[slug]/page.tsx": {
+  "hash": "dc39531c9752f7f7",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/destinations/vietnam/accommodations/page.tsx": {
+  "hash": "fbefe55929d2fb81",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/vietnam/course-conditions/page.tsx": {
+  "hash": "54bdfb53ed49499f",
+  "lastmod": "2026-11-01"
+ },
+ "src/app/destinations/vietnam/courses/page.tsx": {
+  "hash": "078ab2639ca7ed1e",
+  "lastmod": "2026-11-06"
+ },
+ "src/app/destinations/vietnam/culinary/page.tsx": {
+  "hash": "6772c27065c73378",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/vietnam/culture/page.tsx": {
+  "hash": "c868a2818834a96b",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/vietnam/nightlife/page.tsx": {
+  "hash": "bb1ab53e009f75f4",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/destinations/vietnam/page.tsx": {
+  "hash": "92a823a284a572d1",
+  "lastmod": "2026-11-12"
+ },
+ "src/app/download-guide/page.tsx": {
+  "hash": "866c5c3c792a6ab7",
+  "lastmod": "2026-11-12"
+ },
+ "src/app/events-tours/page.tsx": {
+  "hash": "99e23144cd8e35ac",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/gallery/page.tsx": {
+  "hash": "238bcd89c49c716b",
+  "lastmod": "2026-09-16"
+ },
+ "src/app/johnno/page.tsx": {
+  "hash": "23493b4124178315",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/liability-waiver/page.tsx": {
+  "hash": "7c787f174d524cf7",
+  "lastmod": "2026-10-19"
+ },
+ "src/app/packages/[slug]/page.tsx": {
+  "hash": "489e5279a480af27",
+  "lastmod": "2026-10-30"
+ },
+ "src/app/packages/page.tsx": {
+  "hash": "c979e466aa7b6dd9",
+  "lastmod": "2026-10-30"
+ },
+ "src/app/page.tsx": {
+  "hash": "469e7d58dfc55627",
+  "lastmod": "2026-11-18"
+ },
+ "src/app/preview-hero/page.tsx": {
+  "hash": "d90ef91cad195a2c",
+  "lastmod": "2026-10-27"
+ },
+ "src/app/privacy-policy/page.tsx": {
+  "hash": "d57a21f474494f54",
+  "lastmod": "2026-10-19"
+ },
+ "src/app/pro-partnership/deck/page.tsx": {
+  "hash": "d34e46af27205971",
+  "lastmod": "2026-10-22"
+ },
+ "src/app/quote/page.tsx": {
+  "hash": "da4d9bcd83cbff51",
+  "lastmod": "2026-11-12"
+ },
+ "src/app/quote/thank-you/page.tsx": {
+  "hash": "de3af2856a228110",
+  "lastmod": "2026-06-28"
+ },
+ "src/app/site-directory/page.tsx": {
+  "hash": "110a1f2909bbe9f8",
+  "lastmod": "2026-11-01"
+ },
+ "src/app/terms-of-service/page.tsx": {
+  "hash": "1b48abb524b44069",
+  "lastmod": "2026-10-19"
+ },
+ "src/app/thank-you/page.tsx": {
+  "hash": "2892c21a5e1ebd49",
+  "lastmod": "2026-06-28"
+ },
+ "src/app/tours/cambodia-angkor-odyssey/page.tsx": {
+  "hash": "21b1b4ded5eaa68b",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/hoi-an-beachfront-bliss/page.tsx": {
+  "hash": "3293bd8a5a71aa75",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/page.tsx": {
+  "hash": "3995d55ca0f5d036",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/thailand-royal-siam/page.tsx": {
+  "hash": "dcee1154f31a5a17",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/the-bangkok-and-hua-hin-fairways/page.tsx": {
+  "hash": "4b2182de91d1e88e",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/the-central-coast-classic/page.tsx": {
+  "hash": "f30341a2fc428368",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/the-coastal-sprint/page.tsx": {
+  "hash": "1776a1c61e1da0b2",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/the-emperors-fairways/page.tsx": {
+  "hash": "7452b752cf8c5b47",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/the-grand-vietnam-odyssey/page.tsx": {
+  "hash": "b6c9090177eb7aa2",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/the-indochina-golden-age/page.tsx": {
+  "hash": "465706f6b9e1c0a8",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/the-khmer-kingdom-links/page.tsx": {
+  "hash": "f79dbabd64b53753",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/the-khmer-temple-trail/page.tsx": {
+  "hash": "6b8886c71e41a863",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/the-lanna-heritage-golf-trail/page.tsx": {
+  "hash": "552dd1dbd1d439db",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/the-saigon-and-shores-escape/page.tsx": {
+  "hash": "1060418645b856df",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/tours/vietnam-central-coast/page.tsx": {
+  "hash": "2343d0e1a1e3ed86",
+  "lastmod": "2026-10-28"
+ },
+ "src/app/trade-portal/page.tsx": {
+  "hash": "70b3ba4210cb756c",
+  "lastmod": "2026-11-07"
+ },
+ "src/app/trade-portal/tours/hoi-an-beachfront-bliss/page.tsx": {
+  "hash": "de1008bbea841903",
+  "lastmod": "2026-11-07"
+ },
+ "src/app/trade-portal/tours/hoi-an-championship-week-8x2b5q/page.tsx": {
+  "hash": "197d357ceeb868be",
+  "lastmod": "2026-11-07"
+ },
+ "src/app/trade-portal/tours/hoi-an-championship-week/page.tsx": {
+  "hash": "d74eb9a8bfa730ec",
+  "lastmod": "2026-11-07"
+ },
+ "src/app/trade-portal/tours/the-central-coast-classic-7k9p4m/page.tsx": {
+  "hash": "fbe9902cf53bcc2c",
+  "lastmod": "2026-11-07"
+ },
+ "src/app/trade-portal/tours/the-central-coast-classic/page.tsx": {
+  "hash": "8d3bad440fc110e0",
+  "lastmod": "2026-11-07"
+ },
+ "src/data/blog-posts/10-day-vietnam-thailand-golf-itinerary.json": {
+  "hash": "f7a69a48a1b48274",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/7-day-vietnam-golf-itinerary.json": {
+  "hash": "c7d423f103847915",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/asia-golf-specialists-vs-ata-holidays.json": {
+  "hash": "db4436b92eb40ecb",
+  "lastmod": "2026-11-05"
+ },
+ "src/data/blog-posts/asia-golf-specialists-vs-golf-explorer.json": {
+  "hash": "df284ea5e816dffe",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/blog-posts/asia-golf-specialists-vs-golfasian.json": {
+  "hash": "5b26b42546288ae3",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/asia-golf-specialists-vs-golfing-getaways.json": {
+  "hash": "3156d48b1f92b069",
+  "lastmod": "2026-11-05"
+ },
+ "src/data/blog-posts/asia-golf-specialists-vs-golfsavers.json": {
+  "hash": "2e8c6b584ddb3865",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/asia-golf-specialists-vs-golfscape.json": {
+  "hash": "1072d3be4278e597",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/asia-golf-specialists-vs-the-golf-travel-agency.json": {
+  "hash": "dd7511e436337735",
+  "lastmod": "2026-11-05"
+ },
+ "src/data/blog-posts/ba-na-hills-golf-club-review.json": {
+  "hash": "64cd7029f32f4613",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/beginners-guide-golf-in-vietnam.json": {
+  "hash": "4369fd241c5f3c15",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/best-golf-courses-da-nang-hoi-an-ranked-2026.json": {
+  "hash": "a16844fedff996d1",
+  "lastmod": "2026-10-22"
+ },
+ "src/data/blog-posts/best-time-to-golf-in-thailand.json": {
+  "hash": "8f1790b50992d068",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/best-time-to-golf-in-vietnam.json": {
+  "hash": "9d2576b07b55021c",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/blog-posts/caddie-culture-southeast-asia.json": {
+  "hash": "8849c7f3e8fb3fef",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/blog-posts/corporate-executive-retreats.json": {
+  "hash": "3ac809ed2e8c2db0",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/couples-golf-holiday-southeast-asia.json": {
+  "hash": "9f8f8db937c4eada",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/blog-posts/couples-luxury-golf-wellness-asia.json": {
+  "hash": "34f4f4d5f0a3cff3",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/blog-posts/da-nang-golf-guide-2026.json": {
+  "hash": "d77f65078662beb5",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/end-of-season-football-club-golf-trips.json": {
+  "hash": "0f9151b5e7f311d8",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/golf-and-spa-thailand.json": {
+  "hash": "33be783d8f874594",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/blog-posts/golf-holidays-from-australia.json": {
+  "hash": "41d2ba1cf5c1a118",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/golfasian-vietnam-tour-alternatives.json": {
+  "hash": "944b83a58dbf427f",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/hoi-an-golf-guide-2026.json": {
+  "hash": "cdc2f8e3467282f5",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/hoiana-shores-golf-club-review.json": {
+  "hash": "ba225e7a0d16c6a1",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/how-much-does-vietnam-golf-holiday-cost.json": {
+  "hash": "172dfc17f48e4e7a",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/is-cambodia-good-for-golf.json": {
+  "hash": "d9f585cd59ce4781",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/blog-posts/luxury-alternative-mass-market-golf-tours.json": {
+  "hash": "0fac847c15641b67",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/luxury-golf-group-tours-southeast-asia.json": {
+  "hash": "572a4e142cb116d2",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/mental-health-benefits-group-golf-trip.json": {
+  "hash": "6d84ad1cdcf72d7d",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/blog-posts/private-villa-golf-holidays.json": {
+  "hash": "31dceedade01aa55",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/the-bluffs-ho-tram-review.json": {
+  "hash": "479e77b17077eeab",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/the-truth-about-vietnam-golf-deals.json": {
+  "hash": "1180ff2b08e58a2c",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/top-10-golf-courses-thailand-2026.json": {
+  "hash": "3aee1bfe6b6e03a3",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/blog-posts/top-10-golf-courses-vietnam-2026.json": {
+  "hash": "20b6367d6b76f013",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/blog-posts/vietnam-vs-thailand-golf-holiday.json": {
+  "hash": "cd41c461599411ef",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/blog-posts/womens-luxury-golf-wellness-retreat.json": {
+  "hash": "02d519735131d7c8",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/packages/amanpuri-phuket-ultimate-sanctuary.json": {
+  "hash": "b9c7d561660a284c",
+  "lastmod": "2026-11-02"
+ },
+ "src/data/packages/amansara-angkor-vip-expedition.json": {
+  "hash": "0479bd85c3535b4f",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/bangkok-elite-private-clubs.json": {
+  "hash": "fd59b6878d7d6fae",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/cambodia-dual-city-siem-reap-phnom-penh.json": {
+  "hash": "dabe1cf621a60d9f",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/capella-hanoi-ultra-luxe.json": {
+  "hash": "8546764960b3eed0",
+  "lastmod": "2026-11-02"
+ },
+ "src/data/packages/chiang-mai-highlands-golf.json": {
+  "hash": "0e67dbc1c69e46d5",
+  "lastmod": "2026-11-02"
+ },
+ "src/data/packages/chiva-som-hua-hin-wellness-golf.json": {
+  "hash": "2a82abc7967f37d6",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/da-nang-championship-links.json": {
+  "hash": "80c611f13b588111",
+  "lastmod": "2026-11-06"
+ },
+ "src/data/packages/da-nang-golf-and-nightlife.json": {
+  "hash": "2e69a0fc83f0b7a5",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/da-nang-luxury-villa-sanctuary.json": {
+  "hash": "639dee64e73b8bf3",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/four-seasons-nam-hai-prestige.json": {
+  "hash": "143069d9f87c14b8",
+  "lastmod": "2026-11-06"
+ },
+ "src/data/packages/hanoi-heritage-golf-classic.json": {
+  "hash": "a1989437c1de356a",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/hua-hin-standard-seaside-golf.json": {
+  "hash": "6e3896a8280a28ae",
+  "lastmod": "2026-11-02"
+ },
+ "src/data/packages/hua-hin-v-villas-royal-links.json": {
+  "hash": "798ad24663641760",
+  "lastmod": "2026-11-02"
+ },
+ "src/data/packages/intercontinental-danang-escape.json": {
+  "hash": "5571f41d6cf666dd",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/lang-co-bay-secluded-links.json": {
+  "hash": "e3e59a050f58cebe",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/pattaya-championship-golf-swing.json": {
+  "hash": "ecd34a26861d5386",
+  "lastmod": "2026-11-02"
+ },
+ "src/data/packages/phnom-penh-vattanac-luxury-golf.json": {
+  "hash": "a59d46578720cc14",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/phuket-banyan-tree-championship.json": {
+  "hash": "ae89eb9998f4b7b8",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/phuket-beach-club-golf-nightlife.json": {
+  "hash": "8ae81845afda1245",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/raffles-angkor-golf-and-temples.json": {
+  "hash": "cc364c1b4fe52afa",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/saigon-bluffs-ho-tram-executive.json": {
+  "hash": "9d2b97e84e7a2958",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/siem-reap-boutique-retreat-golf.json": {
+  "hash": "11ee541f3ea89bdd",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/sofitel-metropole-hanoi-colonial.json": {
+  "hash": "d14e90276ae92913",
+  "lastmod": "2026-11-02"
+ },
+ "src/data/packages/song-saa-private-island-golf-retreat.json": {
+  "hash": "c93a8cc2123092f7",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/thailand-dual-coast-bangkok-hua-hin.json": {
+  "hash": "440fc7161fb09645",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/packages/vietnam-north-to-south-trilogy.json": {
+  "hash": "dbcbc8276b136291",
+  "lastmod": "2026-10-30"
+ },
+ "src/data/seo-articles/battle-for-best-19th-hole-hua-hin.json": {
+  "hash": "da11c33797a14bc6",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/bespoke-tailoring.json": {
+  "hash": "c3f81245eb3b0bef",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/best-after-golf-bars-speakeasies-da-nang-2026.json": {
+  "hash": "f24d4d3c2087ef15",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/best-golf-courses-vietnam-australian-groups-2026-2027.json": {
+  "hash": "5136070320114380",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/beyond-the-fairway-exclusive-siem-reap-experiences.json": {
+  "hash": "7112d14bb18cb588",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/black-mountain-vs-banyan-tree.json": {
+  "hash": "937cacd394106c81",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/cambodia-culinary-cuisine-wat-damnak.json": {
+  "hash": "e5ad6ec48781565e",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-culinary-la-plantation-kampot-pepper.json": {
+  "hash": "f86f3cfb0a28aa06",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-culinary-mahob-khmer-cooking-class.json": {
+  "hash": "a79dbf78205d01f8",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-culinary-phnom-penh-street-food-tuk-tuk.json": {
+  "hash": "3a7e4b3afe62c8b1",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-culinary-seekers-spirits-siem-reap.json": {
+  "hash": "2528fcb4d94c7e6b",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-culinary-the-sugar-palm-siem-reap.json": {
+  "hash": "b402d33b5d794cbb",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-culture-angkor-wat-sunrise-scholar.json": {
+  "hash": "5355145adcca2cf1",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-culture-banteay-srei-kbal-spean.json": {
+  "hash": "075b1734bd5938d5",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-culture-phare-cambodian-circus.json": {
+  "hash": "35a714fc7965e6e4",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-culture-royal-palace-phnom-penh.json": {
+  "hash": "93a856dbf2218c9c",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-culture-sbek-thom-shadow-puppets.json": {
+  "hash": "4bc7234926d0b748",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-culture-tonle-sap-kbal-spean.json": {
+  "hash": "31ae5d1beee52aa8",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-nightlife-asana-wooden-house-siem-reap.json": {
+  "hash": "ff611bbf2163fdcf",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-nightlife-bassac-lane-phnom-penh.json": {
+  "hash": "10727513a5951a79",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-nightlife-miss-wong-cocktail-bar.json": {
+  "hash": "ecb6caa8f6c7780c",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-nightlife-pub-street-siem-reap.json": {
+  "hash": "0c340da3fa17ad34",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-nightlife-sora-skybar-phnom-penh.json": {
+  "hash": "9adac512a376f782",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/cambodia-nightlife-sunset-cruise-mekong.json": {
+  "hash": "26c786c428bf2af0",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/central-coast-weather-vs-mountain-mist.json": {
+  "hash": "de759244d44aa5d6",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/corporate-tour-vs-standard-tour.json": {
+  "hash": "720da4ea9b9d24e8",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/da-nang-gastronomy-experience.json": {
+  "hash": "1d87c85ed672ff9a",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/da-nang-vs-hua-hin-golf-holidays.json": {
+  "hash": "0018b3ac36d06a6b",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/flying-to-vietnam-golf-clubs-australia-2026.json": {
+  "hash": "b1429cad0ceea478",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/golfing-the-kingdom-of-wonder-10-day-itinerary.json": {
+  "hash": "c838389bbb864b97",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/non-golf-vs-golf-experiences.json": {
+  "hash": "badc76a09849a42f",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/non-golfing-experiences.json": {
+  "hash": "cf3c377a27d76e3a",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/planning-12-man-golf-trip-vietnam-logistics-caddies-costs-2026.json": {
+  "hash": "5f5d50358f8130b9",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/red-mountain-vs-blue-canyon.json": {
+  "hash": "b8155602f71d217f",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/seamless-luxury-guide-to-navigating-the-kingdom.json": {
+  "hash": "906c04c4e148976d",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/shall-we-stay-in-villas-or-suites.json": {
+  "hash": "c39901506d0f02f4",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/siam-country-club-old-course-or-plantation.json": {
+  "hash": "e76b7006cc131508",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/sprint-vs-traditional-tour.json": {
+  "hash": "a361445c62039cb7",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/thai-country-club-or-amata.json": {
+  "hash": "b16887045ec2d1d8",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/thai-gastronomic-extravaganza.json": {
+  "hash": "0c58cc83bda7efa2",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thai-weather.json": {
+  "hash": "177aa371e88d2dc1",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-caddies.json": {
+  "hash": "f0852a698d458634",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/thailand-culinary-bangkok-tuk-tuk-midnight-food-tour.json": {
+  "hash": "0c95bad865ec0219",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-culinary-blue-elephant-cooking-school-bangkok.json": {
+  "hash": "49f51e1f531143c5",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-culinary-chiang-mai-night-market-tour.json": {
+  "hash": "c03cd3dff807ebf1",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-culinary-damnoen-saduak-floating-market-tasting.json": {
+  "hash": "d788042795b034f9",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-culinary-khao-yai-foraging.json": {
+  "hash": "f076d9b52f0fdcc7",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-culinary-sorn-southern-fine-dining.json": {
+  "hash": "0b2d4b8688911e52",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-culture-ayutthaya-historical-park-private-boat.json": {
+  "hash": "c1052c9f752b085f",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-culture-bangkok-klong-tour.json": {
+  "hash": "d460450565f2d8af",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-culture-grand-palace-vip-early-bird.json": {
+  "hash": "9ec64ce5eb5215d1",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-culture-luxury-sak-yant-tattoo.json": {
+  "hash": "1e66690087616c1a",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-culture-sukhothai-private-cycle.json": {
+  "hash": "b853bba653a9b510",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-culture-vip-muay-thai-rajadamnern.json": {
+  "hash": "0417a44fd140144b",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-nightlife-baba-nest-phuket.json": {
+  "hash": "a36f43d5fe434aab",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-nightlife-cafe-del-mar-phuket.json": {
+  "hash": "bb80dde9a25b0e1d",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-nightlife-chao-phraya-princess-cruise.json": {
+  "hash": "d64e715fdfeaf5bf",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-nightlife-patpong-midnight-tour.json": {
+  "hash": "d75b85d6e1e5999b",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-nightlife-sing-sing-theater-bangkok.json": {
+  "hash": "a4a34aa5545f5d10",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/thailand-nightlife-tichuca-rooftop-bangkok.json": {
+  "hash": "8750a15c301c87eb",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/the-art-of-the-sak-yant-understanding-cambodias-spiritual-heritage.json": {
+  "hash": "0fd74ce4e6dde565",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/the-faldo-legacy-why-angkor-golf-resort-is-cambodias-masterpiece.json": {
+  "hash": "e86e874ca32b720f",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/the-khmer-culinary-renaissance.json": {
+  "hash": "1cb5c17b68481e04",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/the-rise-of-phnom-penh-asias-new-luxury-nightlife-capital.json": {
+  "hash": "db2e577de31a2fa8",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/the-secrets-of-kampot-pepper-a-gourmet-adventure.json": {
+  "hash": "9185aa43cce10d74",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/true-cost-golf-vietnam-2026-da-nang-pricing-guide.json": {
+  "hash": "142db40c44647847",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/ultimate-vietnam-golf-itinerary-australians.json": {
+  "hash": "562c5557d166a453",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/unfiltered-brg-vs-montgomerie.json": {
+  "hash": "6ebde9f5b21303b0",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/unfiltered-hoiana-shores-vs-ba-na-hills.json": {
+  "hash": "9358988005af6caa",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/unfiltered-hoiana-shores-vs-laguna.json": {
+  "hash": "c5612f23e040d11c",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/unfiltered-the-logistics-of-light.json": {
+  "hash": "557358e5d59bc4d5",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/unfiltered-villa-vs-suite.json": {
+  "hash": "9ed755acd1cd1472",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/vattanac-golf-resort-comparing-east-and-west-courses.json": {
+  "hash": "725570422761ddb0",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/vietnam-caddy-culture-vs-the-solo-game.json": {
+  "hash": "4bb862d96aeb0b31",
+  "lastmod": "2026-11-12"
+ },
+ "src/data/seo-articles/vietnam-culinary-danang-seafood-market-tour.json": {
+  "hash": "305e5bafcc380809",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culinary-great-restaurants-hoi-an.json": {
+  "hash": "80bfce64177bc84e",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culinary-hanoi-street-food-walking-tour.json": {
+  "hash": "304e798c7b15b2fe",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culinary-imperial-banquet-hue.json": {
+  "hash": "ad03a10e74dc2f42",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culinary-red-bridge-cooking-school-hoi-an.json": {
+  "hash": "c07d6b47ded49c36",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culinary-tra-que-village-hoi-an.json": {
+  "hash": "fa2bc0d75bac3c78",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culinary-vespa-adventures-saigon-after-dark.json": {
+  "hash": "399efc83af58087b",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culture-ba-na-hills-golden-bridge.json": {
+  "hash": "ce9f44c0d389acc4",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culture-halong-bay-heritage-line.json": {
+  "hash": "559980f0a7283c08",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culture-hoi-an-lantern-boat.json": {
+  "hash": "e42736bb2379dd49",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culture-hue-imperial-citadel.json": {
+  "hash": "7a3d33c15f1a0265",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culture-marble-mountains-danang.json": {
+  "hash": "f997cf4f5f043dd4",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-culture-my-son-sunrise.json": {
+  "hash": "6078c8f497ad6c79",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-nightlife-bia-hoi-hanoi.json": {
+  "hash": "16082eeaede1f20e",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-nightlife-chill-skybar-saigon.json": {
+  "hash": "addbcd7cbb1b8757",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-nightlife-deck-saigon-cruise.json": {
+  "hash": "b751fd7f1d8b92b1",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-nightlife-hoi-an-night-market.json": {
+  "hash": "5100eeefe0cf3a88",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-nightlife-sailing-club-danang.json": {
+  "hash": "1649dcd84fa58763",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-nightlife-sky36-danang.json": {
+  "hash": "cbdd08430fae795e",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/vietnam-vs-thailand-golf-trip-australians-2026.json": {
+  "hash": "bac15f010b458e6c",
+  "lastmod": "2026-11-18"
+ },
+ "src/data/seo-articles/wellness-and-fairways-best-post-golf-retreats-in-cambodia.json": {
+  "hash": "87456292b8c4a763",
+  "lastmod": "2026-11-12"
+ }
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "pattaya-championship-golf-swing",
+  "title": "5-Day Pattaya Gulf Coast Championship Links & Nightlife",
+  "description": "Championship gulf coast golf and legendary nightlife. Play Siam Country Club (Old & Plantation Courses) and Jack Nicklaus’s Laem Chabang.",
+  "heroImage": "/images/courses/thailand/siam-country-club/siam-country-club-old-course-pattaya-thailand-1.webp",
+  "destination": "Pattaya & Gulf of Thailand, Thailand",
+  "country": "Thailand",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Championship Golf & Nightlife",
+  "duration": "5 Days / 4 Nights (3 Rounds)",
+  "guidePriceUsd": 1200,
+  "guidePriceFrom": 1850,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-bangkok-and-hua-hin-fairways",
+    "title": "The Bangkok & Hua Hin Fairways",
+    "duration": "9 Days / 8 Nights",
+    "heroImage": "/images/courses/thailand/siam-country-club/siam-country-club-old-course-pattaya-thailand-1.webp",
+    "highlight": "Upgrade to our comprehensive signature itinerary pairing Gulf of Thailand championship golf with Bangkok and Hua Hin."
+  },
+  "featuredVenues": [
+    {
+      "name": "Siam Country Club Old Course",
+      "type": "course",
+      "href": "/courses/thailand/siam-country-club/",
+      "image": "/images/courses/thailand/siam-country-club/siam-country-club-old-course-pattaya-thailand-1.webp",
+      "badge": "Schmidt-Curley (Redesign)",
+      "highlight": "Par 72 • 6,990 Yards"
+    },
+    {
+      "name": "Laem Chabang International Country Club",
+      "type": "course",
+      "href": "/courses/thailand/laem-chabang/",
+      "image": "/images/courses/thailand/laem-chabang/laem-chabang-international-pattaya-thailand-1.webp",
+      "badge": "Jack Nicklaus",
+      "highlight": "Par 72 (any 18 combination) • 7,000+ Yards"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transport",
+      "detail": "Dedicated executive transport on standby for all golf connections and evening dining runs."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: Siam Country Club (Old Course), Siam Country Club (Plantation), and Laem Chabang."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights in Luxury Oceanfront Suites in Pattaya."
+    },
+    {
+      "item": "Caddies & Buggies",
+      "detail": "Dedicated caddie and golf cart included for each round."
+    },
+    {
+      "item": "Nightlife Coordination",
+      "detail": "Local recommendations and priority bookings for evening entertainment and dining."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Transit from Bangkok to Pattaya & Coastal Suite Arrival",
+      "subtitle": "Gulf Coast Welcome",
+      "stayName": "Luxury Oceanfront Suites, Pattaya",
+      "transferTime": "90 mins from Bangkok",
+      "image": "/images/courses/thailand/siam-country-club/siam-country-club-old-course-pattaya-thailand-1.webp",
+      "imageCaption": "Pattaya Gulf Coast Luxury Suites — Coastal Sanctuary Base",
+      "imageAlt": "Pattaya luxury oceanfront accommodation Asia Golf Specialists",
+      "description": "Arrive in Bangkok and transfer via private executive van down the motorway to Pattaya. Check into your luxury oceanfront suite overlooking the Gulf of Thailand.<br><br>Enjoy sunset drinks by the pool before heading into town for an authentic Thai seafood feast."
+    },
+    {
+      "day": 2,
+      "title": "LPGA Thailand Venue: Siam Country Club (Old Course)",
+      "subtitle": "Round 1: World-Class LPGA Layout",
+      "courseName": "Siam Country Club Old Course",
+      "courseHref": "/courses/thailand/siam-country-club/",
+      "architect": "Schmidt-Curley (Redesign)",
+      "transferTime": "25 mins door-to-door",
+      "image": "/images/courses/thailand/siam-country-club/siam-country-club-old-course-pattaya-thailand-1.webp",
+      "imageCaption": "Siam Country Club Old Course — Schmidt-Curley (Redesign) (Par 72, 6,990 Yards)",
+      "imageAlt": "Siam Country Club Old Course championship golf course Schmidt-Curley (Redesign) Asia Golf Specialists",
+      "description": "Tee off at the world-renowned Old Course at <a href=\"/courses/thailand/siam-country-club/\">Siam Country Club</a>, longtime home of the Honda LPGA Thailand. Mature trees line rolling fairways leading to fast, undulating greens.<br><br>Enjoy lunch in the modern clubhouse before returning to Pattaya for an afternoon on the beach and an evening exploring the city's famous nightlife."
+    },
+    {
+      "day": 3,
+      "title": "Jack Nicklaus 27-Hole Layout at Laem Chabang",
+      "subtitle": "Round 2: Mountain, Lake & Valley 27 Holes",
+      "courseName": "Laem Chabang International Country Club",
+      "courseHref": "/courses/thailand/laem-chabang/",
+      "architect": "Jack Nicklaus",
+      "transferTime": "30 mins door-to-door",
+      "image": "/images/courses/thailand/laem-chabang/laem-chabang-international-pattaya-thailand-1.webp",
+      "imageCaption": "Laem Chabang International Country Club — Jack Nicklaus (Par 72 (any 18 combination), 7,000+ Yards)",
+      "imageAlt": "Laem Chabang International Country Club championship golf course Jack Nicklaus Asia Golf Specialists",
+      "description": "Play <a href=\"/courses/thailand/laem-chabang/\">Laem Chabang International Country Club</a>, Jack Nicklaus’s scenic 27-hole championship complex set amidst rocky hills and lakes.<br><br>Conclude your round with beers on the patio before returning to Pattaya for a relaxed evening of seafood dining and entertainment."
+    },
+    {
+      "day": 4,
+      "title": "Schmidt-Curley Masterpiece: Siam Country Club (Plantation)",
+      "subtitle": "Round 3: Championship Finale",
+      "courseName": "Siam Country Club Old Course",
+      "courseHref": "/courses/thailand/siam-country-club/",
+      "architect": "Schmidt-Curley (Redesign)",
+      "transferTime": "25 mins door-to-door",
+      "image": "/images/courses/thailand/siam-country-club/siam-country-club-old-course-history-2.webp",
+      "imageCaption": "Siam Country Club Old Course — Schmidt-Curley (Redesign) (Par 72, 6,990 Yards)",
+      "imageAlt": "Siam Country Club Old Course championship golf course Schmidt-Curley (Redesign) Asia Golf Specialists",
+      "description": "Tackle the 27-hole Plantation Course at Siam Country Club. Built on rolling pineapple hills with expansive waste bunkers and blind carries, it provides a thrilling strategic test.<br><br>Celebrate the final round with a tour-ending dinner at a premier rooftop restaurant overlooking Pattaya Bay."
+    },
+    {
+      "day": 5,
+      "title": "Morning Beach Leisure & Return to Bangkok Airport",
+      "subtitle": "Departure",
+      "stayName": "Luxury Oceanfront Suites, Pattaya",
+      "transferTime": "90 mins to Bangkok Airport",
+      "image": "/images/courses/thailand/siam-country-club/siam-country-club-old-course-pattaya-thailand-1.webp",
+      "imageCaption": "Gulf of Thailand Coastal View — VIP Return to Bangkok",
+      "imageAlt": "Gulf of Thailand Pattaya golf tour Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast and ocean swim before packing your clubs with assistance from your AGS host.<br><br>Your private executive vehicle returns you smoothly to Bangkok Suvarnabhumi Airport for your flight home."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which courses at Siam Country Club are included?",
+      "answer": "This package features the prestigious Old Course (LPGA venue) and the dramatic 27-hole Plantation Course."
+    }
+  ]
+}

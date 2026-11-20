@@ -1,0 +1,154 @@
+{
+  "slug": "da-nang-golf-and-nightlife",
+  "title": "5-Day Da Nang Golf, Beach & Nightlife Tour",
+  "description": "Fast-paced coastal golf and vibrant nightlife. Play Montgomerie Links, Ba Na Hills (under floodlights), and BRG Da Nang (Norman Course).",
+  "heroImage": "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-hero.webp",
+  "destination": "Da Nang Beachfront, Vietnam",
+  "country": "Vietnam",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Golf & Nightlife",
+  "duration": "5 Days / 4 Nights (3 Rounds)",
+  "guidePriceUsd": 945,
+  "guidePriceFrom": 1460,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-coastal-sprint",
+    "title": "The Coastal Sprint",
+    "duration": "5 Days / 4 Nights",
+    "heroImage": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+    "highlight": "A high-energy, fully managed 5-day golf itinerary pairing top Da Nang courses with private craft beer tours and beachfront dining."
+  },
+  "featuredVenues": [
+    {
+      "name": "Montgomerie Links Vietnam",
+      "type": "course",
+      "href": "/courses/vietnam/montgomerie-links/",
+      "image": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-da-nang-1-hero.webp",
+      "badge": "Colin Montgomerie",
+      "highlight": "Par 72 • 7,091 Yards"
+    },
+    {
+      "name": "Ba Na Hills Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/ba-na-hills/",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-da-nang-vietnam-1.webp",
+      "badge": "Luke Donald / IMG",
+      "highlight": "Par 72 • 7,858 Yards"
+    },
+    {
+      "name": "BRG Da Nang Norman Course",
+      "type": "course",
+      "href": "/courses/vietnam/brg-da-nang-norman/",
+      "image": "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-coastal-dunes-3.webp",
+      "badge": "Greg Norman",
+      "highlight": "Par 72 • 7,160 Yards"
+    },
+    {
+      "name": "Chicland Da Nang Hotel",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/chicland-da-nang/",
+      "image": "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-hero.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transport",
+      "detail": "Dedicated executive transport on standby for all course transfers and evening dining runs."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: Montgomerie Links, Ba Na Hills (floodlit/twilight option), and BRG Da Nang (Norman Course)."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights in Ocean View Rooms at Chicland Hotel Da Nang on My Khe Beach."
+    },
+    {
+      "item": "Nightlife Coordination",
+      "detail": "Priority table bookings at premier Da Nang rooftop lounges and craft beer venues."
+    },
+    {
+      "item": "Local Host",
+      "detail": "On-ground assistance managing bag drops, caddie pairings, and evening transit."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Da Nang & My Khe Beach Rooftop Sunset",
+      "subtitle": "Beachfront Welcome",
+      "stayName": "Chicland Da Nang Hotel",
+      "stayHref": "/accommodations/vietnam/chicland-da-nang/",
+      "transferTime": "15 mins from DAD Airport",
+      "image": "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-hero.webp",
+      "imageCaption": "Chicland Da Nang Hotel — Luxury Sanctuary Base",
+      "imageAlt": "Chicland Da Nang Hotel luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Da Nang International Airport where your private driver welcomes your group and transfers you directly to <a href=\"/accommodations/vietnam/chicland-da-nang/\">Chicland Hotel Da Nang</a>, overlooking iconic My Khe Beach. Unpack in your Ocean View room and soak in the coastal energy.<br><br>Kick off the trip with craft beers and cocktails at Chicland’s rooftop infinity lounge, watching the sun dip behind the Marble Mountains, before an authentic seafood feast along the beachfront promenade."
+    },
+    {
+      "day": 2,
+      "title": "Links Strategy at Montgomerie Links & An Thuong Nightlife",
+      "subtitle": "Round 1: Strategic Links Golf",
+      "courseName": "Montgomerie Links Vietnam",
+      "courseHref": "/courses/vietnam/montgomerie-links/",
+      "architect": "Colin Montgomerie",
+      "stayName": "Chicland Da Nang Hotel",
+      "stayHref": "/accommodations/vietnam/chicland-da-nang/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-greens-bunkers-4.webp",
+      "imageCaption": "Montgomerie Links Vietnam — Colin Montgomerie (Par 72, 7,091 Yards)",
+      "imageAlt": "Montgomerie Links Vietnam championship golf course Colin Montgomerie Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/vietnam/montgomerie-links/\">Montgomerie Links Vietnam</a>. Colin Montgomerie’s 7,090-yard links layout challenges your iron play with tight landing corridors and sculpted green complexes.<br><br>Head back to My Khe Beach for a relaxed afternoon on the sand. In the evening, explore the vibrant An Thuong nightlife quarter, enjoying craft cocktails, live music, and excellent international dining."
+    },
+    {
+      "day": 3,
+      "title": "Twilight & Floodlit Golf at Ba Na Hills Golf Club",
+      "subtitle": "Round 2: Floodlit Mountain Golf",
+      "courseName": "Ba Na Hills Golf Club",
+      "courseHref": "/courses/vietnam/ba-na-hills/",
+      "architect": "Luke Donald / IMG",
+      "stayName": "Chicland Da Nang Hotel",
+      "stayHref": "/accommodations/vietnam/chicland-da-nang/",
+      "transferTime": "40 mins door-to-door",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-vietnam-championship-5.webp",
+      "imageCaption": "Ba Na Hills Golf Club — Luke Donald / IMG (Par 72, 7,858 Yards)",
+      "imageAlt": "Ba Na Hills Golf Club championship golf course Luke Donald / IMG Asia Golf Specialists",
+      "description": "Sleep in or hit the beach in the morning before heading to <a href=\"/courses/vietnam/ba-na-hills/\">Ba Na Hills Golf Club</a> for an afternoon round that transitions under full stadium floodlights. Luke Donald’s mountain layout becomes truly dramatic as evening falls over the Truong Son peaks.<br><br>Post-round beers in the clubhouse are followed by an executive transfer back to Da Nang for late-night craft beer tastings along the Han River."
+    },
+    {
+      "day": 4,
+      "title": "Classic Dunes Golf at BRG Da Nang (Norman Course)",
+      "subtitle": "Round 3: Greg Norman Dunes Masterpiece",
+      "courseName": "BRG Da Nang Norman Course",
+      "courseHref": "/courses/vietnam/brg-da-nang-norman/",
+      "architect": "Greg Norman",
+      "stayName": "Chicland Da Nang Hotel",
+      "stayHref": "/accommodations/vietnam/chicland-da-nang/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-coastal-dunes-3.webp",
+      "imageCaption": "BRG Da Nang Norman Course — Greg Norman (Par 72, 7,160 Yards)",
+      "imageAlt": "BRG Da Nang Norman Course championship golf course Greg Norman Asia Golf Specialists",
+      "description": "Tackle the original Greg Norman Dunes Course at <a href=\"/courses/vietnam/brg-da-nang-norman/\">BRG Da Nang Golf Resort</a>. Wide, rumpled fairways, expansive waste bunkers, and firm conditions make this classic Aussie-style sandbelt test a favorite among golf purists.<br><br>Celebrate the final round with a tour-ending dinner and drinks at Da Nang’s premier skyline cocktail lounge, enjoying panoramic views of the Dragon Bridge and sparkling coastline."
+    },
+    {
+      "day": 5,
+      "title": "Morning Beach Walk & Airport Departure",
+      "subtitle": "Departure",
+      "stayName": "Chicland Da Nang Hotel",
+      "stayHref": "/accommodations/vietnam/chicland-da-nang/",
+      "transferTime": "15 mins to DAD Airport",
+      "image": "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-hero.webp",
+      "imageCaption": "Chicland Da Nang Hotel — Luxury Sanctuary Base",
+      "imageAlt": "Chicland Da Nang Hotel luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast and a final morning stroll along the sands of My Khe Beach before checking out.<br><br>Your private executive transfer transports your party and all golf bags to Da Nang International Airport for your journey home."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What time does the floodlit golf start at Ba Na Hills?",
+      "answer": "The floodlit system covers all 18 holes, allowing tee times as late as 4:30 PM for a stunning evening golf experience."
+    }
+  ]
+}

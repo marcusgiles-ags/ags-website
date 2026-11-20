@@ -1,0 +1,146 @@
+{
+  "slug": "siem-reap-boutique-retreat-golf",
+  "title": "5-Day Siem Reap Luxury Boutique Golf & Spa Retreat",
+  "description": "Eco-luxury riverside living at Jaya House River Park. Play Angkor Golf Resort and Phokeethra with daily spa treatments.",
+  "heroImage": "/images/accommodations/cambodia/jaya-house-river-park/1.webp",
+  "destination": "Siem Reap, Cambodia",
+  "country": "Cambodia",
+  "groupProfile": "Couples & Small Groups",
+  "intent": "Boutique Luxury & Golf",
+  "duration": "5 Days / 4 Nights (3 Rounds)",
+  "guidePriceUsd": 1405,
+  "guidePriceFrom": 2160,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-khmer-temple-trail",
+    "title": "The Khmer Temple Trail",
+    "duration": "7 Days / 6 Nights",
+    "heroImage": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+    "highlight": "Upgrade to our comprehensive 7-day tour combining boutique riverside luxury with extended temple scholar journeys."
+  },
+  "featuredVenues": [
+    {
+      "name": "Angkor Golf Resort Siem Reap",
+      "type": "course",
+      "href": "/courses/cambodia/angkor-golf-resort/",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Phokeethra Country Club",
+      "type": "course",
+      "href": "/courses/cambodia/phokeethra/",
+      "image": "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+      "badge": "Weerayudth Phetbuasak",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Jaya House River Park",
+      "type": "accommodation",
+      "href": "/accommodations/cambodia/jaya-house-river-park/",
+      "image": "/images/accommodations/cambodia/jaya-house-river-park/1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Chauffeured private transport for all airport and golf course trips."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: 2 rounds at Angkor Golf Resort and 1 round at Phokeethra Country Club."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights in a Deluxe River View Room at Jaya House River Park."
+    },
+    {
+      "item": "Daily Spa Treatments",
+      "detail": "Inclusive daily 60-minute therapeutic massage at Jaya Spa."
+    },
+    {
+      "item": "Local Guardian",
+      "detail": "24/7 dedicated on-ground host support."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival along the Siem Reap River & River Villa Check-In",
+      "subtitle": "Eco-Luxury Welcome",
+      "stayName": "Jaya House River Park",
+      "stayHref": "/accommodations/cambodia/jaya-house-river-park/",
+      "transferTime": "45 mins from SAI Airport",
+      "image": "/images/accommodations/cambodia/jaya-house-river-park/1.webp",
+      "imageCaption": "Jaya House River Park — Luxury Sanctuary Base",
+      "imageAlt": "Jaya House River Park luxury accommodation Asia Golf Specialists",
+      "description": "Arrive in Siem Reap and meet your private chauffeur for transfer to <a href=\"/accommodations/cambodia/jaya-house-river-park/\">Jaya House River Park</a>, renowned for its outstanding hospitality, hanging gardens, and silver-tiled swimming pool along the river.<br><br>Unpack in your riverfront room before an evening stroll along the quiet riverbanks and an authentic Khmer dinner at Trorkuon restaurant."
+    },
+    {
+      "day": 2,
+      "title": "Strategic Precision at Sir Nick Faldo’s Angkor Golf Resort",
+      "subtitle": "Round 1: Faldo Championship Design",
+      "courseName": "Angkor Golf Resort Siem Reap",
+      "courseHref": "/courses/cambodia/angkor-golf-resort/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Jaya House River Park",
+      "stayHref": "/accommodations/cambodia/jaya-house-river-park/",
+      "transferTime": "15 mins door-to-door",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+      "imageCaption": "Angkor Golf Resort Siem Reap — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Angkor Golf Resort Siem Reap championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/cambodia/angkor-golf-resort/\">Angkor Golf Resort</a>. Faldo's bunkering and contoured greens demand strategic club selection and sharp approach play.<br><br>Return to Jaya House for an inclusive 60-minute deep-tissue massage at the spa, decompressing your swing muscles."
+    },
+    {
+      "day": 3,
+      "title": "Historic Parkland at Phokeethra Country Club",
+      "subtitle": "Round 2: Sofitel Managed Parkland",
+      "courseName": "Phokeethra Country Club",
+      "courseHref": "/courses/cambodia/phokeethra/",
+      "architect": "Weerayudth Phetbuasak",
+      "stayName": "Jaya House River Park",
+      "stayHref": "/accommodations/cambodia/jaya-house-river-park/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+      "imageCaption": "Phokeethra Country Club — Weerayudth Phetbuasak (Par 72, 7,000+ Yards)",
+      "imageAlt": "Phokeethra Country Club championship golf course Weerayudth Phetbuasak Asia Golf Specialists",
+      "description": "Play <a href=\"/courses/cambodia/phokeethra/\">Phokeethra Country Club</a>, enjoying tree-lined fairways, scenic water carries, and the signature 11th-century stone bridge.<br><br>Spend the evening exploring Siem Reap’s craft markets and vibrant dining quarter."
+    },
+    {
+      "day": 4,
+      "title": "Mastering the Contours: Angkor Golf Resort Replay Round",
+      "subtitle": "Round 3: Championship Replay",
+      "courseName": "Angkor Golf Resort Siem Reap",
+      "courseHref": "/courses/cambodia/angkor-golf-resort/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Jaya House River Park",
+      "stayHref": "/accommodations/cambodia/jaya-house-river-park/",
+      "transferTime": "15 mins door-to-door",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-faldo-championship-2.webp",
+      "imageCaption": "Angkor Golf Resort Siem Reap — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Angkor Golf Resort Siem Reap championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Return to Angkor Golf Resort for a second round, utilizing your course knowledge to take on Faldo's bold greens with greater confidence.<br><br>Celebrate with a farewell riverside barbecue dinner at Jaya House under the ancient trees."
+    },
+    {
+      "day": 5,
+      "title": "Morning River Tranquility & Airport Departure",
+      "subtitle": "Departure",
+      "stayName": "Jaya House River Park",
+      "stayHref": "/accommodations/cambodia/jaya-house-river-park/",
+      "transferTime": "45 mins to SAI Airport",
+      "image": "/images/accommodations/cambodia/jaya-house-river-park/1.webp",
+      "imageCaption": "Jaya House River Park — Luxury Sanctuary Base",
+      "imageAlt": "Jaya House River Park luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy an unhurried breakfast beside the silver pool before checking out.<br><br>Your private executive transfer transports your party to Siem Reap Airport for your onward flight."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Jaya House River Park eco-friendly?",
+      "answer": "Yes, Jaya House is 100% single-use plastic free and actively leads tree-planting initiatives throughout Siem Reap."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "slug": "da-nang-luxury-villa-sanctuary",
+  "title": "7-Day Da Nang Private Villa & Wellness Golf Retreat",
+  "description": "Private pool villa golf sanctuary at Namia River Retreat. Play Laguna Lang Co, Ba Na Hills, and Hoiana Shores with tailored spa recovery.",
+  "heroImage": "/images/accommodations/vietnam/namia-river-retreat-hoi-an/namia-river-retreat-room-pool-view.webp",
+  "destination": "Da Nang & Hoi An, Vietnam",
+  "country": "Vietnam",
+  "groupProfile": "Couples & Executive Groups",
+  "intent": "Luxury & Wellness",
+  "duration": "7 Days / 6 Nights (3 Rounds)",
+  "guidePriceUsd": 2550,
+  "guidePriceFrom": 3930,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-central-coast-classic",
+    "title": "The Central Coast Classic",
+    "duration": "7 Days / 6 Nights",
+    "heroImage": "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-pool-villa.webp",
+    "highlight": "Upgrade to our fully managed signature tour featuring private riverboat arrivals and private villa banquet dining."
+  },
+  "featuredVenues": [
+    {
+      "name": "Laguna Golf Lang Co",
+      "type": "course",
+      "href": "/courses/vietnam/laguna-lang-co/",
+      "image": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-nick-faldo-vietnam-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 71 • 6,891 Yards"
+    },
+    {
+      "name": "Ba Na Hills Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/ba-na-hills/",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-da-nang-vietnam-1.webp",
+      "badge": "Luke Donald / IMG",
+      "highlight": "Par 72 • 7,858 Yards"
+    },
+    {
+      "name": "Hoiana Shores Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/hoiana-shores/",
+      "image": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+      "badge": "Robert Trent Jones Jr.",
+      "highlight": "Par 72 • 7,309 Yards"
+    },
+    {
+      "name": "Namia River Retreat",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "image": "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-hero.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Private luxury transfer with cold towels and luggage logistics for all airport and golf rounds."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds at Laguna Golf Lang Co, Ba Na Hills, and Hoiana Shores."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "6 nights in a Private Pool Villa at Namia River Retreat."
+    },
+    {
+      "item": "Lumina Spa Recovery",
+      "detail": "Vietnamese herbal steam therapy and post-round deep-tissue wellness bodywork."
+    },
+    {
+      "item": "Local Guardian",
+      "detail": "Full on-ground concierge managing bag drops, dinner reservations, and caddie pairing."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival at Namia River Retreat & Private Pool Villa Check-In",
+      "subtitle": "Sanctuary Arrival",
+      "stayName": "Namia River Retreat",
+      "stayHref": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "transferTime": "35 mins from DAD Airport",
+      "image": "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-hero.webp",
+      "imageCaption": "Namia River Retreat — Luxury Sanctuary Base",
+      "imageAlt": "Namia River Retreat luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Da Nang International Airport and meet your personal chauffeur for a seamless transfer to <a href=\"/accommodations/vietnam/namia-river-retreat-hoi-an/\">Namia River Retreat</a>, set on a secluded islet on the Thu Bon River. Step into your private pool villa surrounded by lush tropical gardens, complete with a private plunge pool and sunken outdoor lounge.<br><br>Unpack and decompress with a welcome herbal tea infusion and an introductory foot reflexology session. In the evening, savor an organic riverfront welcome dinner featuring farm-to-table central Vietnamese cuisine prepared by Namia’s executive culinary team."
+    },
+    {
+      "day": 2,
+      "title": "Dramatic Coastal Splendor at Laguna Golf Lang Co",
+      "subtitle": "Round 1: Faldo Ocean & Mountain Test",
+      "courseName": "Laguna Golf Lang Co",
+      "courseHref": "/courses/vietnam/laguna-lang-co/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Namia River Retreat",
+      "stayHref": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "transferTime": "70 mins scenic coastal drive",
+      "image": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-nick-faldo-vietnam-1.webp",
+      "imageCaption": "Laguna Golf Lang Co — Sir Nick Faldo (Par 71, 6,891 Yards)",
+      "imageAlt": "Laguna Golf Lang Co championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Embark on a scenic drive over the Hai Van coastline to Sir Nick Faldo’s oceanfront gem, <a href=\"/courses/vietnam/laguna-lang-co/\">Laguna Golf Lang Co</a>. Winding between jungle-clad mountains, natural streams, and active rice paddies before breaking out onto the East Sea, Faldo’s layout provides an unforgettable sensory and strategic journey.<br><br>After your round, enjoy lunch overlooking the beach before your private transfer returns you to Namia for an evening 90-minute Lumina spa treatment focused on relieving lower-back and shoulder tension from your swings."
+    },
+    {
+      "day": 3,
+      "title": "Mountain Foothills Majesty at Ba Na Hills Golf Club",
+      "subtitle": "Round 2: Donald Highland Parkland",
+      "courseName": "Ba Na Hills Golf Club",
+      "courseHref": "/courses/vietnam/ba-na-hills/",
+      "architect": "Luke Donald / IMG",
+      "stayName": "Namia River Retreat",
+      "stayHref": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "transferTime": "45 mins door-to-door",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-mountain-course-2.webp",
+      "imageCaption": "Ba Na Hills Golf Club — Luke Donald / IMG (Par 72, 7,858 Yards)",
+      "imageAlt": "Ba Na Hills Golf Club championship golf course Luke Donald / IMG Asia Golf Specialists",
+      "description": "Head into the Truong Son foothills for 18 holes at <a href=\"/courses/vietnam/ba-na-hills/\">Ba Na Hills Golf Club</a>, Luke Donald’s critically acclaimed parkland design. Pristine SeaIsle Paspalum fairways snake through dense jungle valleys and elevation drops, requiring tactical approach play and precise distance control.<br><br>Following play, enjoy panoramic views of the Truong Son peaks from the clubhouse terrace. Return to Namia River Retreat for an afternoon yoga mobility session or an unhurried swim in your villa pool."
+    },
+    {
+      "day": 4,
+      "title": "Holistic Wellness Restoration & Ancient Town Exploration",
+      "subtitle": "Recovery & Culture",
+      "stayName": "Namia River Retreat",
+      "stayHref": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "transferTime": "At leisure in Hoi An",
+      "image": "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-luxury-on-the-river.webp",
+      "imageCaption": "Namia River Retreat — Luxury Sanctuary Base",
+      "imageAlt": "Namia River Retreat luxury accommodation Asia Golf Specialists",
+      "description": "A dedicated wellness and rejuvenation day. Participate in morning Tai Chi along the river deck, followed by Namia’s signature herbal steam therapy and restorative wellness consultation. Let your body heal fully ahead of your final championship round.<br><br>In the late afternoon, take a private boat excursion directly from the resort jetty to Hoi An Ancient Town for an evening of leisurely craft boutique shopping, art galleries, and riverside dining."
+    },
+    {
+      "day": 5,
+      "title": "Pure Oceanfront Dunes Links at Hoiana Shores",
+      "subtitle": "Round 3: Pure Dunes Grand Finale",
+      "courseName": "Hoiana Shores Golf Club",
+      "courseHref": "/courses/vietnam/hoiana-shores/",
+      "architect": "Robert Trent Jones Jr.",
+      "stayName": "Namia River Retreat",
+      "stayHref": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-robert-trent-jones-jr-2.webp",
+      "imageCaption": "Hoiana Shores Golf Club — Robert Trent Jones Jr. (Par 72, 7,309 Yards)",
+      "imageAlt": "Hoiana Shores Golf Club championship golf course Robert Trent Jones Jr. Asia Golf Specialists",
+      "description": "Conclude your golf rotation with Robert Trent Jones II’s seaside triumph, <a href=\"/courses/vietnam/hoiana-shores/\">Hoiana Shores Golf Club</a>. Pure links conditions greet you with firm, fast Zeon Zoysia fairways, native blowout bunkers, and unobstructed East Sea panoramas. Holes 15 through 18 trace the beach edge directly against the ocean surf.<br><br>Toast an incredible round with cocktails at the 19th-hole clubhouse deck before returning to Namia River Retreat for an exclusive private barbecue banquet served right beside your villa pool."
+    },
+    {
+      "day": 6,
+      "title": "Private Sunset River Cruise & Degustation Dinner",
+      "subtitle": "Bespoke Leisure",
+      "stayName": "Namia River Retreat",
+      "stayHref": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "transferTime": "At leisure in Hoi An",
+      "image": "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-premium-private-villa.webp",
+      "imageCaption": "Namia River Retreat — Luxury Sanctuary Base",
+      "imageAlt": "Namia River Retreat luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy an unhurried morning with breakfast served on your villa sun terrace. The day is yours to enjoy Namia’s wellness hydrotherapy facilities, take a leisurely paddleboard along the river, or indulge in a second therapeutic spa session.<br><br>At sunset, board a private handcrafted wooden riverboat for champagne and hors d'oeuvres while cruising the Thu Bon River as thousands of colorful lanterns light up the Hoi An waterfront."
+    },
+    {
+      "day": 7,
+      "title": "Farewell Namia & VIP Airport Departure",
+      "subtitle": "Departure",
+      "stayName": "Namia River Retreat",
+      "stayHref": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "transferTime": "35 mins to DAD Airport",
+      "image": "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-dining-area.webp",
+      "imageCaption": "Namia River Retreat — Luxury Sanctuary Base",
+      "imageAlt": "Namia River Retreat luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast overlooking the tranquil waters of the Thu Bon River before packing at your own pace. Your AGS concierge takes care of checkout details and safely loads all golf equipment.<br><br>Your private luxury transfer delivers your party to Da Nang International Airport for your return flight home, fully recharged and enriched by Central Vietnam’s premier golf and wellness experience."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Namia River Retreat suitable for non-golfing partners?",
+      "answer": "Yes, Namia is renowned for its holistic wellness programs, riverfront yoga, and proximity to Hoi An Ancient Town."
+    }
+  ]
+}

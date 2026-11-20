@@ -1,0 +1,221 @@
+{
+  "slug": "thailand-dual-coast-bangkok-hua-hin",
+  "title": "9-Day Thailand Dual-Destination: Bangkok Glamour & Hua Hin Royal Links",
+  "description": "The ultimate dual-city golf escape. Play Thai Country Club and Alpine in Bangkok, then Black Mountain and Pineapple Valley in Hua Hin.",
+  "heroImage": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+  "destination": "Bangkok & Hua Hin, Thailand",
+  "country": "Thailand",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Dual-City Championship Golf",
+  "duration": "9 Days / 8 Nights (4 Rounds)",
+  "guidePriceUsd": 2985,
+  "guidePriceFrom": 4600,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-bangkok-and-hua-hin-fairways",
+    "title": "The Bangkok & Hua Hin Fairways",
+    "duration": "9 Days / 8 Nights",
+    "heroImage": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+    "highlight": "Our flagship signature tour combining Bangkok’s finest private clubs with Hua Hin’s royal links and luxury pool villas."
+  },
+  "featuredVenues": [
+    {
+      "name": "Thai Country Club",
+      "type": "course",
+      "href": "/courses/thailand/thai-country-club/",
+      "image": "/images/courses/thailand/thai-country-club/thai-country-club-1.webp",
+      "badge": "Denis Griffiths",
+      "highlight": "Par 72 • 7,097 Yards"
+    },
+    {
+      "name": "Alpine Golf & Sports Club",
+      "type": "course",
+      "href": "/courses/thailand/alpine-golf-club/",
+      "image": "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-bangkok-thailand-1.webp",
+      "badge": "Ronald M. Garl",
+      "highlight": "Par 72 • 7,007 Yards"
+    },
+    {
+      "name": "Black Mountain Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/black-mountain/",
+      "image": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+      "badge": "Phil Ryan",
+      "highlight": "Par 72 • 7,375 Yards"
+    },
+    {
+      "name": "Pineapple Valley Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/pineapple-valley/",
+      "image": "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-hua-hin-thailand-1.webp",
+      "badge": "Pirapon Namatra / Golf East",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Sindhorn Kempinski Bangkok",
+      "type": "accommodation",
+      "href": "/accommodations/thailand/sindhorn-kempinski/",
+      "image": "/images/accommodations/thailand/sindhorn-kempinski/thailand-luxury-hotel-sindhorn-kempinski-bangkok-lobby-2.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    },
+    {
+      "name": "V Villas Hua Hin",
+      "type": "accommodation",
+      "href": "/accommodations/thailand/v-villas-hua-hin/",
+      "image": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "All private luxury ground transport between Bangkok, golf courses, and Hua Hin."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "4 championship rounds: Thai Country Club, Alpine Golf Club, Black Mountain, and Pineapple Valley."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights at Sindhorn Kempinski Bangkok + 4 nights at V Villas Hua Hin."
+    },
+    {
+      "item": "Caddies & Buggies",
+      "detail": "Personal caddie and shared cart included for all rounds."
+    },
+    {
+      "item": "Local Concierge",
+      "detail": "Continuous on-ground coordination and luggage transfer."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Bangkok & Sindhorn Kempinski Check-In",
+      "subtitle": "Capital Arrival",
+      "stayName": "Sindhorn Kempinski Bangkok",
+      "stayHref": "/accommodations/thailand/sindhorn-kempinski/",
+      "transferTime": "35 mins from BKK Airport",
+      "image": "/images/accommodations/thailand/sindhorn-kempinski/thailand-luxury-hotel-sindhorn-kempinski-bangkok-lobby-2.webp",
+      "imageCaption": "Sindhorn Kempinski Bangkok — Luxury Sanctuary Base",
+      "imageAlt": "Sindhorn Kempinski Bangkok luxury accommodation Asia Golf Specialists",
+      "description": "Arrive in Bangkok and transfer via private luxury vehicle to <a href=\"/accommodations/thailand/sindhorn-kempinski/\">Sindhorn Kempinski Hotel Bangkok</a> in the leafy Langsuan district.<br><br>Sip welcome cocktails in the lounge before enjoying an introductory dinner exploring contemporary Thai cuisine."
+    },
+    {
+      "day": 2,
+      "title": "Championship Prestige at Thai Country Club",
+      "subtitle": "Round 1: Private Club Test",
+      "courseName": "Thai Country Club",
+      "courseHref": "/courses/thailand/thai-country-club/",
+      "architect": "Denis Griffiths",
+      "stayName": "Sindhorn Kempinski Bangkok",
+      "stayHref": "/accommodations/thailand/sindhorn-kempinski/",
+      "transferTime": "45 mins via motorway",
+      "image": "/images/courses/thailand/thai-country-club/thai-country-club-1.webp",
+      "imageCaption": "Thai Country Club — Denis Griffiths (Par 72, 7,097 Yards)",
+      "imageAlt": "Thai Country Club championship golf course Denis Griffiths Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/thailand/thai-country-club/\">Thai Country Club</a>, playing the championship layout won by Tiger Woods. Flawless conditioning and classic parkland bunkering test your game.<br><br>Return to Bangkok for an evening exploring the city's world-class dining and skyline cocktail bars."
+    },
+    {
+      "day": 3,
+      "title": "Tournament Test at Alpine Golf Club Bangkok",
+      "subtitle": "Round 2: Ronald Fream Design",
+      "courseName": "Alpine Golf & Sports Club",
+      "courseHref": "/courses/thailand/alpine-golf-club/",
+      "architect": "Ronald M. Garl",
+      "stayName": "Sindhorn Kempinski Bangkok",
+      "stayHref": "/accommodations/thailand/sindhorn-kempinski/",
+      "transferTime": "50 mins door-to-door",
+      "image": "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-bangkok-thailand-1.webp",
+      "imageCaption": "Alpine Golf & Sports Club — Ronald M. Garl (Par 72, 7,007 Yards)",
+      "imageAlt": "Alpine Golf & Sports Club championship golf course Ronald M. Garl Asia Golf Specialists",
+      "description": "Tackle the rolling fairways and water carries of <a href=\"/courses/thailand/alpine-golf-club/\">Alpine Golf Club</a>, one of the most demanding championship venues in Thailand.<br><br>Conclude your Bangkok stay with a private dinner at a Michelin-starred riverside restaurant."
+    },
+    {
+      "day": 4,
+      "title": "Executive Transit to Hua Hin & V Villas Pool Check-In",
+      "subtitle": "Coastal Transition",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "2.5 hrs via executive vehicle",
+      "image": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+      "imageCaption": "V Villas Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "V Villas Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "Travel south via private executive coach along the Gulf coast to <a href=\"/accommodations/thailand/v-villas-hua-hin/\">V Villas Hua Hin</a>. Check into your private pool villa and unwind.<br><br>Spend the afternoon in your plunge pool before a relaxed seafood dinner on the beachfront."
+    },
+    {
+      "day": 5,
+      "title": "European Tour Majesty at Black Mountain Golf Club",
+      "subtitle": "Round 3: Mountain Valley Test",
+      "courseName": "Black Mountain Golf Club",
+      "courseHref": "/courses/thailand/black-mountain/",
+      "architect": "Phil Ryan",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "25 mins door-to-door",
+      "image": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+      "imageCaption": "Black Mountain Golf Club — Phil Ryan (Par 72, 7,375 Yards)",
+      "imageAlt": "Black Mountain Golf Club championship golf course Phil Ryan Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/thailand/black-mountain/\">Black Mountain Golf Club</a>, navigating dramatic granite bluffs, firm fairways, and rapid, undulating greens.<br><br>Return to V Villas for an afternoon swim, followed by an evening in Hua Hin town."
+    },
+    {
+      "day": 6,
+      "title": "Royal Beach Day of Rest & Pool Villa Relaxation",
+      "subtitle": "Rest & Restoration",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "At leisure in Hua Hin",
+      "image": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+      "imageCaption": "V Villas Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "V Villas Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "A dedicated rest day midway through the tour. Enjoy spa treatments, beach walks, or poolside relaxation.<br><br>Gather for a private sunset cocktail hour arranged by your personal villa host."
+    },
+    {
+      "day": 7,
+      "title": "Schmidt-Curley Masterpiece at Pineapple Valley",
+      "subtitle": "Round 4: Championship Finale",
+      "courseName": "Pineapple Valley Golf Club",
+      "courseHref": "/courses/thailand/pineapple-valley/",
+      "architect": "Pirapon Namatra / Golf East",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-hua-hin-thailand-1.webp",
+      "imageCaption": "Pineapple Valley Golf Club — Pirapon Namatra / Golf East (Par 72, 7,000+ Yards)",
+      "imageAlt": "Pineapple Valley Golf Club championship golf course Pirapon Namatra / Golf East Asia Golf Specialists",
+      "description": "Conclude your golf rotation at <a href=\"/courses/thailand/pineapple-valley/\">Pineapple Valley Golf Club</a>, enjoying rolling fairways and panoramic mountain views.<br><br>Celebrate the completion of the 72-hole tour with sunset drinks at Mulligans Pub."
+    },
+    {
+      "day": 8,
+      "title": "Private Pool Villa Feast & Final Evening",
+      "subtitle": "Celebratory Farewell",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "At leisure in Hua Hin",
+      "image": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+      "imageCaption": "V Villas Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "V Villas Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy an unhurried morning with floating breakfast in your villa pool.<br><br>Gather for a private barbecue banquet prepared beside your pool, toasting an unforgettable 9-day dual-city tour."
+    },
+    {
+      "day": 9,
+      "title": "VIP Chauffeur Return to Bangkok Airport",
+      "subtitle": "Departure",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "2.5 hrs to Bangkok Airport",
+      "image": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+      "imageCaption": "V Villas Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "V Villas Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy breakfast before packing your equipment with your villa host’s assistance.<br><br>Your private executive coach returns your party to Bangkok Suvarnabhumi Airport for your flight home."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How is the transit handled between Bangkok and Hua Hin?",
+      "answer": "We provide private executive transport equipped with Wi-Fi, air conditioning, and luggage staging for a comfortable 2.5-hour journey."
+    }
+  ]
+}

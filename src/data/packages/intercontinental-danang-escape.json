@@ -1,0 +1,178 @@
+{
+  "slug": "intercontinental-danang-escape",
+  "title": "7-Day InterContinental Danang Peninsular Golf Escape",
+  "description": "Ultra-luxury peninsular sanctuary at InterContinental Danang Sun Peninsula Resort. Play Montgomerie Links, Ba Na Hills, and Hoiana Shores.",
+  "heroImage": "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-hero-1.webp",
+  "destination": "Da Nang Peninsula, Vietnam",
+  "country": "Vietnam",
+  "groupProfile": "Discerning Couples & Golfers",
+  "intent": "Luxury & Scenic Escape",
+  "duration": "7 Days / 6 Nights (3 Rounds)",
+  "guidePriceUsd": 3615,
+  "guidePriceFrom": 5570,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-central-coast-classic",
+    "title": "The Central Coast Classic",
+    "duration": "7 Days / 6 Nights",
+    "heroImage": "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-hero-1.webp",
+    "highlight": "Upgrade to our fully hosted Central Coast tour with dedicated host, private boat transfers, and curated VIP golf access."
+  },
+  "featuredVenues": [
+    {
+      "name": "Montgomerie Links Vietnam",
+      "type": "course",
+      "href": "/courses/vietnam/montgomerie-links/",
+      "image": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-da-nang-1-hero.webp",
+      "badge": "Colin Montgomerie",
+      "highlight": "Par 72 • 7,091 Yards"
+    },
+    {
+      "name": "Ba Na Hills Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/ba-na-hills/",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-da-nang-vietnam-1.webp",
+      "badge": "Luke Donald / IMG",
+      "highlight": "Par 72 • 7,858 Yards"
+    },
+    {
+      "name": "Hoiana Shores Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/hoiana-shores/",
+      "image": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+      "badge": "Robert Trent Jones Jr.",
+      "highlight": "Par 72 • 7,309 Yards"
+    },
+    {
+      "name": "InterContinental Da Nang",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/intercontinental-danang/",
+      "image": "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-hero-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Dedicated private luxury transfers for all airport, resort, and golf course journeys."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds at Montgomerie Links, Ba Na Hills, and Hoiana Shores."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "6 nights in a Resort Classic Ocean View Room at InterContinental Danang Sun Peninsula Resort."
+    },
+    {
+      "item": "Mi Sol Spa Journey",
+      "detail": "Signature sound vibration therapy and post-golf physical relaxation."
+    },
+    {
+      "item": "Local Guardian",
+      "detail": "On-ground concierge handling tee sheets, caddie pairings, and Michelin dining reservations."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival at Son Tra Peninsula & Bill Bensley Design Sanctuaries",
+      "subtitle": "Peninsular Arrival",
+      "stayName": "InterContinental Da Nang",
+      "stayHref": "/accommodations/vietnam/intercontinental-danang/",
+      "transferTime": "35 mins from DAD Airport",
+      "image": "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-hero-1.webp",
+      "imageCaption": "InterContinental Da Nang — Luxury Sanctuary Base",
+      "imageAlt": "InterContinental Da Nang luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Da Nang International Airport and travel via private executive vehicle out along the secluded Son Tra Peninsula to <a href=\"/accommodations/vietnam/intercontinental-danang/\">InterContinental Danang Sun Peninsula Resort</a>, Bill Bensley's legendary cliffside masterpiece overlooking Monkey Bay.<br><br>Ride the resort's iconic Nam Tram funicular down through the Heaven, Sky, Earth, and Sea levels to your ocean-view sanctuary. Enjoy a sunset welcome cocktail at the cliffside Long Bar before an introductory dinner overlooking the private cove."
+    },
+    {
+      "day": 2,
+      "title": "Strategic European Links at Montgomerie Links Vietnam",
+      "subtitle": "Round 1: Colin Montgomerie Coastal Layout",
+      "courseName": "Montgomerie Links Vietnam",
+      "courseHref": "/courses/vietnam/montgomerie-links/",
+      "architect": "Colin Montgomerie",
+      "stayName": "InterContinental Da Nang",
+      "stayHref": "/accommodations/vietnam/intercontinental-danang/",
+      "transferTime": "40 mins door-to-door",
+      "image": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-coastal-hole-3.webp",
+      "imageCaption": "Montgomerie Links Vietnam — Colin Montgomerie (Par 72, 7,091 Yards)",
+      "imageAlt": "Montgomerie Links Vietnam championship golf course Colin Montgomerie Asia Golf Specialists",
+      "description": "Travel along the Da Nang coastline to <a href=\"/courses/vietnam/montgomerie-links/\">Montgomerie Links Vietnam</a>. Colin Montgomerie's 7,090-yard links layout challenges your course management with deep pot bunkering, wispy dunes grass, and slick Paspalum putting surfaces.<br><br>Following your round, unwind with a cold Tiger beer at the clubhouse terrace before your private driver transfers you back to the secluded peninsula for an evening of relaxation in your oceanfront suite."
+    },
+    {
+      "day": 3,
+      "title": "Mountain Jungle Grandeur at Ba Na Hills Golf Club",
+      "subtitle": "Round 2: Luke Donald Mountain Parkland",
+      "courseName": "Ba Na Hills Golf Club",
+      "courseHref": "/courses/vietnam/ba-na-hills/",
+      "architect": "Luke Donald / IMG",
+      "stayName": "InterContinental Da Nang",
+      "stayHref": "/accommodations/vietnam/intercontinental-danang/",
+      "transferTime": "55 mins door-to-door",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-night-golf-4.webp",
+      "imageCaption": "Ba Na Hills Golf Club — Luke Donald / IMG (Par 72, 7,858 Yards)",
+      "imageAlt": "Ba Na Hills Golf Club championship golf course Luke Donald / IMG Asia Golf Specialists",
+      "description": "Tackle <a href=\"/courses/vietnam/ba-na-hills/\">Ba Na Hills Golf Club</a>, Luke Donald’s world-acclaimed mountain valley design. Surrounded by virgin native rainforest and dramatic elevation shifts, the course demands courageous driving and astute iron play.<br><br>Conclude your round with lunch on the open-air clubhouse deck before an executive transfer returns you to the resort for an evening hydrotherapy session at the Mi Sol Spa."
+    },
+    {
+      "day": 4,
+      "title": "Monkey Bay Seclusion & Mi Sol Spa Restoration",
+      "subtitle": "Peninsula Day of Rest",
+      "stayName": "InterContinental Da Nang",
+      "stayHref": "/accommodations/vietnam/intercontinental-danang/",
+      "transferTime": "At leisure on the peninsula",
+      "image": "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-cove-2.webp",
+      "imageCaption": "InterContinental Da Nang — Luxury Sanctuary Base",
+      "imageAlt": "InterContinental Da Nang luxury accommodation Asia Golf Specialists",
+      "description": "A full day dedicated to the world-class amenities of the Sun Peninsula Resort. Lounge by the oceanfront L_o_n_g Pool, watch wild red-shanked douc langurs playing in the canopy, or take a private sailing catamaran out into Monkey Bay.<br><br>In the evening, experience world-class fine dining at La Maison 1888, curated with French gastronomic mastery and an extraordinary international wine cellar."
+    },
+    {
+      "day": 5,
+      "title": "Pure Coastal Dunes Links Finale at Hoiana Shores",
+      "subtitle": "Round 3: RTJ II Ocean Links Test",
+      "courseName": "Hoiana Shores Golf Club",
+      "courseHref": "/courses/vietnam/hoiana-shores/",
+      "architect": "Robert Trent Jones Jr.",
+      "stayName": "InterContinental Da Nang",
+      "stayHref": "/accommodations/vietnam/intercontinental-danang/",
+      "transferTime": "45 mins door-to-door",
+      "image": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-dunes-hoi-an-4.webp",
+      "imageCaption": "Hoiana Shores Golf Club — Robert Trent Jones Jr. (Par 72, 7,309 Yards)",
+      "imageAlt": "Hoiana Shores Golf Club championship golf course Robert Trent Jones Jr. Asia Golf Specialists",
+      "description": "Journey south across the Cua Dai bridge to play <a href=\"/courses/vietnam/hoiana-shores/\">Hoiana Shores Golf Club</a>, Robert Trent Jones II's seaside links jewel. Firm running Zeon Zoysia fairways, sprawling blowout bunkers, and coastal winds make this one of the most thrilling links tests in Asia.<br><br>Toast the completion of your golf rounds on the ocean clubhouse terrace before returning to your cliffside sanctuary for a private balcony dinner beneath the stars."
+    },
+    {
+      "day": 6,
+      "title": "Peninsula Relaxation & Farewell Seafood Feast",
+      "subtitle": "Cliffside Leisure",
+      "stayName": "InterContinental Da Nang",
+      "stayHref": "/accommodations/vietnam/intercontinental-danang/",
+      "transferTime": "At leisure at the resort",
+      "image": "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-infinity-pool-3.webp",
+      "imageCaption": "InterContinental Da Nang — Luxury Sanctuary Base",
+      "imageAlt": "InterContinental Da Nang luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy an unhurried morning with breakfast on the terrace at Citron, sitting in the iconic inverted non la dining booths suspended high over the East Sea.<br><br>Spend the afternoon relaxing on the 700-meter private crescent beach before gathering for a celebratory farewell seafood feast at Barefoot beachfront restaurant."
+    },
+    {
+      "day": 7,
+      "title": "VIP Departure via Da Nang Airport",
+      "subtitle": "Departure",
+      "stayName": "InterContinental Da Nang",
+      "stayHref": "/accommodations/vietnam/intercontinental-danang/",
+      "transferTime": "35 mins to DAD Airport",
+      "image": "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-hero-1.webp",
+      "imageCaption": "InterContinental Da Nang — Luxury Sanctuary Base",
+      "imageAlt": "InterContinental Da Nang luxury accommodation Asia Golf Specialists",
+      "description": "Take a final swim or morning walk along the private beach before packing your equipment with assistance from your AGS Local Guardian.<br><br>Your private executive transfer delivers you directly to Da Nang International Airport for your return flight, bringing your peninsular golf retreat to an effortless close."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How far is the resort from the golf courses?",
+      "answer": "Montgomerie Links and BRG Da Nang are approximately 40 minutes away, while Ba Na Hills is roughly 55 minutes via private highway transfer."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "exportFormatVersion": 2,
+  "containerVersion": {
+    "container": {
+      "publicId": "GTM-N94HK2D8",
+      "usageContext": [ "WEB" ]
+    },
+    "tag": [
+      {
+        "name": "Custom HTML - GA4 Portfolio Lead Event",
+        "type": "html",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "html",
+            "value": "<script>\n  window.gtag('event', 'generate_lead', {\n    'lead_type': 'portfolio_guide',\n    'region': '{{DLV - Region}}'\n  });\n</script>"
+          }
+        ],
+        "firingTriggerId": [ "2026" ],
+        "tagFiringOption": "ONCE_PER_EVENT"
+      }
+    ],
+    "trigger": [
+      {
+        "triggerId": "2026",
+        "name": "Custom Event - generate_lead",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "generate_lead" }
+            ]
+          }
+        ]
+      }
+    ],
+    "variable": [
+      {
+        "name": "DLV - Region",
+        "type": "v",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "name", "value": "region" },
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }
+        ]
+      }
+    ]
+  }
+}

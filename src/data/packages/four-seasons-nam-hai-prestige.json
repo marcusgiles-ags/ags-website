@@ -1,0 +1,178 @@
+{
+  "slug": "four-seasons-nam-hai-prestige",
+  "title": "7-Day Four Seasons The Nam Hai Golf & Ocean Sanctuary",
+  "description": "Forbes 5-Star luxury beach retreat at Four Seasons The Nam Hai. Play BRG Nicklaus, Ba Na Hills, and Hoiana Shores in ultimate luxury.",
+  "heroImage": "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-beach-pool-1.webp",
+  "destination": "Hoi An Beachfront, Vietnam",
+  "country": "Vietnam",
+  "groupProfile": "Couples & Executive 4-Ball",
+  "intent": "Luxury",
+  "duration": "7 Days / 6 Nights (3 Rounds)",
+  "guidePriceUsd": 4595,
+  "guidePriceFrom": 7080,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-grand-vietnam-odyssey",
+    "title": "The Grand Vietnam Odyssey",
+    "duration": "14 Days / 13 Nights",
+    "heroImage": "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-beach-pool-1.webp",
+    "highlight": "Vietnam’s premier cross-country ultra-luxury odyssey combining Four Seasons Nam Hai with Capella Hanoi and Park Hyatt Saigon."
+  },
+  "featuredVenues": [
+    {
+      "name": "BRG Da Nang Nicklaus Course",
+      "type": "course",
+      "href": "/courses/vietnam/brg-da-nang-nicklaus/",
+      "image": "/images/courses/vietnam/brg-da-nang-nicklaus/brg-da-nang-golf-resort-nicklaus-water-feature-3.webp",
+      "badge": "Jack Nicklaus Design",
+      "highlight": "Par 73 • 7,380 Yards"
+    },
+    {
+      "name": "Ba Na Hills Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/ba-na-hills/",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-da-nang-vietnam-1.webp",
+      "badge": "Luke Donald / IMG",
+      "highlight": "Par 72 • 7,858 Yards"
+    },
+    {
+      "name": "Hoiana Shores Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/hoiana-shores/",
+      "image": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+      "badge": "Robert Trent Jones Jr.",
+      "highlight": "Par 72 • 7,309 Yards"
+    },
+    {
+      "name": "Four Seasons Resort The Nam Hai",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/four-seasons-nam-hai/",
+      "image": "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-beach-pool-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Private luxury chauffeured transfer for all airport and golf rounds."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds at BRG Da Nang (Nicklaus), Ba Na Hills, and Hoiana Shores."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "6 nights in a Beachfront Pool Villa at Four Seasons Resort The Nam Hai."
+    },
+    {
+      "item": "Heart of the Earth Spa",
+      "detail": "Singing bowl sound therapy and post-round muscle release."
+    },
+    {
+      "item": "VIP Concierge",
+      "detail": "Priority morning tee sheet access and dedicated bag-drop coordination."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival at Ha My Beachfront & Private Pool Villa Check-In",
+      "subtitle": "Forbes 5-Star Welcome",
+      "stayName": "Four Seasons Resort The Nam Hai",
+      "stayHref": "/accommodations/vietnam/four-seasons-nam-hai/",
+      "transferTime": "25 mins from DAD Airport",
+      "image": "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-beach-pool-1.webp",
+      "imageCaption": "Four Seasons Resort The Nam Hai — Luxury Sanctuary Base",
+      "imageAlt": "Four Seasons Resort The Nam Hai luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Da Nang International Airport where your private luxury transfer awaits. A short 25-minute drive brings you to the gates of <a href=\"/accommodations/vietnam/four-seasons-nam-hai/\">Four Seasons Resort The Nam Hai</a> on pristine Ha My Beach. Settle into your beachfront pool villa, an architectural masterpiece inspired by ancient feng shui concepts with open pavilions and private ocean access.<br><br>Sip a welcome lemongrass cocktail while watching the surf roll onto the private white-sand beach. In the evening, enjoy dinner at La Sen restaurant, sampling modern interpretations of royal Vietnamese dishes."
+    },
+    {
+      "day": 2,
+      "title": "Tactical Water Hazards at BRG Da Nang (Nicklaus Course)",
+      "subtitle": "Round 1: Nicklaus Waterfront Test",
+      "courseName": "BRG Da Nang Nicklaus Course",
+      "courseHref": "/courses/vietnam/brg-da-nang-nicklaus/",
+      "architect": "Jack Nicklaus Design",
+      "stayName": "Four Seasons Resort The Nam Hai",
+      "stayHref": "/accommodations/vietnam/four-seasons-nam-hai/",
+      "transferTime": "15 mins door-to-door",
+      "image": "/images/courses/vietnam/brg-da-nang-nicklaus/brg-da-nang-golf-resort-nicklaus-water-feature-3.webp",
+      "imageCaption": "BRG Da Nang Nicklaus Course — Jack Nicklaus Design (Par 73, 7,380 Yards)",
+      "imageAlt": "BRG Da Nang Nicklaus Course championship golf course Jack Nicklaus Design Asia Golf Specialists",
+      "description": "Begin your championship schedule at the Nicklaus Design course at <a href=\"/courses/vietnam/brg-da-nang-nicklaus/\">BRG Da Nang Golf Resort</a>, located just 15 minutes north. Featuring authentic wooden bulkheads lining lakes and streams, this layout demands strategic placement and crisp ball-striking to navigate past water on almost every approach.<br><br>After your morning round, return to The Nam Hai for an afternoon by the iconic three-tiered beachfront infinity pool, followed by an evening sound bath meditation at The Heart of the Earth Spa."
+    },
+    {
+      "day": 3,
+      "title": "Cool Mountain Breezes at Ba Na Hills Golf Club",
+      "subtitle": "Round 2: Donald Mountain Masterpiece",
+      "courseName": "Ba Na Hills Golf Club",
+      "courseHref": "/courses/vietnam/ba-na-hills/",
+      "architect": "Luke Donald / IMG",
+      "stayName": "Four Seasons Resort The Nam Hai",
+      "stayHref": "/accommodations/vietnam/four-seasons-nam-hai/",
+      "transferTime": "45 mins door-to-door",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-luke-donald-design-3.webp",
+      "imageCaption": "Ba Na Hills Golf Club — Luke Donald / IMG (Par 72, 7,858 Yards)",
+      "imageAlt": "Ba Na Hills Golf Club championship golf course Luke Donald / IMG Asia Golf Specialists",
+      "description": "Ascend into the mist-clad hills to play <a href=\"/courses/vietnam/ba-na-hills/\">Ba Na Hills Golf Club</a>, Luke Donald’s mountain showpiece. Rolling fairways wind around towering rainforest ridges, with elevation changes offering stunning valley vistas and testing your club selection on every approach shot.<br><br>Enjoy lunch with panoramic views of the 18th green before an executive transfer returns you to the comfort of your private pool villa for a relaxing beachside afternoon."
+    },
+    {
+      "day": 4,
+      "title": "Ocean Sanctuary Leisure & The Heart of the Earth Spa",
+      "subtitle": "Forbes 5-Star Spa Immersion",
+      "stayName": "Four Seasons Resort The Nam Hai",
+      "stayHref": "/accommodations/vietnam/four-seasons-nam-hai/",
+      "transferTime": "At leisure at the resort",
+      "image": "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-villa-pool-2.webp",
+      "imageCaption": "Four Seasons Resort The Nam Hai — Luxury Sanctuary Base",
+      "imageAlt": "Four Seasons Resort The Nam Hai luxury accommodation Asia Golf Specialists",
+      "description": "Spend a day fully immersed in the luxury of Four Seasons The Nam Hai. Start with beachfront yoga at dawn, followed by breakfast on the ocean terrace. Indulge in an exclusive 90-minute treatment at The Heart of the Earth Spa, featuring crystal singing bowls and therapeutic herbal bodywork.<br><br>In the evening, take a short private transfer into Hoi An Ancient Town for an exclusive candlelit dinner in a historic merchant courtyard arranged by your AGS concierge."
+    },
+    {
+      "day": 5,
+      "title": "Grand Coastal Links Finale at Hoiana Shores",
+      "subtitle": "Round 3: RTJ II World Top 100 Links",
+      "courseName": "Hoiana Shores Golf Club",
+      "courseHref": "/courses/vietnam/hoiana-shores/",
+      "architect": "Robert Trent Jones Jr.",
+      "stayName": "Four Seasons Resort The Nam Hai",
+      "stayHref": "/accommodations/vietnam/four-seasons-nam-hai/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-east-sea-links-3.webp",
+      "imageCaption": "Hoiana Shores Golf Club — Robert Trent Jones Jr. (Par 72, 7,309 Yards)",
+      "imageAlt": "Hoiana Shores Golf Club championship golf course Robert Trent Jones Jr. Asia Golf Specialists",
+      "description": "Take on Robert Trent Jones II’s links masterpiece, <a href=\"/courses/vietnam/hoiana-shores/\">Hoiana Shores Golf Club</a>. Exposed entirely to the coastal breezes of the East Sea, this pristine links features firm, fast Zeon Zoysia fairways that reward bump-and-run tactics and imaginative short-game creativity.<br><br>Celebrate the finale of your golf circuit with craft cocktails on the clubhouse terrace before returning to The Nam Hai for an exquisite private seafood beach barbecue right outside your villa."
+    },
+    {
+      "day": 6,
+      "title": "Bespoke Culinary & Beachfront Day of Rest",
+      "subtitle": "Private Beach Leisure",
+      "stayName": "Four Seasons Resort The Nam Hai",
+      "stayHref": "/accommodations/vietnam/four-seasons-nam-hai/",
+      "transferTime": "At leisure at the resort",
+      "image": "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-suite-5.webp",
+      "imageCaption": "Four Seasons Resort The Nam Hai — Luxury Sanctuary Base",
+      "imageAlt": "Four Seasons Resort The Nam Hai luxury accommodation Asia Golf Specialists",
+      "description": "Wake up to the sound of breaking waves and savor a relaxed tropical breakfast. Spend the day lounging on your beachfront sun terrace, kayaking along the Ha My shoreline, or taking a tailored Vietnamese cooking masterclass at the resort’s organic farm.<br><br>Gather for a final sunset dinner at The Nam Hai’s Beach Bar, sipping vintage champagne and reflecting on a magnificent week of world-class golf and ocean luxury."
+    },
+    {
+      "day": 7,
+      "title": "VIP Departure via Da Nang International Airport",
+      "subtitle": "Departure",
+      "stayName": "Four Seasons Resort The Nam Hai",
+      "stayHref": "/accommodations/vietnam/four-seasons-nam-hai/",
+      "transferTime": "25 mins to DAD Airport",
+      "image": "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-beach-pool-1.webp",
+      "imageCaption": "Four Seasons Resort The Nam Hai — Luxury Sanctuary Base",
+      "imageAlt": "Four Seasons Resort The Nam Hai luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a final morning swim in your private pool before completing an effortless checkout coordinated by your personal Four Seasons villa host and AGS concierge.<br><br>Your private luxury transfer delivers your party to Da Nang International Airport in executive comfort, concluding your prestige golf vacation."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes The Nam Hai villas unique?",
+      "answer": "Each villa features indoor/outdoor living, freestanding bathtubs, private sun decks, and unobstructed East Sea beachfront access."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Antigravity Indexer Ignore File
+node_modules/
+.next/
+.vercel/
+out/
+build/
+.tsbuildinfo
+.env*
+*.pptx
+*.pdf
+*.zip
+*.xml
+*.html
+*.txt
+*.csv
+package-lock.json

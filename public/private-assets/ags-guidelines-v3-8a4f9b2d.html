@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Asia Golf Specialists — Brand Guidelines</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #020617;
+  --navy-alt: #0A1128;
+  --gold: #D4AF37;
+  --cream: #F5F1E6;
+  --white: #F8FAFC;
+  --grey: #6B7280;
+  --sky: #6B9ECA;
+  --orange: #BF5700;
+  --crimson: #A51C30;
+  --green: #004225;
+  --purple: #5D3F6A;
+}
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; font-size:16px; }
+body { font-family:'Montserrat',sans-serif; color:var(--navy); background:var(--cream); line-height:1.7; }
+
+/* NAV */
+.brand-nav { position:fixed; top:0; left:0; width:100%; z-index:100; background:var(--navy); padding:12px 40px; display:flex; align-items:center; gap:32px; }
+.brand-nav a { color:var(--cream); text-decoration:none; font-size:11px; letter-spacing:2px; text-transform:uppercase; font-weight:500; opacity:.7; transition:opacity .3s; }
+.brand-nav a:hover,.brand-nav a.active { opacity:1; }
+.brand-nav .nav-logo { height:28px; margin-right:auto; }
+
+/* SECTIONS */
+.section { padding:100px 80px; position:relative; }
+.section-dark { background:var(--navy); color:var(--cream); }
+.section-cream { background:var(--cream); color:var(--navy); }
+.section-white { background:#fff; color:var(--navy); }
+
+.section-number { font-family:'Montserrat',sans-serif; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); font-weight:600; margin-bottom:8px; display:block; }
+.section-title { font-family:'Playfair Display',serif; font-size:clamp(2rem,4vw,3.2rem); font-weight:700; margin-bottom:16px; line-height:1.15; }
+.section-subtitle { font-family:'Playfair Display',serif; font-size:clamp(1.2rem,2vw,1.6rem); font-weight:400; font-style:italic; margin-bottom:40px; opacity:.7; }
+.section-intro { max-width:680px; font-size:15px; line-height:1.8; margin-bottom:48px; color:inherit; opacity:.85; }
+
+/* GRID LAYOUTS */
+.two-col { display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:start; }
+.three-col { display:grid; grid-template-columns:repeat(3,1fr); gap:40px; }
+.four-col { display:grid; grid-template-columns:repeat(4,1fr); gap:32px; }
+
+/* HERO */
+.hero { height:100vh; min-height:700px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; position:relative; overflow:hidden; background:var(--navy); }
+.hero-bg { position:absolute; inset:0; background-size:cover; background-position:center; opacity:.35; }
+.hero-content { position:relative; z-index:2; padding:40px; }
+.hero-logo { width:160px; margin-bottom:40px; }
+.hero h1 { font-family:'Playfair Display',serif; font-size:clamp(2.5rem,5vw,4.5rem); color:var(--cream); font-weight:700; margin-bottom:16px; letter-spacing:-1px; }
+.hero .tagline { font-family:'Montserrat',sans-serif; font-size:12px; letter-spacing:4px; text-transform:uppercase; color:var(--gold); font-weight:500; }
+.hero .version { position:absolute; bottom:40px; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:rgba(245,241,230,.4); }
+
+/* IMAGERY SECTIONS */
+.image-banner { width:100%; height:320px; object-fit:cover; display:block; }
+.image-banner-tall { height:480px; }
+.section-header-image { position:relative; overflow:hidden; }
+.section-header-image .overlay { position:absolute; inset:0; background:linear-gradient(to bottom,rgba(2,6,23,.6),rgba(2,6,23,.85)); display:flex; flex-direction:column; justify-content:flex-end; padding:60px 80px; }
+
+/* COLOR SWATCHES */
+.swatch-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:24px; }
+.swatch { border-radius:12px; overflow:hidden; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,.08); }
+.swatch-color { height:120px; }
+.swatch-info { padding:16px; }
+.swatch-name { font-weight:600; font-size:14px; margin-bottom:6px; }
+.swatch-hex { font-family:'Montserrat',monospace; font-size:12px; color:var(--grey); }
+.swatch-role { font-size:11px; color:var(--grey); margin-top:4px; }
+
+/* LOGO DISPLAY */
+.logo-showcase { display:grid; grid-template-columns:1fr 1fr; gap:0; }
+.logo-box { padding:80px 60px; display:flex; align-items:center; justify-content:center; }
+.logo-box img { max-width:280px; max-height:200px; object-fit:contain; }
+.logo-box-light { background:var(--cream); }
+.logo-box-dark { background:var(--navy); }
+
+/* TYPOGRAPHY SPECIMEN */
+.type-specimen { margin-bottom:40px; }
+.type-specimen .sample { font-size:clamp(2rem,4vw,3.5rem); margin-bottom:8px; line-height:1.2; }
+.type-specimen .meta { font-size:12px; color:var(--grey); letter-spacing:1px; text-transform:uppercase; }
+
+/* DO/DONT */
+.do-dont { display:grid; grid-template-columns:1fr 1fr; gap:40px; }
+.do-card,.dont-card { padding:32px; border-radius:8px; }
+.do-card { background:rgba(0,66,37,.06); border-left:3px solid var(--green); }
+.dont-card { background:rgba(165,28,48,.06); border-left:3px solid var(--crimson); }
+.do-card h4,.dont-card h4 { font-size:13px; letter-spacing:2px; text-transform:uppercase; margin-bottom:16px; font-weight:600; }
+.do-card h4 { color:var(--green); }
+.dont-card h4 { color:var(--crimson); }
+.do-card li,.dont-card li { font-size:14px; margin-bottom:8px; line-height:1.6; }
+
+/* PILLAR CARDS */
+.pillar-card { padding:32px; background:#fff; border-radius:8px; border:1px solid rgba(2,6,23,.08); }
+.pillar-card .num { font-family:'Playfair Display',serif; font-size:2.5rem; color:var(--gold); font-weight:700; margin-bottom:8px; }
+.pillar-card h3 { font-family:'Playfair Display',serif; font-size:1.2rem; margin-bottom:12px; }
+.pillar-card p { font-size:13px; line-height:1.7; color:var(--grey); }
+
+/* IMAGE GRID */
+.image-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:4px; }
+.image-grid img { width:100%; height:240px; object-fit:cover; display:block; }
+
+/* EXCLUSION ZONE */
+.exclusion-demo { background:var(--cream); border:2px dashed var(--gold); padding:60px; display:flex; align-items:center; justify-content:center; position:relative; border-radius:8px; }
+.exclusion-demo img { max-width:160px; }
+.exclusion-demo .zone { position:absolute; border:1px dashed rgba(212,175,55,.5); inset:30px; pointer-events:none; }
+
+/* VOICE CARD */
+.voice-card { background:var(--navy); color:var(--cream); padding:40px; border-radius:8px; margin-bottom:24px; }
+.voice-card h3 { font-family:'Playfair Display',serif; font-size:1.3rem; margin-bottom:12px; color:var(--gold); }
+.voice-card p { font-size:14px; line-height:1.8; opacity:.85; }
+
+/* MISC */
+.gold-divider { width:60px; height:2px; background:var(--gold); margin:32px 0; }
+.tag { display:inline-block; font-size:10px; letter-spacing:2px; text-transform:uppercase; font-weight:600; padding:4px 12px; border:1px solid var(--gold); color:var(--gold); border-radius:2px; margin-bottom:16px; }
+blockquote { font-family:'Playfair Display',serif; font-size:1.4rem; font-style:italic; border-left:3px solid var(--gold); padding-left:24px; margin:32px 0; line-height:1.6; }
+ul { list-style:none; }
+ul li { padding-left:20px; position:relative; margin-bottom:8px; }
+ul li::before { content:''; position:absolute; left:0; top:10px; width:6px; height:6px; background:var(--gold); border-radius:50%; }
+.section-dark ul li::before { background:var(--gold); }
+
+/* MISUSE GRID */
+.misuse-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+.misuse-item { text-align:center; padding:24px; background:rgba(165,28,48,.04); border-radius:8px; border:1px solid rgba(165,28,48,.12); }
+.misuse-item .icon { font-size:2rem; margin-bottom:8px; color:var(--crimson); }
+.misuse-item p { font-size:12px; color:var(--grey); }
+
+/* APPLICATION CARD */
+.app-card { border-radius:8px; overflow:hidden; background:#fff; box-shadow:0 4px 20px rgba(0,0,0,.08); }
+.app-card img { width:100%; height:200px; object-fit:cover; }
+.app-card .app-info { padding:20px; }
+.app-card h4 { font-size:14px; font-weight:600; margin-bottom:6px; }
+.app-card p { font-size:12px; color:var(--grey); line-height:1.6; }
+
+/* PRINT-ONLY ELEMENTS (hidden on screen) */
+.print-break { display: none; }
+
+/* PRINT — BROCHURE QUALITY */
+@media print {
+  /* Force backgrounds */
+  *, *::before, *::after { -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; color-adjust:exact !important; }
+
+  /* Remove browser header/footer — @page margin:0 pushes them off-page */
+  @page { size:A4 landscape; margin:0; }
+  html, body { margin:0; padding:0; font-size:8pt; line-height:1.35; }
+
+  .brand-nav { display:none !important; }
+  a[href]:after { content:none !important; }
+
+  /* ── SECTIONS: flow naturally, NO automatic breaks ── */
+  .section { padding:8mm 16mm !important; margin:0; }
+  .section-dark  { background:var(--navy) !important; color:var(--cream) !important; }
+  .section-cream { background:var(--cream) !important; }
+  .section-white { background:#fff !important; }
+
+  /* ── HERO ── */
+  .hero { height:auto; min-height:auto; padding:20mm 16mm !important; page-break-after:always; background:var(--navy) !important; }
+  .hero-bg { opacity:.2; }
+  .hero-logo { width:80px; margin-bottom:16px; }
+  .hero h1 { font-size:2rem; }
+  .hero .version { position:static; margin-top:24px; }
+
+  /* ── SECTION HEADER IMAGES — small banners, NOT full pages ── */
+  .section-header-image { page-break-before:auto; break-before:auto; }
+  .section-header-image .overlay { padding:8mm 16mm !important; min-height:auto; }
+  .image-banner { height:80px; }
+  .image-banner-tall { height:100px; }
+
+  /* ── COMPACT TYPOGRAPHY ── */
+  .section-title { font-size:14pt; margin-bottom:6px; }
+  .section-intro { font-size:8pt; margin-bottom:10px; line-height:1.35; max-width:none; }
+  .section-number { font-size:7px; margin-bottom:2px; letter-spacing:2px; }
+  .gold-divider { margin:6px 0; }
+  blockquote { font-size:.9rem; margin:8px 0; padding-left:12px; }
+  h3 { margin-bottom:8px !important; }
+  p { margin-bottom:6px; }
+
+  /* ── GRIDS ── */
+  .two-col   { gap:16px; }
+  .three-col { gap:12px; }
+  .four-col  { gap:10px; }
+
+  /* ── PILLAR CARDS ── */
+  .pillar-card { padding:8px 10px; }
+  .pillar-card .num { font-size:1.2rem; margin-bottom:2px; }
+  .pillar-card h3 { font-size:.85rem; margin-bottom:4px; }
+  .pillar-card p { font-size:7.5px; line-height:1.3; }
+
+  /* ── VOICE CARDS ── */
+  .voice-card { padding:10px 14px; margin-bottom:6px; background:var(--navy) !important; }
+  .voice-card h3 { font-size:.85rem; margin-bottom:3px; }
+  .voice-card p { font-size:7.5px; line-height:1.3; }
+
+  /* ── DO/DONT ── */
+  .do-card, .dont-card { padding:10px 14px; }
+  .do-card li, .dont-card li { font-size:7.5px; margin-bottom:1px; }
+  .do-card h4, .dont-card h4 { font-size:9px; margin-bottom:6px; }
+
+  /* ── SWATCHES ── */
+  .swatch-color { height:30px; }
+  .swatch-info { padding:4px 8px; }
+  .swatch-name { font-size:8px; margin-bottom:1px; }
+  .swatch-hex { font-size:7px; }
+  .swatch-role { font-size:6px; }
+
+  /* ── LOGOS ── */
+  .logo-showcase { break-inside:avoid; }
+  .logo-box { padding:20px 16px; }
+  .logo-box img { max-width:150px; max-height:110px; }
+
+  /* ── BRAND MARKS DETAILS ── */
+  .exclusion-demo { padding:16px; }
+  .exclusion-demo img { max-width:80px; }
+  .misuse-grid { gap:8px; }
+  .misuse-item { padding:6px; }
+  .misuse-item .icon { font-size:1.2rem; margin-bottom:2px; }
+  .misuse-item p { font-size:7.5px; }
+
+  /* ── TYPE SPECIMENS ── */
+  .type-specimen { margin-bottom:10px; }
+  .type-specimen .sample { font-size:1rem !important; margin-bottom:2px; }
+  .type-specimen .meta { font-size:7.5px; }
+
+  /* ── IMAGE/APP GRIDS ── */
+  .image-grid img { height:100px; }
+  .app-card img { height:80px; }
+  .print-img { width:100%; height:60px; object-fit:cover; margin:6px 0; border-radius:4px; }
+
+  /* ── BREAK CONTROL: only small components avoid breaks ── */
+  .pillar-card, .voice-card, .do-card, .dont-card, .type-specimen, .swatch-grid, .logo-showcase { break-inside:avoid; }
+  .four-col, .three-col, .do-dont { break-inside:avoid; }
+
+  /* ── EXPLICIT BREAKS ── */
+  .print-break { display:block !important; height:0; page-break-before:always; break-before:page; }
+
+  /* ── SECTION-SPECIFIC: merge header bars into content ── */
+  #colors, #typography, #digital { page-break-after:avoid; break-after:avoid; }
+  #colors + .section, #typography + .section, #digital + .section { page-break-before:avoid; break-before:avoid; break-inside:auto; }
+}
+
+@media (max-width:768px) {
+  .section { padding:60px 24px; }
+  .two-col,.three-col,.four-col { grid-template-columns:1fr; }
+  .logo-showcase { grid-template-columns:1fr; }
+  .do-dont { grid-template-columns:1fr; }
+  .brand-nav { padding:12px 16px; gap:16px; overflow-x:auto; }
+  .section-header-image .overlay { padding:40px 24px; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="brand-nav">
+  <img src="guidelines-images/club-mark-white-alpha.png" alt="AGS" class="nav-logo">
+  <a href="#home">Home</a>
+  <a href="#strategy">Strategy</a>
+  <a href="#voice">Voice</a>
+  <a href="#brandmarks">Brandmarks</a>
+  <a href="#colors">Colors</a>
+  <a href="#typography">Typography</a>
+  <a href="#imagery">Imagery</a>
+  <a href="#digital">Digital</a>
+  <a href="#applications">Applications</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg" style="background-image:url('guidelines-images/bluffs-hero-strip.webp')"></div>
+  <div class="hero-content">
+    <img src="guidelines-images/club-mark-white-alpha.png" alt="Asia Golf Specialists" class="hero-logo">
+    <div class="tagline">Brand Identity Guidelines</div>
+    <h1>Asia Golf<br>Specialists</h1>
+    <div class="gold-divider" style="margin:24px auto"></div>
+    <p style="color:var(--cream);opacity:.6;font-size:13px;letter-spacing:1px">Strictly Confidential &bull; Version 3.0 &bull; 2026</p>
+  </div>
+  <span class="version">The Definitive Standard &mdash; Visual Integrity &amp; Brand Architecture</span>
+</section>
+
+<!-- INTRO -->
+<section class="section section-cream" style="text-align:center;padding-top:120px">
+  <span class="section-number">Introduction</span>
+  <h2 class="section-title">Our Brand Standards</h2>
+  <div class="gold-divider" style="margin:16px auto 32px"></div>
+  <p style="max-width:700px;margin:0 auto;font-size:15px;line-height:1.9;opacity:.8">
+    This document defines the brand identity standards for Asia Golf Specialists. It establishes our strategic positioning, visual identity, verbal framework, and the rules that govern how we present ourselves across every touchpoint&mdash;from digital platforms to physical collateral.<br><br>
+    Consistent application of these guidelines builds brand equity, earns trust, and ensures that every interaction with AGS communicates the same message: <em>uncompromising excellence in Southeast Asian golf.</em>
+  </p>
+</section>
+
+<!-- ===== SECTION 1: BRAND STRATEGY ===== -->
+<div class="section-header-image" id="strategy">
+  <img src="guidelines-images/intercontinental-danang.webp" alt="Southeast Asian heritage" class="image-banner image-banner-tall">
+  <div class="overlay">
+    <span class="section-number" style="color:var(--gold)">01</span>
+    <h2 class="section-title" style="color:var(--cream)">Brand Strategy</h2>
+    <p class="section-subtitle" style="color:var(--cream)">Purpose, Positioning &amp; Promise</p>
+  </div>
+</div>
+
+<section class="section section-cream">
+  <div class="two-col">
+    <div>
+      <span class="section-number">1.1 &mdash; Our Mission</span>
+      <h3 class="section-title" style="font-size:1.8rem">The Purpose</h3>
+      <div class="gold-divider"></div>
+      <p class="section-intro">To curate and execute the most uncompromising, elite golf touring experiences in Southeast Asia for those who demand championship standards.</p>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">We exist at the intersection of high-end property curation and professional golf logistics. AGS does not just book trips&mdash;we architect elite escapes. Every detail, from tee-time sequencing to villa selection, is orchestrated with the precision of a championship event.</p>
+    </div>
+    <div>
+      <span class="section-number">1.2 &mdash; The Promise</span>
+      <h3 class="section-title" style="font-size:1.8rem">What We Guarantee</h3>
+      <div class="gold-divider"></div>
+      <blockquote>&ldquo;You focus on your game. We focus on everything else.&rdquo;</blockquote>
+      <p style="font-size:14px;line-height:1.8;opacity:.8;margin-top:24px">This is the contract between AGS and our clients. We remove the weight of coordination, providing a seamless framework that allows the group to focus entirely on the game and shared company. Our promise is total elimination of travel friction.</p>
+      <div class="tag" style="margin-top:24px">Expertly Curated. Effortlessly Played.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-white">
+  <span class="section-number">1.3 &mdash; Brand Archetype</span>
+  <h3 class="section-title" style="font-size:1.8rem;margin-bottom:8px">The Elite Curator</h3>
+  <p class="section-intro">Confident, sophisticated, and uncompromisingly professional. We are the insider who knows the guy, secures the velvet rope, and speaks with the authority of a course designer.</p>
+
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:48px">
+    <div style="padding:24px;background:var(--cream);border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Core Traits</h4>
+      <ul>
+        <li>Confident and overqualified</li>
+        <li>Savvy and deeply connected</li>
+        <li>Unapologetically premium</li>
+      </ul>
+    </div>
+    <div style="padding:24px;background:var(--cream);border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">We Are</h4>
+      <ul>
+        <li>The authority on Asian golf</li>
+        <li>Australian expats with local mastery</li>
+        <li>Award-winning stewards</li>
+      </ul>
+    </div>
+    <div style="padding:24px;background:var(--cream);border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">We Are Not</h4>
+      <ul>
+        <li>A budget travel agency</li>
+        <li>A generic booking platform</li>
+        <li>Competing on price</li>
+      </ul>
+    </div>
+  </div>
+
+  <span class="section-number">1.4 &mdash; Target Audience</span>
+  <h3 class="section-title" style="font-size:1.8rem;margin-bottom:8px">Who We Command</h3>
+  <p class="section-intro">Our primary audience is the high-net-worth Australian golfer&mdash;Male, 45&ndash;65, business owner or C-level executive. Driven by comfort, efficiency, exclusivity, and flawless fairways. Beyond our Australian core, we target affluent golfers across Asia Pacific markets, as well as European and US travellers seeking elite Southeast Asian golf experiences.</p>
+  <div class="two-col">
+    <div style="padding:24px;background:var(--cream);border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Pain Points</h4>
+      <ul>
+        <li>Escaping the Australian winter</li>
+        <li>Logistically overwhelmed organising 8&ndash;12 executives</li>
+        <li>Uncertainty about Southeast Asian course quality</li>
+        <li>Unwilling to risk a substandard group experience</li>
+      </ul>
+    </div>
+    <div style="padding:24px;background:var(--cream);border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Aspirations</h4>
+      <ul>
+        <li>To be the hero of the group without lifting a finger</li>
+        <li>Access to courses and experiences unavailable to tourists</li>
+        <li>A getaway that rivals (and exceeds) domestic options</li>
+        <li>Seamless door-to-door luxury from Melbourne to the first tee</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-cream">
+  <span class="section-number">1.5 &mdash; The Four Pillars</span>
+  <h3 class="section-title" style="font-size:1.8rem;margin-bottom:32px">Strategic Brand Pillars</h3>
+  <div class="four-col">
+    <div class="pillar-card">
+      <div class="num">01</div>
+      <h3>Technical Dominance</h3>
+      <p>We speak with ultimate authority on course architecture, agronomy, conditioning, and designer pedigree. Greg Norman, Nick Faldo, Robert Trent Jones Jr.&mdash;we know the work intimately.</p>
+    </div>
+    <div class="pillar-card">
+      <div class="num">02</div>
+      <h3>Escapism Curator</h3>
+      <p>We architect high-end, frictionless escapes spanning the fairway to the five-star penthouse. Narrative-driven experiences that transport clients to &ldquo;where you could be.&rdquo;</p>
+    </div>
+    <div class="pillar-card">
+      <div class="num">03</div>
+      <h3>Local Guardian</h3>
+      <p>We possess ground-level supremacy. The insider&rsquo;s edge on navigating local customs, hidden gems, and experiences that no search engine can surface. Australian expats with decade-deep regional roots.</p>
+    </div>
+    <div class="pillar-card">
+      <div class="num">04</div>
+      <h3>Prestige Network</h3>
+      <p>An AGS client is an insider. Status-driven access to the velvet rope treatment&mdash;priority tee times, private clubhouse dining, and relationships that money alone cannot buy.</p>
+    </div>
+  </div>
+</section>
+
+<img src="guidelines-images/laguna-championship.webp" alt="Laguna Golf Lăng Cô championship layout" style="width:100%;height:200px;object-fit:cover;display:block">
+
+<section class="section section-dark">
+  <span class="section-number">1.6 &mdash; The Core Arguments</span>
+  <h3 class="section-title" style="font-size:1.8rem;margin-bottom:32px">Why Southeast Asia. Why Now. Why Us.</h3>
+  <div class="three-col">
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">The Seasonal Advantage</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">We prioritise conditions over the calendar. By targeting Central Vietnam&rsquo;s &ldquo;Golden Windows&rdquo;&mdash;February to May and September to October&mdash;we ensure every round is played on flawless fairways during the region&rsquo;s absolute peak.</p>
+    </div>
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Effortless Camaraderie</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">A journey for refined travellers should never be burdened by logistics. We remove the weight of coordination, providing a seamless framework that allows the group to focus entirely on the game and shared company.</p>
+    </div>
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">World-Class Provenance</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">Vietnam is the elite golf frontier. We provide exclusive access to modern masterpieces by world-renowned architects, ranging from rugged coastal links to lush mountain-valley courses&mdash;each a study in design excellence.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 2: BRAND VOICE ===== -->
+<div class="section-header-image" id="voice">
+  <img src="guidelines-images/bluffs-ocean.webp" alt="Luxury golf detail" class="image-banner">
+  <div class="overlay">
+    <span class="section-number" style="color:var(--gold)">02</span>
+    <h2 class="section-title" style="color:var(--cream)">Brand Voice</h2>
+    <p class="section-subtitle" style="color:var(--cream)">The &ldquo;Aussie Wit&rdquo; Protocol</p>
+  </div>
+</div>
+
+<section class="section section-cream">
+  <div class="two-col">
+    <div>
+      <span class="section-number">2.1 &mdash; Overview</span>
+      <h3 class="section-title" style="font-size:1.8rem">How We Speak</h3>
+      <div class="gold-divider"></div>
+      <p style="font-size:14px;line-height:1.8;opacity:.85;margin-bottom:24px">AGS speaks to the high-net-worth Australian golfer. The voice must be <strong>Direct</strong>, <strong>Masculine</strong>, and <strong>Sophisticated</strong>&mdash;with a distinctly Australian undercurrent.</p>
+      <p style="font-size:14px;line-height:1.8;opacity:.85;margin-bottom:24px">We are warm and conversational but never casual. We speak with the confidence of someone who has played every course, stayed in every villa, and negotiated every transfer. Our authority is earned, not declared.</p>
+      <p style="font-size:14px;line-height:1.8;opacity:.85">We adapt our tone depending on the channel. Social media allows for more playful wit; the website demands editorial precision; itineraries require clinical clarity. The underlying voice&mdash;confident, insider, premium&mdash;remains constant.</p>
+    </div>
+    <div>
+      <div class="voice-card">
+        <h3>Personality</h3>
+        <p>Conversational but authoritative. We speak with confidence, providing reassurance to our clients while being witty and light-hearted when the moment calls for it. Our attitude is empathetic, engaged, and distinctly Australian.</p>
+      </div>
+      <div class="voice-card">
+        <h3>Language</h3>
+        <p>A mix of short, punchy directives and longer, evocative descriptions. Our style is informal but never sloppy. We use subtle Australian colloquialisms&mdash;&ldquo;sorted,&rdquo; &ldquo;track,&rdquo; &ldquo;layout&rdquo;&mdash;woven naturally into premium copy.</p>
+      </div>
+      <div class="voice-card">
+        <h3>Feeling</h3>
+        <p>The reader should feel they&rsquo;re speaking with a trusted mate who happens to be an elite concierge. Not a corporation. Not a chatbot. A person who genuinely wants them to have the trip of a lifetime.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-white">
+  <span class="section-number">2.2 &mdash; Verbal Anchors</span>
+  <h3 class="section-title" style="font-size:1.8rem;margin-bottom:32px">Taglines &amp; Boilerplate</h3>
+  <div class="three-col" style="margin-bottom:48px">
+    <div style="padding:32px;background:var(--navy);border-radius:8px;color:var(--cream);text-align:center">
+      <div class="tag" style="margin-bottom:16px">Primary Tagline</div>
+      <p style="font-family:'Playfair Display',serif;font-size:1.4rem;font-style:italic;line-height:1.5">&ldquo;Expertly Curated.<br>Effortlessly Played.&rdquo;</p>
+    </div>
+    <div style="padding:32px;background:var(--navy);border-radius:8px;color:var(--cream);text-align:center">
+      <div class="tag" style="margin-bottom:16px">Secondary Tagline</div>
+      <p style="font-family:'Playfair Display',serif;font-size:1.4rem;font-style:italic;line-height:1.5">&ldquo;Insider expertise meets world-class execution.&rdquo;</p>
+    </div>
+    <div style="padding:32px;background:var(--navy);border-radius:8px;color:var(--cream);text-align:center">
+      <div class="tag" style="margin-bottom:16px">The Rally Cry</div>
+      <p style="font-family:'Playfair Display',serif;font-size:1.4rem;font-style:italic;line-height:1.5">&ldquo;Gather the mates. We set the championship stage.&rdquo;</p>
+    </div>
+  </div>
+
+  <div style="max-width:700px;padding:32px;background:var(--cream);border-radius:8px;border-left:3px solid var(--gold)">
+    <h4 style="font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Official Boilerplate</h4>
+    <p style="font-size:14px;line-height:1.8;font-style:italic;opacity:.85">Asia Golf Specialists (AGS) is the definitive bridge to Southeast Asia&rsquo;s elite golf landscapes. Founded and led by an award-winning team of Australian expat golfers, we provide the first-hand regional expertise required to navigate the frontier of Asian golf. We combine professional stewardship with deep local knowledge to eliminate the friction of travel.</p>
+  </div>
+</section>
+
+<section class="section section-cream">
+  <span class="section-number">2.3 &mdash; Copywriting Standards</span>
+  <h3 class="section-title" style="font-size:1.8rem;margin-bottom:32px">Do&rsquo;s &amp; Don&rsquo;ts</h3>
+  <div class="do-dont">
+    <div class="do-card">
+      <h4>&#10003; Do</h4>
+      <ul>
+        <li>Speak in directives: &ldquo;Assemble the mates.&rdquo;</li>
+        <li>Flex technical knowledge: mention course designers, agronomy, local conditions</li>
+        <li>Use subtle Aussie colloquialisms: &ldquo;All good,&rdquo; &ldquo;track,&rdquo; &ldquo;layout,&rdquo; &ldquo;sorted&rdquo;</li>
+        <li>Prioritise clarity and brevity</li>
+        <li>Use active voice exclusively</li>
+        <li>Lead with benefits, not features</li>
+        <li>Reference specific course architects by name</li>
+      </ul>
+    </div>
+    <div class="dont-card">
+      <h4>&#10007; Don&rsquo;t</h4>
+      <ul>
+        <li>Use cheap marketing jargon: &ldquo;Unlock,&rdquo; &ldquo;Synergy,&rdquo; &ldquo;Solutions&rdquo;</li>
+        <li>Beg for the sale or use desperate urgency</li>
+        <li>Use passive voice</li>
+        <li>Be generic: &ldquo;5-star hotel&rdquo; or &ldquo;world-class experience&rdquo;</li>
+        <li>Over-explain or use filler words</li>
+        <li>Use emojis in formal communications</li>
+        <li>Compete on price or mention discounts</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<img src="guidelines-images/banyan-tree-resort.webp" alt="Banyan Tree Lăng Cô luxury resort" style="width:100%;height:200px;object-fit:cover;display:block">
+
+<section class="section section-dark">
+  <span class="section-number">2.4 &mdash; Tone Across Channels</span>
+  <h3 class="section-title" style="font-size:1.8rem;margin-bottom:32px">Adapting Our Voice</h3>
+  <div class="three-col">
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Website &amp; Itineraries</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">Editorial precision. Authoritative and evocative. Long-form descriptions paint the scene; technical details build trust. The website is our flagship&mdash;every word must earn its place.</p>
+    </div>
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Social Media</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">More playful and conversational. Room for Aussie wit and punchy one-liners. Visual-first, with copy that supports rather than leads. Hashtags are functional, not decorative.</p>
+    </div>
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Email &amp; Direct Communication</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">Personal and warm. First-person &ldquo;we&rdquo; preferred. Sign-offs are human: &ldquo;See you on the fairway.&rdquo; We write like a trusted friend with insider access, not a sales funnel.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 3: BRANDMARKS ===== -->
+<div class="section-header-image" id="brandmarks">
+  <div style="background:var(--navy);height:120px;display:flex;align-items:flex-end;padding:0 80px 24px">
+    <span class="section-number" style="color:var(--gold)">03</span>
+    <h2 class="section-title" style="color:var(--cream);margin-left:16px;font-size:1.8rem;margin-bottom:0">The Brand Marks</h2>
+  </div>
+</div>
+
+<section class="section section-cream">
+  <span class="section-number">3.1 &mdash; The Logo</span>
+  <h3 class="section-title" style="font-size:1.8rem">Primary Lockup</h3>
+  <p class="section-intro">Our logo consists of two elements: the Erawan monogram and the &ldquo;Asia Golf Specialists&rdquo; wordmark. These elements are always presented together in the primary lockup, or the monogram may appear independently. The wordmark is never used alone.</p>
+
+  <div class="logo-showcase" style="border-radius:8px;overflow:hidden;margin-bottom:48px">
+    <div class="logo-box logo-box-light">
+      <div style="text-align:center">
+        <img src="guidelines-images/logo-horizontal-navy.png" alt="AGS Logo - Light" style="max-width:380px">
+        <p style="margin-top:16px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--grey)">Primary Lockup &mdash; Light Background</p>
+      </div>
+    </div>
+    <div class="logo-box logo-box-dark">
+      <div style="text-align:center">
+        <img src="guidelines-images/logo-horizontal-navy.png" alt="AGS Logo - Dark" style="max-width:380px;filter:brightness(0) invert(1)">
+        <p style="margin-top:16px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(245,241,230,.5)">Primary Lockup &mdash; Dark Background</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-white">
+  <span class="section-number">3.2 &mdash; The Erawan Monogram</span>
+  <h3 class="section-title" style="font-size:1.8rem">The Club Mark</h3>
+  <p class="section-intro">The Erawan&mdash;the three-headed elephant of Southeast Asian mythology&mdash;is our brand symbol. It represents wisdom, strength, and the interconnection of our three pillars: golf, travel, and cultural immersion. The crossed golf clubs and ball complete the &ldquo;Club Mark&rdquo; variant, which is our <strong>only approved monogram</strong>.</p>
+  <p style="font-size:14px;line-height:1.8;opacity:.85;margin-bottom:32px;max-width:680px"><strong>Design recommendation:</strong> The <strong>filled silhouette</strong> version is the primary monogram. It delivers the strongest visual impact at any scale, reproduces cleanly in single-colour applications (embroidery, debossing, digital favicons), and maintains legibility from billboard to golf ball. The outline variant is the secondary option for contexts requiring a lighter, more detailed aesthetic&mdash;such as stationery or editorial layouts.</p>
+
+  <div class="logo-showcase" style="border-radius:8px;overflow:hidden;margin-bottom:32px">
+    <div class="logo-box logo-box-light" style="flex-direction:column">
+      <img src="guidelines-images/club-mark-navy-alpha.png" alt="Club Mark - Navy" style="max-width:180px">
+      <p style="margin-top:16px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--grey)">Filled &mdash; Primary</p>
+    </div>
+    <div class="logo-box logo-box-dark" style="flex-direction:column">
+      <img src="guidelines-images/club-mark-white-alpha.png" alt="Club Mark - White" style="max-width:180px">
+      <p style="margin-top:16px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.5)">Filled &mdash; Reversed</p>
+    </div>
+  </div>
+  <div class="logo-showcase" style="border-radius:8px;overflow:hidden">
+    <div class="logo-box logo-box-light" style="flex-direction:column">
+      <img src="guidelines-images/outline-navy-alpha.png" alt="Outline Club Mark" style="max-width:180px">
+      <p style="margin-top:16px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--grey)">Outline &mdash; Secondary</p>
+    </div>
+    <div class="logo-box logo-box-dark" style="flex-direction:column">
+      <img src="guidelines-images/outline-white-alpha.png" alt="Outline Club Mark - Reversed" style="max-width:180px">
+      <p style="margin-top:16px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.5)">Outline &mdash; Reversed</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-cream">
+  <div class="two-col">
+    <div>
+      <span class="section-number">3.3 &mdash; Exclusion Zone</span>
+      <h3 class="section-title" style="font-size:1.5rem">Clear Space</h3>
+      <p style="font-size:14px;line-height:1.8;opacity:.85;margin-bottom:24px">The exclusion zone ensures legibility and impact. It provides the minimum safe distance from competing visual elements. The measurement unit &ldquo;X&rdquo; equals the diameter of the golf ball within the Club Mark.</p>
+      <ul>
+        <li><strong>Logo:</strong> 2X clear space on all sides</li>
+        <li><strong>Monogram only:</strong> 1.5X clear space on all sides</li>
+      </ul>
+      <div class="exclusion-demo" style="margin-top:24px">
+        <img src="guidelines-images/club-mark-navy.webp" alt="Exclusion zone">
+        <div class="zone"></div>
+      </div>
+    </div>
+    <div>
+      <span class="section-number">3.4 &mdash; Minimum Sizes</span>
+      <h3 class="section-title" style="font-size:1.5rem">Legibility Standards</h3>
+      <p style="font-size:14px;line-height:1.8;opacity:.85;margin-bottom:24px">To ensure that impact and legibility are not compromised, minimum sizes must be observed.</p>
+      <div style="padding:24px;background:#fff;border-radius:8px;margin-bottom:16px">
+        <h4 style="font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:8px">Digital</h4>
+        <p style="font-size:14px">Full lockup: minimum <strong>120px</strong> width<br>Monogram only: minimum <strong>32px</strong> height</p>
+      </div>
+      <div style="padding:24px;background:#fff;border-radius:8px;margin-bottom:24px">
+        <h4 style="font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:8px">Print</h4>
+        <p style="font-size:14px">Full lockup: minimum <strong>35mm</strong> width<br>Monogram only: minimum <strong>10mm</strong> height</p>
+      </div>
+
+      <span class="section-number">3.5 &mdash; Logo Misuse</span>
+      <h3 class="section-title" style="font-size:1.5rem;margin-bottom:16px">Please Do Not&hellip;</h3>
+      <div class="misuse-grid" style="grid-template-columns:1fr 1fr">
+        <div class="misuse-item"><div class="icon">&#10007;</div><p>Add outlines, glows, or drop shadows</p></div>
+        <div class="misuse-item"><div class="icon">&#10007;</div><p>Rotate, skew, or distort the logo</p></div>
+        <div class="misuse-item"><div class="icon">&#10007;</div><p>Change the logo colours</p></div>
+        <div class="misuse-item"><div class="icon">&#10007;</div><p>Place on busy or low-contrast backgrounds</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 4: COLORS ===== -->
+<div class="section-header-image" id="colors">
+  <div style="background:var(--navy);height:120px;display:flex;align-items:flex-end;padding:0 80px 24px">
+    <span class="section-number" style="color:var(--gold)">04</span>
+    <h2 class="section-title" style="color:var(--cream);margin-left:16px;font-size:1.8rem;margin-bottom:0">The Chromatic Equity</h2>
+  </div>
+</div>
+
+<section class="section section-cream">
+  <span class="section-number">4.1 &mdash; Inspiration</span>
+  <h3 class="section-title" style="font-size:1.8rem">Drawn from Heritage</h3>
+  <p class="section-intro">Our colour palette draws from the landscapes and cultural heritage of Southeast Asia: the deep navy of tropical midnight skies, the burnished gold of temple spires, and the warm cream of colonial architecture. These colours convey authority, luxury, and timelessness.</p>
+  <p style="font-size:14px;line-height:1.8;opacity:.85;max-width:680px;margin-bottom:48px">To achieve greater brand recognition, our colour palette must be applied consistently. <strong>Midnight Navy is our signature colour</strong>&mdash;it should always dominate the visual hierarchy. Gold is used for strategic emphasis only, never as a primary background.</p>
+
+  <span class="section-number">4.2 &mdash; Primary Palette</span>
+  <h3 class="section-title" style="font-size:1.5rem;margin-bottom:24px">Core Foundations</h3>
+  <div class="swatch-grid" style="margin-bottom:48px">
+    <div class="swatch">
+      <div class="swatch-color" style="background:#020617"></div>
+      <div class="swatch-info">
+        <div class="swatch-name">Midnight Navy</div>
+        <div class="swatch-hex">HEX #020617 &bull; RGB 2, 6, 23</div>
+        <div class="swatch-role">Primary &mdash; All backgrounds, dark-mode surfaces, primary brand colour</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#D4AF37"></div>
+      <div class="swatch-info">
+        <div class="swatch-name">Ochre Gold</div>
+        <div class="swatch-hex">HEX #D4AF37 &bull; RGB 212, 175, 55</div>
+        <div class="swatch-role">Highlight &mdash; Borders, CTA icons, badges, accents</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#F5F1E6"></div>
+      <div class="swatch-info">
+        <div class="swatch-name">Colonial Cream</div>
+        <div class="swatch-hex">HEX #F5F1E6 &bull; RGB 245, 241, 230</div>
+        <div class="swatch-role">Secondary &mdash; Light backgrounds, matte collateral, sub-panels</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#F8FAFC;border:1px solid #e5e7eb"></div>
+      <div class="swatch-info">
+        <div class="swatch-name">Parchment White</div>
+        <div class="swatch-hex">HEX #F8FAFC &bull; RGB 248, 250, 252</div>
+        <div class="swatch-role">Contrast &mdash; Primary text on dark, high-readability surfaces</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="print-break"></div>
+
+  <span class="section-number">4.3 &mdash; Accent Palette</span>
+  <h3 class="section-title" style="font-size:1.5rem;margin-bottom:8px">The Commander&rsquo;s Ribbons</h3>
+  <p style="font-size:14px;line-height:1.8;opacity:.85;max-width:680px;margin-bottom:24px">Used sparingly for categorical markers, destination tags, and data visualisation. These accents must never compete with the primary palette.</p>
+  <div class="swatch-grid">
+    <div class="swatch">
+      <div class="swatch-color" style="background:#6B9ECA"></div>
+      <div class="swatch-info"><div class="swatch-name">Sky Blue</div><div class="swatch-hex">HEX #6B9ECA</div></div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#BF5700"></div>
+      <div class="swatch-info"><div class="swatch-name">Burnt Orange</div><div class="swatch-hex">HEX #BF5700</div></div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#A51C30"></div>
+      <div class="swatch-info"><div class="swatch-name">Crimson</div><div class="swatch-hex">HEX #A51C30</div></div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#004225"></div>
+      <div class="swatch-info"><div class="swatch-name">Racing Green</div><div class="swatch-hex">HEX #004225</div></div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#5D3F6A"></div>
+      <div class="swatch-info"><div class="swatch-name">Royal Purple</div><div class="swatch-hex">HEX #5D3F6A</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <span class="section-number">4.4 &mdash; Colour Combinations</span>
+  <h3 class="section-title" style="font-size:1.5rem;margin-bottom:16px">How Colours Work Together</h3>
+  <p style="font-size:14px;line-height:1.8;opacity:.8;max-width:680px;margin-bottom:32px">Always lead with Midnight Navy as the dominant colour. Use Ochre Gold for strategic accent only. Colonial Cream provides warmth for lighter layouts.</p>
+  <div class="three-col">
+    <div style="border-radius:8px;overflow:hidden">
+      <div style="background:#020617;padding:40px;text-align:center">
+        <span style="color:#D4AF37;font-family:'Playfair Display',serif;font-size:1.4rem">Navy + Gold</span>
+        <p style="color:var(--cream);opacity:.6;font-size:12px;margin-top:8px">Primary combination &mdash; digital &amp; print</p>
+      </div>
+    </div>
+    <div style="border-radius:8px;overflow:hidden">
+      <div style="background:#F5F1E6;padding:40px;text-align:center">
+        <span style="color:#020617;font-family:'Playfair Display',serif;font-size:1.4rem">Cream + Navy</span>
+        <p style="color:var(--grey);font-size:12px;margin-top:8px">Editorial &amp; stationery</p>
+      </div>
+    </div>
+    <div style="border-radius:8px;overflow:hidden">
+      <div style="background:#020617;padding:40px;text-align:center;border:1px solid rgba(212,175,55,.3)">
+        <span style="color:#F8FAFC;font-family:'Playfair Display',serif;font-size:1.4rem">Navy + White</span>
+        <p style="color:rgba(248,250,252,.5);font-size:12px;margin-top:8px">High-contrast digital</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 5: TYPOGRAPHY ===== -->
+<div class="section-header-image" id="typography">
+  <div style="background:var(--navy);height:120px;display:flex;align-items:flex-end;padding:0 80px 24px">
+    <span class="section-number" style="color:var(--gold)">05</span>
+    <h2 class="section-title" style="color:var(--cream);margin-left:16px;font-size:1.8rem;margin-bottom:0">Typography</h2>
+  </div>
+</div>
+
+<section class="section section-cream">
+  <span class="section-number">5.1 &mdash; Primary Typeface</span>
+  <h3 class="section-title" style="font-size:1.8rem;margin-bottom:8px">Playfair Display</h3>
+  <p class="section-intro">Our primary typeface is Playfair Display, a transitional serif with high contrast and distinctive proportions. It reinforces our &ldquo;Old Money&rdquo; aesthetic&mdash;conservative, architectural, and unmistakably premium. Playfair Display should be used for all headings, brand statements, and display typography.</p>
+
+  <div class="type-specimen" style="margin-bottom:48px">
+    <p class="sample" style="font-family:'Playfair Display',serif;font-weight:700">Aa Bb Cc Dd Ee Ff Gg Hh</p>
+    <p class="sample" style="font-family:'Playfair Display',serif;font-weight:700;font-size:2rem">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+    <p class="sample" style="font-family:'Playfair Display',serif;font-weight:400;font-size:1.5rem;font-style:italic">abcdefghijklmnopqrstuvwxyz 0123456789</p>
+    <p class="meta" style="margin-top:12px">Playfair Display &bull; Weights: 400 (Regular), 500 (Medium), 600 (SemiBold), 700 (Bold), 800 (ExtraBold) &bull; Italic available</p>
+  </div>
+
+  <div class="two-col">
+    <div>
+      <span class="section-number">5.2 &mdash; Secondary Typeface</span>
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;margin-bottom:16px">Montserrat</h3>
+      <p style="font-size:14px;line-height:1.8;opacity:.85;margin-bottom:24px">Montserrat is our workhorse sans-serif. Clean, masculine, and highly legible, it handles body text, navigation, UI labels, and all functional typography. Its geometric structure complements Playfair&rsquo;s classical elegance without competing.</p>
+      <div class="type-specimen">
+        <p class="sample" style="font-family:'Montserrat',sans-serif;font-weight:400;font-size:2rem">Aa Bb Cc Dd Ee Ff Gg Hh</p>
+        <p class="sample" style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:1.2rem;letter-spacing:2px;text-transform:uppercase">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+        <p class="meta" style="margin-top:12px">Montserrat &bull; Weights: 300, 400, 500, 600, 700</p>
+      </div>
+    </div>
+    <div>
+      <span class="section-number">5.3 &mdash; Type Hierarchy</span>
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;margin-bottom:16px">Scale &amp; Usage</h3>
+      <div style="padding:24px;background:#fff;border-radius:8px">
+        <p style="font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:700;margin-bottom:4px;line-height:1.1">H1 Headline</p>
+        <p style="font-size:11px;color:var(--grey);margin-bottom:16px">Playfair Display Bold &bull; 40&ndash;56px &bull; Line-height: 1.1</p>
+
+        <p style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:600;margin-bottom:4px;line-height:1.2">H2 Section Title</p>
+        <p style="font-size:11px;color:var(--grey);margin-bottom:16px">Playfair Display SemiBold &bull; 28&ndash;36px &bull; Line-height: 1.2</p>
+
+        <p style="font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:500;margin-bottom:4px;line-height:1.3">H3 Subsection</p>
+        <p style="font-size:11px;color:var(--grey);margin-bottom:16px">Playfair Display Medium &bull; 20&ndash;24px &bull; Line-height: 1.3</p>
+
+        <p style="font-family:'Montserrat',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:600;color:var(--gold);margin-bottom:4px">SECTION LABEL / TAG</p>
+        <p style="font-size:11px;color:var(--grey);margin-bottom:16px">Montserrat SemiBold &bull; 10&ndash;12px &bull; Uppercase &bull; Letter-spacing: 2&ndash;3px</p>
+
+        <p style="font-family:'Montserrat',sans-serif;font-size:15px;font-weight:400;margin-bottom:4px;line-height:1.7">Body text uses Montserrat at regular weight for optimal readability across all screen sizes and print formats.</p>
+        <p style="font-size:11px;color:var(--grey)">Montserrat Regular &bull; 14&ndash;16px &bull; Line-height: 1.7&ndash;1.8</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <span class="section-number">5.4 &mdash; Typography Rules</span>
+  <h3 class="section-title" style="font-size:1.5rem;margin-bottom:24px">Standards &amp; Misuse</h3>
+  <div class="three-col">
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Navigation &amp; Labels</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">All navigation items, tags, and UI labels use Montserrat in <strong>ALL CAPS</strong> with <strong>2px letter-spacing</strong>. Weight: 500&ndash;600.</p>
+    </div>
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Kerning &amp; Tracking</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">Headings: optical kerning, 0 tracking. Body: auto kerning. Uppercase labels: +2px tracking minimum. Never compress letter-spacing below 0.</p>
+    </div>
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Forbidden</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">Never use decorative or script fonts. Never stretch or compress type. Never set body text in Playfair Display. Never use light weights below 14px.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 6: IMAGERY ===== -->
+<div class="section-header-image" id="imagery">
+  <img src="guidelines-images/hoiana-championship.webp" alt="Aerial golf course" class="image-banner image-banner-tall">
+  <div class="overlay">
+    <span class="section-number" style="color:var(--gold)">06</span>
+    <h2 class="section-title" style="color:var(--cream)">Photography &amp; Imagery</h2>
+    <p class="section-subtitle" style="color:var(--cream)">Visual standards for all brand photography</p>
+  </div>
+</div>
+
+<section class="section section-cream">
+  <span class="section-number">6.1 &mdash; Photography Standards</span>
+  <h3 class="section-title" style="font-size:1.8rem">Visual DNA</h3>
+  <p class="section-intro">All AGS photography must feel like a high-end travel editorial. We do not use stock photography that looks generic or staged. Every image should make the viewer want to be there.</p>
+
+  <div class="three-col" style="margin-bottom:48px">
+    <div style="padding:24px;background:#fff;border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Lighting</h4>
+      <p style="font-size:14px;line-height:1.7">Golden hour or sunrise exclusively. Long shadows, high contrast, warm tones. Midday harsh light is never acceptable for hero or editorial imagery.</p>
+    </div>
+    <div style="padding:24px;background:#fff;border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Perspective</h4>
+      <p style="font-size:14px;line-height:1.7">Master-shot drones for course aerials. Eye-level cinematic for interiors and lifestyle. Low-angle for architectural grandeur. Never Dutch angles or extreme fisheye.</p>
+    </div>
+    <div style="padding:24px;background:#fff;border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Technical Specs</h4>
+      <p style="font-size:14px;line-height:1.7">Shot on 35mm equivalent or wider. High contrast with deep navy shadows. Ultra-realistic textures&mdash;no filters, no HDR processing. Colour-graded to match the brand palette.</p>
+    </div>
+  </div>
+
+  <span class="section-number">6.2 &mdash; Image Categories</span>
+  <h3 class="section-title" style="font-size:1.5rem;margin-bottom:24px">What We Photograph</h3>
+
+  <div class="image-grid" style="margin-bottom:16px;border-radius:8px;overflow:hidden">
+    <img src="guidelines-images/bluffs-hero.webp" alt="Championship course">
+    <img src="guidelines-images/hoiana-aerial.webp" alt="Coastal aerial">
+    <img src="guidelines-images/laguna-aerial.webp" alt="Laguna Lang Co">
+    <img src="guidelines-images/bana-hills.webp" alt="Mountain course">
+  </div>
+  <p style="font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--grey);margin-bottom:32px">Championship Courses &mdash; The primary image category. Courses should appear pristine, empty, and inviting.</p>
+
+  <div class="two-col">
+    <div>
+      <img src="guidelines-images/four-seasons-pools.webp" alt="Resort lifestyle" style="width:100%;height:280px;object-fit:cover;border-radius:8px;margin-bottom:8px">
+      <p style="font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--grey)">Accommodation &amp; Lifestyle &mdash; Luxury without ostentation</p>
+    </div>
+    <div>
+      <img src="guidelines-images/hoiana-dunes.webp" alt="Golf lifestyle" style="width:100%;height:280px;object-fit:cover;border-radius:8px;margin-bottom:8px">
+      <p style="font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--grey)">The Game &mdash; Equipment, course details, the ritual of golf</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <span class="section-number">6.3 &mdash; Image Treatment</span>
+  <h3 class="section-title" style="font-size:1.5rem;margin-bottom:24px">Overlays &amp; Integration</h3>
+  <div class="two-col">
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Hero Overlays</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8;margin-bottom:16px">When text appears over photography, use a directional gradient overlay:</p>
+      <div style="padding:16px;background:rgba(255,255,255,.05);border-radius:4px;font-family:monospace;font-size:13px;color:var(--gold)">
+        linear-gradient(to bottom,<br>&nbsp;&nbsp;rgba(2,6,23, 0.6),<br>&nbsp;&nbsp;rgba(2,6,23, 0.85))
+      </div>
+    </div>
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Image Rules</h4>
+      <ul>
+        <li style="color:var(--cream);opacity:.8">Never crop logos or text into photography</li>
+        <li style="color:var(--cream);opacity:.8">Maintain aspect ratios&mdash;never stretch</li>
+        <li style="color:var(--cream);opacity:.8">Use object-fit: cover for responsive containers</li>
+        <li style="color:var(--cream);opacity:.8">Colour grade to warm tones; avoid cool/blue casts</li>
+        <li style="color:var(--cream);opacity:.8">People in images should be incidental, never posed</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 7: DIGITAL ARCHITECTURE ===== -->
+<div class="section-header-image" id="digital">
+  <div style="background:var(--navy);height:120px;display:flex;align-items:flex-end;padding:0 80px 24px">
+    <span class="section-number" style="color:var(--gold)">07</span>
+    <h2 class="section-title" style="color:var(--cream);margin-left:16px;font-size:1.8rem;margin-bottom:0">Digital Architecture</h2>
+  </div>
+</div>
+
+<section class="section section-cream">
+  <span class="section-number">7.1 &mdash; Design Philosophy</span>
+  <h3 class="section-title" style="font-size:1.8rem">Heavy &amp; Premium</h3>
+  <p class="section-intro">The AGS digital experience must feel &ldquo;heavy&rdquo; and premium. Quality is conveyed through massive breathing room, slow deliberate interactions, and an absence of visual clutter. Every pixel earns its place.</p>
+
+  <div class="three-col" style="margin-bottom:48px">
+    <div style="padding:32px;background:var(--navy);border-radius:8px;color:var(--cream)">
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Massive Breathing Room</h4>
+      <p style="font-size:14px;line-height:1.7;opacity:.8">Section padding of <strong>12rem</strong> forces the user to digest one monumental thought at a time. White space is a luxury signal.</p>
+      <div style="margin-top:16px;padding:12px;background:rgba(255,255,255,.05);border-radius:4px;font-family:monospace;font-size:12px;color:var(--gold)">padding: 12rem 0;</div>
+    </div>
+    <div style="padding:32px;background:var(--navy);border-radius:8px;color:var(--cream)">
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">The Card System</h4>
+      <p style="font-size:14px;line-height:1.7;opacity:.8">Solid navy backgrounds with thin gold borders. On hover, translate &minus;8px vertically, border shifts to solid gold, apply a warm glow shadow.</p>
+      <div style="margin-top:16px;padding:12px;background:rgba(255,255,255,.05);border-radius:4px;font-family:monospace;font-size:12px;color:var(--gold)">border: 1px solid<br>rgba(212,175,55, 0.2);</div>
+    </div>
+    <div style="padding:32px;background:var(--navy);border-radius:8px;color:var(--cream)">
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">The Naked CTA</h4>
+      <p style="font-size:14px;line-height:1.7;opacity:.8">Primary buttons are &ldquo;ghosted&rdquo;&mdash;transparent backgrounds, gold borders, uppercase Montserrat. Never solid-fill buttons.</p>
+      <div style="margin-top:16px;text-align:center"><span style="display:inline-block;padding:12px 32px;border:1px solid var(--gold);color:var(--gold);font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:600">EXPLORE TOURS</span></div>
+    </div>
+  </div>
+
+  <span class="section-number">7.2 &mdash; The Signature Interaction</span>
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;margin-bottom:16px">Cinematic Motion</h3>
+  <p style="font-size:14px;line-height:1.8;opacity:.85;max-width:680px;margin-bottom:16px">All hover effects, card transitions, and page animations use a luxurious, cinematic easing curve. Fast interactions feel cheap; slow, deliberate motion feels premium.</p>
+  <div style="padding:24px;background:#fff;border-radius:8px;max-width:500px">
+    <div style="font-family:monospace;font-size:14px;color:var(--navy)">
+      <span style="color:var(--grey)">/* The AGS Signature Curve */</span><br>
+      <span style="color:var(--crimson)">transition</span>: all <span style="color:var(--gold)">0.8s</span> cubic-bezier(<span style="color:var(--gold)">0.16, 1, 0.3, 1</span>);
+    </div>
+  </div>
+</section>
+
+<img src="guidelines-images/montgomerie-links.webp" alt="Montgomerie Links Vietnam" style="width:100%;height:200px;object-fit:cover;display:block">
+
+<!-- ===== SECTION 8: APPLICATIONS ===== -->
+<div class="section-header-image" id="applications">
+  <img src="guidelines-images/laguna-faldo.webp" alt="Brand collateral" class="image-banner">
+  <div class="overlay">
+    <span class="section-number" style="color:var(--gold)">08</span>
+    <h2 class="section-title" style="color:var(--cream)">Applications</h2>
+    <p class="section-subtitle" style="color:var(--cream)">Brand in action across touchpoints</p>
+  </div>
+</div>
+
+<section class="section section-cream">
+  <span class="section-number">8.1 &mdash; Physical Collateral</span>
+  <h3 class="section-title" style="font-size:1.8rem;margin-bottom:8px">The Tangible Prestige</h3>
+  <p class="section-intro">When the brand leaves the screen, it must retain its &ldquo;Old World&rdquo; weight. Every physical touchpoint communicates quality through material and finish.</p>
+
+  <div class="three-col" style="margin-bottom:48px">
+    <div style="padding:24px;background:#fff;border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Paper &amp; Print</h4>
+      <ul>
+        <li>Matte cream/white paper</li>
+        <li>Extra heavy weight (350gsm+)</li>
+        <li>Edge-painted gold on business cards</li>
+        <li>Debossed navy logos&mdash;no ink, just impression</li>
+      </ul>
+    </div>
+    <div style="padding:24px;background:#fff;border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Merchandise</h4>
+      <ul>
+        <li>Understated tonal embroidery</li>
+        <li>Navy on navy, or gold on navy</li>
+        <li>No excessive logos or billboard branding</li>
+        <li>Club Mark monogram: left chest or back of collar</li>
+      </ul>
+    </div>
+    <div style="padding:24px;background:#fff;border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">The Welcome Pack</h4>
+      <ul>
+        <li>Navy leather scorecard holder</li>
+        <li>Debossed Erawan Club Mark</li>
+        <li>Custom ball markers in Ochre Gold</li>
+        <li>Presented upon arrival, never mailed</li>
+      </ul>
+    </div>
+  </div>
+
+  <span class="section-number">8.2 &mdash; Email Signature</span>
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;margin-bottom:24px">Digital Stationery</h3>
+  <div style="max-width:600px;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08)">
+    <img src="guidelines-images/email-sig-white.png" alt="AGS Email Signature" style="width:100%;display:block">
+  </div>
+</section>
+
+<section class="section section-dark">
+  <span class="section-number">8.3 &mdash; Social Media</span>
+  <h3 class="section-title" style="font-size:1.5rem;margin-bottom:24px">Platform Guidelines</h3>
+  <div class="three-col">
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Profile Images</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">Use the <strong>filled Club Mark monogram</strong> on a Midnight Navy background. Never use the full lockup&mdash;it becomes illegible at avatar sizes. Maintain square aspect ratio.</p>
+    </div>
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Content Imagery</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">Course photography dominates the feed. Maintain a 3:1 ratio of photography to designed graphics. Never use stock photography with watermarks or visible compression artefacts.</p>
+    </div>
+    <div>
+      <h4 style="color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px">Branded Graphics</h4>
+      <p style="font-size:14px;line-height:1.8;opacity:.8">Designed posts use the Midnight Navy background with Playfair Display headlines and gold accents. Logo placement: top-right corner with exclusion zone respected.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-cream">
+  <span class="section-number">8.4 &mdash; Website</span>
+  <h3 class="section-title" style="font-size:1.5rem;margin-bottom:24px">Digital Flagship</h3>
+  <p style="font-size:14px;line-height:1.8;opacity:.85;max-width:680px;margin-bottom:24px">The website at <strong>asiagolfspecialists.com</strong> is the definitive expression of the AGS brand. It serves as the reference implementation for all digital guidelines described in this document. Key patterns:</p>
+  <div class="two-col">
+    <div style="padding:24px;background:#fff;border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Page Structure</h4>
+      <ul>
+        <li>Full-bleed hero with gradient overlay</li>
+        <li>Gold tag &rarr; Large serif H1 &rarr; Subtle subtext</li>
+        <li>12rem section spacing</li>
+        <li>Card-based content with gold borders</li>
+        <li>Ghost CTA buttons throughout</li>
+      </ul>
+    </div>
+    <div style="padding:24px;background:#fff;border-radius:8px">
+      <h4 style="font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Itinerary PDFs</h4>
+      <ul>
+        <li>Delivered via dark-mode app or high-aesthetic PDF</li>
+        <li>50/50 split: storytelling left, visuals right</li>
+        <li>Day markers with gold numbering</li>
+        <li>Floating image cards with deep shadows</li>
+        <li>Gold captions in Montserrat uppercase</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CLOSING ===== -->
+<section class="section section-dark" style="text-align:center;padding:120px 80px">
+  <img src="guidelines-images/club-mark-white-alpha.png" alt="AGS" style="width:100px;margin-bottom:32px;opacity:.8">
+  <h2 class="section-title" style="font-size:2rem;color:var(--cream)">The Standard Is Set.</h2>
+  <div class="gold-divider" style="margin:24px auto"></div>
+  <p style="font-size:15px;line-height:1.8;color:var(--cream);opacity:.6;max-width:500px;margin:0 auto">
+    Execute flawlessly.<br>
+    Every touchpoint. Every pixel. Every word.
+  </p>
+  <div style="margin-top:48px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(245,241,230,.3)">
+    Asia Golf Specialists &bull; Brand Guidelines V3.0 &bull; 2026<br>
+    Strictly Confidential &bull; C-Suite &amp; Agency Partners Only
+  </div>
+</section>
+
+</body>
+</html>

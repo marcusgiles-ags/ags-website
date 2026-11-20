@@ -1,0 +1,189 @@
+{
+  "slug": "hanoi-heritage-golf-classic",
+  "title": "7-Day Hanoi Heritage & Mountain Championship Golf",
+  "description": "Championship northern Vietnam golf tour. Play BRG Legend Hill, Sky Lake (Lake Course), Silk Path Dong Trieu, and Thanh Lanh Valley, staying at Capella Hanoi.",
+  "heroImage": "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-vietnam-1.webp",
+  "destination": "Hanoi & Red River Delta, Vietnam",
+  "country": "Vietnam",
+  "groupProfile": "8-Golfer Group",
+  "intent": "Pure Golf & Heritage",
+  "duration": "7 Days / 6 Nights (4 Rounds)",
+  "guidePriceUsd": 2895,
+  "guidePriceFrom": 4460,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-emperors-fairways",
+    "title": "The Emperor’s Fairways",
+    "duration": "7 Days / 6 Nights",
+    "heroImage": "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-vietnam-1.webp",
+    "highlight": "Our flagship northern Vietnam signature tour featuring exclusive Michelin-star dining, helicopter transfers, and luxury lake retreats."
+  },
+  "featuredVenues": [
+    {
+      "name": "BRG Legend Hill Golf Resort",
+      "type": "course",
+      "href": "/courses/vietnam/legend-hill/",
+      "image": "/images/courses/vietnam/legend-hill/legend-hill-1.webp",
+      "badge": "Nicklaus Design",
+      "highlight": "Par 72 • 7,068 Yards"
+    },
+    {
+      "name": "Sky Lake Lake Course",
+      "type": "course",
+      "href": "/courses/vietnam/sky-lake-lake/",
+      "image": "/images/courses/vietnam/sky-lake-lake/sky-lake-lake-course-vietnam-1.webp",
+      "badge": "Ahn Moon Hwan / Bori Golf Design",
+      "highlight": "Par 72 • 6,987 Yards"
+    },
+    {
+      "name": "Silk Path Dong Trieu Golf",
+      "type": "course",
+      "href": "/courses/vietnam/silk-path-dong-trieu/",
+      "image": "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-vietnam-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Thanh Lanh Valley Golf & Resort",
+      "type": "course",
+      "href": "/courses/vietnam/thanh-lanh-valley/",
+      "image": "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-vietnam-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Capella Hanoi",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/capella-hanoi/",
+      "image": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Private luxury executive transport for all airport, hotel, and golf course routes."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "4 championship rounds at Legend Hill, Sky Lake (Lake Course), Silk Path Dong Trieu, and Thanh Lanh Valley."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "6 nights in Premier Opera Suites at Capella Hanoi."
+    },
+    {
+      "item": "Caddies & Buggies",
+      "detail": "Dedicated personal caddie and twin-share buggy included for every round."
+    },
+    {
+      "item": "Local Guardian Concierge",
+      "detail": "24/7 on-ground assistance for tee times, caddie staging, and Michelin dining bookings."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Hanoi & Opera District Check-In at Capella Hanoi",
+      "subtitle": "Capital Arrival",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "35 mins from HAN Airport",
+      "image": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+      "imageCaption": "Capella Hanoi — Luxury Sanctuary Base",
+      "imageAlt": "Capella Hanoi luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Noi Bai International Airport (HAN) where your private chauffeur meets your party and transfers you to <a href=\"/accommodations/vietnam/capella-hanoi/\">Capella Hanoi</a>, Bill Bensley's theatrical boutique masterpiece celebrating the golden age of opera. Check in to your Premier Suite and decompress.<br><br>In the evening, gather in the Living Room for Capella's signature aperitivo hour, followed by a welcome dinner exploring Hanoi's refined culinary heritage in the historic French Quarter."
+    },
+    {
+      "day": 2,
+      "title": "Twin Green Architecture at BRG Legend Hill Golf Resort",
+      "subtitle": "Round 1: Nicklaus Twin Green Concept",
+      "courseName": "BRG Legend Hill Golf Resort",
+      "courseHref": "/courses/vietnam/legend-hill/",
+      "architect": "Nicklaus Design",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "45 mins door-to-door",
+      "image": "/images/courses/vietnam/legend-hill/legend-hill-1.webp",
+      "imageCaption": "BRG Legend Hill Golf Resort — Nicklaus Design (Par 72, 7,068 Yards)",
+      "imageAlt": "BRG Legend Hill Golf Resort championship golf course Nicklaus Design Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/vietnam/legend-hill/\">BRG Legend Hill Golf Resort</a>, Jack Nicklaus’s first design in Vietnam. The course is celebrated for its unique twin-green concept, presenting distinct tactical challenges and pin positions on every hole across rolling foothills.<br><br>Enjoy lunch in the modern clubhouse overlooking the lakes before returning to Hanoi for an afternoon exploring the ancient streets of the Old Quarter."
+    },
+    {
+      "day": 3,
+      "title": "Northern Vietnam’s Toughest Test: Sky Lake (Lake Course)",
+      "subtitle": "Round 2: Tournament Challenge",
+      "courseName": "Sky Lake Lake Course",
+      "courseHref": "/courses/vietnam/sky-lake-lake/",
+      "architect": "Ahn Moon Hwan / Bori Golf Design",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "55 mins door-to-door",
+      "image": "/images/courses/vietnam/sky-lake-lake/sky-lake-lake-course-vietnam-1.webp",
+      "imageCaption": "Sky Lake Lake Course — Ahn Moon Hwan / Bori Golf Design (Par 72, 6,987 Yards)",
+      "imageAlt": "Sky Lake Lake Course championship golf course Ahn Moon Hwan / Bori Golf Design Asia Golf Specialists",
+      "description": "Take on the championship Lake Course at <a href=\"/courses/vietnam/sky-lake-lake/\">Sky Lake Resort & Golf Club</a>. Frequently ranked among Vietnam’s toughest championship layouts, this par-72 test features dramatic elevation shifts, deep fairway bunkering, and natural lake carries.<br><br>Celebrate a hard-fought round with drinks in the members' lounge before your private driver whisks you back to Capella Hanoi for an evening at leisure."
+    },
+    {
+      "day": 4,
+      "title": "Hanoi Cultural Immersion & French Quarter Gastronomy",
+      "subtitle": "Capital Rest Day",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "At leisure in Hanoi",
+      "image": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-room.webp",
+      "imageCaption": "Capella Hanoi — Luxury Sanctuary Base",
+      "imageAlt": "Capella Hanoi luxury accommodation Asia Golf Specialists",
+      "description": "A dedicated rest day in the capital. Enjoy breakfast at Backstage, followed by an optional private guided tour of the Temple of Literature, the Vietnam Fine Arts Museum, and Hoan Kiem Lake.<br><br>In the evening, dine at one of Hanoi's celebrated Michelin-starred establishments, sampling sophisticated northern Vietnamese gastronomy."
+    },
+    {
+      "day": 5,
+      "title": "Modern Championship Design at Silk Path Dong Trieu",
+      "subtitle": "Round 3: Modern Parkland",
+      "courseName": "Silk Path Dong Trieu Golf",
+      "courseHref": "/courses/vietnam/silk-path-dong-trieu/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "70 mins via expressway",
+      "image": "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-vietnam-1.webp",
+      "imageCaption": "Silk Path Dong Trieu Golf — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Silk Path Dong Trieu Golf championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Travel east toward Quang Ninh province to experience the newly opened championship layout at <a href=\"/courses/vietnam/silk-path-dong-trieu/\">Silk Path Dong Trieu Golf</a>. Featuring impeccably manicured turf, sprawling sand waste areas, and subtle green complexes, this modern design delivers an exceptional championship test.<br><br>Relax in the clubhouse post-round before your private executive vehicle returns your party to Capella Hanoi."
+    },
+    {
+      "day": 6,
+      "title": "Sir Nick Faldo’s Mountain Masterpiece at Thanh Lanh Valley",
+      "subtitle": "Round 4: Northern Finale",
+      "courseName": "Thanh Lanh Valley Golf & Resort",
+      "courseHref": "/courses/vietnam/thanh-lanh-valley/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "55 mins door-to-door",
+      "image": "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-vietnam-1.webp",
+      "imageCaption": "Thanh Lanh Valley Golf & Resort — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Thanh Lanh Valley Golf & Resort championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Save the best for last at <a href=\"/courses/vietnam/thanh-lanh-valley/\">Thanh Lanh Valley Golf & Resort</a>, Sir Nick Faldo’s stunning valley course situated at 1,000 meters elevation in Vinh Phuc province. Framed by turquoise mountain lakes and towering peaks, this layout feels like a Swiss alpine course transplanted to Southeast Asia.<br><br>Celebrate the conclusion of your Northern Vietnam golf tour with drinks on the stone clubhouse terrace before returning to Hanoi for a final celebratory dinner."
+    },
+    {
+      "day": 7,
+      "title": "VIP Departure via Noi Bai International Airport",
+      "subtitle": "Departure",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "35 mins to HAN Airport",
+      "image": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+      "imageCaption": "Capella Hanoi — Luxury Sanctuary Base",
+      "imageAlt": "Capella Hanoi luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast and a final morning coffee beside the Hanoi Opera House before checking out.<br><br>Your private executive transfer transports your group to Noi Bai International Airport for your onward flight, concluding an unforgettable week of championship golf."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the best time of year for golf in Hanoi?",
+      "answer": "The autumn and winter months from October to March offer cool, dry, and pleasant golfing weather in northern Vietnam."
+    }
+  ]
+}

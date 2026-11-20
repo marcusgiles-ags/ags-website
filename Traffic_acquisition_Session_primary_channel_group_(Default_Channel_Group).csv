@@ -1,0 +1,14 @@
+# ----------------------------------------
+# Traffic acquisition: Session primary channel group (Default Channel Group)
+# Account: Asia Golf Specialists
+# Property: AGS Website
+# ----------------------------------------
+# 
+# All Users
+# Start date: 20260617
+# End date: 20260714
+Session primary channel group (Default Channel Group),Sessions,Engaged sessions,Engagement rate,Average engagement time per session,Events per session,Event count,Key events,Session key event rate,Total revenue
+Direct,22,8,0.36363636363636365,28.727272727272727,3.9545454545454546,87,0,0,0
+Referral,16,13,0.8125,85.5625,6.4375,103,0,0,0
+Organic Search,2,0,0,2.5,3,6,0,0,0
+Unassigned,1,0,0,320,19,19,0,0,0

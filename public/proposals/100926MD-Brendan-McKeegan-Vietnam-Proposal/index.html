@@ -1,0 +1,2179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="robots" content="noindex, nofollow">
+
+<title>Vietnam Golf Proposal - Brendan McKeegan | Asia Golf Specialists</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+
+/* Excursions CSS */
+.excursion-grid { display:grid; gap:36px; }
+.excursion-card {
+  display:grid; grid-template-columns:1fr 1fr; gap:40px;
+  background:#ffffff; border-radius:8px; overflow:hidden;
+  border:1px solid rgba(0,0,0,0.08); box-shadow:0 10px 30px rgba(0,0,0,0.04);
+}
+.excursion-card:nth-child(even) .excursion-media { order:-1; }
+.excursion-body { padding:44px; display:flex; flex-direction:column; justify-content:center; }
+.excursion-tag { font-size:9.5px; letter-spacing:2.5px; text-transform:uppercase; color:var(--gold); font-weight:700; margin-bottom:8px; display:block; }
+.excursion-title { font-family:'Playfair Display',serif; font-size:1.9rem; font-weight:700; color:var(--navy); margin-bottom:14px; }
+.excursion-desc { font-size:14px; line-height:1.8; color:rgba(2,6,23,0.85); margin-bottom:20px; }
+.excursion-features { list-style:none; display:grid; grid-template-columns:1fr 1fr; gap:10px; padding-left:0; }
+.excursion-features li { font-size:12.5px; color:rgba(2,6,23,0.8); position:relative; padding-left:18px; margin-bottom:6px; }
+.excursion-features li::before { content:'\2713'; position:absolute; left:0; color:var(--gold); }
+.excursion-media { display:grid; grid-template-columns:1fr 1fr; gap:8px; min-height:320px; }
+.excursion-img-box { position:relative; overflow:hidden; }
+.excursion-img-box img { width:100%; height:100%; object-fit:cover; }
+@media (max-width:992px) {
+  .excursion-card, .excursion-card:nth-child(even) { grid-template-columns:1fr; }
+  .excursion-card:nth-child(even) .excursion-media { order:unset; }
+  .excursion-media { min-height:260px; }
+}
+
+/* ============================================================
+
+   AGS BRAND TOKENS
+
+   ============================================================ */
+
+:root {
+
+  --navy:   #020617;
+
+  --navy-alt:#0A1128;
+
+  --gold:   #D4AF37;
+
+  --cream:  #F5F1E6;
+
+  --white:  #F8FAFC;
+
+  --grey:   #6B7280;
+
+  --sky:    #6B9ECA;
+
+  --green:  #004225;
+
+  --gold-light: rgba(212,175,55,.15);
+
+}
+
+
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+html { scroll-behavior:smooth; font-size:16px; }
+
+body { font-family:'Montserrat',sans-serif; color:var(--navy); background:var(--cream); line-height:1.7; }
+
+
+
+/* ============================================================
+
+   STICKY NAV
+
+   ============================================================ */
+
+.prop-nav {
+
+  position:fixed; top:0; left:0; width:100%; z-index:200;
+
+  background:rgba(2,6,23,.96); backdrop-filter:blur(12px);
+
+  padding:0 40px;
+
+  display:flex; align-items:center; gap:0;
+
+  border-bottom:1px solid rgba(212,175,55,.2);
+
+}
+
+.prop-nav .nav-logo { height:36px; margin-right:auto; filter: brightness(0) invert(1); }
+
+.prop-nav a {
+
+  color:var(--cream); text-decoration:none; font-size:10.5px;
+
+  letter-spacing:2px; text-transform:uppercase; font-weight:600;
+
+  opacity:.65; transition:opacity .25s, border-color .25s;
+
+  padding:20px 16px; border-bottom:2px solid transparent;
+
+  white-space:nowrap;
+
+}
+
+.prop-nav a:hover { opacity:1; border-bottom-color:var(--gold); }
+
+.prop-nav .nav-ref {
+
+  font-family:'Playfair Display',serif; font-style:italic;
+
+  font-size:11px; letter-spacing:1px; color:var(--gold);
+
+  opacity:.8; margin-left:8px; padding:20px 0 20px 16px;
+
+  border-left:1px solid rgba(212,175,55,.2);
+
+}
+
+
+
+/* ============================================================
+
+   HERO
+
+   ============================================================ */
+
+.hero {
+
+  min-height:100vh; display:flex; flex-direction:column;
+
+  justify-content:flex-end; position:relative; overflow:hidden;
+
+  background:var(--navy);
+
+}
+
+.hero-bg {
+
+  position:absolute; inset:0;
+
+  background: linear-gradient(160deg,#001233 0%,#020617 40%,#051a0a 100%);
+
+}
+
+/* Animated floating gradient orbs */
+
+.hero-orb {
+
+  position:absolute; border-radius:50%; filter:blur(80px); opacity:.35;
+
+  animation:drift 18s ease-in-out infinite alternate;
+
+}
+
+.hero-orb-1 { width:600px; height:600px; background:radial-gradient(circle,#D4AF37 0%,transparent 70%); top:-100px; right:-100px; }
+
+.hero-orb-2 { width:400px; height:400px; background:radial-gradient(circle,#004225 0%,transparent 70%); bottom:100px; left:-80px; animation-delay:-6s; }
+
+.hero-orb-3 { width:300px; height:300px; background:radial-gradient(circle,#6B9ECA 0%,transparent 70%); top:30%; left:40%; opacity:.2; animation-delay:-12s; }
+
+@keyframes drift { from{transform:translate(0,0) scale(1);} to{transform:translate(30px,40px) scale(1.08);} }
+
+
+
+/* Hero image overlay */
+
+.hero-img-overlay {
+
+  position:absolute; inset:0; z-index:1;
+
+  background:url('/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-hero.webp') center/cover no-repeat;
+
+  opacity:0.22;
+
+}
+
+
+
+.hero-content {
+
+  position:relative; z-index:2;
+
+  display:grid; grid-template-columns:1fr 1fr;
+
+  align-items:flex-end; gap:60px;
+
+  padding:140px 80px 80px;
+
+}
+
+.hero-left { }
+
+.hero-badge {
+
+  display:inline-block; font-size:10px; letter-spacing:3px;
+
+  text-transform:uppercase; font-weight:700; padding:6px 16px;
+
+  border:1px solid var(--gold); color:var(--gold); margin-bottom:24px;
+
+  background:rgba(212,175,55,.08);
+
+}
+
+.hero h1 {
+
+  font-family:'Playfair Display',serif;
+
+  font-size:clamp(2.8rem,5.5vw,5rem);
+
+  color:var(--cream); font-weight:700;
+
+  line-height:1.08; margin-bottom:20px;
+
+  letter-spacing:-1.5px;
+
+}
+
+.hero h1 em { color:var(--gold); font-style:italic; }
+
+.hero-sub {
+
+  font-size:12px; letter-spacing:3px; text-transform:uppercase;
+
+  color:rgba(245,241,230,.5); font-weight:500;
+
+}
+
+.hero-divider { width:60px; height:2px; background:var(--gold); margin:24px 0; }
+
+.hero-right {
+
+  background:rgba(2,6,23,.7); border:1px solid rgba(212,175,55,.2);
+
+  border-radius:4px; padding:36px 40px;
+
+  backdrop-filter:blur(20px);
+
+}
+
+.hero-stat-row { display:flex; gap:32px; flex-wrap:wrap; margin-bottom:28px; }
+
+.hero-stat { }
+
+.hero-stat .label { font-size:9.5px; letter-spacing:2.5px; text-transform:uppercase; color:var(--gold); font-weight:600; margin-bottom:4px; }
+
+.hero-stat .value { font-family:'Playfair Display',serif; font-size:1.05rem; color:var(--cream); font-weight:600; }
+
+.hero-divider-sm { width:100%; height:1px; background:rgba(212,175,55,.15); margin-bottom:28px; }
+
+.hero-prep { font-size:11px; letter-spacing:1px; color:rgba(245,241,230,.45); text-transform:uppercase; margin-bottom:4px; }
+
+.hero-person { font-family:'Playfair Display',serif; font-size:1.6rem; color:var(--cream); font-weight:500; font-style:italic; margin-bottom:4px; }
+
+.hero-nat { font-size:11px; color:rgba(245,241,230,.4); letter-spacing:1px; }
+
+.hero-status {
+
+  margin-top:24px; display:inline-block; padding:5px 14px;
+
+  background:rgba(212,175,55,.12); border:1px solid rgba(212,175,55,.3);
+
+  font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--gold);
+
+  font-weight:700;
+
+}
+
+
+
+/* ============================================================
+
+   SCROLL INDICATOR
+
+   ============================================================ */
+
+.scroll-cue {
+
+  position:relative; z-index:2; text-align:center; padding:24px 0 40px;
+
+  color:rgba(245,241,230,.25); font-size:10px; letter-spacing:3px;
+
+  text-transform:uppercase; animation:bounce 2.4s ease-in-out infinite;
+
+}
+
+@keyframes bounce { 0%,100%{transform:translateY(0);} 50%{transform:translateY(8px);} }
+
+
+
+/* ============================================================
+
+   SHARED SECTION STYLES
+
+   ============================================================ */
+
+.section { padding:100px 80px; position:relative; }
+
+.section-dark { background:var(--navy); color:var(--cream); }
+
+.section-cream { background:var(--cream); color:var(--navy); }
+
+.section-white { background:#fff; color:var(--navy); }
+
+.section-navy-alt { background:var(--navy-alt); color:var(--cream); }
+
+
+
+.label-tag { font-size:10px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); font-weight:700; display:block; margin-bottom:10px; }
+
+.section-title { font-family:'Playfair Display',serif; font-size:clamp(1.9rem,3.5vw,3rem); font-weight:700; margin-bottom:16px; line-height:1.15; }
+
+.section-subtitle { font-family:'Playfair Display',serif; font-size:1.1rem; font-weight:400; font-style:italic; margin-bottom:32px; opacity:.65; }
+
+.gold-divider { width:60px; height:2px; background:var(--gold); margin:24px 0; }
+
+.gold-divider-center { width:60px; height:2px; background:var(--gold); margin:24px auto 32px; }
+
+
+
+/* Section header banners */
+
+.section-banner {
+
+  height:220px; background:var(--navy-alt); position:relative; overflow:hidden;
+
+  display:flex; align-items:flex-end; padding:0 80px 36px;
+
+}
+
+.section-banner::before {
+
+  content:''; position:absolute; inset:0;
+
+  background:linear-gradient(to right,rgba(2,6,23,.95) 0%,rgba(2,6,23,.5) 60%,transparent 100%);
+
+}
+
+.section-banner-content { position:relative; z-index:1; }
+
+.section-banner .banner-num { font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); font-weight:700; margin-bottom:8px; display:block; }
+
+.section-banner h2 { font-family:'Playfair Display',serif; font-size:clamp(1.6rem,2.5vw,2.4rem); color:var(--cream); font-weight:700; margin-bottom:4px; }
+
+.section-banner p { font-family:'Playfair Display',serif; font-style:italic; color:rgba(245,241,230,.6); font-size:.9rem; }
+
+
+
+/* ============================================================
+
+   WELCOME
+
+   ============================================================ */
+
+.welcome-grid { display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center; }
+
+.welcome-text p { font-size:15px; line-height:1.9; margin-bottom:20px; opacity:.85; }
+
+.welcome-text p:last-child { margin-bottom:0; }
+
+.welcome-card {
+
+  background:var(--navy); color:var(--cream); padding:48px;
+
+  border-radius:4px; border-top:3px solid var(--gold);
+
+}
+
+.welcome-card .wc-label { font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); font-weight:700; margin-bottom:16px; }
+
+.welcome-card blockquote {
+
+  font-family:'Playfair Display',serif; font-size:1.35rem; font-style:italic;
+
+  line-height:1.65; border-left:3px solid var(--gold); padding-left:24px;
+
+  color:var(--cream); margin-bottom:24px;
+
+}
+
+.contact-line { display:flex; align-items:center; gap:12px; margin-bottom:12px; }
+
+.contact-line .icon { width:32px; height:32px; background:var(--gold-light); border:1px solid rgba(212,175,55,.3); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:13px; flex-shrink:0; }
+
+.contact-line .info .ctitle { font-size:9.5px; letter-spacing:2px; text-transform:uppercase; color:var(--gold); font-weight:600; }
+
+.contact-line .info .cval { font-size:13px; color:var(--cream); }
+
+
+
+/* ============================================================
+
+   OVERVIEW / PRICING
+
+   ============================================================ */
+
+.pricing-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:24px; margin-bottom:64px; }
+
+.pricing-card {
+
+  background:#fff; border-radius:4px; overflow:hidden;
+
+  box-shadow:0 2px 20px rgba(2,6,23,.06);
+
+  border-bottom:3px solid transparent; transition:border-color .3s, transform .3s;
+
+}
+
+.pricing-card:hover { border-bottom-color:var(--gold); transform:translateY(-4px); }
+
+.pricing-card.featured { border-bottom-color:var(--gold); }
+
+.pricing-card .pc-header { background:var(--navy); padding:24px 28px; }
+
+.pricing-card .pc-header .pc-star { font-size:9px; letter-spacing:2px; text-transform:uppercase; color:var(--gold); font-weight:700; margin-bottom:8px; }
+
+.pricing-card .pc-header h3 { font-family:'Playfair Display',serif; font-size:1.1rem; color:var(--cream); font-weight:600; }
+
+.pricing-card .pc-body { padding:24px 28px; }
+
+.pricing-card .pc-room { font-size:12px; letter-spacing:1px; color:var(--grey); text-transform:uppercase; font-weight:600; margin-bottom:16px; }
+
+.pricing-row { display:flex; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1px solid rgba(2,6,23,.06); }
+
+.pricing-row:last-child { border-bottom:none; }
+
+.pricing-row .pr-type { font-size:12px; color:var(--grey); }
+
+.pricing-row .pr-price { font-family:'Playfair Display',serif; font-size:1.15rem; color:var(--navy); font-weight:700; }
+
+.pricing-row .pr-note { font-size:10px; color:var(--grey); }
+
+
+
+.inc-exc-grid { display:grid; grid-template-columns:1fr 1fr; gap:40px; }
+
+.ie-box { padding:36px; border-radius:4px; }
+
+.ie-box.inc { background:rgba(0,66,37,.05); border-left:3px solid var(--green); }
+
+.ie-box.exc { background:rgba(165,28,48,.05); border-left:3px solid #A51C30; }
+
+.ie-box h4 { font-size:11px; letter-spacing:2.5px; text-transform:uppercase; font-weight:700; margin-bottom:20px; }
+
+.ie-box.inc h4 { color:var(--green); }
+
+.ie-box.exc h4 { color:#A51C30; }
+
+.ie-box ul { list-style:none; }
+
+.ie-box ul li { font-size:13.5px; padding-left:24px; position:relative; margin-bottom:10px; line-height:1.5; }
+
+.ie-box ul li::before { content:''; position:absolute; left:0; top:8px; width:7px; height:7px; border-radius:50%; }
+
+.ie-box.inc ul li::before { background:var(--green); }
+
+.ie-box.exc ul li::before { background:#A51C30; }
+
+
+
+/* ============================================================
+
+   WHY AGS
+
+   ============================================================ */
+
+.why-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:rgba(212,175,55,.15); }
+
+.why-card {
+
+  background:var(--navy); padding:48px 36px;
+
+  transition:background .3s;
+
+}
+
+.why-card:hover { background:var(--navy-alt); }
+
+.why-num { font-family:'Playfair Display',serif; font-size:2.5rem; color:var(--gold); font-weight:700; margin-bottom:16px; opacity:.5; }
+
+.why-icon { font-size:2rem; margin-bottom:16px; }
+
+.why-card h3 { font-family:'Playfair Display',serif; font-size:1.1rem; color:var(--cream); margin-bottom:12px; font-weight:600; }
+
+.why-card p { font-size:13px; line-height:1.75; color:rgba(245,241,230,.6); }
+
+
+
+/* ============================================================
+
+   ITINERARY TIMELINE
+
+   ============================================================ */
+
+.timeline { position:relative; padding-left:0; }
+
+.timeline::before { content:''; position:absolute; left:40px; top:0; bottom:0; width:1px; background:linear-gradient(to bottom,transparent,var(--gold) 10%,var(--gold) 90%,transparent); }
+
+.tl-item { display:grid; grid-template-columns:80px 1fr; gap:40px; margin-bottom:48px; position:relative; }
+
+.tl-item:last-child { margin-bottom:0; }
+
+.tl-day {
+
+  text-align:center; position:relative;
+
+}
+
+.tl-day .day-circle {
+
+  width:40px; height:40px; background:var(--gold); color:var(--navy);
+
+  border-radius:50%; display:flex; align-items:center; justify-content:center;
+
+  font-size:11px; font-weight:700; letter-spacing:1px;
+
+  position:relative; z-index:1; margin:0 auto 8px;
+
+}
+
+.tl-day .day-date { font-size:9px; letter-spacing:1px; text-transform:uppercase; color:var(--grey); }
+
+.tl-content { padding:28px 32px; background:#fff; border-radius:4px; box-shadow:0 2px 16px rgba(2,6,23,.05); border-left:3px solid transparent; transition:border-color .3s; }
+
+.tl-content:hover { border-left-color:var(--gold); }
+
+.tl-content .tl-title { font-family:'Playfair Display',serif; font-size:1.15rem; font-weight:700; color:var(--navy); margin-bottom:6px; }
+
+.tl-content .tl-badge { display:inline-block; font-size:8.5px; letter-spacing:2px; text-transform:uppercase; font-weight:700; padding:3px 10px; border:1px solid; border-radius:2px; margin-bottom:16px; }
+
+.tl-badge.golf { border-color:var(--green); color:var(--green); background:rgba(0,66,37,.06); }
+
+.tl-badge.free { border-color:var(--sky); color:var(--sky); background:rgba(107,158,202,.08); }
+
+.tl-badge.transfer { border-color:var(--gold); color:var(--gold); background:rgba(212,175,55,.08); }
+
+.tl-content p { font-size:13.5px; line-height:1.8; color:rgba(2,6,23,.75); margin-bottom:12px; }
+
+.tl-content p:last-child { margin-bottom:0; }
+
+.tl-meta { display:flex; gap:24px; flex-wrap:wrap; margin-top:16px; padding-top:16px; border-top:1px solid rgba(2,6,23,.06); }
+
+.tl-meta-item .mi-label { font-size:9px; letter-spacing:2px; text-transform:uppercase; color:var(--gold); font-weight:700; }
+
+.tl-meta-item .mi-val { font-size:12.5px; color:var(--navy); font-weight:500; }
+
+
+
+/* ============================================================
+
+   GOLF COURSES
+
+   ============================================================ */
+
+.course-block { margin-bottom:80px; padding-bottom:80px; border-bottom:1px solid rgba(212,175,55,.15); }
+
+.course-block:last-child { border-bottom:none; padding-bottom:0; margin-bottom:0; }
+
+.course-header { display:grid; grid-template-columns:1fr auto; align-items:start; gap:40px; margin-bottom:32px; }
+
+.course-name { font-family:'Playfair Display',serif; font-size:clamp(1.6rem,2.8vw,2.4rem); font-weight:700; color:var(--navy); margin-bottom:6px; }
+
+.course-tagline { font-family:'Playfair Display',serif; font-style:italic; font-size:.95rem; color:var(--grey); }
+
+.course-stat-box {
+
+  background:var(--navy); padding:24px 28px; border-radius:4px;
+
+  display:grid; grid-template-columns:1fr 1fr; gap:16px;
+
+  min-width:300px; border-top:2px solid var(--gold);
+
+}
+
+.stat-item .s-label { font-size:8.5px; letter-spacing:2.5px; text-transform:uppercase; color:var(--gold); font-weight:700; margin-bottom:4px; }
+
+.stat-item .s-val { font-size:13px; color:var(--cream); font-weight:500; }
+
+.course-desc { font-size:14.5px; line-height:1.9; color:rgba(2,6,23,.8); margin-bottom:24px; }
+
+.course-img-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:4px; border-radius:4px; overflow:hidden; }
+
+.course-img-slot {
+
+  height:180px; background:var(--navy-alt); position:relative; overflow:hidden;
+
+  display:flex; align-items:center; justify-content:center; cursor:pointer;
+
+  transition:opacity .3s;
+
+}
+
+.course-img-slot:hover { opacity:.88; }
+
+.course-img-slot img { width:100%; height:100%; object-fit:cover; display:block; }
+
+
+
+/* ============================================================
+
+   ACCOMMODATION
+
+   ============================================================ */
+
+.hotel-block { margin-bottom:80px; }
+
+.hotel-block:last-child { margin-bottom:0; }
+
+.hotel-header { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; margin-bottom:24px; }
+
+.hotel-stars { display:flex; gap:3px; }
+
+.hotel-stars span { color:var(--gold); font-size:14px; }
+
+.hotel-name { font-family:'Playfair Display',serif; font-size:clamp(1.5rem,2.5vw,2.2rem); font-weight:700; margin-bottom:6px; }
+
+.hotel-tag { display:inline-block; font-size:9px; letter-spacing:2px; text-transform:uppercase; font-weight:700; padding:4px 12px; border:1px solid var(--gold); color:var(--gold); margin-bottom:16px; }
+
+.hotel-desc { font-size:14.5px; line-height:1.9; color:rgba(2,6,23,.8); margin-bottom:24px; }
+
+.hotel-img-grid { display:grid; grid-template-columns:2fr 1fr 1fr; gap:4px; border-radius:4px; overflow:hidden; margin-bottom:0; }
+
+.hotel-img-slot { position:relative; overflow:hidden; }
+
+.hotel-img-slot:first-child { grid-row:span 2; height:380px; }
+
+.hotel-img-slot:not(:first-child) { height:188px; }
+
+.hotel-img-slot img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .6s; }
+
+.hotel-img-slot:hover img { transform:scale(1.04); }
+
+.hotel-option-label {
+
+  display:inline-block; margin-bottom:16px;
+
+  font-size:9px; letter-spacing:3px; text-transform:uppercase; font-weight:700;
+
+  padding:4px 12px; background:var(--gold); color:var(--navy);
+
+}
+
+
+
+/* ============================================================
+
+   DESTINATION INFO
+
+   ============================================================ */
+
+.dest-grid { display:grid; grid-template-columns:1fr 1fr; gap:32px; }
+
+.dest-card {
+
+  background:rgba(245,241,230,.04); border:1px solid rgba(212,175,55,.1);
+
+  border-radius:4px; padding:32px;
+
+  transition:border-color .3s, background .3s;
+
+}
+
+.dest-card:hover { border-color:rgba(212,175,55,.3); background:rgba(245,241,230,.07); }
+
+.dest-card .dc-icon { font-size:1.8rem; margin-bottom:12px; }
+
+.dest-card h3 { font-family:'Playfair Display',serif; font-size:1.1rem; color:var(--gold); margin-bottom:12px; font-weight:600; }
+
+.dest-card p, .dest-card li { font-size:13px; line-height:1.75; color:rgba(245,241,230,.7); }
+
+.dest-card ul { list-style:none; }
+
+.dest-card ul li { padding-left:20px; position:relative; margin-bottom:6px; }
+
+.dest-card ul li::before { content:''; position:absolute; left:0; top:8px; width:5px; height:5px; background:var(--gold); border-radius:50%; }
+
+.food-item { margin-bottom:16px; }
+
+.food-item .food-name { font-family:'Playfair Display',serif; font-size:1rem; color:var(--gold); margin-bottom:4px; }
+
+.food-item .food-desc { font-size:13px; color:rgba(245,241,230,.65); line-height:1.6; }
+
+
+
+/* ============================================================
+
+   BOOKING CONDITIONS
+
+   ============================================================ */
+
+.conditions-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+
+.cond-card { padding:28px; background:rgba(245,241,230,.04); border-radius:4px; border-top:2px solid rgba(212,175,55,.3); }
+
+.cond-card h4 { font-size:10px; letter-spacing:2.5px; text-transform:uppercase; color:var(--gold); font-weight:700; margin-bottom:12px; }
+
+.cond-card p { font-size:12.5px; line-height:1.75; color:rgba(245,241,230,.6); }
+
+.special-note-grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:24px; margin-bottom:40px; }
+
+.sn-card { padding:28px; background:rgba(212,175,55,.06); border-radius:4px; border-left:2px solid var(--gold); }
+
+.sn-card h4 { font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--gold); font-weight:700; margin-bottom:10px; }
+
+.sn-card p { font-size:12.5px; line-height:1.7; color:rgba(245,241,230,.65); }
+
+
+
+/* ============================================================
+
+   FOOTER
+
+   ============================================================ */
+
+.footer { background:var(--navy); padding:80px; border-top:1px solid rgba(212,175,55,.15); }
+
+.footer-top { display:grid; grid-template-columns:1fr 1fr 1fr; gap:60px; margin-bottom:60px; }
+
+.footer-logo { margin-bottom:20px; }
+
+.footer-logo img { height:36px; }
+
+.footer-tagline { font-family:'Playfair Display',serif; font-style:italic; font-size:1rem; color:rgba(245,241,230,.5); line-height:1.7; }
+
+.footer-col h4 { font-size:10px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); font-weight:700; margin-bottom:20px; }
+
+.footer-col p, .footer-col a { font-size:13px; color:rgba(245,241,230,.55); line-height:1.8; text-decoration:none; display:block; }
+
+.footer-col a:hover { color:var(--gold); }
+
+.footer-bottom { padding-top:40px; border-top:1px solid rgba(212,175,55,.1); display:flex; justify-content:space-between; align-items:center; }
+
+.footer-copy { font-size:11px; color:rgba(245,241,230,.3); letter-spacing:1px; }
+
+.footer-validity { font-size:11px; color:var(--gold); letter-spacing:1px; }
+
+.cta-bar {
+
+  background:linear-gradient(135deg,var(--gold) 0%,#b8960c 100%);
+
+  padding:48px 80px; text-align:center;
+
+}
+
+.cta-bar h2 { font-family:'Playfair Display',serif; font-size:1.8rem; color:var(--navy); font-weight:700; margin-bottom:12px; }
+
+.cta-bar p { font-size:14px; color:rgba(2,6,23,.7); margin-bottom:28px; }
+
+.cta-btn {
+
+  display:inline-block; background:var(--navy); color:var(--gold);
+
+  padding:14px 36px; font-size:11px; letter-spacing:3px; text-transform:uppercase;
+
+  font-weight:700; text-decoration:none; border:2px solid var(--navy);
+
+  transition:background .3s, color .3s;
+
+}
+
+.cta-btn:hover { background:transparent; color:var(--navy); }
+
+
+
+/* ============================================================
+
+   UTILITY
+
+   ============================================================ */
+
+.text-gold { color:var(--gold); }
+
+.text-cream { color:var(--cream); }
+
+.mt-0 { margin-top:0 !important; }
+
+.mb-0 { margin-bottom:0 !important; }
+
+.flex-center { display:flex; align-items:center; justify-content:center; }
+
+
+
+/* ============================================================
+
+   RESPONSIVE
+
+   ============================================================ */
+
+@media (max-width:1024px) {
+
+  .hero-content { grid-template-columns:1fr; gap:40px; padding:120px 40px 60px; }
+
+  .why-grid { grid-template-columns:1fr 1fr; }
+
+  .conditions-grid { grid-template-columns:1fr 1fr; }
+
+  .special-note-grid { grid-template-columns:1fr 1fr; }
+
+  .footer-top { grid-template-columns:1fr 1fr; }
+
+}
+
+@media (max-width:768px) {
+
+  .prop-nav { padding:0 16px; gap:0; overflow-x:auto; }
+
+  .prop-nav a { padding:16px 10px; font-size:9px; }
+
+  .prop-nav .nav-ref { display:none; }
+
+  .section { padding:60px 24px; }
+
+  .section-banner { padding:0 24px 28px; height:160px; }
+
+  .welcome-grid { grid-template-columns:1fr; gap:40px; }
+
+  .pricing-grid { grid-template-columns:1fr; }
+
+  .inc-exc-grid { grid-template-columns:1fr; }
+
+  .why-grid { grid-template-columns:1fr; }
+
+  .course-header { grid-template-columns:1fr; }
+
+  .course-stat-box { grid-template-columns:1fr 1fr; min-width:unset; }
+
+  .course-img-grid { grid-template-columns:1fr 1fr; }
+
+  .hotel-img-grid { grid-template-columns:1fr; }
+
+  .hotel-img-slot:first-child { height:240px; grid-row:span 1; }
+
+  .hotel-img-slot:not(:first-child) { height:180px; }
+
+  .dest-grid { grid-template-columns:1fr; }
+
+  .conditions-grid { grid-template-columns:1fr; }
+
+  .special-note-grid { grid-template-columns:1fr; }
+
+  .footer { padding:48px 24px; }
+
+  .footer-top { grid-template-columns:1fr; gap:32px; }
+
+  .footer-bottom { flex-direction:column; gap:12px; text-align:center; }
+
+  .cta-bar { padding:48px 24px; }
+
+  .tl-item { grid-template-columns:60px 1fr; gap:20px; }
+
+  .timeline::before { left:30px; }
+
+  .tl-day .day-circle { width:34px; height:34px; font-size:10px; }
+
+}
+
+@media print {
+
+  *, *::before, *::after { -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
+
+  @page { size:A4; margin:0; }
+
+  .prop-nav { display:none !important; }
+
+  .hero { min-height:auto; page-break-after:always; }
+
+  .section { padding:48px; }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<!-- ============================================================
+
+     STICKY NAVIGATION
+
+     ============================================================ -->
+
+<nav class="prop-nav" id="top-nav">
+
+  <img src="/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp" alt="Asia Golf Specialists" class="nav-logo">
+
+  <span style="display:none;color:var(--cream);font-family:'Playfair Display',serif;font-size:1rem;font-style:italic;margin-right:auto;padding:16px 0;">Asia Golf Specialists</span>
+
+  <a href="#welcome">Welcome</a>
+
+  <a href="#overview">Overview</a>
+
+  <a href="#why-ags">Why AGS</a>
+
+  <a href="#itinerary">Itinerary</a>
+
+  <a href="#courses">Golf Courses</a>
+
+  <a href="#accommodation">Accommodation</a>
+
+  <a href="#sightseeing">Sightseeing</a>
+
+  <a href="#restaurants">Restaurants</a>
+
+  <a href="#destination">Destination</a>
+
+  <a href="#conditions">Conditions</a>
+
+  
+
+</nav>
+
+
+
+
+
+<!-- ============================================================
+
+     HERO
+
+     ============================================================ -->
+
+<section class="hero" id="hero">
+
+  <div class="hero-bg"></div>
+
+  <div class="hero-img-overlay"></div>
+
+  <div class="hero-orb hero-orb-1"></div>
+
+  <div class="hero-orb hero-orb-2"></div>
+
+  <div class="hero-orb hero-orb-3"></div>
+
+
+
+  <div class="hero-content">
+
+    <div class="hero-left">
+
+      <div class="hero-badge">Private Golf Proposal</div>
+
+      <h1>Vietnam<br><em>Hoi An.</em><br></h1>
+
+      <div class="hero-divider"></div>
+
+      <p class="hero-sub">6 Days &bull; 5 Nights</p>
+
+    </div>
+
+    <div class="hero-right">
+
+      <div class="hero-stat-row">
+
+        
+
+        <div class="hero-stat">
+
+          <div class="label">Travel Dates</div>
+
+          <div class="value">20 - 25 Oct 2026</div>
+
+        </div>
+
+        <div class="hero-stat">
+
+          <div class="label">Duration</div>
+
+          <div class="value">6 Days / 5 Nights</div>
+
+        </div>
+
+        <div class="hero-stat">
+
+          <div class="label">Group Size</div>
+
+          <div class="value">02 Adults</div>
+
+        </div>
+
+      </div>
+
+      <div class="hero-divider-sm"></div>
+
+      <div class="hero-prep">Proposal Prepared For</div>
+
+      <div class="hero-person">Brendan McKeegan</div>
+
+      <div class="hero-nat">Australian &bull; Prepared by Duyen My &bull; 16 Sep 2026</div>
+
+      <div class="hero-status">Quote Valid 10 Days</div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="scroll-cue">↓ &nbsp; scroll to explore</div>
+
+</section>
+
+
+
+
+
+<!-- ============================================================
+
+     WELCOME
+
+     ============================================================ -->
+
+<section class="section section-cream" id="welcome">
+
+  <div class="welcome-grid">
+
+    <div class="welcome-text">
+
+      <span class="label-tag">Welcome to Asia Golf Specialists</span>
+
+      <h2 class="section-title">Your Game. <em style="font-family:'Playfair Display',serif">Our Everything.</em></h2>
+
+      <div class="gold-divider"></div>
+
+      <p>G'day Brendan, and welcome. On behalf of the entire AGS team, it's genuinely great to have you enquiring with us. Since you will have already been enjoying Hoi An since the 15th with the boys by the time the ladies arrive, we're excited to help you transition into this second half of the trip with your wives.</p>
+
+      <p>With the ladies arriving on the 19th, they can comfortably join you and Andrew at the Bel Marina Hotel for the final night of the initial booking. From the 20th, we'll smoothly transition the four of you into a more luxurious setting. We've put together an itinerary that perfectly balances couples' relaxation with two spectacular rounds of golf.</p>
+
+      <p>At Asia Golf Specialists, we're not just a booking platform; we're Australian expat golfers who live, play, and plan from here. We've handled all the logistics—from the seamless transfer to your new hotel, to your tee times and local tours—so you and your wives can just focus on unwinding and enjoying the best of Hoi An.</p>
+
+      <p>The proposal below outlines two exceptional accommodation options for the four of you, alongside your rounds at Ba Na Hills and Vinpearl Golf. Please don't hesitate to reach out to Duyen at any time to refine or adjust any details.</p>
+
+      <p style="font-style:italic;opacity:.65;font-size:13px;">Please note: this quote is valid for 10 days from the date of issue. Rates are subject to availability and may require adjustment once confirmed. Any changes after booking confirmation may incur a rebooking fee.</p>
+
+    </div>
+
+    <div class="welcome-card">
+
+      <div class="wc-label">Your AGS Contact</div>
+
+      <blockquote>"You focus on your game. We focus on everything else."</blockquote>
+
+      <div class="contact-line">
+
+        <div class="icon">✉</div>
+
+        <div class="info">
+
+          <div class="ctitle">Sales Specialist</div>
+
+          <div class="cval">Duyen My - sales@asiagolfspecialists.com</div>
+
+        </div>
+
+      </div>
+
+      <div class="contact-line">
+
+        <div class="icon">📱</div>
+
+        <div class="info">
+
+          <div class="ctitle">Vietnam Hotline (24/7)</div>
+
+          <div class="cval">+84 898 168 236</div>
+
+        </div>
+
+      </div>
+
+      <div class="contact-line">
+
+        <div class="icon">🌐</div>
+
+        <div class="info">
+
+          <div class="ctitle">Website</div>
+
+          <div class="cval">www.asiagolfspecialists.com</div>
+
+        </div>
+
+      </div>
+
+      <div style="margin-top:28px;padding-top:24px;border-top:1px solid rgba(212,175,55,.2);">
+
+        <div class="ctitle" style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:16px;">On-The-Ground In Vietnam</div>
+
+        <div class="contact-line">
+
+          <div class="icon">✉</div>
+
+          <div class="info">
+
+            <div class="ctitle">General Manager</div>
+
+            <div class="cval">Marcus Giles - marcus.giles@asiagolfspecialists.com</div>
+
+          </div>
+
+        </div>
+
+        <div class="contact-line">
+
+          <div class="icon">📱</div>
+
+          <div class="info">
+
+            <div class="ctitle">Marcus - Direct Mobile</div>
+
+            <div class="cval">+84 935 601 099</div>
+
+          </div>
+
+        </div>
+
+        <div style="font-size:11px;color:rgba(245,241,230,.35);margin-top:8px;padding-left:44px;">Meet &amp; Greet on arrival at Da Nang Airport</div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+<!-- ============================================================
+
+     OVERVIEW - PRICING & INCLUSIONS
+
+     ============================================================ -->
+
+
+<div class="section-banner" id="overview" style="background:linear-gradient(135deg,#0A1128 0%,#020617 100%);">
+  <div class="section-banner-content">
+    <span class="banner-num">01 - Overview</span>
+    <h2>Accommodation Summary</h2>
+    <p>Rates based on 02 adults travelling together &bull; 01 double room</p>
+  </div>
+</div>
+
+<section class="section section-white">
+  <span class="label-tag">Your Package</span>
+  <h2 class="section-title">Accommodation Options</h2>
+  <div class="gold-divider"></div>
+  <p style="font-size:14px;color:var(--grey);margin-bottom:48px;max-width:700px;">We have prepared the following recommended accommodation option for your group.</p>
+
+  <div class="pricing-grid">
+    <div class="pricing-card featured">
+      <div class="pc-header">
+        <div class="pc-star" style="color: #D4AF37; font-weight: 800;">OPTION 1 &middot; ★★★★★</div>
+        <h3>Namia River Retreat</h3>
+      </div>
+      <div class="pc-body">
+        <div class="pc-room">1 x Nipa Pool Villa - 1 bedroom</div>
+        <div class="pricing-row">
+          <span class="pr-type">Location</span>
+          <span class="pr-price" style="font-size: 1rem;">Hoi An</span>
+        </div>
+        <div class="pricing-row">
+          <span class="pr-type">Website</span>
+          <span class="pr-price" style="font-size: 1rem;"><a href="https://namiariverretreat.com/" target="_blank" style="font-family: \'Montserrat\', sans-serif;">View Site</a></span>
+        </div>
+          <div class="pricing-row">
+            <span class="pr-type">Per golfer</span>
+            <span class="pr-price">AUD $2,554</span>
+          </div>
+          <div class="pricing-row">
+            <span class="pr-type">Total (2 Guests)</span>
+            <span class="pr-price">AUD $5,108</span>
+          </div>
+      </div>
+    </div>
+
+    </div>
+</div>
+  </div>
+
+  <div style="margin-top:64px;">
+    <span class="label-tag">What's Included &amp; What's Not</span>
+    <h2 class="section-title">Inclusions &amp; Exclusions</h2>
+    <div class="gold-divider"></div>
+  </div>
+  <div class="inc-exc-grid" style="margin-top:32px;">
+    <div class="ie-box inc">
+      <h4>&check; Inclusions</h4>
+      <ul>
+        <li>Accommodation as listed above.</li>
+        <li>Meals as listed in the itinerary (B=Breakfast, L=Lunch, D=Dinner)</li>
+        <li>English speaking local guides (one place = one guide)</li>
+        <li>Tours and transfers as mentioned by private air-conditioned vehicles</li>
+        <li>Entrance fees for all visits as mentioned in the itinerary</li>
+      </ul>
+    </div>
+    <div class="ie-box exc">
+      <h4>&cross; Exclusions</h4>
+      <ul>
+        <li>Travel insurance (compulsory)</li>
+        <li>Spending money</li>
+        <li>Tips &amp; gratuities</li>
+        <li>Activities not listed</li>
+        <li>Meals not listed</li>
+        <li>All drinks</li>
+        <li>International departure taxes</li>
+        <li>International flights</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- ============================================================
+
+     WHY AGS
+
+     ============================================================ -->
+
+<section class="section section-dark" id="why-ags" style="padding-top:80px;padding-bottom:0;">
+
+  <div style="text-align:center;margin-bottom:60px;">
+
+    <span class="label-tag" style="display:block;text-align:center;">Why Choose Us</span>
+
+    <h2 class="section-title" style="color:var(--cream);">Why Asia Golf Specialists?</h2>
+
+    <div class="gold-divider-center"></div>
+
+    <p style="max-width:600px;margin:0 auto;font-size:14px;color:rgba(245,241,230,.6);line-height:1.8;">We're Australian golf operators based on the ground in Vietnam. That distinction is the difference between a trip that goes well and a trip that becomes the benchmark for every group tour that follows.</p>
+
+  </div>
+
+</section>
+
+<div class="why-grid" id="why-ags-grid" style="margin-top:0;">
+
+  <div class="why-card">
+
+    <div class="why-num">01</div>
+
+    <div class="why-icon">🗺</div>
+
+    <h3>Local Expertise</h3>
+
+    <p>We live here. We play here. Our team has first-hand knowledge of every course, every clubhouse quirk, every caddie worth requesting, and every road condition between Da Nang and the first tee. No outsourcing. No guesswork.</p>
+
+  </div>
+
+  <div class="why-card">
+
+    <div class="why-num">02</div>
+
+    <div class="why-icon">🏌</div>
+
+    <h3>Dedicated Travel Team</h3>
+
+    <p>From first inquiry to final departure transfer, you have a named specialist handling your group. Duyen manages your proposal. Marcus meets you on the ground. You're never passed to a call centre or left chasing a generic inbox.</p>
+
+  </div>
+
+  <div class="why-card">
+
+    <div class="why-num">03</div>
+
+    <div class="why-icon">⛳</div>
+
+    <h3>Seamless Golf Experiences</h3>
+
+    <p>Tee times, caddies, carts, scorecards, post-round drinks, and return transfers - every logistical detail is pre-arranged and confirmed before your group lands. Your caddie will know your names. Your driver will be in the right place. Every time.</p>
+
+  </div>
+
+  <div class="why-card">
+
+    <div class="why-num">04</div>
+
+    <div class="why-icon">🏆</div>
+
+    <h3>Prestige Network</h3>
+
+    <p>We've built relationships with golf directors, club managers, and hotel GMs across Vietnam over many years. That means priority tee times, private clubhouse access, and the kind of treatment that money alone cannot buy at short notice from any other operator.</p>
+
+  </div>
+
+</div>
+
+
+
+
+
+<!-- ============================================================
+
+     ITINERARY TIMELINE
+
+     ============================================================ -->
+
+
+<div class="section-banner" id="itinerary" style="background:linear-gradient(135deg,#020617 0%,#051a0a 100%);">
+  <div class="section-banner-content">
+    <span class="banner-num">02 - Day by Day</span>
+    <h2>Your Itinerary</h2>
+    <p>20 Oct - 25 Oct 2026 - Hoi An, Vietnam</p>
+  </div>
+</div>
+
+<section class="section section-cream">
+  <div class="timeline">
+    
+        <!-- DAY 1 -->
+      <div class="tl-item">
+        <div class="tl-day">
+          <div class="day-circle">D1</div>
+          <div class="day-date">20 Oct</div>
+        </div>
+        <div class="tl-content">
+          <div class="tl-title">Hoi An - Transfer to Namia River Retreat</div>
+          <span class="tl-badge transfer">Transfer</span>
+          <p style="background: yellow; display: inline-block; padding: 2px 5px; font-weight: bold;">Normal check-in time is 14:00</p>
+          <p>Welcome to the second half of your holiday! With the ladies having arrived yesterday and joined you at the Bel Marina Hotel, today you will all transfer together to the luxurious Namia River Retreat.</p>
+          <p>Please take a note of my phone number and call me any time if you need assistance - Ms. Duyen +84 898 168 236.</p>
+          <div class="tl-meta">
+            <div class="tl-meta-item"><div class="mi-label">Hotel</div><div class="mi-val">Namia River Retreat</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Room Type</div><div class="mi-val">1 x Nipa Pool Villa - 1 bedroom</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Inclusions</div><div class="mi-val">Transfer from Bel Marina to Namia River Retreat, guide</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Pick up time</div><div class="mi-val">TBA</div></div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+
+      <!-- DAY 2 -->
+      <div class="tl-item">
+        <div class="tl-day">
+          <div class="day-circle">D2</div>
+          <div class="day-date">21 Oct</div>
+        </div>
+        <div class="tl-content">
+          <div class="tl-title">Hoi An Cooking Class 1/2 Day</div>
+          <span class="tl-badge tour">B/L</span>
+          <p>Our guide will pick you up at your hotel. The guide will take you to a local market to tell you about the main ingredients in Vietnamese cuisine and choose the fresh ingredients for the cooking class. This is also one of the highlights of the tour where you can gain an insight into Vietnamese herbs and spices. After the market trip, the car will take you back to Cam Thanh Coconut village. Then transferring to a unique bamboo basket boat to explore the beauty of Bay Mau coconut forest also called the Mekong Delta in the heart of Hoi An.</p>
+          <p>Especially, while the guide show you how to pound and separate rice, grind rice to make rice milk, and make rice paper, you will have the chance to experience traditional Vietnamese cultural tools like a stone mortar and grinder, wooden pestle.</p>
+          <p>You will be dropped off at the hotel after your tour and have a rest.</p>
+          <div class="tl-meta">
+            <div class="tl-meta-item"><div class="mi-label">Hotel</div><div class="mi-val">Namia River Retreat</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Room Type</div><div class="mi-val">1 x Nipa Pool Villa - 1 bedroom</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Inclusions</div><div class="mi-val">Group tour (transportation, local guide, entrance fee, lunch)</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Pick up time</div><div class="mi-val">08:00 - 08:20</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DAY 3 -->
+      <div class="tl-item">
+        <div class="tl-day">
+          <div class="day-circle">D3</div>
+          <div class="day-date">22 Oct</div>
+        </div>
+        <div class="tl-content">
+          <div class="tl-title">Golf at Ba Na Hills</div>
+          <span class="tl-badge golf">B</span>
+          <p>Our driver will pick you up and transfer to Bana Hills Golf for your round of 18 holes. After you finish, our driver will transfer you back to your hotel to relax.</p>
+          <p>Designed by former world number 1, Luke Donald in partnership with IMG, the stunning Ba Na Hills Golf Club is located in the foothills and forests of the famed Ba Na Hills, only 25 minutes from Da Nang City in Vietnam</p>
+          <p>The course is surrounded by magnificent scenery that offers spectacular views on every hole. Playing to a par of 72, this highly regarded championship layout offers a great test of golf and a wonderful experience. A world class driving range and magnificent clubhouse add to the excellent facilities, and all 18 holes are fully lit for night golf.</p>
+          <p style="font-weight: bold;">Tee time: TBA</p>
+          <div class="tl-meta">
+            <div class="tl-meta-item"><div class="mi-label">Hotel</div><div class="mi-val">Namia River Retreat</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Room Type</div><div class="mi-val">1 x Nipa Pool Villa - 1 bedroom</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Inclusions</div><div class="mi-val">Private transfer, golf course (Green fee, caddie fee and share cart)</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Pick up time</div><div class="mi-val">TBA</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DAY 4 -->
+      <div class="tl-item">
+        <div class="tl-day">
+          <div class="day-circle">D4</div>
+          <div class="day-date">23 Oct</div>
+        </div>
+        <div class="tl-content">
+          <div class="tl-title">Hoi An Countryside by Jeep Tour 1/2 Day</div>
+          <span class="tl-badge tour">B/L</span>
+          <p style="font-weight:bold;">Morning tour: 07:30 - 12:00 (Lunch at the end)</p>
+          <p>07:30 - Begin your adventure with a pick-up from your address in Hoi An as we set off for the picturesque Cam Kim Island. Cross the river and immerse yourself in the serene beauty of the countryside. Our first stop is a local farm, where you'll know more about our rice, vegetable, and cereal crop cultivation, delving into the daily life of hard-working local farmers. Next, discover the rich tradition of Hoi An's handicrafts. Visit artisans specializing in weaving, rice-wine making, and woodcarving, and learn about these age-old crafts that have been passed down through generations.</p>
+          <p>The tour concludes at our charming bistro and chef-home where a delectable home-cooked lunch awaits, providing a delightful taste of local cuisine. Bid farewell to your local hosts and return to your hotel with our convenient shuttle transfer, carrying with you the memories of an unforgettable journey through the enchanting rural landscapes of Hoi An.</p>
+          <div class="tl-meta">
+            <div class="tl-meta-item"><div class="mi-label">Hotel</div><div class="mi-val">Namia River Retreat</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Room Type</div><div class="mi-val">1 x Nipa Pool Villa - 1 bedroom</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Inclusions</div><div class="mi-val"><strong>Private tour:</strong> Pick up & drop off, Jeep car with driver, English-speaking guide; Helmet & Poncho, All Ticket & entrance fee Lunch, (Vietnamese Set Menu), Drinking water during tour.</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Pick up time</div><div class="mi-val">07:30</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DAY 5 -->
+      <div class="tl-item">
+        <div class="tl-day">
+          <div class="day-circle">D5</div>
+          <div class="day-date">24 Oct</div>
+        </div>
+        <div class="tl-content">
+          <div class="tl-title">Golf at Vinpearl Golf Nam Hoi An</div>
+          <span class="tl-badge golf">B</span>
+          <p>Our driver will pick you up and transfer to Vinpearl Golf Nam Hoi An for your round of 18 holes. After you finish, our driver will transfer you back to your hotel to relax.</p>
+          <p>Situated within the most enchanting cultural heritage complex in Vietnam, Vinpearl Golf Nam Hoi An is a visual spectacle with its natural sandy terrain, ever-changing seasonal landscapes, and unique local flora. The course design, characterized by broad fairways and gently undulating greens, invites golfers into an intimate connection with nature, providing an enjoyable and surprising experience without undue pressure. Conveniently located 45 minutes by car from Da Nang International Airport and 17 kilometers South of Hoi An Old Town, Vinpearl Golf Nam Hoi An stands as a must-visit destination for golf enthusiasts and visitors on the journey of exploring the S-shaped land.</p>
+          <p style="font-weight: bold;">Tee time: TBA</p>
+          <div class="tl-meta">
+            <div class="tl-meta-item"><div class="mi-label">Hotel</div><div class="mi-val">Namia River Retreat</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Room Type</div><div class="mi-val">1 x Nipa Pool Villa - 1 bedroom</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Inclusions</div><div class="mi-val">Private transfer, golf course (Green fee, caddie fee and share cart)</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Pick up time</div><div class="mi-val">TBA</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DAY 6 -->
+      <div class="tl-item">
+        <div class="tl-day">
+          <div class="day-circle">D6</div>
+          <div class="day-date">25 Oct</div>
+        </div>
+        <div class="tl-content">
+          <div class="tl-title">Hoi An / Da Nang Departure - Brendan McKeegan x 2</div>
+          <span class="tl-badge transfer">Departure</span>
+          <p style="font-weight: bold; color: red;">Please advise your flight details.</p>
+          <p style="background: yellow; display: inline-block; padding: 2px 5px; font-weight: bold;">Normal check-out time is 12:00</p>
+          <p>At the right time, our driver will meet Brendan McKeegan x2 at the hotel lobby and transfer you to the airport for your flight home. Be sure not to pack any valuables in your checked in luggage and remove all sharp objects and liquids from your carry on (this applies to both domestic and international flights).</p>
+          <div class="tl-meta">
+            <div class="tl-meta-item"><div class="mi-label">Hotel</div><div class="mi-val">Namia River Retreat</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Room Type</div><div class="mi-val">Nipa Pool Villa - 1 bedroom</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Inclusions</div><div class="mi-val">Private airport transfer (driver only)</div></div>
+            <div class="tl-meta-item"><div class="mi-label">Pick up time</div><div class="mi-val">TBA</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+<!-- ============================================================
+
+     GOLF COURSES
+
+     ============================================================ -->
+
+
+<div class="section-banner" id="courses" style="background:linear-gradient(135deg,#051a0a 0%,#004225 100%);">
+  <div class="section-banner-content">
+    <span class="banner-num">03 - The Golf</span>
+    <h2>Championship Courses</h2>
+    <p>Selected layouts for this itinerary</p>
+  </div>
+</div>
+<section class="section section-white">
+
+  <!-- COURSE 1 -->
+  <div class="course-block">
+    <div class="course-header">
+      <div>
+        <h3 class="course-name">Ba Na Hills Golf Club</h3>
+        <div class="course-tagline">Mountain masterpiece by Luke Donald</div>
+      </div>
+      <div class="course-stat-box">
+        <div class="stat-item"><div class="s-label">Designer</div><div class="s-val">Luke Donald / IMG</div></div>
+        <div class="stat-item"><div class="s-label">Holes</div><div class="s-val">18 (Par 72)</div></div>
+        <div class="stat-item"><div class="s-label">Length</div><div class="s-val">7,857 Yards</div></div>
+        <div class="stat-item"><div class="s-label">Drive from Hotel</div><div class="s-val">45 Mins</div></div>
+      </div>
+    </div>
+    <div class="course-desc">
+      <p>Tucked away in the foothills of the Truong Son Mountains just 25 minutes from Da Nang City, this acclaimed facility is the proud debut design of former World No. 1 Luke Donald in partnership with IMG. Carved directly out of dense mountain forest to offer magnificent scenery and spectacular views on every hole, the highly regarded par-72 championship layout features impressive elevation changes and pristine turf conditioning. Completed by world-class practice facilities, a magnificent clubhouse, and a full system of floodlights for an unforgettable twilight round, it delivers both a stern test of golf and a truly wonderful experience.</p>
+    </div>
+    <div class="course-img-grid">
+      <div class="course-img-slot"><img src="/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-da-nang-vietnam-1.webp" alt="Ba Na Hills"></div>
+      <div class="course-img-slot"><img src="/images/courses/vietnam/ba-na-hills/ba-na-hills-aerial-sunset.webp" alt="Ba Na Hills"></div>
+      <div class="course-img-slot"><img src="/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-luke-donald-design-3.webp" alt="Ba Na Hills"></div>
+      <div class="course-img-slot"><img src="/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-mountain-course-2.webp" alt="Ba Na Hills"></div>
+    </div>
+  </div>
+
+  <!-- COURSE 2 -->
+  <div class="course-block">
+    <div class="course-header">
+      <div>
+        <h3 class="course-name">Vinpearl Golf Nam Hoi An</h3>
+        <div class="course-tagline">Links-style challenge by IMG</div>
+      </div>
+      <div class="course-stat-box">
+        <div class="stat-item"><div class="s-label">Designer</div><div class="s-val">IMG Worldwide</div></div>
+        <div class="stat-item"><div class="s-label">Holes</div><div class="s-val">18 (Par 72)</div></div>
+        <div class="stat-item"><div class="s-label">Length</div><div class="s-val">7,125 Yards</div></div>
+        <div class="stat-item"><div class="s-label">Drive from Hotel</div><div class="s-val">25 Mins</div></div>
+      </div>
+    </div>
+    <div class="course-desc">
+      <p>Situated within an enchanting cultural heritage complex just 45 minutes from Da Nang International Airport and 17 kilometers south of Hoi An Old Town, Vinpearl Golf Nam Hoi An is a visual spectacle crafted by IMG Worldwide. Seamlessly woven into the natural sandy terrain, rolling white-sand dunes, and unique local flora of the Quang Nam coast, the 18-hole championship layout features broad fairways, gently undulating greens, strategic water hazards, and persistent sea breezes. Balancing an intimate connection with nature with clever tactical demands, it offers an invigorating resort challenge that stands as a must-visit destination for golf enthusiasts exploring the region.</p>
+    </div>
+    <div class="course-img-grid">
+      <div class="course-img-slot"><img src="/images/courses/vietnam/vinpearl-nam-hoi-an/vinpearl-golf-nam-hoi-an-aerial-fairway-view.webp" alt="Vinpearl Golf"></div>
+      <div class="course-img-slot"><img src="/images/courses/vietnam/vinpearl-nam-hoi-an/vinpearl-golf-nam-hoi-an-dunes-fairway-2.webp" alt="Vinpearl Golf"></div>
+      <div class="course-img-slot"><img src="/images/courses/vietnam/vinpearl-nam-hoi-an/vinpearl-golf-nam-hoi-an-old-growth-trees-3.webp" alt="Vinpearl Golf"></div>
+      <div class="course-img-slot"><img src="/images/courses/vietnam/vinpearl-nam-hoi-an/vinpearl-golf-nam-hoi-an-resort-facilities-4.webp" alt="Vinpearl Golf"></div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+<!-- ============================================================
+
+     ACCOMMODATION
+
+     ============================================================ -->
+
+
+<div class="section-banner" id="accommodation" style="background:linear-gradient(135deg,#D4AF37 0%,#8b6f1e 100%);">
+  <div class="section-banner-content">
+    <span class="banner-num" style="color:var(--cream);">04 - Your Stay</span>
+    <h2 style="color:var(--cream);">Accommodation Options</h2>
+    <p style="color:rgba(255,255,255,.7);">The finest places to rest and restore</p>
+  </div>
+</div>
+<section class="section section-cream">
+
+  <!-- OPTION 1 -->
+  <div class="hotel-block">
+    <span class="hotel-option-label">Option 1</span>
+    <div class="hotel-header">
+      <div>
+        <div class="hotel-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+        <h3 class="hotel-name">Namia River Retreat</h3>
+        <span class="hotel-tag">Primary Recommendation</span>
+      </div>
+    </div>
+    <div class="hotel-desc">
+      <p>A tranquil luxury retreat located along the serene Thu Bon River, Namia River Retreat offers an intensely evocative and intimate escape. Here, exquisite pool villas are designed to harmonize flawlessly with the surrounding natural beauty, blurring the lines between indoor elegance and outdoor serenity. Experience world-class dining that celebrates local flavors, bespoke wellness programs tailored to rejuvenate the senses, and deeply personalized service—all just a short distance from the ancient, lantern-lit streets of Hoi An. It is a sanctuary designed not just for rest, but for profound restoration.</p>
+    </div>
+    <div class="hotel-img-grid">
+      <div class="hotel-img-slot"><img src="/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-hero.webp" alt="Namia River Retreat"></div>
+      <div class="hotel-img-slot"><img src="/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-pool-villa.webp" alt="Namia River Retreat"></div>
+      <div class="hotel-img-slot"><img src="/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-suite-interior.webp" alt="Namia River Retreat"></div>
+      <div class="hotel-img-slot"><img src="/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-dining-area.webp" alt="Namia River Retreat"></div>
+      <div class="hotel-img-slot"><img src="/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-wellness-retreat.webp" alt="Namia River Retreat"></div>
+    </div>
+  </div>
+
+  <div class="gold-divider" style="margin:60px 0;"></div>
+
+  
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- ============================================================
+     CURATED SIGHTSEEING
+     ============================================================ -->
+<div class="section-banner" id="sightseeing" style="background:linear-gradient(135deg,#0A1128 0%,#004225 100%);">
+  <div class="section-banner-content">
+    <span class="banner-num">06 - Excursions</span>
+    <h2>Curated Sightseeing & Heritage</h2>
+    <p>Exclusive journeys in Hoi An</p>
+  </div>
+</div>
+
+<section class="section section-cream">
+  <div class="excursion-grid">
+
+    <!-- EXCURSION 1: HOI AN COOKING CLASS -->
+    <div class="excursion-card" style="border-top:4px solid var(--navy);">
+      <div class="excursion-body">
+        <span class="excursion-tag" style="color:var(--navy);">Day 3 (08:00 - 13:00)</span>
+        <h3 class="excursion-title">Hoi An Cooking Class & Bay Mau Coconut Forest</h3>
+        <p class="excursion-desc">
+          Begin with a guided tour of the local market to source fresh ingredients and gain insight into Vietnamese herbs and spices. Transfer to Cam Thanh Coconut village where you'll embark on a unique bamboo basket boat ride to explore the serene Bay Mau coconut forest. Conclude with a hands-on cooking class where you'll learn traditional techniques like pounding rice milk and making rice paper.
+        </p>
+        <ul class="excursion-features">
+          <li>Local market tour</li>
+          <li>Bamboo basket boat ride</li>
+          <li>Hands-on cooking class</li>
+          <li>Traditional stone mortar techniques</li>
+        </ul>
+      </div>
+      <div class="excursion-media">
+        <div class="excursion-img-box"><img src="/images/destinations/vietnam/culture/vietnam-basket-boat-tours-hoi-an.webp" alt="Hoi An"></div>
+        <div class="excursion-img-box"><img src="/images/destinations/vietnam/culinary/take-a-cooking-class-in-tra-que-vegetable-village.webp" alt="Cooking Class"></div>
+      </div>
+    </div>
+
+    <!-- EXCURSION 2: JEEP TOUR -->
+    <div class="excursion-card" style="border-top:4px solid var(--navy);">
+      <div class="excursion-body">
+        <span class="excursion-tag" style="color:var(--navy);">Day 5 (07:30 - 12:00)</span>
+        <h3 class="excursion-title">Hoi An Countryside by Jeep Tour</h3>
+        <p class="excursion-desc">
+          Set off from Hoi An in a classic Jeep, journeying to the picturesque Cam Kim Island. Discover the daily life of local farmers at a rice and vegetable farm, then delve into Hoi An's rich handicraft traditions. Visit skilled artisans specializing in weaving, rice-wine making, and woodcarving. Conclude the adventure with a delectable home-cooked lunch featuring authentic local cuisine.
+        </p>
+        <ul class="excursion-features">
+          <li>Private Jeep with English-speaking guide</li>
+          <li>Cam Kim Island & local farms</li>
+          <li>Traditional handicraft villages</li>
+          <li>Home-cooked Vietnamese set menu lunch</li>
+        </ul>
+      </div>
+      <div class="excursion-media">
+        <div class="excursion-img-box"><img src="/images/tours/vietnam/saigon-jeep-tour.webp" alt="Jeep Tour"></div>
+        <div class="excursion-img-box"><img src="/images/tours/vietnam/vespa-hoi-an/hoi-an-vespa-tours-rice-paddies.webp" alt="Countryside"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+
+     RESTAURANTS
+
+     ============================================================ -->
+
+<div class="section-banner" id="restaurants" style="background:linear-gradient(135deg,#0A1128 0%,#004225 100%);">
+
+  <div class="section-banner-content">
+
+    <span class="banner-num">07 - Dining</span>
+
+    <h2>Hoi An Gastronomy</h2>
+
+    <p>The 19th Hole Redefined</p>
+
+  </div>
+
+</div>
+
+
+
+<section class="section section-dark">
+
+  <div class="dest-grid">
+
+    <div class="dest-card">
+
+      <div class="dc-icon"><img src="/images/restaurants-bars/vietnam/surf-and-turf-club-amazing-steak-and-seafood.webp" alt="The Surf & Turf Beach Club" style="width:100%; height:200px; object-fit:cover; border-radius:4px;" /></div>
+
+      <h3>The Surf & Turf Beach Club</h3>
+
+      <p>For those staying in our beachfront rooms, The Surf & Turf Beach Club is the ultimate destination for premium cuts and ocean-fresh seafood. The beachfront dining experience perfectly mirrors the luxury of the Central Coast, making it a standout choice for an evening of indulgence.</p>
+
+    </div>
+
+    <div class="dest-card">
+
+      <div class="dc-icon"><img src="/images/restaurants-bars/vietnam/tok-fusion-dining.webp" alt="Tok Restaurant" style="width:100%; height:200px; object-fit:cover; border-radius:4px;" /></div>
+
+      <h3>Tok Restaurant</h3>
+
+      <p>Set against the tranquil backdrop of lush rice paddies, Tok Restaurant elevates dining into a scenic event. The modern fusion menu brings international finesse to local ingredients, making it an essential stop for those who appreciate culinary innovation after a day on the links.</p>
+
+    </div>
+
+    <div class="dest-card">
+
+      <div class="dc-icon"><img src="/images/restaurants-bars/vietnam/lim-dining-room-authentic-italian-food-heritage-setting.webp" alt="Lim Dining Room" style="width:100%; height:200px; object-fit:cover; border-radius:4px;" /></div>
+
+      <h3>Lim Dining Room</h3>
+
+      <p>When your group craves authentic Italian food in a heritage setting, Lim Dining Room delivers. Nestled within Hoi An's Old Town, the restaurant combines old-world architecture with a menu of flawlessly executed Italian classics, offering a sophisticated contrast to traditional local fare.</p>
+
+    </div>
+
+    <div class="dest-card">
+
+      <div class="dc-icon"><img src="/images/restaurants-bars/vietnam/mango-room-celebrity-chef-duc-trans-restaurant.webp" alt="Mango Rooms" style="width:100%; height:200px; object-fit:cover; border-radius:4px;" /></div>
+
+      <h3>Mango Rooms</h3>
+
+      <p>Helmed by celebrity chef Duc Tran, Mango Rooms is a vibrant explosion of color and flavor. The Vietnamese fusion dishes are as eclectic as the decor, providing a high-energy environment perfect for recounting the day's best shots over inventive cocktails.</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ============================================================
+
+     DESTINATION INFORMATION
+
+     ============================================================ -->
+
+<div class="section-banner" id="destination" style="background:linear-gradient(135deg,#0A1128 0%,#004225 100%);">
+
+  <div class="section-banner-content">
+
+    <span class="banner-num">08 - Know Before You Go</span>
+
+    <h2>Destination Information</h2>
+
+    <p>Hoi An &amp; Central Vietnam - Everything you need to know</p>
+
+  </div>
+
+</div>
+
+
+
+<section class="section section-dark">
+
+  <div class="dest-grid">
+
+
+
+    <div class="dest-card">
+
+      <div class="dc-icon">⛳</div>
+
+      <h3>Why Golf Here?</h3>
+
+      <p>Central Vietnam's Da Nang-Hoi An corridor is unambiguously Asia's premier golf destination. Within a 60-minute radius of Hoi An, your group has access to more than 12 championship layouts - including multiple entries on Golf Digest's Top 100 Courses in the World list. The concentration of world-class architecture (Norman, Donald, Faldo, RTJ Jr., Nicklaus) in such a compact geography is genuinely unmatched anywhere in Asia.</p>
+
+      <p style="margin-top:12px;">Late April is firmly within Central Vietnam's golden window - warm, clear mornings ideal for golf, with lower humidity than peak summer and manageable afternoon temperatures. Water conditions are excellent at all courses in this period.</p>
+
+    </div>
+
+
+
+    <div class="dest-card">
+
+      <div class="dc-icon">✈</div>
+
+      <h3>Arrival &amp; Meet &amp; Greet</h3>
+
+      <ul>
+
+        <li>Da Nang International Airport (DAD) is your entry point</li>
+
+        <li>Most Australian travellers route via Singapore (SIN), Kuala Lumpur (KUL), or Ho Chi Minh City (SGN)</li>
+
+        <li>AGS General Manager Marcus Giles will meet the group in Arrivals with a name sign</li>
+
+        <li>Your driver and air-conditioned vehicle will be waiting curbside</li>
+
+        <li>Australian citizens require a Vietnamese e-Visa - apply at least 2 weeks before departure at evisa.xuatnhapcanh.gov.vn</li>
+
+        <li>Passport validity: minimum 6 months beyond travel dates</li>
+
+      </ul>
+
+    </div>
+
+
+
+    <div class="dest-card">
+
+      <div class="dc-icon">🚐</div>
+
+      <h3>Transfers &amp; Transport</h3>
+
+      <ul>
+
+        <li>All transfers are by private air-conditioned vehicle - no shared shuttles</li>
+
+        <li>Airport to Palm Garden Beach Resort & Spa (Hoi An): approximately 60 minutes</li>
+
+        <li>Hoi An to Montgomerie Links: approximately 20 minutes</li>
+
+        <li>Palm Garden to Laguna Lăng Cô: approximately 60 minutes</li>
+
+        <li>Palm Garden to Ba Na Hills Golf Club: approximately 45 minutes</li>
+
+        <li>Palm Garden to Hoiana Shores: approximately 25 minutes</li>
+
+        <li>Your driver's contact number will be provided on Day 1</li>
+
+      </ul>
+
+    </div>
+
+
+
+    <div class="dest-card">
+
+      <div class="dc-icon">💰</div>
+
+      <h3>Tipping Guidelines</h3>
+
+      <ul>
+
+        <li><strong>Caddies:</strong> VND 500,000 (~USD $20) per caddie per round is the recommended tip - your caddies are assigned individually, carry your bag for 18 holes in the heat, and are genuinely integral to your score. Tip them well in cash at the end of the round.</li>
+
+        <li><strong>Drivers/Transfers:</strong> USD $3-$5 per trip or USD $10-$15 per day for a full-day driver is appropriate.</li>
+
+        <li><strong>Hotel Porter/Bellboy:</strong> 20,000-50,000 VND per instance.</li>
+
+        <li><strong>Restaurants:</strong> 5-10% if service charge not included - check the bill.</li>
+
+        <li><strong>General:</strong> Tipping is not mandatory in Vietnam but is genuinely valued. Cash in Vietnamese Dong or USD is equally acceptable.</li>
+
+      </ul>
+
+    </div>
+
+
+
+    <div class="dest-card">
+
+      <div class="dc-icon">🏌</div>
+
+      <h3>What to Pack</h3>
+
+      <ul>
+
+        <li><strong>Attire:</strong> Collared golf shirts and tailored shorts/trousers required at all courses. No denim. No sleeveless shirts at most venues.</li>
+
+        <li><strong>Footwear:</strong> Soft spikes required. Some courses have complimentary shoe cleaning services post-round.</li>
+
+        <li><strong>Climate:</strong> Late April is warm and mostly sunny - temperatures average 28-32°C with moderate humidity. A lightweight rain jacket is recommended. Vietnam's championship layouts drain well and play resumes quickly after showers.</li>
+
+        <li><strong>Sun protection:</strong> SPF 50+ minimum, UV arm sleeves, and a wide-brim golf hat are strongly recommended - you're close to the Equator.</li>
+
+        <li><strong>Golf equipment:</strong> Rental clubs available at all courses. Bag storage and golf locker rooms at each venue.</li>
+
+      </ul>
+
+    </div>
+
+
+
+    <div class="dest-card">
+
+      <div class="dc-icon">🍜</div>
+
+      <h3>Must-Try Local Dishes</h3>
+
+      <div class="food-item">
+
+        <div class="food-name">Cao Lầu</div>
+
+        <div class="food-desc">Hoi An's signature noodle dish - thick rice noodles with pork, bean sprouts, and herb greens, served with minimal broth. The noodles are traditionally made with water drawn from an ancient Cham well in the Old Town. You cannot authentically eat this dish anywhere else in the world.</div>
+
+      </div>
+
+      <div class="food-item">
+
+        <div class="food-name">Mì Quảng</div>
+
+        <div class="food-desc">Central Vietnam's defining noodle soup - wide, turmeric-stained rice noodles with a small amount of rich broth, topped with pork, shrimp, toasted sesame rice crackers, and fresh herbs. A profound counterargument to anyone who thinks Vietnamese cuisine is only about pho.</div>
+
+      </div>
+
+      <div class="food-item">
+
+        <div class="food-name">Bánh Mì Phượng</div>
+
+        <div class="food-desc">Anthony Bourdain called Bánh Mì Phượng's version the "best sandwich in the world." A baguette of extraordinary crispness, filled with pâté, pickled daikon, coriander, and your choice of protein. A 10-minute walk from the Old Town - essential.</div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="dest-card">
+
+      <div class="dc-icon">🌐</div>
+
+      <h3>General Travel Info</h3>
+
+      <ul>
+
+        <li><strong>Currency:</strong> Vietnamese Dong (VND). AUD 1 ≈ 16,000 VND (verify current rate). Major hotels accept USD and credit cards.</li>
+
+        <li><strong>Electricity:</strong> 220V / 50Hz. Two-pin round plugs standard. Australian 3-pin adapters may not fit - bring a universal adapter.</li>
+
+        <li><strong>Language:</strong> Vietnamese. English is widely spoken at all golf courses and 5-star hotels.</li>
+
+        <li><strong>Time Zone:</strong> ICT (UTC+7). No daylight saving. Australian EST is 4 hours ahead (3 hours in AEST summer).</li>
+
+        <li><strong>Connectivity:</strong> Excellent 4G/LTE coverage throughout Da Nang and Hoi An. Most hotels offer strong WiFi. Recommend local SIM card for AUD $10-15 on arrival - available at the airport.</li>
+
+        <li><strong>Safety:</strong> Da Nang and Hoi An are among Vietnam's safest tourist destinations. Standard precautions apply.</li>
+
+      </ul>
+
+    </div>
+
+
+
+    <div class="dest-card">
+
+      <div class="dc-icon">⚕</div>
+
+      <h3>Health &amp; Wellbeing</h3>
+
+      <ul>
+
+        <li><strong>Vaccinations:</strong> Consult your GP 6-8 weeks before departure. Hepatitis A, Typhoid, and a current Tetanus are commonly recommended for Vietnam.</li>
+
+        <li><strong>Water:</strong> Do not drink tap water. Bottled water is provided in all hotel rooms and on golf transfers.</li>
+
+        <li><strong>Mosquitoes:</strong> Low risk in April in both Da Nang and Hoi An, but DEET-based repellent is recommended for evening activities in the Old Town.</li>
+
+        <li><strong>Medical:</strong> Vietnam Family Medical Practice in Da Nang is the go-to English-language clinic. Our AGS 24/7 support line can assist with any health-related logistics.</li>
+
+        <li><strong>Travel Insurance:</strong> Compulsory - comprehensive medical evacuation coverage is strongly recommended.</li>
+
+      </ul>
+
+    </div>
+
+
+
+  </div>
+
+</section>
+
+
+
+
+
+<!-- ============================================================
+
+     SPECIAL NOTES & BOOKING CONDITIONS
+
+     ============================================================ -->
+
+<div class="section-banner" id="conditions" style="background:linear-gradient(to right,#020617 60%,#0A1128 100%);">
+
+  <div class="section-banner-content">
+
+    <span class="banner-num">09 - Important Information</span>
+
+    <h2>Special Notes &amp; Booking Conditions</h2>
+
+    <p>Please read before confirming your booking</p>
+
+  </div>
+
+</div>
+
+
+
+<section class="section section-navy-alt">
+
+  <span class="label-tag">Special Notes</span>
+
+  <h2 class="section-title" style="color:var(--cream);margin-bottom:40px;">A Few Things Worth Knowing</h2>
+
+
+
+  <div class="special-note-grid" style="margin-bottom:64px;">
+
+    <div class="sn-card">
+
+      <h4>Feedback &amp; On-Trip Assistance</h4>
+
+      <p>During your holiday, if any service does not meet your expectations, contact us immediately - do not wait until you return home. Our Vietnam number (+84 898 168 236) is staffed 24/7 and exists precisely for this purpose.</p>
+
+    </div>
+
+    <div class="sn-card">
+
+      <h4>Hotel Check-in &amp; Check-out</h4>
+
+      <p>Standard check-in: 14:00. Standard check-out: 12:00. Early check-in and late check-out are available on request and subject to an additional fee. We recommend requesting these at time of booking confirmation for arrival Day 1.</p>
+
+    </div>
+
+  </div>
+
+
+
+  <span class="label-tag">Booking Conditions</span>
+
+  <h2 class="section-title" style="color:var(--cream);margin-bottom:40px;">Terms &amp; Conditions</h2>
+
+
+
+  <div class="conditions-grid">
+
+    <div class="cond-card">
+
+      <h4>Payment Schedule</h4>
+
+      <p style="margin-bottom:6px;"><span style="color:var(--gold);">·</span> 20% deposit require upon confirming the reservation and non refundable.</p>
+
+      <p style="margin-bottom:6px;"><span style="color:var(--gold);">·</span> 20% of total accommodation charge to be paid at least 180 days prior to arrival and non refundable.</p>
+
+      <p style="margin-bottom:6px;"><span style="color:var(--gold);">·</span> 50% of the total amount to be paid at least 120 days prior to arrival and non refundable.</p>
+
+      <p style="margin-bottom:12px;"><span style="color:var(--gold);">·</span> Remaining balance should be paid at least 90 days prior to arrival and non refundable.</p>
+
+      <p>Kindly note that this offer doesn’t represent any hold of space; the offer will be considered null and void after 30 days.</p>
+
+    </div>
+
+    <div class="cond-card">
+
+      <h4>Amendments</h4>
+
+      <p>Up to 21 days prior to departure, <strong style="color:var(--gold);">three amendments per booking</strong> are permitted free of charge. All subsequent changes will incur an amendment fee of <strong style="color:var(--gold);">USD $50 per change</strong>. We'll make every effort to accommodate requests, but changes to confirmed bookings are subject to availability and supplier conditions.</p>
+
+    </div>
+
+    <div class="cond-card">
+
+      <h4>Cancellation Policy</h4>
+
+      <p>Cancellation fees apply to all cancelled reservations:</p>
+
+      <p style="margin-top:10px;"><strong style="color:var(--gold);">More than 30 days before departure:</strong> Loss of deposit only.</p>
+
+      <p style="margin-top:6px;"><strong style="color:var(--gold);">30 days or fewer before departure:</strong> 100% of total booking cost.</p>
+
+    </div>
+
+    <div class="cond-card">
+
+      <h4>Currency &amp; Rates</h4>
+
+      <p>All pricing is quoted in AUD based on USD exchange rates at time of quoting. AGS asks for payment within 7 days to lock in the rate unchanged. If payment cannot be made in full, the usual $250 pp deposit within 7 days is accepted; however, the balance may be adjusted in line with exchange rates when due 45 days prior to departure.</p>
+
+    </div>
+
+    <div class="cond-card">
+
+      <h4>Unused Services</h4>
+
+      <p>No refunds or exchanges can be made in respect of accommodation, meals, sightseeing tours, transport, or any other services included in the tour price but not utilised by the client.</p>
+
+    </div>
+
+    <div class="cond-card">
+
+      <h4>Liability &amp; Insurance</h4>
+
+      <p>Asia Golf Specialists is not responsible for any injury, loss, death, inconvenience, delay or damage to personal property resulting from but not limited to acts of God, illness, disease, acts of war, civil unrest, criminal activities, overbooking, food poisoning, mechanical failure, or failure of any transportation to arrive or depart on time.</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+<!-- ============================================================
+
+     CTA BAR
+
+     ============================================================ -->
+
+<div class="cta-bar">
+
+  <h2>Ready to Lock In Your Dates?</h2>
+
+  <p>Confirm your booking with Duyen today - this quote is valid for 10 days from 16 Sep 2026.</p>
+
+  <a href="mailto:marcus.giles@asiagolfspecialists.com,sales@asiagolfspecialists.com?subject=Booking Confirmation - Brendan McKeegan" class="cta-btn">Confirm Your Booking</a>
+
+</div>
+
+
+
+
+
+<!-- ============================================================
+
+     FOOTER
+
+     ============================================================ -->
+
+<footer class="footer">
+
+  <div class="footer-top">
+
+    <div>
+
+      <div class="footer-logo">
+
+        <img src="/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp" alt="Asia Golf Specialists" style="height:48px; filter:brightness(0) invert(1);">
+
+      </div>
+
+      <p class="footer-tagline">The Gold Standard in Luxury Golf Travel.<br>Australian-owned. Vietnam-based. Always on the ground.</p>
+
+    </div>
+
+    <div class="footer-col">
+
+      <h4>This Proposal</h4>
+
+      <p></p>
+
+      <p>Client: Mr Brendan McKeegan</p>
+
+      <p>Prepared by: Duyen My</p>
+
+      <p>Date of Issue: 16 Sep 2026</p>
+
+      <p>Travel Dates: 20-25 Oct 2026</p>
+
+    </div>
+
+    <div class="footer-col">
+
+      <h4>Contact</h4>
+
+      <a href="mailto:marcus.giles@asiagolfspecialists.com,sales@asiagolfspecialists.com">sales@asiagolfspecialists.com</a>
+
+      <a href="tel:+84898168236">+84 898 168 236 (Vietnam 24/7)</a>
+
+      <a href="tel:+84935601099">+84 935 601 099 (Marcus Giles)</a>
+
+      <a href="https://www.asiagolfspecialists.com" target="_blank">www.asiagolfspecialists.com</a>
+
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <div class="footer-copy">© 2026 Asia Golf Specialists. All Rights Reserved. Private &amp; Confidential.</div>
+
+    <div class="footer-validity">Quote valid until 116 Sep 2026 · </div>
+
+  </div>
+
+</footer>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,193 @@
+{
+  "slug": "da-nang-championship-links",
+  "title": "7-Day Da Nang Championship Coastal Links",
+  "description": "Championship coastal links tour in Da Nang & Hoi An. Play Montgomerie Links, Ba Na Hills, BRG Nicklaus, and Hoiana Shores from Bel Marina Hoi An Resort.",
+  "heroImage": "/images/homepage/hero-slider/vietnam-coastal-golf-course-hoiana-shores-aerial-beachside.webp",
+  "destination": "Da Nang & Hoi An, Vietnam",
+  "country": "Vietnam",
+  "groupProfile": "8-Golfer Group",
+  "intent": "Pure Golf",
+  "duration": "7 Days / 6 Nights (4 Rounds)",
+  "guidePriceUsd": 1290,
+  "guidePriceFrom": 1990,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-central-coast-classic",
+    "title": "The Central Coast Classic",
+    "duration": "7 Days / 6 Nights",
+    "heroImage": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-dunes-hoi-an-4.webp",
+    "highlight": "Our all-inclusive, fully hosted signature luxury expedition pairing championship links with private yacht charters and private villa dining."
+  },
+  "featuredVenues": [
+    {
+      "name": "Montgomerie Links Vietnam",
+      "type": "course",
+      "href": "/courses/vietnam/montgomerie-links/",
+      "image": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-da-nang-1-hero.webp",
+      "badge": "Colin Montgomerie",
+      "highlight": "Par 72 • 7,091 Yards"
+    },
+    {
+      "name": "Ba Na Hills Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/ba-na-hills/",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-da-nang-vietnam-1.webp",
+      "badge": "Luke Donald / IMG",
+      "highlight": "Par 72 • 7,858 Yards"
+    },
+    {
+      "name": "BRG Da Nang Nicklaus Course",
+      "type": "course",
+      "href": "/courses/vietnam/brg-da-nang-nicklaus/",
+      "image": "/images/courses/vietnam/brg-da-nang-nicklaus/brg-da-nang-golf-resort-nicklaus-water-feature-3.webp",
+      "badge": "Jack Nicklaus Design",
+      "highlight": "Par 73 • 7,380 Yards"
+    },
+    {
+      "name": "Hoiana Shores Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/hoiana-shores/",
+      "image": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+      "badge": "Robert Trent Jones Jr.",
+      "highlight": "Par 72 • 7,309 Yards"
+    },
+    {
+      "name": "Bel Marina Hoi An Resort",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/bel-marina-hoi-an/",
+      "image": "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-hero-bel-marina-hoi-an-riverside-pool.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Dedicated private luxury vehicles exclusively for your group for all airport, resort, and golf course journeys."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "4 championship rounds at Montgomerie Links, Ba Na Hills, BRG Da Nang (Nicklaus), and Hoiana Shores."
+    },
+    {
+      "item": "Caddies & Buggies",
+      "detail": "One dedicated personal caddie and twin-share golf buggy included for every round."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "6 nights in Deluxe River View Suites at Bel Marina Hoi An Resort."
+    },
+    {
+      "item": "Local Guardian Concierge",
+      "detail": "24/7 on-ground AGS logistics management ensuring guaranteed morning tee times and seamless daily bag staging."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "VIP Arrival in Da Nang & Riverside Sanctuary Acclimatization",
+      "subtitle": "Arrival & Welcome",
+      "stayName": "Bel Marina Hoi An Resort",
+      "stayHref": "/accommodations/vietnam/bel-marina-hoi-an/",
+      "transferTime": "35 mins from DAD Airport",
+      "image": "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-hero-bel-marina-hoi-an-riverside-pool.webp",
+      "imageCaption": "Bel Marina Hoi An Resort — Luxury Sanctuary Base",
+      "imageAlt": "Bel Marina Hoi An Resort luxury accommodation Asia Golf Specialists",
+      "description": "Touch down at Da Nang International Airport (DAD), where your dedicated Asia Golf Specialists Local Guardian awaits airside. Your private chauffeur whisks your party south via executive air-conditioned transport along the coastal boulevard directly into the tranquil riverfront grounds of <a href=\"/accommodations/vietnam/bel-marina-hoi-an/\">Bel Marina Hoi An Resort</a>. Check in smoothly to your Deluxe River View Suites, decompress from transit, and prepare your golf bags with our staging team.<br><br>As twilight falls over the Thu Bon River, stroll five minutes across the footbridge into UNESCO World Heritage Hoi An Ancient Town. Enjoy a bespoke welcome dinner at an artisan riverside courtyard, savoring central Vietnamese delicacies such as Cao Lau noodles and white rose dumplings, while reviewing the tournament scoring schedule and weekly course conditions with your AGS tour host."
+    },
+    {
+      "day": 2,
+      "title": "Tactical European Links Golf at Montgomerie Links",
+      "subtitle": "Round 1: Coastal Links Strategy",
+      "courseName": "Montgomerie Links Vietnam",
+      "courseHref": "/courses/vietnam/montgomerie-links/",
+      "architect": "Colin Montgomerie",
+      "stayName": "Bel Marina Hoi An Resort",
+      "stayHref": "/accommodations/vietnam/bel-marina-hoi-an/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-da-nang-1-hero.webp",
+      "imageCaption": "Montgomerie Links Vietnam — Colin Montgomerie (Par 72, 7,091 Yards)",
+      "imageAlt": "Montgomerie Links Vietnam championship golf course Colin Montgomerie Asia Golf Specialists",
+      "description": "Open your championship campaign on the wind-shaped fairways of <a href=\"/courses/vietnam/montgomerie-links/\">Montgomerie Links Vietnam</a>, Colin Montgomerie's acclaimed 7,090-yard par-72 design. Routed through ancient coastal pine groves and sweeping sandy scrubland, the layout demands precision off the tee and disciplined bump-and-run approach play. Your personal caddie navigates you around Montgomerie's signature cascading bunker clusters, firm Paspalum fairways, and subtly tiered putting surfaces that reward strategic course management over raw power.<br><br>Following 18 holes, retreat to the airy, glass-walled clubhouse terrace overlooking the 18th lake for cold local beers and fresh ocean seafood. Your private chauffeur stands ready for the 20-minute return drive to Bel Marina Hoi An for an afternoon poolside recovery session or an authentic herbal foot massage before an evening exploring Hoi An's lantern-lit culinary quarter."
+    },
+    {
+      "day": 3,
+      "title": "Mountain Mist & Dramatic Elevation at Ba Na Hills",
+      "subtitle": "Round 2: Mountain Parkland Masterpiece",
+      "courseName": "Ba Na Hills Golf Club",
+      "courseHref": "/courses/vietnam/ba-na-hills/",
+      "architect": "Luke Donald / IMG",
+      "stayName": "Bel Marina Hoi An Resort",
+      "stayHref": "/accommodations/vietnam/bel-marina-hoi-an/",
+      "transferTime": "45 mins door-to-door",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-da-nang-vietnam-1.webp",
+      "imageCaption": "Ba Na Hills Golf Club — Luke Donald / IMG (Par 72, 7,858 Yards)",
+      "imageAlt": "Ba Na Hills Golf Club championship golf course Luke Donald / IMG Asia Golf Specialists",
+      "description": "Journey inland into the mist-shrouded foothills of the Truong Son Mountains to tackle <a href=\"/courses/vietnam/ba-na-hills/\">Ba Na Hills Golf Club</a>, Luke Donald’s world-renowned parkland creation voted Vietnam’s best course. Playing up to 7,858 yards from the championship tips, this layout is carved through dramatic jungle valleys, native streams, and towering granite ridges. The elevation shifts demand careful club selection, while pristine SeaIsle Paspalum greens roll true at tournament speeds under the cool highland breeze.<br><br>Conclude your round with lunch on the clubhouse panoramic deck taking in sweeping views of the 9th and 18th finishing greens. Your private transfer returns you to Hoi An by mid-afternoon, leaving time for bespoke custom tailoring fittings at Hoi An’s master silk ateliers or sunset drinks on the riverside promenade."
+    },
+    {
+      "day": 4,
+      "title": "Rest Day & UNESCO Hoi An Cultural Immersion",
+      "subtitle": "Rest & Cultural Restoration",
+      "stayName": "Bel Marina Hoi An Resort",
+      "stayHref": "/accommodations/vietnam/bel-marina-hoi-an/",
+      "transferTime": "At leisure in Hoi An",
+      "image": "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-bel-marina-hoi-an-pool-villa.webp",
+      "imageCaption": "Bel Marina Hoi An Resort — Luxury Sanctuary Base",
+      "imageAlt": "Bel Marina Hoi An Resort luxury accommodation Asia Golf Specialists",
+      "description": "A purposefully scheduled rest day designed to recharge your body midway through the championship schedule. Wake up at your own pace to a lavish breakfast buffet overlooking the Thu Bon River. Spend the morning lounging alongside Bel Marina’s pristine infinity pool, indulge in deep-tissue bodywork at the resort spa, or take an optional guided cycling excursion through the tranquil Tra Que organic herb village.<br><br>In the afternoon, discover the preserved 16th-century architecture of the UNESCO World Heritage town, visiting historic merchant houses and the iconic Japanese Covered Bridge. In the evening, Asia Golf Specialists reserves an exclusive balcony table at a premier Hoi An fine-dining establishment, pairing French-Vietnamese fusion cuisine with fine international wines."
+    },
+    {
+      "day": 5,
+      "title": "Modern Waterfront Strategy at BRG Da Nang (Nicklaus Course)",
+      "subtitle": "Round 3: Florida Stadium Styling",
+      "courseName": "BRG Da Nang Nicklaus Course",
+      "courseHref": "/courses/vietnam/brg-da-nang-nicklaus/",
+      "architect": "Jack Nicklaus Design",
+      "stayName": "Bel Marina Hoi An Resort",
+      "stayHref": "/accommodations/vietnam/bel-marina-hoi-an/",
+      "transferTime": "25 mins door-to-door",
+      "image": "/images/courses/vietnam/brg-da-nang-nicklaus/brg-da-nang-golf-resort-nicklaus-water-feature-3.webp",
+      "imageCaption": "BRG Da Nang Nicklaus Course — Jack Nicklaus Design (Par 73, 7,380 Yards)",
+      "imageAlt": "BRG Da Nang Nicklaus Course championship golf course Jack Nicklaus Design Asia Golf Specialists",
+      "description": "Head north along the coastal corridor to take on the Nicklaus Design course at <a href=\"/courses/vietnam/brg-da-nang-nicklaus/\">BRG Da Nang Golf Resort</a>. Drawing inspiration from Florida’s legendary waterfront stadium layouts, this modern track is distinguished by authentic hardwood bulkheads imported from the United States lining numerous lakes, creeks, and greens complexes. Water comes into play on nearly every hole, requiring pinpoint target golf, courageous carries, and astute reading of subtle green breaks.<br><br>After putting out on the photogenic 18th green framed by water and modern clubhouse architecture, unwind with post-round refreshments in the members' lounge. Your private chauffeur transfers you back to Hoi An for a relaxed evening along the An Bang beachfront or Hoi An's night market."
+    },
+    {
+      "day": 6,
+      "title": "Pure Coastal Dunes Links Finale at Hoiana Shores",
+      "subtitle": "Round 4: Championship Seaside Finale",
+      "courseName": "Hoiana Shores Golf Club",
+      "courseHref": "/courses/vietnam/hoiana-shores/",
+      "architect": "Robert Trent Jones Jr.",
+      "stayName": "Bel Marina Hoi An Resort",
+      "stayHref": "/accommodations/vietnam/bel-marina-hoi-an/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+      "imageCaption": "Hoiana Shores Golf Club — Robert Trent Jones Jr. (Par 72, 7,309 Yards)",
+      "imageAlt": "Hoiana Shores Golf Club championship golf course Robert Trent Jones Jr. Asia Golf Specialists",
+      "description": "Save the best for last with the grand tour finale at <a href=\"/courses/vietnam/hoiana-shores/\">Hoiana Shores Golf Club</a>, Robert Trent Jones II’s pure links masterpiece set directly amidst the oceanfront dunes overlooking the East Sea and Cham Islands. Boasting pristine Zeon Zoysia fairways and TifEagle Bermuda greens, this Top 100 Asia layout offers pure links golf—firm, fast, and completely exposed to sea breezes. Holes 15 through 18 run directly along the coastal shore, delivering one of the most exhilarating finishing stretches in global golf.<br><br>Celebrate the conclusion of your 72-hole championship competition with clubhouse celebratory drinks and a private farewell dinner overlooking the crashing ocean waves. Relive tournament highlights and present awards before a private transfer back to Bel Marina Hoi An for your final night."
+    },
+    {
+      "day": 7,
+      "title": "Leisurely Morning & VIP Airport Departure",
+      "subtitle": "Departure & Farewell",
+      "stayName": "Bel Marina Hoi An Resort",
+      "stayHref": "/accommodations/vietnam/bel-marina-hoi-an/",
+      "transferTime": "35 mins to DAD Airport",
+      "image": "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-bel-marina-hoi-an-bedroom-interior.webp",
+      "imageCaption": "Bel Marina Hoi An Resort — Luxury Sanctuary Base",
+      "imageAlt": "Bel Marina Hoi An Resort luxury accommodation Asia Golf Specialists",
+      "description": "Savor a relaxed morning and final tropical breakfast overlooking the Thu Bon River. Take a final swim in the riverside pool or pick up last-minute custom garments and artisan souvenirs in Hoi An town. Check out smoothly with assistance from your AGS concierge, who safely stows all luggage and golf travel bags.<br><br>Your dedicated private luxury vehicle transfers your party directly to Da Nang International Airport (DAD) in plenty of time for your onward or international flight, concluding an unforgettable 7-day Central Vietnam championship golf expedition."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the tee time pacing for Da Nang courses?",
+      "answer": "We secure guaranteed morning tee times (between 7:30 AM and 8:30 AM) to ensure cool conditions and avoid afternoon coastal winds."
+    },
+    {
+      "question": "How are golf bags handled between courses?",
+      "answer": "Your AGS Local Guardian handles secure bag-drop directly with the caddie master at every course, eliminating all transit friction."
+    }
+  ]
+}

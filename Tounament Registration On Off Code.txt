@@ -1,0 +1,14 @@
+To re-enable the tournament form later:
+Open src/app/events-tours/page.tsx and find line ~345:
+
+tsx
+
+
+
+// Before (hidden):
+const REGISTRATIONS_OPEN = false; // ← flip to true when ready
+// After (live):
+const REGISTRATIONS_OPEN = true;
+
+
+That single change brings the entire form back — all the fields, consent checkboxes, API connection, and email notifications are fully preserved and waiting.

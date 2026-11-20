@@ -1,0 +1,154 @@
+{
+  "slug": "chiang-mai-highlands-golf",
+  "title": "5-Day Chiang Mai Mountain Highlands & Cultural Sanctuary",
+  "description": "Cool northern mountain golf in the cultural capital of Lanna. Play Chiang Mai Highlands, Alpine Chiang Mai, and Mae Jo.",
+  "heroImage": "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-golf-country-club-thailand-1.webp",
+  "destination": "Chiang Mai, Thailand",
+  "country": "Thailand",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Mountain Golf & Cultural Escape",
+  "duration": "5 Days / 4 Nights (3 Rounds)",
+  "guidePriceUsd": 2455,
+  "guidePriceFrom": 3780,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-lanna-heritage-golf-trail",
+    "title": "The Lanna Heritage Golf Trail",
+    "duration": "7 Days / 6 Nights",
+    "heroImage": "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-golf-country-club-thailand-1.webp",
+    "highlight": "Upgrade to our comprehensive 7-day Lanna heritage signature tour featuring luxury private villas, temple tours, and Michelin-star dining."
+  },
+  "featuredVenues": [
+    {
+      "name": "Chiang Mai Highlands Golf & Country Club",
+      "type": "course",
+      "href": "/courses/thailand/chiang-mai-highlands/",
+      "image": "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-golf-country-club-thailand-1.webp",
+      "badge": "Schmidt-Curley Design",
+      "highlight": "Par 72 • 6,872 Yards"
+    },
+    {
+      "name": "Alpine Golf Resort Chiang Mai",
+      "type": "course",
+      "href": "/courses/thailand/alpine-chiang-mai/",
+      "image": "/images/courses/thailand/alpine-chiang-mai/alpine-golf-resort-chiang-mai-thailand-1.webp",
+      "badge": "Ron Garl",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Mae Jo Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/mae-jo/",
+      "image": "/images/courses/thailand/mae-jo/mae-jo-1.webp",
+      "badge": "Seni Thirawat",
+      "highlight": "Par 72 • 6,730 Yards"
+    },
+    {
+      "name": "Four Seasons Chiang Mai",
+      "type": "accommodation",
+      "href": "/accommodations/thailand/four-seasons-chiang-mai/",
+      "image": "/images/accommodations/thailand/four-seasons-chiang-mai/thailand-luxury-hotel-four-seasons-chiang-mai-rice-paddies-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Executive chauffeured vehicles for all airport, resort, and mountain course journeys."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: Chiang Mai Highlands, Alpine Golf Resort Chiang Mai, and Mae Jo Golf Resort."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights in a Garden Pavilion at Four Seasons Resort Chiang Mai in the Mae Rim Valley."
+    },
+    {
+      "item": "Caddies & Buggies",
+      "detail": "Personal caddie and shared cart included for every round."
+    },
+    {
+      "item": "Local Guardian",
+      "detail": "Dedicated on-ground host managing tee times and cultural dining."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Chiang Mai & Mae Rim Valley Pavilion Check-In",
+      "subtitle": "Lanna Mountain Welcome",
+      "stayName": "Four Seasons Chiang Mai",
+      "stayHref": "/accommodations/thailand/four-seasons-chiang-mai/",
+      "transferTime": "30 mins from CNX Airport",
+      "image": "/images/accommodations/thailand/four-seasons-chiang-mai/thailand-luxury-hotel-four-seasons-chiang-mai-rice-paddies-1.webp",
+      "imageCaption": "Four Seasons Chiang Mai — Luxury Sanctuary Base",
+      "imageAlt": "Four Seasons Chiang Mai luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Chiang Mai International Airport (CNX) where your private chauffeur welcomes your group and transfers you to <a href=\"/accommodations/thailand/four-seasons-chiang-mai/\">Four Seasons Resort Chiang Mai</a>, set among terraced rice fields in the Mae Rim Valley. Settle into your Garden Pavilion with views of the misty peaks.<br><br>Sip a welcome herbal tea on your covered outdoor sala before an authentic northern Thai dinner featuring fragrant Khao Soi curry."
+    },
+    {
+      "day": 2,
+      "title": "Mountain Foothills Gem at Chiang Mai Highlands",
+      "subtitle": "Round 1: Schmidt-Curley Foothills Layout",
+      "courseName": "Chiang Mai Highlands Golf & Country Club",
+      "courseHref": "/courses/thailand/chiang-mai-highlands/",
+      "architect": "Schmidt-Curley Design",
+      "stayName": "Four Seasons Chiang Mai",
+      "stayHref": "/accommodations/thailand/four-seasons-chiang-mai/",
+      "transferTime": "50 mins door-to-door",
+      "image": "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-golf-country-club-thailand-1.webp",
+      "imageCaption": "Chiang Mai Highlands Golf & Country Club — Schmidt-Curley Design (Par 72, 6,872 Yards)",
+      "imageAlt": "Chiang Mai Highlands Golf & Country Club championship golf course Schmidt-Curley Design Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/thailand/chiang-mai-highlands/\">Chiang Mai Highlands Golf and Spa Resort</a>, Schmidt-Curley's award-winning foothills design. Deep sand bunkers, rolling Paspalum fairways, and towering mountain ridges make this one of Thailand’s most scenic and challenging tests.<br><br>Enjoy lunch on the open-air clubhouse deck overlooking the mountain valley before returning to Four Seasons for an afternoon swim in the tiered infinity pools."
+    },
+    {
+      "day": 3,
+      "title": "Ron Garl Parkland Design at Alpine Golf Resort Chiang Mai",
+      "subtitle": "Round 2: Asian Tour Tournament Host",
+      "courseName": "Alpine Golf Resort Chiang Mai",
+      "courseHref": "/courses/thailand/alpine-chiang-mai/",
+      "architect": "Ron Garl",
+      "stayName": "Four Seasons Chiang Mai",
+      "stayHref": "/accommodations/thailand/four-seasons-chiang-mai/",
+      "transferTime": "45 mins door-to-door",
+      "image": "/images/courses/thailand/alpine-chiang-mai/alpine-golf-resort-chiang-mai-thailand-1.webp",
+      "imageCaption": "Alpine Golf Resort Chiang Mai — Ron Garl (Par 72, 7,000+ Yards)",
+      "imageAlt": "Alpine Golf Resort Chiang Mai championship golf course Ron Garl Asia Golf Specialists",
+      "description": "Play <a href=\"/courses/thailand/alpine-chiang-mai/\">Alpine Golf Resort Chiang Mai</a>, Ron Garl’s championship parkland layout nestled between mountain ranges. Island greens, natural streams, and pristine conditioning test every club in your bag.<br><br>Head into the historic Old City of Chiang Mai in the evening, exploring artisan night markets and sampling creative northern Thai street food."
+    },
+    {
+      "day": 4,
+      "title": "Scenic Fruit Orchards & Fairways at Mae Jo Golf Resort",
+      "subtitle": "Round 3: Championship Parkland Finale",
+      "courseName": "Mae Jo Golf Club",
+      "courseHref": "/courses/thailand/mae-jo/",
+      "architect": "Seni Thirawat",
+      "stayName": "Four Seasons Chiang Mai",
+      "stayHref": "/accommodations/thailand/four-seasons-chiang-mai/",
+      "transferTime": "30 mins door-to-door",
+      "image": "/images/courses/thailand/mae-jo/mae-jo-1.webp",
+      "imageCaption": "Mae Jo Golf Club — Seni Thirawat (Par 72, 6,730 Yards)",
+      "imageAlt": "Mae Jo Golf Club championship golf course Seni Thirawat Asia Golf Specialists",
+      "description": "Conclude your northern golf tour at <a href=\"/courses/thailand/mae-jo/\">Mae Jo Golf Resort</a>, weaving through mature longan and lychee fruit orchards against dramatic mountain backdrops.<br><br>Gather for a tour-ending farewell dinner at Four Seasons’ acclaimed restaurant, enjoying fine wines and views of the working rice paddies."
+    },
+    {
+      "day": 5,
+      "title": "Morning Valley Coffee & VIP Airport Departure",
+      "subtitle": "Departure",
+      "stayName": "Four Seasons Chiang Mai",
+      "stayHref": "/accommodations/thailand/four-seasons-chiang-mai/",
+      "transferTime": "30 mins to CNX Airport",
+      "image": "/images/accommodations/thailand/four-seasons-chiang-mai/thailand-luxury-hotel-four-seasons-chiang-mai-rice-paddies-1.webp",
+      "imageCaption": "Four Seasons Chiang Mai — Luxury Sanctuary Base",
+      "imageAlt": "Four Seasons Chiang Mai luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast overlooking the misty morning valley before packing your clubs with assistance from your AGS concierge.<br><br>Your private executive transfer transports your group to Chiang Mai International Airport for your departure flight."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the climate like in Chiang Mai for golf?",
+      "answer": "From November to February, Chiang Mai enjoys cool, dry weather with morning temperatures around 16-18°C, ideal for golf."
+    }
+  ]
+}

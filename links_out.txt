@@ -1,0 +1,52 @@
+Found 51 links:
+<a href="#day-1" className="btn-ghost-gold">Begin the Journey →</a>
+<a href={{`#day-${{chapter.day - 1}}`}} className="text-tertiary uppercase tracking-widest text-xs opacity-40 hover:opacity-100 italic transition-all">Previous Day</a>
+<a href=\"/courses/vietnam/hoiana-shores\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Hoiana Shores Golf Club</a>
+<a href=\"/courses/vietnam/ba-na-hills\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Ba Na Hills Golf Club</a>
+<a href=\"/courses/vietnam/laguna-lang-co\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Laguna Golf L\u0103ng C\u00f4</a>
+<a href=\"/courses/vietnam/brg-da-nang-nicklaus\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">BRG Da Nang Golf Resort</a>
+<a href=\"/courses/vietnam/silk-path-dong-trieu\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Silk Path Golf Club</a>
+<a href=\"/courses/vietnam/kings-island\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">King's Island Golf Resort</a>
+<a href=\"/courses/vietnam/sky-lake\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Sky Lake Resort & Golf Club</a>
+<a href=\"/courses/vietnam/legend-hill\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">BRG Legend Hill</a>
+<a href=\"/courses/vietnam/hoiana-shores\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Hoiana Shores Golf Club</a>
+<a href=\"/courses/vietnam/ba-na-hills\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Ba Na Hills Golf Club</a>
+<a href=\"/courses/vietnam/brg-da-nang-nicklaus\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">BRG Da Nang Golf Resort</a>
+<a href=\"/courses/vietnam/the-bluffs-ho-tram\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">The Bluffs Grand Ho Tram</a>
+<a href=\"/courses/vietnam/vgcc\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Vietnam Golf & Country Club</a>
+<a href=\"/courses/vietnam/long-thanh\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Long Thanh Golf Club</a>
+<a href=\"/courses/vietnam/hoiana-shores\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Hoiana Shores Golf Club</a>
+<a href=\"/courses/vietnam/ba-na-hills\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Ba Na Hills Golf Club</a>
+<a href=\"/courses/vietnam/laguna-lang-co\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Laguna Golf L\u0103ng C\u00f4</a>
+<a href=\"/courses/vietnam/hoiana-shores\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Hoiana Shores Golf Club</a>
+<a href=\"/courses/vietnam/brg-da-nang-nicklaus\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">BRG Da Nang Golf Resort</a>
+<a href=\"/courses/vietnam/silk-path-dong-trieu\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Silk Path Golf Club</a>
+<a href=\"/courses/vietnam/kings-island\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">King's Island Golf Resort</a>
+<a href=\"/courses/vietnam/sky-lake\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Sky Lake Resort & Golf Club</a>
+<a href=\"/courses/vietnam/hoiana-shores\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Hoiana Shores Golf Club</a>
+<a href=\"/courses/vietnam/ba-na-hills\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Ba Na Hills Golf Club</a>
+<a href=\"/courses/vietnam/brg-da-nang-nicklaus\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">BRG Da Nang Golf Resort</a>
+<a href=\"/courses/vietnam/tan-son-nhat\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Tan Son Nhat Golf Course</a>
+<a href=\"/courses/vietnam/long-thanh\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Long Thanh Golf Club</a>
+<a href=\"/courses/vietnam/the-bluffs-ho-tram\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">The Bluffs Grand Ho Tram</a>
+<a href=\"/courses/thailand/alpine-bangkok\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Alpine Golf Club</a>
+<a href=\"/courses/thailand/thai-country-club\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Thai Country Club</a>
+<a href=\"/courses/thailand/black-mountain\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Black Mountain Golf Club</a>
+<a href=\"/courses/thailand/pineapple-valley\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Pineapple Valley Golf Club</a>
+<a href=\"/courses/thailand/springfield-royal\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Springfield Royal Country Club</a>
+<a href=\"/courses/thailand/alpine-chiang-mai\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Alpine Golf Resort Chiang Mai</a>
+<a href=\"/courses/thailand/chiangmai-highlands\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Chiangmai Highlands Golf and Spa Resort</a>
+<a href=\"/courses/thailand/mae-jo\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Mae Jo Golf Club</a>
+<a href=\"/courses/cambodia/phokeethra\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Phokeethra Country Club</a>
+<a href=\"/courses/cambodia/angkor-golf-resort\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Angkor Golf Resort</a>
+<a href=\"/courses/cambodia/booyoung\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Booyoung Country Club</a>
+<a href=\"/courses/cambodia/garden-city\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Garden City Golf Club</a>
+<a href=\"/courses/cambodia/grand-phnom-penh\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Grand Phnom Penh Golf Club</a>
+<a href=\"/courses/cambodia/vattanac\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Vattanac Golf Resort</a>
+<a href=\"/courses/cambodia/angkor-golf-resort\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Angkor Golf Resort</a>
+<a href=\"/courses/cambodia/vattanac\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Vattanac Golf Resort</a>
+<a href=\"/courses/vietnam/the-bluffs-ho-tram\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">The Bluffs Grand Ho Tram</a>
+<a href=\"/courses/vietnam/hoiana-shores\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Hoiana Shores Golf Club</a>
+<a href=\"/courses/vietnam/ba-na-hills\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Ba Na Hills Golf Club</a>
+<a href=\"/courses/thailand/alpine-bangkok\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Alpine Golf Club</a>
+<a href=\"/courses/thailand/thai-country-club\" style=\"color: #D4AF37; text-decoration: underline; text-underline-offset: 4px;\">Thai Country Club</a>

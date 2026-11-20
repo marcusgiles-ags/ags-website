@@ -1,0 +1,181 @@
+{
+  "slug": "hua-hin-v-villas-royal-links",
+  "title": "7-Day Hua Hin Royal Links & V Villas Private Pool Sanctuary",
+  "description": "Private pool villa luxury at V Villas Hua Hin. Play Black Mountain, Pineapple Valley, and Springfield Royal with dedicated villa host support.",
+  "heroImage": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+  "destination": "Hua Hin, Thailand",
+  "country": "Thailand",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Luxury Villa Golf Escape",
+  "duration": "7 Days / 6 Nights (4 Rounds)",
+  "guidePriceUsd": 2425,
+  "guidePriceFrom": 3730,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-bangkok-and-hua-hin-fairways",
+    "title": "The Bangkok & Hua Hin Fairways",
+    "duration": "9 Days / 8 Nights",
+    "heroImage": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool-villa.webp",
+    "highlight": "Upgrade to our signature dual-destination tour pairing V Villas Hua Hin with luxury penthouse living in Bangkok."
+  },
+  "featuredVenues": [
+    {
+      "name": "Black Mountain Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/black-mountain/",
+      "image": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+      "badge": "Phil Ryan",
+      "highlight": "Par 72 • 7,375 Yards"
+    },
+    {
+      "name": "Pineapple Valley Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/pineapple-valley/",
+      "image": "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-hua-hin-thailand-1.webp",
+      "badge": "Pirapon Namatra / Golf East",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Springfield Royal Country Club",
+      "type": "course",
+      "href": "/courses/thailand/springfield-royal/",
+      "image": "/images/courses/thailand/springfield-royal/springfield-royal-1.webp",
+      "badge": "Jack Nicklaus (A/B) / Lee Schmidt (C)",
+      "highlight": "Par 72 (A/B) / 36 (C) • 7,063 Yards (A/B)"
+    },
+    {
+      "name": "V Villas Hua Hin",
+      "type": "accommodation",
+      "href": "/accommodations/thailand/v-villas-hua-hin/",
+      "image": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Executive chauffeur service for all motorway transfers and course connections."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "4 rounds: 2 rounds at Black Mountain, 1 round at Pineapple Valley, and 1 round at Springfield Royal."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "6 nights in a Luxury Pool Villa at V Villas Hua Hin."
+    },
+    {
+      "item": "Dedicated Villa Host",
+      "detail": "Personal villa host assisting with daily breakfast staging, drinks, and logistics."
+    },
+    {
+      "item": "VIP Concierge",
+      "detail": "Guaranteed morning tee sheet reservations and caddie coordination."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Executive Transit from Bangkok & V Villas Pool Check-In",
+      "subtitle": "Royal Coast Arrival",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "2.5 hrs from Bangkok",
+      "image": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+      "imageCaption": "V Villas Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "V Villas Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "Meet your private chauffeur at Bangkok Airport for an executive journey south to <a href=\"/accommodations/thailand/v-villas-hua-hin/\">V Villas Hua Hin</a>. Check into your secluded luxury pool villa featuring high privacy walls, an expansive sunken lounge, and a private infinity pool.<br><br>Unpack with the help of your dedicated villa host, enjoy welcome champagne on your pool terrace, and savor dinner at Villazzo overlooking the Gulf of Thailand."
+    },
+    {
+      "day": 2,
+      "title": "Championship Test at Black Mountain Golf Club",
+      "subtitle": "Round 1: European Tour Layout",
+      "courseName": "Black Mountain Golf Club",
+      "courseHref": "/courses/thailand/black-mountain/",
+      "architect": "Phil Ryan",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "25 mins door-to-door",
+      "image": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+      "imageCaption": "Black Mountain Golf Club — Phil Ryan (Par 72, 7,375 Yards)",
+      "imageAlt": "Black Mountain Golf Club championship golf course Phil Ryan Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/thailand/black-mountain/\">Black Mountain Golf Club</a>. Ranked among the best courses in Asia, this par-72 layout winds through scenic granite valleys, demanding confident driving and precise iron approaches to fast greens.<br><br>Return to V Villas for an afternoon swim in your private pool, followed by an evening exploring the bustling Hua Hin Night Market for fresh grilled lobster."
+    },
+    {
+      "day": 3,
+      "title": "Pineapple Valley Golf Club (Schmidt-Curley Design)",
+      "subtitle": "Round 2: Rolling Valley Fairways",
+      "courseName": "Pineapple Valley Golf Club",
+      "courseHref": "/courses/thailand/pineapple-valley/",
+      "architect": "Pirapon Namatra / Golf East",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-hua-hin-thailand-1.webp",
+      "imageCaption": "Pineapple Valley Golf Club — Pirapon Namatra / Golf East (Par 72, 7,000+ Yards)",
+      "imageAlt": "Pineapple Valley Golf Club championship golf course Pirapon Namatra / Golf East Asia Golf Specialists",
+      "description": "Play <a href=\"/courses/thailand/pineapple-valley/\">Pineapple Valley Golf Club</a>. Rolling fairways framed by native trees and pineapple fields offer spectacular mountain vistas, while deep bunkers and undulating greens reward strategic course management.<br><br>Enjoy sunset drinks at Pineapple Valley’s iconic Mulligans Pub before returning to your villa for an evening of relaxation."
+    },
+    {
+      "day": 4,
+      "title": "Villa Pool Leisure & Royal Beach Relaxation",
+      "subtitle": "Rest & Restoration",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "At leisure in Hua Hin",
+      "image": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+      "imageCaption": "V Villas Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "V Villas Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "A dedicated rest day. Enjoy a floating breakfast in your private pool, indulge in therapeutic bodywork at V Spa, or take a walk along Hua Hin's wide sandy beach.<br><br>In the evening, dine at one of Hua Hin’s seaside heritage restaurants, sampling fresh seafood and royal Thai cuisine."
+    },
+    {
+      "day": 5,
+      "title": "Jack Nicklaus Design at Springfield Royal Country Club",
+      "subtitle": "Round 3: Nicklaus Challenge",
+      "courseName": "Springfield Royal Country Club",
+      "courseHref": "/courses/thailand/springfield-royal/",
+      "architect": "Jack Nicklaus (A/B) / Lee Schmidt (C)",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "30 mins door-to-door",
+      "image": "/images/courses/thailand/springfield-royal/springfield-royal-1.webp",
+      "imageCaption": "Springfield Royal Country Club — Jack Nicklaus (A/B) / Lee Schmidt (C) (Par 72 (A/B) / 36 (C), 7,063 Yards (A/B))",
+      "imageAlt": "Springfield Royal Country Club championship golf course Jack Nicklaus (A/B) / Lee Schmidt (C) Asia Golf Specialists",
+      "description": "Tackle Jack Nicklaus’s layout at <a href=\"/courses/thailand/springfield-royal/\">Springfield Royal Country Club</a>. Generous fairways lined by sweeping sand traps lead to well-protected greens requiring crisp approach shots.<br><br>Return to V Villas for an evening poolside cocktail hour arranged by your personal villa host."
+    },
+    {
+      "day": 6,
+      "title": "Black Mountain Replay: East & West Course Challenge",
+      "subtitle": "Round 4: Championship Finale",
+      "courseName": "Black Mountain Golf Club",
+      "courseHref": "/courses/thailand/black-mountain/",
+      "architect": "Phil Ryan",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "25 mins door-to-door",
+      "image": "/images/courses/thailand/black-mountain/black-mountain-golf-club-rock-fairway-2.webp",
+      "imageCaption": "Black Mountain Golf Club — Phil Ryan (Par 72, 7,375 Yards)",
+      "imageAlt": "Black Mountain Golf Club championship golf course Phil Ryan Asia Golf Specialists",
+      "description": "Conclude your tour with a replay round at Black Mountain Golf Club, putting your course knowledge to the test against the granite cliffs and rapid putting surfaces.<br><br>Gather for an exclusive private barbecue banquet prepared by your personal chef beside your private pool, toasting a magnificent week."
+    },
+    {
+      "day": 7,
+      "title": "Executive Chauffeur Return to Bangkok Airport",
+      "subtitle": "Departure",
+      "stayName": "V Villas Hua Hin",
+      "stayHref": "/accommodations/thailand/v-villas-hua-hin/",
+      "transferTime": "2.5 hrs to Bangkok Airport",
+      "image": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+      "imageCaption": "V Villas Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "V Villas Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a relaxed final breakfast by your pool before packing your clubs with your villa host’s assistance.<br><br>Your private executive vehicle transports your group smoothly back to Bangkok Airport for your departure."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes V Villas Hua Hin special for golf groups?",
+      "answer": "The spacious multi-bedroom pool villas offer total seclusion, private pools, dedicated butler service, and generous social living areas."
+    }
+  ]
+}

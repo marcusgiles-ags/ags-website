@@ -1,0 +1,189 @@
+{
+  "slug": "phuket-banyan-tree-championship",
+  "title": "7-Day Phuket Championship Coast & Banyan Tree Sanctuary",
+  "description": "Championship island golf based at Banyan Tree Phuket. Play Laguna Golf Phuket, Blue Canyon (Canyon Course), Red Mountain, and Aquella.",
+  "heroImage": "/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+  "destination": "Phuket, Thailand",
+  "country": "Thailand",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Pure Golf & Luxury",
+  "duration": "7 Days / 6 Nights (4 Rounds)",
+  "guidePriceUsd": 2710,
+  "guidePriceFrom": 4170,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "thailand-royal-siam",
+    "title": "Thailand Royal Siam",
+    "duration": "10 Days / 9 Nights",
+    "heroImage": "/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+    "highlight": "Our all-inclusive royal signature tour connecting Phuket’s premier layouts with Bangkok’s championship private clubs."
+  },
+  "featuredVenues": [
+    {
+      "name": "Laguna Golf Phuket",
+      "type": "course",
+      "href": "/courses/thailand/laguna-phuket/",
+      "image": "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-thailand-1.webp",
+      "badge": "Paul Jansen / Max Wexler",
+      "highlight": "Par 71 • 6,606 Yards"
+    },
+    {
+      "name": "Blue Canyon Country Club",
+      "type": "course",
+      "href": "/courses/thailand/blue-canyon/",
+      "image": "/images/courses/thailand/blue-canyon/blue-canyon-country-club-phuket-thailand-1.webp",
+      "badge": "Yoshikazu Kato",
+      "highlight": "Par 72 (Canyon) • 7,165 Yards (Canyon)"
+    },
+    {
+      "name": "Red Mountain Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/red-mountain/",
+      "image": "/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+      "badge": "Johnathan Morrow / Al Tikkanen",
+      "highlight": "Par 72 • 7,002 Yards"
+    },
+    {
+      "name": "Aquella Golf Resort & Country Club",
+      "type": "course",
+      "href": "/courses/thailand/aquella/",
+      "image": "/images/courses/thailand/aquella/aquella-golf-resort-phuket-thailand-1.webp",
+      "badge": "Pacific Coast Design",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Banyan Tree Phuket",
+      "type": "accommodation",
+      "href": "/accommodations/thailand/banyan-tree-phuket/",
+      "image": "/images/accommodations/thailand/banyan-tree-phuket/thailand-luxury-hotel-banyan-tree-phuket-pool-villa-6.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Executive air-conditioned vehicles dedicated to your group for all airport and course transfers."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "4 rounds: Laguna Golf Phuket, Blue Canyon (Canyon), Red Mountain, and Aquella."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "6 nights in a Serenity Pool Villa at Banyan Tree Phuket in Bang Tao Bay."
+    },
+    {
+      "item": "Banyan Tree Spa",
+      "detail": "Signature holistic massage treatment to relieve golfing fatigue."
+    },
+    {
+      "item": "VIP Concierge",
+      "detail": "Guaranteed morning tee sheet reservations and dedicated bag handling."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Phuket & Banyan Tree Pool Villa Check-In",
+      "subtitle": "Island Sanctuary Arrival",
+      "stayName": "Banyan Tree Phuket",
+      "stayHref": "/accommodations/thailand/banyan-tree-phuket/",
+      "transferTime": "25 mins from HKT Airport",
+      "image": "/images/accommodations/thailand/banyan-tree-phuket/thailand-luxury-hotel-banyan-tree-phuket-pool-villa-6.webp",
+      "imageCaption": "Banyan Tree Phuket — Luxury Sanctuary Base",
+      "imageAlt": "Banyan Tree Phuket luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Phuket International Airport (HKT) where your private chauffeur welcomes your group and transfers you directly to <a href=\"/accommodations/thailand/banyan-tree-phuket/\">Banyan Tree Phuket</a> on Bang Tao Bay. Unpack in your Serenity Pool Villa surrounded by tranquil lotus lagoons and private walled gardens.<br><br>Sip a welcome lemongrass cocktail before dining at Saffron, savoring classic Thai dishes while reviewing your upcoming championship course schedule."
+    },
+    {
+      "day": 2,
+      "title": "Resort Fairways at Laguna Golf Phuket",
+      "subtitle": "Round 1: Island Resort Parkland",
+      "courseName": "Laguna Golf Phuket",
+      "courseHref": "/courses/thailand/laguna-phuket/",
+      "architect": "Paul Jansen / Max Wexler",
+      "stayName": "Banyan Tree Phuket",
+      "stayHref": "/accommodations/thailand/banyan-tree-phuket/",
+      "transferTime": "5 mins on resort buggy",
+      "image": "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-thailand-1.webp",
+      "imageCaption": "Laguna Golf Phuket — Paul Jansen / Max Wexler (Par 71, 6,606 Yards)",
+      "imageAlt": "Laguna Golf Phuket championship golf course Paul Jansen / Max Wexler Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/thailand/laguna-phuket/\">Laguna Golf Phuket</a>, an immaculately conditioned resort layout woven around scenic lagoons and coconut groves. Redesigned to championship standards, it rewards strategic placement over raw power.<br><br>Return to Banyan Tree for an afternoon 60-minute therapeutic massage at the award-winning Banyan Tree Spa, loosening your muscles after travel."
+    },
+    {
+      "day": 3,
+      "title": "Tiger Woods’ Stomping Grounds: Blue Canyon (Canyon Course)",
+      "subtitle": "Round 2: World-Renowned Canyon Layout",
+      "courseName": "Blue Canyon Country Club",
+      "courseHref": "/courses/thailand/blue-canyon/",
+      "architect": "Yoshikazu Kato",
+      "stayName": "Banyan Tree Phuket",
+      "stayHref": "/accommodations/thailand/banyan-tree-phuket/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/thailand/blue-canyon/blue-canyon-country-club-phuket-thailand-1.webp",
+      "imageCaption": "Blue Canyon Country Club — Yoshikazu Kato (Par 72 (Canyon), 7,165 Yards (Canyon))",
+      "imageAlt": "Blue Canyon Country Club championship golf course Yoshikazu Kato Asia Golf Specialists",
+      "description": "Tackle the legendary Canyon Course at <a href=\"/courses/thailand/blue-canyon/\">Blue Canyon Country Club</a>, host of the Johnnie Walker Classic won by Tiger Woods. Routed through an old tin mine with dramatic canyon drops and sheer cliff carries, this par-72 layout is one of Asia’s most celebrated tests.<br><br>Relax in the historic clubhouse terrace overlooking the 18th hole before your private transfer returns you to Bang Tao Bay for a relaxed beachfront dinner."
+    },
+    {
+      "day": 4,
+      "title": "Bang Tao Beach Relaxation & Spa Restoration",
+      "subtitle": "Island Day of Rest",
+      "stayName": "Banyan Tree Phuket",
+      "stayHref": "/accommodations/thailand/banyan-tree-phuket/",
+      "transferTime": "At leisure in Bang Tao",
+      "image": "/images/accommodations/thailand/banyan-tree-phuket/thailand-luxury-hotel-banyan-tree-phuket-resort-exterior-2.webp",
+      "imageCaption": "Banyan Tree Phuket — Luxury Sanctuary Base",
+      "imageAlt": "Banyan Tree Phuket luxury accommodation Asia Golf Specialists",
+      "description": "A dedicated day of island leisure midway through your trip. Relax beside your private pool, walk along the white sands of Bang Tao Beach, or enjoy an optional catamaran cruise into Phang Nga Bay.<br><br>In the evening, dine at one of Phuket’s celebrated coastal seafood restaurants, savoring grilled Andaman prawns and fresh sea bass."
+    },
+    {
+      "day": 5,
+      "title": "Spectacular Quarry Drama at Red Mountain Golf Club",
+      "subtitle": "Round 3: Asia’s Most Dramatic Course",
+      "courseName": "Red Mountain Golf Club",
+      "courseHref": "/courses/thailand/red-mountain/",
+      "architect": "Johnathan Morrow / Al Tikkanen",
+      "stayName": "Banyan Tree Phuket",
+      "stayHref": "/accommodations/thailand/banyan-tree-phuket/",
+      "transferTime": "35 mins door-to-door",
+      "image": "/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+      "imageCaption": "Red Mountain Golf Club — Johnathan Morrow / Al Tikkanen (Par 72, 7,002 Yards)",
+      "imageAlt": "Red Mountain Golf Club championship golf course Johnathan Morrow / Al Tikkanen Asia Golf Specialists",
+      "description": "Experience <a href=\"/courses/thailand/red-mountain/\">Red Mountain Golf Club</a>, widely considered one of the most visually stunning courses in the world. Carved directly into dramatic red-rock tin-mine cliffs, jungle valleys, and sheer vertical elevation drops, every hole presents an unforgettable scenic spectacle.<br><br>Celebrate navigating Red Mountain’s thrilling par-3 17th drop hole with beers on the clubhouse deck before heading back to the resort for evening relaxation."
+    },
+    {
+      "day": 6,
+      "title": "Beachside Modern Links at Aquella Golf Resort",
+      "subtitle": "Round 4: Coastal Links Grand Finale",
+      "courseName": "Aquella Golf Resort & Country Club",
+      "courseHref": "/courses/thailand/aquella/",
+      "architect": "Pacific Coast Design",
+      "stayName": "Banyan Tree Phuket",
+      "stayHref": "/accommodations/thailand/banyan-tree-phuket/",
+      "transferTime": "45 mins door-to-door",
+      "image": "/images/courses/thailand/aquella/aquella-golf-resort-phuket-thailand-1.webp",
+      "imageCaption": "Aquella Golf Resort & Country Club — Pacific Coast Design (Par 72, 7,000+ Yards)",
+      "imageAlt": "Aquella Golf Resort & Country Club championship golf course Pacific Coast Design Asia Golf Specialists",
+      "description": "Conclude your Phuket golf rotation north of the bridge at <a href=\"/courses/thailand/aquella/\">Aquella Golf & Country Club</a>. Playing along the pristine Andaman Sea shoreline, this Pacific Coast Design modern links layout features rolling fairways, wooden bunker bulkheads, and firm coastal breezes.<br><br>Gather for a celebratory tour-ending dinner on Bang Tao beach, raising a glass to a week of extraordinary championship golf."
+    },
+    {
+      "day": 7,
+      "title": "VIP Departure via Phuket International Airport",
+      "subtitle": "Departure",
+      "stayName": "Banyan Tree Phuket",
+      "stayHref": "/accommodations/thailand/banyan-tree-phuket/",
+      "transferTime": "25 mins to HKT Airport",
+      "image": "/images/accommodations/thailand/banyan-tree-phuket/thailand-luxury-hotel-banyan-tree-phuket-pool-villa-6.webp",
+      "imageCaption": "Banyan Tree Phuket — Luxury Sanctuary Base",
+      "imageAlt": "Banyan Tree Phuket luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast on your villa sun deck before packing your clubs with assistance from your AGS concierge.<br><br>Your private executive transfer delivers you to Phuket International Airport for your flight home."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the best time of year for golf in Phuket?",
+      "answer": "The dry season from November to April offers ideal golfing conditions with clear skies, low humidity, and pleasant sea breezes."
+    }
+  ]
+}

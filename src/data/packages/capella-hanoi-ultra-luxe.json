@@ -1,0 +1,154 @@
+{
+  "slug": "capella-hanoi-ultra-luxe",
+  "title": "5-Day Capella Hanoi Ultra-Luxury Golf Showcase",
+  "description": "Experience Bill Bensley's opera-inspired Capella Hanoi on a 5-night ultra-luxe Vietnam golf package playing BRG Legend Hill, Sky Lake, and Thanh Lanh.",
+  "heroImage": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+  "destination": "Hanoi, Vietnam",
+  "country": "Vietnam",
+  "groupProfile": "Couples & Executive 4-Ball",
+  "intent": "Ultra-Luxury & Golf",
+  "duration": "5 Days / 4 Nights (3 Rounds)",
+  "guidePriceUsd": 2230,
+  "guidePriceFrom": 3430,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-grand-vietnam-odyssey",
+    "title": "The Grand Vietnam Odyssey",
+    "duration": "14 Days / 13 Nights",
+    "heroImage": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+    "highlight": "Vietnam’s ultimate cross-country signature expedition pairing Capella Hanoi with The Nam Hai and Park Hyatt Saigon."
+  },
+  "featuredVenues": [
+    {
+      "name": "BRG Legend Hill Golf Resort",
+      "type": "course",
+      "href": "/courses/vietnam/legend-hill/",
+      "image": "/images/courses/vietnam/legend-hill/legend-hill-1.webp",
+      "badge": "Nicklaus Design",
+      "highlight": "Par 72 • 7,068 Yards"
+    },
+    {
+      "name": "Sky Lake Resort & Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/sky-lake/",
+      "image": "/images/courses/vietnam/sky-lake/sky-lake-lake-course-vietnam-1.webp",
+      "badge": "Ahn Moon Hwan",
+      "highlight": "Par 72 / 72 • 7,557 Yards / 7,265 Yards"
+    },
+    {
+      "name": "Thanh Lanh Valley Golf & Resort",
+      "type": "course",
+      "href": "/courses/vietnam/thanh-lanh-valley/",
+      "image": "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-vietnam-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Capella Hanoi",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/capella-hanoi/",
+      "image": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Executive chauffeured vehicles for all transfers."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: Legend Hill, Sky Lake, and Thanh Lanh Valley."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights in a Capella Suite at Capella Hanoi."
+    },
+    {
+      "item": "Michelin Dining",
+      "detail": "Curated dining reservations at Michelin-starred Koki restaurant."
+    },
+    {
+      "item": "Local Guardian",
+      "detail": "24/7 dedicated on-ground host support."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival at Capella Hanoi & Diva's Lounge Welcome",
+      "subtitle": "Opera Luxury Arrival",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "35 mins from HAN Airport",
+      "image": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+      "imageCaption": "Capella Hanoi — Luxury Sanctuary Base",
+      "imageAlt": "Capella Hanoi luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Hanoi's Noi Bai International Airport and transfer by private executive vehicle to <a href=\"/accommodations/vietnam/capella-hanoi/\">Capella Hanoi</a>, Bill Bensley's tribute to opera legends. Settle into your individually curated suite.<br><br>Enjoy welcome cocktails in the Diva's Lounge before an exquisite dinner at Backstage, celebrating northern Vietnamese flavours in theatrical surroundings."
+    },
+    {
+      "day": 2,
+      "title": "Twin Green Precision at BRG Legend Hill Golf Resort",
+      "subtitle": "Round 1: Nicklaus Design",
+      "courseName": "BRG Legend Hill Golf Resort",
+      "courseHref": "/courses/vietnam/legend-hill/",
+      "architect": "Nicklaus Design",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "45 mins door-to-door",
+      "image": "/images/courses/vietnam/legend-hill/legend-hill-1.webp",
+      "imageCaption": "BRG Legend Hill Golf Resort — Nicklaus Design (Par 72, 7,068 Yards)",
+      "imageAlt": "BRG Legend Hill Golf Resort championship golf course Nicklaus Design Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/vietnam/legend-hill/\">BRG Legend Hill Golf Resort</a>, navigating Jack Nicklaus’s twin-green layout through the scenic Soc Son hills.<br><br>Return to Capella for an afternoon treatment at Auriga Spa, followed by cocktails in the hotel’s opulent salon."
+    },
+    {
+      "day": 3,
+      "title": "Championship Water Hazards at Sky Lake Resort",
+      "subtitle": "Round 2: Tournament Layout",
+      "courseName": "Sky Lake Resort & Golf Club",
+      "courseHref": "/courses/vietnam/sky-lake/",
+      "architect": "Ahn Moon Hwan",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "55 mins door-to-door",
+      "image": "/images/courses/vietnam/sky-lake/sky-lake-lake-course-vietnam-1.webp",
+      "imageCaption": "Sky Lake Resort & Golf Club — Ahn Moon Hwan (Par 72 / 72, 7,557 Yards / 7,265 Yards)",
+      "imageAlt": "Sky Lake Resort & Golf Club championship golf course Ahn Moon Hwan Asia Golf Specialists",
+      "description": "Take on the championship challenge of <a href=\"/courses/vietnam/sky-lake/\">Sky Lake Resort & Golf Club</a>, testing your ball-striking against dramatic elevation changes and pristine lake carries.<br><br>Return to Hanoi for an unforgettable dinner at Koki, Capella Hanoi’s Michelin-starred Japanese teppanyaki establishment."
+    },
+    {
+      "day": 4,
+      "title": "Alpine Valley Splendor at Thanh Lanh Valley Golf Resort",
+      "subtitle": "Round 3: Faldo Mountain Finale",
+      "courseName": "Thanh Lanh Valley Golf & Resort",
+      "courseHref": "/courses/vietnam/thanh-lanh-valley/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "55 mins door-to-door",
+      "image": "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-swiss-alps-2.webp",
+      "imageCaption": "Thanh Lanh Valley Golf & Resort — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Thanh Lanh Valley Golf & Resort championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Conclude your golf rotation at <a href=\"/courses/vietnam/thanh-lanh-valley/\">Thanh Lanh Valley Golf & Resort</a>, Sir Nick Faldo’s breathtaking mountain layout. Set beside Lake Thanh Lanh, the course delivers cool mountain breezes and dramatic lakeside green complexes.<br><br>Toast the end of your golf trip with drinks on the stone terrace before an executive transfer back to Capella Hanoi for your farewell evening."
+    },
+    {
+      "day": 5,
+      "title": "VIP Departure via Noi Bai International Airport",
+      "subtitle": "Departure",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "35 mins to HAN Airport",
+      "image": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+      "imageCaption": "Capella Hanoi — Luxury Sanctuary Base",
+      "imageAlt": "Capella Hanoi luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast before packing your clubs with assistance from your AGS concierge.<br><br>Your private luxury transfer delivers your party to Noi Bai Airport for your onward journey."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Capella Hanoi unique?",
+      "answer": "Each of the 47 rooms and suites is uniquely designed as an homage to famous opera singers, composers, and artists from the 1920s."
+    }
+  ]
+}

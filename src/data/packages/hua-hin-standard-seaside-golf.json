@@ -1,0 +1,154 @@
+{
+  "slug": "hua-hin-standard-seaside-golf",
+  "title": "5-Day Hua Hin Seaside Golf, Craft Cocktails & Nightlife",
+  "description": "Vibrant seaside golf based at The Standard, Hua Hin. Play Black Mountain, Pineapple Valley, and Lake View with lively beachfront dining.",
+  "heroImage": "/images/accommodations/thailand/the-standard-hua-hin/1.webp",
+  "destination": "Hua Hin, Thailand",
+  "country": "Thailand",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Golf & Beach Lifestyle",
+  "duration": "5 Days / 4 Nights (3 Rounds)",
+  "guidePriceUsd": 1090,
+  "guidePriceFrom": 1680,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-bangkok-and-hua-hin-fairways",
+    "title": "The Bangkok & Hua Hin Fairways",
+    "duration": "9 Days / 8 Nights",
+    "heroImage": "/images/accommodations/thailand/the-standard-hua-hin/1.webp",
+    "highlight": "Upgrade to our flagship 9-day tour pairing The Standard, Hua Hin with luxury penthouse living in Bangkok."
+  },
+  "featuredVenues": [
+    {
+      "name": "Black Mountain Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/black-mountain/",
+      "image": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+      "badge": "Phil Ryan",
+      "highlight": "Par 72 • 7,375 Yards"
+    },
+    {
+      "name": "Pineapple Valley Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/pineapple-valley/",
+      "image": "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-hua-hin-thailand-1.webp",
+      "badge": "Pirapon Namatra / Golf East",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Lake View Resort & Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/lake-view/",
+      "image": "/images/courses/thailand/lake-view/lake-view-resort-golf-club-hua-hin-thailand-1.webp",
+      "badge": "Roger Packard",
+      "highlight": "Par 72 (any 18 combination) • 7,000+ Yards"
+    },
+    {
+      "name": "The Standard Hua Hin",
+      "type": "accommodation",
+      "href": "/accommodations/thailand/the-standard-hua-hin/",
+      "image": "/images/accommodations/thailand/the-standard-hua-hin/1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Chauffeured executive transport between Bangkok and Hua Hin."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: Black Mountain, Pineapple Valley, and Lake View."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights in a Canopy Villa or Pool Villa at The Standard, Hua Hin."
+    },
+    {
+      "item": "Beachfront Lido Access",
+      "detail": "Reserved seating and craft cocktails at the vibrant beachfront Lido bar."
+    },
+    {
+      "item": "Local Host",
+      "detail": "On-ground assistance with tee times, buggies, and dining bookings."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Executive Transit from Bangkok & Beachfront Lido Welcome",
+      "subtitle": "Seaside Arrival",
+      "stayName": "The Standard Hua Hin",
+      "stayHref": "/accommodations/thailand/the-standard-hua-hin/",
+      "transferTime": "2.5 hrs from Bangkok",
+      "image": "/images/accommodations/thailand/the-standard-hua-hin/1.webp",
+      "imageCaption": "The Standard Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "The Standard Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "Travel via executive transfer from Bangkok to <a href=\"/accommodations/thailand/the-standard-hua-hin/\">The Standard, Hua Hin</a>, the design-forward beachfront resort set amidst lush tropical gardens. Check into your stylish villa and take in the vibrant coastal atmosphere.<br><br>Head to the beachfront Lido bar for welcome craft cocktails, followed by fresh Thai seafood and tapas at Praça, the restored heritage beach pavilion."
+    },
+    {
+      "day": 2,
+      "title": "Championship Golf at Black Mountain Golf Club",
+      "subtitle": "Round 1: European Tour Challenge",
+      "courseName": "Black Mountain Golf Club",
+      "courseHref": "/courses/thailand/black-mountain/",
+      "architect": "Phil Ryan",
+      "stayName": "The Standard Hua Hin",
+      "stayHref": "/accommodations/thailand/the-standard-hua-hin/",
+      "transferTime": "25 mins door-to-door",
+      "image": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+      "imageCaption": "Black Mountain Golf Club — Phil Ryan (Par 72, 7,375 Yards)",
+      "imageAlt": "Black Mountain Golf Club championship golf course Phil Ryan Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/thailand/black-mountain/\">Black Mountain Golf Club</a>, Hua Hin’s most celebrated layout. Granite bluffs frame manicured fairways that demand precision and confidence off the tee.<br><br>Return to The Standard for an afternoon pool session with cold local beers, followed by dinner in Hua Hin town."
+    },
+    {
+      "day": 3,
+      "title": "Scenic Rolling Fairways at Pineapple Valley Golf Club",
+      "subtitle": "Round 2: Schmidt-Curley Layout",
+      "courseName": "Pineapple Valley Golf Club",
+      "courseHref": "/courses/thailand/pineapple-valley/",
+      "architect": "Pirapon Namatra / Golf East",
+      "stayName": "The Standard Hua Hin",
+      "stayHref": "/accommodations/thailand/the-standard-hua-hin/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-hua-hin-thailand-1.webp",
+      "imageCaption": "Pineapple Valley Golf Club — Pirapon Namatra / Golf East (Par 72, 7,000+ Yards)",
+      "imageAlt": "Pineapple Valley Golf Club championship golf course Pirapon Namatra / Golf East Asia Golf Specialists",
+      "description": "Play <a href=\"/courses/thailand/pineapple-valley/\">Pineapple Valley Golf Club</a>, navigating contoured fairways carved through historic pineapple plantations with breathtaking mountain backdrops.<br><br>Enjoy sunset drinks at the hilltop clubhouse before returning to Hua Hin for an evening of craft cocktails and live music along the beach."
+    },
+    {
+      "day": 4,
+      "title": "36-Hole Complex at Lake View Resort & Golf Club",
+      "subtitle": "Round 3: Mountain & Lake Challenge",
+      "courseName": "Lake View Resort & Golf Club",
+      "courseHref": "/courses/thailand/lake-view/",
+      "architect": "Roger Packard",
+      "stayName": "The Standard Hua Hin",
+      "stayHref": "/accommodations/thailand/the-standard-hua-hin/",
+      "transferTime": "30 mins door-to-door",
+      "image": "/images/courses/thailand/lake-view/lake-view-resort-golf-club-hua-hin-thailand-1.webp",
+      "imageCaption": "Lake View Resort & Golf Club — Roger Packard (Par 72 (any 18 combination), 7,000+ Yards)",
+      "imageAlt": "Lake View Resort & Golf Club championship golf course Roger Packard Asia Golf Specialists",
+      "description": "Tackle the scenic 36-hole complex at <a href=\"/courses/thailand/lake-view/\">Lake View Resort & Golf Club</a>. The combination of water hazards and rolling mountain terrain delivers an enjoyable and strategic test.<br><br>Gather for a tour-ending farewell dinner at Praça, enjoying innovative Thai dishes and fine wines beside the breaking waves."
+    },
+    {
+      "day": 5,
+      "title": "Morning Beach Walk & Return to Bangkok Airport",
+      "subtitle": "Departure",
+      "stayName": "The Standard Hua Hin",
+      "stayHref": "/accommodations/thailand/the-standard-hua-hin/",
+      "transferTime": "2.5 hrs to Bangkok Airport",
+      "image": "/images/accommodations/thailand/the-standard-hua-hin/1.webp",
+      "imageCaption": "The Standard Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "The Standard Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast and a final stroll along Hua Hin beach before checking out.<br><br>Your private executive transfer transports your party directly to Bangkok Suvarnabhumi Airport for your flight home."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is The Standard, Hua Hin walkable to local bars and restaurants?",
+      "answer": "Yes, the resort is conveniently located within a 5-10 minute walk of Hua Hin’s town center, night market, and local restaurants."
+    }
+  ]
+}

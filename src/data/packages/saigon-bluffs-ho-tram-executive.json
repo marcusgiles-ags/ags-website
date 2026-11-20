@@ -1,0 +1,189 @@
+{
+  "slug": "saigon-bluffs-ho-tram-executive",
+  "title": "7-Day Saigon Cosmopolitan & The Bluffs Ho Tram Coastal Links",
+  "description": "City glamour meets rugged coastal links. Stay at Park Hyatt Saigon and The Bluffs Grand Ho Tram, playing VGCC, Tan Son Nhat, and The Bluffs.",
+  "heroImage": "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-strip-vietnam-1.webp",
+  "destination": "Ho Chi Minh City & Ho Tram Coast, Vietnam",
+  "country": "Vietnam",
+  "groupProfile": "Executive 4-Ball & Groups",
+  "intent": "City & Coastal Links",
+  "duration": "7 Days / 6 Nights (4 Rounds)",
+  "guidePriceUsd": 1995,
+  "guidePriceFrom": 3070,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-saigon-and-shores-escape",
+    "title": "The Saigon and Shores Escape",
+    "duration": "7 Days / 6 Nights",
+    "heroImage": "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-strip-vietnam-1.webp",
+    "highlight": "Our flagship southern Vietnam tour combining Park Hyatt Saigon with The Bluffs Grand Ho Tram and private yacht sunset cruises."
+  },
+  "featuredVenues": [
+    {
+      "name": "Vietnam Golf & Country Club",
+      "type": "course",
+      "href": "/courses/vietnam/vgcc/",
+      "image": "/images/courses/vietnam/vgcc/vgcc-1.webp",
+      "badge": "Chen King Shih (West) / Lee Trevino (East)",
+      "highlight": "Par 72 (West) / 72 (East) • 7,106 Yards / 6,946 Yards"
+    },
+    {
+      "name": "Tan Son Nhat Golf Course",
+      "type": "course",
+      "href": "/courses/vietnam/tan-son-nhat/",
+      "image": "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-vietnam-1.webp",
+      "badge": "Nelson & Haworth",
+      "highlight": "Par 71 / 72 (two courses) • 7,000+ Yards"
+    },
+    {
+      "name": "The Bluffs Grand Ho Tram",
+      "type": "course",
+      "href": "/courses/vietnam/the-bluffs-ho-tram/",
+      "image": "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-strip-vietnam-1.webp",
+      "badge": "Greg Norman",
+      "highlight": "Par 71 • 7,207 Yards"
+    },
+    {
+      "name": "Park Hyatt Saigon",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/park-hyatt-saigon/",
+      "image": "/images/accommodations/vietnam/park-hyatt-saigon/vietnam-luxury-hotel-park-hyatt-saigon-colonial-facade-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    },
+    {
+      "name": "The Grand Ho Tram Strip",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "image": "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-resort-hotel-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Door-to-door private luxury vehicle transfers throughout Saigon and the Ho Tram coast."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "4 rounds: VGCC, Tan Son Nhat, and 2 rounds at The Bluffs Grand Ho Tram."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "3 nights at Park Hyatt Saigon + 3 nights at InterContinental Grand Ho Tram."
+    },
+    {
+      "item": "Caddies & Buggies",
+      "detail": "One dedicated caddie and shared buggy included for every round."
+    },
+    {
+      "item": "Local Guardian",
+      "detail": "24/7 on-ground concierge support."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Ho Chi Minh City & Park Hyatt Saigon Check-In",
+      "subtitle": "Metropolitan Arrival",
+      "stayName": "Park Hyatt Saigon",
+      "stayHref": "/accommodations/vietnam/park-hyatt-saigon/",
+      "transferTime": "30 mins from SGN Airport",
+      "image": "/images/accommodations/vietnam/park-hyatt-saigon/vietnam-luxury-hotel-park-hyatt-saigon-colonial-facade-1.webp",
+      "imageCaption": "Park Hyatt Saigon — Luxury Sanctuary Base",
+      "imageAlt": "Park Hyatt Saigon luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Tan Son Nhat International Airport (SGN) where your private chauffeur welcomes your group and transfers you to <a href=\"/accommodations/vietnam/park-hyatt-saigon/\">Park Hyatt Saigon</a>, overlooking the historic Opera House.<br><br>Sip a cocktail at 2 Lam Son lounge before dinner at Square One, celebrating contemporary Vietnamese and French culinary traditions."
+    },
+    {
+      "day": 2,
+      "title": "Championship Parkland at Vietnam Golf & Country Club",
+      "subtitle": "Round 1: Classic Southern Parkland",
+      "courseName": "Vietnam Golf & Country Club",
+      "courseHref": "/courses/vietnam/vgcc/",
+      "architect": "Chen King Shih (West) / Lee Trevino (East)",
+      "stayName": "Park Hyatt Saigon",
+      "stayHref": "/accommodations/vietnam/park-hyatt-saigon/",
+      "transferTime": "40 mins door-to-door",
+      "image": "/images/courses/vietnam/vgcc/vgcc-1.webp",
+      "imageCaption": "Vietnam Golf & Country Club — Chen King Shih (West) / Lee Trevino (East) (Par 72 (West) / 72 (East), 7,106 Yards / 6,946 Yards)",
+      "imageAlt": "Vietnam Golf & Country Club championship golf course Chen King Shih (West) / Lee Trevino (East) Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/vietnam/vgcc/\">Vietnam Golf & Country Club (VGCC)</a>, playing the championship East Course designed by Lee Trevino. Flanked by mature trees and narrow landing areas, Trevino's layout demands accurate driving and precise approach play.<br><br>Return to Saigon for an afternoon swim in the tropical garden pool at Park Hyatt, followed by rooftop drinks overlooking the city skyline."
+    },
+    {
+      "day": 3,
+      "title": "High-Tech Modern Golf at Tan Son Nhat Golf Course",
+      "subtitle": "Round 2: Modern Urban Championship Golf",
+      "courseName": "Tan Son Nhat Golf Course",
+      "courseHref": "/courses/vietnam/tan-son-nhat/",
+      "architect": "Nelson & Haworth",
+      "stayName": "Park Hyatt Saigon",
+      "stayHref": "/accommodations/vietnam/park-hyatt-saigon/",
+      "transferTime": "25 mins door-to-door",
+      "image": "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-vietnam-1.webp",
+      "imageCaption": "Tan Son Nhat Golf Course — Nelson & Haworth (Par 71 / 72 (two courses), 7,000+ Yards)",
+      "imageAlt": "Tan Son Nhat Golf Course championship golf course Nelson & Haworth Asia Golf Specialists",
+      "description": "Experience the 36-hole complex at <a href=\"/courses/vietnam/tan-son-nhat/\">Tan Son Nhat Golf Course</a>, Nelson & Haworth’s immaculately conditioned urban parkland track featuring sweeping water hazards and expansive greens.<br><br>Spend your final evening in Saigon exploring District 1's world-class dining, craft cocktail bars, and lively nightlife."
+    },
+    {
+      "day": 4,
+      "title": "Coastal Drive to Ho Tram & Grand Ho Tram Check-In",
+      "subtitle": "Coastal Transition",
+      "stayName": "The Grand Ho Tram Strip",
+      "stayHref": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "transferTime": "2 hours via modern motorway",
+      "image": "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-resort-hotel-1.webp",
+      "imageCaption": "The Grand Ho Tram Strip — Luxury Sanctuary Base",
+      "imageAlt": "The Grand Ho Tram Strip luxury accommodation Asia Golf Specialists",
+      "description": "Travel via private executive coach south-east from Saigon to the pristine coastline of Ho Tram. Check in to your ocean-view room at <a href=\"/accommodations/vietnam/bluffs-grand-ho-tram/\">The Bluffs Grand Ho Tram</a>, situated directly beside Greg Norman's masterpiece.<br><br>Spend the afternoon on the beach or by the resort pools before dinner overlooking the East Sea."
+    },
+    {
+      "day": 5,
+      "title": "Greg Norman’s True Coastal Dunes Masterpiece: The Bluffs",
+      "subtitle": "Round 3: Pure Coastal Dunes Challenge",
+      "courseName": "The Bluffs Grand Ho Tram",
+      "courseHref": "/courses/vietnam/the-bluffs-ho-tram/",
+      "architect": "Greg Norman",
+      "stayName": "The Grand Ho Tram Strip",
+      "stayHref": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "transferTime": "3 mins on resort buggy",
+      "image": "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-strip-vietnam-1.webp",
+      "imageCaption": "The Bluffs Grand Ho Tram — Greg Norman (Par 71, 7,207 Yards)",
+      "imageAlt": "The Bluffs Grand Ho Tram championship golf course Greg Norman Asia Golf Specialists",
+      "description": "Tackle <a href=\"/courses/vietnam/the-bluffs-ho-tram/\">The Bluffs Grand Ho Tram</a>, Greg Norman’s World Top 100 links course routed through towering coastal sand dunes up to 50 meters above the sea. Wind is an ever-present factor as you navigate dramatic elevation changes, firm turf, and panoramic ocean vistas.<br><br>Celebrate an unforgettable round on the clubhouse terrace, followed by relaxation at the resort's luxury spa."
+    },
+    {
+      "day": 6,
+      "title": "The Bluffs Ho Tram Replay & Farewell Beach Barbecue",
+      "subtitle": "Round 4: Championship Finale",
+      "courseName": "The Bluffs Grand Ho Tram",
+      "courseHref": "/courses/vietnam/the-bluffs-ho-tram/",
+      "architect": "Greg Norman",
+      "stayName": "The Grand Ho Tram Strip",
+      "stayHref": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "transferTime": "3 mins on resort buggy",
+      "image": "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-greg-norman-design-2.webp",
+      "imageCaption": "The Bluffs Grand Ho Tram — Greg Norman (Par 71, 7,207 Yards)",
+      "imageAlt": "The Bluffs Grand Ho Tram championship golf course Greg Norman Asia Golf Specialists",
+      "description": "Take on The Bluffs for a second round, armed with knowledge of the prevailing winds and dramatic green undulations.<br><br>Gather for a tour-ending seafood feast on the beachfront, celebrating a magnificent week of southern Vietnam golf."
+    },
+    {
+      "day": 7,
+      "title": "Private Chauffeur Return to Tan Son Nhat Airport",
+      "subtitle": "Departure",
+      "stayName": "The Grand Ho Tram Strip",
+      "stayHref": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "transferTime": "2 hours to SGN Airport",
+      "image": "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-resort-hotel-1.webp",
+      "imageCaption": "The Grand Ho Tram Strip — Luxury Sanctuary Base",
+      "imageAlt": "The Grand Ho Tram Strip luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast overlooking the ocean before packing your golf equipment.<br><br>Your private executive coach returns your party directly to Tan Son Nhat International Airport in Ho Chi Minh City for your onward flight."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How windy is The Bluffs Ho Tram?",
+      "answer": "As a true coastal dunes layout, afternoon winds regularly reach 15-25 knots, making morning tee times ideal for scoring."
+    }
+  ]
+}

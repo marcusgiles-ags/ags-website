@@ -1,0 +1,178 @@
+{
+  "slug": "sofitel-metropole-hanoi-colonial",
+  "title": "7-Day Sofitel Legend Metropole Colonial Hanoi Golf Tour",
+  "description": "Colonial elegance meets championship golf. Stay at the legendary Sofitel Metropole and play Legend Hill, Sky Lake (Lake Course), and Silk Path Dong Trieu.",
+  "heroImage": "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-legend-metropole-hanoi-hero.webp",
+  "destination": "Hanoi & Red River Delta, Vietnam",
+  "country": "Vietnam",
+  "groupProfile": "Discerning Couples & Golfers",
+  "intent": "Colonial Luxury & Pure Golf",
+  "duration": "7 Days / 6 Nights (3 Rounds)",
+  "guidePriceUsd": 2245,
+  "guidePriceFrom": 3460,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-emperors-fairways",
+    "title": "The Emperor’s Fairways",
+    "duration": "7 Days / 6 Nights",
+    "heroImage": "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-legend-metropole-hanoi-hero.webp",
+    "highlight": "Upgrade to our fully hosted northern signature itinerary featuring private colonial tours, helicopter transfers, and exclusive dining."
+  },
+  "featuredVenues": [
+    {
+      "name": "BRG Legend Hill Golf Resort",
+      "type": "course",
+      "href": "/courses/vietnam/legend-hill/",
+      "image": "/images/courses/vietnam/legend-hill/legend-hill-1.webp",
+      "badge": "Nicklaus Design",
+      "highlight": "Par 72 • 7,068 Yards"
+    },
+    {
+      "name": "Sky Lake Lake Course",
+      "type": "course",
+      "href": "/courses/vietnam/sky-lake-lake/",
+      "image": "/images/courses/vietnam/sky-lake-lake/sky-lake-lake-course-vietnam-1.webp",
+      "badge": "Ahn Moon Hwan / Bori Golf Design",
+      "highlight": "Par 72 • 6,987 Yards"
+    },
+    {
+      "name": "Silk Path Dong Trieu Golf",
+      "type": "course",
+      "href": "/courses/vietnam/silk-path-dong-trieu/",
+      "image": "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-vietnam-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Sofitel Legend Metropole Hanoi",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/sofitel-metropole-hanoi/",
+      "image": "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-legend-metropole-hanoi-hero.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Executive chauffeur service for all airport and golf course journeys."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds at BRG Legend Hill, Sky Lake (Lake Course), and Silk Path Dong Trieu."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "6 nights in a Historical Wing Suite at Sofitel Legend Metropole Hanoi."
+    },
+    {
+      "item": "Historical Bunker Tour",
+      "detail": "Exclusive private access to the Metropole’s wartime bomb shelter."
+    },
+    {
+      "item": "Local Guardian",
+      "detail": "24/7 dedicated on-ground concierge support."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival at the Legendary Metropole & Colonial Suite Check-In",
+      "subtitle": "Colonial Heritage Arrival",
+      "stayName": "Sofitel Legend Metropole Hanoi",
+      "stayHref": "/accommodations/vietnam/sofitel-metropole-hanoi/",
+      "transferTime": "35 mins from HAN Airport",
+      "image": "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-legend-metropole-hanoi-hero.webp",
+      "imageCaption": "Sofitel Legend Metropole Hanoi — Luxury Sanctuary Base",
+      "imageAlt": "Sofitel Legend Metropole Hanoi luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Hanoi's Noi Bai Airport and travel by private executive transfer to the iconic <a href=\"/accommodations/vietnam/sofitel-metropole-hanoi/\">Sofitel Legend Metropole Hanoi</a>, operating continuously since 1901. Check in to your Historical Wing Suite with polished hardwood floors and antique ceiling fans.<br><br>Sip a classic cocktail at the Bamboo Bar by the garden pool, reflecting on the illustrious guests—from Charlie Chaplin to Graham Greene—who have walked these storied corridors."
+    },
+    {
+      "day": 2,
+      "title": "Nicklaus Twin Greens at BRG Legend Hill Golf Resort",
+      "subtitle": "Round 1: Strategic Twin Greens",
+      "courseName": "BRG Legend Hill Golf Resort",
+      "courseHref": "/courses/vietnam/legend-hill/",
+      "architect": "Nicklaus Design",
+      "stayName": "Sofitel Legend Metropole Hanoi",
+      "stayHref": "/accommodations/vietnam/sofitel-metropole-hanoi/",
+      "transferTime": "45 mins door-to-door",
+      "image": "/images/courses/vietnam/legend-hill/legend-hill-2.webp",
+      "imageCaption": "BRG Legend Hill Golf Resort — Nicklaus Design (Par 72, 7,068 Yards)",
+      "imageAlt": "BRG Legend Hill Golf Resort championship golf course Nicklaus Design Asia Golf Specialists",
+      "description": "Travel north to play <a href=\"/courses/vietnam/legend-hill/\">BRG Legend Hill Golf Resort</a>. Jack Nicklaus's twin-green design offers fresh strategic questions on every hole, set amidst pine-covered foothills.<br><br>Return to the Metropole for a late afternoon high tea at Le Club, followed by an evening at leisure in the French Quarter."
+    },
+    {
+      "day": 3,
+      "title": "Championship Lake Course at Sky Lake Resort",
+      "subtitle": "Round 2: Tournament Test",
+      "courseName": "Sky Lake Lake Course",
+      "courseHref": "/courses/vietnam/sky-lake-lake/",
+      "architect": "Ahn Moon Hwan / Bori Golf Design",
+      "stayName": "Sofitel Legend Metropole Hanoi",
+      "stayHref": "/accommodations/vietnam/sofitel-metropole-hanoi/",
+      "transferTime": "55 mins door-to-door",
+      "image": "/images/courses/vietnam/sky-lake-lake/sky-lake-lake-course-public-layout-3.webp",
+      "imageCaption": "Sky Lake Lake Course — Ahn Moon Hwan / Bori Golf Design (Par 72, 6,987 Yards)",
+      "imageAlt": "Sky Lake Lake Course championship golf course Ahn Moon Hwan / Bori Golf Design Asia Golf Specialists",
+      "description": "Take on the demanding Lake Course at <a href=\"/courses/vietnam/sky-lake-lake/\">Sky Lake Resort & Golf Club</a>. Pristine turf, dramatic water carries, and steep elevation shifts test every aspect of your game.<br><br>Return to Hanoi for an exclusive private tour of the Metropole's historic wartime bomb shelter, followed by French fine dining at Le Beaulieu."
+    },
+    {
+      "day": 4,
+      "title": "Metropole Bunker History & Old Quarter Discovery",
+      "subtitle": "Heritage Day of Rest",
+      "stayName": "Sofitel Legend Metropole Hanoi",
+      "stayHref": "/accommodations/vietnam/sofitel-metropole-hanoi/",
+      "transferTime": "At leisure in Hanoi",
+      "image": "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-metropole-hanoi-entrance.webp",
+      "imageCaption": "Sofitel Legend Metropole Hanoi — Luxury Sanctuary Base",
+      "imageAlt": "Sofitel Legend Metropole Hanoi luxury accommodation Asia Golf Specialists",
+      "description": "Spend a relaxing day exploring the cultural treasures of Hanoi. Wander the tree-lined boulevards of the French Quarter, visit the historic Temple of Literature, or browse Hanoi’s artisan silk boutiques.<br><br>Enjoy an unhurried dinner at Spice Garden, the Metropole’s acclaimed Vietnamese restaurant, savoring elevated versions of classic northern dishes."
+    },
+    {
+      "day": 5,
+      "title": "Modern Parkland Challenge at Silk Path Dong Trieu",
+      "subtitle": "Round 3: Strategic Faldo Masterpiece",
+      "courseName": "Silk Path Dong Trieu Golf",
+      "courseHref": "/courses/vietnam/silk-path-dong-trieu/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Sofitel Legend Metropole Hanoi",
+      "stayHref": "/accommodations/vietnam/sofitel-metropole-hanoi/",
+      "transferTime": "70 mins via expressway",
+      "image": "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-parkland-2.webp",
+      "imageCaption": "Silk Path Dong Trieu Golf — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Silk Path Dong Trieu Golf championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Head east to <a href=\"/courses/vietnam/silk-path-dong-trieu/\">Silk Path Dong Trieu Golf</a>, enjoying a championship parkland layout characterized by sculptured bunkering, wide fairways, and tournament-standard greens.<br><br>Relax in the clubhouse before an executive transfer returns you to Hanoi for sunset drinks overlooking Hoan Kiem Lake."
+    },
+    {
+      "day": 6,
+      "title": "West Lake Sunset Cocktails & Farewell Dinner",
+      "subtitle": "Colonial Farewell",
+      "stayName": "Sofitel Legend Metropole Hanoi",
+      "stayHref": "/accommodations/vietnam/sofitel-metropole-hanoi/",
+      "transferTime": "At leisure in Hanoi",
+      "image": "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-metropole-la-terrasse.webp",
+      "imageCaption": "Sofitel Legend Metropole Hanoi — Luxury Sanctuary Base",
+      "imageAlt": "Sofitel Legend Metropole Hanoi luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast and a morning spa treatment at Le Spa du Metropole, releasing any remaining muscular fatigue.<br><br>Gather for a celebratory farewell dinner at Le Beaulieu, toasting a wonderful week of heritage luxury and championship golf."
+    },
+    {
+      "day": 7,
+      "title": "VIP Departure via Noi Bai International Airport",
+      "subtitle": "Departure",
+      "stayName": "Sofitel Legend Metropole Hanoi",
+      "stayHref": "/accommodations/vietnam/sofitel-metropole-hanoi/",
+      "transferTime": "35 mins to HAN Airport",
+      "image": "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-legend-metropole-hanoi-hero.webp",
+      "imageCaption": "Sofitel Legend Metropole Hanoi — Luxury Sanctuary Base",
+      "imageAlt": "Sofitel Legend Metropole Hanoi luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a final morning espresso in the Metropole courtyard garden before checking out.<br><br>Your private luxury transfer delivers your party to Noi Bai International Airport for your return flight home."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the dress code at Sofitel Legend Metropole Hanoi?",
+      "answer": "Smart casual attire is appreciated in all restaurants and public lounges in the evening."
+    }
+  ]
+}

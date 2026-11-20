@@ -1,0 +1,240 @@
+════════════════════════════════════════════════════════════════════════
+  AGS SEO COMPLIANCE AUDIT REPORT
+  Generated: 2026-05-28T05:24:38.734Z
+════════════════════════════════════════════════════════════════════════
+
+  Total pages scanned:     137
+  ✅ Fully compliant:      97
+  ❌ Pages with errors:    0
+  🟡 Pages with warnings:  40
+
+
+────────────────────────────────────────────────────────────────────────
+  WARNINGS (recommended improvements)
+────────────────────────────────────────────────────────────────────────
+
+  📄 /accommodations/cambodia/raffles-grand-dangkor/page.tsx
+     🟡 WARN: Description too short (47 chars)
+
+  📄 /accommodations/cambodia/song-saa-private-island/page.tsx
+     🟡 WARN: Description too long (170 chars, max 165)
+
+  📄 /accommodations/thailand/chiva-som/page.tsx
+     🟡 WARN: Description too short (24 chars)
+
+  📄 /accommodations/thailand/four-seasons-chiang-mai/page.tsx
+     🟡 WARN: Description too short (64 chars)
+
+  📄 /accommodations/thailand/sindhorn-kempinski/page.tsx
+     🟡 WARN: Description too short (65 chars)
+
+  📄 /accommodations/vietnam/an-bang-flow-house/page.tsx
+     🟡 WARN: Description too long (171 chars, max 165)
+
+  📄 /accommodations/vietnam/intercontinental-danang/page.tsx
+     🟡 WARN: Description too long (175 chars, max 165)
+
+  📄 /courses/thailand/alpine-chiang-mai/page.tsx
+     🟡 WARN: Description too short (76 chars)
+
+  📄 /courses/thailand/ballyshear/page.tsx
+     🟡 WARN: Description too short (40 chars)
+
+  📄 /courses/thailand/black-mountain/page.tsx
+     🟡 WARN: Description too short (43 chars)
+
+  📄 /courses/vietnam/hoiana-shores/page.tsx
+     🟡 WARN: Description too short (33 chars)
+
+  📄 /courses/vietnam/kings-island/page.tsx
+     🟡 WARN: Description too short (44 chars)
+
+  📄 /courses/vietnam/montgomerie-links/page.tsx
+     🟡 WARN: Description too short (55 chars)
+
+  📄 /courses/vietnam/sapa-grand/page.tsx
+     🟡 WARN: Description too short (30 chars)
+
+  📄 /courses/vietnam/the-bluffs-ho-tram/page.tsx
+     🟡 WARN: Description too short (38 chars)
+
+  📄 /destinations/cambodia/culinary/page.tsx
+     🟡 WARN: Missing JSON-LD schema
+
+  📄 /destinations/cambodia/culture/page.tsx
+     🟡 WARN: Missing JSON-LD schema
+
+  📄 /destinations/cambodia/nightlife/page.tsx
+     🟡 WARN: Missing JSON-LD schema
+
+  📄 /destinations/cambodia/[slug]/page.tsx
+     🟡 WARN: Title too short (9 chars)
+
+  📄 /destinations/page.tsx
+     🟡 WARN: Missing JSON-LD schema
+
+  📄 /destinations/thailand/culinary/page.tsx
+     🟡 WARN: Missing JSON-LD schema
+
+  📄 /destinations/thailand/culture/page.tsx
+     🟡 WARN: Missing JSON-LD schema
+
+  📄 /destinations/thailand/nightlife/page.tsx
+     🟡 WARN: Missing JSON-LD schema
+
+  📄 /destinations/thailand/page.tsx
+     🟡 WARN: Description too long (168 chars, max 165)
+
+  📄 /destinations/thailand/[slug]/page.tsx
+     🟡 WARN: Title too short (9 chars)
+
+  📄 /destinations/vietnam/accommodations/page.tsx
+     🟡 WARN: Description too long (168 chars, max 165)
+
+  📄 /destinations/vietnam/culinary/page.tsx
+     🟡 WARN: Missing JSON-LD schema
+
+  📄 /destinations/vietnam/culture/page.tsx
+     🟡 WARN: Missing JSON-LD schema
+
+  📄 /destinations/vietnam/nightlife/page.tsx
+     🟡 WARN: Missing JSON-LD schema
+
+  📄 /destinations/vietnam/[slug]/page.tsx
+     🟡 WARN: Title too short (9 chars)
+
+  📄 /tours/page.tsx
+     🟡 WARN: Description too long (174 chars, max 165)
+
+  📄 /tours/thailand-royal-siam/page.tsx
+     🟡 WARN: Description too short (77 chars)
+
+  📄 /tours/the-bangkok-and-hua-hin-fairways/page.tsx
+     🟡 WARN: Description too short (49 chars)
+
+  📄 /tours/the-coastal-sprint/page.tsx
+     🟡 WARN: Description too short (38 chars)
+
+  📄 /tours/the-emperors-fairways/page.tsx
+     🟡 WARN: Title too short (11 chars)
+     🟡 WARN: Description too short (11 chars)
+
+  📄 /tours/the-grand-vietnam-odyssey/page.tsx
+     🟡 WARN: Description too short (79 chars)
+
+  📄 /tours/the-khmer-kingdom-links/page.tsx
+     🟡 WARN: Description too short (34 chars)
+
+  📄 /tours/the-lanna-heritage-golf-trail/page.tsx
+     🟡 WARN: Description too short (42 chars)
+
+  📄 /tours/the-saigon-and-shores-escape/page.tsx
+     🟡 WARN: Description too short (45 chars)
+
+  📄 /tours/vietnam-central-coast/page.tsx
+     🟡 WARN: Description too short (42 chars)
+
+────────────────────────────────────────────────────────────────────────
+  FULLY COMPLIANT PAGES
+────────────────────────────────────────────────────────────────────────
+  ✅ /about/page.tsx
+  ✅ /accommodations/cambodia/amansara/page.tsx
+  ✅ /accommodations/cambodia/jaya-house-river-park/page.tsx
+  ✅ /accommodations/cambodia/phokeethra-country-club/page.tsx
+  ✅ /accommodations/cambodia/raffles-hotel-le-royal/page.tsx
+  ✅ /accommodations/cambodia/rosewood-phnom-penh/page.tsx
+  ✅ /accommodations/cambodia/zannier-phum-baitang/page.tsx
+  ✅ /accommodations/page.tsx
+  ✅ /accommodations/thailand/amanpuri/page.tsx
+  ✅ /accommodations/thailand/banyan-tree-phuket/page.tsx
+  ✅ /accommodations/thailand/intercontinental-khao-yai/page.tsx
+  ✅ /accommodations/thailand/riva-surya-bangkok/page.tsx
+  ✅ /accommodations/thailand/tamarind-village/page.tsx
+  ✅ /accommodations/thailand/the-standard-hua-hin/page.tsx
+  ✅ /accommodations/vietnam/almanity-hoi-an/page.tsx
+  ✅ /accommodations/vietnam/an-bang-ben-villa/page.tsx
+  ✅ /accommodations/vietnam/an-bang-holiday-villa/page.tsx
+  ✅ /accommodations/vietnam/an-bang-may-villa/page.tsx
+  ✅ /accommodations/vietnam/an-bang-salt-villa/page.tsx
+  ✅ /accommodations/vietnam/banyan-tree-lang-co/page.tsx
+  ✅ /accommodations/vietnam/bluffs-grand-ho-tram/page.tsx
+  ✅ /accommodations/vietnam/four-seasons-nam-hai/page.tsx
+  ✅ /accommodations/vietnam/fusion-suites-saigon/page.tsx
+  ✅ /accommodations/vietnam/new-world-hoiana/page.tsx
+  ✅ /accommodations/vietnam/palm-gardens-hoi-an/page.tsx
+  ✅ /accommodations/vietnam/park-hyatt-saigon/page.tsx
+  ✅ /accommodations/vietnam/the-oriental-jade/page.tsx
+  ✅ /blog/page.tsx
+  ✅ /blog/[slug]/page.tsx
+  ✅ /courses/cambodia/angkor-golf-resort/page.tsx
+  ✅ /courses/cambodia/chhun-on-golf-resort/page.tsx
+  ✅ /courses/cambodia/garden-city/page.tsx
+  ✅ /courses/cambodia/grand-phnom-penh/page.tsx
+  ✅ /courses/cambodia/phokeethra/page.tsx
+  ✅ /courses/cambodia/royal-phnom-penh/page.tsx
+  ✅ /courses/cambodia/siem-reap-booyoung/page.tsx
+  ✅ /courses/cambodia/vattanac/page.tsx
+  ✅ /courses/cambodia/vattanac-east/page.tsx
+  ✅ /courses/cambodia/vattanac-west/page.tsx
+  ✅ /courses/page.tsx
+  ✅ /courses/thailand/alpine-golf-club/page.tsx
+  ✅ /courses/thailand/aquella/page.tsx
+  ✅ /courses/thailand/bangkok-golf-club/page.tsx
+  ✅ /courses/thailand/blue-canyon/page.tsx
+  ✅ /courses/thailand/cascata/page.tsx
+  ✅ /courses/thailand/chiang-mai-highlands/page.tsx
+  ✅ /courses/thailand/flora-ville/page.tsx
+  ✅ /courses/thailand/laem-chabang/page.tsx
+  ✅ /courses/thailand/laguna-phuket/page.tsx
+  ✅ /courses/thailand/lake-view/page.tsx
+  ✅ /courses/thailand/mae-jo/page.tsx
+  ✅ /courses/thailand/mission-hills-kanchanaburi/page.tsx
+  ✅ /courses/thailand/mission-hills-phuket/page.tsx
+  ✅ /courses/thailand/nikanti/page.tsx
+  ✅ /courses/thailand/pineapple-valley/page.tsx
+  ✅ /courses/thailand/red-mountain/page.tsx
+  ✅ /courses/thailand/siam-country-club/page.tsx
+  ✅ /courses/thailand/springfield-royal/page.tsx
+  ✅ /courses/thailand/thai-country-club/page.tsx
+  ✅ /courses/vietnam/ba-na-hills/page.tsx
+  ✅ /courses/vietnam/brg-da-nang-nicklaus/page.tsx
+  ✅ /courses/vietnam/brg-da-nang-norman/page.tsx
+  ✅ /courses/vietnam/chi-linh-golf/page.tsx
+  ✅ /courses/vietnam/dragon-golf-links/page.tsx
+  ✅ /courses/vietnam/eschuri-vung-bau/page.tsx
+  ✅ /courses/vietnam/flc-ha-long-bay/page.tsx
+  ✅ /courses/vietnam/golden-sands/page.tsx
+  ✅ /courses/vietnam/heron-lake/page.tsx
+  ✅ /courses/vietnam/kn-golf-links/page.tsx
+  ✅ /courses/vietnam/laguna-lang-co/page.tsx
+  ✅ /courses/vietnam/legend-hill/page.tsx
+  ✅ /courses/vietnam/long-thanh/page.tsx
+  ✅ /courses/vietnam/royal-long-an/page.tsx
+  ✅ /courses/vietnam/silk-path-dong-trieu/page.tsx
+  ✅ /courses/vietnam/sky-lake/page.tsx
+  ✅ /courses/vietnam/sky-lake-lake/page.tsx
+  ✅ /courses/vietnam/sky-lake-sky/page.tsx
+  ✅ /courses/vietnam/taekwang-jeongsan/page.tsx
+  ✅ /courses/vietnam/tan-son-nhat/page.tsx
+  ✅ /courses/vietnam/thanh-lanh-valley/page.tsx
+  ✅ /courses/vietnam/vgcc/page.tsx
+  ✅ /courses/vietnam/vinpearl-nam-hoi-an/page.tsx
+  ✅ /destinations/cambodia/accommodations/page.tsx
+  ✅ /destinations/cambodia/courses/page.tsx
+  ✅ /destinations/cambodia/page.tsx
+  ✅ /destinations/thailand/accommodations/page.tsx
+  ✅ /destinations/thailand/courses/page.tsx
+  ✅ /destinations/vietnam/courses/page.tsx
+  ✅ /destinations/vietnam/page.tsx
+  ✅ /events-tours/page.tsx
+  ✅ /gallery/page.tsx
+  ✅ /page.tsx
+  ✅ /quote/page.tsx
+  ✅ /tours/cambodia-angkor-odyssey/page.tsx
+  ✅ /tours/the-central-coast-classic/page.tsx
+  ✅ /tours/the-indochina-golden-age/page.tsx
+  ✅ /tours/the-khmer-temple-trail/page.tsx
+
+════════════════════════════════════════════════════════════════════════
+  END OF REPORT
+════════════════════════════════════════════════════════════════════════

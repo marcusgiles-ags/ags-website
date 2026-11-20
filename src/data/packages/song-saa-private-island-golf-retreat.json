@@ -1,0 +1,202 @@
+{
+  "slug": "song-saa-private-island-golf-retreat",
+  "title": "9-Day Angkor Championship Golf & Song Saa Private Island Escape",
+  "description": "Championship golf at Angkor paired with barefoot luxury at Song Saa Private Island. Play Faldo’s layout before retreating to an overwater villa.",
+  "heroImage": "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-aerial-5.webp",
+  "destination": "Siem Reap & Koh Rong Archipelago, Cambodia",
+  "country": "Cambodia",
+  "groupProfile": "Couples & Discerning Escapes",
+  "intent": "Golf & Private Island Luxury",
+  "duration": "9 Days / 8 Nights (3 Rounds)",
+  "guidePriceUsd": 4645,
+  "guidePriceFrom": 7150,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-indochina-golden-age",
+    "title": "The Indochina Golden Age",
+    "duration": "14 Days / 13 Nights",
+    "heroImage": "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-aerial-5.webp",
+    "highlight": "Upgrade to our grand 14-day Indochina signature tour connecting Song Saa with Vietnam’s premier coastal courses and heritage cities."
+  },
+  "featuredVenues": [
+    {
+      "name": "Angkor Golf Resort Siem Reap",
+      "type": "course",
+      "href": "/courses/cambodia/angkor-golf-resort/",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Phokeethra Country Club",
+      "type": "course",
+      "href": "/courses/cambodia/phokeethra/",
+      "image": "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+      "badge": "Weerayudth Phetbuasak",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Raffles Grand Hotel d'Angkor",
+      "type": "accommodation",
+      "href": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "image": "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-heritage-pool-3.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    },
+    {
+      "name": "Song Saa Private Island",
+      "type": "accommodation",
+      "href": "/accommodations/cambodia/song-saa-private-island/",
+      "image": "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-overwater-villa-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Speedboat Transfers",
+      "detail": "Private express speedboat transfer between Sihanoukville and Song Saa Private Island."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds at Angkor Golf Resort and Phokeethra Country Club in Siem Reap."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights at Raffles Grand Hotel d'Angkor + 4 nights in an Overwater Villa at Song Saa Private Island."
+    },
+    {
+      "item": "All-Inclusive Island Luxury",
+      "detail": "All gourmet dining, sunset champagne, and water sports included at Song Saa."
+    },
+    {
+      "item": "VIP Concierge",
+      "detail": "Complete end-to-end management ensuring flawless transitions."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Siem Reap & Heritage Check-In at Raffles",
+      "subtitle": "Siem Reap Arrival",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "45 mins from SAI Airport",
+      "image": "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-heritage-pool-3.webp",
+      "imageCaption": "Raffles Grand Hotel d'Angkor — Luxury Sanctuary Base",
+      "imageAlt": "Raffles Grand Hotel d'Angkor luxury accommodation Asia Golf Specialists",
+      "description": "Arrive in Siem Reap and transfer to <a href=\"/accommodations/cambodia/raffles-grand-dangkor/\">Raffles Grand Hotel d'Angkor</a>. Settle into your heritage room.<br><br>Enjoy welcome drinks in the Elephant Bar and an authentic royal Khmer welcome dinner."
+    },
+    {
+      "day": 2,
+      "title": "Faldo Mastery at Angkor Golf Resort",
+      "subtitle": "Round 1: Faldo Design Showcase",
+      "courseName": "Angkor Golf Resort Siem Reap",
+      "courseHref": "/courses/cambodia/angkor-golf-resort/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "15 mins door-to-door",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+      "imageCaption": "Angkor Golf Resort Siem Reap — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Angkor Golf Resort Siem Reap championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/cambodia/angkor-golf-resort/\">Angkor Golf Resort</a>, navigating Sir Nick Faldo's strategic bunkering and contoured greens.<br><br>Return to Raffles for an afternoon swim in the historic pool."
+    },
+    {
+      "day": 3,
+      "title": "Angkor Wat Sunrise & Phokeethra Country Club",
+      "subtitle": "Round 2: Heritage & Golf",
+      "courseName": "Phokeethra Country Club",
+      "courseHref": "/courses/cambodia/phokeethra/",
+      "architect": "Weerayudth Phetbuasak",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+      "imageCaption": "Phokeethra Country Club — Weerayudth Phetbuasak (Par 72, 7,000+ Yards)",
+      "imageAlt": "Phokeethra Country Club championship golf course Weerayudth Phetbuasak Asia Golf Specialists",
+      "description": "Witness sunrise at Angkor Wat on a private scholar tour before playing <a href=\"/courses/cambodia/phokeethra/\">Phokeethra Country Club</a>.<br><br>Spend the evening exploring Siem Reap’s craft markets."
+    },
+    {
+      "day": 4,
+      "title": "Final Round at Angkor Golf Resort",
+      "subtitle": "Round 3: Championship Replay",
+      "courseName": "Angkor Golf Resort Siem Reap",
+      "courseHref": "/courses/cambodia/angkor-golf-resort/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "15 mins door-to-door",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-faldo-championship-2.webp",
+      "imageCaption": "Angkor Golf Resort Siem Reap — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Angkor Golf Resort Siem Reap championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Play a final championship round at Angkor Golf Resort before heading to the coast.<br><br>Celebrate with drinks at the Elephant Bar."
+    },
+    {
+      "day": 5,
+      "title": "Speedboat Transit to Song Saa Private Island",
+      "subtitle": "Island Transition",
+      "stayName": "Song Saa Private Island",
+      "stayHref": "/accommodations/cambodia/song-saa-private-island/",
+      "transferTime": "Flight to Sihanoukville + 45 min private speedboat",
+      "image": "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-overwater-villa-1.webp",
+      "imageCaption": "Song Saa Private Island — Luxury Sanctuary Base",
+      "imageAlt": "Song Saa Private Island luxury accommodation Asia Golf Specialists",
+      "description": "Fly to Sihanoukville and board a private express speedboat to <a href=\"/accommodations/cambodia/song-saa-private-island/\">Song Saa Private Island</a> in the pristine Koh Rong Archipelago. Check into your Overwater Villa with direct ocean access.<br><br>Sip champagne on your private deck over the coral reef before dinner at Vista Bar and Restaurant."
+    },
+    {
+      "day": 6,
+      "title": "Overwater Villa Living & Coral Reef Snorkeling",
+      "subtitle": "Barefoot Luxury",
+      "stayName": "Song Saa Private Island",
+      "stayHref": "/accommodations/cambodia/song-saa-private-island/",
+      "transferTime": "At leisure on the private island",
+      "image": "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-overwater-villa-1.webp",
+      "imageCaption": "Song Saa Private Island — Luxury Sanctuary Base",
+      "imageAlt": "Song Saa Private Island luxury accommodation Asia Golf Specialists",
+      "description": "Spend a day snorkeling over Song Saa's private marine reserve, paddleboarding, or swimming in your plunge pool.<br><br>Enjoy all-inclusive gourmet dining featuring fresh seafood and fine international wines."
+    },
+    {
+      "day": 7,
+      "title": "Holistic Island Spa & Biological Treatments",
+      "subtitle": "Island Restoration",
+      "stayName": "Song Saa Private Island",
+      "stayHref": "/accommodations/cambodia/song-saa-private-island/",
+      "transferTime": "At leisure on the private island",
+      "image": "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-overwater-villa-1.webp",
+      "imageCaption": "Song Saa Private Island — Luxury Sanctuary Base",
+      "imageAlt": "Song Saa Private Island luxury accommodation Asia Golf Specialists",
+      "description": "Indulge in Song Saa Spa’s restorative biological treatments utilizing local herbs and marine elements.<br><br>Dine under the stars on the beach with barefoot island elegance."
+    },
+    {
+      "day": 8,
+      "title": "Private Sunset Champagne Cruise",
+      "subtitle": "Archipelago Exploration",
+      "stayName": "Song Saa Private Island",
+      "stayHref": "/accommodations/cambodia/song-saa-private-island/",
+      "transferTime": "At leisure on the private island",
+      "image": "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-overwater-villa-1.webp",
+      "imageCaption": "Song Saa Private Island — Luxury Sanctuary Base",
+      "imageAlt": "Song Saa Private Island luxury accommodation Asia Golf Specialists",
+      "description": "Spend the afternoon sailing around the Koh Rong Archipelago on a private wooden boat, snorkeling in remote coves.<br><br>Enjoy a farewell sunset dinner with champagne on your villa deck."
+    },
+    {
+      "day": 9,
+      "title": "Speedboat Return & Airport Departure",
+      "subtitle": "Departure",
+      "stayName": "Song Saa Private Island",
+      "stayHref": "/accommodations/cambodia/song-saa-private-island/",
+      "transferTime": "Speedboat + transfer to Sihanoukville/Phnom Penh",
+      "image": "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-overwater-villa-1.webp",
+      "imageCaption": "Song Saa Private Island — Luxury Sanctuary Base",
+      "imageAlt": "Song Saa Private Island luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a final breakfast over the water before your private speedboat return.<br><br>Your private executive transfer connects you to your onward flight, concluding an extraordinary golf and island escape."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is included in Song Saa Private Island’s rate?",
+      "answer": "Song Saa operates on an all-inclusive model featuring all à la carte gourmet meals, premium wines, minibar, and non-motorized water sports."
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "slug": "vietnam-north-to-south-trilogy",
+  "title": "12-Day Vietnam Grand North-to-South Golf Trilogy",
+  "description": "The ultimate 12-day cross-country golf odyssey. Play Hanoi, Da Nang, and Ho Tram, staying at Capella Hanoi, Namia River Retreat, and The Bluffs.",
+  "heroImage": "/images/homepage/hero-slider/vietnam-coastal-golf-course-hoiana-shores-aerial-beachside.webp",
+  "destination": "Hanoi, Da Nang & Ho Tram, Vietnam",
+  "country": "Vietnam",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Cross-Country Masterpiece",
+  "duration": "12 Days / 11 Nights (6 Rounds)",
+  "guidePriceUsd": 4100,
+  "guidePriceFrom": 6310,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-grand-vietnam-odyssey",
+    "title": "The Grand Vietnam Odyssey",
+    "duration": "14 Days / 13 Nights",
+    "heroImage": "/images/homepage/hero-slider/vietnam-coastal-golf-course-hoiana-shores-aerial-beachside.webp",
+    "highlight": "Upgrade to our all-inclusive 14-day signature tour featuring private jet charters, presidential suites, and personal tour directors."
+  },
+  "featuredVenues": [
+    {
+      "name": "Thanh Lanh Valley Golf & Resort",
+      "type": "course",
+      "href": "/courses/vietnam/thanh-lanh-valley/",
+      "image": "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-vietnam-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Silk Path Dong Trieu Golf",
+      "type": "course",
+      "href": "/courses/vietnam/silk-path-dong-trieu/",
+      "image": "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-vietnam-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Ba Na Hills Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/ba-na-hills/",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-da-nang-vietnam-1.webp",
+      "badge": "Luke Donald / IMG",
+      "highlight": "Par 72 • 7,858 Yards"
+    },
+    {
+      "name": "Hoiana Shores Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/hoiana-shores/",
+      "image": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+      "badge": "Robert Trent Jones Jr.",
+      "highlight": "Par 72 • 7,309 Yards"
+    },
+    {
+      "name": "The Bluffs Grand Ho Tram",
+      "type": "course",
+      "href": "/courses/vietnam/the-bluffs-ho-tram/",
+      "image": "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-strip-vietnam-1.webp",
+      "badge": "Greg Norman",
+      "highlight": "Par 71 • 7,207 Yards"
+    },
+    {
+      "name": "Tan Son Nhat Golf Course",
+      "type": "course",
+      "href": "/courses/vietnam/tan-son-nhat/",
+      "image": "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-vietnam-1.webp",
+      "badge": "Nelson & Haworth",
+      "highlight": "Par 71 / 72 (two courses) • 7,000+ Yards"
+    },
+    {
+      "name": "Capella Hanoi",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/capella-hanoi/",
+      "image": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    },
+    {
+      "name": "Namia River Retreat",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "image": "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-hero.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    },
+    {
+      "name": "The Grand Ho Tram Strip",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "image": "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-resort-hotel-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "All private luxury ground transport in Hanoi, Da Nang, Hoi An, and Saigon/Ho Tram."
+    },
+    {
+      "item": "Domestic Flights",
+      "detail": "Business/Premium domestic flights connecting Hanoi to Da Nang and Da Nang to Ho Chi Minh City."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "6 championship rounds: Thanh Lanh Valley, Silk Path, Ba Na Hills, Hoiana Shores, The Bluffs, and Tan Son Nhat."
+    },
+    {
+      "item": "Luxury Accommodations",
+      "detail": "11 nights across Capella Hanoi, Namia River Retreat Hoi An, and The Bluffs Grand Ho Tram."
+    },
+    {
+      "item": "Concierge Director",
+      "detail": "Continuous on-ground tour coordination and seamless luggage forwarding."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Hanoi & Opera District Check-In",
+      "subtitle": "Northern Arrival",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "35 mins from HAN Airport",
+      "image": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+      "imageCaption": "Capella Hanoi — Luxury Sanctuary Base",
+      "imageAlt": "Capella Hanoi luxury accommodation Asia Golf Specialists",
+      "description": "Arrive in Hanoi and transfer to <a href=\"/accommodations/vietnam/capella-hanoi/\">Capella Hanoi</a>. Decompress from travel in your bespoke opera-themed suite.<br><br>Enjoy welcome drinks and a private dinner celebrating northern Vietnamese cuisine in the French Quarter."
+    },
+    {
+      "day": 2,
+      "title": "Alpine Splendor at Thanh Lanh Valley Golf Resort",
+      "subtitle": "Round 1: Faldo Valley Challenge",
+      "courseName": "Thanh Lanh Valley Golf & Resort",
+      "courseHref": "/courses/vietnam/thanh-lanh-valley/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "55 mins door-to-door",
+      "image": "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-vietnam-1.webp",
+      "imageCaption": "Thanh Lanh Valley Golf & Resort — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Thanh Lanh Valley Golf & Resort championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Tee off at Sir Nick Faldo’s magnificent <a href=\"/courses/vietnam/thanh-lanh-valley/\">Thanh Lanh Valley Golf & Resort</a>, enjoying alpine mountain scenery and lakeside holes at 1,000 meters elevation.<br><br>Return to Hanoi for an evening exploring the vibrant Old Quarter culinary scene."
+    },
+    {
+      "day": 3,
+      "title": "Championship Parkland at Silk Path Dong Trieu",
+      "subtitle": "Round 2: Modern Parkland Test",
+      "courseName": "Silk Path Dong Trieu Golf",
+      "courseHref": "/courses/vietnam/silk-path-dong-trieu/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Capella Hanoi",
+      "stayHref": "/accommodations/vietnam/capella-hanoi/",
+      "transferTime": "70 mins via expressway",
+      "image": "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-vietnam-1.webp",
+      "imageCaption": "Silk Path Dong Trieu Golf — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Silk Path Dong Trieu Golf championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Play the newly opened championship course at <a href=\"/courses/vietnam/silk-path-dong-trieu/\">Silk Path Dong Trieu Golf</a>, enjoying flawless conditioning and sculptured bunkers.<br><br>Conclude your northern stay with an exquisite dinner at Capella’s Michelin-starred Koki restaurant."
+    },
+    {
+      "day": 4,
+      "title": "Flight to Da Nang & Private Pool Villa Check-In",
+      "subtitle": "Central Transition",
+      "stayName": "Namia River Retreat",
+      "stayHref": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "transferTime": "80 min flight + 35 min transfer",
+      "image": "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-hero.webp",
+      "imageCaption": "Namia River Retreat — Luxury Sanctuary Base",
+      "imageAlt": "Namia River Retreat luxury accommodation Asia Golf Specialists",
+      "description": "Fly south to Da Nang and transfer to your private pool villa at <a href=\"/accommodations/vietnam/namia-river-retreat-hoi-an/\">Namia River Retreat</a> in Hoi An.<br><br>Spend the afternoon relaxing beside your private plunge pool before an evening stroll through UNESCO-listed Hoi An Ancient Town."
+    },
+    {
+      "day": 5,
+      "title": "Mountain Foothills at Ba Na Hills Golf Club",
+      "subtitle": "Round 3: Donald Mountain Gem",
+      "courseName": "Ba Na Hills Golf Club",
+      "courseHref": "/courses/vietnam/ba-na-hills/",
+      "architect": "Luke Donald / IMG",
+      "stayName": "Namia River Retreat",
+      "stayHref": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "transferTime": "45 mins door-to-door",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-luke-donald-design-3.webp",
+      "imageCaption": "Ba Na Hills Golf Club — Luke Donald / IMG (Par 72, 7,858 Yards)",
+      "imageAlt": "Ba Na Hills Golf Club championship golf course Luke Donald / IMG Asia Golf Specialists",
+      "description": "Tackle Luke Donald's mountain showpiece at <a href=\"/courses/vietnam/ba-na-hills/\">Ba Na Hills Golf Club</a>, navigating dramatic elevation shifts and pristine Paspalum fairways.<br><br>Return to Namia for an evening 90-minute restorative herbal spa treatment."
+    },
+    {
+      "day": 6,
+      "title": "Pure Coastal Links at Hoiana Shores Golf Club",
+      "subtitle": "Round 4: RTJ II Dunes Links",
+      "courseName": "Hoiana Shores Golf Club",
+      "courseHref": "/courses/vietnam/hoiana-shores/",
+      "architect": "Robert Trent Jones Jr.",
+      "stayName": "Namia River Retreat",
+      "stayHref": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+      "imageCaption": "Hoiana Shores Golf Club — Robert Trent Jones Jr. (Par 72, 7,309 Yards)",
+      "imageAlt": "Hoiana Shores Golf Club championship golf course Robert Trent Jones Jr. Asia Golf Specialists",
+      "description": "Experience Robert Trent Jones II’s seaside triumph at <a href=\"/courses/vietnam/hoiana-shores/\">Hoiana Shores Golf Club</a>, playing firm, fast links golf exposed to coastal ocean breezes.<br><br>Celebrate with clubhouse drinks overlooking the Cham Islands before a riverside dinner in Hoi An."
+    },
+    {
+      "day": 7,
+      "title": "Hoi An Rest Day & Private Sunset Boat Cruise",
+      "subtitle": "Rest & Restoration",
+      "stayName": "Namia River Retreat",
+      "stayHref": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "transferTime": "At leisure in Hoi An",
+      "image": "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-luxury-on-the-river.webp",
+      "imageCaption": "Namia River Retreat — Luxury Sanctuary Base",
+      "imageAlt": "Namia River Retreat luxury accommodation Asia Golf Specialists",
+      "description": "A dedicated rest day midway through the cross-country tour. Relax by the pool, explore artisan tailor shops, or visit the beach.<br><br>Board a private wooden riverboat for champagne and hors d'oeuvres on the Thu Bon River at sunset."
+    },
+    {
+      "day": 8,
+      "title": "Flight to Saigon & Coastal Drive to Ho Tram",
+      "subtitle": "Southern Transition",
+      "stayName": "The Grand Ho Tram Strip",
+      "stayHref": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "transferTime": "75 min flight + 2 hr drive",
+      "image": "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-resort-hotel-1.webp",
+      "imageCaption": "The Grand Ho Tram Strip — Luxury Sanctuary Base",
+      "imageAlt": "The Grand Ho Tram Strip luxury accommodation Asia Golf Specialists",
+      "description": "Fly to Ho Chi Minh City and travel via executive coach to the southern coast, checking in to <a href=\"/accommodations/vietnam/bluffs-grand-ho-tram/\">The Bluffs Grand Ho Tram</a>.<br><br>Unpack in your ocean-view room and enjoy a beachfront sunset dinner."
+    },
+    {
+      "day": 9,
+      "title": "Greg Norman’s Rugged Dunes at The Bluffs Ho Tram",
+      "subtitle": "Round 5: World Top 100 Links",
+      "courseName": "The Bluffs Grand Ho Tram",
+      "courseHref": "/courses/vietnam/the-bluffs-ho-tram/",
+      "architect": "Greg Norman",
+      "stayName": "The Grand Ho Tram Strip",
+      "stayHref": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "transferTime": "3 mins on resort buggy",
+      "image": "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-strip-vietnam-1.webp",
+      "imageCaption": "The Bluffs Grand Ho Tram — Greg Norman (Par 71, 7,207 Yards)",
+      "imageAlt": "The Bluffs Grand Ho Tram championship golf course Greg Norman Asia Golf Specialists",
+      "description": "Take on Greg Norman’s acclaimed World Top 100 masterpiece, <a href=\"/courses/vietnam/the-bluffs-ho-tram/\">The Bluffs Grand Ho Tram</a>, playing through towering coastal dunes 50 meters above the sea.<br><br>Relax in the clubhouse overlooking the crashing waves before an evening at the resort."
+    },
+    {
+      "day": 10,
+      "title": "The Bluffs Ho Tram Replay & Beachfront Relaxation",
+      "subtitle": "Round 6: Coastal Championship Replay",
+      "courseName": "The Bluffs Grand Ho Tram",
+      "courseHref": "/courses/vietnam/the-bluffs-ho-tram/",
+      "architect": "Greg Norman",
+      "stayName": "The Grand Ho Tram Strip",
+      "stayHref": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "transferTime": "3 mins on resort buggy",
+      "image": "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-greg-norman-design-2.webp",
+      "imageCaption": "The Bluffs Grand Ho Tram — Greg Norman (Par 71, 7,207 Yards)",
+      "imageAlt": "The Bluffs Grand Ho Tram championship golf course Greg Norman Asia Golf Specialists",
+      "description": "Return to The Bluffs for a second round, mastering the wind and rolling sand dunes with tactical precision.<br><br>Spend the afternoon on the beach or by the pool before a celebratory private seafood barbecue."
+    },
+    {
+      "day": 11,
+      "title": "Return to Saigon & Final City Evening",
+      "subtitle": "Metropolitan Finale",
+      "stayName": "The Grand Ho Tram Strip",
+      "stayHref": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "transferTime": "2 hours to Saigon",
+      "image": "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-resort-hotel-1.webp",
+      "imageCaption": "The Grand Ho Tram Strip — Luxury Sanctuary Base",
+      "imageAlt": "The Grand Ho Tram Strip luxury accommodation Asia Golf Specialists",
+      "description": "Transfer back to Ho Chi Minh City, checking in for a final night of urban luxury.<br><br>Gather for a grand tour-ending dinner at a premier Saigon dining venue, toasting 12 days of exceptional cross-country golf."
+    },
+    {
+      "day": 12,
+      "title": "VIP Departure via Tan Son Nhat Airport",
+      "subtitle": "Departure",
+      "stayName": "The Grand Ho Tram Strip",
+      "stayHref": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "transferTime": "30 mins to SGN Airport",
+      "image": "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-resort-hotel-1.webp",
+      "imageCaption": "The Grand Ho Tram Strip — Luxury Sanctuary Base",
+      "imageAlt": "The Grand Ho Tram Strip luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast before packing your clubs with assistance from your AGS concierge.<br><br>Your private luxury transfer delivers you to Tan Son Nhat International Airport for your return flight home, concluding the grand Vietnam trilogy."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How is luggage handled during internal flights?",
+      "answer": "Your AGS tour director coordinates seamless luggage and golf bag transfers directly between hotels and airports, ensuring hands-free travel."
+    }
+  ]
+}

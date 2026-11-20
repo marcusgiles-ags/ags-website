@@ -1,0 +1,1868 @@
+{
+  "courses": {
+    "ba-na-hills": {
+      "slug": "ba-na-hills",
+      "country": "vietnam",
+      "name": "Ba Na Hills Golf Club",
+      "designer": "Luke Donald / IMG",
+      "par": "72",
+      "length": "7,858 Yards",
+      "href": "/courses/vietnam/ba-na-hills/",
+      "heroImage": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-da-nang-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-da-nang-vietnam-1.webp",
+        "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-mountain-course-2.webp",
+        "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-luke-donald-design-3.webp",
+        "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-night-golf-4.webp",
+        "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-vietnam-championship-5.webp"
+      ]
+    },
+    "brg-da-nang-nicklaus": {
+      "slug": "brg-da-nang-nicklaus",
+      "country": "vietnam",
+      "name": "BRG Da Nang Nicklaus Course",
+      "designer": "Jack Nicklaus Design",
+      "par": "73",
+      "length": "7,380 Yards",
+      "href": "/courses/vietnam/brg-da-nang-nicklaus/",
+      "heroImage": "/images/courses/vietnam/brg-da-nang-nicklaus/brg-da-nang-golf-resort-nicklaus-water-feature-3.webp",
+      "images": [
+        "/images/courses/vietnam/brg-da-nang-nicklaus/brg-da-nang-golf-resort-nicklaus-water-feature-3.webp",
+        "/images/courses/vietnam/brg-da-nang-nicklaus/brg-da-nang-golf-resort-nicklaus-course-da-nang-1.webp",
+        "/images/courses/vietnam/brg-da-nang-nicklaus/brg-da-nang-golf-resort-nicklaus-fairway-vietnam-4.webp",
+        "/images/courses/vietnam/brg-da-nang-nicklaus/brg-da-nang-golf-resort-nicklaus-hole-17-5.webp",
+        "/images/courses/vietnam/brg-da-nang-nicklaus/brg-danang-golf-nicklaus.webp"
+      ]
+    },
+    "brg-da-nang-norman": {
+      "slug": "brg-da-nang-norman",
+      "country": "vietnam",
+      "name": "BRG Da Nang Norman Course",
+      "designer": "Greg Norman",
+      "par": "72",
+      "length": "7,160 Yards",
+      "href": "/courses/vietnam/brg-da-nang-norman/",
+      "heroImage": "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-coastal-dunes-3.webp",
+      "images": [
+        "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-coastal-dunes-3.webp",
+        "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-norman-course-da-nang-1.webp",
+        "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-greg-norman-links-2.webp",
+        "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-norman-fairway-vietnam-4.webp",
+        "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-norman-signature-hole-5.webp"
+      ]
+    },
+    "chi-linh-golf": {
+      "slug": "chi-linh-golf",
+      "country": "vietnam",
+      "name": "Chi Linh Golf",
+      "designer": "Lee Nifong / IMG",
+      "par": "72",
+      "length": "7,160 Yards",
+      "href": "/courses/vietnam/chi-linh-golf/",
+      "heroImage": "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-vietnam-1.webp",
+        "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-forest-valley-2.webp",
+        "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-championship-layout-3.webp",
+        "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-northern-vietnam-4.webp",
+        "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-greens-bunker-5.webp"
+      ]
+    },
+    "dragon-golf-links": {
+      "slug": "dragon-golf-links",
+      "country": "vietnam",
+      "name": "Dragon Golf Links",
+      "designer": "Greg Norman",
+      "par": "72",
+      "length": "6,950 Yards",
+      "href": "/courses/vietnam/dragon-golf-links/",
+      "heroImage": "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-hai-phong-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-hai-phong-vietnam-1.webp",
+        "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-seaside-hole-2.webp",
+        "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-championship-layout-3.webp",
+        "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-fairway-ocean-4.webp",
+        "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-greens-bunkers-5.webp"
+      ]
+    },
+    "eschuri-vung-bau": {
+      "slug": "eschuri-vung-bau",
+      "country": "vietnam",
+      "name": "Eschuri Vung Bau Golf Resort",
+      "designer": "IMG / Steven McFarlane",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/vietnam/eschuri-vung-bau/",
+      "heroImage": "/images/courses/vietnam/eschuri-vung-bau/eschuri-vung-bau-golf-resort-phu-quoc-1.webp",
+      "images": [
+        "/images/courses/vietnam/eschuri-vung-bau/eschuri-vung-bau-golf-resort-phu-quoc-1.webp",
+        "/images/courses/vietnam/eschuri-vung-bau/eschuri-vung-bau-golf-coastal-tropical-2.webp",
+        "/images/courses/vietnam/eschuri-vung-bau/eschuri-vung-bau-golf-ocean-view-3.webp",
+        "/images/courses/vietnam/eschuri-vung-bau/eschuri-vung-bau-golf-fairway-island-4.webp",
+        "/images/courses/vietnam/eschuri-vung-bau/eschuri-vung-bau-golf-championship-hole-5.webp"
+      ]
+    },
+    "flc-ha-long-bay": {
+      "slug": "flc-ha-long-bay",
+      "country": "vietnam",
+      "name": "FLC Ha Long Bay Golf Club",
+      "designer": "Schmidt-Curley Design",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/vietnam/flc-ha-long-bay/",
+      "heroImage": "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-club-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-club-vietnam-1.webp",
+        "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-limestone-karst-2.webp",
+        "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-course-layout-3.webp",
+        "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-fairway-bay-4.webp",
+        "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-championship-green-5.webp"
+      ]
+    },
+    "golden-sands": {
+      "slug": "golden-sands",
+      "country": "vietnam",
+      "name": "Golden Sands Golf Resort",
+      "designer": "Jack Nicklaus Design",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/vietnam/golden-sands/",
+      "heroImage": "/images/courses/vietnam/golden-sands/golden-sands-golf-resort-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/golden-sands/golden-sands-golf-resort-vietnam-1.webp",
+        "/images/courses/vietnam/golden-sands/golden-sands-golf-resort-links-hole-2.webp",
+        "/images/courses/vietnam/golden-sands/golden-sands-golf-resort-fairway-3.webp",
+        "/images/courses/vietnam/golden-sands/golden-sands-golf-resort-bunkers-4.webp",
+        "/images/courses/vietnam/golden-sands/golden-sands-golf-resort-signature-hole-5.webp"
+      ]
+    },
+    "heron-lake": {
+      "slug": "heron-lake",
+      "country": "vietnam",
+      "name": "Heron Lake Golf Course",
+      "designer": "Pacific Coast Design",
+      "par": "72",
+      "length": "6,971 Yards",
+      "href": "/courses/vietnam/heron-lake/",
+      "heroImage": "/images/courses/vietnam/heron-lake/heron-lake-golf-course-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/heron-lake/heron-lake-golf-course-vietnam-1.webp",
+        "/images/courses/vietnam/heron-lake/heron-lake-golf-course-wetland-fairway-2.webp",
+        "/images/courses/vietnam/heron-lake/heron-lake-golf-course-resort-layout-3.webp",
+        "/images/courses/vietnam/heron-lake/heron-lake-golf-course-northern-vietnam-4.webp",
+        "/images/courses/vietnam/heron-lake/heron-lake-golf-course-championship-green-5.webp"
+      ]
+    },
+    "hoiana-shores": {
+      "slug": "hoiana-shores",
+      "country": "vietnam",
+      "name": "Hoiana Shores Golf Club",
+      "designer": "Robert Trent Jones Jr.",
+      "par": "72",
+      "length": "7,309 Yards",
+      "href": "/courses/vietnam/hoiana-shores/",
+      "heroImage": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+        "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-robert-trent-jones-jr-2.webp",
+        "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-east-sea-links-3.webp",
+        "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-dunes-hoi-an-4.webp",
+        "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-championship-layout-5.webp"
+      ]
+    },
+    "kings-island": {
+      "slug": "kings-island",
+      "country": "vietnam",
+      "name": "King's Island Golf Resort",
+      "designer": "Robert McFarland (Lakeside) / PCD (Mountainview) / Jack Nicklaus II (Kings)",
+      "par": "72 / 72 / 72",
+      "length": "6,516 Yards / 7,000 Yards / 7,310 Yards",
+      "href": "/courses/vietnam/kings-island/",
+      "heroImage": "/images/courses/vietnam/kings-island/kings-island-1.webp",
+      "images": [
+        "/images/courses/vietnam/kings-island/kings-island-1.webp",
+        "/images/courses/vietnam/kings-island/kings-island-2.webp",
+        "/images/courses/vietnam/kings-island/kings-island-3.webp",
+        "/images/courses/vietnam/kings-island/kings-island-4.webp",
+        "/images/courses/vietnam/kings-island/kings-island-5.webp"
+      ]
+    },
+    "kn-golf-links": {
+      "slug": "kn-golf-links",
+      "country": "vietnam",
+      "name": "KN Golf Links Cam Ranh",
+      "designer": "Greg Norman",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/vietnam/kn-golf-links/",
+      "heroImage": "/images/courses/vietnam/kn-golf-links/kn-golf-links-cam-ranh-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/kn-golf-links/kn-golf-links-cam-ranh-vietnam-1.webp",
+        "/images/courses/vietnam/kn-golf-links/kn-golf-links-cam-ranh-dunes-2.webp",
+        "/images/courses/vietnam/kn-golf-links/kn-golf-links-cam-ranh-ocean-3.webp",
+        "/images/courses/vietnam/kn-golf-links/kn-golf-links-cam-ranh-scottish-4.webp",
+        "/images/courses/vietnam/kn-golf-links/kn-golf-links-cam-ranh-championship-5.webp"
+      ]
+    },
+    "laguna-lang-co": {
+      "slug": "laguna-lang-co",
+      "country": "vietnam",
+      "name": "Laguna Golf Lang Co",
+      "designer": "Sir Nick Faldo",
+      "par": "71",
+      "length": "6,891 Yards",
+      "href": "/courses/vietnam/laguna-lang-co/",
+      "heroImage": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-jungle-tropical-3.webp",
+      "images": [
+        "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-jungle-tropical-3.webp",
+        "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-bach-ma-mountain-5.webp",
+        "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-nick-faldo-vietnam-1.webp",
+        "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-championship-layout-4.webp"
+      ]
+    },
+    "legend-hill": {
+      "slug": "legend-hill",
+      "country": "vietnam",
+      "name": "BRG Legend Hill Golf Resort",
+      "designer": "Nicklaus Design",
+      "par": "72",
+      "length": "7,068 Yards",
+      "href": "/courses/vietnam/legend-hill/",
+      "heroImage": "/images/courses/vietnam/legend-hill/legend-hill-1.webp",
+      "images": [
+        "/images/courses/vietnam/legend-hill/legend-hill-1.webp",
+        "/images/courses/vietnam/legend-hill/legend-hill-2.webp",
+        "/images/courses/vietnam/legend-hill/legend-hill-3.webp",
+        "/images/courses/vietnam/legend-hill/legend-hill-4.webp",
+        "/images/courses/vietnam/legend-hill/legend-hill-5.webp"
+      ]
+    },
+    "long-thanh": {
+      "slug": "long-thanh",
+      "country": "vietnam",
+      "name": "Long Thanh Golf Resort",
+      "designer": "Golfplan / Ron Fream",
+      "par": "72",
+      "length": "6,897 Yards",
+      "href": "/courses/vietnam/long-thanh/",
+      "heroImage": "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-vietnam-saigon-1.webp",
+      "images": [
+        "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-vietnam-saigon-1.webp",
+        "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-ron-fream-design-2.webp",
+        "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-water-hazard-3.webp",
+        "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-championship-layout-4.webp",
+        "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-fairway-saigon-5.webp"
+      ]
+    },
+    "montgomerie-links": {
+      "slug": "montgomerie-links",
+      "country": "vietnam",
+      "name": "Montgomerie Links Vietnam",
+      "designer": "Colin Montgomerie",
+      "par": "72",
+      "length": "7,091 Yards",
+      "href": "/courses/vietnam/montgomerie-links/",
+      "heroImage": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-da-nang-1-hero.webp",
+      "images": [
+        "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-da-nang-1-hero.webp",
+        "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-coastal-hole-3.webp",
+        "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-greens-bunkers-4.webp",
+        "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-clubhouse-5.webp"
+      ]
+    },
+    "nara-binh-tien": {
+      "slug": "nara-binh-tien",
+      "country": "vietnam",
+      "name": "Nara Binh Tien Golf Club",
+      "designer": "Kevin Ramsey / David Dale (Golfplan)",
+      "par": "72",
+      "length": "7,000 Yards",
+      "href": "/courses/vietnam/nara-binh-tien/",
+      "heroImage": "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-beachfront-golf-hero.webp",
+      "images": [
+        "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-beachfront-golf-hero.webp",
+        "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-coastal-golf.webp",
+        "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-water-hazard.webp",
+        "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-site-overview.webp",
+        "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-aerial1.webp",
+        "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-clubhouse.webp"
+      ]
+    },
+    "pga-ocean-course": {
+      "slug": "pga-ocean-course",
+      "country": "vietnam",
+      "name": "PGA Ocean Course NovaWorld",
+      "designer": "Greg Norman",
+      "par": "72",
+      "length": "7,400 Yards",
+      "href": "/courses/vietnam/pga-ocean-course/",
+      "heroImage": "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-herojpg.webp",
+      "images": [
+        "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-herojpg.webp",
+        "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-links.webp",
+        "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-coastal-holes.webp",
+        "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-hole-7.webp",
+        "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-clubhouse.webp"
+      ]
+    },
+    "phoenix-golf-resort": {
+      "slug": "phoenix-golf-resort",
+      "country": "vietnam",
+      "name": "Phoenix Golf Resort",
+      "designer": "Ron Fream, Calvin Peete, Tatsukawa",
+      "par": "72",
+      "length": "7,184 Yards",
+      "href": "/courses/vietnam/phoenix-golf-resort/",
+      "heroImage": "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-hero.webp",
+      "images": [
+        "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-hero.webp",
+        "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-karst.webp",
+        "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-fairways.webp",
+        "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-aerial.webp",
+        "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-clubhouse.webp"
+      ]
+    },
+    "royal-long-an": {
+      "slug": "royal-long-an",
+      "country": "vietnam",
+      "name": "Royal Long An Golf & Country Club",
+      "designer": "Sir Nick Faldo",
+      "par": "72",
+      "length": "7,090 Yards",
+      "href": "/courses/vietnam/royal-long-an/",
+      "heroImage": "/images/courses/vietnam/royal-long-an/royal-long-an-golf-country-club-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/royal-long-an/royal-long-an-golf-country-club-vietnam-1.webp",
+        "/images/courses/vietnam/royal-long-an/royal-long-an-golf-nick-faldo-design-2.webp",
+        "/images/courses/vietnam/royal-long-an/royal-long-an-golf-sustainability-3.webp",
+        "/images/courses/vietnam/royal-long-an/royal-long-an-golf-fairway-saigon-4.webp",
+        "/images/courses/vietnam/royal-long-an/royal-long-an-golf-championship-green-5.webp"
+      ]
+    },
+    "sapa-grand": {
+      "slug": "sapa-grand",
+      "country": "vietnam",
+      "name": "Sapa Grand Golf Course",
+      "designer": "IMG Design",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/vietnam/sapa-grand/",
+      "heroImage": "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-vietnam-1.webp",
+        "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-highland-2.webp",
+        "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-elevation-3.webp",
+        "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-fairway-4.webp",
+        "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-championship-5.webp"
+      ]
+    },
+    "sea-links-golf-club": {
+      "slug": "sea-links-golf-club",
+      "country": "vietnam",
+      "name": "Sea Links Golf Club",
+      "designer": "Ronald Fream",
+      "par": "72",
+      "length": "7,617 Yards",
+      "href": "/courses/vietnam/sea-links-golf-club/",
+      "heroImage": "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-hero.webp",
+      "images": [
+        "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-hero.webp",
+        "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-coastal-view.webp",
+        "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-elevation-changes.webp",
+        "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-clubhouse.webp",
+        "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-aerial.webp",
+        "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-mui-ne-golf.webp"
+      ]
+    },
+    "silk-path-dong-trieu": {
+      "slug": "silk-path-dong-trieu",
+      "country": "vietnam",
+      "name": "Silk Path Dong Trieu Golf",
+      "designer": "Sir Nick Faldo",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/vietnam/silk-path-dong-trieu/",
+      "heroImage": "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-vietnam-1.webp",
+        "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-parkland-2.webp",
+        "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-layout-3.webp",
+        "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-fairway-4.webp",
+        "/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-green-5.webp"
+      ]
+    },
+    "sky-lake": {
+      "slug": "sky-lake",
+      "country": "vietnam",
+      "name": "Sky Lake Resort & Golf Club",
+      "designer": "Ahn Moon Hwan",
+      "par": "72 / 72",
+      "length": "7,557 Yards / 7,265 Yards",
+      "href": "/courses/vietnam/sky-lake/",
+      "heroImage": "/images/courses/vietnam/sky-lake/sky-lake-lake-course-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/sky-lake/sky-lake-lake-course-vietnam-1.webp",
+        "/images/courses/vietnam/sky-lake/sky-lake-lake-course-limestone-karst-2.webp",
+        "/images/courses/vietnam/sky-lake/sky-lake-lake-course-public-layout-3.webp",
+        "/images/courses/vietnam/sky-lake/sky-lake-lake-course-fairway-4.webp",
+        "/images/courses/vietnam/sky-lake/sky-lake-lake-course-scenic-green-5.webp"
+      ]
+    },
+    "sky-lake-lake": {
+      "slug": "sky-lake-lake",
+      "country": "vietnam",
+      "name": "Sky Lake Lake Course",
+      "designer": "Ahn Moon Hwan / Bori Golf Design",
+      "par": "72",
+      "length": "6,987 Yards",
+      "href": "/courses/vietnam/sky-lake-lake/",
+      "heroImage": "/images/courses/vietnam/sky-lake-lake/sky-lake-lake-course-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/sky-lake-lake/sky-lake-lake-course-vietnam-1.webp",
+        "/images/courses/vietnam/sky-lake-lake/sky-lake-lake-course-limestone-karst-2.webp",
+        "/images/courses/vietnam/sky-lake-lake/sky-lake-lake-course-public-layout-3.webp",
+        "/images/courses/vietnam/sky-lake-lake/sky-lake-lake-course-fairway-4.webp",
+        "/images/courses/vietnam/sky-lake-lake/sky-lake-lake-course-scenic-green-5.webp"
+      ]
+    },
+    "sky-lake-sky": {
+      "slug": "sky-lake-sky",
+      "country": "vietnam",
+      "name": "Sky Lake Sky Course",
+      "designer": "Ahn Moon Hwan / Bori Golf Design",
+      "par": "72",
+      "length": "7,128 Yards",
+      "href": "/courses/vietnam/sky-lake-sky/",
+      "heroImage": "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-vietnam-1.webp",
+        "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-championship-layout-2.webp",
+        "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-members-exclusive-3.webp",
+        "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-fairway-vietnam-4.webp",
+        "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-greens-5.webp"
+      ]
+    },
+    "taekwang-jeongsan": {
+      "slug": "taekwang-jeongsan",
+      "country": "vietnam",
+      "name": "Taekwang Jeongsan Country Club",
+      "designer": "Golfplan / Ron Fream",
+      "par": "72",
+      "length": "7,174 Yards",
+      "href": "/courses/vietnam/taekwang-jeongsan/",
+      "heroImage": "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-vietnam-1.webp",
+        "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-saigon-river-2.webp",
+        "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-layout-3.webp",
+        "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-fairway-4.webp",
+        "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-greens-5.webp"
+      ]
+    },
+    "tan-son-nhat": {
+      "slug": "tan-son-nhat",
+      "country": "vietnam",
+      "name": "Tan Son Nhat Golf Course",
+      "designer": "Nelson & Haworth",
+      "par": "71 / 72 (two courses)",
+      "length": "7,000+ Yards",
+      "href": "/courses/vietnam/tan-son-nhat/",
+      "heroImage": "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-vietnam-1.webp",
+        "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-city-center-2.webp",
+        "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-36-holes-layout-3.webp",
+        "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-fairway-4.webp",
+        "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-greens-saigon-5.webp"
+      ]
+    },
+    "thanh-lanh-valley": {
+      "slug": "thanh-lanh-valley",
+      "country": "vietnam",
+      "name": "Thanh Lanh Valley Golf & Resort",
+      "designer": "Sir Nick Faldo",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/vietnam/thanh-lanh-valley/",
+      "heroImage": "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-vietnam-1.webp",
+        "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-swiss-alps-2.webp",
+        "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-fairway-3.webp",
+        "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-lake-4.webp",
+        "/images/courses/vietnam/thanh-lanh-valley/thanh-lanh-valley-golf-resort-scenic-5.webp"
+      ]
+    },
+    "the-bluffs-ho-tram": {
+      "slug": "the-bluffs-ho-tram",
+      "country": "vietnam",
+      "name": "The Bluffs Grand Ho Tram",
+      "designer": "Greg Norman",
+      "par": "71",
+      "length": "7,207 Yards",
+      "href": "/courses/vietnam/the-bluffs-ho-tram/",
+      "heroImage": "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-strip-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-strip-vietnam-1.webp",
+        "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-greg-norman-design-2.webp",
+        "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-ocean-view-3.webp",
+        "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-sand-dunes-links-4.webp",
+        "/images/courses/vietnam/the-bluffs-ho-tram/the-bluffs-ho-tram-top-100-world-5.webp"
+      ]
+    },
+    "twin-doves": {
+      "slug": "twin-doves",
+      "country": "vietnam",
+      "name": "Twin Doves Golf Club",
+      "designer": "Peter Rousseau (P+Z)",
+      "par": "72 (Any 18)",
+      "length": "7,234 Yards",
+      "href": "/courses/vietnam/twin-doves/",
+      "heroImage": "/images/courses/vietnam/twin-doves/twin-doves-clubhouse-practice-green.webp",
+      "images": [
+        "/images/courses/vietnam/twin-doves/twin-doves-clubhouse-practice-green.webp",
+        "/images/courses/vietnam/twin-doves/twin-doves-4th-hole.webp",
+        "/images/courses/vietnam/twin-doves/twin-doves-golf-course-approach.webp",
+        "/images/courses/vietnam/twin-doves/twin-doves-saigon-aerial.webp"
+      ]
+    },
+    "van-tri-golf-club": {
+      "slug": "van-tri-golf-club",
+      "country": "vietnam",
+      "name": "Van Tri Golf Club",
+      "designer": "Peter Rousseau",
+      "par": "72",
+      "length": "Up to 7,601 Yards",
+      "href": "/courses/vietnam/van-tri-golf-club/",
+      "heroImage": "/images/courses/vietnam/van-tri-golf-club/van-tri-golf-club-water.webp",
+      "images": [
+        "/images/courses/vietnam/van-tri-golf-club/van-tri-golf-club-water.webp",
+        "/images/courses/vietnam/van-tri-golf-club/van-tri-clubhouse.webp",
+        "/images/courses/vietnam/van-tri-golf-club/van-tri-bunkering-clubhouse.webp",
+        "/images/courses/vietnam/van-tri-golf-club/van-tri-restaurant.webp"
+      ]
+    },
+    "vgcc": {
+      "slug": "vgcc",
+      "country": "vietnam",
+      "name": "Vietnam Golf & Country Club",
+      "designer": "Chen King Shih (West) / Lee Trevino (East)",
+      "par": "72 (West) / 72 (East)",
+      "length": "7,106 Yards / 6,946 Yards",
+      "href": "/courses/vietnam/vgcc/",
+      "heroImage": "/images/courses/vietnam/vgcc/vgcc-1.webp",
+      "images": [
+        "/images/courses/vietnam/vgcc/vgcc-1.webp",
+        "/images/courses/vietnam/vgcc/vgcc-2.webp",
+        "/images/courses/vietnam/vgcc/vgcc-3.webp",
+        "/images/courses/vietnam/vgcc/vgcc-4.webp",
+        "/images/courses/vietnam/vgcc/vgcc-5.webp"
+      ]
+    },
+    "vinpearl-nam-hoi-an": {
+      "slug": "vinpearl-nam-hoi-an",
+      "country": "vietnam",
+      "name": "Vinpearl Golf Nam Hoi An",
+      "designer": "IMG Worldwide",
+      "par": "72",
+      "length": "7,035 Yards",
+      "href": "/courses/vietnam/vinpearl-nam-hoi-an/",
+      "heroImage": "/images/courses/vietnam/vinpearl-nam-hoi-an/vinpearl-golf-nam-hoi-an-vietnam-1.webp",
+      "images": [
+        "/images/courses/vietnam/vinpearl-nam-hoi-an/vinpearl-golf-nam-hoi-an-vietnam-1.webp",
+        "/images/courses/vietnam/vinpearl-nam-hoi-an/vinpearl-golf-nam-hoi-an-dunes-fairway-2.webp",
+        "/images/courses/vietnam/vinpearl-nam-hoi-an/vinpearl-golf-nam-hoi-an-old-growth-trees-3.webp",
+        "/images/courses/vietnam/vinpearl-nam-hoi-an/vinpearl-golf-nam-hoi-an-resort-facilities-4.webp",
+        "/images/courses/vietnam/vinpearl-nam-hoi-an/vinpearl-golf-nam-hoi-an-signature-hole-5.webp"
+      ]
+    },
+    "west-lakes-golf-club": {
+      "slug": "west-lakes-golf-club",
+      "country": "vietnam",
+      "name": "West Lakes Golf & Villas",
+      "designer": "Thomson Perrett",
+      "par": "72",
+      "length": "7,100 Yards",
+      "href": "/courses/vietnam/west-lakes-golf-club/",
+      "heroImage": "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an.webp",
+      "images": [
+        "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an.webp",
+        "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an-fairway.webp",
+        "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an-island.webp",
+        "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an-aerial.webp",
+        "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an-clubhouse.webp"
+      ]
+    },
+    "alpine-chiang-mai": {
+      "slug": "alpine-chiang-mai",
+      "country": "thailand",
+      "name": "Alpine Golf Resort Chiang Mai",
+      "designer": "Ron Garl",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/thailand/alpine-chiang-mai/",
+      "heroImage": "/images/courses/thailand/alpine-chiang-mai/alpine-golf-resort-chiang-mai-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/alpine-chiang-mai/alpine-golf-resort-chiang-mai-thailand-1.webp",
+        "/images/courses/thailand/alpine-chiang-mai/alpine-golf-resort-chiang-mai-mountain-view-2.webp",
+        "/images/courses/thailand/alpine-chiang-mai/alpine-golf-resort-chiang-mai-fairway-3.webp",
+        "/images/courses/thailand/alpine-chiang-mai/alpine-golf-resort-chiang-mai-green-4.webp",
+        "/images/courses/thailand/alpine-chiang-mai/alpine-golf-resort-chiang-mai-scenic-5.webp"
+      ]
+    },
+    "alpine-golf-club": {
+      "slug": "alpine-golf-club",
+      "country": "thailand",
+      "name": "Alpine Golf & Sports Club",
+      "designer": "Ronald M. Garl",
+      "par": "72",
+      "length": "7,007 Yards",
+      "href": "/courses/thailand/alpine-golf-club/",
+      "heroImage": "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-bangkok-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-bangkok-thailand-1.webp",
+        "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-tiger-woods-johnnie-walker-2.webp",
+        "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-hilly-fairway-3.webp",
+        "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-green-forest-4.webp",
+        "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-signature-hole-5.webp"
+      ]
+    },
+    "aquella": {
+      "slug": "aquella",
+      "country": "thailand",
+      "name": "Aquella Golf Resort & Country Club",
+      "designer": "Pacific Coast Design",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/thailand/aquella/",
+      "heroImage": "/images/courses/thailand/aquella/aquella-golf-resort-phuket-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/aquella/aquella-golf-resort-phuket-thailand-1.webp",
+        "/images/courses/thailand/aquella/aquella-golf-resort-andaman-sea-view-2.webp",
+        "/images/courses/thailand/aquella/aquella-golf-resort-paspalum-fairway-3.webp",
+        "/images/courses/thailand/aquella/aquella-golf-resort-ocean-hole-4.webp",
+        "/images/courses/thailand/aquella/aquella-golf-resort-championship-green-5.webp"
+      ]
+    },
+    "ballyshear": {
+      "slug": "ballyshear",
+      "country": "thailand",
+      "name": "Ballyshear Golf Links",
+      "designer": "Gil Hanse",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/thailand/ballyshear/",
+      "heroImage": "/images/courses/thailand/ballyshear/ballyshear-golf-links-bangkok-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/ballyshear/ballyshear-golf-links-bangkok-thailand-1.webp",
+        "/images/courses/thailand/ballyshear/ballyshear-golf-links-classic-hole-2.webp",
+        "/images/courses/thailand/ballyshear/ballyshear-golf-links-championship-layout-3.webp",
+        "/images/courses/thailand/ballyshear/ballyshear-golf-links-green-bunker-4.webp",
+        "/images/courses/thailand/ballyshear/ballyshear-golf-links-signature-5.webp"
+      ]
+    },
+    "bangkok-golf-club": {
+      "slug": "bangkok-golf-club",
+      "country": "thailand",
+      "name": "Bangkok Golf Club",
+      "designer": "Chird Boonyarattanevet",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/thailand/bangkok-golf-club/",
+      "heroImage": "/images/courses/thailand/bangkok-golf-club/bangkok-golf-club-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/bangkok-golf-club/bangkok-golf-club-thailand-1.webp",
+        "/images/courses/thailand/bangkok-golf-club/bangkok-golf-club-night-golf-2.webp",
+        "/images/courses/thailand/bangkok-golf-club/bangkok-golf-club-water-hazard-3.webp",
+        "/images/courses/thailand/bangkok-golf-club/bangkok-golf-club-fairway-4.webp",
+        "/images/courses/thailand/bangkok-golf-club/bangkok-golf-club-green-5.webp"
+      ]
+    },
+    "black-mountain": {
+      "slug": "black-mountain",
+      "country": "thailand",
+      "name": "Black Mountain Golf Club",
+      "designer": "Phil Ryan",
+      "par": "72",
+      "length": "7,375 Yards",
+      "href": "/courses/thailand/black-mountain/",
+      "heroImage": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+        "/images/courses/thailand/black-mountain/black-mountain-golf-club-rock-fairway-2.webp",
+        "/images/courses/thailand/black-mountain/black-mountain-golf-club-asia-best-3.webp",
+        "/images/courses/thailand/black-mountain/black-mountain-golf-club-canyon-4.webp",
+        "/images/courses/thailand/black-mountain/black-mountain-golf-club-signature-hole-5.webp"
+      ]
+    },
+    "blue-canyon": {
+      "slug": "blue-canyon",
+      "country": "thailand",
+      "name": "Blue Canyon Country Club",
+      "designer": "Yoshikazu Kato",
+      "par": "72 (Canyon)",
+      "length": "7,165 Yards (Canyon)",
+      "href": "/courses/thailand/blue-canyon/",
+      "heroImage": "/images/courses/thailand/blue-canyon/blue-canyon-country-club-phuket-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/blue-canyon/blue-canyon-country-club-phuket-thailand-1.webp",
+        "/images/courses/thailand/blue-canyon/blue-canyon-country-club-dramatic-finish-2.webp",
+        "/images/courses/thailand/blue-canyon/blue-canyon-country-club-canyon-course-3.webp",
+        "/images/courses/thailand/blue-canyon/blue-canyon-country-club-lake-hole-4.webp",
+        "/images/courses/thailand/blue-canyon/blue-canyon-country-club-signature-5.webp"
+      ]
+    },
+    "cascata": {
+      "slug": "cascata",
+      "country": "thailand",
+      "name": "Cascata Golf Club",
+      "designer": "Dr. Thanawat Saprungruang",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/thailand/cascata/",
+      "heroImage": "/images/courses/thailand/cascata/cascata-golf-club-massive-greens-2.webp",
+      "images": [
+        "/images/courses/thailand/cascata/cascata-golf-club-massive-greens-2.webp",
+        "/images/courses/thailand/cascata/cascata-golf-club-bangkok-thailand-1.webp",
+        "/images/courses/thailand/cascata/cascata-golf-club-creative-hole-3.webp",
+        "/images/courses/thailand/cascata/cascata-golf-club-fountain-water-4.webp",
+        "/images/courses/thailand/cascata/cascata-golf-club-fairway-5.webp"
+      ]
+    },
+    "chiang-mai-highlands": {
+      "slug": "chiang-mai-highlands",
+      "country": "thailand",
+      "name": "Chiang Mai Highlands Golf & Country Club",
+      "designer": "Schmidt-Curley Design",
+      "par": "72",
+      "length": "6,872 Yards",
+      "href": "/courses/thailand/chiang-mai-highlands/",
+      "heroImage": "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-golf-country-club-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-golf-country-club-thailand-1.webp",
+        "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-mountain-view-2.webp",
+        "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-rolling-hills-3.webp",
+        "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-scenic-hole-4.webp",
+        "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-championship-green-5.webp"
+      ]
+    },
+    "flora-ville": {
+      "slug": "flora-ville",
+      "country": "thailand",
+      "name": "Flora Ville Golf & Country Club",
+      "designer": "Pirapon Namatra",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/thailand/flora-ville/",
+      "heroImage": "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-bangkok-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-bangkok-thailand-1.webp",
+        "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-floral-2.webp",
+        "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-fairway-3.webp",
+        "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-green-4.webp",
+        "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-hole-5.webp"
+      ]
+    },
+    "laem-chabang": {
+      "slug": "laem-chabang",
+      "country": "thailand",
+      "name": "Laem Chabang International Country Club",
+      "designer": "Jack Nicklaus",
+      "par": "72 (any 18 combination)",
+      "length": "7,000+ Yards",
+      "href": "/courses/thailand/laem-chabang/",
+      "heroImage": "/images/courses/thailand/laem-chabang/laem-chabang-international-pattaya-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/laem-chabang/laem-chabang-international-pattaya-thailand-1.webp",
+        "/images/courses/thailand/laem-chabang/laem-chabang-international-nicklaus-27-hole-2.webp",
+        "/images/courses/thailand/laem-chabang/laem-chabang-international-best-pattaya-3.webp",
+        "/images/courses/thailand/laem-chabang/laem-chabang-international-championship-layout-4.webp",
+        "/images/courses/thailand/laem-chabang/laem-chabang-international-fairway-5.webp"
+      ]
+    },
+    "laguna-phuket": {
+      "slug": "laguna-phuket",
+      "country": "thailand",
+      "name": "Laguna Golf Phuket",
+      "designer": "Paul Jansen / Max Wexler",
+      "par": "71",
+      "length": "6,606 Yards",
+      "href": "/courses/thailand/laguna-phuket/",
+      "heroImage": "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-thailand-1.webp",
+        "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-lagoon-hole-2.webp",
+        "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-coconut-grove-3.webp",
+        "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-resort-view-4.webp",
+        "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-signature-hole-5.webp"
+      ]
+    },
+    "lake-view": {
+      "slug": "lake-view",
+      "country": "thailand",
+      "name": "Lake View Resort & Golf Club",
+      "designer": "Roger Packard",
+      "par": "72 (any 18 combination)",
+      "length": "7,000+ Yards",
+      "href": "/courses/thailand/lake-view/",
+      "heroImage": "/images/courses/thailand/lake-view/lake-view-resort-golf-club-hua-hin-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/lake-view/lake-view-resort-golf-club-hua-hin-thailand-1.webp",
+        "/images/courses/thailand/lake-view/lake-view-resort-golf-club-mountain-lake-2.webp",
+        "/images/courses/thailand/lake-view/lake-view-resort-golf-club-desert-3.webp",
+        "/images/courses/thailand/lake-view/lake-view-resort-golf-club-championship-4.webp",
+        "/images/courses/thailand/lake-view/lake-view-resort-golf-club-green-5.webp"
+      ]
+    },
+    "mae-jo": {
+      "slug": "mae-jo",
+      "country": "thailand",
+      "name": "Mae Jo Golf Club",
+      "designer": "Seni Thirawat",
+      "par": "72",
+      "length": "6,730 Yards",
+      "href": "/courses/thailand/mae-jo/",
+      "heroImage": "/images/courses/thailand/mae-jo/mae-jo-1.webp",
+      "images": [
+        "/images/courses/thailand/mae-jo/mae-jo-1.webp",
+        "/images/courses/thailand/mae-jo/mae-jo-2.webp",
+        "/images/courses/thailand/mae-jo/mae-jo-3.webp"
+      ]
+    },
+    "mission-hills-kanchanaburi": {
+      "slug": "mission-hills-kanchanaburi",
+      "country": "thailand",
+      "name": "Mission Hills Golf Club Kanchanaburi",
+      "designer": "Jack Nicklaus",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/thailand/mission-hills-kanchanaburi/",
+      "heroImage": "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-golf-club-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-golf-club-thailand-1.webp",
+        "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-river-kwai-2.webp",
+        "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-double-fairway-3.webp",
+        "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-mountain-scenery-4.webp",
+        "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-championship-green-5.webp"
+      ]
+    },
+    "mission-hills-phuket": {
+      "slug": "mission-hills-phuket",
+      "country": "thailand",
+      "name": "Mission Hills Golf Club Phuket",
+      "designer": "Jack Nicklaus",
+      "par": "72",
+      "length": "7,005 Yards",
+      "href": "/courses/thailand/mission-hills-phuket/",
+      "heroImage": "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-thailand-1.webp",
+        "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-andaman-2.webp",
+        "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-oceanfront-3.webp",
+        "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-spectacular-4.webp",
+        "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-championship-5.webp"
+      ]
+    },
+    "nikanti": {
+      "slug": "nikanti",
+      "country": "thailand",
+      "name": "Nikanti Golf Club",
+      "designer": "Pirapon Namatra / Golf East",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/thailand/nikanti/",
+      "heroImage": "/images/courses/thailand/nikanti/nikanti-golf-club-bangkok-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/nikanti/nikanti-golf-club-bangkok-thailand-1.webp",
+        "/images/courses/thailand/nikanti/nikanti-golf-club-luxury-loop-2.webp",
+        "/images/courses/thailand/nikanti/nikanti-golf-club-fairway-3.webp",
+        "/images/courses/thailand/nikanti/nikanti-golf-club-green-4.webp",
+        "/images/courses/thailand/nikanti/nikanti-golf-club-signature-5.webp"
+      ]
+    },
+    "pineapple-valley": {
+      "slug": "pineapple-valley",
+      "country": "thailand",
+      "name": "Pineapple Valley Golf Club",
+      "designer": "Pirapon Namatra / Golf East",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/thailand/pineapple-valley/",
+      "heroImage": "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-hua-hin-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-hua-hin-thailand-1.webp",
+        "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-plantation-2.webp",
+        "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-championship-3.webp",
+        "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-fairway-4.webp",
+        "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-green-5.webp"
+      ]
+    },
+    "red-mountain": {
+      "slug": "red-mountain",
+      "country": "thailand",
+      "name": "Red Mountain Golf Club",
+      "designer": "Johnathan Morrow / Al Tikkanen",
+      "par": "72",
+      "length": "7,002 Yards",
+      "href": "/courses/thailand/red-mountain/",
+      "heroImage": "/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+        "/images/courses/thailand/red-mountain/red-mountain-golf-club-dramatic-canyon-2.webp",
+        "/images/courses/thailand/red-mountain/red-mountain-golf-club-iron-ore-3.webp",
+        "/images/courses/thailand/red-mountain/red-mountain-golf-club-fairway-4.webp",
+        "/images/courses/thailand/red-mountain/red-mountain-golf-club-signature-5.webp"
+      ]
+    },
+    "siam-country-club": {
+      "slug": "siam-country-club",
+      "country": "thailand",
+      "name": "Siam Country Club Old Course",
+      "designer": "Schmidt-Curley (Redesign)",
+      "par": "72",
+      "length": "6,990 Yards",
+      "href": "/courses/thailand/siam-country-club/",
+      "heroImage": "/images/courses/thailand/siam-country-club/siam-country-club-old-course-pattaya-thailand-1.webp",
+      "images": [
+        "/images/courses/thailand/siam-country-club/siam-country-club-old-course-pattaya-thailand-1.webp",
+        "/images/courses/thailand/siam-country-club/siam-country-club-old-course-history-2.webp",
+        "/images/courses/thailand/siam-country-club/siam-country-club-old-course-classic-3.webp",
+        "/images/courses/thailand/siam-country-club/siam-country-club-old-course-lpga-4.webp",
+        "/images/courses/thailand/siam-country-club/siam-country-club-old-course-signature-5.webp"
+      ]
+    },
+    "springfield-royal": {
+      "slug": "springfield-royal",
+      "country": "thailand",
+      "name": "Springfield Royal Country Club",
+      "designer": "Jack Nicklaus (A/B) / Lee Schmidt (C)",
+      "par": "72 (A/B) / 36 (C)",
+      "length": "7,063 Yards (A/B)",
+      "href": "/courses/thailand/springfield-royal/",
+      "heroImage": "/images/courses/thailand/springfield-royal/springfield-royal-1.webp",
+      "images": [
+        "/images/courses/thailand/springfield-royal/springfield-royal-1.webp",
+        "/images/courses/thailand/springfield-royal/springfield-royal-2.webp",
+        "/images/courses/thailand/springfield-royal/springfield-royal-3.webp",
+        "/images/courses/thailand/springfield-royal/springfield-royal-4.webp"
+      ]
+    },
+    "thai-country-club": {
+      "slug": "thai-country-club",
+      "country": "thailand",
+      "name": "Thai Country Club",
+      "designer": "Denis Griffiths",
+      "par": "72",
+      "length": "7,097 Yards",
+      "href": "/courses/thailand/thai-country-club/",
+      "heroImage": "/images/courses/thailand/thai-country-club/thai-country-club-1.webp",
+      "images": [
+        "/images/courses/thailand/thai-country-club/thai-country-club-1.webp",
+        "/images/courses/thailand/thai-country-club/thai-country-club-2.webp",
+        "/images/courses/thailand/thai-country-club/thai-country-club-3.webp",
+        "/images/courses/thailand/thai-country-club/thai-country-club-4.webp",
+        "/images/courses/thailand/thai-country-club/thai-country-club-5.webp"
+      ]
+    },
+    "angkor-golf-resort": {
+      "slug": "angkor-golf-resort",
+      "country": "cambodia",
+      "name": "Angkor Golf Resort Siem Reap",
+      "designer": "Sir Nick Faldo",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/cambodia/angkor-golf-resort/",
+      "heroImage": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+      "images": [
+        "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+        "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-faldo-championship-2.webp",
+        "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-cambodia-hole-3.webp",
+        "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-angkor-wat-view-4.webp",
+        "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-signature-green-5.webp"
+      ]
+    },
+    "chhun-on-golf-resort": {
+      "slug": "chhun-on-golf-resort",
+      "country": "cambodia",
+      "name": "Chhun On Golf Resort",
+      "designer": "Brian Curley (Lakes) / Traditional (Palm)",
+      "par": "72 / 72",
+      "length": "7,000+ Yards",
+      "href": "/courses/cambodia/chhun-on-golf-resort/",
+      "heroImage": "/images/courses/cambodia/chhun-on-golf-resort/chhun-on-golf-resort-lakes-water-hole-2-hero.webp",
+      "images": [
+        "/images/courses/cambodia/chhun-on-golf-resort/chhun-on-golf-resort-lakes-water-hole-2-hero.webp",
+        "/images/courses/cambodia/chhun-on-golf-resort/chhun-on-golf-resort-lakes-course-cambodia-1.webp",
+        "/images/courses/cambodia/chhun-on-golf-resort/chhun-on-golf-resort-lakes-fairway-3.webp",
+        "/images/courses/cambodia/chhun-on-golf-resort/chhun-on-golf-resort-palm-course-cambodia-1.webp",
+        "/images/courses/cambodia/chhun-on-golf-resort/chhun-on-golf-resort-palm-fairway-3.webp"
+      ]
+    },
+    "garden-city": {
+      "slug": "garden-city",
+      "country": "cambodia",
+      "name": "Garden City Golf Club",
+      "designer": "Weerayudth Phetbuasak",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/cambodia/garden-city/",
+      "heroImage": "/images/courses/cambodia/garden-city/garden-city-golf-club-phnom-penh-cambodia-1.webp",
+      "images": [
+        "/images/courses/cambodia/garden-city/garden-city-golf-club-phnom-penh-cambodia-1.webp",
+        "/images/courses/cambodia/garden-city/garden-city-golf-club-undulating-greens-2.webp",
+        "/images/courses/cambodia/garden-city/garden-city-golf-club-professional-3.webp",
+        "/images/courses/cambodia/garden-city/garden-city-golf-club-water-4.webp",
+        "/images/courses/cambodia/garden-city/garden-city-golf-club-signature-5.webp"
+      ]
+    },
+    "grand-phnom-penh": {
+      "slug": "grand-phnom-penh",
+      "country": "cambodia",
+      "name": "Grand Phnom Penh Golf Club",
+      "designer": "Jack Nicklaus",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/cambodia/grand-phnom-penh/",
+      "heroImage": "/images/courses/cambodia/grand-phnom-penh/grand-phnom-penh-golf-club-cambodia-1.webp",
+      "images": [
+        "/images/courses/cambodia/grand-phnom-penh/grand-phnom-penh-golf-club-cambodia-1.webp",
+        "/images/courses/cambodia/grand-phnom-penh/grand-phnom-penh-golf-club-nicklaus-2.webp",
+        "/images/courses/cambodia/grand-phnom-penh/grand-phnom-penh-golf-club-exclusive-3.webp",
+        "/images/courses/cambodia/grand-phnom-penh/grand-phnom-penh-golf-club-fairway-4.webp",
+        "/images/courses/cambodia/grand-phnom-penh/grand-phnom-penh-golf-club-green-5.webp"
+      ]
+    },
+    "phokeethra": {
+      "slug": "phokeethra",
+      "country": "cambodia",
+      "name": "Phokeethra Country Club",
+      "designer": "Weerayudth Phetbuasak",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/cambodia/phokeethra/",
+      "heroImage": "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+      "images": [
+        "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+        "/images/courses/cambodia/phokeethra/phokeethra-country-club-asian-tour-2.webp",
+        "/images/courses/cambodia/phokeethra/phokeethra-country-club-water-carry-3.webp",
+        "/images/courses/cambodia/phokeethra/phokeethra-country-club-fairway-4.webp",
+        "/images/courses/cambodia/phokeethra/phokeethra-country-club-green-5.webp"
+      ]
+    },
+    "royal-phnom-penh": {
+      "slug": "royal-phnom-penh",
+      "country": "cambodia",
+      "name": "Royal Phnom Penh Golf Club",
+      "designer": "P + Z Development",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/cambodia/royal-phnom-penh/",
+      "heroImage": "/images/courses/cambodia/royal-phnom-penh/royal-phnom-penh-golf-club-cambodia-1.webp",
+      "images": [
+        "/images/courses/cambodia/royal-phnom-penh/royal-phnom-penh-golf-club-cambodia-1.webp",
+        "/images/courses/cambodia/royal-phnom-penh/royal-phnom-penh-golf-club-rice-paddy-2.webp",
+        "/images/courses/cambodia/royal-phnom-penh/royal-phnom-penh-golf-club-coconut-3.webp",
+        "/images/courses/cambodia/royal-phnom-penh/royal-phnom-penh-golf-club-peaceful-4.webp",
+        "/images/courses/cambodia/royal-phnom-penh/royal-phnom-penh-golf-club-green-5.webp"
+      ]
+    },
+    "siem-reap-booyoung": {
+      "slug": "siem-reap-booyoung",
+      "country": "cambodia",
+      "name": "Siem Reap Booyoung Country Club",
+      "designer": "Kentaro Sato",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/cambodia/siem-reap-booyoung/",
+      "heroImage": "/images/courses/cambodia/siem-reap-booyoung/siem-reap-booyoung-country-club-cambodia-1.webp",
+      "images": [
+        "/images/courses/cambodia/siem-reap-booyoung/siem-reap-booyoung-country-club-cambodia-1.webp",
+        "/images/courses/cambodia/siem-reap-booyoung/siem-reap-booyoung-country-club-generous-fairway-2.webp",
+        "/images/courses/cambodia/siem-reap-booyoung/siem-reap-booyoung-country-club-floral-3.webp",
+        "/images/courses/cambodia/siem-reap-booyoung/siem-reap-booyoung-country-club-green-4.webp",
+        "/images/courses/cambodia/siem-reap-booyoung/siem-reap-booyoung-country-club-scenic-5.webp"
+      ]
+    },
+    "vattanac": {
+      "slug": "vattanac",
+      "country": "cambodia",
+      "name": "Vattanac Golf Resort",
+      "designer": "Sir Nick Faldo",
+      "par": "72 / 72",
+      "length": "7,467 Yards / 7,249 Yards",
+      "href": "/courses/cambodia/vattanac/",
+      "heroImage": "/images/courses/cambodia/vattanac/vattanac-1.webp",
+      "images": [
+        "/images/courses/cambodia/vattanac/vattanac-1.webp",
+        "/images/courses/cambodia/vattanac/vattanac-2.webp"
+      ]
+    },
+    "vattanac-east": {
+      "slug": "vattanac-east",
+      "country": "cambodia",
+      "name": "Vattanac Golf Resort East Course",
+      "designer": "Sir Nick Faldo",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/cambodia/vattanac-east/",
+      "heroImage": "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-course-cambodia-1.webp",
+      "images": [
+        "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-course-cambodia-1.webp",
+        "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-angkor-sculpture-2.webp",
+        "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-championship-3.webp",
+        "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-public-layout-4.webp",
+        "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-green-5.webp"
+      ]
+    },
+    "vattanac-west": {
+      "slug": "vattanac-west",
+      "country": "cambodia",
+      "name": "Vattanac Golf Resort West Course",
+      "designer": "Sir Nick Faldo",
+      "par": "72",
+      "length": "7,000+ Yards",
+      "href": "/courses/cambodia/vattanac-west/",
+      "heroImage": "/images/courses/cambodia/vattanac-west/vattanac-golf-resort-west-course-cambodia-1.webp",
+      "images": [
+        "/images/courses/cambodia/vattanac-west/vattanac-golf-resort-west-course-cambodia-1.webp",
+        "/images/courses/cambodia/vattanac-west/vattanac-golf-resort-west-private-2.webp",
+        "/images/courses/cambodia/vattanac-west/vattanac-golf-resort-west-fast-firm-3.webp",
+        "/images/courses/cambodia/vattanac-west/vattanac-golf-resort-west-technical-4.webp",
+        "/images/courses/cambodia/vattanac-west/vattanac-golf-resort-west-green-5.webp"
+      ]
+    }
+  },
+  "accommodations": {
+    "almanity-hoi-an": {
+      "slug": "almanity-hoi-an",
+      "country": "vietnam",
+      "name": "Almanity Hoi An Resort & Spa",
+      "href": "/accommodations/vietnam/almanity-hoi-an/",
+      "heroImage": "/images/accommodations/vietnam/almanity-hoi-an/1.webp",
+      "images": [
+        "/images/accommodations/vietnam/almanity-hoi-an/1.webp",
+        "/images/accommodations/vietnam/almanity-hoi-an/2.webp",
+        "/images/accommodations/vietnam/almanity-hoi-an/3.webp",
+        "/images/accommodations/vietnam/almanity-hoi-an/4.webp",
+        "/images/accommodations/vietnam/almanity-hoi-an/5.webp"
+      ]
+    },
+    "an-bang-ben-villa": {
+      "slug": "an-bang-ben-villa",
+      "country": "vietnam",
+      "name": "An Bang Ben Villa",
+      "href": "/accommodations/vietnam/an-bang-beach-villas/",
+      "heroImage": "/images/accommodations/vietnam/an-bang-ben-villa/vietnam-private-villa-an-bang-ben-villa-tropical-garden-pool-7.webp",
+      "images": [
+        "/images/accommodations/vietnam/an-bang-ben-villa/vietnam-private-villa-an-bang-ben-villa-tropical-garden-pool-7.webp",
+        "/images/accommodations/vietnam/an-bang-ben-villa/vietnam-private-villa-an-bang-ben-villa-facade-1.webp",
+        "/images/accommodations/vietnam/an-bang-ben-villa/vietnam-private-villa-an-bang-ben-villa-private-pool-garden-2.webp",
+        "/images/accommodations/vietnam/an-bang-ben-villa/vietnam-private-villa-an-bang-ben-villa-bedroom-garden-view-3.webp",
+        "/images/accommodations/vietnam/an-bang-ben-villa/vietnam-private-villa-an-bang-ben-villa-living-room-4.webp",
+        "/images/accommodations/vietnam/an-bang-ben-villa/vietnam-private-villa-an-bang-ben-villa-kitchen-5.webp",
+        "/images/accommodations/vietnam/an-bang-ben-villa/vietnam-private-villa-an-bang-ben-villa-bathroom-6.webp"
+      ]
+    },
+    "an-bang-flow-house": {
+      "slug": "an-bang-flow-house",
+      "country": "vietnam",
+      "name": "An Bang Flow House",
+      "href": "/accommodations/vietnam/an-bang-beach-villas/",
+      "heroImage": "/images/accommodations/vietnam/an-bang-flow-house/vietnam-private-villa-an-bang-flow-house-garden-day-beds-hero.webp",
+      "images": [
+        "/images/accommodations/vietnam/an-bang-flow-house/vietnam-private-villa-an-bang-flow-house-garden-day-beds-hero.webp",
+        "/images/accommodations/vietnam/an-bang-flow-house/vietnam-private-villa-an-bang-flow-house-exterior-1.webp",
+        "/images/accommodations/vietnam/an-bang-flow-house/vietnam-private-villa-an-bang-flow-house-tropical-garden-2.webp",
+        "/images/accommodations/vietnam/an-bang-flow-house/vietnam-private-villa-an-bang-flow-house-bedroom-ocean-view-3.webp",
+        "/images/accommodations/vietnam/an-bang-flow-house/vietnam-private-villa-an-bang-flow-house-living-room-4.webp",
+        "/images/accommodations/vietnam/an-bang-flow-house/vietnam-private-villa-an-bang-flow-house-kitchen-5.webp",
+        "/images/accommodations/vietnam/an-bang-flow-house/vietnam-private-villa-an-bang-flow-house-bathroom-6.webp"
+      ]
+    },
+    "an-bang-holiday-villa": {
+      "slug": "an-bang-holiday-villa",
+      "country": "vietnam",
+      "name": "An Bang Holiday Villa",
+      "href": "/accommodations/vietnam/an-bang-beach-villas/",
+      "heroImage": "/images/accommodations/vietnam/an-bang-holiday-villa/vietnam-private-villa-an-bang-holiday-villa-beach-lifestyle-hero.webp",
+      "images": [
+        "/images/accommodations/vietnam/an-bang-holiday-villa/vietnam-private-villa-an-bang-holiday-villa-beach-lifestyle-hero.webp",
+        "/images/accommodations/vietnam/an-bang-holiday-villa/vietnam-private-villa-an-bang-holiday-villa-entrance-1.webp",
+        "/images/accommodations/vietnam/an-bang-holiday-villa/vietnam-private-villa-an-bang-holiday-villa-garden-beach-view-2.webp",
+        "/images/accommodations/vietnam/an-bang-holiday-villa/vietnam-private-villa-an-bang-holiday-villa-bedroom-3.webp",
+        "/images/accommodations/vietnam/an-bang-holiday-villa/vietnam-private-villa-an-bang-holiday-villa-living-room-4.webp",
+        "/images/accommodations/vietnam/an-bang-holiday-villa/vietnam-private-villa-an-bang-holiday-villa-kitchen-5.webp",
+        "/images/accommodations/vietnam/an-bang-holiday-villa/vietnam-private-villa-an-bang-holiday-villa-private-pool-7.webp"
+      ]
+    },
+    "an-bang-may-villa": {
+      "slug": "an-bang-may-villa",
+      "country": "vietnam",
+      "name": "An Bang May Villa",
+      "href": "/accommodations/vietnam/an-bang-beach-villas/",
+      "heroImage": "/images/accommodations/vietnam/an-bang-may-villa/vietnam-private-villa-an-bang-may-villa-bedroom-ocean-view-3.webp",
+      "images": [
+        "/images/accommodations/vietnam/an-bang-may-villa/vietnam-private-villa-an-bang-may-villa-bedroom-ocean-view-3.webp",
+        "/images/accommodations/vietnam/an-bang-may-villa/vietnam-private-villa-an-bang-may-villa-overview-1.webp",
+        "/images/accommodations/vietnam/an-bang-may-villa/vietnam-private-villa-an-bang-may-villa-garden-beachfront-2.webp",
+        "/images/accommodations/vietnam/an-bang-may-villa/vietnam-private-villa-an-bang-may-villa-living-room-4.webp",
+        "/images/accommodations/vietnam/an-bang-may-villa/vietnam-private-villa-an-bang-may-villa-kitchen-pool-5.webp",
+        "/images/accommodations/vietnam/an-bang-may-villa/vietnam-private-villa-an-bang-may-villa-bathroom-6.webp",
+        "/images/accommodations/vietnam/an-bang-may-villa/vietnam-private-villa-an-bang-may-villa-private-pool-patio-7.webp"
+      ]
+    },
+    "an-bang-salt-villa": {
+      "slug": "an-bang-salt-villa",
+      "country": "vietnam",
+      "name": "An Bang Salt Villa",
+      "href": "/accommodations/vietnam/an-bang-beach-villas/",
+      "heroImage": "/images/accommodations/vietnam/an-bang-salt-villa/vietnam-private-villa-an-bang-salt-villa-pool-hero.webp",
+      "images": [
+        "/images/accommodations/vietnam/an-bang-salt-villa/vietnam-private-villa-an-bang-salt-villa-pool-hero.webp",
+        "/images/accommodations/vietnam/an-bang-salt-villa/vietnam-private-villa-an-bang-salt-villa-exterior-1.webp",
+        "/images/accommodations/vietnam/an-bang-salt-villa/vietnam-private-villa-an-bang-salt-villa-private-pool-2.webp",
+        "/images/accommodations/vietnam/an-bang-salt-villa/vietnam-private-villa-an-bang-salt-villa-bedroom-king-bed-3.webp",
+        "/images/accommodations/vietnam/an-bang-salt-villa/vietnam-private-villa-an-bang-salt-villa-living-room-4.webp",
+        "/images/accommodations/vietnam/an-bang-salt-villa/vietnam-private-villa-an-bang-salt-villa-kitchen-5.webp",
+        "/images/accommodations/vietnam/an-bang-salt-villa/vietnam-private-villa-an-bang-salt-villa-ocean-view-balcony-7.webp"
+      ]
+    },
+    "an-bang-sea-easter-villa": {
+      "slug": "an-bang-sea-easter-villa",
+      "country": "vietnam",
+      "name": "Sea Easter Villa",
+      "href": "/accommodations/vietnam/an-bang-beach-villas/",
+      "heroImage": "/images/accommodations/vietnam/an-bang-sea-easter-villa/sea-easter-villa-hoi-an-pool.webp",
+      "images": [
+        "/images/accommodations/vietnam/an-bang-sea-easter-villa/sea-easter-villa-hoi-an-pool.webp",
+        "/images/accommodations/vietnam/an-bang-sea-easter-villa/sea-easter-villa-hoi-an-outdoor.webp",
+        "/images/accommodations/vietnam/an-bang-sea-easter-villa/sea-easter-villa-hoi-an-living-space.webp",
+        "/images/accommodations/vietnam/an-bang-sea-easter-villa/sea-easter-villa-hoi-an-kitchen.webp",
+        "/images/accommodations/vietnam/an-bang-sea-easter-villa/sea-easter-villa-hoi-an-bedroom1.webp",
+        "/images/accommodations/vietnam/an-bang-sea-easter-villa/sea-easter-villa-hoi-an-bedroom2.webp",
+        "/images/accommodations/vietnam/an-bang-sea-easter-villa/sea-easter-villa-hoi-an-balcony-rear.webp"
+      ]
+    },
+    "anantara-hoi-an": {
+      "slug": "anantara-hoi-an",
+      "country": "vietnam",
+      "name": "Anantara Hoi An Resort",
+      "href": "/accommodations/vietnam/anantara-hoi-an/",
+      "heroImage": "/images/accommodations/vietnam/anantara-hoi-an/vietnam-luxury-hotel-hero-anantara-hoi-an-hotel-exterior.webp",
+      "images": [
+        "/images/accommodations/vietnam/anantara-hoi-an/vietnam-luxury-hotel-hero-anantara-hoi-an-hotel-exterior.webp",
+        "/images/accommodations/vietnam/anantara-hoi-an/vietnam-luxury-hotel-anantara-hoi-an-bedroom-interior.webp",
+        "/images/accommodations/vietnam/anantara-hoi-an/vietnam-luxury-hotel-anantara-hoi-an-gardens.webp",
+        "/images/accommodations/vietnam/anantara-hoi-an/vietnam-luxury-hotel-anantara-hoi-an-pool.webp",
+        "/images/accommodations/vietnam/anantara-hoi-an/vietnam-luxury-hotel-anantara-hoi-an-poolside-relaxation.webp",
+        "/images/accommodations/vietnam/anantara-hoi-an/vietnam-luxury-hotel-anantara-hoi-an-riverfront-bliss.webp",
+        "/images/accommodations/vietnam/anantara-hoi-an/vietnam-luxury-hotel-anantara-hoi-an-riverfront-dining.webp",
+        "/images/accommodations/vietnam/anantara-hoi-an/vietnam-luxury-hotel-anantara-hoi-an-traditional-architecture.webp"
+      ]
+    },
+    "banyan-tree-lang-co": {
+      "slug": "banyan-tree-lang-co",
+      "country": "vietnam",
+      "name": "Banyan Tree Lang Co",
+      "href": "/accommodations/vietnam/banyan-tree-lang-co/",
+      "heroImage": "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-banyan-tree-lang-co-pool-villa-1.webp",
+      "images": [
+        "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-banyan-tree-lang-co-pool-villa-1.webp",
+        "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-banyan-tree-lang-co-resort-aerial-2.webp",
+        "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-banyan-tree-lang-co-lang-co-bay-3.webp",
+        "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-banyan-tree-lang-co-spa-pavilion-4.webp",
+        "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-banyan-tree-lang-co-dining-5.webp",
+        "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-banyan-tree-lang-co-bay-6.webp",
+        "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-angsana-pool-villa-sky-terrace.webp"
+      ]
+    },
+    "bel-marina-hoi-an": {
+      "slug": "bel-marina-hoi-an",
+      "country": "vietnam",
+      "name": "Bel Marina Hoi An Resort",
+      "href": "/accommodations/vietnam/bel-marina-hoi-an/",
+      "heroImage": "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-hero-bel-marina-hoi-an-riverside-pool.webp",
+      "images": [
+        "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-hero-bel-marina-hoi-an-riverside-pool.webp",
+        "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-bel-marina-hoi-an-bathroom-layout.webp",
+        "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-bel-marina-hoi-an-bedroom-interior.webp",
+        "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-bel-marina-hoi-an-impeccable-room-service.webp",
+        "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-bel-marina-hoi-an-luxurious-bathtub.webp",
+        "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-bel-marina-hoi-an-pool-villa.webp",
+        "/images/accommodations/vietnam/bel-marina-hoi-an/vietnam-luxury-hotel-bel-marina-hoi-an-suite-interior.webp"
+      ]
+    },
+    "bluffs-grand-ho-tram": {
+      "slug": "bluffs-grand-ho-tram",
+      "country": "vietnam",
+      "name": "The Grand Ho Tram Strip",
+      "href": "/accommodations/vietnam/bluffs-grand-ho-tram/",
+      "heroImage": "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-resort-hotel-1.webp",
+      "images": [
+        "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-resort-hotel-1.webp",
+        "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-ocean-suite-2.webp",
+        "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-exterior-3.webp",
+        "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-ocean-view-room-4.webp",
+        "/images/accommodations/vietnam/bluffs-grand-ho-tram/vietnam-luxury-hotel-bluffs-grand-ho-tram-casino-resort-5.webp"
+      ]
+    },
+    "capella-hanoi": {
+      "slug": "capella-hanoi",
+      "country": "vietnam",
+      "name": "Capella Hanoi",
+      "href": "/accommodations/vietnam/capella-hanoi/",
+      "heroImage": "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+      "images": [
+        "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-exterior.webp",
+        "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-entry.webp",
+        "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-room.webp",
+        "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-dining.webp",
+        "/images/accommodations/vietnam/capella-hanoi/capella-hanoi-wellness.webp"
+      ]
+    },
+    "chicland-da-nang": {
+      "slug": "chicland-da-nang",
+      "country": "vietnam",
+      "name": "Chicland Da Nang Hotel",
+      "href": "/accommodations/vietnam/chicland-da-nang/",
+      "heroImage": "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-hero.webp",
+      "images": [
+        "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-hero.webp",
+        "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-balcony-suite.webp",
+        "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-beachfront-hotel.webp",
+        "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-bedroom-interior.webp",
+        "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-green-hotel.webp",
+        "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-reception-area.webp",
+        "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-rooftop-bar.webp",
+        "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-rooftop-dining.webp",
+        "/images/accommodations/vietnam/chicland-da-nang/vietnam-luxury-hotel-chicland-da-nang-suite-living-room.webp"
+      ]
+    },
+    "flc-halong-bay": {
+      "slug": "flc-halong-bay",
+      "country": "vietnam",
+      "name": "FLC Halong Bay Golf Resort",
+      "href": "/accommodations/vietnam/flc-halong-bay/",
+      "heroImage": "/images/accommodations/vietnam/flc-halong-bay/flc-ha-long-bay-golf-club-luxury-resort-hero.webp",
+      "images": [
+        "/images/accommodations/vietnam/flc-halong-bay/flc-ha-long-bay-golf-club-luxury-resort-hero.webp",
+        "/images/accommodations/vietnam/flc-halong-bay/flc-ha-long-bay-resort-room.webp",
+        "/images/accommodations/vietnam/flc-halong-bay/flc-ha-long-bay-resort-pool.webp",
+        "/images/accommodations/vietnam/flc-halong-bay/flc-ha-long-bay-golf-club.webp",
+        "/images/accommodations/vietnam/flc-halong-bay/flc-ha-long-bay-course.webp"
+      ]
+    },
+    "four-seasons-nam-hai": {
+      "slug": "four-seasons-nam-hai",
+      "country": "vietnam",
+      "name": "Four Seasons Resort The Nam Hai",
+      "href": "/accommodations/vietnam/four-seasons-nam-hai/",
+      "heroImage": "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-beach-pool-1.webp",
+      "images": [
+        "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-beach-pool-1.webp",
+        "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-villa-pool-2.webp",
+        "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-beach-villa-3.webp",
+        "/images/accommodations/vietnam/four-seasons-nam-hai/vietnam-luxury-hotel-four-seasons-nam-hai-suite-5.webp",
+        "/images/accommodations/vietnam/four-seasons-nam-hai/four-seasons-resort-the-nam-hai-hoi-an-9.webp"
+      ]
+    },
+    "fusion-resort-villa-da-nang": {
+      "slug": "fusion-resort-villa-da-nang",
+      "country": "vietnam",
+      "name": "Fusion Resort & Villas Da Nang",
+      "href": "/accommodations/vietnam/fusion-resort-villa-da-nang/",
+      "heroImage": "/images/accommodations/vietnam/fusion-resort-villa-da-nang/vietnam-luxury-hotel-hero-fusion-resort-villa-da-nang-aerial-view.webp",
+      "images": [
+        "/images/accommodations/vietnam/fusion-resort-villa-da-nang/vietnam-luxury-hotel-hero-fusion-resort-villa-da-nang-aerial-view.webp",
+        "/images/accommodations/vietnam/fusion-resort-villa-da-nang/vietnam-luxury-hotel-fusion-resort-villa-da-nang-beachfront-chilling.webp",
+        "/images/accommodations/vietnam/fusion-resort-villa-da-nang/vietnam-luxury-hotel-fusion-resort-villa-da-nang-dining-area.webp",
+        "/images/accommodations/vietnam/fusion-resort-villa-da-nang/vietnam-luxury-hotel-fusion-resort-villa-da-nang-hotel-suite.webp",
+        "/images/accommodations/vietnam/fusion-resort-villa-da-nang/vietnam-luxury-hotel-fusion-resort-villa-da-nang-pool-villa.webp",
+        "/images/accommodations/vietnam/fusion-resort-villa-da-nang/vietnam-luxury-hotel-fusion-resort-villa-da-nang-poolside-refreshments.webp"
+      ]
+    },
+    "fusion-suites-saigon": {
+      "slug": "fusion-suites-saigon",
+      "country": "vietnam",
+      "name": "Fusion Suites Saigon",
+      "href": "/accommodations/vietnam/fusion-suites-saigon/",
+      "heroImage": "/images/accommodations/vietnam/fusion-suites-saigon/1.webp",
+      "images": [
+        "/images/accommodations/vietnam/fusion-suites-saigon/1.webp",
+        "/images/accommodations/vietnam/fusion-suites-saigon/2.webp",
+        "/images/accommodations/vietnam/fusion-suites-saigon/3.webp",
+        "/images/accommodations/vietnam/fusion-suites-saigon/4.webp",
+        "/images/accommodations/vietnam/fusion-suites-saigon/5.webp"
+      ]
+    },
+    "hotel-des-artes-saigon": {
+      "slug": "hotel-des-artes-saigon",
+      "country": "vietnam",
+      "name": "Hotel Des Arts Saigon",
+      "href": "/accommodations/vietnam/hotel-des-artes-saigon/",
+      "heroImage": "/images/accommodations/vietnam/hotel-des-artes-saigon/hotel-des-artes-hero.webp",
+      "images": [
+        "/images/accommodations/vietnam/hotel-des-artes-saigon/hotel-des-artes-hero.webp",
+        "/images/accommodations/vietnam/hotel-des-artes-saigon/hotel-des-artes-full-view.webp",
+        "/images/accommodations/vietnam/hotel-des-artes-saigon/hotel-des-artes-rooftop-bar.webp",
+        "/images/accommodations/vietnam/hotel-des-artes-saigon/hotel-des-artes-poolside.webp",
+        "/images/accommodations/vietnam/hotel-des-artes-saigon/hotel-des-artes-lobby-bar.webp",
+        "/images/accommodations/vietnam/hotel-des-artes-saigon/hotel-des-artes-room.webp"
+      ]
+    },
+    "intercontinental-danang": {
+      "slug": "intercontinental-danang",
+      "country": "vietnam",
+      "name": "InterContinental Da Nang",
+      "href": "/accommodations/vietnam/intercontinental-danang/",
+      "heroImage": "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-hero-1.webp",
+      "images": [
+        "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-hero-1.webp",
+        "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-cove-2.webp",
+        "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-infinity-pool-3.webp",
+        "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-villa-4.webp",
+        "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-4-bedroom-villa-5.webp",
+        "/images/accommodations/vietnam/intercontinental-danang/vietnam-luxury-hotel-intercontinental-danang-sun-peninsula-resort-aerial-5.webp"
+      ]
+    },
+    "legacy-yen-tu-m-gallery": {
+      "slug": "legacy-yen-tu-m-gallery",
+      "country": "vietnam",
+      "name": "Legacy Yen Tu M-Gallery",
+      "href": "/accommodations/vietnam/legacy-yen-tu-m-gallery/",
+      "heroImage": "/images/accommodations/vietnam/legacy-yen-tu-m-gallery/legacy-yen-tu-m-gallery-aerial.webp",
+      "images": [
+        "/images/accommodations/vietnam/legacy-yen-tu-m-gallery/legacy-yen-tu-m-gallery-aerial.webp",
+        "/images/accommodations/vietnam/legacy-yen-tu-m-gallery/legacy-yen-tu-m-gallery-main-pool.webp",
+        "/images/accommodations/vietnam/legacy-yen-tu-m-gallery/legacy-yen-tu-m-gallery-junior-suite.webp",
+        "/images/accommodations/vietnam/legacy-yen-tu-m-gallery/legacy-yen-tu-m-gallery-dining.webp",
+        "/images/accommodations/vietnam/legacy-yen-tu-m-gallery/legacy-yen-tu-m-gallery-night-exterior.webp"
+      ]
+    },
+    "little-riverside-hoi-an": {
+      "slug": "little-riverside-hoi-an",
+      "country": "vietnam",
+      "name": "Little Riverside Hoi An",
+      "href": "/accommodations/vietnam/little-riverside-hoi-an/",
+      "heroImage": "/images/accommodations/vietnam/little-riverside-hoi-an/little-riverside-hoi-an-riverfront.webp",
+      "images": [
+        "/images/accommodations/vietnam/little-riverside-hoi-an/little-riverside-hoi-an-riverfront.webp",
+        "/images/accommodations/vietnam/little-riverside-hoi-an/little-riverside-hoi-an-night-pool.webp",
+        "/images/accommodations/vietnam/little-riverside-hoi-an/little-riverside-room.webp",
+        "/images/accommodations/vietnam/little-riverside-hoi-an/little-riverside-dining.webp",
+        "/images/accommodations/vietnam/little-riverside-hoi-an/little-riverside-pool-area.webp",
+        "/images/accommodations/vietnam/little-riverside-hoi-an/little-riverside-terrace.webp",
+        "/images/accommodations/vietnam/little-riverside-hoi-an/little-riverside-roof.webp"
+      ]
+    },
+    "m-hotel-danang": {
+      "slug": "m-hotel-danang",
+      "country": "vietnam",
+      "name": "M Hotel Da Nang",
+      "href": "/accommodations/vietnam/m-hotel-danang/",
+      "heroImage": "/images/accommodations/vietnam/m-hotel-danang/m-hotel-danang-hero.webp",
+      "images": [
+        "/images/accommodations/vietnam/m-hotel-danang/m-hotel-danang-hero.webp",
+        "/images/accommodations/vietnam/m-hotel-danang/m-hotel-danang-beachfront.webp",
+        "/images/accommodations/vietnam/m-hotel-danang/m-hotel-danang-pool.webp",
+        "/images/accommodations/vietnam/m-hotel-danang/m-hotel-danang-lobby.webp",
+        "/images/accommodations/vietnam/m-hotel-danang/m-hotel-danang-bedroom-view.webp"
+      ]
+    },
+    "namia-river-retreat-hoi-an": {
+      "slug": "namia-river-retreat-hoi-an",
+      "country": "vietnam",
+      "name": "Namia River Retreat",
+      "href": "/accommodations/vietnam/namia-river-retreat-hoi-an/",
+      "heroImage": "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-hero.webp",
+      "images": [
+        "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-hero.webp",
+        "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-dining-area.webp",
+        "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-luxury-on-the-river.webp",
+        "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-pool-villa.webp",
+        "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-premium-private-villa.webp",
+        "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-relaxing-by-the-pool.webp",
+        "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-riverfront-luxury.webp",
+        "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-suite-interior.webp",
+        "/images/accommodations/vietnam/namia-river-retreat-hoi-an/vietnam-luxury-hotel-namia-river-retreat-hoi-an-wellness-retreat.webp"
+      ]
+    },
+    "new-world-hoiana": {
+      "slug": "new-world-hoiana",
+      "country": "vietnam",
+      "name": "New World Hoiana Beach Resort",
+      "href": "/accommodations/vietnam/new-world-hoiana/",
+      "heroImage": "/images/accommodations/vietnam/new-world-hoiana/hoiana-beach-resort-hero.webp",
+      "images": [
+        "/images/accommodations/vietnam/new-world-hoiana/hoiana-beach-resort-hero.webp",
+        "/images/accommodations/vietnam/new-world-hoiana/new-world-hoiana-deluxe-ocean-suite.webp",
+        "/images/accommodations/vietnam/new-world-hoiana/hoiana-beach-resort-pool-complex.webp"
+      ]
+    },
+    "palm-gardens-hoi-an": {
+      "slug": "palm-gardens-hoi-an",
+      "country": "vietnam",
+      "name": "Palm Gardens Resort Hoi An",
+      "href": "/accommodations/vietnam/palm-gardens-hoi-an/",
+      "heroImage": "/images/accommodations/vietnam/palm-gardens-hoi-an/vietnam-luxury-hotel-palm-gardens-hoi-an-hero-1.webp",
+      "images": [
+        "/images/accommodations/vietnam/palm-gardens-hoi-an/vietnam-luxury-hotel-palm-gardens-hoi-an-hero-1.webp",
+        "/images/accommodations/vietnam/palm-gardens-hoi-an/vietnam-luxury-hotel-palm-gardens-hoi-an-aerial-2.webp",
+        "/images/accommodations/vietnam/palm-gardens-hoi-an/vietnam-luxury-hotel-palm-gardens-hoi-an-beachfront-3.webp",
+        "/images/accommodations/vietnam/palm-gardens-hoi-an/vietnam-luxury-hotel-palm-gardens-hoi-an-bungalow-4.webp",
+        "/images/accommodations/vietnam/palm-gardens-hoi-an/vietnam-luxury-hotel-palm-gardens-hoi-an-outdoor-pool-5.webp",
+        "/images/accommodations/vietnam/palm-gardens-hoi-an/vietnam-luxury-hotel-palm-gardens-hoi-an-deluxe-ocean-villa-6.webp",
+        "/images/accommodations/vietnam/palm-gardens-hoi-an/vietnam-luxury-hotel-palm-gardens-hoi-an-palm-suite-bath-7.webp"
+      ]
+    },
+    "park-hyatt-saigon": {
+      "slug": "park-hyatt-saigon",
+      "country": "vietnam",
+      "name": "Park Hyatt Saigon",
+      "href": "/accommodations/vietnam/park-hyatt-saigon/",
+      "heroImage": "/images/accommodations/vietnam/park-hyatt-saigon/vietnam-luxury-hotel-park-hyatt-saigon-colonial-facade-1.webp",
+      "images": [
+        "/images/accommodations/vietnam/park-hyatt-saigon/vietnam-luxury-hotel-park-hyatt-saigon-colonial-facade-1.webp",
+        "/images/accommodations/vietnam/park-hyatt-saigon/vietnam-luxury-hotel-park-hyatt-saigon-rooftop-pool-2.webp",
+        "/images/accommodations/vietnam/park-hyatt-saigon/vietnam-luxury-hotel-park-hyatt-saigon-regency-suite-3.webp",
+        "/images/accommodations/vietnam/park-hyatt-saigon/vietnam-luxury-hotel-park-hyatt-saigon-restaurant-4.webp",
+        "/images/accommodations/vietnam/park-hyatt-saigon/vietnam-luxury-hotel-park-hyatt-saigon-opera-square-view-5.webp"
+      ]
+    },
+    "silk-path-dong-trieu": {
+      "slug": "silk-path-dong-trieu",
+      "country": "vietnam",
+      "name": "Silk Path Dong Trieu Golf & Villas",
+      "href": "/accommodations/vietnam/silk-path-dong-trieu/",
+      "heroImage": "/images/accommodations/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-sunset-hero.webp",
+      "images": [
+        "/images/accommodations/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-sunset-hero.webp",
+        "/images/accommodations/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-villa-bedroom.webp",
+        "/images/accommodations/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-villa-dining.webp",
+        "/images/accommodations/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-villa-lobby.webp",
+        "/images/accommodations/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-villa-outdoor-bbq.webp",
+        "/images/accommodations/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-villa-pool.webp"
+      ]
+    },
+    "sofitel-metropole-hanoi": {
+      "slug": "sofitel-metropole-hanoi",
+      "country": "vietnam",
+      "name": "Sofitel Legend Metropole Hanoi",
+      "href": "/accommodations/vietnam/sofitel-metropole-hanoi/",
+      "heroImage": "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-legend-metropole-hanoi-hero.webp",
+      "images": [
+        "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-legend-metropole-hanoi-hero.webp",
+        "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-metropole-hanoi-entrance.webp",
+        "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-metropole-hanoi-pool.webp",
+        "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-metropole-la-terrasse.webp",
+        "/images/accommodations/vietnam/sofitel-metropole-hanoi/sofitel-legend-metropole-hanoi-room.webp"
+      ]
+    },
+    "the-caravelle": {
+      "slug": "the-caravelle",
+      "country": "vietnam",
+      "name": "The Caravelle Saigon",
+      "href": "/accommodations/vietnam/the-caravelle/",
+      "heroImage": "/images/accommodations/vietnam/the-caravelle/caravelle-saigon-external.webp",
+      "images": [
+        "/images/accommodations/vietnam/the-caravelle/caravelle-saigon-external.webp",
+        "/images/accommodations/vietnam/the-caravelle/caravelle-saigon-presidential-suite-1.webp",
+        "/images/accommodations/vietnam/the-caravelle/caravelle-saigon-rooftop-bar.webp",
+        "/images/accommodations/vietnam/the-caravelle/caravelle-saigon-swimming-pool.webp"
+      ]
+    },
+    "the-oriental-jade": {
+      "slug": "the-oriental-jade",
+      "country": "vietnam",
+      "name": "The Oriental Jade Hotel",
+      "href": "/accommodations/vietnam/the-oriental-jade/",
+      "heroImage": "/images/accommodations/vietnam/the-oriental-jade/1.webp",
+      "images": [
+        "/images/accommodations/vietnam/the-oriental-jade/1.webp",
+        "/images/accommodations/vietnam/the-oriental-jade/2.webp",
+        "/images/accommodations/vietnam/the-oriental-jade/3.webp",
+        "/images/accommodations/vietnam/the-oriental-jade/4.webp",
+        "/images/accommodations/vietnam/the-oriental-jade/5.webp"
+      ]
+    },
+    "the-reverie-saigon": {
+      "slug": "the-reverie-saigon",
+      "country": "vietnam",
+      "name": "The Reverie Saigon",
+      "href": "/accommodations/vietnam/the-reverie-saigon/",
+      "heroImage": "/images/accommodations/vietnam/the-reverie-saigon/the-reverie-saigon-exterior-daytime.webp",
+      "images": [
+        "/images/accommodations/vietnam/the-reverie-saigon/the-reverie-saigon-exterior-daytime.webp",
+        "/images/accommodations/vietnam/the-reverie-saigon/the-reverie-saigon-hotel-lobby.webp",
+        "/images/accommodations/vietnam/the-reverie-saigon/the-reverie-saigon-room-interior.webp",
+        "/images/accommodations/vietnam/the-reverie-saigon/the-reverie-saigon-exterior-pool.webp"
+      ]
+    },
+    "tia-wellness-resort-danang": {
+      "slug": "tia-wellness-resort-danang",
+      "country": "vietnam",
+      "name": "TIA Wellness Resort",
+      "href": "/accommodations/vietnam/tia-wellness-resort-danang/",
+      "heroImage": "/images/accommodations/vietnam/TIA-wellness-resort-danang/tia-wellness-resort-on-the-beach.webp",
+      "images": [
+        "/images/accommodations/vietnam/TIA-wellness-resort-danang/tia-wellness-resort-on-the-beach.webp",
+        "/images/accommodations/vietnam/TIA-wellness-resort-danang/tia-wellness-resort-main-pool-area.webp",
+        "/images/accommodations/vietnam/TIA-wellness-resort-danang/tia-wellness-resort-private-villa.webp",
+        "/images/accommodations/vietnam/TIA-wellness-resort-danang/tia-wellness-resort-villa-interior.webp",
+        "/images/accommodations/vietnam/TIA-wellness-resort-danang/tia-wellness-resort-villa-view.webp",
+        "/images/accommodations/vietnam/TIA-wellness-resort-danang/tia-wellness-resort-spa-massage.webp"
+      ]
+    },
+    "amanpuri": {
+      "slug": "amanpuri",
+      "country": "thailand",
+      "name": "Amanpuri Phuket",
+      "href": "/accommodations/thailand/amanpuri/",
+      "heroImage": "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-private-pool-pavilion-1.webp",
+      "images": [
+        "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-private-pool-pavilion-1.webp",
+        "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-sea-view-2.webp",
+        "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-villa-pool-3.webp",
+        "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-pagoda-grounds-4.webp",
+        "/images/accommodations/thailand/amanpuri/thailand-luxury-hotel-amanpuri-phuket-ocean-terrace-5.webp"
+      ]
+    },
+    "banyan-tree-phuket": {
+      "slug": "banyan-tree-phuket",
+      "country": "thailand",
+      "name": "Banyan Tree Phuket",
+      "href": "/accommodations/thailand/banyan-tree-phuket/",
+      "heroImage": "/images/accommodations/thailand/banyan-tree-phuket/thailand-luxury-hotel-banyan-tree-phuket-pool-villa-6.webp",
+      "images": [
+        "/images/accommodations/thailand/banyan-tree-phuket/thailand-luxury-hotel-banyan-tree-phuket-pool-villa-6.webp",
+        "/images/accommodations/thailand/banyan-tree-phuket/thailand-luxury-hotel-banyan-tree-phuket-resort-exterior-2.webp",
+        "/images/accommodations/thailand/banyan-tree-phuket/thailand-luxury-hotel-banyan-tree-phuket-double-pool-villa-3.webp",
+        "/images/accommodations/thailand/banyan-tree-phuket/thailand-luxury-hotel-banyan-tree-phuket-spa-4.webp",
+        "/images/accommodations/thailand/banyan-tree-phuket/thailand-luxury-hotel-banyan-tree-phuket-golf-view-5.webp",
+        "/images/accommodations/thailand/banyan-tree-phuket/thailand-luxury-hotel-banyan-tree-main-pool-1.webp"
+      ]
+    },
+    "chiva-som": {
+      "slug": "chiva-som",
+      "country": "thailand",
+      "name": "Chiva-Som Hua Hin",
+      "href": "/accommodations/thailand/chiva-som/",
+      "heroImage": "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-beachfront-1.webp",
+      "images": [
+        "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-beachfront-1.webp",
+        "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-wellness-spa-2.webp",
+        "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-aerial-drone-3.webp",
+        "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-entrance-4.webp",
+        "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-wellness-pool-5.webp"
+      ]
+    },
+    "four-seasons-chiang-mai": {
+      "slug": "four-seasons-chiang-mai",
+      "country": "thailand",
+      "name": "Four Seasons Chiang Mai",
+      "href": "/accommodations/thailand/four-seasons-chiang-mai/",
+      "heroImage": "/images/accommodations/thailand/four-seasons-chiang-mai/thailand-luxury-hotel-four-seasons-chiang-mai-rice-paddies-1.webp",
+      "images": [
+        "/images/accommodations/thailand/four-seasons-chiang-mai/thailand-luxury-hotel-four-seasons-chiang-mai-rice-paddies-1.webp",
+        "/images/accommodations/thailand/four-seasons-chiang-mai/thailand-luxury-hotel-four-seasons-chiang-mai-suite-2.webp",
+        "/images/accommodations/thailand/four-seasons-chiang-mai/thailand-luxury-hotel-four-seasons-chiang-mai-terrace-3.webp",
+        "/images/accommodations/thailand/four-seasons-chiang-mai/thailand-luxury-hotel-four-seasons-chiang-mai-private-pool-villa-4.webp",
+        "/images/accommodations/thailand/four-seasons-chiang-mai/thailand-luxury-hotel-four-seasons-chiang-mai-elephant-camp-5.webp"
+      ]
+    },
+    "intercontinental-khao-yai": {
+      "slug": "intercontinental-khao-yai",
+      "country": "thailand",
+      "name": "InterContinental Khao Yai",
+      "href": "/accommodations/thailand/intercontinental-khao-yai/",
+      "heroImage": "/images/accommodations/thailand/intercontinental-khao-yai/thailand-luxury-hotel-intercontinental-khao-yai-resort-railcar-villa-1.webp",
+      "images": [
+        "/images/accommodations/thailand/intercontinental-khao-yai/thailand-luxury-hotel-intercontinental-khao-yai-resort-railcar-villa-1.webp",
+        "/images/accommodations/thailand/intercontinental-khao-yai/thailand-luxury-hotel-intercontinental-khao-yai-resort-guest-room-2.webp",
+        "/images/accommodations/thailand/intercontinental-khao-yai/thailand-luxury-hotel-intercontinental-khao-yai-resort-heritage-railcar-pool-villa-3.webp",
+        "/images/accommodations/thailand/intercontinental-khao-yai/thailand-luxury-hotel-intercontinental-khao-yai-resort-tea-carriage-4.webp",
+        "/images/accommodations/thailand/intercontinental-khao-yai/thailand-luxury-hotel-intercontinental-khao-yai-resort-afternoon-tea-5.webp"
+      ]
+    },
+    "riva-surya-bangkok": {
+      "slug": "riva-surya-bangkok",
+      "country": "thailand",
+      "name": "Riva Surya Bangkok",
+      "href": "/accommodations/thailand/riva-surya-bangkok/",
+      "heroImage": "/images/accommodations/thailand/riva-surya-bangkok/1.webp",
+      "images": [
+        "/images/accommodations/thailand/riva-surya-bangkok/1.webp",
+        "/images/accommodations/thailand/riva-surya-bangkok/2.webp",
+        "/images/accommodations/thailand/riva-surya-bangkok/3.webp",
+        "/images/accommodations/thailand/riva-surya-bangkok/4.webp",
+        "/images/accommodations/thailand/riva-surya-bangkok/5.webp"
+      ]
+    },
+    "sindhorn-kempinski": {
+      "slug": "sindhorn-kempinski",
+      "country": "thailand",
+      "name": "Sindhorn Kempinski Bangkok",
+      "href": "/accommodations/thailand/sindhorn-kempinski/",
+      "heroImage": "/images/accommodations/thailand/sindhorn-kempinski/thailand-luxury-hotel-sindhorn-kempinski-bangkok-lobby-2.webp",
+      "images": [
+        "/images/accommodations/thailand/sindhorn-kempinski/thailand-luxury-hotel-sindhorn-kempinski-bangkok-lobby-2.webp",
+        "/images/accommodations/thailand/sindhorn-kempinski/thailand-luxury-hotel-sindhorn-kempinski-bangkok-garden-suites-3.webp",
+        "/images/accommodations/thailand/sindhorn-kempinski/thailand-luxury-hotel-sindhorn-kempinski-bangkok-green-corridor-5.webp"
+      ]
+    },
+    "tamarind-village": {
+      "slug": "tamarind-village",
+      "country": "thailand",
+      "name": "Tamarind Village",
+      "href": "/accommodations/thailand/tamarind-village/",
+      "heroImage": "/images/accommodations/thailand/tamarind-village/1.webp",
+      "images": [
+        "/images/accommodations/thailand/tamarind-village/1.webp",
+        "/images/accommodations/thailand/tamarind-village/2.webp",
+        "/images/accommodations/thailand/tamarind-village/3.webp",
+        "/images/accommodations/thailand/tamarind-village/4.webp",
+        "/images/accommodations/thailand/tamarind-village/5.webp"
+      ]
+    },
+    "the-standard-hua-hin": {
+      "slug": "the-standard-hua-hin",
+      "country": "thailand",
+      "name": "The Standard Hua Hin",
+      "href": "/accommodations/thailand/the-standard-hua-hin/",
+      "heroImage": "/images/accommodations/thailand/the-standard-hua-hin/1.webp",
+      "images": [
+        "/images/accommodations/thailand/the-standard-hua-hin/1.webp",
+        "/images/accommodations/thailand/the-standard-hua-hin/2.webp",
+        "/images/accommodations/thailand/the-standard-hua-hin/3.webp",
+        "/images/accommodations/thailand/the-standard-hua-hin/4.webp",
+        "/images/accommodations/thailand/the-standard-hua-hin/5.webp"
+      ]
+    },
+    "v-villas-hua-hin": {
+      "slug": "v-villas-hua-hin",
+      "country": "thailand",
+      "name": "V Villas Hua Hin",
+      "href": "/accommodations/thailand/v-villas-hua-hin/",
+      "heroImage": "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+      "images": [
+        "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool.webp",
+        "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-2-bedroom.webp",
+        "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-aerial.webp",
+        "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-bedroom.webp",
+        "/images/accommodations/thailand/v-villas-hua-hin/v-villas-hua-hin-pool-villa.webp"
+      ]
+    },
+    "amansara": {
+      "slug": "amansara",
+      "country": "cambodia",
+      "name": "Amansara Siem Reap",
+      "href": "/accommodations/cambodia/amansara/",
+      "heroImage": "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-pool-courtyard-4.webp",
+      "images": [
+        "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-pool-courtyard-4.webp",
+        "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-outdoor-lounge-1.webp",
+        "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-pool-courtyard-2.webp",
+        "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-private-suite-3.webp",
+        "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-exterior-5.webp"
+      ]
+    },
+    "jaya-house-river-park": {
+      "slug": "jaya-house-river-park",
+      "country": "cambodia",
+      "name": "Jaya House River Park",
+      "href": "/accommodations/cambodia/jaya-house-river-park/",
+      "heroImage": "/images/accommodations/cambodia/jaya-house-river-park/1.webp",
+      "images": [
+        "/images/accommodations/cambodia/jaya-house-river-park/1.webp",
+        "/images/accommodations/cambodia/jaya-house-river-park/2.webp",
+        "/images/accommodations/cambodia/jaya-house-river-park/3.webp",
+        "/images/accommodations/cambodia/jaya-house-river-park/4.webp",
+        "/images/accommodations/cambodia/jaya-house-river-park/5.webp"
+      ]
+    },
+    "phokeethra-country-club": {
+      "slug": "phokeethra-country-club",
+      "country": "cambodia",
+      "name": "Phokeethra Country Club",
+      "href": "/accommodations/cambodia/phokeethra-country-club/",
+      "heroImage": "/images/accommodations/cambodia/phokeethra-country-club/cambodia-luxury-hotel-phokeethra-country-club-colonial-facade-1.webp",
+      "images": [
+        "/images/accommodations/cambodia/phokeethra-country-club/cambodia-luxury-hotel-phokeethra-country-club-colonial-facade-1.webp",
+        "/images/accommodations/cambodia/phokeethra-country-club/cambodia-luxury-hotel-phokeethra-country-club-resort-pool-2.webp",
+        "/images/accommodations/cambodia/phokeethra-country-club/cambodia-luxury-hotel-phokeethra-country-club-sofitel-angkor-3.webp",
+        "/images/accommodations/cambodia/phokeethra-country-club/cambodia-luxury-hotel-phokeethra-country-club-spa-4.webp",
+        "/images/accommodations/cambodia/phokeethra-country-club/cambodia-luxury-hotel-phokeethra-country-club-suite-5.webp"
+      ]
+    },
+    "raffles-grand-dangkor": {
+      "slug": "raffles-grand-dangkor",
+      "country": "cambodia",
+      "name": "Raffles Grand Hotel d'Angkor",
+      "href": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "heroImage": "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-heritage-pool-3.webp",
+      "images": [
+        "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-heritage-pool-3.webp",
+        "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-colonial-facade-1.webp",
+        "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-pool-2.webp",
+        "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-presidential-suite-4.webp",
+        "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-angkor-wat-view-5.webp"
+      ]
+    },
+    "raffles-hotel-le-royal": {
+      "slug": "raffles-hotel-le-royal",
+      "country": "cambodia",
+      "name": "Raffles Hotel Le Royal",
+      "href": "/accommodations/cambodia/raffles-hotel-le-royal/",
+      "heroImage": "/images/accommodations/cambodia/raffles-hotel-le-royal/1.webp",
+      "images": [
+        "/images/accommodations/cambodia/raffles-hotel-le-royal/1.webp",
+        "/images/accommodations/cambodia/raffles-hotel-le-royal/2.webp",
+        "/images/accommodations/cambodia/raffles-hotel-le-royal/3.webp",
+        "/images/accommodations/cambodia/raffles-hotel-le-royal/4.webp",
+        "/images/accommodations/cambodia/raffles-hotel-le-royal/5.webp"
+      ]
+    },
+    "rosewood-phnom-penh": {
+      "slug": "rosewood-phnom-penh",
+      "country": "cambodia",
+      "name": "Rosewood Phnom Penh",
+      "href": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "heroImage": "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-rooftop-bar-1.webp",
+      "images": [
+        "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-rooftop-bar-1.webp",
+        "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-mekong-view-suite-2.webp",
+        "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-suite-3.webp",
+        "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-city-view-4.webp",
+        "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-sky-bar-5.webp"
+      ]
+    },
+    "song-saa-private-island": {
+      "slug": "song-saa-private-island",
+      "country": "cambodia",
+      "name": "Song Saa Private Island",
+      "href": "/accommodations/cambodia/song-saa-private-island/",
+      "heroImage": "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-overwater-villa-1.webp",
+      "images": [
+        "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-overwater-villa-1.webp",
+        "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-koh-rong-2.webp",
+        "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-jungle-villa-3.webp",
+        "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-reef-4.webp",
+        "/images/accommodations/cambodia/song-saa-private-island/cambodia-luxury-hotel-song-saa-private-island-aerial-5.webp"
+      ]
+    },
+    "zannier-phum-baitang": {
+      "slug": "zannier-phum-baitang",
+      "country": "cambodia",
+      "name": "Zannier Phum Baitang",
+      "href": "/accommodations/cambodia/zannier-phum-baitang/",
+      "heroImage": "/images/accommodations/cambodia/zannier-phum-baitang/cambodia-luxury-hotel-zannier-phum-baitang-stilted-villa-1.webp",
+      "images": [
+        "/images/accommodations/cambodia/zannier-phum-baitang/cambodia-luxury-hotel-zannier-phum-baitang-stilted-villa-1.webp",
+        "/images/accommodations/cambodia/zannier-phum-baitang/cambodia-luxury-hotel-zannier-phum-baitang-rice-paddy-villa-2.webp",
+        "/images/accommodations/cambodia/zannier-phum-baitang/cambodia-luxury-hotel-zannier-phum-baitang-infinity-pool-3.webp",
+        "/images/accommodations/cambodia/zannier-phum-baitang/cambodia-luxury-hotel-zannier-phum-baitang-treetop-villa-4.webp",
+        "/images/accommodations/cambodia/zannier-phum-baitang/cambodia-luxury-hotel-zannier-phum-baitang-dining-5.webp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "slug": "chiva-som-hua-hin-wellness-golf",
+  "title": "7-Day Chiva-Som Hua Hin Luxury Wellness & Championship Golf",
+  "description": "World-renowned health sanctuary at Chiva-Som. Pair holistic wellness treatments with rounds at Black Mountain, Pineapple Valley, and Springfield Royal.",
+  "heroImage": "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-beachfront-1.webp",
+  "destination": "Hua Hin, Thailand",
+  "country": "Thailand",
+  "groupProfile": "Couples & Wellness Seekers",
+  "intent": "Wellness & Championship Golf",
+  "duration": "7 Days / 6 Nights (3 Rounds)",
+  "guidePriceUsd": 4415,
+  "guidePriceFrom": 6800,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-bangkok-and-hua-hin-fairways",
+    "title": "The Bangkok & Hua Hin Fairways",
+    "duration": "9 Days / 8 Nights",
+    "heroImage": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+    "highlight": "Upgrade to our comprehensive dual-destination signature tour combining Bangkok’s vibrant city life with Hua Hin’s royal golf heritage."
+  },
+  "featuredVenues": [
+    {
+      "name": "Black Mountain Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/black-mountain/",
+      "image": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+      "badge": "Phil Ryan",
+      "highlight": "Par 72 • 7,375 Yards"
+    },
+    {
+      "name": "Pineapple Valley Golf Club",
+      "type": "course",
+      "href": "/courses/thailand/pineapple-valley/",
+      "image": "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-hua-hin-thailand-1.webp",
+      "badge": "Pirapon Namatra / Golf East",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Springfield Royal Country Club",
+      "type": "course",
+      "href": "/courses/thailand/springfield-royal/",
+      "image": "/images/courses/thailand/springfield-royal/springfield-royal-1.webp",
+      "badge": "Jack Nicklaus (A/B) / Lee Schmidt (C)",
+      "highlight": "Par 72 (A/B) / 36 (C) • 7,063 Yards (A/B)"
+    },
+    {
+      "name": "Chiva-Som Hua Hin",
+      "type": "accommodation",
+      "href": "/accommodations/thailand/chiva-som/",
+      "image": "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-beachfront-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Executive chauffeured vehicles for all transfers between Bangkok and Hua Hin."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: Black Mountain, Pineapple Valley, and Springfield Royal."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "6 nights in an Ocean View Room at Chiva-Som International Health Resort."
+    },
+    {
+      "item": "Daily Wellness Treatments",
+      "detail": "One bespoke wellness treatment per night of stay (massages, hydrotherapy, bodywork)."
+    },
+    {
+      "item": "Nutritional Gastronomy",
+      "detail": "All three daily wellness meals crafted by Chiva-Som’s wellness culinary team."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Executive Transit to Hua Hin & Holistic Wellness Consultation",
+      "subtitle": "Sanctuary Arrival",
+      "stayName": "Chiva-Som Hua Hin",
+      "stayHref": "/accommodations/thailand/chiva-som/",
+      "transferTime": "2.5 hrs from Bangkok",
+      "image": "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-beachfront-1.webp",
+      "imageCaption": "Chiva-Som Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "Chiva-Som Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "Meet your private chauffeur at Bangkok’s Suvarnabhumi Airport for an executive journey south along the Gulf of Thailand to <a href=\"/accommodations/thailand/chiva-som/\">Chiva-Som International Health Resort</a> in Hua Hin. Settle into your Ocean View room and begin your holistic intake consultation with a dedicated health and wellness advisor.<br><br>Enjoy your first nutrient-rich wellness dinner overlooking the Gulf, designed to restore digestive harmony and prepare your body for the physical demands of championship golf."
+    },
+    {
+      "day": 2,
+      "title": "Championship Majesty at Black Mountain Golf Club",
+      "subtitle": "Round 1: European Tour Venue",
+      "courseName": "Black Mountain Golf Club",
+      "courseHref": "/courses/thailand/black-mountain/",
+      "architect": "Phil Ryan",
+      "stayName": "Chiva-Som Hua Hin",
+      "stayHref": "/accommodations/thailand/chiva-som/",
+      "transferTime": "25 mins door-to-door",
+      "image": "/images/courses/thailand/black-mountain/black-mountain-golf-club-hua-hin-thailand-1.webp",
+      "imageCaption": "Black Mountain Golf Club — Phil Ryan (Par 72, 7,375 Yards)",
+      "imageAlt": "Black Mountain Golf Club championship golf course Phil Ryan Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/thailand/black-mountain/\">Black Mountain Golf Club</a>, Hua Hin's internationally acclaimed European Tour venue. Set in a natural valley against dramatic black granite bluffs, this 27-hole layout features impeccably manicured fairways and rapid, tiered greens.<br><br>Return to Chiva-Som for a late-afternoon deep-tissue sports massage specifically targeting the golfer’s lumbar and shoulder rotational muscles."
+    },
+    {
+      "day": 3,
+      "title": "Sublime Mountain Vistas at Pineapple Valley Golf Club",
+      "subtitle": "Round 2: Schmidt-Curley Masterpiece",
+      "courseName": "Pineapple Valley Golf Club",
+      "courseHref": "/courses/thailand/pineapple-valley/",
+      "architect": "Pirapon Namatra / Golf East",
+      "stayName": "Chiva-Som Hua Hin",
+      "stayHref": "/accommodations/thailand/chiva-som/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/thailand/pineapple-valley/pineapple-valley-golf-club-hua-hin-thailand-1.webp",
+      "imageCaption": "Pineapple Valley Golf Club — Pirapon Namatra / Golf East (Par 72, 7,000+ Yards)",
+      "imageAlt": "Pineapple Valley Golf Club championship golf course Pirapon Namatra / Golf East Asia Golf Specialists",
+      "description": "Tackle <a href=\"/courses/thailand/pineapple-valley/\">Pineapple Valley Golf Club</a> (formerly Banyan Golf Club), designed by Pirapon Namatra. Carved through historic pineapple plantations, the layout offers stunning views of the Burmese mountain ranges from its signature hilltop clubhouse.<br><br>Back at Chiva-Som, enjoy an evening hydrotherapy flotation session to completely relieve joint pressure and enhance restful sleep."
+    },
+    {
+      "day": 4,
+      "title": "Comprehensive Physical Restoration & Hydrotherapy",
+      "subtitle": "Holistic Recovery Day",
+      "stayName": "Chiva-Som Hua Hin",
+      "stayHref": "/accommodations/thailand/chiva-som/",
+      "transferTime": "At leisure at the resort",
+      "image": "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-wellness-spa-2.webp",
+      "imageCaption": "Chiva-Som Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "Chiva-Som Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "A dedicated wellness immersion day with zero transfers. Participate in sunrise pranayama breathing on the beach, followed by private physiotherapy analysis and personalized mobility stretching.<br><br>Savor an organic farm-to-table lunch and spend the afternoon reading in the tranquil wellness pavilions."
+    },
+    {
+      "day": 5,
+      "title": "Jack Nicklaus Design at Springfield Royal Country Club",
+      "subtitle": "Round 3: Classic Nicklaus Challenge",
+      "courseName": "Springfield Royal Country Club",
+      "courseHref": "/courses/thailand/springfield-royal/",
+      "architect": "Jack Nicklaus (A/B) / Lee Schmidt (C)",
+      "stayName": "Chiva-Som Hua Hin",
+      "stayHref": "/accommodations/thailand/chiva-som/",
+      "transferTime": "30 mins door-to-door",
+      "image": "/images/courses/thailand/springfield-royal/springfield-royal-1.webp",
+      "imageCaption": "Springfield Royal Country Club — Jack Nicklaus (A/B) / Lee Schmidt (C) (Par 72 (A/B) / 36 (C), 7,063 Yards (A/B))",
+      "imageAlt": "Springfield Royal Country Club championship golf course Jack Nicklaus (A/B) / Lee Schmidt (C) Asia Golf Specialists",
+      "description": "Take on Jack Nicklaus’s classic 27-hole creation at <a href=\"/courses/thailand/springfield-royal/\">Springfield Royal Country Club</a>. Featuring sweeping waste bunkering, generous fairways, and challenging water hazards, Nicklaus’s design rewards strategic placement and bold shot-making.<br><br>Conclude your golf circuit and return to Chiva-Som for an invigorating herbal steam session and restorative body therapy."
+    },
+    {
+      "day": 6,
+      "title": "Mindful Beachfront Meditation & Farewell Dinner",
+      "subtitle": "Sanctuary Farewell",
+      "stayName": "Chiva-Som Hua Hin",
+      "stayHref": "/accommodations/thailand/chiva-som/",
+      "transferTime": "At leisure at the resort",
+      "image": "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-beachfront-1.webp",
+      "imageCaption": "Chiva-Som Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "Chiva-Som Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "Spend a mindful final day at Chiva-Som, reflecting on your physical restoration and improved vitality after a week of balanced wellness and golf.<br><br>Gather for a celebratory wellness farewell dinner, enjoying creative culinary masterpieces crafted without refined sugars or artificial additives."
+    },
+    {
+      "day": 7,
+      "title": "Executive Return Transfer to Bangkok Airport",
+      "subtitle": "Departure",
+      "stayName": "Chiva-Som Hua Hin",
+      "stayHref": "/accommodations/thailand/chiva-som/",
+      "transferTime": "2.5 hrs to Bangkok Airport",
+      "image": "/images/accommodations/thailand/chiva-som/thailand-luxury-hotel-chiva-som-hua-hin-beachfront-1.webp",
+      "imageCaption": "Chiva-Som Hua Hin — Luxury Sanctuary Base",
+      "imageAlt": "Chiva-Som Hua Hin luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a final nourishing breakfast before completing checkout with your Chiva-Som wellness coordinator.<br><br>Your private executive chauffeur transports you smoothly back to Bangkok Suvarnabhumi Airport for your flight home, feeling entirely revitalized."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is included in Chiva-Som’s wellness program?",
+      "answer": "Each guest receives an individual health consultation, three wellness meals daily, physical analysis, and one daily restorative treatment."
+    }
+  ]
+}

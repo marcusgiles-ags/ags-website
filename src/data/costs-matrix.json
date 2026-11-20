@@ -1,0 +1,1025 @@
+{
+  "currencyBaseline": {
+    "primary": "USD",
+    "secondary": "AUD",
+    "exchangeRateMultiplierAud": 1.54,
+    "lastUpdated": "2026-10-28"
+  },
+  "logistics": {
+    "privateVehicleDailyRateUsd": 120,
+    "description": "Dedicated private high-top VIP transit van (Ford Transit / Toyota Commuter) with professional private chauffeur, airport transfers, golf course transits, evening dining stand-by, fuel, and highway tolls.",
+    "groupAllocation": {
+      "solo": 120,
+      "couples": 60,
+      "4-man": 30,
+      "4-female": 30,
+      "8-man": 15,
+      "12-man": 20,
+      "corporate": 20
+    }
+  },
+  "golfCourses": {
+    "vietnam": {
+      "ba-na-hills": {
+        "name": "Ba Na Hills Golf Club",
+        "region": "Da Nang",
+        "weekdayRetailUsd": 170,
+        "weekendRetailUsd": 210,
+        "baselineUsd": 185,
+        "nightGolfUsd": 100,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "brg-da-nang-nicklaus": {
+        "name": "BRG Da Nang Golf Resort (Nicklaus Course)",
+        "region": "Da Nang",
+        "weekdayRetailUsd": 165,
+        "weekendRetailUsd": 205,
+        "baselineUsd": 180,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "brg-da-nang-norman": {
+        "name": "BRG Da Nang Golf Resort (Norman Course)",
+        "region": "Da Nang",
+        "weekdayRetailUsd": 155,
+        "weekendRetailUsd": 195,
+        "baselineUsd": 170,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "chi-linh-golf": {
+        "name": "Chi Linh Star Golf & Country Club",
+        "region": "Hai Duong / Hanoi",
+        "weekdayRetailUsd": 135,
+        "weekendRetailUsd": 185,
+        "baselineUsd": 155,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "dragon-golf-links": {
+        "name": "Dragon Golf Links (Do Son)",
+        "region": "Hai Phong",
+        "weekdayRetailUsd": 150,
+        "weekendRetailUsd": 205,
+        "baselineUsd": 170,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "eschuri-vung-bau": {
+        "name": "Eschuri Vung Bau Golf Course",
+        "region": "Phu Quoc",
+        "weekdayRetailUsd": 165,
+        "weekendRetailUsd": 205,
+        "baselineUsd": 180,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "flc-ha-long-bay": {
+        "name": "FLC Ha Long Bay Golf Club",
+        "region": "Ha Long Bay / Quang Ninh",
+        "weekdayRetailUsd": 155,
+        "weekendRetailUsd": 205,
+        "baselineUsd": 175,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "golden-sands": {
+        "name": "Golden Sands Golf Resort",
+        "region": "Hue / Central Coast",
+        "weekdayRetailUsd": 150,
+        "weekendRetailUsd": 190,
+        "baselineUsd": 165,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "heron-lake": {
+        "name": "Heron Lake Golf Course & Resort",
+        "region": "Vinh Phuc / Hanoi",
+        "weekdayRetailUsd": 135,
+        "weekendRetailUsd": 185,
+        "baselineUsd": 155,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "hoiana-shores": {
+        "name": "Hoiana Shores Golf Club",
+        "region": "Da Nang / Hoi An",
+        "weekdayRetailUsd": 190,
+        "weekendRetailUsd": 270,
+        "baselineUsd": 210,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie, driving range balls"
+      },
+      "kings-island": {
+        "name": "BRG Kings Island Golf Resort",
+        "region": "Hanoi",
+        "weekdayRetailUsd": 160,
+        "weekendRetailUsd": 220,
+        "baselineUsd": 180,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie, speedboat transfer"
+      },
+      "kn-golf-links": {
+        "name": "KN Golf Links Cam Ranh",
+        "region": "Nha Trang / Cam Ranh",
+        "weekdayRetailUsd": 155,
+        "weekendRetailUsd": 195,
+        "baselineUsd": 170,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "laguna-lang-co": {
+        "name": "Laguna Lăng Cô Golf Club",
+        "region": "Da Nang / Hue",
+        "weekdayRetailUsd": 160,
+        "weekendRetailUsd": 200,
+        "baselineUsd": 175,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "legend-hill": {
+        "name": "BRG Legend Hill Golf Resort",
+        "region": "Hanoi",
+        "weekdayRetailUsd": 180,
+        "weekendRetailUsd": 245,
+        "baselineUsd": 200,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "long-thanh": {
+        "name": "Long Thanh Golf Club",
+        "region": "Dong Nai / Saigon",
+        "weekdayRetailUsd": 145,
+        "weekendRetailUsd": 195,
+        "baselineUsd": 165,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "montgomerie-links": {
+        "name": "Montgomerie Links Vietnam",
+        "region": "Da Nang / Hoi An",
+        "weekdayRetailUsd": 145,
+        "weekendRetailUsd": 185,
+        "baselineUsd": 160,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "nara-binh-tien": {
+        "name": "Nara Binh Tien Golf Club",
+        "region": "Ninh Thuan / Cam Ranh",
+        "weekdayRetailUsd": 145,
+        "weekendRetailUsd": 185,
+        "baselineUsd": 160,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "pga-ocean-course": {
+        "name": "PGA NovaWorld Phan Thiet (Ocean Course)",
+        "region": "Phan Thiet / Mui Ne",
+        "weekdayRetailUsd": 145,
+        "weekendRetailUsd": 185,
+        "baselineUsd": 160,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "phoenix-golf-resort": {
+        "name": "Phoenix Golf Resort",
+        "region": "Hoa Binh / Hanoi",
+        "weekdayRetailUsd": 140,
+        "weekendRetailUsd": 190,
+        "baselineUsd": 155,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "royal-long-an": {
+        "name": "Royal Long An Golf & Villas",
+        "region": "Long An / Saigon",
+        "weekdayRetailUsd": 140,
+        "weekendRetailUsd": 185,
+        "baselineUsd": 155,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "sapa-grand": {
+        "name": "Sapa Grand Golf Course",
+        "region": "Lao Cai / Sapa",
+        "weekdayRetailUsd": 135,
+        "weekendRetailUsd": 175,
+        "baselineUsd": 150,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "sea-links-golf-club": {
+        "name": "Sea Links Golf & Country Club",
+        "region": "Mui Ne / Phan Thiet",
+        "weekdayRetailUsd": 130,
+        "weekendRetailUsd": 170,
+        "baselineUsd": 145,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "silk-path-dong-trieu": {
+        "name": "Silk Path Dong Trieu Golf & Country Club",
+        "region": "Quang Ninh / Ha Long",
+        "weekdayRetailUsd": 150,
+        "weekendRetailUsd": 200,
+        "baselineUsd": 170,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "sky-lake": {
+        "name": "Sky Lake Resort & Golf Club",
+        "region": "Hanoi",
+        "weekdayRetailUsd": 165,
+        "weekendRetailUsd": 225,
+        "baselineUsd": 185,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "sky-lake-lake": {
+        "name": "Sky Lake Resort & Golf Club (Lake Course)",
+        "region": "Hanoi",
+        "weekdayRetailUsd": 175,
+        "weekendRetailUsd": 235,
+        "baselineUsd": 195,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "sky-lake-sky": {
+        "name": "Sky Lake Resort & Golf Club (Sky Course)",
+        "region": "Hanoi",
+        "weekdayRetailUsd": 165,
+        "weekendRetailUsd": 225,
+        "baselineUsd": 185,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "taekwang-jeongsan": {
+        "name": "Taekwang Jeongsan Country Club",
+        "region": "Dong Nai / Saigon",
+        "weekdayRetailUsd": 140,
+        "weekendRetailUsd": 190,
+        "baselineUsd": 160,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie, boat transfer"
+      },
+      "tan-son-nhat": {
+        "name": "Tan Son Nhat Golf Course",
+        "region": "Saigon",
+        "weekdayRetailUsd": 150,
+        "weekendRetailUsd": 205,
+        "baselineUsd": 170,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie, F&B voucher"
+      },
+      "thanh-lanh-valley": {
+        "name": "Thanh Lanh Valley Golf & Resort",
+        "region": "Vinh Phuc / Hanoi",
+        "weekdayRetailUsd": 165,
+        "weekendRetailUsd": 230,
+        "baselineUsd": 185,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "the-bluffs-ho-tram": {
+        "name": "The Bluffs Grand Ho Tram",
+        "region": "Ho Tram / Saigon",
+        "weekdayRetailUsd": 235,
+        "weekendRetailUsd": 260,
+        "baselineUsd": 245,
+        "inclusions": "18 holes green fee, shared buggy cart, mandatory 1:1 caddie"
+      },
+      "twin-doves": {
+        "name": "Twin Doves Golf Club",
+        "region": "Binh Duong / Saigon",
+        "weekdayRetailUsd": 145,
+        "weekendRetailUsd": 195,
+        "baselineUsd": 165,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "van-tri-golf-club": {
+        "name": "Van Tri Golf Club",
+        "region": "Hanoi",
+        "weekdayRetailUsd": 175,
+        "weekendRetailUsd": 240,
+        "baselineUsd": 195,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "vgcc": {
+        "name": "Vietnam Golf & Country Club",
+        "region": "Saigon",
+        "weekdayRetailUsd": 145,
+        "weekendRetailUsd": 195,
+        "baselineUsd": 165,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "vinpearl-nam-hoi-an": {
+        "name": "Vinpearl Golf Nam Hoi An",
+        "region": "Hoi An",
+        "weekdayRetailUsd": 140,
+        "weekendRetailUsd": 180,
+        "baselineUsd": 155,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      },
+      "west-lakes-golf-club": {
+        "name": "West Lakes Golf & Villas",
+        "region": "Long An / Saigon",
+        "weekdayRetailUsd": 135,
+        "weekendRetailUsd": 180,
+        "baselineUsd": 150,
+        "inclusions": "18 holes green fee, shared golf cart, mandatory 1:1 caddie"
+      }
+    },
+    "thailand": {
+      "alpine-chiang-mai": {
+        "name": "Alpine Golf Resort Chiang Mai",
+        "region": "Chiang Mai",
+        "weekdayRetailUsd": 110,
+        "weekendRetailUsd": 130,
+        "baselineUsd": 120,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "alpine-golf-club": {
+        "name": "Alpine Golf Club Bangkok",
+        "region": "Bangkok",
+        "weekdayRetailUsd": 160,
+        "weekendRetailUsd": 215,
+        "baselineUsd": 180,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "aquella": {
+        "name": "Aquella Golf & Country Club",
+        "region": "Phang Nga / Phuket",
+        "weekdayRetailUsd": 130,
+        "weekendRetailUsd": 150,
+        "baselineUsd": 140,
+        "inclusions": "18 holes green fee, golf cart with GPS, compulsory caddie fee"
+      },
+      "ballyshear": {
+        "name": "Ballyshear Golf Links (Ban Rakat Club)",
+        "region": "Bangkok",
+        "weekdayRetailUsd": 210,
+        "weekendRetailUsd": 260,
+        "baselineUsd": 230,
+        "inclusions": "18 holes VIP member-accompanied green fee, golf cart, compulsory caddie fee"
+      },
+      "bangkok-golf-club": {
+        "name": "Bangkok Golf Club",
+        "region": "Bangkok / Pathum Thani",
+        "weekdayRetailUsd": 115,
+        "weekendRetailUsd": 145,
+        "baselineUsd": 125,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "black-mountain": {
+        "name": "Black Mountain Golf Club",
+        "region": "Hua Hin",
+        "weekdayRetailUsd": 135,
+        "weekendRetailUsd": 150,
+        "baselineUsd": 140,
+        "inclusions": "18 holes green fee, compulsory golf cart, compulsory caddie fee"
+      },
+      "blue-canyon": {
+        "name": "Blue Canyon Country Club (Canyon & Lakes Courses)",
+        "region": "Phuket",
+        "weekdayRetailUsd": 170,
+        "weekendRetailUsd": 195,
+        "baselineUsd": 180,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "cascata": {
+        "name": "Cascata Golf Club",
+        "region": "Nakhon Nayok / Bangkok",
+        "weekdayRetailUsd": 115,
+        "weekendRetailUsd": 145,
+        "baselineUsd": 125,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "chiang-mai-highlands": {
+        "name": "Chiangmai Highlands Golf & Spa Resort",
+        "region": "Chiang Mai",
+        "weekdayRetailUsd": 110,
+        "weekendRetailUsd": 130,
+        "baselineUsd": 120,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "flora-ville": {
+        "name": "Flora Ville Golf & Country Club",
+        "region": "Pathum Thani / Bangkok",
+        "weekdayRetailUsd": 115,
+        "weekendRetailUsd": 145,
+        "baselineUsd": 125,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "laem-chabang": {
+        "name": "Laem Chabang International Country Club",
+        "region": "Pattaya",
+        "weekdayRetailUsd": 140,
+        "weekendRetailUsd": 165,
+        "baselineUsd": 150,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "laguna-phuket": {
+        "name": "Laguna Golf Phuket",
+        "region": "Phuket",
+        "weekdayRetailUsd": 135,
+        "weekendRetailUsd": 155,
+        "baselineUsd": 145,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "lake-view": {
+        "name": "Lake View Resort & Golf Club",
+        "region": "Hua Hin",
+        "weekdayRetailUsd": 95,
+        "weekendRetailUsd": 115,
+        "baselineUsd": 105,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "mae-jo": {
+        "name": "Mae Jo Golf Resort & Spa",
+        "region": "Chiang Mai",
+        "weekdayRetailUsd": 95,
+        "weekendRetailUsd": 115,
+        "baselineUsd": 105,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "mission-hills-kanchanaburi": {
+        "name": "Mission Hills Golf Club Kanchanaburi",
+        "region": "Kanchanaburi",
+        "weekdayRetailUsd": 95,
+        "weekendRetailUsd": 115,
+        "baselineUsd": 105,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "mission-hills-phuket": {
+        "name": "Mission Hills Phuket Golf Resort",
+        "region": "Phuket",
+        "weekdayRetailUsd": 125,
+        "weekendRetailUsd": 145,
+        "baselineUsd": 135,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "nikanti": {
+        "name": "Nikanti Golf Club",
+        "region": "Nakhon Pathom / Bangkok",
+        "weekdayRetailUsd": 165,
+        "weekendRetailUsd": 195,
+        "baselineUsd": 175,
+        "inclusions": "All-inclusive 18-hole round, GPS golf cart, caddie fee & gratuity, pre/post-round dining"
+      },
+      "pineapple-valley": {
+        "name": "Pineapple Valley Golf Club (Banyan Hua Hin)",
+        "region": "Hua Hin",
+        "weekdayRetailUsd": 130,
+        "weekendRetailUsd": 145,
+        "baselineUsd": 135,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "red-mountain": {
+        "name": "Red Mountain Golf Club",
+        "region": "Phuket",
+        "weekdayRetailUsd": 165,
+        "weekendRetailUsd": 185,
+        "baselineUsd": 175,
+        "inclusions": "18 holes green fee, compulsory golf cart, compulsory caddie fee"
+      },
+      "siam-country-club": {
+        "name": "Siam Country Club (Old, Plantation, Waterside & Rolling Hills)",
+        "region": "Pattaya",
+        "weekdayRetailUsd": 230,
+        "weekendRetailUsd": 285,
+        "baselineUsd": 250,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "springfield-royal": {
+        "name": "Springfield Royal Country Club",
+        "region": "Hua Hin",
+        "weekdayRetailUsd": 110,
+        "weekendRetailUsd": 130,
+        "baselineUsd": 120,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "thai-country-club": {
+        "name": "Thai Country Club",
+        "region": "Bangkok",
+        "weekdayRetailUsd": 180,
+        "weekendRetailUsd": 235,
+        "baselineUsd": 200,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      }
+    },
+    "cambodia": {
+      "angkor-golf-resort": {
+        "name": "Angkor Golf Resort",
+        "region": "Siem Reap",
+        "weekdayRetailUsd": 145,
+        "weekendRetailUsd": 165,
+        "baselineUsd": 155,
+        "inclusions": "18 holes green fee, shared golf cart, compulsory caddie fee"
+      },
+      "chhun-on-golf-resort": {
+        "name": "Chhun On Golf Resort",
+        "region": "Phnom Penh",
+        "weekdayRetailUsd": 145,
+        "weekendRetailUsd": 175,
+        "baselineUsd": 155,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "garden-city": {
+        "name": "Garden City Golf Club",
+        "region": "Phnom Penh",
+        "weekdayRetailUsd": 135,
+        "weekendRetailUsd": 165,
+        "baselineUsd": 145,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "grand-phnom-penh": {
+        "name": "Grand Phnom Penh Golf Club",
+        "region": "Phnom Penh",
+        "weekdayRetailUsd": 125,
+        "weekendRetailUsd": 150,
+        "baselineUsd": 135,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "phokeethra": {
+        "name": "Phokeethra Country Club",
+        "region": "Siem Reap",
+        "weekdayRetailUsd": 130,
+        "weekendRetailUsd": 145,
+        "baselineUsd": 135,
+        "inclusions": "18 holes green fee, shared golf cart, compulsory caddie fee"
+      },
+      "royal-phnom-penh": {
+        "name": "Royal Cambodia Phnom Penh Golf Club",
+        "region": "Phnom Penh",
+        "weekdayRetailUsd": 120,
+        "weekendRetailUsd": 145,
+        "baselineUsd": 130,
+        "inclusions": "18 holes green fee, golf cart, compulsory caddie fee"
+      },
+      "siem-reap-booyoung": {
+        "name": "Siem Reap Booyoung Country Club",
+        "region": "Siem Reap",
+        "weekdayRetailUsd": 115,
+        "weekendRetailUsd": 130,
+        "baselineUsd": 120,
+        "inclusions": "18 holes green fee, shared golf cart, compulsory caddie fee"
+      },
+      "vattanac": {
+        "name": "Vattanac Golf Resort",
+        "region": "Phnom Penh",
+        "weekdayRetailUsd": 155,
+        "weekendRetailUsd": 190,
+        "baselineUsd": 170,
+        "inclusions": "18 holes green fee, golf cart with GPS, compulsory caddie fee"
+      },
+      "vattanac-east": {
+        "name": "Vattanac Golf Resort (East Course)",
+        "region": "Phnom Penh",
+        "weekdayRetailUsd": 155,
+        "weekendRetailUsd": 190,
+        "baselineUsd": 170,
+        "inclusions": "18 holes green fee, golf cart with GPS, compulsory caddie fee"
+      },
+      "vattanac-west": {
+        "name": "Vattanac Golf Resort (West Course)",
+        "region": "Phnom Penh",
+        "weekdayRetailUsd": 155,
+        "weekendRetailUsd": 190,
+        "baselineUsd": 170,
+        "inclusions": "18 holes green fee, golf cart with GPS, compulsory caddie fee"
+      }
+    }
+  },
+  "accommodations": {
+    "almanity-hoi-an": {
+      "name": "Almanity Hoi An Wellness Resort",
+      "destination": "Hoi An, Vietnam",
+      "tier": "5-Star Wellness Boutique",
+      "roomNightUsd": 160,
+      "perGolferTwinShareUsd": 80
+    },
+    "an-bang-ben-villa": {
+      "name": "Ben Villa An Bang Beach",
+      "destination": "Hoi An, Vietnam",
+      "tier": "Private Beach Villa",
+      "totalVillaNightUsd": 400,
+      "perGolferTwinShareUsd": 100
+    },
+    "an-bang-flow-house": {
+      "name": "Flow House An Bang Beach",
+      "destination": "Hoi An, Vietnam",
+      "tier": "Private Beach Villa",
+      "totalVillaNightUsd": 420,
+      "perGolferTwinShareUsd": 105
+    },
+    "an-bang-holiday-villa": {
+      "name": "Holiday Villa An Bang Beach",
+      "destination": "Hoi An, Vietnam",
+      "tier": "Private Beachfront Villa",
+      "totalVillaNightUsd": 440,
+      "perGolferTwinShareUsd": 110
+    },
+    "an-bang-may-villa": {
+      "name": "May Villa An Bang Beach",
+      "destination": "Hoi An, Vietnam",
+      "tier": "Private Beach Villa",
+      "totalVillaNightUsd": 400,
+      "perGolferTwinShareUsd": 100
+    },
+    "an-bang-salt-villa": {
+      "name": "Salt Villa An Bang Beach",
+      "destination": "Hoi An, Vietnam",
+      "tier": "Private Beach Villa",
+      "totalVillaNightUsd": 420,
+      "perGolferTwinShareUsd": 105
+    },
+    "an-bang-sea-easter-villa": {
+      "name": "Sea Easter Villa An Bang Beach",
+      "destination": "Hoi An, Vietnam",
+      "tier": "Private Beach Villa",
+      "totalVillaNightUsd": 440,
+      "perGolferTwinShareUsd": 110
+    },
+    "anantara-hoi-an": {
+      "name": "Anantara Hoi An Resort",
+      "destination": "Hoi An, Vietnam",
+      "tier": "5-Star Riverfront Heritage Resort",
+      "roomNightUsd": 340,
+      "perGolferTwinShareUsd": 170
+    },
+    "banyan-tree-lang-co": {
+      "name": "Banyan Tree Lăng Cô",
+      "destination": "Hue / Da Nang, Vietnam",
+      "tier": "5-Star All-Pool Villa Resort",
+      "roomNightUsd": 520,
+      "perGolferTwinShareUsd": 260
+    },
+    "bel-marina-hoi-an": {
+      "name": "Bel Marina Hoi An Resort",
+      "destination": "Hoi An, Vietnam",
+      "tier": "Riverside Boutique Resort",
+      "roomNightUsd": 150,
+      "perGolferTwinShareUsd": 75
+    },
+    "bluffs-grand-ho-tram": {
+      "name": "The Grand Ho Tram Resort & Casino",
+      "destination": "Ho Tram, Vietnam",
+      "tier": "5-Star Integrated Golf Resort",
+      "roomNightUsd": 220,
+      "perGolferTwinShareUsd": 110
+    },
+    "capella-hanoi": {
+      "name": "Capella Hanoi",
+      "destination": "Hanoi, Vietnam",
+      "tier": "Ultra-Luxury Bill Bensley Boutique",
+      "roomNightUsd": 680,
+      "perGolferTwinShareUsd": 340
+    },
+    "chicland-da-nang": {
+      "name": "Chicland Danang Beach Hotel",
+      "destination": "Da Nang, Vietnam",
+      "tier": "Eco-Luxury Beachfront Design Hotel",
+      "roomNightUsd": 140,
+      "perGolferTwinShareUsd": 70
+    },
+    "flc-halong-bay": {
+      "name": "FLC Halong Bay Golf Club & Luxury Resort",
+      "destination": "Ha Long Bay, Vietnam",
+      "tier": "5-Star Integrated Golf Resort",
+      "roomNightUsd": 170,
+      "perGolferTwinShareUsd": 85
+    },
+    "four-seasons-nam-hai": {
+      "name": "Four Seasons Resort The Nam Hai",
+      "destination": "Hoi An, Vietnam",
+      "tier": "Ultra-Luxury Beachfront Villa",
+      "roomNightUsd": 1200,
+      "perGolferTwinShareUsd": 600
+    },
+    "fusion-resort-villa-da-nang": {
+      "name": "Fusion Resort & Villas Da Nang",
+      "destination": "Da Nang, Vietnam",
+      "tier": "5-Star Beachfront Pool Villa & Spa",
+      "roomNightUsd": 340,
+      "perGolferTwinShareUsd": 170
+    },
+    "fusion-suites-saigon": {
+      "name": "Fusion Suites Saigon",
+      "destination": "Ho Chi Minh City, Vietnam",
+      "tier": "Wellness Urban Boutique Suites",
+      "roomNightUsd": 150,
+      "perGolferTwinShareUsd": 75
+    },
+    "hotel-des-artes-saigon": {
+      "name": "Hôtel des Arts Saigon (MGallery)",
+      "destination": "Ho Chi Minh City, Vietnam",
+      "tier": "5-Star Lifestyle Boutique Hotel",
+      "roomNightUsd": 250,
+      "perGolferTwinShareUsd": 125
+    },
+    "intercontinental-danang": {
+      "name": "InterContinental Danang Sun Peninsula Resort",
+      "destination": "Da Nang, Vietnam",
+      "tier": "Ultra-Luxury Peninsula Resort",
+      "roomNightUsd": 880,
+      "perGolferTwinShareUsd": 440
+    },
+    "legacy-yen-tu-m-gallery": {
+      "name": "Legacy Yen Tu - MGallery",
+      "destination": "Quang Ninh, Vietnam",
+      "tier": "5-Star Mountain Heritage Sanctuary",
+      "roomNightUsd": 240,
+      "perGolferTwinShareUsd": 120
+    },
+    "little-riverside-hoi-an": {
+      "name": "Little Riverside Hoi An",
+      "destination": "Hoi An, Vietnam",
+      "tier": "Luxury Riverfront Boutique",
+      "roomNightUsd": 160,
+      "perGolferTwinShareUsd": 80
+    },
+    "m-hotel-danang": {
+      "name": "M Hotel Danang",
+      "destination": "Da Nang, Vietnam",
+      "tier": "5-Star My Khe Beachfront Hotel",
+      "roomNightUsd": 180,
+      "perGolferTwinShareUsd": 90
+    },
+    "namia-river-retreat-hoi-an": {
+      "name": "Namia River Retreat",
+      "destination": "Hoi An, Vietnam",
+      "tier": "Ultra-Luxury All-Pool Villa & Wellness",
+      "roomNightUsd": 520,
+      "perGolferTwinShareUsd": 260
+    },
+    "new-world-hoiana": {
+      "name": "New World Hoiana Beach Resort",
+      "destination": "Hoi An, Vietnam",
+      "tier": "5-Star Integrated Golf & Casino Resort",
+      "roomNightUsd": 220,
+      "perGolferTwinShareUsd": 110
+    },
+    "palm-gardens-hoi-an": {
+      "name": "Palm Garden Beach Resort & Spa",
+      "destination": "Hoi An, Vietnam",
+      "tier": "5-Star Beachfront Resort",
+      "roomNightUsd": 170,
+      "perGolferTwinShareUsd": 85
+    },
+    "park-hyatt-saigon": {
+      "name": "Park Hyatt Saigon",
+      "destination": "Ho Chi Minh City, Vietnam",
+      "tier": "Ultra-Luxury District 1 Landmark",
+      "roomNightUsd": 420,
+      "perGolferTwinShareUsd": 210
+    },
+    "silk-path-dong-trieu": {
+      "name": "Silk Path Dong Trieu Golf & Villas",
+      "destination": "Quang Ninh, Vietnam",
+      "tier": "5-Star Stay-and-Play Golf Villas",
+      "roomNightUsd": 180,
+      "perGolferTwinShareUsd": 90
+    },
+    "sofitel-metropole-hanoi": {
+      "name": "Sofitel Legend Metropole Hanoi",
+      "destination": "Hanoi, Vietnam",
+      "tier": "Historic Luxury Icon",
+      "roomNightUsd": 420,
+      "perGolferTwinShareUsd": 210
+    },
+    "the-caravelle": {
+      "name": "Caravelle Saigon",
+      "destination": "Ho Chi Minh City, Vietnam",
+      "tier": "5-Star Heritage District 1 Hotel",
+      "roomNightUsd": 230,
+      "perGolferTwinShareUsd": 115
+    },
+    "the-oriental-jade": {
+      "name": "The Oriental Jade Hotel",
+      "destination": "Hanoi, Vietnam",
+      "tier": "Old Quarter 5-Star Boutique",
+      "roomNightUsd": 160,
+      "perGolferTwinShareUsd": 80
+    },
+    "the-reverie-saigon": {
+      "name": "The Reverie Saigon",
+      "destination": "Ho Chi Minh City, Vietnam",
+      "tier": "Ultra-Luxury Opulent Skyscraper Hotel",
+      "roomNightUsd": 400,
+      "perGolferTwinShareUsd": 200
+    },
+    "tia-wellness-resort-danang": {
+      "name": "TIA Wellness Resort",
+      "destination": "Da Nang, Vietnam",
+      "tier": "5-Star All-Pool Villa Wellness Sanctuary",
+      "roomNightUsd": 520,
+      "perGolferTwinShareUsd": 260
+    },
+    "amanpuri": {
+      "name": "Amanpuri",
+      "destination": "Phuket, Thailand",
+      "tier": "Ultra-Luxury Flagship Pavilion",
+      "roomNightUsd": 1650,
+      "perGolferTwinShareUsd": 825
+    },
+    "banyan-tree-phuket": {
+      "name": "Banyan Tree Phuket",
+      "destination": "Phuket, Thailand",
+      "tier": "5-Star All-Pool Villa Golf Sanctuary",
+      "roomNightUsd": 620,
+      "perGolferTwinShareUsd": 310
+    },
+    "trisara-phuket": {
+      "name": "Trisara Phuket",
+      "destination": "Phuket, Thailand",
+      "tier": "Ultra-Luxury Oceanfront Pool Villa",
+      "roomNightUsd": 1050,
+      "perGolferTwinShareUsd": 525
+    },
+    "chiva-som": {
+      "name": "Chiva-Som International Health Resort",
+      "destination": "Hua Hin, Thailand",
+      "tier": "Ultra-Luxury Holistic Wellness Retreat",
+      "roomNightUsd": 1200,
+      "perGolferTwinShareUsd": 600
+    },
+    "four-seasons-chiang-mai": {
+      "name": "Four Seasons Resort Chiang Mai",
+      "destination": "Chiang Mai, Thailand",
+      "tier": "Ultra-Luxury Mae Rim Rice-Terrace Pavilion",
+      "roomNightUsd": 980,
+      "perGolferTwinShareUsd": 490
+    },
+    "intercontinental-khao-yai": {
+      "name": "InterContinental Khao Yai Resort",
+      "destination": "Khao Yai, Thailand",
+      "tier": "5-Star Bill Bensley Heritage Resort",
+      "roomNightUsd": 320,
+      "perGolferTwinShareUsd": 160
+    },
+    "riva-surya-bangkok": {
+      "name": "Riva Surya Bangkok",
+      "destination": "Bangkok, Thailand",
+      "tier": "Chao Phraya Riverside Boutique",
+      "roomNightUsd": 170,
+      "perGolferTwinShareUsd": 85
+    },
+    "sindhorn-kempinski": {
+      "name": "Sindhorn Kempinski Hotel Bangkok",
+      "destination": "Bangkok, Thailand",
+      "tier": "Ultra-Luxury Urban Wellness Sanctuary",
+      "roomNightUsd": 440,
+      "perGolferTwinShareUsd": 220
+    },
+    "tamarind-village": {
+      "name": "Tamarind Village",
+      "destination": "Chiang Mai, Thailand",
+      "tier": "Lanna Heritage Boutique Sanctuary",
+      "roomNightUsd": 220,
+      "perGolferTwinShareUsd": 110
+    },
+    "the-standard-hua-hin": {
+      "name": "The Standard, Hua Hin",
+      "destination": "Hua Hin, Thailand",
+      "tier": "5-Star Beachfront Lifestyle Resort",
+      "roomNightUsd": 280,
+      "perGolferTwinShareUsd": 140
+    },
+    "v-villas-hua-hin": {
+      "name": "V Villas Hua Hin (MGallery)",
+      "destination": "Hua Hin, Thailand",
+      "tier": "5-Star Private Pool Villa",
+      "roomNightUsd": 560,
+      "perGolferTwinShareUsd": 280
+    },
+    "amansara": {
+      "name": "Amansara",
+      "destination": "Siem Reap, Cambodia",
+      "tier": "Ultra-Luxury Private Courtyard Suite",
+      "roomNightUsd": 1550,
+      "perGolferTwinShareUsd": 775
+    },
+    "jaya-house-river-park": {
+      "name": "Jaya House River Park",
+      "destination": "Siem Reap, Cambodia",
+      "tier": "5-Star Boutique Riverfront Sanctuary",
+      "roomNightUsd": 330,
+      "perGolferTwinShareUsd": 165
+    },
+    "phokeethra-country-club": {
+      "name": "Sofitel Angkor Phokeethra Golf & Spa Resort",
+      "destination": "Siem Reap, Cambodia",
+      "tier": "5-Star French-Colonial Golf Resort",
+      "roomNightUsd": 280,
+      "perGolferTwinShareUsd": 140
+    },
+    "raffles-grand-dangkor": {
+      "name": "Raffles Grand Hotel d'Angkor",
+      "destination": "Siem Reap, Cambodia",
+      "tier": "Landmark Heritage 5-Star",
+      "roomNightUsd": 480,
+      "perGolferTwinShareUsd": 240
+    },
+    "raffles-hotel-le-royal": {
+      "name": "Raffles Hotel Le Royal",
+      "destination": "Phnom Penh, Cambodia",
+      "tier": "Historic Luxury Landmark",
+      "roomNightUsd": 350,
+      "perGolferTwinShareUsd": 175
+    },
+    "rosewood-phnom-penh": {
+      "name": "Rosewood Phnom Penh",
+      "destination": "Phnom Penh, Cambodia",
+      "tier": "Ultra-Luxury Skyscraper Hotel",
+      "roomNightUsd": 420,
+      "perGolferTwinShareUsd": 210
+    },
+    "song-saa-private-island": {
+      "name": "Song Saa Private Island",
+      "destination": "Koh Rong Archipelago, Cambodia",
+      "tier": "Ultra-Luxury Overwater Private Island Villa",
+      "roomNightUsd": 1350,
+      "perGolferTwinShareUsd": 675
+    },
+    "zannier-phum-baitang": {
+      "name": "Zannier Hotels Phum Baitang",
+      "destination": "Siem Reap, Cambodia",
+      "tier": "Ultra-Luxury Rice-Paddy Pool Villa",
+      "roomNightUsd": 680,
+      "perGolferTwinShareUsd": 340
+    }
+  },
+  "toursCalculated": {
+    "the-central-coast-classic": {
+      "days": 7,
+      "nights": 6,
+      "rounds": 4,
+      "priceUsd": 2590,
+      "priceAud": 3990
+    },
+    "the-coastal-sprint": {
+      "days": 4,
+      "nights": 3,
+      "rounds": 3,
+      "priceUsd": 890,
+      "priceAud": 1380
+    },
+    "hoi-an-beachfront-bliss": {
+      "days": 7,
+      "nights": 6,
+      "rounds": 4,
+      "priceUsd": 1580,
+      "priceAud": 2440
+    },
+    "vietnam-central-coast": {
+      "days": 7,
+      "nights": 6,
+      "rounds": 4,
+      "priceUsd": 1550,
+      "priceAud": 2390
+    },
+    "the-bangkok-and-hua-hin-fairways": {
+      "days": 8,
+      "nights": 7,
+      "rounds": 5,
+      "priceUsd": 2490,
+      "priceAud": 3830
+    },
+    "thailand-royal-siam": {
+      "days": 7,
+      "nights": 6,
+      "rounds": 4,
+      "priceUsd": 1980,
+      "priceAud": 3050
+    },
+    "the-lanna-heritage-golf-trail": {
+      "days": 6,
+      "nights": 5,
+      "rounds": 3,
+      "priceUsd": 1390,
+      "priceAud": 2140
+    },
+    "the-saigon-and-shores-escape": {
+      "days": 9,
+      "nights": 8,
+      "rounds": 6,
+      "priceUsd": 2490,
+      "priceAud": 3830
+    },
+    "cambodia-angkor-odyssey": {
+      "days": 5,
+      "nights": 4,
+      "rounds": 3,
+      "priceUsd": 1690,
+      "priceAud": 2600
+    },
+    "the-khmer-temple-trail": {
+      "days": 5,
+      "nights": 4,
+      "rounds": 3,
+      "priceUsd": 1390,
+      "priceAud": 2140
+    },
+    "the-khmer-kingdom-links": {
+      "days": 7,
+      "nights": 6,
+      "rounds": 4,
+      "priceUsd": 2390,
+      "priceAud": 3680
+    },
+    "the-emperors-fairways": {
+      "days": 11,
+      "nights": 10,
+      "rounds": 7,
+      "priceUsd": 2980,
+      "priceAud": 4590
+    },
+    "the-indochina-golden-age": {
+      "days": 12,
+      "nights": 11,
+      "rounds": 7,
+      "priceUsd": 3690,
+      "priceAud": 5680
+    },
+    "the-grand-vietnam-odyssey": {
+      "days": 14,
+      "nights": 13,
+      "rounds": 9,
+      "priceUsd": 3990,
+      "priceAud": 6140
+    }
+  }
+}

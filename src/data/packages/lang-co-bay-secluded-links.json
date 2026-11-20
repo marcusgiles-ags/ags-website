@@ -1,0 +1,146 @@
+{
+  "slug": "lang-co-bay-secluded-links",
+  "title": "5-Day Lang Co Bay Secluded Links & Banyan Tree Sanctuary",
+  "description": "Secluded luxury pool villa golf retreat at Banyan Tree Lang Co. Play Sir Nick Faldo’s oceanfront gem and Luke Donald’s Ba Na Hills.",
+  "heroImage": "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-banyan-tree-lang-co-pool-villa-1.webp",
+  "destination": "Lang Co Bay, Vietnam",
+  "country": "Vietnam",
+  "groupProfile": "Couples & Discerning Golfers",
+  "intent": "Seclusion & Pure Golf",
+  "duration": "5 Days / 4 Nights (3 Rounds)",
+  "guidePriceUsd": 1875,
+  "guidePriceFrom": 2890,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-central-coast-classic",
+    "title": "The Central Coast Classic",
+    "duration": "7 Days / 6 Nights",
+    "heroImage": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-nick-faldo-vietnam-1.webp",
+    "highlight": "Upgrade to our comprehensive 7-day Central Coast Classic combining Lang Co Bay with Hoi An and Da Nang championship courses."
+  },
+  "featuredVenues": [
+    {
+      "name": "Laguna Golf Lang Co",
+      "type": "course",
+      "href": "/courses/vietnam/laguna-lang-co/",
+      "image": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-nick-faldo-vietnam-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 71 • 6,891 Yards"
+    },
+    {
+      "name": "Ba Na Hills Golf Club",
+      "type": "course",
+      "href": "/courses/vietnam/ba-na-hills/",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-da-nang-vietnam-1.webp",
+      "badge": "Luke Donald / IMG",
+      "highlight": "Par 72 • 7,858 Yards"
+    },
+    {
+      "name": "Banyan Tree Lang Co",
+      "type": "accommodation",
+      "href": "/accommodations/vietnam/banyan-tree-lang-co/",
+      "image": "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-banyan-tree-lang-co-pool-villa-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Door-to-door private luxury chauffeured transfer for all airport and golf rounds."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: 2 rounds at Laguna Golf Lang Co (Sir Nick Faldo) and 1 round at Ba Na Hills Golf Club."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights in a Lagoon Pool Villa at Banyan Tree Lang Co."
+    },
+    {
+      "item": "Banyan Tree Spa",
+      "detail": "Signature holistic massage treatment to relieve golfing fatigue."
+    },
+    {
+      "item": "VIP Concierge",
+      "detail": "Personal caddie pairing and guaranteed morning tee times."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival via Hai Van Coast & Secluded Pool Villa Check-In",
+      "subtitle": "Coastal Sanctuary Arrival",
+      "stayName": "Banyan Tree Lang Co",
+      "stayHref": "/accommodations/vietnam/banyan-tree-lang-co/",
+      "transferTime": "60 mins from DAD Airport",
+      "image": "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-banyan-tree-lang-co-pool-villa-1.webp",
+      "imageCaption": "Banyan Tree Lang Co — Luxury Sanctuary Base",
+      "imageAlt": "Banyan Tree Lang Co luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Da Nang International Airport and travel north through the spectacular Hai Van coastal pass to <a href=\"/accommodations/vietnam/banyan-tree-lang-co/\">Banyan Tree Lang Co</a>, nestled between the Truong Son mountains and a tranquil crescent bay. Check in to your Lagoon Pool Villa featuring traditional Vietnamese architectural aesthetics and a private plunge pool.<br><br>Unwind with a welcome herbal cocktail on your villa sun deck before dining at Saffron, the resort's signature cliffside Thai restaurant offering dramatic views of the East Sea."
+    },
+    {
+      "day": 2,
+      "title": "Championship Links Strategy at Laguna Golf Lang Co",
+      "subtitle": "Round 1: Sir Nick Faldo Coastal Gem",
+      "courseName": "Laguna Golf Lang Co",
+      "courseHref": "/courses/vietnam/laguna-lang-co/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Banyan Tree Lang Co",
+      "stayHref": "/accommodations/vietnam/banyan-tree-lang-co/",
+      "transferTime": "5 mins on resort buggy",
+      "image": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-nick-faldo-vietnam-1.webp",
+      "imageCaption": "Laguna Golf Lang Co — Sir Nick Faldo (Par 71, 6,891 Yards)",
+      "imageAlt": "Laguna Golf Lang Co championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Tee off right on your doorstep at <a href=\"/courses/vietnam/laguna-lang-co/\">Laguna Golf Lang Co</a>. Sir Nick Faldo’s 7,100-yard par-71 layout weaves through active rice paddies, coastal pine groves, and rugged ocean blowouts. The signature par-3 5th hole requires a nerveless strike between giant boulders to a green set against the breaking waves.<br><br>Following play, return to Banyan Tree for an afternoon 60-minute therapeutic massage at the world-renowned Banyan Tree Spa, decompressing your shoulders and spine."
+    },
+    {
+      "day": 3,
+      "title": "Mountain Jungle Drama at Ba Na Hills Golf Club",
+      "subtitle": "Round 2: Mountain Parkland Challenge",
+      "courseName": "Ba Na Hills Golf Club",
+      "courseHref": "/courses/vietnam/ba-na-hills/",
+      "architect": "Luke Donald / IMG",
+      "stayName": "Banyan Tree Lang Co",
+      "stayHref": "/accommodations/vietnam/banyan-tree-lang-co/",
+      "transferTime": "50 mins door-to-door",
+      "image": "/images/courses/vietnam/ba-na-hills/ba-na-hills-golf-club-mountain-course-2.webp",
+      "imageCaption": "Ba Na Hills Golf Club — Luke Donald / IMG (Par 72, 7,858 Yards)",
+      "imageAlt": "Ba Na Hills Golf Club championship golf course Luke Donald / IMG Asia Golf Specialists",
+      "description": "Travel inland to <a href=\"/courses/vietnam/ba-na-hills/\">Ba Na Hills Golf Club</a>. Luke Donald’s layout winds through virgin mountain terrain with dramatic elevation drops, requiring precision clubbing into well-defended Paspalum greens.<br><br>Enjoy lunch overlooking the mountain valley before returning to Lang Co for a peaceful sunset walk along the 3-kilometer private sand beach."
+    },
+    {
+      "day": 4,
+      "title": "Mastering Faldo’s Contours: Laguna Lang Co Replay Round",
+      "subtitle": "Round 3: Championship Replay",
+      "courseName": "Laguna Golf Lang Co",
+      "courseHref": "/courses/vietnam/laguna-lang-co/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Banyan Tree Lang Co",
+      "stayHref": "/accommodations/vietnam/banyan-tree-lang-co/",
+      "transferTime": "5 mins on resort buggy",
+      "image": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-jungle-tropical-3.webp",
+      "imageCaption": "Laguna Golf Lang Co — Sir Nick Faldo (Par 71, 6,891 Yards)",
+      "imageAlt": "Laguna Golf Lang Co championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Return to Laguna Golf Lang Co for a strategic replay round, using your newfound knowledge of Faldo's subtle slopes, bunker placement, and coastal cross-winds to improve your tournament score.<br><br>Spend your final evening enjoying a private beach barbecue dinner served right outside your pool villa with the sound of the ocean waves."
+    },
+    {
+      "day": 5,
+      "title": "Private Executive Departure to Da Nang Airport",
+      "subtitle": "Departure",
+      "stayName": "Banyan Tree Lang Co",
+      "stayHref": "/accommodations/vietnam/banyan-tree-lang-co/",
+      "transferTime": "60 mins to DAD Airport",
+      "image": "/images/accommodations/vietnam/banyan-tree-lang-co/vietnam-luxury-hotel-banyan-tree-lang-co-pool-villa-1.webp",
+      "imageCaption": "Banyan Tree Lang Co — Luxury Sanctuary Base",
+      "imageAlt": "Banyan Tree Lang Co luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast on your villa deck before checking out with the assistance of your AGS concierge.<br><br>Your private executive transfer delivers you back to Da Nang International Airport in comfort for your return flight home."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Laguna Golf Lang Co walkable?",
+      "answer": "While buggies are provided, the course is enjoyable to walk during the cooler winter months between November and February."
+    }
+  ]
+}

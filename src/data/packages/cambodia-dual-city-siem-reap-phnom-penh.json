@@ -1,0 +1,209 @@
+{
+  "slug": "cambodia-dual-city-siem-reap-phnom-penh",
+  "title": "8-Day Cambodia Grand Dual-City: Angkor Temples & Phnom Penh Skyline",
+  "description": "The definitive Cambodia golf experience. Connect Raffles Grand Hotel d'Angkor with Rosewood Phnom Penh, playing Faldo layouts across both cities.",
+  "heroImage": "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-course-cambodia-1.webp",
+  "destination": "Siem Reap & Phnom Penh, Cambodia",
+  "country": "Cambodia",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Dual-City Grand Odyssey",
+  "duration": "8 Days / 7 Nights (4 Rounds)",
+  "guidePriceUsd": 2405,
+  "guidePriceFrom": 3700,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-khmer-kingdom-links",
+    "title": "The Khmer Kingdom Links",
+    "duration": "8 Days / 7 Nights",
+    "heroImage": "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-course-cambodia-1.webp",
+    "highlight": "Our flagship 8-day signature tour featuring private temple scholars, domestic flights, and luxury penthouse suites across Cambodia."
+  },
+  "featuredVenues": [
+    {
+      "name": "Angkor Golf Resort Siem Reap",
+      "type": "course",
+      "href": "/courses/cambodia/angkor-golf-resort/",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Phokeethra Country Club",
+      "type": "course",
+      "href": "/courses/cambodia/phokeethra/",
+      "image": "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+      "badge": "Weerayudth Phetbuasak",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Vattanac Golf Resort East Course",
+      "type": "course",
+      "href": "/courses/cambodia/vattanac-east/",
+      "image": "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-course-cambodia-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Garden City Golf Club",
+      "type": "course",
+      "href": "/courses/cambodia/garden-city/",
+      "image": "/images/courses/cambodia/garden-city/garden-city-golf-club-phnom-penh-cambodia-1.webp",
+      "badge": "Weerayudth Phetbuasak",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Raffles Grand Hotel d'Angkor",
+      "type": "accommodation",
+      "href": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "image": "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-heritage-pool-3.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    },
+    {
+      "name": "Rosewood Phnom Penh",
+      "type": "accommodation",
+      "href": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "image": "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-rooftop-bar-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "All private luxury ground transport in both Siem Reap and Phnom Penh."
+    },
+    {
+      "item": "Domestic Flight",
+      "detail": "Business/Premium domestic flight connecting Siem Reap to Phnom Penh."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "4 rounds: Angkor Golf Resort, Phokeethra, Vattanac (East), and Garden City."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights at Raffles Grand Hotel d'Angkor + 3 nights at Rosewood Phnom Penh."
+    },
+    {
+      "item": "Angkor Wat Scholar Tour",
+      "detail": "Private guided sunrise tour of Angkor Wat with expert archaeologist."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Siem Reap & Heritage Check-In at Raffles",
+      "subtitle": "Siem Reap Arrival",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "45 mins from SAI Airport",
+      "image": "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-heritage-pool-3.webp",
+      "imageCaption": "Raffles Grand Hotel d'Angkor — Luxury Sanctuary Base",
+      "imageAlt": "Raffles Grand Hotel d'Angkor luxury accommodation Asia Golf Specialists",
+      "description": "Arrive in Siem Reap and transfer to <a href=\"/accommodations/cambodia/raffles-grand-dangkor/\">Raffles Grand Hotel d'Angkor</a>. Settle into your heritage room.<br><br>Enjoy welcome drinks in the Elephant Bar followed by dinner celebrating royal Khmer cuisine."
+    },
+    {
+      "day": 2,
+      "title": "Faldo Mastery at Angkor Golf Resort",
+      "subtitle": "Round 1: Faldo Design Showcase",
+      "courseName": "Angkor Golf Resort Siem Reap",
+      "courseHref": "/courses/cambodia/angkor-golf-resort/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "15 mins door-to-door",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+      "imageCaption": "Angkor Golf Resort Siem Reap — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Angkor Golf Resort Siem Reap championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/cambodia/angkor-golf-resort/\">Angkor Golf Resort</a>, navigating Sir Nick Faldo's bunkering and contoured greens.<br><br>Return to Raffles for an afternoon swim in the historic pool."
+    },
+    {
+      "day": 3,
+      "title": "Sunrise Angkor Wat & Phokeethra Country Club",
+      "subtitle": "Round 2: Heritage & Golf",
+      "courseName": "Phokeethra Country Club",
+      "courseHref": "/courses/cambodia/phokeethra/",
+      "architect": "Weerayudth Phetbuasak",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+      "imageCaption": "Phokeethra Country Club — Weerayudth Phetbuasak (Par 72, 7,000+ Yards)",
+      "imageAlt": "Phokeethra Country Club championship golf course Weerayudth Phetbuasak Asia Golf Specialists",
+      "description": "Witness sunrise at Angkor Wat on a private scholar tour before playing <a href=\"/courses/cambodia/phokeethra/\">Phokeethra Country Club</a>.<br><br>Spend the evening exploring Siem Reap’s craft markets."
+    },
+    {
+      "day": 4,
+      "title": "Flight to Phnom Penh & Rosewood Skyline Check-In",
+      "subtitle": "Capital Transition",
+      "stayName": "Rosewood Phnom Penh",
+      "stayHref": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "transferTime": "50 min flight + 40 min transfer",
+      "image": "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-rooftop-bar-1.webp",
+      "imageCaption": "Rosewood Phnom Penh — Luxury Sanctuary Base",
+      "imageAlt": "Rosewood Phnom Penh luxury accommodation Asia Golf Specialists",
+      "description": "Fly to Phnom Penh and check into <a href=\"/accommodations/cambodia/rosewood-phnom-penh/\">Rosewood Phnom Penh</a> atop Vattanac Capital Tower.<br><br>Enjoy sunset cocktails at Sora sky bar overlooking the Mekong."
+    },
+    {
+      "day": 5,
+      "title": "Khmer Architecture at Vattanac Golf Resort (East Course)",
+      "subtitle": "Round 3: Faldo East Course",
+      "courseName": "Vattanac Golf Resort East Course",
+      "courseHref": "/courses/cambodia/vattanac-east/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Rosewood Phnom Penh",
+      "stayHref": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "transferTime": "40 mins door-to-door",
+      "image": "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-course-cambodia-1.webp",
+      "imageCaption": "Vattanac Golf Resort East Course — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Vattanac Golf Resort East Course championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Play Faldo’s East Course at <a href=\"/courses/cambodia/vattanac-east/\">Vattanac Golf Resort</a>, inspired by Angkorian heritage.<br><br>Return to Rosewood for an evening of French bistro dining."
+    },
+    {
+      "day": 6,
+      "title": "Asian Tour Venue at Garden City Golf Club",
+      "subtitle": "Round 4: Championship Finale",
+      "courseName": "Garden City Golf Club",
+      "courseHref": "/courses/cambodia/garden-city/",
+      "architect": "Weerayudth Phetbuasak",
+      "stayName": "Rosewood Phnom Penh",
+      "stayHref": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "transferTime": "35 mins door-to-door",
+      "image": "/images/courses/cambodia/garden-city/garden-city-golf-club-phnom-penh-cambodia-1.webp",
+      "imageCaption": "Garden City Golf Club — Weerayudth Phetbuasak (Par 72, 7,000+ Yards)",
+      "imageAlt": "Garden City Golf Club championship golf course Weerayudth Phetbuasak Asia Golf Specialists",
+      "description": "Conclude your golf rotation at <a href=\"/courses/cambodia/garden-city/\">Garden City Golf Club</a>, testing your skills against rolling fairways and water carries.<br><br>Gather for a farewell banquet at Rosewood's Japanese robata grill."
+    },
+    {
+      "day": 7,
+      "title": "Capital Rest Day & Royal Palace Exploration",
+      "subtitle": "Cultural Rest Day",
+      "stayName": "Rosewood Phnom Penh",
+      "stayHref": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "transferTime": "At leisure in Phnom Penh",
+      "image": "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-rooftop-bar-1.webp",
+      "imageCaption": "Rosewood Phnom Penh — Luxury Sanctuary Base",
+      "imageAlt": "Rosewood Phnom Penh luxury accommodation Asia Golf Specialists",
+      "description": "Spend a relaxing day exploring the Royal Palace and Silver Pagoda or enjoying the Sense Spa.<br><br>Toast the conclusion of your dual-city tour at Sora sky bar."
+    },
+    {
+      "day": 8,
+      "title": "VIP Departure via Phnom Penh Airport",
+      "subtitle": "Departure",
+      "stayName": "Rosewood Phnom Penh",
+      "stayHref": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "transferTime": "40 mins to PNH Airport",
+      "image": "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-rooftop-bar-1.webp",
+      "imageCaption": "Rosewood Phnom Penh — Luxury Sanctuary Base",
+      "imageAlt": "Rosewood Phnom Penh luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy breakfast with panoramic views before checking out.<br><br>Your private executive transfer transports you to Phnom Penh International Airport for your flight home."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How is the transit between Siem Reap and Phnom Penh arranged?",
+      "answer": "We include domestic business/premium flights taking just 50 minutes, with VIP baggage handling end-to-end."
+    }
+  ]
+}

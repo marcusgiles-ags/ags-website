@@ -1,0 +1,154 @@
+{
+  "slug": "raffles-angkor-golf-and-temples",
+  "title": "5-Day Raffles Grand Angkor Golf & Ancient Temple Classic",
+  "description": "Heritage French colonial elegance at Raffles Grand Hotel d'Angkor. Play Sir Nick Faldo’s Angkor Golf Resort, Phokeethra, and Siem Reap Booyoung.",
+  "heroImage": "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-heritage-pool-3.webp",
+  "destination": "Siem Reap & Angkor, Cambodia",
+  "country": "Cambodia",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Heritage Golf & Culture",
+  "duration": "5 Days / 4 Nights (3 Rounds)",
+  "guidePriceUsd": 1520,
+  "guidePriceFrom": 2340,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-khmer-temple-trail",
+    "title": "The Khmer Temple Trail",
+    "duration": "7 Days / 6 Nights",
+    "heroImage": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+    "highlight": "Upgrade to our premier 7-day signature tour featuring private temple scholars, monk water blessings, and exclusive banquet dining."
+  },
+  "featuredVenues": [
+    {
+      "name": "Angkor Golf Resort Siem Reap",
+      "type": "course",
+      "href": "/courses/cambodia/angkor-golf-resort/",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Phokeethra Country Club",
+      "type": "course",
+      "href": "/courses/cambodia/phokeethra/",
+      "image": "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+      "badge": "Weerayudth Phetbuasak",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Siem Reap Booyoung Country Club",
+      "type": "course",
+      "href": "/courses/cambodia/siem-reap-booyoung/",
+      "image": "/images/courses/cambodia/siem-reap-booyoung/siem-reap-booyoung-country-club-cambodia-1.webp",
+      "badge": "Kentaro Sato",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Raffles Grand Hotel d'Angkor",
+      "type": "accommodation",
+      "href": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "image": "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-heritage-pool-3.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Chauffeured executive vehicles for all airport, temple, and golf course connections."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: Angkor Golf Resort (Sir Nick Faldo), Phokeethra Country Club, and Siem Reap Booyoung."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights in a Landmark Room at Raffles Grand Hotel d'Angkor (est. 1932)."
+    },
+    {
+      "item": "Angkor Wat Scholar Tour",
+      "detail": "Private guided sunrise temple exploration with an expert archaeological scholar."
+    },
+    {
+      "item": "Elephant Bar Access",
+      "detail": "Signature welcome Singapore Sling / Airavata cocktail at the historic Elephant Bar."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Siem Reap & Heritage Colonial Suite Check-In",
+      "subtitle": "Colonial Heritage Arrival",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "45 mins from SAI Airport",
+      "image": "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-heritage-pool-3.webp",
+      "imageCaption": "Raffles Grand Hotel d'Angkor — Luxury Sanctuary Base",
+      "imageAlt": "Raffles Grand Hotel d'Angkor luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Siem Reap–Angkor International Airport (SAI) where your private chauffeur welcomes your group and transfers you to the storied <a href=\"/accommodations/cambodia/raffles-grand-dangkor/\">Raffles Grand Hotel d'Angkor</a>. Operating continuously since 1932, the property features historic timber elevators, French colonial archways, and the largest historic pool in Cambodia.<br><br>Unpack in your Landmark Room before meeting in the legendary Elephant Bar for a welcome Airavata cocktail, followed by refined Royal Khmer cuisine at 1932 restaurant."
+    },
+    {
+      "day": 2,
+      "title": "Sir Nick Faldo’s Masterpiece: Angkor Golf Resort",
+      "subtitle": "Round 1: Faldo Championship Design",
+      "courseName": "Angkor Golf Resort Siem Reap",
+      "courseHref": "/courses/cambodia/angkor-golf-resort/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "15 mins door-to-door",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+      "imageCaption": "Angkor Golf Resort Siem Reap — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Angkor Golf Resort Siem Reap championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/cambodia/angkor-golf-resort/\">Angkor Golf Resort</a>, Sir Nick Faldo's award-winning championship design. Manicured Paspalum fairways wind around natural water hazards, challenging your approach shots into bold, undulating green complexes.<br><br>Conclude your round with drinks in the modern clubhouse before returning to Raffles for a relaxing afternoon swim in the heritage pool."
+    },
+    {
+      "day": 3,
+      "title": "Dawn Angkor Wat Scholar Tour & Phokeethra Country Club",
+      "subtitle": "Round 2: Heritage & Tournament Golf",
+      "courseName": "Phokeethra Country Club",
+      "courseHref": "/courses/cambodia/phokeethra/",
+      "architect": "Weerayudth Phetbuasak",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+      "imageCaption": "Phokeethra Country Club — Weerayudth Phetbuasak (Par 72, 7,000+ Yards)",
+      "imageAlt": "Phokeethra Country Club championship golf course Weerayudth Phetbuasak Asia Golf Specialists",
+      "description": "Experience a magical private sunrise tour of Angkor Wat led by an expert archaeological scholar, exploring quiet inner sanctuaries ahead of the public. After a gourmet temple breakfast, head to <a href=\"/courses/cambodia/phokeethra/\">Phokeethra Country Club</a>, managed by Sofitel, featuring a scenic 11th-century stone bridge and natural lakes.<br><br>Return to Raffles for an evening of relaxation in the spa and an exquisite dinner in the gardens."
+    },
+    {
+      "day": 4,
+      "title": "Kentaro Sato Design at Siem Reap Booyoung Country Club",
+      "subtitle": "Round 3: Strategic Japanese Parkland",
+      "courseName": "Siem Reap Booyoung Country Club",
+      "courseHref": "/courses/cambodia/siem-reap-booyoung/",
+      "architect": "Kentaro Sato",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "25 mins door-to-door",
+      "image": "/images/courses/cambodia/siem-reap-booyoung/siem-reap-booyoung-country-club-cambodia-1.webp",
+      "imageCaption": "Siem Reap Booyoung Country Club — Kentaro Sato (Par 72, 7,000+ Yards)",
+      "imageAlt": "Siem Reap Booyoung Country Club championship golf course Kentaro Sato Asia Golf Specialists",
+      "description": "Play the immaculate parkland layout at <a href=\"/courses/cambodia/siem-reap-booyoung/\">Siem Reap Booyoung Country Club</a>, designed by renowned Japanese architect Kentaro Sato. Sculpted fairways, picturesque lake carries, and fast greens deliver a satisfying test.<br><br>Celebrate the final round with farewell drinks at the Elephant Bar, reflecting on an extraordinary week of Khmer culture and golf."
+    },
+    {
+      "day": 5,
+      "title": "Morning Garden Stroll & Airport Departure",
+      "subtitle": "Departure",
+      "stayName": "Raffles Grand Hotel d'Angkor",
+      "stayHref": "/accommodations/cambodia/raffles-grand-dangkor/",
+      "transferTime": "45 mins to SAI Airport",
+      "image": "/images/accommodations/cambodia/raffles-grand-dangkor/cambodia-luxury-hotel-raffles-grand-hotel-dangkor-heritage-pool-3.webp",
+      "imageCaption": "Raffles Grand Hotel d'Angkor — Luxury Sanctuary Base",
+      "imageAlt": "Raffles Grand Hotel d'Angkor luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast on the terrace before checking out with the assistance of your AGS concierge.<br><br>Your private executive transfer transports your party to Siem Reap–Angkor International Airport for your departure flight."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the dress code for visiting Angkor temples?",
+      "answer": "Visitors must cover shoulders and knees when entering temple sanctuaries; lightweight linen shirts and trousers are ideal."
+    }
+  ]
+}

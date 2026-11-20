@@ -1,0 +1,143 @@
+{
+  "slug": "amansara-angkor-vip-expedition",
+  "title": "5-Day Amansara Angkor Ultra-Luxury Golf Expedition",
+  "description": "Former royal guesthouse of King Norodom Sihanouk. Play Angkor Golf Resort and Phokeethra with private scholar temple access and vintage transfers.",
+  "heroImage": "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-pool-courtyard-4.webp",
+  "destination": "Siem Reap, Cambodia",
+  "country": "Cambodia",
+  "groupProfile": "Discerning Couples & Golfers",
+  "intent": "Ultra-Luxury & Ancient Heritage",
+  "duration": "5 Days / 4 Nights (2 Rounds)",
+  "guidePriceUsd": 3690,
+  "guidePriceFrom": 5680,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "cambodia-angkor-odyssey",
+    "title": "Cambodia Angkor Odyssey",
+    "duration": "7 Days / 6 Nights",
+    "heroImage": "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-pool-courtyard-4.webp",
+    "highlight": "Upgrade to our premier 7-day all-inclusive Angkor signature tour pairing Amansara with private helicopter flights over remote jungle temples."
+  },
+  "featuredVenues": [
+    {
+      "name": "Angkor Golf Resort Siem Reap",
+      "type": "course",
+      "href": "/courses/cambodia/angkor-golf-resort/",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Phokeethra Country Club",
+      "type": "course",
+      "href": "/courses/cambodia/phokeethra/",
+      "image": "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+      "badge": "Weerayudth Phetbuasak",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Amansara Siem Reap",
+      "type": "accommodation",
+      "href": "/accommodations/cambodia/amansara/",
+      "image": "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-pool-courtyard-4.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Vintage Vehicle Transfers",
+      "detail": "Private transfers in Amansara’s restored 1960s vintage Mercedes limousine."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "2 rounds at Angkor Golf Resort and Phokeethra Country Club."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights in a Private Courtyard Suite at Amansara."
+    },
+    {
+      "item": "Private Scholar Temple Access",
+      "detail": "Crowd-free early access to Ta Prohm, Angkor Thom, and Banteay Srei with private scholar guides."
+    },
+    {
+      "item": "Aman Spa Hydrotherapy",
+      "detail": "Signature holistic Khmer herbal treatments and restorative bodywork."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "VIP Arrival & King Sihanouk Guest Residence Check-In",
+      "subtitle": "Royal Sanctuary Welcome",
+      "stayName": "Amansara Siem Reap",
+      "stayHref": "/accommodations/cambodia/amansara/",
+      "transferTime": "45 mins from SAI Airport",
+      "image": "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-pool-courtyard-4.webp",
+      "imageCaption": "Amansara Siem Reap — Luxury Sanctuary Base",
+      "imageAlt": "Amansara Siem Reap luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Siem Reap Airport and meet your personal Amansara host for a smooth transfer in a restored vintage Mercedes to <a href=\"/accommodations/cambodia/amansara/\">Amansara</a>, once the private guesthouse of King Norodom Sihanouk. Settle into your serene Courtyard Suite designed in cool New Khmer 1960s minimalist architecture.<br><br>Enjoy an introductory herbal wellness foot bath before dining in the iconic circular dining room, savoring traditional Khmer delicacies."
+    },
+    {
+      "day": 2,
+      "title": "Championship Golf at Sir Nick Faldo’s Angkor Golf Resort",
+      "subtitle": "Round 1: Faldo Design Showcase",
+      "courseName": "Angkor Golf Resort Siem Reap",
+      "courseHref": "/courses/cambodia/angkor-golf-resort/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Amansara Siem Reap",
+      "stayHref": "/accommodations/cambodia/amansara/",
+      "transferTime": "15 mins door-to-door",
+      "image": "/images/courses/cambodia/angkor-golf-resort/angkor-golf-resort-siem-reap-cambodia-1.webp",
+      "imageCaption": "Angkor Golf Resort Siem Reap — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Angkor Golf Resort Siem Reap championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Tee off at <a href=\"/courses/cambodia/angkor-golf-resort/\">Angkor Golf Resort</a>. Sir Nick Faldo’s layout provides an exhilarating championship challenge with sprawling waste bunkers, water hazards, and firm, fast Paspalum putting surfaces.<br><br>Return to Amansara for an afternoon hydrotherapy session at the Aman Spa, followed by cocktails in the open-air roof terrace."
+    },
+    {
+      "day": 3,
+      "title": "Dawn Ta Prohm Scholar Access & Private Monk Blessing",
+      "subtitle": "Spiritual & Temple Discovery",
+      "stayName": "Amansara Siem Reap",
+      "stayHref": "/accommodations/cambodia/amansara/",
+      "transferTime": "At leisure in Siem Reap",
+      "image": "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-outdoor-lounge-1.webp",
+      "imageCaption": "Amansara Siem Reap — Luxury Sanctuary Base",
+      "imageAlt": "Amansara Siem Reap luxury accommodation Asia Golf Specialists",
+      "description": "Depart before dawn in Amansara's custom remork to experience Ta Prohm (the \"Tomb Raider\" temple) in complete solitude before other visitors arrive. Receive an authentic private water blessing from Buddhist monks at a quiet forest pagoda.<br><br>Enjoy breakfast at Amansara’s private traditional wooden village house overlooking the Royal Reservoir of Srah Srang."
+    },
+    {
+      "day": 4,
+      "title": "Championship Heritage at Phokeethra Country Club",
+      "subtitle": "Round 2: Historic Parkland",
+      "courseName": "Phokeethra Country Club",
+      "courseHref": "/courses/cambodia/phokeethra/",
+      "architect": "Weerayudth Phetbuasak",
+      "stayName": "Amansara Siem Reap",
+      "stayHref": "/accommodations/cambodia/amansara/",
+      "transferTime": "20 mins door-to-door",
+      "image": "/images/courses/cambodia/phokeethra/phokeethra-country-club-siem-reap-cambodia-1.webp",
+      "imageCaption": "Phokeethra Country Club — Weerayudth Phetbuasak (Par 72, 7,000+ Yards)",
+      "imageAlt": "Phokeethra Country Club championship golf course Weerayudth Phetbuasak Asia Golf Specialists",
+      "description": "Play <a href=\"/courses/cambodia/phokeethra/\">Phokeethra Country Club</a>, winding around ancient Khmer waterways and native hardwood trees.<br><br>Conclude your trip with a candlelit farewell dinner beside the Amansara curved reflection pool, accompanied by classical Khmer live music."
+    },
+    {
+      "day": 5,
+      "title": "Private Vintage Departure via Siem Reap Airport",
+      "subtitle": "Departure",
+      "stayName": "Amansara Siem Reap",
+      "stayHref": "/accommodations/cambodia/amansara/",
+      "transferTime": "45 mins to SAI Airport",
+      "image": "/images/accommodations/cambodia/amansara/cambodia-luxury-hotel-amansara-siem-reap-pool-courtyard-4.webp",
+      "imageCaption": "Amansara Siem Reap — Luxury Sanctuary Base",
+      "imageAlt": "Amansara Siem Reap luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy a leisurely breakfast on your private courtyard terrace before checking out.<br><br>Your private vintage Mercedes limousine delivers your party back to Siem Reap International Airport for your onward flight."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Amansara unique in Siem Reap?",
+      "answer": "Amansara was built in 1962 as King Norodom Sihanouk’s private guesthouse for visiting dignitaries like Jacqueline Kennedy and Charles de Gaulle."
+    }
+  ]
+}

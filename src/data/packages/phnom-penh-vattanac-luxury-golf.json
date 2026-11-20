@@ -1,0 +1,154 @@
+{
+  "slug": "phnom-penh-vattanac-luxury-golf",
+  "title": "5-Day Phnom Penh Vattanac Golf & Capital Luxury",
+  "description": "Skyline luxury at Rosewood Phnom Penh. Play Sir Nick Faldo’s East and West Courses at Vattanac Golf Resort and Garden City.",
+  "heroImage": "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-course-cambodia-1.webp",
+  "destination": "Phnom Penh, Cambodia",
+  "country": "Cambodia",
+  "groupProfile": "Groups of 4 to 12 Golfers",
+  "intent": "Capital Luxury & Championship Golf",
+  "duration": "5 Days / 4 Nights (3 Rounds)",
+  "guidePriceUsd": 1475,
+  "guidePriceFrom": 2270,
+  "guidePriceCurrency": "AUD",
+  "signatureTour": {
+    "slug": "the-khmer-kingdom-links",
+    "title": "The Khmer Kingdom Links",
+    "duration": "8 Days / 7 Nights",
+    "heroImage": "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-course-cambodia-1.webp",
+    "highlight": "Upgrade to our premier 8-day signature tour connecting Phnom Penh’s championship tracks with the ancient temples of Angkor."
+  },
+  "featuredVenues": [
+    {
+      "name": "Vattanac Golf Resort East Course",
+      "type": "course",
+      "href": "/courses/cambodia/vattanac-east/",
+      "image": "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-course-cambodia-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Vattanac Golf Resort West Course",
+      "type": "course",
+      "href": "/courses/cambodia/vattanac-west/",
+      "image": "/images/courses/cambodia/vattanac-west/vattanac-golf-resort-west-course-cambodia-1.webp",
+      "badge": "Sir Nick Faldo",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Garden City Golf Club",
+      "type": "course",
+      "href": "/courses/cambodia/garden-city/",
+      "image": "/images/courses/cambodia/garden-city/garden-city-golf-club-phnom-penh-cambodia-1.webp",
+      "badge": "Weerayudth Phetbuasak",
+      "highlight": "Par 72 • 7,000+ Yards"
+    },
+    {
+      "name": "Rosewood Phnom Penh",
+      "type": "accommodation",
+      "href": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "image": "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-rooftop-bar-1.webp",
+      "badge": "Luxury Sanctuary Base",
+      "highlight": "Curated 5-Star Hospitality"
+    }
+  ],
+  "inclusions": [
+    {
+      "item": "Private Luxury Transfers",
+      "detail": "Executive chauffeured vehicles for all airport and course connections."
+    },
+    {
+      "item": "Championship Golf",
+      "detail": "3 rounds: Vattanac East Course, Vattanac West Course, and Garden City Golf Club."
+    },
+    {
+      "item": "Accommodations",
+      "detail": "4 nights in an Executive Room at Rosewood Phnom Penh atop Vattanac Capital Tower."
+    },
+    {
+      "item": "Sora Sky Bar Access",
+      "detail": "Reserved seating at Sora, the iconic cantilevered rooftop sky lounge on level 37."
+    },
+    {
+      "item": "Local Guardian",
+      "detail": "24/7 dedicated on-ground concierge support."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in the Capital & Vattanac Tower Check-In at Rosewood",
+      "subtitle": "Capital Skyline Arrival",
+      "stayName": "Rosewood Phnom Penh",
+      "stayHref": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "transferTime": "40 mins from PNH Airport",
+      "image": "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-rooftop-bar-1.webp",
+      "imageCaption": "Rosewood Phnom Penh — Luxury Sanctuary Base",
+      "imageAlt": "Rosewood Phnom Penh luxury accommodation Asia Golf Specialists",
+      "description": "Arrive at Phnom Penh International Airport and transfer to <a href=\"/accommodations/cambodia/rosewood-phnom-penh/\">Rosewood Phnom Penh</a>, occupying the top 14 floors of the iconic Vattanac Capital Tower. Check in to your ultra-luxury room with floor-to-ceiling views of the Mekong River and the capital skyline.<br><br>Enjoy sunset cocktails at Sora, the dramatic cantilevered sky bar 37 floors above the city, before dining at Brasserie Louis."
+    },
+    {
+      "day": 2,
+      "title": "Faldo Masterpiece: Vattanac Golf Resort (East Course)",
+      "subtitle": "Round 1: Sir Nick Faldo Design",
+      "courseName": "Vattanac Golf Resort East Course",
+      "courseHref": "/courses/cambodia/vattanac-east/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Rosewood Phnom Penh",
+      "stayHref": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "transferTime": "40 mins door-to-door",
+      "image": "/images/courses/cambodia/vattanac-east/vattanac-golf-resort-east-course-cambodia-1.webp",
+      "imageCaption": "Vattanac Golf Resort East Course — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Vattanac Golf Resort East Course championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Tee off on the East Course at <a href=\"/courses/cambodia/vattanac-east/\">Vattanac Golf Resort</a>, Sir Nick Faldo’s monumental 7,467-yard layout inspired by ancient Khmer architecture. Featuring miniature replicas of Angkor temples as tee markers and sweeping lake hazards, it is one of the most visually stunning courses in Asia.<br><br>Conclude with lunch in Vattanac’s palatial clubhouse before returning to Rosewood for an afternoon spa treatment at Sense."
+    },
+    {
+      "day": 3,
+      "title": "Tournament Parkland at Garden City Golf Club",
+      "subtitle": "Round 2: Asian Tour Venue",
+      "courseName": "Garden City Golf Club",
+      "courseHref": "/courses/cambodia/garden-city/",
+      "architect": "Weerayudth Phetbuasak",
+      "stayName": "Rosewood Phnom Penh",
+      "stayHref": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "transferTime": "35 mins door-to-door",
+      "image": "/images/courses/cambodia/garden-city/garden-city-golf-club-phnom-penh-cambodia-1.webp",
+      "imageCaption": "Garden City Golf Club — Weerayudth Phetbuasak (Par 72, 7,000+ Yards)",
+      "imageAlt": "Garden City Golf Club championship golf course Weerayudth Phetbuasak Asia Golf Specialists",
+      "description": "Play <a href=\"/courses/cambodia/garden-city/\">Garden City Golf Club</a>, Weerayudth Phetbuasak’s championship layout. Winding around expansive lakes and contoured greens, it provides an exceptional test of strategic ball-striking.<br><br>Spend the evening exploring Phnom Penh's thriving dining scene, enjoying French fine dining or riverside craft cocktail bars along the Sisowath Quay."
+    },
+    {
+      "day": 4,
+      "title": "Dragon Lake Challenge: Vattanac Golf Resort (West Course)",
+      "subtitle": "Round 3: Championship Finale",
+      "courseName": "Vattanac Golf Resort West Course",
+      "courseHref": "/courses/cambodia/vattanac-west/",
+      "architect": "Sir Nick Faldo",
+      "stayName": "Rosewood Phnom Penh",
+      "stayHref": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "transferTime": "40 mins door-to-door",
+      "image": "/images/courses/cambodia/vattanac-west/vattanac-golf-resort-west-course-cambodia-1.webp",
+      "imageCaption": "Vattanac Golf Resort West Course — Sir Nick Faldo (Par 72, 7,000+ Yards)",
+      "imageAlt": "Vattanac Golf Resort West Course championship golf course Sir Nick Faldo Asia Golf Specialists",
+      "description": "Take on Faldo’s West Course at <a href=\"/courses/cambodia/vattanac-west/\">Vattanac Golf Resort</a>. Characterized by narrower fairways, dramatic lake carries, and bold greens complexes, it delivers a thrilling championship test.<br><br>Celebrate with a farewell dinner at Iza, Rosewood’s Japanese robata grill, reflecting on an unforgettable capital golf expedition."
+    },
+    {
+      "day": 5,
+      "title": "Morning Mekong Views & VIP Airport Departure",
+      "subtitle": "Departure",
+      "stayName": "Rosewood Phnom Penh",
+      "stayHref": "/accommodations/cambodia/rosewood-phnom-penh/",
+      "transferTime": "40 mins to PNH Airport",
+      "image": "/images/accommodations/cambodia/rosewood-phnom-penh/cambodia-luxury-hotel-rosewood-phnom-penh-rooftop-bar-1.webp",
+      "imageCaption": "Rosewood Phnom Penh — Luxury Sanctuary Base",
+      "imageAlt": "Rosewood Phnom Penh luxury accommodation Asia Golf Specialists",
+      "description": "Enjoy breakfast overlooking the confluence of the Tonle Sap and Mekong rivers before checking out.<br><br>Your private executive transfer delivers you to Phnom Penh International Airport for your departure."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How far is Vattanac Golf Resort from downtown Phnom Penh?",
+      "answer": "The resort is located approximately 40 minutes south of central Phnom Penh via private highway transfer."
+    }
+  ]
+}
