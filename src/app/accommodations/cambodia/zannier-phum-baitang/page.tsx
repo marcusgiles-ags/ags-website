@@ -88,9 +88,9 @@ export default function ZannierPhumBaitang() {
  <div>
  <h2 style={{ marginBottom: '2rem' }}>The <span className="text-gold">Experience</span></h2>
  <div style={{ color: '#ccc', lineHeight: '1.8', fontSize: '1.1rem' }}>
- <p>Phum Baitang — meaning "Green Village" in Khmer — is the most distinctive property in the AGS Cambodia portfolio and one of the most original luxury concepts in Southeast Asia. Zannier Hotels' founding property in Siem Reap places 45 traditional stilted villas on raised platforms above eight acres of working rice paddies, creating a living connection between the luxury guest experience and the Khmer agricultural landscape that surrounds Angkor.</p>
+ <p>Phum Baitang — meaning "Green Village" in Khmer — is the most distinctive property in the AGS Cambodia portfolio and one of the most original luxury concepts in Southeast Asia. Zannier Hotels' founding property in Siem Reap places 45 traditional stilted villas on raised platforms above 20 acres (8 hectares) of working rice paddies, creating a living connection between the luxury guest experience and the Khmer agricultural landscape that surrounds Angkor.</p>
  <p>The villas are constructed from natural materials with bamboo screens, dark hardwood floors, and organic linen throughout — creating a sensory experience that feels genuinely embedded in Cambodian rural life while delivering the service standards of a five-star international hotel. The experience begins with a bicycle arrival through the paddy fields and never departs from that philosophy of authentic engagement.</p>
- <p>For AGS clients who represent the premium golf traveller archetype — experienced, culturally curious, and specifically seeking destinations that offer depth beyond the course — Phum Baitang provides the most differentiated accommodation experience in Cambodia. It is the natural partner to Angkor Golf Resort and Chhun On Golf Resort, two of Siem Reap's most sophisticated golfing challenges.</p>
+ <p>For AGS clients who represent the premium golf traveller archetype — experienced, culturally curious, and specifically seeking destinations that offer depth beyond the course — Phum Baitang provides the most differentiated accommodation experience in Cambodia. It is the natural partner to Sir Nick Faldo's Angkor Golf Resort and Phokeethra Country Club, Siem Reap's two premier championship tests.</p>
  </div>
  </div>
  </div>
@@ -103,7 +103,7 @@ export default function ZannierPhumBaitang() {
   />
   </div>
   </section>
- <section className="section"><div className="container text-center"><h2 style={{ marginBottom: '1rem' }}>Book via <span className="text-gold">Asia Golf Specialists</span></h2><p style={{ maxWidth: '600px', margin: '0 auto 2rem', color: '#ccc' }}>AGS coordinates Phum Baitang stays with Angkor Golf Resort packages and Chhun On tee times.</p><Link href="/quote/" className="btn-primary">Speak to a Specialist</Link></div></section>
+ <section className="section"><div className="container text-center"><h2 style={{ marginBottom: '1rem' }}>Book via <span className="text-gold">Asia Golf Specialists</span></h2><p style={{ maxWidth: '600px', margin: '0 auto 2rem', color: '#ccc' }}>AGS coordinates Phum Baitang stays with Angkor Golf Resort packages and Phokeethra Country Club tee times.</p><Link href="/quote/" className="btn-primary">Speak to a Specialist</Link></div></section>
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@graph": [
