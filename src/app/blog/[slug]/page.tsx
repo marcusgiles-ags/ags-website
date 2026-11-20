@@ -10,6 +10,7 @@ import { getTurnkeyRecommendations } from "@/lib/turnkeyRecommendations";
 
 // Re-check for newly approved/scheduled posts every hour without a manual redeploy
 export const revalidate = 3600;
+export const dynamicParams = false;
 
 type FAQ = { q: string; a: string };
 type RelatedPost = { slug: string; title: string; heroImage?: string };

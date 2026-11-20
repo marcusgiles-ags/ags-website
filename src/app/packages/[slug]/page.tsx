@@ -7,6 +7,8 @@ import Navbar from '@/components/Navbar';
 import InlineFastInquiry from '@/components/InlineFastInquiry';
 import PackageConfigurator from '@/components/PackageConfigurator';
 
+export const dynamicParams = false;
+
 interface FeaturedVenue {
   name: string;
   type: 'course' | 'accommodation';

@@ -256,6 +256,7 @@ export default function PackageConfigurator({
 
         <Link
           href={`/quote/?${quoteParams.toString()}`}
+          rel="nofollow"
           onClick={() => {
             if (typeof window !== 'undefined') {
               const w = window as any;

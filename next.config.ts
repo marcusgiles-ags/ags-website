@@ -300,6 +300,67 @@ const nextConfig: NextConfig = {
         destination: "/blog/7-day-vietnam-golf-itinerary/",
         permanent: true,
       },
+      // Permanent (308) redirects for 6 legacy /tours/ slugs uncovered in Ahrefs 404 audit
+      {
+        source: "/tours/bangkok-hua-hin/",
+        destination: "/tours/the-bangkok-and-hua-hin-fairways/",
+        permanent: true,
+      },
+      {
+        source: "/tours/bangkok-hua-hin",
+        destination: "/tours/the-bangkok-and-hua-hin-fairways/",
+        permanent: true,
+      },
+      {
+        source: "/tours/thailand-ultimate-golf/",
+        destination: "/tours/thailand-royal-siam/",
+        permanent: true,
+      },
+      {
+        source: "/tours/thailand-ultimate-golf",
+        destination: "/tours/thailand-royal-siam/",
+        permanent: true,
+      },
+      {
+        source: "/tours/phuket-island-links/",
+        destination: "/tours/thailand-royal-siam/",
+        permanent: true,
+      },
+      {
+        source: "/tours/phuket-island-links",
+        destination: "/tours/thailand-royal-siam/",
+        permanent: true,
+      },
+      {
+        source: "/tours/hanoi-halong-bay/",
+        destination: "/tours/the-emperors-fairways/",
+        permanent: true,
+      },
+      {
+        source: "/tours/hanoi-halong-bay",
+        destination: "/tours/the-emperors-fairways/",
+        permanent: true,
+      },
+      {
+        source: "/tours/da-nang-hoi-an-coastal-links/",
+        destination: "/tours/the-central-coast-classic/",
+        permanent: true,
+      },
+      {
+        source: "/tours/da-nang-hoi-an-coastal-links",
+        destination: "/tours/the-central-coast-classic/",
+        permanent: true,
+      },
+      {
+        source: "/tours/southern-vietnam-links/",
+        destination: "/tours/the-saigon-and-shores-escape/",
+        permanent: true,
+      },
+      {
+        source: "/tours/southern-vietnam-links",
+        destination: "/tours/the-saigon-and-shores-escape/",
+        permanent: true,
+      },
       {
         source: "/blog/7-day-vietnam-golf-itinerary-central-coast",
         destination: "/blog/7-day-vietnam-golf-itinerary/",

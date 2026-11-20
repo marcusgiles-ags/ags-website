@@ -23,6 +23,8 @@ export default function TourSchemaGraph({ data }: { data: TourData }) {
             "touristType": ["Golfers", "Luxury Leisure Travelers"],
             "offers": {
               "@type": "Offer",
+              "price": data.schema.minPrice,
+              "priceCurrency": data.schema.priceCurrency,
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "minPrice": data.schema.minPrice,

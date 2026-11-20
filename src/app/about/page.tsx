@@ -354,7 +354,7 @@ export default function About() {
                             "https://www.linkedin.com/in/marcus-giles-golf/",
                             "https://www.instagram.com/asiagolfspecialists/",
                             "https://www.facebook.com/asiagolfspecialists/",
-                            "https://maps.app.goo.gl/HxkuatKNmTkHpERJ8",
+                            "https://www.google.com/maps/place/Asia+Golf+Specialists/@14.5027506,103.509948,3779908m/data=!3m1!1e3!4m6!3m5!1s0x8bc99bf190000767:0x9a7594b1b8f477a2!8m2!3d14.5027506!4d103.509948!16s%2Fg%2F11nj0hlmqy",
                             "https://share.google/R7EjdnCG1r726lVVz",
                             "https://www.google.com/search?kgmid=/g/11nj0hlmqy"
                         ],

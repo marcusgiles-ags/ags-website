@@ -24,8 +24,34 @@ export const metadata = {
 };
 
 export default function CourseConditionsPage() {
+    const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Vietnam Golf Course Conditions Report",
+        "description": "Live on-the-ground intelligence and seasonal playability for Vietnam's flagship golf layouts. Check Stimpmeter green speeds, turf drainage, and weather.",
+        "url": "https://www.asiagolfspecialists.com/destinations/vietnam/course-conditions/",
+        "image": "https://www.asiagolfspecialists.com/images/courses/vietnam/vietnam-golf-course-hoiana-shores-championship-layout.webp",
+        "datePublished": "2026-10-01",
+        "dateModified": "2026-11-20",
+        "author": {
+            "@type": "Person",
+            "@id": "https://www.asiagolfspecialists.com/#marcus-giles",
+            "name": "Marcus Giles",
+            "url": "https://www.asiagolfspecialists.com/about/#founder"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.asiagolfspecialists.com/#organization",
+            "name": "Asia Golf Specialists"
+        }
+    };
+
     return (
         <main style={{ backgroundColor: '#020617', color: 'var(--color-tertiary)', minHeight: '100vh' }}>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+            />
             <Navbar />
 
             {/* Hero Section */}

@@ -66,7 +66,7 @@ export default function Footer() {
               { href: 'https://www.linkedin.com/company/asia-golf-specialists/', label: 'LinkedIn' },
               { href: 'https://www.instagram.com/asiagolfspecialists/', label: 'Instagram' },
               { href: 'https://www.facebook.com/asiagolfspecialists/', label: 'Facebook' },
-              { href: 'https://maps.app.goo.gl/HxkuatKNmTkHpERJ8', label: 'Google Business Profile' },
+              { href: 'https://www.google.com/maps/place/Asia+Golf+Specialists/@14.5027506,103.509948,3779908m/data=!3m1!1e3!4m6!3m5!1s0x8bc99bf190000767:0x9a7594b1b8f477a2!8m2!3d14.5027506!4d103.509948!16s%2Fg%2F11nj0hlmqy', label: 'Google Business Profile' },
             ].map(({ href, label }) => (
               <li key={href}>
                 <a

@@ -3,6 +3,8 @@ import DestinationArticleTemplate, {
     generateDestinationArticleStaticParams,
 } from '@/components/DestinationArticleTemplate';
 
+export const dynamicParams = false;
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
     return generateDestinationArticleMetadata('cambodia', params);
 }

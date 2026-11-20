@@ -14,8 +14,8 @@ export interface CuratorScorecardProps {
   officialUrl?: string;
   sameAs?: string[];
   itemImage?: string;
-  addressLocality?: string;
-  addressCountry?: string;
+  addressLocality: string;
+  addressCountry: string;
   overallScore: number;
   maxScore?: number;
   gradeBadge?: string;
@@ -33,8 +33,8 @@ export default function CuratorScorecard({
   officialUrl,
   sameAs,
   itemImage,
-  addressLocality = "Da Nang",
-  addressCountry = "VN",
+  addressLocality,
+  addressCountry,
   overallScore = 4.8,
   maxScore = 5.0,
   gradeBadge = "Championship Grade • Asia Top 100",

@@ -85,7 +85,8 @@ export default function InlineFastInquiry({
           const w = window as any;
           if (w.dataLayer) {
             w.dataLayer.push({
-              event: "fast_inquiry_submit",
+              event: "form_submission_enquiry",
+              form_type: "fast_inquiry",
               package_title: packageTitle,
               destination,
               group_size: groupSize,
@@ -96,18 +97,8 @@ export default function InlineFastInquiry({
               utm_content: attr?.utm_content || undefined,
             });
           }
-          if (typeof w.gtag === "function") {
-            w.gtag("event", "generate_lead", {
-              event_category: "FastInquiry",
-              event_label: activeRef ? `${packageTitle} (${activeRef})` : packageTitle,
-              destination,
-              group_size: groupSize,
-              utm_source: attr?.utm_source || undefined,
-              utm_medium: attr?.utm_medium || undefined,
-              utm_campaign: attr?.utm_campaign || undefined,
-              value: 1,
-            });
-          }
+          // GTM tag 'GA4 generate_lead' fires on form_submission_enquiry above.
+          // Do NOT also send a raw gtag('event', 'generate_lead') here — leads would double count.
         }
       } else {
         const data = await res.json().catch(() => ({}));
