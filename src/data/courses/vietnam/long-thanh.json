@@ -92,7 +92,7 @@
     "imageUrl": "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-vietnam-saigon-1.webp",
     "addressLocality": "Ho Chi Minh City",
     "addressCountry": "VN",
-    "numberOfHoles": 18,
+    "numberOfHoles": 36,
     "courseLength": 6897,
     "par": 72,
     "designer": "Golfplan / Ron Fream",
@@ -101,9 +101,9 @@
     ]
   },
   "curatorBriefHtml": [
-    "<strong>Long Thanh Golf Resort</strong> is a premier Par 72 championship layout in Ho Chi Minh City, Vietnam, crafted by <strong>Golfplan / Ron Fream</strong> (2001) and stretching to <strong>6,897 Yards</strong> across a championship layout environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its manicured tropical landscaping (Pristine palms, lakes & flowers) and lake & hill layout variety (Two distinct 18-hole experiences).",
-    "From an itinerary-engineering perspective, Long Thanh Golf Resort (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie line-reading expertise (Regarded as best in Southern Vietnam), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
-    "When integrated into a multi-round Ho Chi Minh City golf tour by AGS, Long Thanh Golf Resort provides a distinct architectural test by Golfplan / Ron Fream that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+    "<strong>Long Thanh Golf Resort</strong> is one of Southern Vietnam’s most beloved and enduring 36-hole championship clubs, located in Dong Nai Province roughly 45–50 minutes east of central Ho Chi Minh City. Designed by Ron Fream’s Golfplan studio, the resort offers two distinct 18-hole experiences: the elevated <strong>Hill Course</strong> — weaving through rolling palms with sweeping river-valley vistas — and the water-laced <strong>Lake Course</strong>, featuring floodlit holes for twilight and evening play.",
+    "Having played Long Thanh personally, its enduring appeal comes down to conditioning and playability. Fairways are carpeted in plush Paspalum/Zoysia, greens roll consistently true, and the Hill Course’s gentle elevation changes offer a refreshing break from Saigon’s otherwise flat delta terrain. It is also one of the best-run clubs in Southern Vietnam for larger 8- to 16-golfer groups needing consecutive tee times and reliable pace of play.",
+    "On a Ho Chi Minh City itinerary, AGS routinely pairs Long Thanh with <a href=\"/courses/vietnam/vgcc/\" style=\"color:#D4AF37;text-decoration:underline;\">Vietnam Golf &amp; Country Club (VGCC)</a> and <a href=\"/courses/vietnam/the-bluffs-ho-tram/\" style=\"color:#D4AF37;text-decoration:underline;\">The Bluffs Grand Ho Tram</a> — and because Long Thanh sits directly en route between Saigon and Ho Tram, it works brilliantly as an outbound round on transfer day."
   ],
   "scorecard": {
     "itemName": "Long Thanh Golf Resort",
@@ -111,8 +111,8 @@
     "overallScore": 4.7,
     "maxScore": 5,
     "gradeBadge": "36-Hole Palm & Lake Sanctuary • Ron Fream",
-    "experienceTier": "C",
-    "inspectionDate": "Spring 2026 Inspection",
+    "experienceTier": "P",
+    "inspectionDate": "Personally Played & Inspected — Marcus Giles",
     "criteria": [
       {
         "label": "Manicured Tropical Landscaping",
@@ -139,20 +139,20 @@
   },
   "faqs": [
     {
-      "q": "What are the key course specifications for Long Thanh Golf Resort?",
-      "a": "Long Thanh Golf Resort in Ho Chi Minh City, Vietnam is a Par 72 championship layout designed by Golfplan / Ron Fream (opened 2001), measuring 6,897 Yards within a championship layout setting. It is particularly noted for manicured tropical landscaping (Pristine palms, lakes & flowers)."
+      "q": "Should visiting golfers choose the Hill Course or Lake Course at Long Thanh?",
+      "a": "For your first visit, choose the Hill Course — its rolling elevation changes, scenic palm corridors, and elevated greens offer the most memorable architectural variety around Ho Chi Minh City. The Lake Course is flatter with more water hazards and offers floodlit evening play."
     },
     {
-      "q": "How do I secure tee times and caddies at Long Thanh Golf Resort?",
-      "a": "Long Thanh Golf Resort operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie line-reading expertise (Regarded as best in Southern Vietnam)), and private VIP transfers from your Ho Chi Minh City hotel as part of a custom golf itinerary."
+      "q": "How far is Long Thanh Golf Resort from District 1, Ho Chi Minh City?",
+      "a": "Allow 45 to 60 minutes by private touring vehicle from District 1 (central Saigon) via the Ho Chi Minh City–Long Thanh–Dau Giay Expressway, depending on morning commuter traffic."
     },
     {
-      "q": "What playing conditions and turf can golfers expect at Long Thanh Golf Resort?",
-      "a": "Our field inspection highlights Long Thanh Golf Resort's lake & hill layout variety (Two distinct 18-hole experiences) alongside manicured tropical landscaping (Pristine palms, lakes & flowers). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+      "q": "Can Long Thanh be played on the drive between Ho Chi Minh City and The Bluffs Ho Tram?",
+      "a": "Yes — Long Thanh sits right along the highway corridor heading east toward Ho Tram. Playing a morning round at Long Thanh before continuing 90 minutes to Ho Tram is one of our smoothest Southern Vietnam routing tricks."
     },
     {
-      "q": "What is the best time of year to play Long Thanh Golf Resort?",
-      "a": "November through April is the prime season for Long Thanh Golf Resort."
+      "q": "When is the best season to play Long Thanh Golf Resort?",
+      "a": "December through April is Southern Vietnam’s dry season with reliable sunshine and low humidity. From May through November, morning tee times (07:00–08:30 AM) almost always finish well ahead of brief late-afternoon tropical showers."
     }
   ],
   "nav": {

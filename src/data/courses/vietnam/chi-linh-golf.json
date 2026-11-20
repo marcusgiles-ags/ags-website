@@ -101,9 +101,9 @@
     ]
   },
   "curatorBriefHtml": [
-    "<strong>Chi Linh Golf</strong> is a premier Par 72 championship layout in Hai Duong, Vietnam, crafted by <strong>Lee Nifong / IMG</strong> (2006) and stretching to <strong>7,160 Yards</strong> across a pine-forested mountain valley environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its natural valley & lake setting (Surrounded by pine-clad hills) and undulating green slopes & tiered targets (Severe breaks on putts).",
-    "From an itinerary-engineering perspective, Chi Linh Golf (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie experience on rolling hills (Decades of course knowledge), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
-    "When integrated into a multi-round Hai Duong golf tour by AGS, Chi Linh Golf provides a distinct architectural test by Lee Nifong / IMG that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+    "<strong>Chi Linh Golf</strong> (often known as Chi Linh Star) sits in a pine-clad valley in Hai Duong Province, halfway along the highway linking Hanoi and Ha Long Bay. Across 36 holes (27 original championship holes plus a newer 9), the course has long been regarded as one of Northern Vietnam’s sternest ball-striking exams — famous for undulating valley fairways, elevated greens, and penal water hazards that demand conservative target golf off the tee.",
+    "Because Chi Linh sits roughly 75 minutes east of central Hanoi and 75 minutes west of Ha Long Bay, it works brilliantly as a transit round on a multi-stop Northern Vietnam tour. Instead of losing a travel day sitting in a vehicle between Hanoi and your Ha Long Bay cruise or hotel, AGS schedules a morning round at Chi Linh with luggage stored safely in your private touring vehicle, delivering you straight to Ha Long Bay by late afternoon.",
+    "Playability peaks from October to April when cool northern air keeps the bentgrass-influenced putting surfaces crisp and fast. Players who struggle with forced carries should move up one tee box — from the Blue Tees (7,160 yards), Chi Linh plays every inch of its card."
   ],
   "scorecard": {
     "itemName": "Chi Linh Golf",
@@ -111,8 +111,8 @@
     "overallScore": 4.6,
     "maxScore": 5,
     "gradeBadge": "27-Hole Valley Classic • Northern Vietnam",
-    "experienceTier": "C",
-    "inspectionDate": "Spring 2026 Inspection",
+    "experienceTier": "V",
+    "inspectionDate": "Site-Verified by AGS On-Ground Team",
     "criteria": [
       {
         "label": "Natural Valley & Lake Setting",
@@ -139,20 +139,20 @@
   },
   "faqs": [
     {
-      "q": "What are the key course specifications for Chi Linh Golf?",
-      "a": "Chi Linh Golf in Hai Duong, Vietnam is a Par 72 championship layout designed by Lee Nifong / IMG (opened 2006), measuring 7,160 Yards within a pine-forested mountain valley setting. It is particularly noted for natural valley & lake setting (Surrounded by pine-clad hills)."
+      "q": "Why do Northern Vietnam itineraries include Chi Linh Golf between Hanoi and Ha Long Bay?",
+      "a": "Chi Linh sits directly on the Hanoi–Ha Long corridor (about 75 minutes from either hub), making it the most efficient way to convert a transfer day into a full championship round without doubling back."
     },
     {
-      "q": "How do I secure tee times and caddies at Chi Linh Golf?",
-      "a": "Chi Linh Golf operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie experience on rolling hills (Decades of course knowledge)), and private VIP transfers from your Hai Duong hotel as part of a custom golf itinerary."
+      "q": "How difficult is Chi Linh Golf for mid-handicap touring golfers?",
+      "a": "Chi Linh is one of Northern Vietnam’s more demanding layouts due to tight hillside fairways, elevated green complexes, and frequent lake carries. Mid-handicappers enjoy the course far more from the White Tees rather than stretching back to the 7,160-yard Blue Tees."
     },
     {
-      "q": "What playing conditions and turf can golfers expect at Chi Linh Golf?",
-      "a": "Our field inspection highlights Chi Linh Golf's undulating green slopes & tiered targets (Severe breaks on putts) alongside natural valley & lake setting (Surrounded by pine-clad hills). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+      "q": "When are course conditions best at Chi Linh Golf?",
+      "a": "Autumn through early spring (October–April) offers cool, dry playing weather and the smoothest green speeds. Summer rounds (June–August) are lush and playable with an early morning tee time."
     },
     {
-      "q": "What is the best time of year to play Chi Linh Golf?",
-      "a": "October through April is the recommended season for Chi Linh Golf."
+      "q": "Can AGS handle luggage transfers during a Hanoi-to-Ha Long round at Chi Linh?",
+      "a": "Yes. Your dedicated private touring vehicle and driver remain on-site at the Chi Linh clubhouse with your suitcases and golf bags securely stowed, then continue directly to your Ha Long Bay hotel or cruise pier after your round."
     }
   ],
   "nav": {

@@ -187,7 +187,7 @@ export default function AccommodationPage() {
     overallScore={4.8}
     maxScore={5.0}
     gradeBadge="MGallery Art Deco Luxury • Saigon"
-    inspectionDate="Spring 2026 Inspection"
+    inspectionDate="Site-Verified by AGS On-Ground Team"
     leadCurator="AGS Accommodations Review Team"
     leadCuratorTitle="Asia Golf Specialists"
     criteria={[

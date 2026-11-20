@@ -154,7 +154,7 @@ export default function AccommodationPage() {
     overallScore={4.8}
     maxScore={5.0}
     gradeBadge="Historic French Heritage Landmark • Phnom Penh"
-    inspectionDate="Spring 2026 Inspection"
+    inspectionDate="Personally Stayed & Inspected — Marcus Giles"
     leadCurator="AGS Accommodations Review Team"
     leadCuratorTitle="Asia Golf Specialists"
     criteria={[

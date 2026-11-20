@@ -190,7 +190,7 @@ export default function CuratorScorecard({
               letterSpacing: "0.05em",
             }}
           >
-            Field Inspection: <span style={{ color: "rgba(245, 241, 230, 0.85)" }}>{inspectionDate}</span>
+            Verification: <span style={{ color: "rgba(245, 241, 230, 0.85)" }}>{inspectionDate}</span>
             <span style={{ margin: "0 0.5rem", opacity: 0.3 }}>•</span>
             Evaluation By: <a href="/about/#founder" style={{ color: "rgba(245, 241, 230, 0.9)", textDecoration: "underline" }}>{curatorName} (Founder, AGS)</a>
           </div>

@@ -158,7 +158,7 @@ export default function PalmGardensHoiAn() {
     overallScore={4.6}
     maxScore={5.0}
     gradeBadge="Classic Tropical Beach Resort • Hoi An"
-    inspectionDate="Spring 2026 Inspection"
+    inspectionDate="Personally Stayed & Inspected — Marcus Giles"
     leadCurator="AGS Accommodations Review Team"
     leadCuratorTitle="Asia Golf Specialists"
     criteria={[

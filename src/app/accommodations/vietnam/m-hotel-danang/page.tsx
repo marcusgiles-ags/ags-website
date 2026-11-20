@@ -186,7 +186,7 @@ export default function AccommodationPage() {
     overallScore={4.6}
     maxScore={5.0}
     gradeBadge="Modern Coastal City Hotel • Da Nang"
-    inspectionDate="Spring 2026 Inspection"
+    inspectionDate="Site-Verified by AGS On-Ground Team"
     leadCurator="AGS Accommodations Review Team"
     leadCuratorTitle="Asia Golf Specialists"
     criteria={[

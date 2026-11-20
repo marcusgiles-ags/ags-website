@@ -24,9 +24,12 @@ export default function CoursePageTemplate({ course }: { course: CourseData }) {
   const countryCoursesLink = `/destinations/${course.country}/courses/`;
   const canonicalUrl = `https://www.asiagolfspecialists.com${course.url}`;
   const inspectionBadge =
-    course.scorecard.experienceTier && TIER_LABEL[course.scorecard.experienceTier]
+    course.scorecard.inspectionDate &&
+    !/Spring 2026/i.test(course.scorecard.inspectionDate)
+      ? course.scorecard.inspectionDate
+      : course.scorecard.experienceTier && TIER_LABEL[course.scorecard.experienceTier]
       ? TIER_LABEL[course.scorecard.experienceTier]
-      : course.scorecard.inspectionDate;
+      : TIER_LABEL.C;
 
   return (
     <main style={{ backgroundColor: "#020617", color: "var(--color-tertiary)", minHeight: "100vh" }}>

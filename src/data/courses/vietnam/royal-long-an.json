@@ -103,9 +103,9 @@
     "designer": "Sir Nick Faldo"
   },
   "curatorBriefHtml": [
-    "<strong>Royal Long An Golf & Country Club</strong> is a premier Par 72 championship layout in Long An, Vietnam, crafted by <strong>Sir Nick Faldo</strong> (2023) and stretching to <strong>7,090 Yards</strong> across a parkland, water features environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its natural delta waterway hazard strategy (Water comes into play cleverly) and immaculate green surfaces & roll (True, fast-rolling surfaces).",
-    "From an itinerary-engineering perspective, Royal Long An Golf & Country Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie wind & carry reading (Prevents penal water miscues), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
-    "When integrated into a multi-round Long An golf tour by AGS, Royal Long An Golf & Country Club provides a distinct architectural test by Sir Nick Faldo that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+    "<strong>Royal Long An Golf &amp; Country Club</strong> (opened 2023) brings Sir Nick Faldo’s strategic signature design to the western outskirts of Ho Chi Minh City. Set across expansive Mekong-edge parkland roughly 65–75 minutes southwest of District 1, the 7,090-yard Par 72 layout blends wide, manicured Zoysia corridors with winding waterways, dramatic bunker shaping, and bold green contours that reward positional tee shots.",
+    "Having played Royal Long An personally, the immediate impression is space, modern polish, and crisp Faldo risk-reward angles. Unlike older, busier Saigon clubs where tee sheets pack tight, Royal Long An’s contemporary clubhouse, unhurried rhythm, and spacious practice facilities make it an ideal addition for returning golfers who have already played VGCC and Long Thanh and want Southern Vietnam’s newest championship test.",
+    "Pair Royal Long An with <a href=\"/courses/vietnam/tan-son-nhat/\" style=\"color:#D4AF37;text-decoration:underline;\">Tan Son Nhat</a> or <a href=\"/courses/vietnam/vgcc/\" style=\"color:#D4AF37;text-decoration:underline;\">VGCC</a> while staying in District 1 — AGS schedules early 07:00 AM departures from Saigon to cruise out cleanly and return by mid-afternoon."
   ],
   "scorecard": {
     "itemName": "Royal Long An Golf & Country Club",
@@ -113,8 +113,8 @@
     "overallScore": 4.7,
     "maxScore": 5,
     "gradeBadge": "Sir Nick Faldo Waterway Masterpiece • South",
-    "experienceTier": "C",
-    "inspectionDate": "Spring 2026 Inspection",
+    "experienceTier": "P",
+    "inspectionDate": "Personally Played & Inspected — Marcus Giles",
     "criteria": [
       {
         "label": "Natural Delta Waterway Hazard Strategy",
@@ -141,20 +141,20 @@
   },
   "faqs": [
     {
-      "q": "What are the key course specifications for Royal Long An Golf & Country Club?",
-      "a": "Royal Long An Golf & Country Club in Long An, Vietnam is a Par 72 championship layout designed by Sir Nick Faldo (opened 2023), measuring 7,090 Yards within a parkland, water features setting. It is particularly noted for natural delta waterway hazard strategy (Water comes into play cleverly)."
+      "q": "What style of course did Sir Nick Faldo design at Royal Long An?",
+      "a": "Royal Long An (opened 2023) is a modern, spacious parkland championship course (Par 72, 7,090 yards) featuring strategic water canals, bold sculpted bunkering, and undulating greens designed to test approach-shot precision rather than brute length."
     },
     {
-      "q": "How do I secure tee times and caddies at Royal Long An Golf & Country Club?",
-      "a": "Royal Long An Golf & Country Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie wind & carry reading (Prevents penal water miscues)), and private VIP transfers from your Long An hotel as part of a custom golf itinerary."
+      "q": "How far is Royal Long An Golf & Country Club from central Ho Chi Minh City?",
+      "a": "Plan for 65 to 80 minutes by private touring vehicle from District 1 in Ho Chi Minh City. Departing around 06:45–07:00 AM avoids peak city exit traffic."
     },
     {
-      "q": "What playing conditions and turf can golfers expect at Royal Long An Golf & Country Club?",
-      "a": "Our field inspection highlights Royal Long An Golf & Country Club's immaculate green surfaces & roll (True, fast-rolling surfaces) alongside natural delta waterway hazard strategy (Water comes into play cleverly). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+      "q": "Is Royal Long An suitable for mid-to-high handicap touring groups?",
+      "a": "Yes. Faldo built generous landing areas off the tee and multiple tee-box sets, so higher handicaps can keep the ball in play while lower handicappers face real strategic decisions around the water-guarded greens."
     },
     {
-      "q": "What is the best time of year to play Royal Long An Golf & Country Club?",
-      "a": "November through April is ideal for Royal Long An Golf & Country Club."
+      "q": "What is the best time of year to play Royal Long An?",
+      "a": "December through April offers dry, sunny Southern Vietnam weather. During the May–November green season, morning tee times deliver lush fairways and comfortable temperatures before afternoon showers."
     }
   ],
   "nav": {

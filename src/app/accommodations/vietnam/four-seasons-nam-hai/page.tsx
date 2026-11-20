@@ -203,7 +203,7 @@ export default function FourSeasonsNamHai() {
     overallScore={4.9}
     maxScore={5.0}
     gradeBadge="Forbes 5-Star • Michelin Selected • Central Coast"
-    inspectionDate="Spring 2026 Inspection"
+    inspectionDate="Personally Stayed & Inspected — Marcus Giles"
     leadCurator="AGS Accommodations Review Team"
     leadCuratorTitle="Asia Golf Specialists"
     criteria={[

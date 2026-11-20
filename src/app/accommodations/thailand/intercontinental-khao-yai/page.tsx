@@ -156,7 +156,7 @@ export default function InterContinentalKhaoYai() {
     overallScore={4.8}
     maxScore={5.0}
     gradeBadge="Heritage Train Car Resort • Bill Bensley"
-    inspectionDate="Spring 2026 Inspection"
+    inspectionDate="Curated AGS Partner — Vetted via Client Feedback"
     leadCurator="AGS Accommodations Review Team"
     leadCuratorTitle="Asia Golf Specialists"
     criteria={[

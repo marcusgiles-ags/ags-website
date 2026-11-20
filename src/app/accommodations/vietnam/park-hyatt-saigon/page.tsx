@@ -156,7 +156,7 @@ export default function ParkHyattSaigon() {
     overallScore={4.9}
     maxScore={5.0}
     gradeBadge="French Colonial Executive Benchmark • Saigon"
-    inspectionDate="Spring 2026 Inspection"
+    inspectionDate="Site-Verified by AGS On-Ground Team"
     leadCurator="AGS Accommodations Review Team"
     leadCuratorTitle="Asia Golf Specialists"
     criteria={[

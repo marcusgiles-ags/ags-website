@@ -132,7 +132,7 @@ export default function VVillasHuaHin() {
     overallScore={4.8}
     maxScore={5.0}
     gradeBadge="Private Pool Villa Sanctuary • Hua Hin"
-    inspectionDate="Spring 2026 Inspection"
+    inspectionDate="Site-Verified by AGS On-Ground Team"
     leadCurator="AGS Accommodations Review Team"
     leadCuratorTitle="Asia Golf Specialists"
     criteria={[

@@ -105,9 +105,9 @@
     ]
   },
   "curatorBriefHtml": [
-    "<strong>Tan Son Nhat Golf Course</strong> is a premier Par 71 / 72 (two courses) championship layout in Ho Chi Minh City, Vietnam, crafted by <strong>Nelson & Haworth</strong> (2015) and stretching to <strong>7,081 Yards (Blue Tees)</strong> across a championship layout environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its central city proximity & night golf lights (Play until midnight minutes from airport) and fast true greens & strategic water hazards (Manicured city fairways).",
-    "From an itinerary-engineering perspective, Tan Son Nhat Golf Course (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its high-volume caddie professionalism (Polished and punctual), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
-    "When integrated into a multi-round Ho Chi Minh City golf tour by AGS, Tan Son Nhat Golf Course provides a distinct architectural test by Nelson & Haworth that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+    "<strong>Tan Son Nhat Golf Course</strong> is Ho Chi Minh City’s ultimate convenience play — a sprawling <strong>36-hole Nelson &amp; Haworth championship complex</strong> situated directly beside Tan Son Nhat International Airport, just 15–20 minutes from District 1. Across four distinct 9-hole loops (A, B, C, and D; 7,081 yards Blue Tees), the course features bold mounding, large undulating greens, massive sand-flashed bunkers, and full <strong>floodlit night golf</strong>.",
+    "Having played Tan Son Nhat personally, its superpower for touring groups is schedule flexibility. You can land in Ho Chi Minh City mid-morning, play 18 holes before hotel check-in, or squeeze in a final twilight/night round under lights right before an evening flight home — all backed by one of Vietnam’s largest and best-equipped clubhouses with full shower and locker facilities.",
+    "Because Tan Son Nhat is hugely popular with local Saigon golfers and Korean business groups, tee times fill quickly on weekends and evenings. AGS locks in confirmed weekday/twilight blocks and pairs Tan Son Nhat seamlessly with <a href=\"/courses/vietnam/vgcc/\" style=\"color:#D4AF37;text-decoration:underline;\">VGCC</a>, <a href=\"/courses/vietnam/long-thanh/\" style=\"color:#D4AF37;text-decoration:underline;\">Long Thanh</a>, or <a href=\"/courses/vietnam/the-bluffs-ho-tram/\" style=\"color:#D4AF37;text-decoration:underline;\">The Bluffs Ho Tram</a>."
   ],
   "scorecard": {
     "itemName": "Tan Son Nhat Golf Course",
@@ -115,8 +115,8 @@
     "overallScore": 4.6,
     "maxScore": 5,
     "gradeBadge": "36-Hole Saigon City Center Golf • Nelson & Haworth",
-    "experienceTier": "C",
-    "inspectionDate": "Spring 2026 Inspection",
+    "experienceTier": "P",
+    "inspectionDate": "Personally Played & Inspected — Marcus Giles",
     "criteria": [
       {
         "label": "Central City Proximity & Night Golf Lights",
@@ -143,20 +143,20 @@
   },
   "faqs": [
     {
-      "q": "What are the key course specifications for Tan Son Nhat Golf Course?",
-      "a": "Tan Son Nhat Golf Course in Ho Chi Minh City, Vietnam is a Par 71 / 72 (two courses) championship layout designed by Nelson & Haworth (opened 2015), measuring 7,081 Yards (Blue Tees) within a championship layout setting. It is particularly noted for central city proximity & night golf lights (Play until midnight minutes from airport)."
+      "q": "How close is Tan Son Nhat Golf Course to Ho Chi Minh City Airport?",
+      "a": "Tan Son Nhat sits immediately adjacent to Tan Son Nhat International Airport (SGN) — roughly 5 to 10 minutes from the terminal and 15 to 25 minutes from District 1 hotels, making it the #1 arrival-day or departure-day round in Saigon."
     },
     {
-      "q": "How do I secure tee times and caddies at Tan Son Nhat Golf Course?",
-      "a": "Tan Son Nhat Golf Course operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (high-volume caddie professionalism (Polished and punctual)), and private VIP transfers from your Ho Chi Minh City hotel as part of a custom golf itinerary."
+      "q": "Does Tan Son Nhat Golf Course offer night golf?",
+      "a": "Yes. Tan Son Nhat features comprehensive floodlighting for twilight and night golf, allowing groups to tee off in the cool late afternoon and finish under lights without fighting midday tropical heat."
     },
     {
-      "q": "What playing conditions and turf can golfers expect at Tan Son Nhat Golf Course?",
-      "a": "Our field inspection highlights Tan Son Nhat Golf Course's fast true greens & strategic water hazards (Manicured city fairways) alongside central city proximity & night golf lights (Play until midnight minutes from airport). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+      "q": "Which 9-hole loops are best among Tan Son Nhat's 36 holes?",
+      "a": "Loops A and B offer classic Nelson & Haworth bunkering and rolling contours, while C and D bring tighter water hazards and dramatic risk-reward approaches. All four nines share high-standard Paspalum turf and quick greens."
     },
     {
-      "q": "What is the best time of year to play Tan Son Nhat Golf Course?",
-      "a": "November through April is the recommended season for Tan Son Nhat Golf Course."
+      "q": "Can we store luggage and shower at the clubhouse before an evening flight?",
+      "a": "Yes. Tan Son Nhat’s massive clubhouse has spacious locker rooms, showers, and restaurants, and your AGS private touring vehicle safely holds your luggage until airport drop-off."
     }
   ],
   "nav": {

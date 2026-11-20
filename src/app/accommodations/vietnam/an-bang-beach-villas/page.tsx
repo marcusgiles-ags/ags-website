@@ -391,7 +391,7 @@ export default function AnBangBeachVillas() {
         overallScore={4.8}
         maxScore={5.0}
         gradeBadge="Premier Private Group Basecamp • Central Coast"
-        inspectionDate="Spring 2026 Inspection"
+        inspectionDate="Personally Stayed & Inspected — Marcus Giles"
         criteria={[
           { label: "Group Camaraderie & Private Pool Living", score: 9.8, highlight: "3BR & 6BR beachfront compounds" },
           { label: "Proximity to Hoiana Shores & Montgomerie Links", score: 9.6, highlight: "15–20 min coastal transfers" },

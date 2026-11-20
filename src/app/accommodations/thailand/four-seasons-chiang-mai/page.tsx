@@ -156,7 +156,7 @@ export default function FourSeasonsChiangMai() {
     overallScore={4.9}
     maxScore={5.0}
     gradeBadge="Working Rice Valley Paradise • Mae Rim, Chiang Mai"
-    inspectionDate="Spring 2026 Inspection"
+    inspectionDate="Curated AGS Partner — Vetted via Client Feedback"
     leadCurator="AGS Accommodations Review Team"
     leadCuratorTitle="Asia Golf Specialists"
     criteria={[

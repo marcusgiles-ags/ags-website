@@ -84,11 +84,6 @@
     {
       "label": "Character",
       "value": "Wind-driven, firm and fast"
-    },
-    {
-      "label": "Top 100 Asia Ranking",
-      "value": "#3 in Asia (2026)",
-      "href": "https://www.top100golfcourses.com/golf-courses/asia/vietnam"
     }
   ],
   "overviewParagraphs": [
@@ -116,9 +111,9 @@
     ]
   },
   "curatorBriefHtml": [
-    "<strong>KN Golf Links Cam Ranh</strong> is a premier Par 72 championship layout in Cam Ranh, Vietnam, crafted by <strong>Greg Norman</strong> (2018) and stretching to <strong>6,345 Yards (Blue Tees)</strong> across a massive coastal dunes environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its sandy turf conditioning & fast firm fairways (Zeon Zoysia on pure sand) and dramatic ocean dunes routing (Elevated tee shots over beach).",
-    "From an itinerary-engineering perspective, KN Golf Links Cam Ranh (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie coastal reading & speed control (Excellent slope & wind advice), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
-    "When integrated into a multi-round Cam Ranh golf tour by AGS, KN Golf Links Cam Ranh provides a distinct architectural test by Greg Norman that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+    "<strong>KN Golf Links Cam Ranh</strong> is widely hailed as Greg Norman’s finest coastal links design in Vietnam — a sweeping 27-hole dunescape overlooking Cam Ranh Bay just 10 minutes from Cam Ranh International Airport (CXR). Its 18-hole championship Links Course (Par 72, 6,345 yards from the Blue Tees; stretching past 7,150 from the tips) ripples over towering white sand dunes with sweeping ocean horizons, dramatic infinity-edge greens, and firm, bouncy turf that rewards creative links shotmaking.",
+    "Having played KN Golf Links personally, it is impossible to overstate how dramatic the contrast is between the wide, rolling dunes of the front nine and the elevated, wind-swept views looking straight down over Long Beach and Cam Ranh Bay. Unlike resort courses lined with condos, KN feels wild, open, and fiercely authentic — and its 9-hole Oasis Course offers an extra parkland warm-up loop for groups craving 27 holes.",
+    "Cam Ranh / Nha Trang enjoys over 300 sunny days per year — staying remarkably dry from <strong>January through September</strong> — and pairs seamlessly with <a href=\"/courses/vietnam/nara-binh-tien/\" style=\"color:#D4AF37;text-decoration:underline;\">Nara Binh Tien</a> (45 minutes south) or as a quick 1-hour flight hop from Ho Chi Minh City or Da Nang."
   ],
   "scorecard": {
     "itemName": "KN Golf Links Cam Ranh",
@@ -126,8 +121,8 @@
     "overallScore": 4.8,
     "maxScore": 5,
     "gradeBadge": "Cam Ranh Pure Coastal Links • Greg Norman",
-    "experienceTier": "C",
-    "inspectionDate": "Spring 2026 Inspection",
+    "experienceTier": "P",
+    "inspectionDate": "Personally Played & Inspected — Marcus Giles",
     "criteria": [
       {
         "label": "Sandy Turf Conditioning & Fast Firm Fairways",
@@ -154,20 +149,20 @@
   },
   "faqs": [
     {
-      "q": "What are the key course specifications for KN Golf Links Cam Ranh?",
-      "a": "KN Golf Links Cam Ranh in Cam Ranh, Vietnam is a Par 72 championship layout designed by Greg Norman (opened 2018), measuring 6,345 Yards (Blue Tees) within a massive coastal dunes setting. It is particularly noted for sandy turf conditioning & fast firm fairways (Zeon Zoysia on pure sand)."
+      "q": "How far is KN Golf Links from Cam Ranh International Airport (CXR)?",
+      "a": "KN Golf Links is just 5 to 10 minutes from Cam Ranh International Airport (CXR) and 35–40 minutes south of Nha Trang city center — allowing groups to step off a morning flight from Ho Chi Minh City, Da Nang, or Hanoi and be on the first tee within 30 minutes."
     },
     {
-      "q": "How do I secure tee times and caddies at KN Golf Links Cam Ranh?",
-      "a": "KN Golf Links Cam Ranh operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie coastal reading & speed control (Excellent slope & wind advice)), and private VIP transfers from your Cam Ranh hotel as part of a custom golf itinerary."
+      "q": "What makes KN Golf Links Cam Ranh different from other Vietnam courses?",
+      "a": "Built directly over massive natural coastal sand dunes overlooking Cam Ranh Bay, KN Golf Links is a pure Greg Norman links layout with zero trees, sweeping sea vistas, undulating fast greens, and strong coastal breezes that make every round play differently."
     },
     {
-      "q": "What playing conditions and turf can golfers expect at KN Golf Links Cam Ranh?",
-      "a": "Our field inspection highlights KN Golf Links Cam Ranh's dramatic ocean dunes routing (Elevated tee shots over beach) alongside sandy turf conditioning & fast firm fairways (Zeon Zoysia on pure sand). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+      "q": "What is the best time of year to play KN Golf Links?",
+      "a": "January through September is consistently sunny and dry in Cam Ranh, with calm mornings and refreshing afternoon ocean breezes. October to mid-December is the brief regional rainy season."
     },
     {
-      "q": "What is the best time of year to play KN Golf Links Cam Ranh?",
-      "a": "November through April is ideal for KN Golf Links Cam Ranh."
+      "q": "Which other courses can we pair with KN Golf Links on a Cam Ranh trip?",
+      "a": "Nara Binh Tien Golf Club (a scenic coastal-mountain layout 45 minutes south in Ninh Thuan) and Diamond Bay / Vinpearl Nha Trang pair cleanly with KN Golf Links for a 3- to 5-day South-Central Coast golf escape."
     }
   ],
   "nav": {

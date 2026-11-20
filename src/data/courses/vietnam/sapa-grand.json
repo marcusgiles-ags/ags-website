@@ -54,7 +54,7 @@
   "specs": [
     {
       "label": "Designer",
-      "value": "Greg Norman",
+      "value": "IMG Design",
       "href": "https://gngcd.com/"
     },
     {
@@ -111,9 +111,9 @@
     "designer": "IMG Design"
   },
   "curatorBriefHtml": [
-    "<strong>Sapa Grand Golf Course</strong> is a premier Par 71 championship layout in Sapa, Vietnam, crafted by <strong>IMG Design</strong> (2023) and stretching to <strong>6,128 Yards (Blue Tees)</strong> across a mountain valley, rice terraces environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its dramatic mountain terraces & cloud inversions (Play above mountain fog) and crisp alpine climate in tropical asia (Cool temperatures year-round).",
-    "From an itinerary-engineering perspective, Sapa Grand Golf Course (Sapa Town (direct)) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie steep slope adjustments (Calculates severe elevation changes), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
-    "When integrated into a multi-round Sapa golf tour by AGS, Sapa Grand Golf Course provides a distinct architectural test by IMG Design that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+    "<strong>Sapa Grand Golf Course</strong> (opened 2023 in Lao Cai Province) is one of Vietnam’s most unusual high-altitude golf experiences — carved into the dramatic mountain valleys near Sapa at roughly 1,500 metres above sea level. Designed by IMG Design (Par 71, 6,128 yards from the Blue Tees), the layout weaves past terraced hillsides and forested ridges where crisp mountain air and sweeping cloud-draped vistas replace coastal heat.",
+    "Because thin mountain air adds noticeable carry to your shots while steep elevation changes make uphill and downhill approaches play 1 to 2 clubs longer or shorter than the yardage book, Sapa Grand plays as a fun, scenic target course rather than a punishing length test. Temperatures sit 10–12°C cooler than Hanoi — making it a welcome highland escape during Vietnam’s warmer spring and autumn months.",
+    "Access from Hanoi takes roughly 4.5 to 5 hours via the Noi Bai–Lao Cai Expressway (or overnight luxury sleeper train/private transfer), so AGS positions Sapa Grand for bespoke Northern Vietnam cultural-and-golf expeditions combining Hanoi, Sapa’s highland terraces, and Ha Long Bay."
   ],
   "scorecard": {
     "itemName": "Sapa Grand Golf Course",
@@ -122,7 +122,7 @@
     "maxScore": 5,
     "gradeBadge": "High-Altitude Cloudline Golf • Northern Border",
     "experienceTier": "C",
-    "inspectionDate": "Spring 2026 Inspection",
+    "inspectionDate": "Curated AGS Partner — Vetted via Client & Caddie Feedback",
     "criteria": [
       {
         "label": "Dramatic Mountain Terraces & Cloud Inversions",
@@ -149,20 +149,20 @@
   },
   "faqs": [
     {
-      "q": "What are the key course specifications for Sapa Grand Golf Course?",
-      "a": "Sapa Grand Golf Course in Sapa, Vietnam is a Par 71 championship layout designed by IMG Design (opened 2023), measuring 6,128 Yards (Blue Tees) within a mountain valley, rice terraces setting. It is particularly noted for dramatic mountain terraces & cloud inversions (Play above mountain fog)."
+      "q": "What makes Sapa Grand Golf Course unique in Vietnam?",
+      "a": "Sitting at roughly 1,500m altitude in the Hoang Lien Son mountain range near Sapa, Sapa Grand offers genuine cool-climate mountain golf surrounded by dramatic valley views and terraced hills — temperatures are often 10°C cooler than Hanoi."
     },
     {
-      "q": "How do I secure tee times and caddies at Sapa Grand Golf Course?",
-      "a": "Sapa Grand Golf Course operates under sapa town (direct) protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie steep slope adjustments (Calculates severe elevation changes)), and private VIP transfers from your Sapa hotel as part of a custom golf itinerary."
+      "q": "How do golfers reach Sapa Grand Golf Course from Hanoi?",
+      "a": "Sapa lies about 4.5 to 5 hours northwest of Hanoi via the Noi Bai–Lao Cai Expressway in a luxury private touring vehicle. Most guests stay 2 to 3 nights in Sapa to pair golf with Fansipan and highland cultural touring."
     },
     {
-      "q": "What playing conditions and turf can golfers expect at Sapa Grand Golf Course?",
-      "a": "Our field inspection highlights Sapa Grand Golf Course's crisp alpine climate in tropical asia (Cool temperatures year-round) alongside dramatic mountain terraces & cloud inversions (Play above mountain fog). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+      "q": "What months are best for playing golf in Sapa?",
+      "a": "March–May and September–November offer the clearest mountain visibility and crisp 16–24°C temperatures. December–February can be chilly and misty (pack warm layers), while July–August brings heavier mountain rain."
     },
     {
-      "q": "What is the best time of year to play Sapa Grand Golf Course?",
-      "a": "April through October is ideal for Sapa Grand Golf Course given the high-altitude climate."
+      "q": "Does altitude affect club selection at Sapa Grand?",
+      "a": "Yes — at 1,500m elevation the thinner air adds roughly 5–8% carry distance, though dramatic uphill/downhill slopes and morning mountain dew quickly balance things out. Trust your caddie’s slope-adjusted yardages."
     }
   ],
   "nav": {

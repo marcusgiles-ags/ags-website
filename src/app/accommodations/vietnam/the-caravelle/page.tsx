@@ -168,7 +168,7 @@ export default function AccommodationPage() {
     overallScore={4.7}
     maxScore={5.0}
     gradeBadge="Storied Historic Landmark • Saigon"
-    inspectionDate="Spring 2026 Inspection"
+    inspectionDate="Personally Stayed & Inspected — Marcus Giles"
     leadCurator="AGS Accommodations Review Team"
     leadCuratorTitle="Asia Golf Specialists"
     criteria={[
