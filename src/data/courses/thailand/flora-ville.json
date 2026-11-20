@@ -54,7 +54,7 @@
   "specs": [
     {
       "label": "Designer",
-      "value": "Nick Faldo",
+      "value": "Pirapon Namatra (Golf East)",
       "href": "https://nickfaldodesign.com/"
     },
     {
@@ -111,9 +111,9 @@
     "designer": "Pirapon Namatra"
   },
   "curatorBriefHtml": [
-    "<strong>Flora Ville Golf & Country Club</strong> is a premier Par 72 championship layout in Bangkok, Thailand, crafted by <strong>Pirapon Namatra</strong> (1998) and stretching to <strong>6,728 Yards (Blue Tees)</strong> across a classic parkland, tropical gardens environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its mature trees & tranquil water hazards (Shaded parkland corridors) and generous fairways & large greens (Playable and rewarding).",
-    "From an itinerary-engineering perspective, Flora Ville Golf & Country Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its courteous caddie service (Attentive yardage help), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
-    "When integrated into a multi-round Bangkok golf tour by AGS, Flora Ville Golf & Country Club provides a distinct architectural test by Pirapon Namatra that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+    "<strong>Flora Ville Golf &amp; Country Club</strong> (formerly Chuan Chuen Golf Club, opened 1998 and redesigned by respected Thai architect Pirapon Namatra of Golf East) is an approachable, lush parkland layout located in Pathum Thani roughly 45 minutes north of downtown Bangkok. Measuring 6,728 yards from the Blue Tees (Par 72), the course blends vibrant tropical gardens, mature palms, and gentle water hazards into a relaxed, confidence-building Bangkok round.",
+    "While Flora Ville doesn’t carry the intense tournament pressure of Alpine or Thai Country Club, its enjoyable playability, friendly caddies, and convenient northern corridor location make it a pleasant warm-up round for mixed-handicap groups or returning Bangkok regulars looking for a smooth, scenic 18 holes.",
+    "AGS pairs Flora Ville with nearby northern clubs like <a href=\"/courses/thailand/alpine-golf-club/\" style=\"color:#D4AF37;text-decoration:underline;\">Alpine Golf Club</a> or <a href=\"/courses/thailand/bangkok-golf-club/\" style=\"color:#D4AF37;text-decoration:underline;\">Bangkok Golf Club</a> on custom multi-round Bangkok itineraries."
   ],
   "scorecard": {
     "itemName": "Flora Ville Golf & Country Club",
@@ -149,20 +149,20 @@
   },
   "faqs": [
     {
-      "q": "What are the key course specifications for Flora Ville Golf & Country Club?",
-      "a": "Flora Ville Golf & Country Club in Bangkok, Thailand is a Par 72 championship layout designed by Pirapon Namatra (opened 1998), measuring 6,728 Yards (Blue Tees) within a classic parkland, tropical gardens setting. It is particularly noted for mature trees & tranquil water hazards (Shaded parkland corridors)."
+      "q": "Who designed Flora Ville Golf & Country Club?",
+      "a": "Flora Ville (originally Chuan Chuen Golf Club) was redesigned by acclaimed Thai golf architect Pirapon Namatra (Golf East) — the same designer behind Nikanti and Pineapple Valley."
     },
     {
-      "q": "How do I secure tee times and caddies at Flora Ville Golf & Country Club?",
-      "a": "Flora Ville Golf & Country Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (courteous caddie service (Attentive yardage help)), and private VIP transfers from your Bangkok hotel as part of a custom golf itinerary."
+      "q": "How far is Flora Ville from central Bangkok and Don Mueang Airport?",
+      "a": "Roughly 40–50 minutes north of central Bangkok and 25 minutes from Don Mueang Airport (DMK) via expressway."
     },
     {
-      "q": "What playing conditions and turf can golfers expect at Flora Ville Golf & Country Club?",
-      "a": "Our field inspection highlights Flora Ville Golf & Country Club's generous fairways & large greens (Playable and rewarding) alongside mature trees & tranquil water hazards (Shaded parkland corridors). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+      "q": "Who is Flora Ville Golf & Country Club best suited for?",
+      "a": "Mid-to-high handicap golfers and relaxed resort four-balls seeking a lush, well-maintained parkland course without penal forced carries."
     },
     {
-      "q": "What is the best time of year to play Flora Ville Golf & Country Club?",
-      "a": "November through April is the best season for Flora Ville Golf Club Bangkok."
+      "q": "When is the best season to play Flora Ville?",
+      "a": "November through February offers cooler, drier mornings; from March through October, early 07:00–08:00 AM starts keep the round comfortable."
     }
   ],
   "nav": {

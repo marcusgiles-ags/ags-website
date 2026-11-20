@@ -99,7 +99,7 @@
     "gold": "Night Round"
   },
   "schema": {
-    "name": "Bangkok Golf Club | Championship Night Golf",
+    "name": "Bangkok Golf Club",
     "description": "Professional night golf under Bangkok lights — a uniquely Asian golf experience.",
     "imageUrl": "/images/courses/thailand/bangkok-golf-club/bangkok-golf-club-thailand-1.webp",
     "addressLocality": "Bangkok",
@@ -113,12 +113,12 @@
     ]
   },
   "curatorBriefHtml": [
-    "<strong>Bangkok Golf Club | Championship Night Golf</strong> is a premier Par 72 championship layout in Bangkok, Thailand, crafted by <strong>Chird Boonyarattanevet</strong> (1993) and stretching to <strong>6,268 Yards (Blue Tees)</strong> across a city course with water features environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its water-guarded signature island green (High drama par-3 17th) and floodlit evening golf experience (Play under stadium lights).",
-    "From an itinerary-engineering perspective, Bangkok Golf Club | Championship Night Golf (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its caddie shot selection & pacing (Polished and dependable), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
-    "When integrated into a multi-round Bangkok golf tour by AGS, Bangkok Golf Club | Championship Night Golf provides a distinct architectural test by Chird Boonyarattanevet that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+    "<strong>Bangkok Golf Club</strong> (opened 1993 in Pathum Thani, roughly 35–45 minutes north of central Bangkok near Don Mueang Airport) is Bangkok’s premier venue for <strong>floodlit championship night golf</strong>. Measuring 6,268 yards from the Blue Tees (Par 72), the layout is defined by its famous <strong>island-green par-3 11th</strong>, swift undulating greens, and water coming into play on nearly every hole.",
+    "For international golfers arriving in Bangkok during the hot March–October months — or groups wanting to sightsee or attend business meetings by day and tee off at 5:00 PM in cool evening air — Bangkok Golf Club’s high-powered LED lighting delivers crisp ball visibility until 10:00 PM with a lively, atmospheric finish.",
+    "Because Bangkok Golf Club sits only 20 minutes from Don Mueang Airport (DMK) and 40 minutes from Sukhumvit, AGS slots it smoothly as an arrival-evening night round alongside daytime championship tests at <a href=\"/courses/thailand/thai-country-club/\" style=\"color:#D4AF37;text-decoration:underline;\">Thai Country Club</a> and <a href=\"/courses/thailand/alpine-golf-club/\" style=\"color:#D4AF37;text-decoration:underline;\">Alpine Golf Club</a>."
   ],
   "scorecard": {
-    "itemName": "Bangkok Golf Club | Championship Night Golf",
+    "itemName": "Bangkok Golf Club",
     "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/bangkok-golf-club/bangkok-golf-club-thailand-1.webp",
     "overallScore": 4.5,
     "maxScore": 5,
@@ -151,20 +151,20 @@
   },
   "faqs": [
     {
-      "q": "What are the key course specifications for Bangkok Golf Club | Championship Night Golf?",
-      "a": "Bangkok Golf Club | Championship Night Golf in Bangkok, Thailand is a Par 72 championship layout designed by Chird Boonyarattanevet (opened 1993), measuring 6,268 Yards (Blue Tees) within a city course with water features setting. It is particularly noted for water-guarded signature island green (High drama par-3 17th)."
+      "q": "How late can you play night golf at Bangkok Golf Club?",
+      "a": "Floodlit tee times typically run from 4:30 PM through 7:00 PM, with full 18-hole lighting operational until roughly 10:00 PM — allowing a relaxed evening round well away from Bangkok’s daytime heat."
     },
     {
-      "q": "How do I secure tee times and caddies at Bangkok Golf Club | Championship Night Golf?",
-      "a": "Bangkok Golf Club | Championship Night Golf operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie shot selection & pacing (Polished and dependable)), and private VIP transfers from your Bangkok hotel as part of a custom golf itinerary."
+      "q": "What is the signature hole at Bangkok Golf Club?",
+      "a": "The par-3 11th plays to a dramatic, nerve-testing island green surrounded completely by water — especially theatrical under floodlights at night."
     },
     {
-      "q": "What playing conditions and turf can golfers expect at Bangkok Golf Club | Championship Night Golf?",
-      "a": "Our field inspection highlights Bangkok Golf Club | Championship Night Golf's floodlit evening golf experience (Play under stadium lights) alongside water-guarded signature island green (High drama par-3 17th). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+      "q": "How far is Bangkok Golf Club from downtown Bangkok?",
+      "a": "Roughly 35 to 45 minutes north of central Bangkok via expressway (and 20 minutes from Don Mueang Airport), depending on late-afternoon city traffic."
     },
     {
-      "q": "What is the best time of year to play Bangkok Golf Club | Championship Night Golf?",
-      "a": "November through April offers excellent conditions at Bangkok Golf Club."
+      "q": "Is Bangkok Golf Club playable for mid-handicap groups?",
+      "a": "Yes — at 6,268 yards from the Blue Tees (and shorter White Tees), length isn’t intimidating, though smart club selection around water hazards is essential."
     }
   ],
   "nav": {

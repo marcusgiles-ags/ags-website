@@ -592,135 +592,135 @@
   "lastmod": "2026-11-12"
  },
  "src/data/courses/cambodia/angkor-golf-resort.json": {
-  "hash": "0d9e5e2f75b704cd",
+  "hash": "c2c253311a460357",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/cambodia/chhun-on-golf-resort.json": {
-  "hash": "632c03489c6cccf2",
+  "hash": "fa41cc688dd85139",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/cambodia/garden-city.json": {
-  "hash": "d14c9474f98beebd",
+  "hash": "ff1b346b10429c37",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/cambodia/grand-phnom-penh.json": {
-  "hash": "f5929e735c8b5000",
+  "hash": "3cbd48e69f315e95",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/cambodia/phokeethra.json": {
-  "hash": "94f38da9595c5441",
+  "hash": "eed0d248e239b9c6",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/cambodia/royal-phnom-penh.json": {
-  "hash": "b155f3f9b8a10635",
+  "hash": "3774294a98fdd887",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/cambodia/siem-reap-booyoung.json": {
-  "hash": "24f9383d4d7f7b03",
+  "hash": "3e23e745fa040b17",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/cambodia/vattanac-east.json": {
-  "hash": "fa2b9d0fe3969d66",
+  "hash": "bbaf281495e61be3",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/cambodia/vattanac-west.json": {
-  "hash": "a7bc0e1424e3b485",
+  "hash": "4bc25d11e09b7d97",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/cambodia/vattanac.json": {
-  "hash": "a424d7d555508e70",
+  "hash": "7d66b00bf372e366",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/alpine-chiang-mai.json": {
-  "hash": "e5fd7a710f7106af",
+  "hash": "74e38463b246c3a9",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/alpine-golf-club.json": {
-  "hash": "494e3a2d286122d9",
+  "hash": "f238b47dfa0b7954",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/aquella.json": {
-  "hash": "5cbd1db20269810c",
+  "hash": "63066b1b7aa1b94c",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/ballyshear.json": {
-  "hash": "2c69e0adeb17295d",
+  "hash": "2f34bc2940c4b92d",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/bangkok-golf-club.json": {
-  "hash": "3dcc474e3981b528",
+  "hash": "c103e5f66de3e132",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/black-mountain.json": {
-  "hash": "c97befc7cce7a818",
+  "hash": "be3ead3b17806a76",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/blue-canyon.json": {
-  "hash": "138465ffdd227f89",
+  "hash": "2881ecd6a5ac7085",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/cascata.json": {
-  "hash": "18a122424ebabb2c",
+  "hash": "4151f7bfaa51f866",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/chiang-mai-highlands.json": {
-  "hash": "5cd5d16fe6450ae5",
+  "hash": "442b5ee96365be6f",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/flora-ville.json": {
-  "hash": "305eabe9676643d7",
+  "hash": "ea77ae4e9000d52f",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/laem-chabang.json": {
-  "hash": "ab73a18c6a1c0cae",
+  "hash": "a488ed6f3c8256d7",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/laguna-phuket.json": {
-  "hash": "781ac008e318c41c",
+  "hash": "0610c69052dcef74",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/lake-view.json": {
-  "hash": "63def8b248be60db",
+  "hash": "e01d4e604f68bbed",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/mae-jo.json": {
-  "hash": "186157f97cc047b1",
+  "hash": "88043448806cb57d",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/mission-hills-kanchanaburi.json": {
-  "hash": "33806d9d769e759a",
+  "hash": "7dc143e261dd09c6",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/mission-hills-phuket.json": {
-  "hash": "72d59ca2c13e61b8",
+  "hash": "2ab2f00cfb73953f",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/nikanti.json": {
-  "hash": "b95dda3a920e77bc",
+  "hash": "c3cc4d629e08f633",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/pineapple-valley.json": {
-  "hash": "16458d9f5bee7a54",
+  "hash": "bb166d54e27f77b9",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/red-mountain.json": {
-  "hash": "9ea07a867b2ee200",
+  "hash": "5e67aadea0f6e0b4",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/siam-country-club.json": {
-  "hash": "c90be8d2b96730ef",
+  "hash": "d36c414e15417d78",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/springfield-royal.json": {
-  "hash": "d6f1f959a605b6fd",
+  "hash": "0ee409a9ff53025f",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/thailand/thai-country-club.json": {
-  "hash": "22344c55d5b60162",
+  "hash": "6a59eb25114cd0ff",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/ba-na-hills.json": {
-  "hash": "7b694dcab4fa7a4a",
+  "hash": "115cd737a5156edc",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/brg-da-nang-nicklaus.json": {
@@ -756,7 +756,7 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/hoiana-shores.json": {
-  "hash": "bb91d3a62ffa45a8",
+  "hash": "0b5fe9a2691c6d65",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/kings-island.json": {
@@ -836,7 +836,7 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/the-bluffs-ho-tram.json": {
-  "hash": "59620579505886fd",
+  "hash": "3a3813c96521ec32",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/twin-doves.json": {
