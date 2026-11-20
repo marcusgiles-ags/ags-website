@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import InlineFastInquiry from '@/components/InlineFastInquiry';
+import ConciergeWhatsAppButton from '@/components/ConciergeWhatsAppButton';
 import PackageConfigurator from '@/components/PackageConfigurator';
 
 export const dynamicParams = false;
@@ -689,7 +690,12 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
           </div>
         </section>
 
-        {/* Fast Inquiry Module */}
+        {/* Crawl-Safe WhatsApp & Fast Inquiry Module */}
+        <ConciergeWhatsAppButton
+          itemType="package"
+          itemTitle={data.title}
+          destination={data.destination}
+        />
         <InlineFastInquiry
           packageTitle={data.title}
           destination={data.destination}

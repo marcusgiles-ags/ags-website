@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import MateshipShare from "@/components/MateshipShare";
 import InlineFastInquiry from "@/components/InlineFastInquiry";
+import ConciergeWhatsAppButton from "@/components/ConciergeWhatsAppButton";
 import TourSubNav from "@/components/tours/TourSubNav";
 import TourDaySplit from "@/components/tours/TourDaySplit";
 import TourSanctuaryGallery from "@/components/tours/TourSanctuaryGallery";
@@ -798,8 +799,13 @@ export default function NextGenTourTemplate({ data }: { data: TourData }) {
             </p>
           </div>
 
-          {/* Inline Fast Inquiry Form */}
+          {/* Crawl-Safe WhatsApp & Inline Fast Inquiry Form */}
           <div style={{ maxWidth: "680px", margin: "0 auto 3rem auto" }}>
+            <ConciergeWhatsAppButton
+              itemType="tour"
+              itemTitle={tourTitle}
+              destination={data.country}
+            />
             <InlineFastInquiry
               packageTitle={data.titlePrefix + " " + data.titleHighlight}
               destination={data.country}
