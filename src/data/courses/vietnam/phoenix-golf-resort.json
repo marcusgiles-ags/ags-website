@@ -93,16 +93,16 @@
     "imageUrl": "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-hero.webp",
     "addressLocality": "Hoa Binh",
     "addressCountry": "VN",
-    "numberOfHoles": 18,
+    "numberOfHoles": 54,
     "courseLength": 7184,
     "par": 72,
     "designer": "Ron Fream, Calvin Peete, Tatsukawa",
     "sameAs": []
   },
   "curatorBriefHtml": [
-    "<strong>Phoenix Golf Resort</strong> is a premier Par 72 championship layout in Hoa Binh, Vietnam, crafted by <strong>Ron Fream, Calvin Peete, Tatsukawa</strong> (2006) and stretching to <strong>7,184 Yards</strong> across a mountain / karst environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its towering limestone karst scenery (Dramatic vertical rock towers) and 54-hole diversity (champion, phoenix, dragon) (Vast complex in secluded valley).",
-    "From an itinerary-engineering perspective, Phoenix Golf Resort (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie cart maneuvering on steep slopes (Navigates dramatic elevation), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
-    "When integrated into a multi-round Hoa Binh golf tour by AGS, Phoenix Golf Resort provides a distinct architectural test by Ron Fream, Calvin Peete, Tatsukawa that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+    "<strong>Phoenix Golf Resort</strong> in Hoa Binh Province (about 60 minutes southwest of central Hanoi) is Vietnam’s largest golf complex — a sprawling <strong>54-hole destination</strong> nick-named <em>\"Ha Long Bay on Land\"</em> for the dramatic limestone karst spires rising directly behind its fairways. Three distinct 18-hole layouts — the <strong>Dragon Course</strong>, <strong>Champion Course</strong>, and <strong>Phoenix Course</strong> (7,184 yards, Par 72) — were crafted by Ron Fream, Calvin Peete, and Japanese/Korean design teams.",
+    "While Phoenix’s conditioning is more traditional resort-grade than Hanoi’s ultra-modern private clubs like Sky Lake or Thanh Lanh, its limestone-cliff scenery is genuinely jaw-dropping and its 54-hole capacity makes it a dependable option for larger 16- to 32-golfer corporate or society groups needing simultaneous morning tee times.",
+    "AGS recommends requesting the <strong>Dragon Course</strong> for the most dramatic karst vistas and tightest mountain corridors, pairing Phoenix with <a href=\"/courses/vietnam/sky-lake/\" style=\"color:#D4AF37;text-decoration:underline;\">Sky Lake</a> or <a href=\"/courses/vietnam/kings-island/\" style=\"color:#D4AF37;text-decoration:underline;\">BRG Kings Island</a> on a Hanoi golf week."
   ],
   "scorecard": {
     "itemName": "Phoenix Golf Resort",
@@ -138,20 +138,20 @@
   },
   "faqs": [
     {
-      "q": "What are the key course specifications for Phoenix Golf Resort?",
-      "a": "Phoenix Golf Resort in Hoa Binh, Vietnam is a Par 72 championship layout designed by Ron Fream, Calvin Peete, Tatsukawa (opened 2006), measuring 7,184 Yards within a mountain / karst setting. It is particularly noted for towering limestone karst scenery (Dramatic vertical rock towers)."
+      "q": "Which of the three 18-hole courses at Phoenix Golf Resort is best?",
+      "a": "The Dragon Course offers the most dramatic limestone karst scenery and tighter mountain shotmaking, while the Champion Course plays slightly wider and more forgiving for mixed-handicap touring groups."
     },
     {
-      "q": "How do I secure tee times and caddies at Phoenix Golf Resort?",
-      "a": "Phoenix Golf Resort operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie cart maneuvering on steep slopes (Navigates dramatic elevation)), and private VIP transfers from your Hoa Binh hotel as part of a custom golf itinerary."
+      "q": "How far is Phoenix Golf Resort from central Hanoi?",
+      "a": "Phoenix lies in Luong Son (Hoa Binh Province), approximately 55 to 70 minutes southwest of central Hanoi by private touring vehicle."
     },
     {
-      "q": "What playing conditions and turf can golfers expect at Phoenix Golf Resort?",
-      "a": "Our field inspection highlights Phoenix Golf Resort's 54-hole diversity (champion, phoenix, dragon) (Vast complex in secluded valley) alongside towering limestone karst scenery (Dramatic vertical rock towers). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+      "q": "Why is Phoenix Golf Resort called 'Ha Long Bay on Land'?",
+      "a": "Towering vertical limestone karst formations encircle the valley and sit directly behind several green complexes, mirroring the geological drama of Ha Long Bay."
     },
     {
       "q": "What is the best time of year to play Phoenix Golf Resort?",
-      "a": "Peak playing conditions at Phoenix Golf Resort in Hoa Binh typically run during the cooler, drier months from November through April, with early morning tee times recommended year-round."
+      "a": "October through April brings cool, clear Northern Vietnam weather (18–26°C) when mountain visibility is sharpest."
     }
   ],
   "nav": {

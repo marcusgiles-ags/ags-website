@@ -70,11 +70,7 @@
     },
     {
       "label": "Access",
-      "value": "Members & invited guests only"
-    },
-    {
-      "label": "Challenge Level",
-      "value": "Low handicap required"
+      "value": "Open to Visiting Golfers"
     }
   ],
   "overviewParagraphs": [
@@ -101,9 +97,9 @@
     ]
   },
   "curatorBriefHtml": [
-    "<strong>Sky Lake Golf Club (Sky Course)</strong> is a premier Par 72 championship layout in Hanoi, Vietnam, crafted by <strong>Ahn Moon Hwan / Bori Golf Design</strong> (2014) and stretching to <strong>7,128 Yards</strong> across a championship layout environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its sweeping valley & karst vistas (Elevation changes with panoramic views) and generous landing corridors (Playable for all handicaps).",
-    "From an itinerary-engineering perspective, Sky Lake Golf Club (Sky Course) (Members & invited guests only) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie distance calculations (Excellent slope club selection), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
-    "When integrated into a multi-round Hanoi golf tour by AGS, Sky Lake Golf Club (Sky Course) provides a distinct architectural test by Ahn Moon Hwan / Bori Golf Design that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+    "<strong>Sky Lake’s Sky Course</strong> (opened 2014, designed by Ahn Moon Hwan) is the dramatic, mountain-ringed sister loop to Hanoi’s private Lake Course — open to visiting golfers and famous for its sweeping limestone-cliff panoramas. Playing 7,128 yards (Par 72), the Sky Course uses natural elevation swings and dramatic hillside tee shots rather than constant water hazards, headlined by the iconic <strong>par-4 15th (\"Dien Bien Phu\")</strong> — one of Northern Vietnam’s most talked-about risk-reward holes.",
+    "Because the Sky Course is slightly more forgiving off the tee than the water-heavy Lake Course while sharing the exact same five-star clubhouse and Paspalum turf standards, it is our top pick for mixed-handicap groups visiting Hanoi for the first time — or as the afternoon half of a 36-hole Sky Lake marathon.",
+    "Located 55 minutes southwest of central Hanoi, the Sky Course pairs cleanly with <a href=\"/courses/vietnam/kings-island/\" style=\"color:#D4AF37;text-decoration:underline;\">BRG Kings Island</a> and <a href=\"/courses/vietnam/sky-lake-lake/\" style=\"color:#D4AF37;text-decoration:underline;\">Sky Lake Lake Course</a> on bespoke Northern Vietnam itineraries."
   ],
   "scorecard": {
     "itemName": "Sky Lake Golf Club (Sky Course)",
@@ -139,20 +135,20 @@
   },
   "faqs": [
     {
-      "q": "What are the key course specifications for Sky Lake Golf Club (Sky Course)?",
-      "a": "Sky Lake Golf Club (Sky Course) in Hanoi, Vietnam is a Par 72 championship layout designed by Ahn Moon Hwan / Bori Golf Design (opened 2014), measuring 7,128 Yards within a championship layout setting. It is particularly noted for sweeping valley & karst vistas (Elevation changes with panoramic views)."
+      "q": "Is the Sky Course at Sky Lake open to visiting golfers?",
+      "a": "Yes. The Sky Course is Sky Lake Resort’s primary visitor-accessible 18-hole championship layout, welcoming international touring groups throughout the week with advance booking through AGS."
     },
     {
-      "q": "How do I secure tee times and caddies at Sky Lake Golf Club (Sky Course)?",
-      "a": "Sky Lake Golf Club (Sky Course) operates under members & invited guests only protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie distance calculations (Excellent slope club selection)), and private VIP transfers from your Hanoi hotel as part of a custom golf itinerary."
+      "q": "What is the signature hole on Sky Lake's Sky Course?",
+      "a": "Hole 15 — famously dubbed 'Dien Bien Phu' — is an exhilarating risk-reward par 4 framed by mountain terrain and strategic bunkers that demands bold decision-making off the tee."
     },
     {
-      "q": "What playing conditions and turf can golfers expect at Sky Lake Golf Club (Sky Course)?",
-      "a": "Our field inspection highlights Sky Lake Golf Club (Sky Course)'s generous landing corridors (Playable for all handicaps) alongside sweeping valley & karst vistas (Elevation changes with panoramic views). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+      "q": "Should we play Sky Course or Lake Course at Sky Lake?",
+      "a": "Choose the Sky Course for dramatic mountain views, wider fairways, and easier weekend/weekday availability; request the Lake Course if you are a low-to-mid handicapper craving a tighter, members-style lakeside tournament test."
     },
     {
-      "q": "What is the best time of year to play Sky Lake Golf Club (Sky Course)?",
-      "a": "October through April is the recommended season for Sky Lake's Sky Course."
+      "q": "When is the best time of year to play the Sky Course?",
+      "a": "October through April delivers cool, dry mountain air and clear limestone vistas across the Chuong My valley."
     }
   ],
   "nav": {

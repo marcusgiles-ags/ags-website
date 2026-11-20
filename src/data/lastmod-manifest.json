@@ -444,12 +444,12 @@
   "lastmod": "2026-11-07"
  },
  "src/data/blog-posts/10-day-vietnam-thailand-golf-itinerary.json": {
-  "hash": "f7a69a48a1b48274",
-  "lastmod": "2026-11-18"
+  "hash": "6ab17f48da3517c4",
+  "lastmod": "2026-11-20"
  },
  "src/data/blog-posts/7-day-vietnam-golf-itinerary.json": {
-  "hash": "c7d423f103847915",
-  "lastmod": "2026-11-18"
+  "hash": "72c4282cc71f1c20",
+  "lastmod": "2026-11-20"
  },
  "src/data/blog-posts/asia-golf-specialists-vs-ata-holidays.json": {
   "hash": "db4436b92eb40ecb",
@@ -508,8 +508,8 @@
   "lastmod": "2026-11-18"
  },
  "src/data/blog-posts/couples-golf-holiday-southeast-asia.json": {
-  "hash": "9f8f8db937c4eada",
-  "lastmod": "2026-11-12"
+  "hash": "295e7b10e48caec0",
+  "lastmod": "2026-11-20"
  },
  "src/data/blog-posts/couples-luxury-golf-wellness-asia.json": {
   "hash": "34f4f4d5f0a3cff3",
@@ -528,8 +528,8 @@
   "lastmod": "2026-11-12"
  },
  "src/data/blog-posts/golf-holidays-from-australia.json": {
-  "hash": "41d2ba1cf5c1a118",
-  "lastmod": "2026-11-18"
+  "hash": "b86ef93c454ea01d",
+  "lastmod": "2026-11-20"
  },
  "src/data/blog-posts/golfasian-vietnam-tour-alternatives.json": {
   "hash": "944b83a58dbf427f",
@@ -720,15 +720,15 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/ba-na-hills.json": {
-  "hash": "d784be37489d8235",
+  "hash": "7b694dcab4fa7a4a",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/brg-da-nang-nicklaus.json": {
-  "hash": "6e86fd924c7935c5",
+  "hash": "bee2dd44879bede1",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/brg-da-nang-norman.json": {
-  "hash": "d62c8c94b895c934",
+  "hash": "9d1b4e2c38264997",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/chi-linh-golf.json": {
@@ -756,7 +756,7 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/hoiana-shores.json": {
-  "hash": "fd055d2e72e36110",
+  "hash": "bb91d3a62ffa45a8",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/kings-island.json": {
@@ -768,11 +768,11 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/laguna-lang-co.json": {
-  "hash": "911da21ae0bf8bba",
+  "hash": "bfe3b228a03c92d8",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/legend-hill.json": {
-  "hash": "fb6a33c4f81e48d1",
+  "hash": "1a47ab1beb1c3b9f",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/long-thanh.json": {
@@ -780,19 +780,19 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/montgomerie-links.json": {
-  "hash": "ff1f2070c450a9e0",
+  "hash": "4397ba210bab58e9",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/nara-binh-tien.json": {
-  "hash": "17ea466d567d1f57",
+  "hash": "eace2ecb4dfa0a45",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/pga-ocean-course.json": {
-  "hash": "e40e9c5f14514219",
+  "hash": "027b29f5f3687cae",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/phoenix-golf-resort.json": {
-  "hash": "3fa793b09b91d3ed",
+  "hash": "07fc6e6894900bfd",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/royal-long-an.json": {
@@ -804,7 +804,7 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/sea-links-golf-club.json": {
-  "hash": "eeecb1d3ee9e25cb",
+  "hash": "92f6816b40897453",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/silk-path-dong-trieu.json": {
@@ -812,11 +812,11 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/sky-lake-lake.json": {
-  "hash": "0a54410bd538f6dd",
+  "hash": "75a55efd0d4cca61",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/sky-lake-sky.json": {
-  "hash": "f8a52980df9fbdb6",
+  "hash": "761a80f0f019c51f",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/sky-lake.json": {
@@ -832,23 +832,23 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/thanh-lanh-valley.json": {
-  "hash": "61c7564259b4a814",
+  "hash": "4d34bdbd6cdd0faa",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/the-bluffs-ho-tram.json": {
-  "hash": "88c72115ef62bcc5",
+  "hash": "59620579505886fd",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/twin-doves.json": {
-  "hash": "9db08408ecd4b326",
+  "hash": "96f4b189ce94c5a2",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/van-tri-golf-club.json": {
-  "hash": "23ce8d78796b0a7a",
+  "hash": "e9e08142ac3640c0",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/vgcc.json": {
-  "hash": "308067e023927c19",
+  "hash": "83d3e6616e5826a4",
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/vinpearl-nam-hoi-an.json": {
@@ -856,7 +856,7 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/west-lakes-golf-club.json": {
-  "hash": "3fb287a04fe3c915",
+  "hash": "37991640048d07d6",
   "lastmod": "2026-11-20"
  },
  "src/data/packages/amanpuri-phuket-ultimate-sanctuary.json": {
@@ -988,8 +988,8 @@
   "lastmod": "2026-11-18"
  },
  "src/data/seo-articles/black-mountain-vs-banyan-tree.json": {
-  "hash": "937cacd394106c81",
-  "lastmod": "2026-11-12"
+  "hash": "6288258c40a4fef7",
+  "lastmod": "2026-11-20"
  },
  "src/data/seo-articles/cambodia-culinary-cuisine-wat-damnak.json": {
   "hash": "e5ad6ec48781565e",
@@ -1064,12 +1064,12 @@
   "lastmod": "2026-11-18"
  },
  "src/data/seo-articles/central-coast-weather-vs-mountain-mist.json": {
-  "hash": "de759244d44aa5d6",
-  "lastmod": "2026-11-12"
+  "hash": "365b3220052294de",
+  "lastmod": "2026-11-20"
  },
  "src/data/seo-articles/corporate-tour-vs-standard-tour.json": {
-  "hash": "720da4ea9b9d24e8",
-  "lastmod": "2026-11-18"
+  "hash": "cfc675a67b4b588d",
+  "lastmod": "2026-11-20"
  },
  "src/data/seo-articles/da-nang-gastronomy-experience.json": {
   "hash": "1d87c85ed672ff9a",
@@ -1116,8 +1116,8 @@
   "lastmod": "2026-11-12"
  },
  "src/data/seo-articles/sprint-vs-traditional-tour.json": {
-  "hash": "a361445c62039cb7",
-  "lastmod": "2026-11-12"
+  "hash": "0f3be00eb070b7c9",
+  "lastmod": "2026-11-20"
  },
  "src/data/seo-articles/thai-country-club-or-amata.json": {
   "hash": "b16887045ec2d1d8",
@@ -1236,24 +1236,24 @@
   "lastmod": "2026-11-12"
  },
  "src/data/seo-articles/unfiltered-brg-vs-montgomerie.json": {
-  "hash": "6ebde9f5b21303b0",
-  "lastmod": "2026-11-12"
+  "hash": "dd6cc9bdfd4bed46",
+  "lastmod": "2026-11-20"
  },
  "src/data/seo-articles/unfiltered-hoiana-shores-vs-ba-na-hills.json": {
   "hash": "9358988005af6caa",
   "lastmod": "2026-11-12"
  },
  "src/data/seo-articles/unfiltered-hoiana-shores-vs-laguna.json": {
-  "hash": "c5612f23e040d11c",
-  "lastmod": "2026-11-12"
+  "hash": "78a2f6c6f5a91df7",
+  "lastmod": "2026-11-20"
  },
  "src/data/seo-articles/unfiltered-the-logistics-of-light.json": {
   "hash": "557358e5d59bc4d5",
   "lastmod": "2026-11-12"
  },
  "src/data/seo-articles/unfiltered-villa-vs-suite.json": {
-  "hash": "9ed755acd1cd1472",
-  "lastmod": "2026-11-12"
+  "hash": "62efe18b19ac0e89",
+  "lastmod": "2026-11-20"
  },
  "src/data/seo-articles/vattanac-golf-resort-comparing-east-and-west-courses.json": {
   "hash": "725570422761ddb0",
