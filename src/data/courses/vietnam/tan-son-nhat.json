@@ -1,0 +1,172 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "tan-son-nhat",
+  "url": "/courses/vietnam/tan-son-nhat/",
+  "metadata": {
+    "title": "Tan Son Nhat Golf Course | 36-Hole Saigon City Centre Golf",
+    "titleIsAbsolute": true,
+    "description": "Play Tan Son Nhat Golf Course — an incredible 36-hole Nelson & Haworth complex in the heart of Ho Chi Minh City. Book with Asia Golf Specialists.",
+    "keywords": [
+      "Tan Son Nhat Golf Course",
+      "Saigon Golf Course",
+      "Ho Chi Minh City Golf",
+      "36 Hole Golf Vietnam",
+      "Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-vietnam-1.webp",
+    "ogAlt": "Tan Son Nhat Golf Course | 36-Hole Saigon City Centre Golf — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Tan Son Nhat",
+    "h1Gold": "Golf Course",
+    "quote": "\"36 holes in the heart of a megacity — the world's most convenient golf experience.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-vietnam-1.webp",
+      "alt": "Tan Son Nhat Golf Course Ho Chi Minh City Aerial Vietnam",
+      "caption": "Ho Chi Minh City Aerial"
+    },
+    {
+      "src": "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-city-center-2.webp",
+      "alt": "Tan Son Nhat Golf Course City Centre Saigon Vietnam",
+      "caption": "City Centre Saigon"
+    },
+    {
+      "src": "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-36-holes-layout-3.webp",
+      "alt": "Tan Son Nhat Golf Course 36 Hole Championship Vietnam Layout",
+      "caption": "36 Hole Championship Vietnam Layout"
+    },
+    {
+      "src": "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-fairway-4.webp",
+      "alt": "Tan Son Nhat Golf Course Fairway Championship Vietnam",
+      "caption": "Fairway Championship"
+    },
+    {
+      "src": "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-greens-saigon-5.webp",
+      "alt": "Tan Son Nhat Golf Course Championship Greens Saigon Vietnam",
+      "caption": "Championship Greens Saigon"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Nelson & Haworth"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2015"
+    },
+    {
+      "label": "Par",
+      "value": "71 / 72 (two courses)"
+    },
+    {
+      "label": "Length",
+      "value": "7,081 Yards (Blue Tees)"
+    },
+    {
+      "label": "Location",
+      "value": "Tan Binh District, HCMC"
+    },
+    {
+      "label": "Distance from CBD",
+      "value": "5 minutes"
+    },
+    {
+      "label": "Total Holes",
+      "value": "36 (two 18-hole layouts)"
+    }
+  ],
+  "overviewParagraphs": [
+    "Tan Son Nhat Golf Course holds a unique position in global golf — it is a massive 36-hole complex located in a densely populated urban setting, just five minutes from the centre of Ho Chi Minh City. Adjacent to the international airport, it is frequently the first or last round of the trip for discerning golfers transiting through Saigon.",
+    "Designed by Nelson & Haworth, the two layouts offer different character and challenges, both making inventive use of their constrained urban setting. Water features, strategic bunkering, and mature tree lines create a surprisingly authentic golf experience despite the city skyline visible in all directions.",
+    "Tan Son Nhat is the most accessible course in southern Vietnam for the convenience-focused golfer. A round here before catching an evening connection flight makes for one of the most memorable pre-departure experiences in Asian golf."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "City Course"
+  },
+  "schema": {
+    "name": "Tan Son Nhat Golf Course",
+    "description": "36 holes in the heart of a megacity — the world's most convenient golf experience.",
+    "imageUrl": "/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-vietnam-1.webp",
+    "addressLocality": "Ho Chi Minh City",
+    "addressCountry": "VN",
+    "numberOfHoles": 36,
+    "courseLength": 7081,
+    "par": 72,
+    "designer": "Nelson & Haworth",
+    "sameAs": [
+      "https://tansonnhatgolf.vn/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Tan Son Nhat Golf Course</strong> is a premier Par 71 / 72 (two courses) championship layout in Ho Chi Minh City, Vietnam, crafted by <strong>Nelson & Haworth</strong> (2015) and stretching to <strong>7,081 Yards (Blue Tees)</strong> across a championship layout environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its central city proximity & night golf lights (Play until midnight minutes from airport) and fast true greens & strategic water hazards (Manicured city fairways).",
+    "From an itinerary-engineering perspective, Tan Son Nhat Golf Course (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its high-volume caddie professionalism (Polished and punctual), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Ho Chi Minh City golf tour by AGS, Tan Son Nhat Golf Course provides a distinct architectural test by Nelson & Haworth that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Tan Son Nhat Golf Course",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/tan-son-nhat/tan-son-nhat-golf-course-vietnam-1.webp",
+    "overallScore": 4.6,
+    "maxScore": 5,
+    "gradeBadge": "36-Hole Saigon City Center Golf • Nelson & Haworth",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Central City Proximity & Night Golf Lights",
+        "score": 9.8,
+        "highlight": "Play until midnight minutes from airport"
+      },
+      {
+        "label": "Fast True Greens & Strategic Water Hazards",
+        "score": 9.4,
+        "highlight": "Manicured city fairways"
+      },
+      {
+        "label": "High-Volume Caddie Professionalism",
+        "score": 9.4,
+        "highlight": "Polished and punctual"
+      },
+      {
+        "label": "Massive Resort-Style Clubhouse",
+        "score": 9.5,
+        "highlight": "One of Asia's largest clubhouses"
+      }
+    ],
+    "verdict": "Located right next to Tan Son Nhat airport in Ho Chi Minh City, this 36-hole facility is ideal for arrival day or departure rounds. Exceptional floodlit night golf and comprehensive amenities."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Tan Son Nhat Golf Course?",
+      "a": "Tan Son Nhat Golf Course in Ho Chi Minh City, Vietnam is a Par 71 / 72 (two courses) championship layout designed by Nelson & Haworth (opened 2015), measuring 7,081 Yards (Blue Tees) within a championship layout setting. It is particularly noted for central city proximity & night golf lights (Play until midnight minutes from airport)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Tan Son Nhat Golf Course?",
+      "a": "Tan Son Nhat Golf Course operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (high-volume caddie professionalism (Polished and punctual)), and private VIP transfers from your Ho Chi Minh City hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Tan Son Nhat Golf Course?",
+      "a": "Our field inspection highlights Tan Son Nhat Golf Course's fast true greens & strategic water hazards (Manicured city fairways) alongside central city proximity & night golf lights (Play until midnight minutes from airport). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Tan Son Nhat Golf Course?",
+      "a": "November through April is the recommended season for Tan Son Nhat Golf Course."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Taekwang Jeongsan Country Club",
+      "path": "/courses/vietnam/taekwang-jeongsan/"
+    },
+    "next": {
+      "title": "Thanh Lanh Valley Golf & Resort",
+      "path": "/courses/vietnam/thanh-lanh-valley/"
+    }
+  }
+}

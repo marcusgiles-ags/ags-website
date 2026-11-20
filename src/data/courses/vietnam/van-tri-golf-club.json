@@ -1,0 +1,172 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "van-tri-golf-club",
+  "url": "/courses/vietnam/van-tri-golf-club/",
+  "metadata": {
+    "title": "Van Tri Golf Club | Vietnam's Premier Private Course",
+    "titleIsAbsolute": true,
+    "description": "Van Tri Golf Club is Hanoi's most exclusive private golf estate. Designed by Peter Rousseau, this 18-hole championship layout offers an elite experience.",
+    "keywords": [
+      "Van Tri Golf Club",
+      "Private golf course Hanoi",
+      "Peter Rousseau Vietnam golf",
+      "Hanoi exclusive golf",
+      "Vietnam luxury golf tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/van-tri-golf-club/van-tri-golf-club-water.webp",
+    "ogAlt": "Van Tri Golf Club Private Course Hanoi Vietnam 2026"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Van Tri",
+    "h1Gold": "Golf Club",
+    "quote": "\"Hanoi's first exclusive private golf estate, delivering an immaculate parkland experience.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/van-tri-golf-club/van-tri-golf-club-water.webp",
+      "alt": "Van Tri Golf Club Signature Water Hole Hanoi Vietnam",
+      "caption": "Signature water hole at Van Tri"
+    },
+    {
+      "src": "/images/courses/vietnam/van-tri-golf-club/van-tri-clubhouse.webp",
+      "alt": "Van Tri Golf Club Luxury Clubhouse Exterior Hanoi",
+      "caption": "The exclusive private clubhouse"
+    },
+    {
+      "src": "/images/courses/vietnam/van-tri-golf-club/van-tri-bunkering-clubhouse.webp",
+      "alt": "Van Tri Golf Club Strategic Bunkering Approach Vietnam 2026",
+      "caption": "Strategic bunkering approach to the green"
+    },
+    {
+      "src": "/images/courses/vietnam/van-tri-golf-club/van-tri-golf-club_carts.webp",
+      "alt": "Van Tri Golf Club Premium Golf Carts Hanoi 2026",
+      "caption": "Premium fleet for an elite experience"
+    },
+    {
+      "src": "/images/courses/vietnam/van-tri-golf-club/van-tri-restaurant.webp",
+      "alt": "Van Tri Golf Club Private Dining Restaurant Vietnam",
+      "caption": "Private dining overlooking the course"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Peter Rousseau"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2007"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "Up to 7,601 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Paspalum"
+    },
+    {
+      "label": "Setting",
+      "value": "Parkland / Lakes"
+    },
+    {
+      "label": "Access",
+      "value": "Private (AGS Arranged)"
+    }
+  ],
+  "overviewParagraphs": [
+    "Van Tri Golf Club is synonymous with exclusivity and high standards in the North of Vietnam. Conceptualized by Peter Rousseau, the layout is a brilliant execution of parkland golf, carved out of an expansive rural landscape just outside Hanoi's urban core.",
+    "Water plays a defining role in the Van Tri experience. It comes into play on the vast majority of holes, challenging golfers to make strategic decisions off the tee and demanding precise iron play on the approach. The fairways, carpeted in Paspalum, provide a lush, flawless surface that contrasts beautifully with the white sand bunkers.",
+    "Because it operates as a strictly private club, the course rarely sees the heavy traffic typical of resort courses, ensuring pristine conditions year-round. The opulent clubhouse matches the on-course standard, making Van Tri a mandatory stop for discerning travelers visiting the capital."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Private Estate"
+  },
+  "schema": {
+    "name": "Van Tri Golf Club",
+    "description": "Van Tri Golf Club is Hanoi's most exclusive private golf estate. Designed by Peter Rousseau, this 18-hole championship layout offers an elite experience.",
+    "imageUrl": "https://www.asiagolfspecialists.com/images/courses/vietnam/van-tri-golf-club/van-tri-golf-club-water.webp",
+    "addressLocality": "Dong Anh, Hanoi",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 7601,
+    "par": 72,
+    "designer": "Peter Rousseau",
+    "sameAs": [
+      "https://vantrigolf.com.vn/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Van Tri Golf Club</strong> is a premier Par 72 championship layout in Dong Anh, Hanoi, Vietnam, crafted by <strong>Peter Rousseau</strong> (2007) and stretching to <strong>Up to 7,601 Yards</strong> across a parkland / lakes environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its strict private member exclusivity (Limited tee times, zero crowds) and pga-standard turf maintenance (Immaculate fairways and greens).",
+    "From an itinerary-engineering perspective, Van Tri Golf Club (Private (AGS Arranged)) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its elite caddie service & etiquette (Top-tier private club service), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Dong Anh, Hanoi golf tour by AGS, Van Tri Golf Club provides a distinct architectural test by Peter Rousseau that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Van Tri Golf Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/van-tri-golf-club/van-tri-golf-club-water.webp",
+    "overallScore": 4.8,
+    "maxScore": 5,
+    "gradeBadge": "Hanoi's Most Exclusive Private Sanctuary",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Strict Private Member Exclusivity",
+        "score": 9.9,
+        "highlight": "Limited tee times, zero crowds"
+      },
+      {
+        "label": "PGA-Standard Turf Maintenance",
+        "score": 9.8,
+        "highlight": "Immaculate fairways and greens"
+      },
+      {
+        "label": "Elite Caddie Service & Etiquette",
+        "score": 9.7,
+        "highlight": "Top-tier private club service"
+      },
+      {
+        "label": "High-Security Luxury Clubhouse",
+        "score": 9.7,
+        "highlight": "Fine dining & executive suites"
+      }
+    ],
+    "verdict": "Hanoi's most prestigious private membership club. Impeccably manicured fairways and lightning-fast greens weave through pine forests and tranquil water hazards. Uncompromising private luxury."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Van Tri Golf Club?",
+      "a": "Van Tri Golf Club in Dong Anh, Hanoi, Vietnam is a Par 72 championship layout designed by Peter Rousseau (opened 2007), measuring Up to 7,601 Yards within a parkland / lakes setting. It is particularly noted for strict private member exclusivity (Limited tee times, zero crowds)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Van Tri Golf Club?",
+      "a": "Van Tri Golf Club operates under private (ags arranged) protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (elite caddie service & etiquette (Top-tier private club service)), and private VIP transfers from your Dong Anh, Hanoi hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Van Tri Golf Club?",
+      "a": "Our field inspection highlights Van Tri Golf Club's pga-standard turf maintenance (Immaculate fairways and greens) alongside strict private member exclusivity (Limited tee times, zero crowds). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Van Tri Golf Club?",
+      "a": "October through April offers the most comfortable weather for golf in Hanoi, avoiding the heavy summer rains."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Twin Doves Golf Club",
+      "path": "/courses/vietnam/twin-doves/"
+    },
+    "next": {
+      "title": "Vietnam Golf & Country Club",
+      "path": "/courses/vietnam/vgcc/"
+    }
+  }
+}

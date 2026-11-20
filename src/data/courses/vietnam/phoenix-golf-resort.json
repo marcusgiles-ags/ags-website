@@ -1,0 +1,167 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "phoenix-golf-resort",
+  "url": "/courses/vietnam/phoenix-golf-resort/",
+  "metadata": {
+    "title": "Phoenix Golf Resort | 'Halong Bay on Land' Golf Experience",
+    "titleIsAbsolute": true,
+    "description": "Play Phoenix Golf Resort in Hoa Binh, the largest golf facility in North Vietnam. Enjoy 54 holes surrounded by spectacular karst limestone mountains.",
+    "keywords": [
+      "Phoenix Golf Resort",
+      "Ron Fream, Calvin Peete, Tatsukawa Vietnam",
+      "Vietnam Golf Course",
+      "Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-hero.webp",
+    "ogAlt": "Phoenix Golf Resort | Vietnam — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Phoenix",
+    "h1Gold": "Golf Resort",
+    "quote": "\"Nicknamed 'Halong Bay on Land', this 54-hole mega-resort offers a surreal golfing experience amidst towering limestone karst mountains in North Vietnam.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-hero.webp",
+      "alt": "Phoenix Golf Resort Hero",
+      "caption": "The 'Halong Bay on Land'"
+    },
+    {
+      "src": "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-karst.webp",
+      "alt": "Phoenix Golf Karst",
+      "caption": "Spectacular limestone mountains"
+    },
+    {
+      "src": "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-fairways.webp",
+      "alt": "Phoenix Golf Fairways",
+      "caption": "Lush fairways and dramatic backdrops"
+    },
+    {
+      "src": "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-aerial.webp",
+      "alt": "Phoenix Golf Aerial",
+      "caption": "54-hole golf complex"
+    },
+    {
+      "src": "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-clubhouse.webp",
+      "alt": "Phoenix Golf Clubhouse",
+      "caption": "Massive clubhouse facilities"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Ron Fream, Calvin Peete, Tatsukawa"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2006"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "7,184 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Bermuda"
+    },
+    {
+      "label": "Setting",
+      "value": "Mountain / Karst"
+    },
+    {
+      "label": "Top Ranking",
+      "value": "Largest Golf Resort in Vietnam"
+    }
+  ],
+  "overviewParagraphs": [
+    "Set in a landscape that seems straight out of a fantasy movie, Phoenix Golf Resort offers a golfing experience unlike any other. The towering limestone formations provide a dramatic and intimidating backdrop to almost every shot across the 54-hole complex. The three courses offer varied challenges: the Phoenix Course (designed by Ron Fream), the Dragon Course (by Japanese designer Tatsukawa), and the Master Course (by Calvin Peete). Each course demands accuracy to avoid the water hazards, deep rough, and out-of-bounds areas created by the natural rocky terrain. The resort's massive European-style clubhouse stands as a grand centerpiece, offering extensive facilities, locker rooms, and dining options to accommodate hundreds of golfers daily."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Course"
+  },
+  "schema": {
+    "name": "Phoenix Golf Resort",
+    "description": "Play Phoenix Golf Resort in Hoa Binh, the largest golf facility in North Vietnam. Enjoy 54 holes surrounded by spectacular karst limestone mountains.",
+    "imageUrl": "/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-hero.webp",
+    "addressLocality": "Hoa Binh",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 7184,
+    "par": 72,
+    "designer": "Ron Fream, Calvin Peete, Tatsukawa",
+    "sameAs": []
+  },
+  "curatorBriefHtml": [
+    "<strong>Phoenix Golf Resort</strong> is a premier Par 72 championship layout in Hoa Binh, Vietnam, crafted by <strong>Ron Fream, Calvin Peete, Tatsukawa</strong> (2006) and stretching to <strong>7,184 Yards</strong> across a mountain / karst environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its towering limestone karst scenery (Dramatic vertical rock towers) and 54-hole diversity (champion, phoenix, dragon) (Vast complex in secluded valley).",
+    "From an itinerary-engineering perspective, Phoenix Golf Resort (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie cart maneuvering on steep slopes (Navigates dramatic elevation), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Hoa Binh golf tour by AGS, Phoenix Golf Resort provides a distinct architectural test by Ron Fream, Calvin Peete, Tatsukawa that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Phoenix Golf Resort",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/phoenix-golf-resort/phoenix-golf-resort-hero.webp",
+    "overallScore": 4.6,
+    "maxScore": 5,
+    "gradeBadge": "54-Hole Halong Bay on Land • Hoa Binh",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Towering Limestone Karst Scenery",
+        "score": 9.9,
+        "highlight": "Dramatic vertical rock towers"
+      },
+      {
+        "label": "54-Hole Diversity (Champion, Phoenix, Dragon)",
+        "score": 9.4,
+        "highlight": "Vast complex in secluded valley"
+      },
+      {
+        "label": "Caddie Cart Maneuvering on Steep Slopes",
+        "score": 9.2,
+        "highlight": "Navigates dramatic elevation"
+      },
+      {
+        "label": "Expansive Panoramic Clubhouse",
+        "score": 9.3,
+        "highlight": "Sweeping views of karst valleys"
+      }
+    ],
+    "verdict": "Dubbed 'Ha Long Bay on Land,' the 54-hole Phoenix Golf Resort delivers jaw-dropping scenery as you play between towering vertical limestone pillars rising from the valley floor."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Phoenix Golf Resort?",
+      "a": "Phoenix Golf Resort in Hoa Binh, Vietnam is a Par 72 championship layout designed by Ron Fream, Calvin Peete, Tatsukawa (opened 2006), measuring 7,184 Yards within a mountain / karst setting. It is particularly noted for towering limestone karst scenery (Dramatic vertical rock towers)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Phoenix Golf Resort?",
+      "a": "Phoenix Golf Resort operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie cart maneuvering on steep slopes (Navigates dramatic elevation)), and private VIP transfers from your Hoa Binh hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Phoenix Golf Resort?",
+      "a": "Our field inspection highlights Phoenix Golf Resort's 54-hole diversity (champion, phoenix, dragon) (Vast complex in secluded valley) alongside towering limestone karst scenery (Dramatic vertical rock towers). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Phoenix Golf Resort?",
+      "a": "Peak playing conditions at Phoenix Golf Resort in Hoa Binh typically run during the cooler, drier months from November through April, with early morning tee times recommended year-round."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "PGA Ocean Course NovaWorld",
+      "path": "/courses/vietnam/pga-ocean-course/"
+    },
+    "next": {
+      "title": "Royal Long An Golf & Country Club",
+      "path": "/courses/vietnam/royal-long-an/"
+    }
+  }
+}

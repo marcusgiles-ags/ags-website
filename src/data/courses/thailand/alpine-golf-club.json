@@ -1,0 +1,177 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "alpine-golf-club",
+  "url": "/courses/thailand/alpine-golf-club/",
+  "metadata": {
+    "title": "Alpine Golf & Sports Club Bangkok | Championship Venue",
+    "titleIsAbsolute": true,
+    "description": "Alpine Golf & Sports Club Bangkok — a prestigious 27-hole championship facility south of Bangkok, regularly ranked among Thailand's finest courses. Book.",
+    "keywords": [
+      "Alpine Golf Sports Club Bangkok",
+      "Bangkok Golf Course",
+      "Tiger Woods Golf Thailand",
+      "Johnnie Walker Classic Thailand",
+      "Thailand Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-bangkok-thailand-1.webp",
+    "ogAlt": "Alpine Golf & Sports Club Bangkok | Tiger Woods — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Championship Venue",
+    "h1Line1": "Alpine Golf",
+    "h1Gold": "& Sports Club",
+    "quote": "\"Where Tiger Woods made history — Bangkok's most celebrated championship venue.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-bangkok-thailand-1.webp",
+      "alt": "Alpine Golf Sports Club Bangkok Thailand Championship Aerial",
+      "caption": "Alpine Golf Sports Club Bangkok Thailand Championship Aerial"
+    },
+    {
+      "src": "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-tiger-woods-johnnie-walker-2.webp",
+      "alt": "Alpine Golf Sports Club Thailand Tiger Woods Johnnie Walker Classic",
+      "caption": "Alpine Golf Sports Club Thailand Tiger Woods Johnnie Walker Classic"
+    },
+    {
+      "src": "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-hilly-fairway-3.webp",
+      "alt": "Alpine Golf Club Bangkok Thailand Hilly Terrain Fairway",
+      "caption": "Thailand Hilly Terrain Fairway"
+    },
+    {
+      "src": "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-green-forest-4.webp",
+      "alt": "Alpine Golf Club Thailand Championship Green Forested",
+      "caption": "Thailand Championship Green Forested"
+    },
+    {
+      "src": "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-signature-hole-5.webp",
+      "alt": "Alpine Golf Club Bangkok Thailand Signature Championship Hole",
+      "caption": "Thailand Signature Championship Hole"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Ronald M. Garl"
+    },
+    {
+      "label": "Year Opened",
+      "value": "1996"
+    },
+    {
+      "label": "Location",
+      "value": "Pathum Thani, Bangkok"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "7,007 Yards"
+    },
+    {
+      "label": "Setting",
+      "value": "Hilly terrain, forested"
+    },
+    {
+      "label": "Tournament History",
+      "value": "Johnnie Walker Classic 1997"
+    },
+    {
+      "label": "Top 100 Asia Ranking",
+      "value": "#3 in Asia (2026)",
+      "href": "https://www.top100golfcourses.com/golf-courses/asia/thailand"
+    }
+  ],
+  "overviewParagraphs": [
+    "Alpine Golf & Sports Club holds a place in history that few courses in Asia can match — it was here in 1997, on a course of remarkable natural topography, that a young Tiger Woods won the Johnnie Walker Classic and announced to the world that Thai golf was ready for a global stage.",
+    "Set in Bangkok's green lung north of the city, Alpine commands unusual terrain for a Bangkok course: genuine elevation changes, forested ridges, and dramatic hill-to-valley transitions that reward careful course management. The layout challenges all classes of player, with narrow tree-lined corridors demanding accuracy off the tee and fast, undulating greens demanding patience on every approach.",
+    "For discerning golfers with an appreciation for tournament history and genuine course character, Alpine Golf & Sports Club is essential. AGS can build Bangkok itineraries pairing it with the city's other elite facilities for a thoroughly satisfying northern Thailand golf experience."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience",
+    "gold": "Alpine"
+  },
+  "schema": {
+    "name": "Alpine Golf Club Bangkok",
+    "description": "Where Tiger Woods made history — Bangkok's most celebrated championship venue.",
+    "imageUrl": "/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-bangkok-thailand-1.webp",
+    "addressLocality": "Bangkok",
+    "addressCountry": "TH",
+    "numberOfHoles": 18,
+    "courseLength": 7007,
+    "par": 72,
+    "designer": "Ronald M. Garl",
+    "sameAs": [
+      "https://alpinegolfclub.com/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Alpine Golf Club Bangkok</strong> is a premier Par 72 championship layout in Bangkok, Thailand, crafted by <strong>Ronald M. Garl</strong> (1996) and stretching to <strong>7,007 Yards</strong> across a hilly terrain, forested environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its ron garl contouring & rolling elevation (Sculpted rolling terrain) and pristine bermuda turf standards (True, fast-rolling greens).",
+    "From an itinerary-engineering perspective, Alpine Golf Club Bangkok (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its elite private club service (Exclusive member access), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Bangkok golf tour by AGS, Alpine Golf Club Bangkok provides a distinct architectural test by Ronald M. Garl that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Alpine Golf Club Bangkok",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/alpine-golf-club/alpine-golf-sports-club-bangkok-thailand-1.webp",
+    "overallScore": 4.8,
+    "maxScore": 5,
+    "gradeBadge": "Johnnie Walker Classic Host • Bangkok",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Ron Garl Contouring & Rolling Elevation",
+        "score": 9.8,
+        "highlight": "Sculpted rolling terrain"
+      },
+      {
+        "label": "Pristine Bermuda Turf Standards",
+        "score": 9.7,
+        "highlight": "True, fast-rolling greens"
+      },
+      {
+        "label": "Elite Private Club Service",
+        "score": 9.6,
+        "highlight": "Exclusive member access"
+      },
+      {
+        "label": "Historic Tournament Heritage",
+        "score": 9.7,
+        "highlight": "Site of Tiger Woods' victory"
+      }
+    ],
+    "verdict": "The venue where Tiger Woods conquered the Johnnie Walker Classic. Ron Garl transformed flat Bangkok plains into a heavily contoured parkland masterpiece with severe undulating greens and rolling hills."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Alpine Golf Club Bangkok?",
+      "a": "Alpine Golf Club Bangkok in Bangkok, Thailand is a Par 72 championship layout designed by Ronald M. Garl (opened 1996), measuring 7,007 Yards within a hilly terrain, forested setting. It is particularly noted for ron garl contouring & rolling elevation (Sculpted rolling terrain)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Alpine Golf Club Bangkok?",
+      "a": "Alpine Golf Club Bangkok operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (elite private club service (Exclusive member access)), and private VIP transfers from your Bangkok hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Alpine Golf Club Bangkok?",
+      "a": "Our field inspection highlights Alpine Golf Club Bangkok's pristine bermuda turf standards (True, fast-rolling greens) alongside ron garl contouring & rolling elevation (Sculpted rolling terrain). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Alpine Golf Club Bangkok?",
+      "a": "November through April offers the best conditions at Alpine Golf Club Bangkok."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Alpine Golf Resort Chiang Mai",
+      "path": "/courses/thailand/alpine-chiang-mai/"
+    },
+    "next": {
+      "title": "Aquella Golf & Country Club",
+      "path": "/courses/thailand/aquella/"
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "brg-da-nang-norman",
+  "url": "/courses/vietnam/brg-da-nang-norman/",
+  "metadata": {
+    "title": "BRG Da Nang Norman Course | Vietnam Coastal Links Golf",
+    "titleIsAbsolute": true,
+    "description": "BRG Danang Golf Resort Norman Course — a Greg Norman Signature Design on the Da Nang coast, rated among Vietnam's finest championship layouts.",
+    "keywords": [
+      "BRG Da Nang Golf Resort",
+      "Greg Norman Golf Course",
+      "Da Nang Golf",
+      "Vietnam Coastal Links",
+      "Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-coastal-dunes-3.webp",
+    "ogAlt": "BRG Da Nang Golf Resort Norman Course | Vietnam Coastal Links — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "BRG Da Nang",
+    "h1Gold": "Norman Course",
+    "quote": "\"A pure links negotiation with the sand and wind.\" — Greg Norman"
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-coastal-dunes-3.webp",
+      "alt": "BRG Da Nang Golf Resort Coastal Sand Dunes Vietnam",
+      "caption": "Coastal sand dunes, Greg Norman Course"
+    },
+    {
+      "src": "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-norman-course-da-nang-1.webp",
+      "alt": "BRG Da Nang Golf Resort Norman Course Aerial View Da Nang Vietnam",
+      "caption": "Aerial view, BRG Norman Course Da Nang"
+    },
+    {
+      "src": "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-greg-norman-links-2.webp",
+      "alt": "BRG Da Nang Golf Resort Greg Norman Links Design Fairway",
+      "caption": "Greg Norman links-style fairway"
+    },
+    {
+      "src": "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-norman-fairway-vietnam-4.webp",
+      "alt": "BRG Da Nang Golf Resort Norman Course Fairway Championship Layout",
+      "caption": "Championship links fairway layout"
+    },
+    {
+      "src": "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-norman-signature-hole-5.webp",
+      "alt": "BRG Da Nang Golf Resort Norman Course Signature Hole 16 Coastal",
+      "caption": "Signature hole 16, coastal links"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Greg Norman",
+      "href": "https://gngcd.com/"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2010"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "7,160 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Bermuda Evergreen / Paspalum"
+    },
+    {
+      "label": "Setting",
+      "value": "Parkland"
+    }
+  ],
+  "overviewParagraphs": [
+    "The Norman Course at BRG Da Nang Golf Resort is a Greg Norman classic, widely regarded as the ultimate links-style challenge on Vietnam's Central Coast. Designed to mimic the raw, windswept layouts of the British Isles, the course utilizes the natural, rugged sand dunes of Da Nang.",
+    "Fairways are framed by native waste areas and scrub, requiring technical dominance and strategic shot-making rather than brute force. The greens are firm and fast, demanding precise approach shots. Hole 16, with its breathtaking coastal vistas, serves as the signature experience.",
+    "As part of the BRG Da Nang 36-hole complex, the Norman Course maintains the Gold Standard of hospitality, providing a mature and sophisticated infrastructure for the discerning international golf traveller."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Links"
+  },
+  "schema": {
+    "name": "BRG Da Nang Golf Resort (Norman Course)",
+    "description": "BRG Danang Golf Resort Norman Course — a Greg Norman Signature Design on the Da Nang coast, rated among Vietnam",
+    "imageUrl": "/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-coastal-dunes-3.webp",
+    "addressLocality": "Da Nang",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 7160,
+    "par": 72,
+    "designer": "Greg Norman",
+    "sameAs": [
+      "https://brggolf.vn/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>BRG Da Nang Golf Resort (Norman Course)</strong> is a premier Par 72 championship layout in Da Nang, Vietnam, crafted by <strong>Greg Norman</strong> (2010) and stretching to <strong>7,160 Yards</strong> across a parkland environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its native sand dune integration (Classic Aussie Sandbelt cues) and wind exposure & run-up aprons (Firm links-style options).",
+    "From an itinerary-engineering perspective, BRG Da Nang Golf Resort (Norman Course) (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie coastal wind knowledge (Trained on ocean breezes), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Da Nang golf tour by AGS, BRG Da Nang Golf Resort (Norman Course) provides a distinct architectural test by Greg Norman that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "BRG Da Nang Golf Resort (Norman Course)",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/brg-da-nang-norman/brg-da-nang-golf-resort-coastal-dunes-3.webp",
+    "overallScore": 4.8,
+    "maxScore": 5,
+    "gradeBadge": "Original Dunes Masterpiece • Greg Norman",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Native Sand Dune Integration",
+        "score": 9.8,
+        "highlight": "Classic Aussie Sandbelt cues"
+      },
+      {
+        "label": "Wind Exposure & Run-Up Aprons",
+        "score": 9.7,
+        "highlight": "Firm links-style options"
+      },
+      {
+        "label": "Caddie Coastal Wind Knowledge",
+        "score": 9.6,
+        "highlight": "Trained on ocean breezes"
+      },
+      {
+        "label": "Practice Facilities & Pro Shop",
+        "score": 9.3,
+        "highlight": "Extensive grass driving range"
+      }
+    ],
+    "verdict": "The pioneering layout that ignited Da Nang's reputation as a world-class golf destination. Classic Aussie-style dunes golf with expansive waste bunkers framed by casuarina pines and sea breezes."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for BRG Da Nang Golf Resort (Norman Course)?",
+      "a": "BRG Da Nang Golf Resort (Norman Course) in Da Nang, Vietnam is a Par 72 championship layout designed by Greg Norman (opened 2010), measuring 7,160 Yards within a parkland setting. It is particularly noted for native sand dune integration (Classic Aussie Sandbelt cues)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at BRG Da Nang Golf Resort (Norman Course)?",
+      "a": "BRG Da Nang Golf Resort (Norman Course) operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie coastal wind knowledge (Trained on ocean breezes)), and private VIP transfers from your Da Nang hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at BRG Da Nang Golf Resort (Norman Course)?",
+      "a": "Our field inspection highlights BRG Da Nang Golf Resort (Norman Course)'s wind exposure & run-up aprons (Firm links-style options) alongside native sand dune integration (Classic Aussie Sandbelt cues). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play BRG Da Nang Golf Resort (Norman Course)?",
+      "a": "February through September is the recommended season for BRG Da Nang's Norman Course."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "BRG Da Nang Golf Resort Nicklaus Course",
+      "path": "/courses/vietnam/brg-da-nang-nicklaus/"
+    },
+    "next": {
+      "title": "Chi Linh Golf",
+      "path": "/courses/vietnam/chi-linh-golf/"
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "country": "cambodia",
+  "countryName": "Cambodia",
+  "countryCode": "KH",
+  "slug": "vattanac",
+  "url": "/courses/cambodia/vattanac/",
+  "metadata": {
+    "title": "Vattanac Golf Resort | Phnom Penh Golf",
+    "titleIsAbsolute": false,
+    "description": "Play championship golf at Vattanac Golf Resort in Cambodia. Two 18-hole courses by Sir Nick Faldo, featuring Khmer temple models.",
+    "keywords": [
+      "Vattanac Golf Resort",
+      "Phnom Penh Golf Courses",
+      "Cambodia Golf Tours",
+      "Sir Nick Faldo Cambodia",
+      "Vattanac East Course",
+      "Vattanac West Course"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/cambodia/vattanac/vattanac-1.webp",
+    "ogAlt": "Vattanac Golf Resort — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Faldo Signature",
+    "h1Line1": "Vattanac",
+    "h1Gold": "Golf Resort",
+    "quote": "\"An awe-inspiring 36-hole resort seamlessly integrating intricate scale models of ancient Khmer temples into immaculate fairways.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/cambodia/vattanac/vattanac-1.webp",
+      "alt": "Vattanac Golf Resort Aerial Cambodia",
+      "caption": "Vattanac Golf Resort Aerial Overview"
+    },
+    {
+      "src": "/images/courses/cambodia/vattanac/vattanac-2.webp",
+      "alt": "Vattanac East Course Sir Nick Faldo",
+      "caption": "The Championship East Course"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Sir Nick Faldo"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2019 (East) / 2020 (West)"
+    },
+    {
+      "label": "Par",
+      "value": "72 / 72"
+    },
+    {
+      "label": "Length",
+      "value": "7,467 Yards / 7,249 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Paspalum"
+    },
+    {
+      "label": "Setting",
+      "value": "Cultural Parkland"
+    }
+  ],
+  "overviewParagraphs": [
+    "Located just 20 kilometers from the heart of Phnom Penh, Vattanac Golf Resort is redefining luxury golf in Cambodia. The resort features two 18-hole championship courses, both crafted by the legendary six-time Major winner, Sir Nick Faldo.",
+    "The East Course is a strategic masterpiece, stretching to over 7,400 yards. It's defined by extensive water features, dramatic bunkering, and the inclusion of stunning scale models of pre-Angkorian architectural ruins, such as Preah Vihear and Angkor Wat, seamlessly integrated into the layout. The West Course, slightly shorter but no less challenging, offers narrower fairways and a more parkland-style feel, presenting a distinct contrast to the East.",
+    "Both courses are maintained to impeccable standards with pure Paspalum grass. Supported by a spectacular, state-of-the-art clubhouse and elite practice facilities, Vattanac Golf Resort has quickly established itself as the premier golfing destination in Cambodia's capital."
+  ],
+  "subCourseLinks": [
+    {
+      "href": "/courses/cambodia/vattanac-east/",
+      "label": "View East Course"
+    },
+    {
+      "href": "/courses/cambodia/vattanac-west/",
+      "label": "View West Course"
+    }
+  ],
+  "galleryHeading": {
+    "prefix": "Experience",
+    "gold": "Vattanac"
+  },
+  "schema": {
+    "name": "Vattanac Golf Resort",
+    "description": "Play championship golf at Vattanac Golf Resort in Cambodia. Two 18-hole courses by Sir Nick Faldo, featuring Khmer temple models.",
+    "imageUrl": "/images/courses/cambodia/vattanac/vattanac-1.webp",
+    "addressLocality": "Phnom Penh",
+    "addressCountry": "KH",
+    "numberOfHoles": 36,
+    "courseLength": 7467,
+    "par": 72,
+    "designer": "Sir Nick Faldo"
+  },
+  "curatorBriefHtml": [
+    "<strong>Vattanac Golf Resort</strong> is a premier Par 72 / 72 championship layout in Phnom Penh, Cambodia, crafted by <strong>Sir Nick Faldo</strong> (2019 (East) / 2020 (West)) and stretching to <strong>7,467 Yards / 7,249 Yards</strong> across a cultural parkland environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its khmer cultural replica architecture (Miniature Angkorian wonders) and tournament standard conditioning (Flawless Paspalum carpet).",
+    "From an itinerary-engineering perspective, Vattanac Golf Resort (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Cambodia dry season. Our curatorial scorecard specifically notes its elite caddie service (First-class etiquette), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Phnom Penh golf tour by AGS, Vattanac Golf Resort provides a distinct architectural test by Sir Nick Faldo that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Vattanac Golf Resort",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/cambodia/vattanac/vattanac-1.webp",
+    "overallScore": 4.8,
+    "maxScore": 5,
+    "gradeBadge": "Sir Nick Faldo 36-Hole Luxury Resort • Phnom Penh",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Khmer Cultural Replica Architecture",
+        "score": 9.8,
+        "highlight": "Miniature Angkorian wonders"
+      },
+      {
+        "label": "Tournament Standard Conditioning",
+        "score": 9.8,
+        "highlight": "Flawless Paspalum carpet"
+      },
+      {
+        "label": "Elite Caddie Service",
+        "score": 9.7,
+        "highlight": "First-class etiquette"
+      },
+      {
+        "label": "World-Class Academy & Night Golf",
+        "score": 9.8,
+        "highlight": "State-of-the-art facilities"
+      }
+    ],
+    "verdict": "A 36-hole statement of grandeur by Sir Nick Faldo. Features scale replicas of historic Khmer landmarks and incorporates state-of-the-art night golf across two world-class championship layouts."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Vattanac Golf Resort?",
+      "a": "Vattanac Golf Resort in Phnom Penh, Cambodia is a Par 72 / 72 championship layout designed by Sir Nick Faldo (opened 2019 (East) / 2020 (West)), measuring 7,467 Yards / 7,249 Yards within a cultural parkland setting. It is particularly noted for khmer cultural replica architecture (Miniature Angkorian wonders)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Vattanac Golf Resort?",
+      "a": "Vattanac Golf Resort operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (elite caddie service (First-class etiquette)), and private VIP transfers from your Phnom Penh hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Vattanac Golf Resort?",
+      "a": "Our field inspection highlights Vattanac Golf Resort's tournament standard conditioning (Flawless Paspalum carpet) alongside khmer cultural replica architecture (Miniature Angkorian wonders). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Vattanac Golf Resort?",
+      "a": "Peak playing conditions at Vattanac Golf Resort in Phnom Penh typically run during the cooler, drier months from November through April, with early morning tee times recommended year-round."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Siem Reap Booyoung Country Club",
+      "path": "/courses/cambodia/siem-reap-booyoung/"
+    },
+    "next": {
+      "title": "Vattanac Golf Resort East Course",
+      "path": "/courses/cambodia/vattanac-east/"
+    }
+  }
+}

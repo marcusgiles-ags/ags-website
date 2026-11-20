@@ -1,0 +1,177 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "mission-hills-kanchanaburi",
+  "url": "/courses/thailand/mission-hills-kanchanaburi/",
+  "metadata": {
+    "title": "Mission Hills Kanchanaburi | Thailand",
+    "titleIsAbsolute": true,
+    "description": "Play Mission Hills Golf Club Kanchanaburi, a historic Jack Nicklaus design. Experience double-fairways & mountain scenery. Book your Golf Tour with AGS.",
+    "keywords": [
+      "Mission Hills Golf Kanchanaburi",
+      "River Kwai Golf Course",
+      "Jack Nicklaus Golf Kanchanaburi",
+      "Double Fairway Golf Thailand",
+      "Thailand Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-golf-club-thailand-1.webp",
+    "ogAlt": "Mission Hills Golf Club Kanchanaburi | River Kwai Nicklaus Thailand — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Jack Nicklaus River Kwai",
+    "h1Line1": "Mission Hills Golf Club",
+    "h1Gold": "Kanchanaburi",
+    "quote": "\"On the banks of the River Kwai — Nicklaus's double-fairway design amid mountain drama.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-golf-club-thailand-1.webp",
+      "alt": "Mission Hills Golf Club Kanchanaburi Thailand River Kwai Nicklaus Aerial",
+      "caption": "Mission Hills Golf Club Kanchanaburi Thailand River Kwai Nicklaus Aerial"
+    },
+    {
+      "src": "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-river-kwai-2.webp",
+      "alt": "Mission Hills Kanchanaburi Thailand River Kwai Golf Course Mountain",
+      "caption": "Mission Hills Kanchanaburi Thailand River Kwai Golf Course Mountain"
+    },
+    {
+      "src": "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-double-fairway-3.webp",
+      "alt": "Mission Hills Kanchanaburi Thailand Double Fairway Championship Nicklaus",
+      "caption": "Mission Hills Kanchanaburi Thailand Double Fairway Championship Nicklaus"
+    },
+    {
+      "src": "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-mountain-scenery-4.webp",
+      "alt": "Mission Hills Kanchanaburi Thailand Mountain Scenery Golf Hole",
+      "caption": "Mission Hills Kanchanaburi Thailand Mountain Scenery Golf Hole"
+    },
+    {
+      "src": "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-championship-green-5.webp",
+      "alt": "Mission Hills Golf Kanchanaburi Thailand Championship Green",
+      "caption": "Thailand Championship Green"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Jack Nicklaus",
+      "href": "https://nicklausdesign.com/"
+    },
+    {
+      "label": "Year Opened",
+      "value": "1990"
+    },
+    {
+      "label": "Location",
+      "value": "Kanchanaburi (River Kwai region)"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "6,364 Yards (Blue Tees)"
+    },
+    {
+      "label": "Setting",
+      "value": "Mountain scenery, River Kwai valley"
+    },
+    {
+      "label": "Signature Feature",
+      "value": "Double-fairways on multiple holes"
+    },
+    {
+      "label": "Distinction",
+      "value": "Most scenic drive from Bangkok (3hrs)"
+    }
+  ],
+  "overviewParagraphs": [
+    "Mission Hills Golf Club Kanchanaburi represents something genuinely different from the Bangkok region's conventional golf offer — a Jack Nicklaus design positioned deep in the Kwai River valley, surrounded by dramatic limestone mountain ranges, and featuring the signature double-fairway concept that Nicklaus employed here to give golfers genuine strategic choice on every tee.",
+    "The double-fairway format means most holes present two defined landing corridors — one conservative and wide, one aggressive and rewarding — with the approach angle varying significantly depending on which route the player takes. It is a genuinely strategic design that rewards decisive course management and punishes indecision more sharply than conventional layouts.",
+    "For discerning golfers who want to combine their Thailand golf trip with a River Kwai historical experience — the Bridge, the Death Railway, the JEATH War Museum — AGS builds comprehensive Kanchanaburi programs where Mission Hills serves as the centrepiece sporting activity. It is one of the most uniquely situated courses in Asia."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "River Kwai"
+  },
+  "schema": {
+    "name": "Mission Hills Kanchanaburi",
+    "description": "On the banks of the River Kwai — Nicklaus's double-fairway design amid mountain drama.",
+    "imageUrl": "/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-golf-club-thailand-1.webp",
+    "addressLocality": "Kanchanaburi",
+    "addressCountry": "TH",
+    "numberOfHoles": 18,
+    "courseLength": 6364,
+    "par": 72,
+    "designer": "Jack Nicklaus",
+    "sameAs": [
+      "https://www.missionhillsgolfclub.com/kanchanaburi/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Mission Hills Kanchanaburi</strong> is a premier Par 72 championship layout in Kanchanaburi, Thailand, crafted by <strong>Jack Nicklaus</strong> (1990) and stretching to <strong>6,364 Yards (Blue Tees)</strong> across a mountain scenery, river kwai valley environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its river kwai mountain drama (Serene mountain ridges) and expansive waste bunkers & water hazards (Golden Bear signatures).",
+    "From an itinerary-engineering perspective, Mission Hills Kanchanaburi (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its caddie local knowledge & lines (Dependable club advice), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Kanchanaburi golf tour by AGS, Mission Hills Kanchanaburi provides a distinct architectural test by Jack Nicklaus that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Mission Hills Kanchanaburi",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/mission-hills-kanchanaburi/mission-hills-kanchanaburi-golf-club-thailand-1.webp",
+    "overallScore": 4.6,
+    "maxScore": 5,
+    "gradeBadge": "Jack Nicklaus River Kwai Setting • Kanchanaburi",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "River Kwai Mountain Drama",
+        "score": 9.6,
+        "highlight": "Serene mountain ridges"
+      },
+      {
+        "label": "Expansive Waste Bunkers & Water Hazards",
+        "score": 9.4,
+        "highlight": "Golden Bear signatures"
+      },
+      {
+        "label": "Caddie Local Knowledge & Lines",
+        "score": 9.2,
+        "highlight": "Dependable club advice"
+      },
+      {
+        "label": "Historic Countryside Escape",
+        "score": 9.3,
+        "highlight": "Historic River Kwai backdrop"
+      }
+    ],
+    "verdict": "A rugged Jack Nicklaus layout set against the dramatic mountain ranges of Kanchanaburi. Expansive waste bunkers and palm-fringed fairways create a classic countryside championship feel."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Mission Hills Kanchanaburi?",
+      "a": "Mission Hills Kanchanaburi in Kanchanaburi, Thailand is a Par 72 championship layout designed by Jack Nicklaus (opened 1990), measuring 6,364 Yards (Blue Tees) within a mountain scenery, river kwai valley setting. It is particularly noted for river kwai mountain drama (Serene mountain ridges)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Mission Hills Kanchanaburi?",
+      "a": "Mission Hills Kanchanaburi operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie local knowledge & lines (Dependable club advice)), and private VIP transfers from your Kanchanaburi hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Mission Hills Kanchanaburi?",
+      "a": "Our field inspection highlights Mission Hills Kanchanaburi's expansive waste bunkers & water hazards (Golden Bear signatures) alongside river kwai mountain drama (Serene mountain ridges). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Mission Hills Kanchanaburi?",
+      "a": "November through April is ideal for Mission Hills Golf Club Kanchanaburi."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Mae Jo Golf Club",
+      "path": "/courses/thailand/mae-jo/"
+    },
+    "next": {
+      "title": "Mission Hills Phuket Golf Club",
+      "path": "/courses/thailand/mission-hills-phuket/"
+    }
+  }
+}

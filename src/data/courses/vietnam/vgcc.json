@@ -1,0 +1,165 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "vgcc",
+  "url": "/courses/vietnam/vgcc/",
+  "metadata": {
+    "title": "Vietnam Golf & Country Club",
+    "titleIsAbsolute": false,
+    "description": "Play Vietnam Golf & Country Club, a tranquil oasis near Ho Chi Minh City. Book your Vietnam & Thailand golf tour with Asia Golf Specialists.",
+    "keywords": [
+      "Vietnam Golf and Country Club",
+      "VGCC",
+      "Ho Chi Minh City Golf",
+      "Vietnam Golf Tours",
+      "Saigon Golf Courses"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/vgcc/vgcc-1.webp",
+    "ogAlt": "Vietnam Golf & Country Club  — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Classic Parkland",
+    "h1Line1": "Vietnam Golf",
+    "h1Gold": "& Country Club",
+    "quote": "\"An oasis of tranquility just outside the bustling city limits.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/vgcc/vgcc-1.webp",
+      "alt": "Vietnam Golf and Country Club Aerial",
+      "caption": "Vietnam Golf & Country Club Aerial View"
+    },
+    {
+      "src": "/images/courses/vietnam/vgcc/vgcc-2.webp",
+      "alt": "VGCC West Course Fairway",
+      "caption": "West Course Championship Fairway"
+    },
+    {
+      "src": "/images/courses/vietnam/vgcc/vgcc-3.webp",
+      "alt": "Vietnam Golf Country Club Lake",
+      "caption": "Strategic Water Hazards at VGCC"
+    },
+    {
+      "src": "/images/courses/vietnam/vgcc/vgcc-4.webp",
+      "alt": "VGCC East Course Approach",
+      "caption": "Approach Shot on the East Course"
+    },
+    {
+      "src": "/images/courses/vietnam/vgcc/vgcc-5.webp",
+      "alt": "Vietnam Golf Country Club Clubhouse",
+      "caption": "The Classic Clubhouse at VGCC"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Chen King Shih (West) / Lee Trevino (East)"
+    },
+    {
+      "label": "Year Opened",
+      "value": "1994 (West) / 1997 (East)"
+    },
+    {
+      "label": "Par",
+      "value": "72 (West) / 72 (East)"
+    },
+    {
+      "label": "Length",
+      "value": "7,106 Yards / 6,946 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Bermuda"
+    },
+    {
+      "label": "Setting",
+      "value": "Parkland"
+    }
+  ],
+  "overviewParagraphs": [
+    "Vietnam Golf & Country Club (VGCC) is widely regarded as Vietnam’s premier golf and country club. Located just 20 kilometers from the center of Ho Chi Minh City, it offers an accessible escape into lush parkland surroundings.",
+    "The club features two championship courses. The West Course, designed by Taiwanese architect Chen King Shih, opened in 1994 and is characterized by narrow tree-lined fairways and fast greens. The East Course, designed by six-time major champion Lee Trevino, opened in 1997 and offers wider fairways with cleverly positioned hazards, providing a strategic test for players of all levels.",
+    "VGCC has hosted numerous prestigious events, including the Vietnam Open. Its mature trees, meandering waterways, and meticulously manicured grounds make it a classic, must-play destination on any Southern Vietnam golf tour."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Oasis"
+  },
+  "schema": {
+    "name": "Vietnam Golf & Country Club (VGCC)",
+    "description": "Play Vietnam Golf & Country Club, a tranquil oasis near Ho Chi Minh City. Book your Vietnam & Thailand golf tour with Asia Golf Specialists.",
+    "imageUrl": "/images/courses/vietnam/vgcc/vgcc-1.webp",
+    "addressLocality": "Ho Chi Minh City",
+    "addressCountry": "VN",
+    "numberOfHoles": 36,
+    "courseLength": 7106,
+    "par": 72,
+    "designer": "Chen King Shih (West) / Lee Trevino (East)"
+  },
+  "curatorBriefHtml": [
+    "<strong>Vietnam Golf & Country Club (VGCC)</strong> is a premier Par 72 (West) / 72 (East) championship layout in Ho Chi Minh City, Vietnam, crafted by <strong>Chen King Shih (West) / Lee Trevino (East)</strong> (1994 (West) / 1997 (East)) and stretching to <strong>7,106 Yards / 6,946 Yards</strong> across a parkland environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its historic heritage & mature tree canopy (Vietnam) and lee trevino east course challenge (Severe multi-tier greens).",
+    "From an itinerary-engineering perspective, Vietnam Golf & Country Club (VGCC) (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie experience & pacing (Decades of veteran intuition), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Ho Chi Minh City golf tour by AGS, Vietnam Golf & Country Club (VGCC) provides a distinct architectural test by Chen King Shih (West) / Lee Trevino (East) that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Vietnam Golf & Country Club (VGCC)",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/vgcc/vgcc-1.webp",
+    "overallScore": 4.7,
+    "maxScore": 5,
+    "gradeBadge": "36-Hole Heritage Club • Lee Trevino East Course",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Historic Heritage & Mature Tree Canopy",
+        "score": 9.6,
+        "highlight": "Vietnam's first 36-hole complex"
+      },
+      {
+        "label": "Lee Trevino East Course Challenge",
+        "score": 9.5,
+        "highlight": "Severe multi-tier greens"
+      },
+      {
+        "label": "Caddie Experience & Pacing",
+        "score": 9.5,
+        "highlight": "Decades of veteran intuition"
+      },
+      {
+        "label": "Traditional Private Members' Ambiance",
+        "score": 9.4,
+        "highlight": "Classic clubhouse heritage"
+      }
+    ],
+    "verdict": "Vietnam's first 36-hole golf club. The East Course by Lee Trevino offers generous landing areas but severely undulating greens, while the West Course tests driving accuracy through narrow tree-lined fairways."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Vietnam Golf & Country Club (VGCC)?",
+      "a": "Vietnam Golf & Country Club (VGCC) in Ho Chi Minh City, Vietnam is a Par 72 (West) / 72 (East) championship layout designed by Chen King Shih (West) / Lee Trevino (East) (opened 1994 (West) / 1997 (East)), measuring 7,106 Yards / 6,946 Yards within a parkland setting. It is particularly noted for historic heritage & mature tree canopy (Vietnam)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Vietnam Golf & Country Club (VGCC)?",
+      "a": "Vietnam Golf & Country Club (VGCC) operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie experience & pacing (Decades of veteran intuition)), and private VIP transfers from your Ho Chi Minh City hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Vietnam Golf & Country Club (VGCC)?",
+      "a": "Our field inspection highlights Vietnam Golf & Country Club (VGCC)'s lee trevino east course challenge (Severe multi-tier greens) alongside historic heritage & mature tree canopy (Vietnam). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Vietnam Golf & Country Club (VGCC)?",
+      "a": "November through April is prime season for Southern Vietnam golf courses."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Van Tri Golf Club",
+      "path": "/courses/vietnam/van-tri-golf-club/"
+    },
+    "next": {
+      "title": "Vinpearl Golf Nam Hoi An",
+      "path": "/courses/vietnam/vinpearl-nam-hoi-an/"
+    }
+  }
+}

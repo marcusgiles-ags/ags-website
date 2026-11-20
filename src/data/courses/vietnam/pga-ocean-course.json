@@ -1,0 +1,167 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "pga-ocean-course",
+  "url": "/courses/vietnam/pga-ocean-course/",
+  "metadata": {
+    "title": "PGA Ocean Course NovaWorld | PGA Certified Course in Vietnam",
+    "titleIsAbsolute": true,
+    "description": "Play the PGA Ocean Course at NovaWorld Phan Thiet. Designed by Greg Norman, this PGA-certified championship course offers a premier golf experience. Boo.",
+    "keywords": [
+      "PGA Ocean Course NovaWorld",
+      "Greg Norman Vietnam",
+      "Vietnam Golf Course",
+      "Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-herojpg.webp",
+    "ogAlt": "PGA Ocean Course NovaWorld | Vietnam — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "PGA",
+    "h1Gold": "Ocean Course NovaWorld",
+    "quote": "\"The only PGA-certified golf course in Vietnam, designed by Greg Norman with magnificent views of the Phan Thiet coastline.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-herojpg.webp",
+      "alt": "PGA Ocean Course Hero",
+      "caption": "PGA Ocean Course at NovaWorld"
+    },
+    {
+      "src": "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-links.webp",
+      "alt": "PGA Ocean Course Links",
+      "caption": "Greg Norman Design"
+    },
+    {
+      "src": "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-coastal-holes.webp",
+      "alt": "PGA Ocean Course Coastal",
+      "caption": "Stunning coastal holes"
+    },
+    {
+      "src": "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-hole-7.webp",
+      "alt": "PGA Ocean Course Hole 7",
+      "caption": "Signature holes"
+    },
+    {
+      "src": "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-clubhouse.webp",
+      "alt": "PGA Ocean Course Clubhouse",
+      "caption": "Modern clubhouse facilities"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Greg Norman"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2021"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "7,400 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Zeon Zoysia / Primo Zoysia"
+    },
+    {
+      "label": "Setting",
+      "value": "Coastal Parkland"
+    },
+    {
+      "label": "Top Ranking",
+      "value": "PGA Exclusive in Vietnam"
+    }
+  ],
+  "overviewParagraphs": [
+    "Located within the expansive NovaWorld Phan Thiet resort, the PGA Ocean Course is a crowning achievement in Vietnam's growing golf portfolio. Greg Norman has masterfully utilized the natural contours of the land, creating a layout that is both visually stunning and strategically demanding. The course is defined by its pristine Zoysia grass fairways, rugged bunkering, and sweeping ocean vistas. As a PGA-branded property, it meets the highest international standards, ready to host top-tier professional tournaments while remaining accessible and enjoyable for amateur players. The world-class amenities, including a premier academy and an opulent clubhouse, ensure an unparalleled golf experience from arrival to departure."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Course"
+  },
+  "schema": {
+    "name": "PGA Ocean Course (NovaWorld)",
+    "description": "Play the PGA Ocean Course at NovaWorld Phan Thiet. Designed by Greg Norman, this PGA-certified championship course offers a premier golf experience. Boo.",
+    "imageUrl": "/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-herojpg.webp",
+    "addressLocality": "Phan Thiet",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 7400,
+    "par": 72,
+    "designer": "Greg Norman",
+    "sameAs": []
+  },
+  "curatorBriefHtml": [
+    "<strong>PGA Ocean Course (NovaWorld)</strong> is a premier Par 72 championship layout in Phan Thiet, Vietnam, crafted by <strong>Greg Norman</strong> (2021) and stretching to <strong>7,400 Yards</strong> across a coastal parkland environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its pga tour certified design & conditioning (Built to international specs) and panoramic ocean views & undulating dunes (Rugged Australian Sandbelt style).",
+    "From an itinerary-engineering perspective, PGA Ocean Course (NovaWorld) (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie tour-caliber yardages (Laser-sharp pin management), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Phan Thiet golf tour by AGS, PGA Ocean Course (NovaWorld) provides a distinct architectural test by Greg Norman that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "PGA Ocean Course (NovaWorld)",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/pga-ocean-course/pga-ocean-course-phan-thiet-herojpg.webp",
+    "overallScore": 4.8,
+    "maxScore": 5,
+    "gradeBadge": "PGA Tour Certified Standards • Greg Norman",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "PGA Tour Certified Design & Conditioning",
+        "score": 9.7,
+        "highlight": "Built to international specs"
+      },
+      {
+        "label": "Panoramic Ocean Views & Undulating Dunes",
+        "score": 9.6,
+        "highlight": "Rugged Australian Sandbelt style"
+      },
+      {
+        "label": "Caddie Tour-Caliber Yardages",
+        "score": 9.5,
+        "highlight": "Laser-sharp pin management"
+      },
+      {
+        "label": "NovaWorld Resort Amenities & Dining",
+        "score": 9.5,
+        "highlight": "Expansive beach resort ecosystem"
+      }
+    ],
+    "verdict": "Officially certified by the PGA of America, this Greg Norman layout offers rolling fairways, dramatic ocean views, and rugged bunkers reminiscent of the Australian Sandbelt."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for PGA Ocean Course (NovaWorld)?",
+      "a": "PGA Ocean Course (NovaWorld) in Phan Thiet, Vietnam is a Par 72 championship layout designed by Greg Norman (opened 2021), measuring 7,400 Yards within a coastal parkland setting. It is particularly noted for pga tour certified design & conditioning (Built to international specs)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at PGA Ocean Course (NovaWorld)?",
+      "a": "PGA Ocean Course (NovaWorld) operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie tour-caliber yardages (Laser-sharp pin management)), and private VIP transfers from your Phan Thiet hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at PGA Ocean Course (NovaWorld)?",
+      "a": "Our field inspection highlights PGA Ocean Course (NovaWorld)'s panoramic ocean views & undulating dunes (Rugged Australian Sandbelt style) alongside pga tour certified design & conditioning (Built to international specs). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play PGA Ocean Course (NovaWorld)?",
+      "a": "Peak playing conditions at PGA Ocean Course (NovaWorld) in Phan Thiet typically run during the cooler, drier months from November through April, with early morning tee times recommended year-round."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Nara Binh Tien Golf Club",
+      "path": "/courses/vietnam/nara-binh-tien/"
+    },
+    "next": {
+      "title": "Phoenix Golf Resort",
+      "path": "/courses/vietnam/phoenix-golf-resort/"
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "sky-lake-sky",
+  "url": "/courses/vietnam/sky-lake-sky/",
+  "metadata": {
+    "title": "Sky Lake Golf Club Sky Course | Hanoi Championship Golf",
+    "titleIsAbsolute": true,
+    "description": "Experience Sky Lake Resort's Sky Course Hanoi, a championship 18-hole layout with dramatic elevation. Book your Vietnam/Thailand Golf Tour!",
+    "keywords": [
+      "Sky Lake Golf Club Sky Course",
+      "Vietnam Championship Golf",
+      "Exclusive Golf Vietnam",
+      "Hanoi Golf",
+      "Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-vietnam-1.webp",
+    "ogAlt": "Sky Lake Golf Club Sky Course | Vietnam Championship Exclusive — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Members Exclusive",
+    "h1Line1": "Sky Lake",
+    "h1Gold": "Sky Course",
+    "quote": "\"The pinnacle of Vietnamese championship golf — exclusively for those who earn it.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-vietnam-1.webp",
+      "alt": "Sky Lake Golf Club Sky Course Vietnam Aerial Championship",
+      "caption": "Club Sky Course Vietnam Aerial Championship"
+    },
+    {
+      "src": "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-championship-layout-2.webp",
+      "alt": "Sky Lake Sky Course Championship Layout Vietnam Hole",
+      "caption": "Sky Lake Sky Course Championship Layout Vietnam Hole"
+    },
+    {
+      "src": "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-members-exclusive-3.webp",
+      "alt": "Sky Lake Sky Course Members Exclusive Vietnam Golf",
+      "caption": "Sky Lake Sky Course Members Exclusive Vietnam Golf"
+    },
+    {
+      "src": "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-fairway-vietnam-4.webp",
+      "alt": "Sky Lake Golf Club Sky Course Fairway Vietnam - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Club Sky Course Fairway"
+    },
+    {
+      "src": "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-greens-5.webp",
+      "alt": "Sky Lake Sky Course Championship Greens Vietnam - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Sky Lake Sky Course Championship Greens"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Ahn Moon Hwan / Bori Golf Design"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2014"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "7,128 Yards"
+    },
+    {
+      "label": "Access",
+      "value": "Members & invited guests only"
+    },
+    {
+      "label": "Challenge Level",
+      "value": "Low handicap required"
+    }
+  ],
+  "overviewParagraphs": [
+    "The Sky Course at Sky Lake Resort Golf Club is the most exclusive layout in Northern Vietnam — a members-only, championship-grade test reserved for the country's most accomplished players. It operates strictly on invitation and member access, making it a genuine prestige experience for the travelling golfer.",
+    "Designed by Korean architect Ahn Moon Hwan (Bori Golf Design), the Sky Course plays 7,128 yards from the Blue Tees and features demanding doglegs, deep bunkering complexes, and undulating greens that reward strategic course management.",
+    "AGS maintains specialist access arrangements for qualified visiting guest players. If the challenge and exclusivity of Sky Lake's members course appeals to you, speak to one of our specialists to discuss access and itinerary options."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Exclusivity"
+  },
+  "schema": {
+    "name": "Sky Lake Golf Club (Sky Course)",
+    "description": "The pinnacle of Vietnamese championship golf — exclusively for those who earn it.",
+    "imageUrl": "/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-vietnam-1.webp",
+    "addressLocality": "Hanoi",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 7128,
+    "par": 72,
+    "designer": "Ahn Moon Hwan / Bori Golf Design",
+    "sameAs": [
+      "https://skylakegolf.com/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Sky Lake Golf Club (Sky Course)</strong> is a premier Par 72 championship layout in Hanoi, Vietnam, crafted by <strong>Ahn Moon Hwan / Bori Golf Design</strong> (2014) and stretching to <strong>7,128 Yards</strong> across a championship layout environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its sweeping valley & karst vistas (Elevation changes with panoramic views) and generous landing corridors (Playable for all handicaps).",
+    "From an itinerary-engineering perspective, Sky Lake Golf Club (Sky Course) (Members & invited guests only) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie distance calculations (Excellent slope club selection), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Hanoi golf tour by AGS, Sky Lake Golf Club (Sky Course) provides a distinct architectural test by Ahn Moon Hwan / Bori Golf Design that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Sky Lake Golf Club (Sky Course)",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/sky-lake-sky/sky-lake-sky-course-vietnam-1.webp",
+    "overallScore": 4.7,
+    "maxScore": 5,
+    "gradeBadge": "Scenic Mountain Parkland • Hanoi",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Sweeping Valley & Karst Vistas",
+        "score": 9.7,
+        "highlight": "Elevation changes with panoramic views"
+      },
+      {
+        "label": "Generous Landing Corridors",
+        "score": 9.4,
+        "highlight": "Playable for all handicaps"
+      },
+      {
+        "label": "Caddie Distance Calculations",
+        "score": 9.4,
+        "highlight": "Excellent slope club selection"
+      },
+      {
+        "label": "Resort Clubhouse Facilities",
+        "score": 9.5,
+        "highlight": "Full spa and fine dining"
+      }
+    ],
+    "verdict": "The counterpart to the brutal Lake layout, the Sky Course is a scenic, open parkland journey. Sweeping elevation changes and broad fairways framed by indigenous forest create an exhilarating round."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Sky Lake Golf Club (Sky Course)?",
+      "a": "Sky Lake Golf Club (Sky Course) in Hanoi, Vietnam is a Par 72 championship layout designed by Ahn Moon Hwan / Bori Golf Design (opened 2014), measuring 7,128 Yards within a championship layout setting. It is particularly noted for sweeping valley & karst vistas (Elevation changes with panoramic views)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Sky Lake Golf Club (Sky Course)?",
+      "a": "Sky Lake Golf Club (Sky Course) operates under members & invited guests only protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie distance calculations (Excellent slope club selection)), and private VIP transfers from your Hanoi hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Sky Lake Golf Club (Sky Course)?",
+      "a": "Our field inspection highlights Sky Lake Golf Club (Sky Course)'s generous landing corridors (Playable for all handicaps) alongside sweeping valley & karst vistas (Elevation changes with panoramic views). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Sky Lake Golf Club (Sky Course)?",
+      "a": "October through April is the recommended season for Sky Lake's Sky Course."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Sky Lake Golf Club Lake Course",
+      "path": "/courses/vietnam/sky-lake-lake/"
+    },
+    "next": {
+      "title": "Taekwang Jeongsan Country Club",
+      "path": "/courses/vietnam/taekwang-jeongsan/"
+    }
+  }
+}

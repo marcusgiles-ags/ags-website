@@ -1,0 +1,176 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "laguna-phuket",
+  "url": "/courses/thailand/laguna-phuket/",
+  "metadata": {
+    "title": "Laguna Golf Phuket | Championship Resort Course Thailand",
+    "titleIsAbsolute": true,
+    "description": "Play Laguna Golf Phuket — scenic resort layout within Laguna Phuket, weaving through coconut groves and tranquil lagoons. Book with Asia Golf Specialists.",
+    "keywords": [
+      "Laguna Golf Phuket",
+      "Phuket Golf Course",
+      "Laguna Phuket Golf",
+      "Coconut Grove Golf Thailand",
+      "Thailand Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/laguna-phuket/laguna-golf-phuket-thailand-1.webp",
+    "ogAlt": "Laguna Golf Phuket | Coconut Grove Lagoon Championship Thailand — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Laguna Phuket Resort",
+    "h1Line1": "Laguna Golf",
+    "h1Gold": "Phuket",
+    "quote": "\"Phuket's most scenic resort layout — coconut groves, lagoons, and island views.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-thailand-1.webp",
+      "alt": "Laguna Golf Phuket Thailand Aerial Coconut Grove Lagoon",
+      "caption": "Laguna Golf Phuket Thailand Aerial Coconut Grove Lagoon"
+    },
+    {
+      "src": "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-lagoon-hole-2.webp",
+      "alt": "Laguna Golf Phuket Thailand Lagoon Hole Resort Aerial",
+      "caption": "Laguna Golf Phuket Thailand Lagoon Hole Resort Aerial"
+    },
+    {
+      "src": "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-coconut-grove-3.webp",
+      "alt": "Laguna Golf Phuket Thailand Coconut Grove Scenic Fairway",
+      "caption": "Laguna Golf Phuket Thailand Coconut Grove Scenic Fairway"
+    },
+    {
+      "src": "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-resort-view-4.webp",
+      "alt": "Laguna Golf Club Phuket Thailand Resort View Championship",
+      "caption": "Laguna Golf Club Phuket Thailand Resort View Championship"
+    },
+    {
+      "src": "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-signature-hole-5.webp",
+      "alt": "Laguna Golf Phuket Thailand Island Green Signature Hole",
+      "caption": "Laguna Golf Phuket Thailand Island Green Signature Hole"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Paul Jansen / Max Wexler"
+    },
+    {
+      "label": "Year Opened",
+      "value": "1993 (2014 Redesign)"
+    },
+    {
+      "label": "Location",
+      "value": "Bang Tao, Phuket"
+    },
+    {
+      "label": "Par",
+      "value": "71"
+    },
+    {
+      "label": "Length",
+      "value": "6,606 Yards"
+    },
+    {
+      "label": "Setting",
+      "value": "Lagoons, coconut groves, tropical gardens"
+    },
+    {
+      "label": "Character",
+      "value": "Resort-style, scenic, enjoyable"
+    },
+    {
+      "label": "Resort",
+      "value": "Laguna Phuket estate"
+    }
+  ],
+  "overviewParagraphs": [
+    "Laguna Golf Phuket offers the quintessential resort golf experience — a beautifully conditioned layout winding through the 1,000-acre Laguna Phuket estate, where fairways thread between coconut palm groves, over serene lagoons, and past the manicured gardens that connect the estate's world-class hotels. It is a course where the natural beauty of the setting is the primary attraction.",
+    "The layout is accessible to all levels of golfer while still providing genuine scoring challenge from the back tees. The signature island green finishes create memorable moments on multiple holes, the greens are consistently true and well-paced, and the support infrastructure — clubhouse, caddies, dining — matches the estate's five-star resort standards.",
+    "For discerning golfers staying within the Laguna Phuket estate at Bang Tao or travelling for a combined beach and golf holiday, AGS recommends Laguna Golf as an outstanding round-start for any Phuket program — comfortable enough to ease into the trip, beautiful enough to set an excellent tone."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Lagoon"
+  },
+  "schema": {
+    "name": "Laguna Golf Phuket",
+    "description": "Phuket's most scenic resort layout — coconut groves, lagoons, and island views.",
+    "imageUrl": "/images/courses/thailand/laguna-phuket/laguna-golf-phuket-thailand-1.webp",
+    "addressLocality": "Phuket",
+    "addressCountry": "TH",
+    "numberOfHoles": 18,
+    "courseLength": 6606,
+    "par": 71,
+    "designer": "Paul Jansen / Max Wexler",
+    "sameAs": [
+      "https://www.lagunagolf.com/phuket/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Laguna Golf Phuket</strong> is a premier Par 71 championship layout in Phuket, Thailand, crafted by <strong>Paul Jansen / Max Wexler</strong> (1993 (2014 Redesign)) and stretching to <strong>6,606 Yards</strong> across a lagoons, coconut groves, tropical gardens environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its tranquil lagoon & coconut grove routing (Scenic water-framed fairways) and immaculate paspalum fairway roll (Firm, crisp ball-striking).",
+    "From an itinerary-engineering perspective, Laguna Golf Phuket (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its caddie water hazard guidance (Crucial for lagoon positioning), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Phuket golf tour by AGS, Laguna Golf Phuket provides a distinct architectural test by Paul Jansen / Max Wexler that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Laguna Golf Phuket",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/laguna-phuket/laguna-golf-phuket-thailand-1.webp",
+    "overallScore": 4.7,
+    "maxScore": 5,
+    "gradeBadge": "Laguna Integrated Resort Parkland • Phuket",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Tranquil Lagoon & Coconut Grove Routing",
+        "score": 9.6,
+        "highlight": "Scenic water-framed fairways"
+      },
+      {
+        "label": "Immaculate Paspalum Fairway Roll",
+        "score": 9.5,
+        "highlight": "Firm, crisp ball-striking"
+      },
+      {
+        "label": "Caddie Water Hazard Guidance",
+        "score": 9.5,
+        "highlight": "Crucial for lagoon positioning"
+      },
+      {
+        "label": "World-Class Banyan Tree Resort Logistics",
+        "score": 9.7,
+        "highlight": "Seamless resort transfers"
+      }
+    ],
+    "verdict": "Redesigned by Paul Jansen, Laguna Golf Phuket is an elegant, walkable resort course winding through scenic waterways and coconut groves inside the acclaimed Laguna Phuket destination."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Laguna Golf Phuket?",
+      "a": "Laguna Golf Phuket in Phuket, Thailand is a Par 71 championship layout designed by Paul Jansen / Max Wexler (opened 1993 (2014 Redesign)), measuring 6,606 Yards within a lagoons, coconut groves, tropical gardens setting. It is particularly noted for tranquil lagoon & coconut grove routing (Scenic water-framed fairways)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Laguna Golf Phuket?",
+      "a": "Laguna Golf Phuket operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie water hazard guidance (Crucial for lagoon positioning)), and private VIP transfers from your Phuket hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Laguna Golf Phuket?",
+      "a": "Our field inspection highlights Laguna Golf Phuket's immaculate paspalum fairway roll (Firm, crisp ball-striking) alongside tranquil lagoon & coconut grove routing (Scenic water-framed fairways). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Laguna Golf Phuket?",
+      "a": "November through April is the recommended season for Laguna Golf Phuket."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Laem Chabang International CC",
+      "path": "/courses/thailand/laem-chabang/"
+    },
+    "next": {
+      "title": "Lake View Hotel & Golf Club",
+      "path": "/courses/thailand/lake-view/"
+    }
+  }
+}

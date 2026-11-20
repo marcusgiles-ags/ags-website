@@ -1,0 +1,177 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "lake-view",
+  "url": "/courses/thailand/lake-view/",
+  "metadata": {
+    "title": "Lake View Hotel & Golf Club | Thailand",
+    "titleIsAbsolute": true,
+    "description": "Play Lake View Resort & Golf Club Hua Hin — 36 holes across Mountain, Lake, Desert and Links styles. Book with Asia Golf Specialists.",
+    "keywords": [
+      "Lake View Resort Golf Club Hua Hin",
+      "36 Hole Golf Hua Hin",
+      "Hua Hin Golf Course",
+      "Desert Links Golf Thailand",
+      "Thailand Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/lake-view/lake-view-resort-golf-club-hua-hin-thailand-1.webp",
+    "ogAlt": "Lake View Resort & Golf Club Hua Hin | 36-Hole Mountain Lake Desert Links — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Hua Hin's 36-Hole Staple",
+    "h1Line1": "Lake View Resort",
+    "h1Gold": "& Golf Club",
+    "quote": "\"36 holes across four worlds — Mountain, Lake, Desert and Links in one great Thai address.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/lake-view/lake-view-resort-golf-club-hua-hin-thailand-1.webp",
+      "alt": "Lake View Resort Golf Club Hua Hin Thailand 36 Holes Aerial",
+      "caption": "Lake View Resort Golf Club Hua Hin Thailand 36 Holes Aerial"
+    },
+    {
+      "src": "/images/courses/thailand/lake-view/lake-view-resort-golf-club-mountain-lake-2.webp",
+      "alt": "Lake View Golf Resort Hua Hin Thailand Mountain Lake Links",
+      "caption": "Lake View Golf Resort Hua Hin Thailand Mountain Lake Links"
+    },
+    {
+      "src": "/images/courses/thailand/lake-view/lake-view-resort-golf-club-desert-3.webp",
+      "alt": "Lake View Golf Resort Hua Hin Thailand Desert Links Course Hole",
+      "caption": "Lake View Golf Resort Hua Hin Thailand Desert Links Course Hole"
+    },
+    {
+      "src": "/images/courses/thailand/lake-view/lake-view-resort-golf-club-championship-4.webp",
+      "alt": "Lake View Golf Club Hua Hin Thailand Championship Fairway",
+      "caption": "Lake View Golf Club Hua Hin Thailand Championship Fairway"
+    },
+    {
+      "src": "/images/courses/thailand/lake-view/lake-view-resort-golf-club-green-5.webp",
+      "alt": "Lake View Golf Resort Hua Hin Thailand Championship Green",
+      "caption": "Lake View Golf Resort Hua Hin Thailand Championship Green"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Roger Packard"
+    },
+    {
+      "label": "Year Opened",
+      "value": "1993"
+    },
+    {
+      "label": "Location",
+      "value": "Hua Hin, Prachuap Khiri Khan"
+    },
+    {
+      "label": "Total Holes",
+      "value": "36 holes (four 9-hole loops)"
+    },
+    {
+      "label": "Loop Names",
+      "value": "Mountain, Lake, Desert, Links"
+    },
+    {
+      "label": "Par",
+      "value": "72 (any 18 combination)"
+    },
+    {
+      "label": "Length",
+      "value": "6,550 Yards (Blue Tees)"
+    },
+    {
+      "label": "Setting",
+      "value": "Multiple terrain styles — variety of character"
+    },
+    {
+      "label": "Character",
+      "value": "Diverse, value, family-friendly"
+    }
+  ],
+  "overviewParagraphs": [
+    "Lake View Resort & Golf Club is Hua Hin's most diverse golfing proposition — a 36-hole facility structured across four distinct nine-hole loops (Mountain, Lake, Desert, and Links) that each deliver a genuinely different playing character and aesthetic experience. For golfers visiting Hua Hin on extended programs, Lake View's ability to provide several rounds of genuinely varied golf makes it an exceptional value proposition.",
+    "The Mountain nine uses the surrounding hill terrain for elevation interest and panoramic views. The Lake nine is the most visually striking — water is the dominant design element throughout, with multiple island hole and approach-over-water demands. The Desert nine adopts a firmer, more arid aesthetic inspired by American desert-style courses. The Links nine uses open, wind-exposed terrain to evoke coastal links character without formally fronting the sea.",
+    "For international golf groups in Hua Hin looking for multiple rounds without repetition, AGS frequently structures programs pairing Black Mountain with two Lake View combinations — the dramatic granite drama of Black Mountain balanced by the variety and value of Lake View across two 18-hole visits using different nine combinations each time."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "36 Holes"
+  },
+  "schema": {
+    "name": "Lake View Resort & Golf Club",
+    "description": "36 holes across four worlds — Mountain, Lake, Desert and Links in one great Thai address.",
+    "imageUrl": "/images/courses/thailand/lake-view/lake-view-resort-golf-club-hua-hin-thailand-1.webp",
+    "addressLocality": "Hua Hin",
+    "addressCountry": "TH",
+    "numberOfHoles": 36,
+    "courseLength": 6550,
+    "par": 72,
+    "designer": "Roger Packard"
+  },
+  "curatorBriefHtml": [
+    "<strong>Lake View Resort & Golf Club</strong> is a premier Par 72 (any 18 combination) championship layout in Hua Hin, Thailand, crafted by <strong>Roger Packard</strong> (1993) and stretching to <strong>6,550 Yards (Blue Tees)</strong> across a multiple terrain styles — variety of character environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its 36 holes (mountain, lake, desert, links) (Four distinct nines) and desert course waste bunkering (Arid cactus & sand hazards).",
+    "From an itinerary-engineering perspective, Lake View Resort & Golf Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its traditional thai caddie service (Experienced and helpful), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Hua Hin golf tour by AGS, Lake View Resort & Golf Club provides a distinct architectural test by Roger Packard that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Lake View Resort & Golf Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/lake-view/lake-view-resort-golf-club-hua-hin-thailand-1.webp",
+    "overallScore": 4.5,
+    "maxScore": 5,
+    "gradeBadge": "Roger Packham 36-Hole Complex • Hua Hin",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "36 Holes (Mountain, Lake, Desert, Links)",
+        "score": 9.5,
+        "highlight": "Four distinct nines"
+      },
+      {
+        "label": "Desert Course Waste Bunkering",
+        "score": 9.3,
+        "highlight": "Arid cactus & sand hazards"
+      },
+      {
+        "label": "Traditional Thai Caddie Service",
+        "score": 9.3,
+        "highlight": "Experienced and helpful"
+      },
+      {
+        "label": "On-Site Resort Accommodations",
+        "score": 9.2,
+        "highlight": "Stay-and-play convenience"
+      }
+    ],
+    "verdict": "A comprehensive 36-hole facility near Hua Hin. Features four distinct nine-hole experiences: Mountain, Lake, Desert, and Links, offering great variety for multi-round societies."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Lake View Resort & Golf Club?",
+      "a": "Lake View Resort & Golf Club in Hua Hin, Thailand is a Par 72 (any 18 combination) championship layout designed by Roger Packard (opened 1993), measuring 6,550 Yards (Blue Tees) within a multiple terrain styles — variety of character setting. It is particularly noted for 36 holes (mountain, lake, desert, links) (Four distinct nines)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Lake View Resort & Golf Club?",
+      "a": "Lake View Resort & Golf Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (traditional thai caddie service (Experienced and helpful)), and private VIP transfers from your Hua Hin hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Lake View Resort & Golf Club?",
+      "a": "Our field inspection highlights Lake View Resort & Golf Club's desert course waste bunkering (Arid cactus & sand hazards) alongside 36 holes (mountain, lake, desert, links) (Four distinct nines). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Lake View Resort & Golf Club?",
+      "a": "November through April offers the best conditions at Lake View Golf Club Bangkok."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Laguna Golf Phuket",
+      "path": "/courses/thailand/laguna-phuket/"
+    },
+    "next": {
+      "title": "Mae Jo Golf Club",
+      "path": "/courses/thailand/mae-jo/"
+    }
+  }
+}

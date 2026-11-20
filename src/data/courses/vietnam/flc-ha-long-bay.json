@@ -1,0 +1,181 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "flc-ha-long-bay",
+  "url": "/courses/vietnam/flc-ha-long-bay/",
+  "metadata": {
+    "title": "FLC Ha Long Bay Golf Club | UNESCO Limestone Views Vietnam",
+    "titleIsAbsolute": true,
+    "description": "Play FLC Ha Long Bay Golf Club — the only course in the world with UNESCO World Heritage limestone karst views on every hole. Book with AGS.",
+    "keywords": [
+      "FLC Ha Long Bay Golf Club",
+      "Ha Long Bay Golf Vietnam",
+      "UNESCO Golf Course Vietnam",
+      "Vietnam Golf Tours",
+      "Limestone Karst Golf"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-club-vietnam-1.webp",
+    "ogAlt": "FLC Ha Long Bay Golf Club | UNESCO Limestone Views Vietnam — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — UNESCO Setting",
+    "h1Line1": "FLC Ha Long Bay",
+    "h1Gold": "Golf Club",
+    "quote": "\"The only course in the world with UNESCO World Heritage limestone views from every tee.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-club-vietnam-1.webp",
+      "alt": "FLC Ha Long Bay Golf Club Vietnam Aerial Limestone UNESCO",
+      "caption": "Aerial view, FLC Ha Long Bay Golf Club"
+    },
+    {
+      "src": "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-limestone-karst-2.webp",
+      "alt": "FLC Ha Long Bay Golf Vietnam Limestone Karst UNESCO View",
+      "caption": "Limestone karst UNESCO backdrop, Ha Long"
+    },
+    {
+      "src": "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-course-layout-3.webp",
+      "alt": "FLC Ha Long Bay Golf Vietnam Course Layout Championship",
+      "caption": "Championship course layout, Ha Long Bay"
+    },
+    {
+      "src": "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-fairway-bay-4.webp",
+      "alt": "FLC Ha Long Bay Golf Vietnam Fairway Bay View - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Fairway with bay view, FLC Ha Long"
+    },
+    {
+      "src": "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-championship-green-5.webp",
+      "alt": "FLC Ha Long Bay Golf Vietnam Championship Green - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Championship green, FLC Ha Long Bay Golf"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Schmidt-Curley Design",
+      "href": "https://www.schmidt-curley.com/"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2018"
+    },
+    {
+      "label": "Location",
+      "value": "Ha Long Bay, Quang Ninh Province"
+    },
+    {
+      "label": "Setting",
+      "value": "UNESCO World Heritage Site"
+    },
+    {
+      "label": "Par",
+      "value": "71"
+    },
+    {
+      "label": "Length",
+      "value": "6,092 Yards (Blue Tees)"
+    },
+    {
+      "label": "Unique Feature",
+      "value": "Limestone karst views every hole"
+    },
+    {
+      "label": "Style",
+      "value": "Resort Championship"
+    },
+    {
+      "label": "Access",
+      "value": "Ha Long City (2.5hrs from Hanoi)"
+    }
+  ],
+  "overviewParagraphs": [
+    "FLC Ha Long Bay Golf Club is genuinely unique in world golf. Overlooking Ha Long Bay — a UNESCO World Heritage Site and one of the world's most photographed natural landscapes — the course offers the extraordinary privilege of playing golf with an audience of thousands of limestone karst formations rising from the emerald waters below.",
+    "The layout is well-designed in its own right, with elevation changes, water features, and excellent course conditioning providing a genuine championship challenge. But the setting is the star: on a clear day, the 360-degree panorama of the bay, the karsts, and the South China Sea is simply without peer in global golf.",
+    "FLC Ha Long Bay is best incorporated into a multi-day Ha Long Bay itinerary — combining a cruise on the bay with a round on the clubhouse's terrace. AGS can build full overnight Ha Long experiences that make golf the headline act alongside one of Asia's great natural wonders."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Bay"
+  },
+  "schema": {
+    "name": "FLC Ha Long Bay Golf Club",
+    "description": "The only course in the world with UNESCO World Heritage limestone views from every tee.",
+    "imageUrl": "/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-club-vietnam-1.webp",
+    "addressLocality": "Ha Long",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 6092,
+    "par": 71,
+    "designer": "Schmidt-Curley Design",
+    "sameAs": [
+      "https://flchalong.com.vn/en/golf/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>FLC Ha Long Bay Golf Club</strong> is a premier Par 71 championship layout in Ha Long, Vietnam, crafted by <strong>Schmidt-Curley Design</strong> (2018) and stretching to <strong>6,092 Yards (Blue Tees)</strong> across a unesco world heritage site environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its cliffside vistas over ha long bay (Unrivaled UNESCO panoramic view) and dramatic clifftop elevation shots (Steep drops across canyons).",
+    "From an itinerary-engineering perspective, FLC Ha Long Bay Golf Club (Ha Long City (2.5hrs from Hanoi)) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie cliff & wind adjustments (Key for severe downhill carries), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Ha Long golf tour by AGS, FLC Ha Long Bay Golf Club provides a distinct architectural test by Schmidt-Curley Design that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "FLC Ha Long Bay Golf Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/flc-ha-long-bay/flc-ha-long-bay-golf-club-vietnam-1.webp",
+    "overallScore": 4.7,
+    "maxScore": 5,
+    "gradeBadge": "UNESCO World Heritage Vistas • Schmidt-Curley",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Cliffside Vistas over Ha Long Bay",
+        "score": 9.9,
+        "highlight": "Unrivaled UNESCO panoramic view"
+      },
+      {
+        "label": "Dramatic Clifftop Elevation Shots",
+        "score": 9.4,
+        "highlight": "Steep drops across canyons"
+      },
+      {
+        "label": "Caddie Cliff & Wind Adjustments",
+        "score": 9.4,
+        "highlight": "Key for severe downhill carries"
+      },
+      {
+        "label": "High-End Resort Facilities & Terrace Dining",
+        "score": 9.4,
+        "highlight": "Stunning bayview dining"
+      }
+    ],
+    "verdict": "Perched high on the hills overlooking the emerald waters and limestone pillars of Ha Long Bay. Several cliffside greens deliver what are arguably the most photogenic golf vistas on earth."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for FLC Ha Long Bay Golf Club?",
+      "a": "FLC Ha Long Bay Golf Club in Ha Long, Vietnam is a Par 71 championship layout designed by Schmidt-Curley Design (opened 2018), measuring 6,092 Yards (Blue Tees) within a unesco world heritage site setting. It is particularly noted for cliffside vistas over ha long bay (Unrivaled UNESCO panoramic view)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at FLC Ha Long Bay Golf Club?",
+      "a": "FLC Ha Long Bay Golf Club operates under ha long city (2.5hrs from hanoi) protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie cliff & wind adjustments (Key for severe downhill carries)), and private VIP transfers from your Ha Long hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at FLC Ha Long Bay Golf Club?",
+      "a": "Our field inspection highlights FLC Ha Long Bay Golf Club's dramatic clifftop elevation shots (Steep drops across canyons) alongside cliffside vistas over ha long bay (Unrivaled UNESCO panoramic view). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play FLC Ha Long Bay Golf Club?",
+      "a": "October through April suits the northern location of FLC Ha Long Bay Golf Club."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Eschuri Vung Bau Golf Resort",
+      "path": "/courses/vietnam/eschuri-vung-bau/"
+    },
+    "next": {
+      "title": "Golden Sands Golf Resort Vietnam",
+      "path": "/courses/vietnam/golden-sands/"
+    }
+  }
+}

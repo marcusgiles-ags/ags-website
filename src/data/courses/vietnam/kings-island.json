@@ -1,0 +1,165 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "kings-island",
+  "url": "/courses/vietnam/kings-island/",
+  "metadata": {
+    "title": "BRG Kings Island Golf Resort | Hanoi",
+    "titleIsAbsolute": true,
+    "description": "BRG Kings Island Golf Resort Hanoi — Vietnam's most iconic golf destination with island and lakeside championship layouts north of the capital. Book wit.",
+    "keywords": [
+      "Kings Island Golf Resort",
+      "Hanoi Golf Courses",
+      "Vietnam Golf Tours",
+      "Dong Mo Lake Golf",
+      "Northern Vietnam Golf"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/kings-island/kings-island-1.webp",
+    "ogAlt": "King — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Island Retreat",
+    "h1Line1": "King's Island",
+    "h1Gold": "Golf Resort",
+    "quote": "\"A tranquil speedboat ride across Dong Mo Lake delivers you to an exclusive golfing sanctuary.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/kings-island/kings-island-1.webp",
+      "alt": "Kings Island Golf Resort Dong Mo Lake",
+      "caption": "King's Island Golf Resort Boat Arrival"
+    },
+    {
+      "src": "/images/courses/vietnam/kings-island/kings-island-2.webp",
+      "alt": "Kings Island Mountainview Course",
+      "caption": "Mountainview Course Vista"
+    },
+    {
+      "src": "/images/courses/vietnam/kings-island/kings-island-3.webp",
+      "alt": "Kings Island Lakeside Course",
+      "caption": "Lakeside Course Water Hazard"
+    },
+    {
+      "src": "/images/courses/vietnam/kings-island/kings-island-4.webp",
+      "alt": "Kings Island Kings Course",
+      "caption": "Jack Nicklaus II Signature King's Course"
+    },
+    {
+      "src": "/images/courses/vietnam/kings-island/kings-island-5.webp",
+      "alt": "Kings Island Golf Resort Island Green",
+      "caption": "The Famous Island Green at King's Course"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Robert McFarland (Lakeside) / PCD (Mountainview) / Jack Nicklaus II (Kings)"
+    },
+    {
+      "label": "Year Opened",
+      "value": "1993 / 2004 / 2018"
+    },
+    {
+      "label": "Par",
+      "value": "72 / 72 / 72"
+    },
+    {
+      "label": "Length",
+      "value": "6,516 Yards / 7,000 Yards / 7,310 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Bermuda / Zoysia"
+    },
+    {
+      "label": "Setting",
+      "value": "Lakeside / Mountain Parkland"
+    }
+  ],
+  "overviewParagraphs": [
+    "BRG King's Island Golf Resort is an expansive and tranquil 54-hole golf complex situated on the shores of the Dong Mo reservoir, roughly an hour from Hanoi. Access to the island resort is uniquely via a short, scenic speedboat ride, immediately setting a serene tone for the day.",
+    "The resort offers three distinct layouts. The Lakeside Course, designed by Robert McFarland, weaves tightly along the water's edge, bringing the lake into play on 14 holes. The Mountainview Course, crafted by Pacific Coast Design, offers a breathtaking backdrop of the Ba Vi Mountains and features wide fairways flanked by mature forests. The newest addition, the King's Course by Jack Nicklaus II, presents a formidable modern championship test, culminating in a spectacular par-3 19th hole featuring an island green.",
+    "With its combination of accessibility, world-class design variety, and profound tranquility, King's Island is an essential stop for any Northern Vietnam golf itinerary."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Island"
+  },
+  "schema": {
+    "name": "BRG Kings Island Golf Resort",
+    "description": "BRG Kings Island Golf Resort Hanoi — Vietnam",
+    "imageUrl": "/images/courses/vietnam/kings-island/kings-island-1.webp",
+    "addressLocality": "Hanoi",
+    "addressCountry": "VN",
+    "numberOfHoles": 54,
+    "courseLength": 6516,
+    "par": 72,
+    "designer": "Robert McFarland (Lakeside) / PCD (Mountainview) / Jack Nicklaus II (Kings)"
+  },
+  "curatorBriefHtml": [
+    "<strong>BRG Kings Island Golf Resort</strong> is a premier Par 72 / 72 / 72 championship layout in Hanoi, Vietnam, crafted by <strong>Robert McFarland (Lakeside) / PCD (Mountainview) / Jack Nicklaus II (Kings)</strong> (1993 / 2004 / 2018) and stretching to <strong>6,516 Yards / 7,000 Yards / 7,310 Yards</strong> across a lakeside / mountain parkland environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its scenic boat transfer & island atmosphere (Arrive via private speedboat) and lakeside routing & mature pine canopies (Lakeside, Mountainview & Kings).",
+    "From an itinerary-engineering perspective, BRG Kings Island Golf Resort (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie course management expertise (Experienced veteran caddies), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Hanoi golf tour by AGS, BRG Kings Island Golf Resort provides a distinct architectural test by Robert McFarland (Lakeside) / PCD (Mountainview) / Jack Nicklaus II (Kings) that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "BRG Kings Island Golf Resort",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/kings-island/kings-island-1.webp",
+    "overallScore": 4.7,
+    "maxScore": 5,
+    "gradeBadge": "54-Hole Island Golf Sanctuary • Jack Nicklaus II",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Scenic Boat Transfer & Island Atmosphere",
+        "score": 9.8,
+        "highlight": "Arrive via private speedboat"
+      },
+      {
+        "label": "Lakeside Routing & Mature Pine Canopies",
+        "score": 9.5,
+        "highlight": "Lakeside, Mountainview & Kings"
+      },
+      {
+        "label": "Caddie Course Management Expertise",
+        "score": 9.4,
+        "highlight": "Experienced veteran caddies"
+      },
+      {
+        "label": "Clubhouse Heritage & Lakeside Dining",
+        "score": 9.3,
+        "highlight": "Northern Vietnam golf institution"
+      }
+    ],
+    "verdict": "Accessible exclusively by speed-boat across Dong Mo Lake, Kings Island is legendary in Northern Vietnam. The Jack Nicklaus II Kings Course brings world-class bunkering and modern design to an iconic island retreat."
+  },
+  "faqs": [
+    {
+      "q": "How do I book a round at this course?",
+      "a": "Tee times are exclusively arranged through Asia Golf Specialists as part of our bespoke itinerary service. Contact us to design your perfect golf journey — we handle all bookings, transfers, and logistics on your behalf."
+    },
+    {
+      "q": "What are the green fees?",
+      "a": "Green fees vary by season and group size. Asia Golf Specialists negotiates preferred rates on behalf of our clients — request a custom quote for current pricing and availability."
+    },
+    {
+      "q": "What is the dress code?",
+      "a": "Standard golf attire is required: collared shirts, proper golf shoes (soft spikes preferred), and tailored shorts or trousers. Smart casual dress is expected in the clubhouse."
+    },
+    {
+      "q": "What is the best time of year to play?",
+      "a": "October through April is prime season for Northern Vietnam golf, offering cooler, drier conditions."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Hoiana Shores Golf Club",
+      "path": "/courses/vietnam/hoiana-shores/"
+    },
+    "next": {
+      "title": "KN Golf Links Cam Ranh",
+      "path": "/courses/vietnam/kn-golf-links/"
+    }
+  }
+}

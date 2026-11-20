@@ -1,0 +1,163 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "springfield-royal",
+  "url": "/courses/thailand/springfield-royal/",
+  "metadata": {
+    "title": "Springfield Royal Country Club",
+    "titleIsAbsolute": false,
+    "description": "Experience Springfield Royal Country Club in Hua Hin, a classic Jack Nicklaus design featuring strategic bunkering and mature woodlands. Book with AGS.",
+    "keywords": [
+      "Springfield Royal Country Club",
+      "Hua Hin Golf Courses",
+      "Jack Nicklaus Thailand",
+      "Thailand Golf Tours",
+      "Hua Hin Golf Resorts"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/springfield-royal/springfield-royal-1.webp",
+    "ogAlt": "Springfield Royal Country Club  — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Nicklaus Masterpiece",
+    "h1Line1": "Springfield Royal",
+    "h1Gold": "Country Club",
+    "quote": "\"A classic Jack Nicklaus design featuring strategic bunkering, mature woodlands, and an immaculate test of golf.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/springfield-royal/springfield-royal-1.webp",
+      "alt": "Springfield Royal Country Club Hua Hin",
+      "caption": "Springfield Royal Country Club Aerial"
+    },
+    {
+      "src": "/images/courses/thailand/springfield-royal/springfield-royal-2.webp",
+      "alt": "Springfield Royal Jack Nicklaus Bunkers",
+      "caption": "Signature Jack Nicklaus Bunkering"
+    },
+    {
+      "src": "/images/courses/thailand/springfield-royal/springfield-royal-3.webp",
+      "alt": "Springfield Royal Water Hazards",
+      "caption": "Strategic Water Features in Hua Hin"
+    },
+    {
+      "src": "/images/courses/thailand/springfield-royal/springfield-royal-4.webp",
+      "alt": "Springfield Royal Mature Woodlands",
+      "caption": "Mature Woodlands Framing the Fairways"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Jack Nicklaus (A/B) / Lee Schmidt (C)"
+    },
+    {
+      "label": "Year Opened",
+      "value": "1993 (A/B) / 2005 (C)"
+    },
+    {
+      "label": "Par",
+      "value": "72 (A/B) / 36 (C)"
+    },
+    {
+      "label": "Length",
+      "value": "7,063 Yards (A/B)"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Bermuda (Fairways) / Tifdwarf (Greens)"
+    },
+    {
+      "label": "Setting",
+      "value": "Woodland Parkland"
+    }
+  ],
+  "overviewParagraphs": [
+    "Located a short drive inland from the royal beach resort town of Hua Hin, Springfield Royal Country Club is widely considered one of the finest and most challenging courses in the region. The original 18 holes (the Mountain and Lake nines) were designed by Jack Nicklaus, showcasing his signature style of rewarding accuracy and strategic shot placement.",
+    "True to a Nicklaus design, Springfield demands respect from the tee. The fairways are framed by mature, sweeping woodlands and a vast array of expansive bunkers. Water comes into play frequently, most notably on the iconic island green 18th hole, which requires a precise approach to finish the round.",
+    "A third nine (the Valley course), designed by Lee Schmidt, was added in 2005, expanding the facility to 27 holes. With its beautiful natural surroundings, exceptional maintenance, and rich pedigree, Springfield Royal is an essential stop on any Hua Hin golf itinerary."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience",
+    "gold": "Springfield Royal"
+  },
+  "schema": {
+    "name": "Springfield Royal Country Club",
+    "description": "Experience Springfield Royal Country Club in Hua Hin, a classic Jack Nicklaus design featuring strategic bunkering and mature woodlands. Book with AGS.",
+    "imageUrl": "/images/courses/thailand/springfield-royal/springfield-royal-1.webp",
+    "addressLocality": "Hua Hin",
+    "addressCountry": "TH",
+    "numberOfHoles": 27,
+    "courseLength": 7063,
+    "par": 72,
+    "designer": "Jack Nicklaus (A/B) / Lee Schmidt (C)",
+    "sameAs": [
+      "https://www.springfieldroyal.com/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Springfield Royal Country Club</strong> is a premier Par 72 (A/B) / 36 (C) championship layout in Hua Hin, Thailand, crafted by <strong>Jack Nicklaus (A/B) / Lee Schmidt (C)</strong> (1993 (A/B) / 2005 (C)) and stretching to <strong>7,063 Yards (A/B)</strong> across a woodland parkland environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its classic nicklaus mound & bunker architecture (Signature Golden Bear traps) and 27 holes (mountain, lake, valley) (Superb variety across nines).",
+    "From an itinerary-engineering perspective, Springfield Royal Country Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its caddie pacing & etiquette (Attentive royal service), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Hua Hin golf tour by AGS, Springfield Royal Country Club provides a distinct architectural test by Jack Nicklaus (A/B) / Lee Schmidt (C) that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Springfield Royal Country Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/springfield-royal/springfield-royal-1.webp",
+    "overallScore": 4.7,
+    "maxScore": 5,
+    "gradeBadge": "Jack Nicklaus 27-Hole Masterpiece • Hua Hin",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Classic Nicklaus Mound & Bunker Architecture",
+        "score": 9.6,
+        "highlight": "Signature Golden Bear traps"
+      },
+      {
+        "label": "27 Holes (Mountain, Lake, Valley)",
+        "score": 9.6,
+        "highlight": "Superb variety across nines"
+      },
+      {
+        "label": "Caddie Pacing & Etiquette",
+        "score": 9.4,
+        "highlight": "Attentive royal service"
+      },
+      {
+        "label": "Grand Traditional Clubhouse Facilities",
+        "score": 9.3,
+        "highlight": "Expansive marble clubhouse"
+      }
+    ],
+    "verdict": "A timeless Jack Nicklaus 27-hole design featuring cavernous bunkers, manicured mounding, and difficult water-guarded approaches. A pillar of royal Hua Hin's golfing legacy."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Springfield Royal Country Club?",
+      "a": "Springfield Royal Country Club in Hua Hin, Thailand is a Par 72 (A/B) / 36 (C) championship layout designed by Jack Nicklaus (A/B) / Lee Schmidt (C) (opened 1993 (A/B) / 2005 (C)), measuring 7,063 Yards (A/B) within a woodland parkland setting. It is particularly noted for classic nicklaus mound & bunker architecture (Signature Golden Bear traps)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Springfield Royal Country Club?",
+      "a": "Springfield Royal Country Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie pacing & etiquette (Attentive royal service)), and private VIP transfers from your Hua Hin hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Springfield Royal Country Club?",
+      "a": "Our field inspection highlights Springfield Royal Country Club's 27 holes (mountain, lake, valley) (Superb variety across nines) alongside classic nicklaus mound & bunker architecture (Signature Golden Bear traps). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Springfield Royal Country Club?",
+      "a": "Hua Hin is great year-round, but November through April offers the most optimal, dry conditions."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Siam Country Club Old Course",
+      "path": "/courses/thailand/siam-country-club/"
+    },
+    "next": {
+      "title": "Thai Country Club",
+      "path": "/courses/thailand/thai-country-club/"
+    }
+  }
+}

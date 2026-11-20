@@ -1,0 +1,172 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "nara-binh-tien",
+  "url": "/courses/vietnam/nara-binh-tien/",
+  "metadata": {
+    "title": "Nara Binh Tien Golf Club | Coastal Masterpiece in Vietnam",
+    "titleIsAbsolute": true,
+    "description": "Discover Nara Binh Tien Golf Club, a breathtaking 18-hole coastal course set against the Nui Chua mountains. Book your tee time with Asia Golf Specialists.",
+    "keywords": [
+      "Nara Binh Tien Golf Club",
+      "Kevin Ramsey / David Dale (Golfplan) Vietnam",
+      "Vietnam Golf Course",
+      "Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/nara-binh-tien/nara-binh-tien-beachfront-golf-hero.webp",
+    "ogAlt": "Nara Binh Tien Golf Club | Vietnam — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Nara",
+    "h1Gold": "Binh Tien Golf Club",
+    "quote": "\"A stunning coastal mountain golf course set inside a protected national park, offering a unique blend of ocean breezes and dramatic landscapes.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-beachfront-golf-hero.webp",
+      "alt": "Nara Binh Tien Hero",
+      "caption": "Beachfront golf at Nara Binh Tien"
+    },
+    {
+      "src": "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-coastal-golf.webp",
+      "alt": "Nara Binh Tien Coastal",
+      "caption": "Stunning coastal backdrop"
+    },
+    {
+      "src": "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-water-hazard.webp",
+      "alt": "Nara Binh Tien Water Hazard",
+      "caption": "Strategic water features"
+    },
+    {
+      "src": "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-site-overview.webp",
+      "alt": "Nara Binh Tien Overview",
+      "caption": "Nui Chua mountain views"
+    },
+    {
+      "src": "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-aerial1.webp",
+      "alt": "Nara Binh Tien Aerial",
+      "caption": "Golfplan design masterpiece"
+    },
+    {
+      "src": "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-clubhouse.webp",
+      "alt": "Nara Binh Tien Clubhouse",
+      "caption": "World-class clubhouse"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Kevin Ramsey / David Dale (Golfplan)"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2022"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "6,718 Yards (Blue Tees)"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Platinum Paspalum"
+    },
+    {
+      "label": "Setting",
+      "value": "Coastal Mountain"
+    },
+    {
+      "label": "Top Ranking",
+      "value": "Top New Course in Asia"
+    }
+  ],
+  "overviewParagraphs": [
+    "Nestled in the pristine Binh Tien coastline, Nara Binh Tien Golf Club is a true hidden gem. The Golfplan design team has brilliantly crafted a course that transitions from rugged natural dunes to lush parkland bordered by water, and finally up into the foothills of the Nui Chua mountains. Every hole offers a distinct character and challenge, heavily influenced by the ever-present coastal winds. The pristine Platinum Paspalum grass ensures perfect lies and fast, true-rolling greens. Beyond the course, the expansive clubhouse offers five-star amenities, making it a perfect retreat after a challenging round. Its remote beauty and top-tier design make it an essential stop on any Vietnam golf itinerary."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Course"
+  },
+  "schema": {
+    "name": "Nara Binh Tien Golf Club",
+    "description": "Discover Nara Binh Tien Golf Club, a breathtaking 18-hole coastal course set against the Nui Chua mountains. Book your tee time with Asia Golf Specialists.",
+    "imageUrl": "/images/courses/vietnam/nara-binh-tien/nara-binh-tien-beachfront-golf-hero.webp",
+    "addressLocality": "Ninh Thuan",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 6718,
+    "par": 72,
+    "designer": "Kevin Ramsey / David Dale (Golfplan)",
+    "sameAs": []
+  },
+  "curatorBriefHtml": [
+    "<strong>Nara Binh Tien Golf Club</strong> is a premier Par 72 championship layout in Ninh Thuan, Vietnam, crafted by <strong>Kevin Ramsey / David Dale (Golfplan)</strong> (2022) and stretching to <strong>6,718 Yards (Blue Tees)</strong> across a coastal mountain environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its nui chua national park & ocean backdrop (Breathtaking untouched nature) and platinum te paspalum carpet conditioning (Lush, dense emerald turf).",
+    "From an itinerary-engineering perspective, Nara Binh Tien Golf Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie ocean line expertise (Masterful on subtle breaks), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Ninh Thuan golf tour by AGS, Nara Binh Tien Golf Club provides a distinct architectural test by Kevin Ramsey / David Dale (Golfplan) that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Nara Binh Tien Golf Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/nara-binh-tien/nara-binh-tien-beachfront-golf-hero.webp",
+    "overallScore": 4.8,
+    "maxScore": 5,
+    "gradeBadge": "Pristine Coastal Wilderness • Golfplan",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Nui Chua National Park & Ocean Backdrop",
+        "score": 9.9,
+        "highlight": "Breathtaking untouched nature"
+      },
+      {
+        "label": "Platinum TE Paspalum Carpet Conditioning",
+        "score": 9.8,
+        "highlight": "Lush, dense emerald turf"
+      },
+      {
+        "label": "Caddie Ocean Line Expertise",
+        "score": 9.5,
+        "highlight": "Masterful on subtle breaks"
+      },
+      {
+        "label": "Striking Modern Resort Clubhouse",
+        "score": 9.6,
+        "highlight": "5-star luxury finishes"
+      }
+    ],
+    "verdict": "Flanked by the rugged peaks of Nui Chua National Park and the turquoise waters of Binh Tien Beach. One of Vietnam's most visually arresting hidden-gem championship layouts."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Nara Binh Tien Golf Club?",
+      "a": "Nara Binh Tien Golf Club in Ninh Thuan, Vietnam is a Par 72 championship layout designed by Kevin Ramsey / David Dale (Golfplan) (opened 2022), measuring 6,718 Yards (Blue Tees) within a coastal mountain setting. It is particularly noted for nui chua national park & ocean backdrop (Breathtaking untouched nature)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Nara Binh Tien Golf Club?",
+      "a": "Nara Binh Tien Golf Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie ocean line expertise (Masterful on subtle breaks)), and private VIP transfers from your Ninh Thuan hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Nara Binh Tien Golf Club?",
+      "a": "Our field inspection highlights Nara Binh Tien Golf Club's platinum te paspalum carpet conditioning (Lush, dense emerald turf) alongside nui chua national park & ocean backdrop (Breathtaking untouched nature). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Nara Binh Tien Golf Club?",
+      "a": "Peak playing conditions at Nara Binh Tien Golf Club in Ninh Thuan typically run during the cooler, drier months from November through April, with early morning tee times recommended year-round."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Montgomerie Links Vietnam",
+      "path": "/courses/vietnam/montgomerie-links/"
+    },
+    "next": {
+      "title": "PGA Ocean Course NovaWorld",
+      "path": "/courses/vietnam/pga-ocean-course/"
+    }
+  }
+}

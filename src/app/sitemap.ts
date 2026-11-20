@@ -90,7 +90,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
   const countries = ['vietnam', 'thailand', 'cambodia'];
 
-  const coursesLatest = latestUnder('src/app/courses/');
+  const coursesLatest = latestUnder('src/data/courses/');
   const accomLatest = latestUnder('src/app/accommodations/');
   const toursLatest = latestUnder('src/app/tours/');
   const blogLatest = latestUnder('src/data/blog-posts/');
@@ -120,14 +120,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const country of countries) {
     entries.push({
       url: `${BASE_URL}/destinations/${country}/`,
-      lastModified: latest([latestUnder(`src/app/destinations/${country}/`), latestUnder(`src/app/courses/${country}/`)]),
+      lastModified: latest([latestUnder(`src/app/destinations/${country}/`), latestUnder(`src/data/courses/${country}/`)]),
       changeFrequency: 'weekly',
       priority: 0.9,
     });
     for (const sub of subPages) {
       const subDir = path.join(process.cwd(), 'src/app/destinations', country, sub);
       if (fs.existsSync(subDir)) {
-        const childPrefix = sub === 'courses' ? `src/app/courses/${country}/`
+        const childPrefix = sub === 'courses' ? `src/data/courses/${country}/`
           : sub === 'accommodations' ? `src/app/accommodations/${country}/` : `src/app/destinations/${country}/${sub}/`;
         entries.push({
           url: `${BASE_URL}/destinations/${country}/${sub}/`,
@@ -153,10 +153,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // ─── Tier 4: Course Profile Pages ────────────────────────────────────────
   for (const country of countries) {
-    for (const slug of listSlugDirs(path.join(process.cwd(), 'src/app/courses', country))) {
+    const cDataDir = path.join(process.cwd(), 'src/data/courses', country);
+    if (!fs.existsSync(cDataDir)) continue;
+    for (const file of fs.readdirSync(cDataDir).filter(f => f.endsWith('.json')).sort()) {
+      const slug = file.replace(/\.json$/, '');
       entries.push({
         url: `${BASE_URL}/courses/${country}/${slug}/`,
-        lastModified: lastmodOf(`src/app/courses/${country}/${slug}/page.tsx`),
+        lastModified: lastmodOf(`src/data/courses/${country}/${slug}.json`),
         changeFrequency: 'monthly',
         priority: 0.75,
       });

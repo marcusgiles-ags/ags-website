@@ -1,0 +1,172 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "sea-links-golf-club",
+  "url": "/courses/vietnam/sea-links-golf-club/",
+  "metadata": {
+    "title": "Sea Links Golf Club | Vietnam's Most Challenging Links",
+    "titleIsAbsolute": true,
+    "description": "Experience Sea Links Golf Club in Phan Thiet, offering 18 holes of challenging links-style golf with panoramic views of the East Sea.",
+    "keywords": [
+      "Sea Links Golf Club",
+      "Ronald Fream Vietnam",
+      "Vietnam Golf Course",
+      "Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/sea-links-golf-club/sea-links-golf-hero.webp",
+    "ogAlt": "Sea Links Golf Club | Vietnam — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Sea",
+    "h1Gold": "Links Golf Club",
+    "quote": "\"Sea Links Golf Club is often described as the most challenging links-style course in Asia. Located in Phan Thiet (Mui Ne), it offers spectacular ocean views from every hole.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-hero.webp",
+      "alt": "Sea Links Golf Club Hero",
+      "caption": "Breathtaking elevation changes at Sea Links"
+    },
+    {
+      "src": "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-coastal-view.webp",
+      "alt": "Sea Links Coastal View",
+      "caption": "Panoramic views of the East Sea"
+    },
+    {
+      "src": "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-elevation-changes.webp",
+      "alt": "Sea Links Elevation Changes",
+      "caption": "Challenging elevation changes"
+    },
+    {
+      "src": "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-clubhouse.webp",
+      "alt": "Sea Links Clubhouse",
+      "caption": "Luxurious clubhouse"
+    },
+    {
+      "src": "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-aerial.webp",
+      "alt": "Sea Links Aerial",
+      "caption": "Links-style layout"
+    },
+    {
+      "src": "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-mui-ne-golf.webp",
+      "alt": "Sea Links Mui Ne",
+      "caption": "Golf in Mui Ne"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Ronald Fream"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2008"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "7,617 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Seashore Paspalum"
+    },
+    {
+      "label": "Setting",
+      "value": "Coastal Links"
+    },
+    {
+      "label": "Top Ranking",
+      "value": "Top Courses in South Vietnam"
+    }
+  ],
+  "overviewParagraphs": [
+    "Set against the stunning backdrop of the East Sea, Sea Links Golf Club is a masterpiece of golf course architecture. Designed by Ronald Fream, the course stretches over 7,600 yards and is renowned for its sheer difficulty, characterized by steep elevation changes, deep bunkers, and fast, undulating greens. The coastal winds add another layer of complexity, demanding precision and strategic thinking from every tee. Despite its challenging nature, the spectacular views and world-class conditions make it an unforgettable experience. The resort also features a 5-star hotel, luxury villas, and a massive clubhouse with panoramic views, making it a complete destination for golf travelers."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Course"
+  },
+  "schema": {
+    "name": "Sea Links Golf Club",
+    "description": "Experience Sea Links Golf Club in Phan Thiet, offering 18 holes of challenging links-style golf with panoramic views of the East Sea.",
+    "imageUrl": "/images/courses/vietnam/sea-links-golf-club/sea-links-golf-hero.webp",
+    "addressLocality": "Phan Thiet",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 7617,
+    "par": 72,
+    "designer": "Ronald Fream",
+    "sameAs": []
+  },
+  "curatorBriefHtml": [
+    "<strong>Sea Links Golf Club</strong> is a premier Par 72 championship layout in Mui Ne, Vietnam, crafted by <strong>Ronald Fream</strong> (2008) and stretching to <strong>7,617 Yards</strong> across a coastal links environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its fierce clifftop ocean winds (One of Asia) and undulating duneland fairways (Rolling topography 80m above sea).",
+    "From an itinerary-engineering perspective, Sea Links Golf Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie wind reading & local grain (Vital for staying on greens), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Mui Ne golf tour by AGS, Sea Links Golf Club provides a distinct architectural test by Ronald Fream that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Sea Links Golf Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/sea-links-golf-club/sea-links-golf-hero.webp",
+    "overallScore": 4.6,
+    "maxScore": 5,
+    "gradeBadge": "Mui Ne Clifftop Challenge • Ronald Fream",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Fierce Clifftop Ocean Winds",
+        "score": 9.7,
+        "highlight": "One of Asia's windiest tests"
+      },
+      {
+        "label": "Undulating Duneland Fairways",
+        "score": 9.3,
+        "highlight": "Rolling topography 80m above sea"
+      },
+      {
+        "label": "Caddie Wind Reading & Local Grain",
+        "score": 9.3,
+        "highlight": "Vital for staying on greens"
+      },
+      {
+        "label": "Mui Ne Beach Resort Integration",
+        "score": 9.3,
+        "highlight": "Full villa & resort amenities"
+      }
+    ],
+    "verdict": "Recognized as one of the most challenging links layouts in Asia. Set 80 meters above Mui Ne Bay, fierce crosswinds and steep dune contours test every shot in your bag."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Sea Links Golf Club?",
+      "a": "Sea Links Golf Club in Mui Ne, Vietnam is a Par 72 championship layout designed by Ronald Fream (opened 2008), measuring 7,617 Yards within a coastal links setting. It is particularly noted for fierce clifftop ocean winds (One of Asia)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Sea Links Golf Club?",
+      "a": "Sea Links Golf Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie wind reading & local grain (Vital for staying on greens)), and private VIP transfers from your Mui Ne hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Sea Links Golf Club?",
+      "a": "Our field inspection highlights Sea Links Golf Club's undulating duneland fairways (Rolling topography 80m above sea) alongside fierce clifftop ocean winds (One of Asia). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Sea Links Golf Club?",
+      "a": "Peak playing conditions at Sea Links Golf Club in Mui Ne typically run during the cooler, drier months from November through April, with early morning tee times recommended year-round."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Sapa Grand Golf Course",
+      "path": "/courses/vietnam/sapa-grand/"
+    },
+    "next": {
+      "title": "Silk Path Dong Trieu Golf",
+      "path": "/courses/vietnam/silk-path-dong-trieu/"
+    }
+  }
+}

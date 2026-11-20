@@ -1,0 +1,169 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "montgomerie-links",
+  "url": "/courses/vietnam/montgomerie-links/",
+  "metadata": {
+    "title": "Montgomerie Links Vietnam | Colin Montgomerie Da Nang Golf",
+    "titleIsAbsolute": true,
+    "description": "Montgomerie Links Golf Club Da Nang — Colin Montgomerie's signature design through coastal dunes near Hoi An. A top-ranked Vietnam championship course.",
+    "keywords": [
+      "Montgomerie Links Vietnam",
+      "Colin Montgomerie Golf Da Nang",
+      "Da Nang Links Golf",
+      "Vietnam Golf Tours",
+      "Premier Golf Vietnam"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-da-nang-1-hero.webp",
+    "ogAlt": "Montgomerie Links Vietnam | Colin Montgomerie Da Nang Golf — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Montgomerie",
+    "h1Gold": "Links Vietnam",
+    "quote": "\"The perfect blend of links heritage and Southeast Asian hospitality.\" — Colin Montgomerie"
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-da-nang-1-hero.webp",
+      "alt": "Montgomerie Links Vietnam Da Nang Golf Course Aerial",
+      "caption": "Da Nang Golf Course Aerial"
+    },
+    {
+      "src": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-da-nang-1-hero.webp",
+      "alt": "Montgomerie Links Vietnam Colin Montgomerie Signature Design Fairway",
+      "caption": "Colin Montgomerie Signature Design Fairway"
+    },
+    {
+      "src": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-coastal-hole-3.webp",
+      "alt": "Montgomerie Links Vietnam Coastal Links Hole Championship",
+      "caption": "Coastal Links Hole Championship"
+    },
+    {
+      "src": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-greens-bunkers-4.webp",
+      "alt": "Montgomerie Links Vietnam Greens and Bunkers Championship Layout",
+      "caption": "Greens and Bunkers Championship Layout"
+    },
+    {
+      "src": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-clubhouse-5.webp",
+      "alt": "Montgomerie Links Vietnam Clubhouse Premium Facilities Da Nang",
+      "caption": "Clubhouse Premium Facilities"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Colin Montgomerie"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2010"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "7,091 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "TifEagle Bermuda / Paspalum"
+    },
+    {
+      "label": "Setting",
+      "value": "Parkland"
+    }
+  ],
+  "overviewParagraphs": [
+    "Montgomerie Links Vietnam carries the unmistakable DNA of Colin Montgomerie's European tour sensibility, transplanted into the warm coastal climate of Da Nang. Opened in 2009, it was among the first world-class layouts to put Vietnam firmly on the international golf map.",
+    "The classic links design makes strategic use of natural rolling terrain, firm fairways, and deep pot bunkers inspired by the finest Scottish and Irish links. The layout demands a thoughtful, measured game — raw power is secondary to course management.",
+    "Part of the prestigious Montgomery Links development, the club offers an immaculate clubhouse experience with a welcoming, home-away-from-home atmosphere. Consistently rated among Vietnam's top five courses, it remains an essential fixture on any serious golf tour itinerary."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Classic Links"
+  },
+  "schema": {
+    "name": "Montgomerie Links Vietnam",
+    "description": "Montgomerie Links Golf Club Da Nang — Colin Montgomerie",
+    "imageUrl": "/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-da-nang-1-hero.webp",
+    "addressLocality": "Da Nang",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 7091,
+    "par": 72,
+    "designer": "Colin Montgomerie",
+    "sameAs": [
+      "https://www.montgomerielinks.com/",
+      "https://www.top100golfcourses.com/golf-course/montgomerie-links"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Montgomerie Links Vietnam</strong> is a premier Par 72 championship layout in Da Nang, Vietnam, crafted by <strong>Colin Montgomerie</strong> (2010) and stretching to <strong>7,091 Yards</strong> across a parkland environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its manicured paspalum conditioning (Consistently flawless carpets) and strategic bunkering & massive greens (Monty).",
+    "From an itinerary-engineering perspective, Montgomerie Links Vietnam (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie green reading on severe slopes (Essential on cavernous greens), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Da Nang golf tour by AGS, Montgomerie Links Vietnam provides a distinct architectural test by Colin Montgomerie that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Montgomerie Links Vietnam",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/montgomerie-links/montgomerie-links-vietnam-coastal-hole-3.webp",
+    "overallScore": 4.7,
+    "maxScore": 5,
+    "gradeBadge": "Boutique Parkland Links • Colin Montgomerie",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Manicured Paspalum Conditioning",
+        "score": 9.6,
+        "highlight": "Consistently flawless carpets"
+      },
+      {
+        "label": "Strategic Bunkering & Massive Greens",
+        "score": 9.5,
+        "highlight": "Monty's trademark sand traps"
+      },
+      {
+        "label": "Caddie Green Reading on Severe Slopes",
+        "score": 9.5,
+        "highlight": "Essential on cavernous greens"
+      },
+      {
+        "label": "Clubhouse Hospitality & Pro Shop",
+        "score": 9.4,
+        "highlight": "Warm European boutique feel"
+      }
+    ],
+    "verdict": "A refined boutique experience that balances generous fairways with formidable greenside collection areas. Colin Montgomerie's strategic touches create a pleasant yet competitive challenge."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Montgomerie Links Vietnam?",
+      "a": "Montgomerie Links Vietnam in Da Nang, Vietnam is a Par 72 championship layout designed by Colin Montgomerie (opened 2010), measuring 7,091 Yards within a parkland setting. It is particularly noted for manicured paspalum conditioning (Consistently flawless carpets)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Montgomerie Links Vietnam?",
+      "a": "Montgomerie Links Vietnam operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie green reading on severe slopes (Essential on cavernous greens)), and private VIP transfers from your Da Nang hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Montgomerie Links Vietnam?",
+      "a": "Our field inspection highlights Montgomerie Links Vietnam's strategic bunkering & massive greens (Monty) alongside manicured paspalum conditioning (Consistently flawless carpets). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Montgomerie Links Vietnam?",
+      "a": "February through September is the recommended season for Montgomerie Links Vietnam."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Long Thanh Golf Resort Vietnam",
+      "path": "/courses/vietnam/long-thanh/"
+    },
+    "next": {
+      "title": "Nara Binh Tien Golf Club",
+      "path": "/courses/vietnam/nara-binh-tien/"
+    }
+  }
+}

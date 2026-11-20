@@ -1,0 +1,172 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "red-mountain",
+  "url": "/courses/thailand/red-mountain/",
+  "metadata": {
+    "title": "Red Mountain Golf Club Phuket | Asia's Dramatic Layout",
+    "titleIsAbsolute": true,
+    "description": "Play Red Mountain Golf Club Phuket — carved through a former tin mine filled with canyons, rated Asia's most dramatic course. Book with AGS.",
+    "keywords": [
+      "Red Mountain Golf Club Phuket",
+      "Phuket Golf Course",
+      "Most Dramatic Golf Course Asia",
+      "Tin Mine Golf Thailand",
+      "Thailand Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+    "ogAlt": "Red Mountain Golf Club Phuket | Asia — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Asia's Most Dramatic",
+    "h1Line1": "Red Mountain",
+    "h1Gold": "Golf Club",
+    "quote": "\"The most dramatic course in Asia — carved through a former tin mine, iron-red and unforgettable.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+      "alt": "Red Mountain Golf Club Phuket Thailand Tin Mine Canyon Aerial",
+      "caption": "Red Mountain Golf Club, former tin mine setting"
+    },
+    {
+      "src": "/images/courses/thailand/red-mountain/red-mountain-golf-club-dramatic-canyon-2.webp",
+      "alt": "Red Mountain Golf Club Phuket Thailand Dramatic Canyon Hole",
+      "caption": "Iron ore canyon terrain, Red Mountain Phuket"
+    },
+    {
+      "src": "/images/courses/thailand/red-mountain/red-mountain-golf-club-iron-ore-3.webp",
+      "alt": "Red Mountain Golf Club Phuket Thailand Iron Ore Red Rock Canyon Hole",
+      "caption": "Championship hole amid red rock canyon"
+    },
+    {
+      "src": "/images/courses/thailand/red-mountain/red-mountain-golf-club-fairway-4.webp",
+      "alt": "Red Mountain Golf Club Phuket Thailand Championship Fairway Red Rock",
+      "caption": "Championship fairway, Red Rock Phuket"
+    },
+    {
+      "src": "/images/courses/thailand/red-mountain/red-mountain-golf-club-signature-5.webp",
+      "alt": "Red Mountain Golf Club Phuket Signature Hole 18 Water Canyon",
+      "caption": "Signature hole 18 over water canyon"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Johnathan Morrow / Al Tikkanen"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2007"
+    },
+    {
+      "label": "Location",
+      "value": "Kathu, Phuket"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "7,002 Yards"
+    },
+    {
+      "label": "Setting",
+      "value": "Former tin mine — iron-red canyons"
+    },
+    {
+      "label": "Character",
+      "value": "Visually spectacular, risk-reward"
+    }
+  ],
+  "overviewParagraphs": [
+    "Red Mountain Golf Club in Phuket is the most visually extraordinary golf experience in Asia — a course carved from the remnants of a former tin mine, where the iron-rich soil creates a stunning palette of deep reds and burnt oranges against the surrounding jungle green. The canyons, cliffs, and vertical rock faces that frame the holes are not manufactured — they are the raw legacy of decades of mining, reshaped into one of the most memorable 18-hole routes anywhere in the world.",
+    "The signature 18th hole — a dramatic par five requiring a carry over a flooded canyon to a tiered green — creates a finishing crescendo that players discuss for years after their round. The course demands courage on multiple occasions, but the risk is always clearly rewarded by elevation, sight lines, and visual theatre that no conventional course can replicate.",
+    "Red Mountain is consistently AGS's most requested first-booking on Phuket golf itineraries from discerning clients who have read about it online and want to experience it first-hand. It never disappoints. We build it into every Phuket golf program we design."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Red Rock"
+  },
+  "schema": {
+    "name": "Red Mountain Golf Club",
+    "description": "The most dramatic course in Asia — carved through a former tin mine, iron-red and unforgettable.",
+    "imageUrl": "/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+    "addressLocality": "Phuket",
+    "addressCountry": "TH",
+    "numberOfHoles": 18,
+    "courseLength": 7002,
+    "par": 72,
+    "designer": "Johnathan Morrow / Al Tikkanen",
+    "sameAs": [
+      "https://www.redmountainswings.com/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Red Mountain Golf Club</strong> is a premier Par 72 championship layout in Phuket, Thailand, crafted by <strong>Johnathan Morrow / Al Tikkanen</strong> (2007) and stretching to <strong>7,002 Yards</strong> across a former tin mine — iron-red canyons environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its red tin mine cliffs & vertical drops (Sensational dramatic elevation) and strategic shot-shaping over chasms (Risk-reward jungle corridors).",
+    "From an itinerary-engineering perspective, Red Mountain Golf Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its caddie slope & elevation math (Calculates severe drop-offs), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Phuket golf tour by AGS, Red Mountain Golf Club provides a distinct architectural test by Johnathan Morrow / Al Tikkanen that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Red Mountain Golf Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/red-mountain/red-mountain-golf-club-phuket-thailand-1.webp",
+    "overallScore": 4.9,
+    "maxScore": 5,
+    "gradeBadge": "Asia's Most Visually Spectacular Layout • Phuket",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Red Tin Mine Cliffs & Vertical Drops",
+        "score": 9.9,
+        "highlight": "Sensational dramatic elevation"
+      },
+      {
+        "label": "Strategic Shot-Shaping Over Chasms",
+        "score": 9.8,
+        "highlight": "Risk-reward jungle corridors"
+      },
+      {
+        "label": "Caddie Slope & Elevation Math",
+        "score": 9.7,
+        "highlight": "Calculates severe drop-offs"
+      },
+      {
+        "label": "Intimate Luxury Boutique Clubhouse",
+        "score": 9.6,
+        "highlight": "Chic open-air jungle terrace"
+      }
+    ],
+    "verdict": "Carved into the rugged topography of an abandoned Phuket tin mine. Dramatic red cliffs, towering elevation drops, and rainforest corridors create an intoxicating, visually stunning sensory overload."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Red Mountain Golf Club?",
+      "a": "Red Mountain Golf Club in Phuket, Thailand is a Par 72 championship layout designed by Johnathan Morrow / Al Tikkanen (opened 2007), measuring 7,002 Yards within a former tin mine — iron-red canyons setting. It is particularly noted for red tin mine cliffs & vertical drops (Sensational dramatic elevation)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Red Mountain Golf Club?",
+      "a": "Red Mountain Golf Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie slope & elevation math (Calculates severe drop-offs)), and private VIP transfers from your Phuket hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Red Mountain Golf Club?",
+      "a": "Our field inspection highlights Red Mountain Golf Club's strategic shot-shaping over chasms (Risk-reward jungle corridors) alongside red tin mine cliffs & vertical drops (Sensational dramatic elevation). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Red Mountain Golf Club?",
+      "a": "November through April is the ideal season for Red Mountain Golf Club Phuket."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Pineapple Valley Golf Club",
+      "path": "/courses/thailand/pineapple-valley/"
+    },
+    "next": {
+      "title": "Siam Country Club Old Course",
+      "path": "/courses/thailand/siam-country-club/"
+    }
+  }
+}

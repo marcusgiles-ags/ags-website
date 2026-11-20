@@ -1,0 +1,169 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "thai-country-club",
+  "url": "/courses/thailand/thai-country-club/",
+  "metadata": {
+    "title": "Thai Country Club Bangkok | Championship Golf",
+    "titleIsAbsolute": false,
+    "description": "Experience Thai Country Club, a luxurious neo-classic design in Bangkok, famously played by Tiger Woods. Book your Thailand golf tour with AGS.",
+    "keywords": [
+      "Thai Country Club",
+      "Bangkok Golf Courses",
+      "Thailand Golf Tours",
+      "Tiger Woods Thailand",
+      "Premium Bangkok Golf"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/thai-country-club/thai-country-club-1.webp",
+    "ogAlt": "Thai Country Club  — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Tour Championship",
+    "h1Line1": "Thai",
+    "h1Gold": "Country Club",
+    "quote": "\"A luxurious neo-classic design that offers a genuine tour-level experience from the first tee to the opulent clubhouse.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/thai-country-club/thai-country-club-1.webp",
+      "alt": "Thai Country Club Bangkok Aerial",
+      "caption": "Thai Country Club Championship Layout"
+    },
+    {
+      "src": "/images/courses/thailand/thai-country-club/thai-country-club-2.webp",
+      "alt": "Thai Country Club Fairway",
+      "caption": "Immaculately Conditioned Fairways"
+    },
+    {
+      "src": "/images/courses/thailand/thai-country-club/thai-country-club-3.webp",
+      "alt": "Thai Country Club Water Hazard",
+      "caption": "Strategic Water Features on the Approach"
+    },
+    {
+      "src": "/images/courses/thailand/thai-country-club/thai-country-club-4.webp",
+      "alt": "Thai Country Club Green",
+      "caption": "Tour-Quality Putting Surfaces"
+    },
+    {
+      "src": "/images/courses/thailand/thai-country-club/thai-country-club-5.webp",
+      "alt": "Thai Country Club Peninsula Clubhouse",
+      "caption": "The Award-Winning Peninsula-Managed Clubhouse"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Denis Griffiths"
+    },
+    {
+      "label": "Year Opened",
+      "value": "1996"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "7,097 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Bermuda (Fairways) / Tifdwarf (Greens)"
+    },
+    {
+      "label": "Setting",
+      "value": "Parkland"
+    }
+  ],
+  "overviewParagraphs": [
+    "Located just under an hour from central Bangkok, Thai Country Club is widely recognized as one of the finest golf clubs in Asia. Designed to exacting PGA Tour standards by Denis Griffiths, the course gained global fame when Tiger Woods cruised to victory here in the 1997 Asian Honda Classic.",
+    "The layout is a masterpiece of neo-classic parkland design, featuring undulating fairways, deep strategically placed bunkers, and water hazards that come into play on nearly every hole. The conditions are consistently immaculate, with lightning-fast greens and perfectly manicured rough.",
+    "Beyond the golf, Thai Country Club is famous for its luxurious amenities. The magnificent clubhouse, managed by The Peninsula Hotels group, offers unmatched five-star hospitality, award-winning dining, and some of the best locker room facilities in the golfing world. It is the gold standard for premium golf in Bangkok."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience",
+    "gold": "Thai Country Club"
+  },
+  "schema": {
+    "name": "Thai Country Club",
+    "description": "Experience Thai Country Club, a luxurious neo-classic design in Bangkok, famously played by Tiger Woods. Book your Thailand golf tour with AGS.",
+    "imageUrl": "/images/courses/thailand/thai-country-club/thai-country-club-1.webp",
+    "addressLocality": "Bangkok",
+    "addressCountry": "TH",
+    "numberOfHoles": 18,
+    "courseLength": 7097,
+    "par": 72,
+    "designer": "Denis Griffiths",
+    "sameAs": [
+      "https://www.thaicountryclub.com/",
+      "https://www.top100golfcourses.com/golf-course/thai-country-club"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Thai Country Club</strong> is a premier Par 72 championship layout in Bangkok, Thailand, crafted by <strong>Denis Griffiths</strong> (1996) and stretching to <strong>7,097 Yards</strong> across a parkland environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its peninsula hotel group 5-star hospitality (Legendary service culture) and classic american parkland conditioning (Flawless fairway grooming).",
+    "From an itinerary-engineering perspective, Thai Country Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its impeccable pga-level caddie etiquette (Elite tournament caddies), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Bangkok golf tour by AGS, Thai Country Club provides a distinct architectural test by Denis Griffiths that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Thai Country Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/thai-country-club/thai-country-club-1.webp",
+    "overallScore": 4.8,
+    "maxScore": 5,
+    "gradeBadge": "Tiger Woods Asian Tour Champion • Bangkok",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Peninsula Hotel Group 5-Star Hospitality",
+        "score": 9.9,
+        "highlight": "Legendary service culture"
+      },
+      {
+        "label": "Classic American Parkland Conditioning",
+        "score": 9.7,
+        "highlight": "Flawless fairway grooming"
+      },
+      {
+        "label": "Impeccable PGA-Level Caddie Etiquette",
+        "score": 9.8,
+        "highlight": "Elite tournament caddies"
+      },
+      {
+        "label": "Lavish Clubhouse & Jacuzzi Amenities",
+        "score": 9.9,
+        "highlight": "Finest locker room in Asia"
+      }
+    ],
+    "verdict": "Site of Tiger Woods' legendary 1997 Asian Honda Classic victory. Managed by the Peninsula Hotel Group, Thai Country Club sets the gold standard for executive luxury, caddie professionalism, and course grooming."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Thai Country Club?",
+      "a": "Thai Country Club in Bangkok, Thailand is a Par 72 championship layout designed by Denis Griffiths (opened 1996), measuring 7,097 Yards within a parkland setting. It is particularly noted for peninsula hotel group 5-star hospitality (Legendary service culture)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Thai Country Club?",
+      "a": "Thai Country Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (impeccable pga-level caddie etiquette (Elite tournament caddies)), and private VIP transfers from your Bangkok hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Thai Country Club?",
+      "a": "Our field inspection highlights Thai Country Club's classic american parkland conditioning (Flawless fairway grooming) alongside peninsula hotel group 5-star hospitality (Legendary service culture). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Thai Country Club?",
+      "a": "November through February is the prime season for Bangkok golf, offering comfortable temperatures and dry conditions."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Springfield Royal Country Club",
+      "path": "/courses/thailand/springfield-royal/"
+    },
+    "next": {
+      "title": "Alpine Golf Resort Chiang Mai",
+      "path": "/courses/thailand/alpine-chiang-mai/"
+    }
+  }
+}

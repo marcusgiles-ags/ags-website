@@ -1,0 +1,176 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "nikanti",
+  "url": "/courses/thailand/nikanti/",
+  "metadata": {
+    "title": "Nikanti Golf Club Bangkok | All-Inclusive Six-Hole Loops",
+    "titleIsAbsolute": true,
+    "description": "Play Nikanti Golf Club Bangkok — pioneer of all-inclusive luxury offering three loops of six holes and seamless five-star service. Book with AGS.",
+    "keywords": [
+      "Nikanti Golf Club Bangkok",
+      "All-Inclusive Golf Thailand",
+      "Luxury Golf Bangkok",
+      "Six Hole Loop Golf Thailand",
+      "Thailand Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/nikanti/nikanti-golf-club-bangkok-thailand-1.webp",
+    "ogAlt": "Nikanti Golf Club Bangkok | All-Inclusive Luxury Six-Hole Loops — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Bangkok's Luxury Pioneer",
+    "h1Line1": "Nikanti",
+    "h1Gold": "Golf Club",
+    "quote": "\"All-inclusive luxury reimagined — three distinctive six-hole loops, zero compromises.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/nikanti/nikanti-golf-club-bangkok-thailand-1.webp",
+      "alt": "Nikanti Golf Club Bangkok Thailand All-Inclusive Aerial Six Holes",
+      "caption": "Bangkok Thailand All-Inclusive Aerial Six Holes"
+    },
+    {
+      "src": "/images/courses/thailand/nikanti/nikanti-golf-club-luxury-loop-2.webp",
+      "alt": "Nikanti Golf Club Thailand Luxury All-Inclusive Loop Six Holes",
+      "caption": "Thailand Luxury All-Inclusive Loop Six Holes"
+    },
+    {
+      "src": "/images/courses/thailand/nikanti/nikanti-golf-club-fairway-3.webp",
+      "alt": "Nikanti Golf Club Bangkok Thailand Championship Fairway",
+      "caption": "Bangkok Thailand Championship Fairway"
+    },
+    {
+      "src": "/images/courses/thailand/nikanti/nikanti-golf-club-green-4.webp",
+      "alt": "Nikanti Golf Club Thailand Championship Green Premium",
+      "caption": "Thailand Championship Green Premium"
+    },
+    {
+      "src": "/images/courses/thailand/nikanti/nikanti-golf-club-signature-5.webp",
+      "alt": "Nikanti Golf Club Bangkok Thailand Signature Hole Premium",
+      "caption": "Bangkok Thailand Signature Hole Premium"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Pirapon Namatra / Golf East"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2014"
+    },
+    {
+      "label": "Location",
+      "value": "Nakhon Pathom, Bangkok region"
+    },
+    {
+      "label": "Format",
+      "value": "3 — six-hole loops (18 holes total)"
+    },
+    {
+      "label": "Model",
+      "value": "All-inclusive — greens, caddie, cart, food & beverage"
+    },
+    {
+      "label": "Character",
+      "value": "Luxury, service-first, seamless"
+    },
+    {
+      "label": "Distinction",
+      "value": "Asia's first all-inclusive luxury golf model"
+    },
+    {
+      "label": "Playing Time",
+      "value": "— 3.5 hours (efficient routing)"
+    }
+  ],
+  "overviewParagraphs": [
+    "Nikanti Golf Club is unlike any other course in Thailand — a genuine innovation in the golf hospitality model that has redefined what all-inclusive means in the premium golf market. Rather than the conventional 18-hole layout, Nikanti is structured as three individual six-hole loops, each returning to the stunning central clubhouse, where food, beverages, and service are delivered between loops as standard inclusions with your round fee.",
+    "The result is an experience that feels genuinely different from a conventional round of golf: more social, more relaxed, more frequently interrupted by excellent cuisine and attentive service, and ultimately more memorable. The golf itself is challenging and well-designed, with each loop offering distinct character and genuine scoring variety.",
+    "For international groups looking for a Bangkok round that provides genuine talking points and a premium shared experience, AGS consistently recommends Nikanti as the standout choice. The format performs exceptionally well for corporate groups, golf societies, and first-time Thailand visitors looking for something beyond the conventional."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Loops"
+  },
+  "schema": {
+    "name": "Nikanti Golf Club",
+    "description": "All-inclusive luxury reimagined — three distinctive six-hole loops, zero compromises.",
+    "imageUrl": "/images/courses/thailand/nikanti/nikanti-golf-club-bangkok-thailand-1.webp",
+    "addressLocality": "Bangkok",
+    "addressCountry": "TH",
+    "numberOfHoles": 18,
+    "courseLength": 6273,
+    "par": 72,
+    "designer": "Pirapon Namatra / Golf East",
+    "sameAs": [
+      "https://www.nikantigolfclub.com/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Nikanti Golf Club</strong> is a premier Par 72 championship layout in Bangkok, Thailand, crafted by <strong>Pirapon Namatra / Golf East</strong> (2014) and stretching to <strong>6,273 Yards (Blue Tees)</strong> across a championship layout environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its innovative 6-6-6 triple loop routing (2 par-3s, 2 par-4s, 2 par-5s per loop) and all-inclusive 5-star vip hospitality (Gourmet dining & caddie fee included).",
+    "From an itinerary-engineering perspective, Nikanti Golf Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its elite caddie line & turf guidance (Unmatched service training), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Bangkok golf tour by AGS, Nikanti Golf Club provides a distinct architectural test by Pirapon Namatra / Golf East that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Nikanti Golf Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/nikanti/nikanti-golf-club-bangkok-thailand-1.webp",
+    "overallScore": 4.9,
+    "maxScore": 5,
+    "gradeBadge": "Asia's Revolutionary Six-Hole Loop Concept • Bangkok",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Innovative 6-6-6 Triple Loop Routing",
+        "score": 9.9,
+        "highlight": "2 par-3s, 2 par-4s, 2 par-5s per loop"
+      },
+      {
+        "label": "All-Inclusive 5-Star VIP Hospitality",
+        "score": 9.9,
+        "highlight": "Gourmet dining & caddie fee included"
+      },
+      {
+        "label": "Elite Caddie Line & Turf Guidance",
+        "score": 9.8,
+        "highlight": "Unmatched service training"
+      },
+      {
+        "label": "Impeccable Conditioning & Fast Pace",
+        "score": 9.8,
+        "highlight": "Strictly enforced 4-hour rounds"
+      }
+    ],
+    "verdict": "A revolutionary ultra-luxury experience. Three six-hole loops (two par 3s, two par 4s, two par 5s each) ensure varied shotmaking, while all-inclusive chef dining and pristine turf set a new benchmark."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Nikanti Golf Club?",
+      "a": "Nikanti Golf Club in Bangkok, Thailand is a Par 72 championship layout designed by Pirapon Namatra / Golf East (opened 2014), measuring 6,273 Yards (Blue Tees) within a championship layout setting. It is particularly noted for innovative 6-6-6 triple loop routing (2 par-3s, 2 par-4s, 2 par-5s per loop)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Nikanti Golf Club?",
+      "a": "Nikanti Golf Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (elite caddie line & turf guidance (Unmatched service training)), and private VIP transfers from your Bangkok hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Nikanti Golf Club?",
+      "a": "Our field inspection highlights Nikanti Golf Club's all-inclusive 5-star vip hospitality (Gourmet dining & caddie fee included) alongside innovative 6-6-6 triple loop routing (2 par-3s, 2 par-4s, 2 par-5s per loop). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Nikanti Golf Club?",
+      "a": "November through April offers ideal conditions at Nikanti Golf Club Bangkok."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Mission Hills Phuket Golf Club",
+      "path": "/courses/thailand/mission-hills-phuket/"
+    },
+    "next": {
+      "title": "Pineapple Valley Golf Club",
+      "path": "/courses/thailand/pineapple-valley/"
+    }
+  }
+}

@@ -41,20 +41,18 @@ function getAllCoursesByCountry() {
     };
 
     for (const country of countries) {
-        const countryDir = path.join(process.cwd(), 'src/app/courses', country);
+        const countryDir = path.join(process.cwd(), 'src/data/courses', country);
         if (!fs.existsSync(countryDir)) continue;
-        const slugs = fs.readdirSync(countryDir, { withFileTypes: true })
-            .filter(d => d.isDirectory() && !d.name.startsWith('[')).map(d => d.name);
-        
-        for (const slug of slugs) {
-            const pageFile = path.join(countryDir, slug, 'page.tsx');
+        const files = fs.readdirSync(countryDir).filter(f => f.endsWith('.json'));
+
+        for (const file of files) {
+            const slug = file.replace(/\.json$/, '');
             let title = slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' ');
-            if (fs.existsSync(pageFile)) {
-                const content = fs.readFileSync(pageFile, 'utf8');
-                const metaMatch = content.match(/title:\s*\{\s*absolute:\s*(?:"([^"]+)"|'([^']+)')/);
-                if (metaMatch) {
-                    title = (metaMatch[1] || metaMatch[2]).split('|')[0].trim();
-                }
+            try {
+                const parsed = JSON.parse(fs.readFileSync(path.join(countryDir, file), 'utf8'));
+                if (parsed?.schema?.name) title = parsed.schema.name;
+            } catch {
+                // fallback to slug-derived title
             }
             coursesByCountry[country].push({ title, url: `/courses/${country}/${slug}/`, slug });
         }

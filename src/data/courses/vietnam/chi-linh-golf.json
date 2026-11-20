@@ -1,0 +1,168 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "chi-linh-golf",
+  "url": "/courses/vietnam/chi-linh-golf/",
+  "metadata": {
+    "title": "Chi Linh Golf | Northern Vietnam's Most Challenging Course",
+    "titleIsAbsolute": true,
+    "description": "Play Chi Linh Star Golf & Country Club, a 36-hole championship course near Hanoi. Host of Asian Tour events. Book your Vietnam/Thailand golf tour.",
+    "keywords": [
+      "Chi Linh Golf",
+      "Northern Vietnam Golf",
+      "Hardest Golf Course Vietnam",
+      "Vietnam Golf Tours",
+      "Hanoi Golf"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-vietnam-1.webp",
+    "ogAlt": "Chi Linh Golf | Northern Vietnam — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Chi Linh",
+    "h1Gold": "Golf",
+    "quote": "\"Northern Vietnam's ultimate challenge — a benchmark for the serious discerning golfer.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-vietnam-1.webp",
+      "alt": "Chi Linh Golf Vietnam Aerial Forested Valley - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Aerial view, Chi Linh Star Golf, Hai Duong"
+    },
+    {
+      "src": "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-forest-valley-2.webp",
+      "alt": "Chi Linh Golf Forested Valley Pine Trees Vietnam - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Forested valley fairway, Chi Linh Golf"
+    },
+    {
+      "src": "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-championship-layout-3.webp",
+      "alt": "Chi Linh Golf Championship Layout Northern Vietnam",
+      "caption": "Championship layout, northern Vietnam"
+    },
+    {
+      "src": "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-northern-vietnam-4.webp",
+      "alt": "Chi Linh Golf Pine Hills Northern Vietnam Golf - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Pine hills setting, Chi Linh Golf"
+    },
+    {
+      "src": "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-greens-bunker-5.webp",
+      "alt": "Chi Linh Golf Championship Greens Bunkers Vietnam - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Championship greens and bunkers, Chi Linh"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Lee Nifong / IMG"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2006"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "7,160 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Bentgrass Greens"
+    },
+    {
+      "label": "Setting",
+      "value": "Pine-forested mountain valley"
+    }
+  ],
+  "overviewParagraphs": [
+    "Chi Linh Golf is uniformly regarded as the hardest course in Northern Vietnam — a title it wears with pride. Carved through a dramatic pine-forested valley in Hai Duong Province, the layout's significant elevation changes, narrow corridors, and true bentgrass greens combine to create an unrelenting challenge.",
+    "Earning the nickname \"the Dalat of the North\" for its cool mountain air and rugged terrain, the course winds through ravines and along ridgelines with little room for error off the tee. The fast, true bentgrass surfaces — rare in Northern Vietnam — demand precision on every approach.",
+    "For the serious discerning golfer who wants to put their game to the ultimate test, Chi Linh Golf is the benchmark. AGS regularly programmes it on challenge-focused itineraries for groups seeking a genuine step up from the standard Hanoi resort circuits."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Challenge"
+  },
+  "schema": {
+    "name": "Chi Linh Golf",
+    "description": "Northern Vietnam's ultimate challenge — a benchmark for the serious discerning golfer.",
+    "imageUrl": "/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-vietnam-1.webp",
+    "addressLocality": "Hai Duong",
+    "addressCountry": "VN",
+    "numberOfHoles": 36,
+    "courseLength": 7160,
+    "par": 72,
+    "designer": "Lee Nifong / IMG",
+    "sameAs": [
+      "https://chilinhgolf.com/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Chi Linh Golf</strong> is a premier Par 72 championship layout in Hai Duong, Vietnam, crafted by <strong>Lee Nifong / IMG</strong> (2006) and stretching to <strong>7,160 Yards</strong> across a pine-forested mountain valley environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its natural valley & lake setting (Surrounded by pine-clad hills) and undulating green slopes & tiered targets (Severe breaks on putts).",
+    "From an itinerary-engineering perspective, Chi Linh Golf (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie experience on rolling hills (Decades of course knowledge), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Hai Duong golf tour by AGS, Chi Linh Golf provides a distinct architectural test by Lee Nifong / IMG that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Chi Linh Golf",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/chi-linh-golf/chi-linh-golf-resort-vietnam-1.webp",
+    "overallScore": 4.6,
+    "maxScore": 5,
+    "gradeBadge": "27-Hole Valley Classic • Northern Vietnam",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Natural Valley & Lake Setting",
+        "score": 9.4,
+        "highlight": "Surrounded by pine-clad hills"
+      },
+      {
+        "label": "Undulating Green Slopes & Tiered Targets",
+        "score": 9.3,
+        "highlight": "Severe breaks on putts"
+      },
+      {
+        "label": "Caddie Experience on Rolling Hills",
+        "score": 9.3,
+        "highlight": "Decades of course knowledge"
+      },
+      {
+        "label": "Traditional Northern Clubhouse Comfort",
+        "score": 9.1,
+        "highlight": "Full dining & locker service"
+      }
+    ],
+    "verdict": "Northern Vietnam's pioneering championship facility. Set in a wooded valley surrounding a large natural lake, Chi Linh features dramatic elevation changes and tough tiered greens that reward accurate approach play."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Chi Linh Golf?",
+      "a": "Chi Linh Golf in Hai Duong, Vietnam is a Par 72 championship layout designed by Lee Nifong / IMG (opened 2006), measuring 7,160 Yards within a pine-forested mountain valley setting. It is particularly noted for natural valley & lake setting (Surrounded by pine-clad hills)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Chi Linh Golf?",
+      "a": "Chi Linh Golf operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie experience on rolling hills (Decades of course knowledge)), and private VIP transfers from your Hai Duong hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Chi Linh Golf?",
+      "a": "Our field inspection highlights Chi Linh Golf's undulating green slopes & tiered targets (Severe breaks on putts) alongside natural valley & lake setting (Surrounded by pine-clad hills). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Chi Linh Golf?",
+      "a": "October through April is the recommended season for Chi Linh Golf."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "BRG Da Nang Golf Resort Norman Course",
+      "path": "/courses/vietnam/brg-da-nang-norman/"
+    },
+    "next": {
+      "title": "Dragon Golf Links Vietnam",
+      "path": "/courses/vietnam/dragon-golf-links/"
+    }
+  }
+}

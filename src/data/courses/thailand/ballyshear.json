@@ -1,0 +1,177 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "ballyshear",
+  "url": "/courses/thailand/ballyshear/",
+  "metadata": {
+    "title": "Ballyshear Golf Links | Hua Hin",
+    "titleIsAbsolute": true,
+    "description": "Ballyshear Golf Links Hua Hin — Thailand's finest links-style layout set between mountain and the Gulf of Thailand. A world-class experience.",
+    "keywords": [
+      "Ballyshear Golf Links Bangkok",
+      "Lido Golf Course Thailand",
+      "C.B. Macdonald Golf Thailand",
+      "Bangkok Links Golf",
+      "Thailand Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/ballyshear/ballyshear-golf-links-bangkok-thailand-1.webp",
+    "ogAlt": "Ballyshear Golf Links Bangkok | Lido C.B. Macdonald Recreation Thailand — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — The Connoisseur's Choice",
+    "h1Line1": "Ballyshear",
+    "h1Gold": "Golf Links",
+    "quote": "\"Bangkok's most intellectually demanding course — a faithful recreation of C.B. Macdonald's lost 'Lido'.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/ballyshear/ballyshear-golf-links-bangkok-thailand-1.webp",
+      "alt": "Ballyshear Golf Links Bangkok Thailand Lido C.B. Macdonald Aerial",
+      "caption": "Bangkok Thailand Lido C.B. Macdonald Aerial"
+    },
+    {
+      "src": "/images/courses/thailand/ballyshear/ballyshear-golf-links-classic-hole-2.webp",
+      "alt": "Ballyshear Golf Links Thailand Classic Links Hole Fairway",
+      "caption": "Thailand Classic Links Hole Fairway"
+    },
+    {
+      "src": "/images/courses/thailand/ballyshear/ballyshear-golf-links-championship-layout-3.webp",
+      "alt": "Ballyshear Golf Links Thailand Championship Layout Hole",
+      "caption": "Thailand Championship Layout Hole"
+    },
+    {
+      "src": "/images/courses/thailand/ballyshear/ballyshear-golf-links-green-bunker-4.webp",
+      "alt": "Ballyshear Golf Links Thailand Green Bunker Championship Classic",
+      "caption": "Thailand Green Bunker Championship Classic"
+    },
+    {
+      "src": "/images/courses/thailand/ballyshear/ballyshear-golf-links-signature-5.webp",
+      "alt": "Ballyshear Golf Links Thailand Signature Hole Connoisseur",
+      "caption": "Thailand Signature Hole Connoisseur"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Gil Hanse"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2021"
+    },
+    {
+      "label": "Location",
+      "value": "Bangkok region"
+    },
+    {
+      "label": "Design Inspiration",
+      "value": "Lido Golf Club by C.B. Macdonald (1914)"
+    },
+    {
+      "label": "Character",
+      "value": "Classical links, strategic, demanding"
+    },
+    {
+      "label": "Setting",
+      "value": "Flat links terrain, wide fairways"
+    },
+    {
+      "label": "Target Golfer",
+      "value": "Serious, historically-minded players"
+    },
+    {
+      "label": "Par",
+      "value": "71"
+    },
+    {
+      "label": "Length",
+      "value": "6,152 Yards (Blue Tees)"
+    }
+  ],
+  "overviewParagraphs": [
+    "Ballyshear Golf Links is Bangkok's most intellectually serious golf offering — a course built for players who understand and appreciate golf history. The design is a faithful contemporary recreation of C.B. Macdonald's legendary Lido Golf Club (1914), a Long Island layout considered among the finest classical designs ever created, and destroyed decades ago by development. Ballyshear resurrects it in Southeast Asia for a new generation of golfers.",
+    "Macdonald's design philosophy — wide corridors, multiple strategic approaches, ground game emphasis, and template holes derived from the greatest holes in golf history — is preserved faithfully throughout. Playing Ballyshear demands a different mental approach from the typical resort experience: bump-and-run, links creativity, and strategic positioning matter far more than conventional shot selection.",
+    "For discerning golfers with a deep love of classical golf architecture and a desire for something genuinely unique in Thailand's golf landscape, AGS regards Ballyshear as an extraordinary discovery. It sits in an entirely different cultural category from the resort courses that dominate the market — and that is precisely its value."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Links"
+  },
+  "schema": {
+    "name": "Ballyshear Golf Links",
+    "description": "Bangkok's most intellectually demanding course — a faithful recreation of C.B. Macdonald's lost 'Lido'.",
+    "imageUrl": "/images/courses/thailand/ballyshear/ballyshear-golf-links-bangkok-thailand-1.webp",
+    "addressLocality": "Bangkok",
+    "addressCountry": "TH",
+    "numberOfHoles": 18,
+    "courseLength": 6152,
+    "par": 71,
+    "designer": "Gil Hanse"
+  },
+  "curatorBriefHtml": [
+    "<strong>Ballyshear Golf Links</strong> is a premier Par 71 championship layout in Bangkok, Thailand, crafted by <strong>Gil Hanse</strong> (2021) and stretching to <strong>6,152 Yards (Blue Tees)</strong> across a flat links terrain, wide fairways environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its historic template holes (redan, biarritz, eden) (Tribute to Macdonald & Raynor) and firm running fast links style (Ground game architecture).",
+    "From an itinerary-engineering perspective, Ballyshear Golf Links (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its caddie template knowledge (Crucial on deep swales), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Bangkok golf tour by AGS, Ballyshear Golf Links provides a distinct architectural test by Gil Hanse that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Ballyshear Golf Links",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/ballyshear/ballyshear-golf-links-bangkok-thailand-1.webp",
+    "overallScore": 4.7,
+    "maxScore": 5,
+    "gradeBadge": "Gil Hanse Vintage Template Masterpiece • Bangkok",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Historic Template Holes (Redan, Biarritz, Eden)",
+        "score": 9.8,
+        "highlight": "Tribute to Macdonald & Raynor"
+      },
+      {
+        "label": "Firm Running Fast Links Style",
+        "score": 9.6,
+        "highlight": "Ground game architecture"
+      },
+      {
+        "label": "Caddie Template Knowledge",
+        "score": 9.5,
+        "highlight": "Crucial on deep swales"
+      },
+      {
+        "label": "Exclusive Private Club Ambiance",
+        "score": 9.6,
+        "highlight": "Refined vintage styling"
+      }
+    ],
+    "verdict": "Designed by Gil Hanse as an homage to C.B. Macdonald's legendary Lido Club. A thrilling strategic revival featuring authentic Golden Age template holes like the Biarritz, Redan, and Punchbowl."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Ballyshear Golf Links?",
+      "a": "Ballyshear Golf Links in Bangkok, Thailand is a Par 71 championship layout designed by Gil Hanse (opened 2021), measuring 6,152 Yards (Blue Tees) within a flat links terrain, wide fairways setting. It is particularly noted for historic template holes (redan, biarritz, eden) (Tribute to Macdonald & Raynor)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Ballyshear Golf Links?",
+      "a": "Ballyshear Golf Links operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie template knowledge (Crucial on deep swales)), and private VIP transfers from your Bangkok hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Ballyshear Golf Links?",
+      "a": "Our field inspection highlights Ballyshear Golf Links's firm running fast links style (Ground game architecture) alongside historic template holes (redan, biarritz, eden) (Tribute to Macdonald & Raynor). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Ballyshear Golf Links?",
+      "a": "November through April is ideal for Ballyshear Golf Links Chiang Mai."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Aquella Golf & Country Club",
+      "path": "/courses/thailand/aquella/"
+    },
+    "next": {
+      "title": "Bangkok Golf Club",
+      "path": "/courses/thailand/bangkok-golf-club/"
+    }
+  }
+}

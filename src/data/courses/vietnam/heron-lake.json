@@ -1,0 +1,165 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "heron-lake",
+  "url": "/courses/vietnam/heron-lake/",
+  "metadata": {
+    "title": "Heron Lake Golf Course Vietnam | Natural Wetlands Golf Hanoi",
+    "titleIsAbsolute": true,
+    "description": "Play Heron Lake Golf Course near Hanoi — a serene resort layout blending naturally with Vietnam's wetlands and birdlife. Book with Asia Golf Specialists.",
+    "keywords": [
+      "Heron Lake Golf Course",
+      "Hanoi Golf Vietnam",
+      "Vietnam Wetlands Golf",
+      "Resort Golf Vietnam",
+      "Northern Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/heron-lake/heron-lake-golf-course-vietnam-1.webp",
+    "ogAlt": "Heron Lake Golf Course Vietnam | Natural Wetlands Golf Hanoi — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Heron Lake",
+    "h1Gold": "Golf Course",
+    "quote": "\"Where golf meets the natural rhythm of the wetlands — serene, strategic, unforgettable.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/heron-lake/heron-lake-golf-course-vietnam-1.webp",
+      "alt": "Heron Lake Golf Course Vietnam Aerial Wetlands - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Aerial wetlands view, Heron Lake Golf, Hanoi"
+    },
+    {
+      "src": "/images/courses/vietnam/heron-lake/heron-lake-golf-course-wetland-fairway-2.webp",
+      "alt": "Heron Lake Golf Course Wetland Fairway Natural Vietnam",
+      "caption": "Wetland fairway, natural course setting"
+    },
+    {
+      "src": "/images/courses/vietnam/heron-lake/heron-lake-golf-course-resort-layout-3.webp",
+      "alt": "Heron Lake Golf Resort Vietnam Course Layout Hole - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Championship hole layout, Heron Lake Golf"
+    },
+    {
+      "src": "/images/courses/vietnam/heron-lake/heron-lake-golf-course-northern-vietnam-4.webp",
+      "alt": "Heron Lake Golf Course Lake Hole Northern Vietnam - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Lake hole, northern Vietnam parkland golf"
+    },
+    {
+      "src": "/images/courses/vietnam/heron-lake/heron-lake-golf-course-championship-green-5.webp",
+      "alt": "Heron Lake Golf Vietnam Championship Green Putting",
+      "caption": "Championship green, Heron Lake Golf Hanoi"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Pacific Coast Design"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2010"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "6,971 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Paspalum / Bermuda"
+    },
+    {
+      "label": "Setting",
+      "value": "Natural wetlands and lake"
+    }
+  ],
+  "overviewParagraphs": [
+    "Heron Lake Golf Course is one of Northern Vietnam's most naturally integrated playing experiences — a resort layout that respects and incorporates the region's native wetland ecosystem rather than fighting against it. Herons, egrets, and wildlife are constant companions throughout the round.",
+    "Designed by Brian Curley (Schmidt-Curley Design), the course flows seamlessly through the natural landscape with strategic water features and mature tree corridors framing each hole. The greens are undulating and receptive, rewarding approach shots hit with precision and appropriate trajectory.",
+    "Located within easy reach of Hanoi, Heron Lake is an excellent choice for the discerning golfer who wants a peaceful, countryside round in contrast to the busier resort circuits. Its combination of natural beauty and solid course design consistently earns it high marks from visiting internationals."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Wetlands"
+  },
+  "schema": {
+    "name": "Heron Lake Golf Course",
+    "description": "Where golf meets the natural rhythm of the wetlands — serene, strategic, unforgettable.",
+    "imageUrl": "/images/courses/vietnam/heron-lake/heron-lake-golf-course-vietnam-1.webp",
+    "addressLocality": "Hanoi",
+    "addressCountry": "VN",
+    "numberOfHoles": 27,
+    "courseLength": 6971,
+    "par": 72,
+    "designer": "Pacific Coast Design"
+  },
+  "curatorBriefHtml": [
+    "<strong>Heron Lake Golf Course</strong> is a premier Par 72 championship layout in Hanoi, Vietnam, crafted by <strong>Pacific Coast Design</strong> (2010) and stretching to <strong>6,971 Yards</strong> across a natural wetlands and lake environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its natural wildlife & wetlands integration (Habitat for native wild herons) and strategic water hazard placement (Water in play on 14 holes).",
+    "From an itinerary-engineering perspective, Heron Lake Golf Course (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie local familiarity & line reading (Helps avoid hidden lake bays), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Hanoi golf tour by AGS, Heron Lake Golf Course provides a distinct architectural test by Pacific Coast Design that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Heron Lake Golf Course",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/heron-lake/heron-lake-golf-course-vietnam-1.webp",
+    "overallScore": 4.5,
+    "maxScore": 5,
+    "gradeBadge": "Eco-Sanctuary Wetlands Golf • Hanoi",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Natural Wildlife & Wetlands Integration",
+        "score": 9.5,
+        "highlight": "Habitat for native wild herons"
+      },
+      {
+        "label": "Strategic Water Hazard Placement",
+        "score": 9.2,
+        "highlight": "Water in play on 14 holes"
+      },
+      {
+        "label": "Caddie Local Familiarity & Line Reading",
+        "score": 9.3,
+        "highlight": "Helps avoid hidden lake bays"
+      },
+      {
+        "label": "Classic Lakeside Clubhouse Service",
+        "score": 9.1,
+        "highlight": "Peaceful natural ambiance"
+      }
+    ],
+    "verdict": "A peaceful resort layout that blends harmoniously into the Heron Lake wetlands. Native water birds, palm-lined fairways, and strategic water hazards reward thoughtful shot placement."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Heron Lake Golf Course?",
+      "a": "Heron Lake Golf Course in Hanoi, Vietnam is a Par 72 championship layout designed by Pacific Coast Design (opened 2010), measuring 6,971 Yards within a natural wetlands and lake setting. It is particularly noted for natural wildlife & wetlands integration (Habitat for native wild herons)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Heron Lake Golf Course?",
+      "a": "Heron Lake Golf Course operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie local familiarity & line reading (Helps avoid hidden lake bays)), and private VIP transfers from your Hanoi hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Heron Lake Golf Course?",
+      "a": "Our field inspection highlights Heron Lake Golf Course's strategic water hazard placement (Water in play on 14 holes) alongside natural wildlife & wetlands integration (Habitat for native wild herons). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Heron Lake Golf Course?",
+      "a": "October through April is ideal for Heron Lake Golf Course north of Hanoi."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Golden Sands Golf Resort Vietnam",
+      "path": "/courses/vietnam/golden-sands/"
+    },
+    "next": {
+      "title": "Hoiana Shores Golf Club",
+      "path": "/courses/vietnam/hoiana-shores/"
+    }
+  }
+}

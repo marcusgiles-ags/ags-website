@@ -1,0 +1,174 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "chiang-mai-highlands",
+  "url": "/courses/thailand/chiang-mai-highlands/",
+  "metadata": {
+    "title": "Chiang Mai Highlands Golf Club | Thailand",
+    "titleIsAbsolute": true,
+    "description": "Experience Chiang Mai Highlands Golf & Country Club. Lee Schmidt's design, spectacular mountain views. Book your Vietnam/Thailand golf tour with AGS.",
+    "keywords": [
+      "Chiang Mai Highlands Golf Club",
+      "Chiang Mai Golf Course",
+      "Lee Schmidt Golf Thailand",
+      "Mountain Golf Chiang Mai",
+      "Thailand Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-golf-country-club-thailand-1.webp",
+    "ogAlt": "Chiang Mai Highlands Golf Club | Lee Schmidt Mountain Views Thailand — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Lee Schmidt Design",
+    "h1Line1": "Chiang Mai Highlands",
+    "h1Gold": "Golf & Country Club",
+    "quote": "\"Every tee with a mountain panorama — Lee Schmidt's rolling highland masterpiece.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-golf-country-club-thailand-1.webp",
+      "alt": "Chiang Mai Highlands Golf Country Club Thailand Lee Schmidt Aerial",
+      "caption": "Country Club Thailand Lee Schmidt Aerial"
+    },
+    {
+      "src": "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-mountain-view-2.webp",
+      "alt": "Chiang Mai Highlands Golf Thailand Mountain View Spectacular Tee",
+      "caption": "Thailand Mountain View Spectacular Tee"
+    },
+    {
+      "src": "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-rolling-hills-3.webp",
+      "alt": "Chiang Mai Highlands Golf Thailand Rolling Hills Fairway",
+      "caption": "Thailand Rolling Hills Fairway"
+    },
+    {
+      "src": "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-scenic-hole-4.webp",
+      "alt": "Chiang Mai Highlands Golf Thailand Scenic Hole Mountain Valley",
+      "caption": "Thailand Scenic Hole Mountain Valley"
+    },
+    {
+      "src": "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-championship-green-5.webp",
+      "alt": "Chiang Mai Highlands Golf Thailand Championship Green Northern",
+      "caption": "Thailand Championship Green"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Schmidt-Curley Design",
+      "href": "https://www.schmidt-curley.com/"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2005"
+    },
+    {
+      "label": "Location",
+      "value": "Mae On, Chiang Mai"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "6,872 Yards"
+    },
+    {
+      "label": "Setting",
+      "value": "Rolling highland hills, mountain views"
+    },
+    {
+      "label": "Character",
+      "value": "Scenic, hilly, panoramic"
+    }
+  ],
+  "overviewParagraphs": [
+    "Chiang Mai Highlands Golf & Country Club is one of the most visually spectacular courses in northern Thailand — a Lee Schmidt design that threads through rolling highland terrain east of Chiang Mai city, delivering mountain panoramas from virtually every tee box and approach shot on the course. The cool highland air, the dramatic elevation changes, and the quality of Schmidt's routing combine to create an experience that feels refreshingly different from lowland resort golf.",
+    "Schmidt's design intelligence is evident in the way the course uses the natural terrain to create risk-reward moments without resorting to artificial obstacles — the hills themselves provide the strategic variety, with uphill approaches demanding extra club selection and downhill tee shots requiring precision placement for manageable approaches. The greens are consistently firm and fast, requiring subtle reads and controlled approaches.",
+    "AGS pairs Chiang Mai Highlands regularly with Alpine Golf Resort Chiang Mai to create a compelling two-round Chiang Mai program — the valley character of Alpine contrasted with the highland panoramas of Highlands makes for a genuinely complete northern Thailand golf experience. Both courses are consistently rated among the best golf experiences available in Asia by top international golf media."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Highlands"
+  },
+  "schema": {
+    "name": "Chiang Mai Highlands Golf and Spa Resort",
+    "description": "Every tee with a mountain panorama — Lee Schmidt's rolling highland masterpiece.",
+    "imageUrl": "/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-golf-country-club-thailand-1.webp",
+    "addressLocality": "Chiang Mai",
+    "addressCountry": "TH",
+    "numberOfHoles": 18,
+    "courseLength": 6872,
+    "par": 72,
+    "designer": "Schmidt-Curley Design",
+    "sameAs": [
+      "https://www.chiangmaihighlands.com/",
+      "https://www.top100golfcourses.com/golf-course/chiangmai-highlands"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Chiang Mai Highlands Golf and Spa Resort</strong> is a premier Par 72 championship layout in Chiang Mai, Thailand, crafted by <strong>Schmidt-Curley Design</strong> (2005) and stretching to <strong>6,872 Yards</strong> across a rolling highland hills, mountain views environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its panoramic mountain vistas & cool climate (1,000ft above sea level) and sculpted bunkers & paspalum turf quality (Deep flash-faced sand).",
+    "From an itinerary-engineering perspective, Chiang Mai Highlands Golf and Spa Resort (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its exceptional friendly northern caddies (Voted best in Thailand), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Chiang Mai golf tour by AGS, Chiang Mai Highlands Golf and Spa Resort provides a distinct architectural test by Schmidt-Curley Design that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Chiang Mai Highlands Golf and Spa Resort",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/chiang-mai-highlands/chiang-mai-highlands-golf-country-club-thailand-1.webp",
+    "overallScore": 4.8,
+    "maxScore": 5,
+    "gradeBadge": "Schmidt-Curley Mountain Jewel • Chiang Mai",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Panoramic Mountain Vistas & Cool Climate",
+        "score": 9.9,
+        "highlight": "1,000ft above sea level"
+      },
+      {
+        "label": "Sculpted Bunkers & Paspalum Turf Quality",
+        "score": 9.7,
+        "highlight": "Deep flash-faced sand"
+      },
+      {
+        "label": "Exceptional Friendly Northern Caddies",
+        "score": 9.7,
+        "highlight": "Voted best in Thailand"
+      },
+      {
+        "label": "27-Hole Award-Winning Layout",
+        "score": 9.6,
+        "highlight": "Valley, Highlands & Mountain"
+      }
+    ],
+    "verdict": "Consistently voted among the top golf experiences in Asia. Schmidt-Curley carved 27 majestic holes into the northern foothills, offering breathtaking views, cavernous bunkers, and cool highland breezes."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Chiang Mai Highlands Golf and Spa Resort?",
+      "a": "Chiang Mai Highlands Golf and Spa Resort in Chiang Mai, Thailand is a Par 72 championship layout designed by Schmidt-Curley Design (opened 2005), measuring 6,872 Yards within a rolling highland hills, mountain views setting. It is particularly noted for panoramic mountain vistas & cool climate (1,000ft above sea level)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Chiang Mai Highlands Golf and Spa Resort?",
+      "a": "Chiang Mai Highlands Golf and Spa Resort operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (exceptional friendly northern caddies (Voted best in Thailand)), and private VIP transfers from your Chiang Mai hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Chiang Mai Highlands Golf and Spa Resort?",
+      "a": "Our field inspection highlights Chiang Mai Highlands Golf and Spa Resort's sculpted bunkers & paspalum turf quality (Deep flash-faced sand) alongside panoramic mountain vistas & cool climate (1,000ft above sea level). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Chiang Mai Highlands Golf and Spa Resort?",
+      "a": "November through April offers ideal highland conditions at Chiang Mai Highlands Golf."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Cascata Golf Club",
+      "path": "/courses/thailand/cascata/"
+    },
+    "next": {
+      "title": "Flora Ville Golf & Country Club",
+      "path": "/courses/thailand/flora-ville/"
+    }
+  }
+}

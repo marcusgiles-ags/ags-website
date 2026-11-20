@@ -43,12 +43,18 @@ function getCourses(): { title: string; url: string }[] {
     const countries = ['vietnam', 'thailand', 'cambodia'];
     const courses = [];
     for (const country of countries) {
-        const countryDir = path.join(process.cwd(), 'src/app/courses', country);
+        const countryDir = path.join(process.cwd(), 'src/data/courses', country);
         if (!fs.existsSync(countryDir)) continue;
-        const slugs = fs.readdirSync(countryDir, { withFileTypes: true })
-          .filter(d => d.isDirectory()).map(d => d.name);
-        for (const slug of slugs) {
-            const title = slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' ');
+        const files = fs.readdirSync(countryDir).filter(f => f.endsWith('.json')).sort();
+        for (const file of files) {
+            const slug = file.replace(/\.json$/, '');
+            let title = slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' ');
+            try {
+                const parsed = JSON.parse(fs.readFileSync(path.join(countryDir, file), 'utf8'));
+                if (parsed?.schema?.name) title = parsed.schema.name;
+            } catch {
+                // fallback
+            }
             courses.push({ title, url: `/courses/${country}/${slug}/` });
         }
     }

@@ -336,10 +336,12 @@ if (missingImages === 0) {
 console.log('\n--- 6. Anti-Orphan Hub & Navigation Ring Audit ---');
 let orphanErrors = 0;
 for (const country of ['vietnam', 'thailand', 'cambodia']) {
-  // Courses check
-  const courseDir = path.join(rootDir, 'src/app/courses', country);
+  // Courses check (data-driven JSON in src/data/courses/{country}/*.json)
+  const courseDataDir = path.join(rootDir, 'src/data/courses', country);
   const destCoursesHub = fs.readFileSync(path.join(rootDir, 'src/app/destinations', country, 'courses/page.tsx'), 'utf-8');
-  const courseSlugs = fs.readdirSync(courseDir, { withFileTypes: true }).filter(d => d.isDirectory()).map(d => d.name);
+  const courseSlugs = fs.existsSync(courseDataDir)
+    ? fs.readdirSync(courseDataDir).filter(f => f.endsWith('.json')).map(f => f.replace(/\.json$/, ''))
+    : [];
 
   const inboundNav = new Map(courseSlugs.map(s => [s, 0]));
   for (const slug of courseSlugs) {
@@ -347,10 +349,29 @@ for (const country of ['vietnam', 'thailand', 'cambodia']) {
       reportError(`Course /courses/${country}/${slug}/ is missing from src/app/destinations/${country}/courses/page.tsx`);
       orphanErrors++;
     }
-    const cPage = fs.readFileSync(path.join(courseDir, slug, 'page.tsx'), 'utf-8');
-    const navMatches = [...cPage.matchAll(/path:\s*["']\/courses\/[a-z]+\/([a-z0-9-]+)\/["']/g)];
-    for (const nm of navMatches) {
-      if (inboundNav.has(nm[1])) inboundNav.set(nm[1], inboundNav.get(nm[1]) + 1);
+    const rawCourse = fs.readFileSync(path.join(courseDataDir, `${slug}.json`), 'utf-8');
+    const cData = JSON.parse(rawCourse);
+    if (rawCourse.includes('the-oriental-jade/1.webp')) {
+      reportError(`src/data/courses/${country}/${slug}.json references hotel image the-oriental-jade/1.webp`);
+      orphanErrors++;
+    }
+    if (!cData.schema?.courseLength || cData.schema.courseLength === 7000 || cData.schema.courseLength < 5500 || cData.schema.courseLength > 8000) {
+      reportError(`src/data/courses/${country}/${slug}.json has invalid Blue-Tee courseLength: ${cData.schema?.courseLength}`);
+      orphanErrors++;
+    }
+    if (!cData.schema?.par || cData.schema.par < 70 || cData.schema.par > 73) {
+      reportError(`src/data/courses/${country}/${slug}.json has invalid par: ${cData.schema?.par}`);
+      orphanErrors++;
+    }
+    for (const img of (cData.images || [])) {
+      if (img.src && !imageExists(img.src)) {
+        reportError(`Missing course image in ${country}/${slug}.json: "${img.src}"`);
+        orphanErrors++;
+      }
+    }
+    for (const side of [cData.nav?.prev, cData.nav?.next]) {
+      const m = side?.path?.match(/\/courses\/[a-z]+\/([a-z0-9-]+)\//);
+      if (m && inboundNav.has(m[1])) inboundNav.set(m[1], inboundNav.get(m[1]) + 1);
     }
   }
   for (const [slug, count] of inboundNav.entries()) {

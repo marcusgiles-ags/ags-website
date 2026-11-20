@@ -1,0 +1,173 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "mission-hills-phuket",
+  "url": "/courses/thailand/mission-hills-phuket/",
+  "metadata": {
+    "title": "Mission Hills Phuket Golf Club",
+    "titleIsAbsolute": false,
+    "description": "Experience Mission Hills Phuket Golf Resort, a Nicklaus-designed 18-hole course. World-class facilities. Book your Vietnam/Thailand golf tour!",
+    "keywords": [
+      "Mission Hills Golf Club Phuket",
+      "Phuket Oceanfront Golf",
+      "Jack Nicklaus Golf Thailand",
+      "Andaman Sea Golf",
+      "Thailand Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-thailand-1.webp",
+    "ogAlt": "Mission Hills Golf Club Phuket | Nicklaus Oceanfront Andaman Views — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Jack Nicklaus Design",
+    "h1Line1": "Mission Hills Golf Club",
+    "h1Gold": "Phuket",
+    "quote": "\"Phuket's only oceanfront course — Jack Nicklaus and the Andaman Sea in perfect dialogue.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-thailand-1.webp",
+      "alt": "Mission Hills Golf Club Phuket Thailand Oceanfront Nicklaus Aerial Andaman",
+      "caption": "Mission Hills Golf Club Phuket Thailand Oceanfront Nicklaus Aerial Andaman"
+    },
+    {
+      "src": "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-andaman-2.webp",
+      "alt": "Mission Hills Golf Phuket Thailand Andaman Sea Ocean View Hole",
+      "caption": "Mission Hills Golf Phuket Thailand Andaman Sea Ocean View Hole"
+    },
+    {
+      "src": "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-oceanfront-3.webp",
+      "alt": "Mission Hills Golf Phuket Thailand Oceanfront Hole Nicklaus Design",
+      "caption": "Mission Hills Golf Phuket Thailand Oceanfront Hole Nicklaus Design"
+    },
+    {
+      "src": "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-spectacular-4.webp",
+      "alt": "Mission Hills Golf Phuket Thailand Spectacular Island Hole Championship",
+      "caption": "Mission Hills Golf Phuket Thailand Spectacular Island Hole Championship"
+    },
+    {
+      "src": "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-championship-5.webp",
+      "alt": "Mission Hills Golf Phuket Thailand Championship Green Andaman",
+      "caption": "Mission Hills Golf Phuket Thailand Championship Green Andaman"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Jack Nicklaus",
+      "href": "https://nicklausdesign.com/"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2004"
+    },
+    {
+      "label": "Location",
+      "value": "Sakhu, Phuket"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Setting",
+      "value": "Oceanfront, Andaman Sea views"
+    },
+    {
+      "label": "Length",
+      "value": "7,005 Yards"
+    },
+    {
+      "label": "Distinction",
+      "value": "Phuket's only true oceanfront course"
+    }
+  ],
+  "overviewParagraphs": [
+    "Mission Hills Golf Club Phuket holds a unique distinction on the island — it is the only course where the Andaman Sea appears as a genuine backdrop to multiple holes, making it the closest thing to true ocean-front golf that Phuket offers. Jack Nicklaus's design responds to this advantage intelligently, routing the back nine along the coastline to maximise sea exposure on approach shots and from elevated tee positions.",
+    "The course quality is world-class, with bentgrass greens, well-defined fairway corridors, and premium conditioning that matches Phuket's most celebrated facilities. Nicklaus's strategic philosophy of rewarding proper positioning over raw distance plays out across all 18 holes, making it a course where course management determines scores as much as ball-striking.",
+    "For discerning golfers who want Phuket's premium oceanfront experience alongside championship-standard golf, Mission Hills Phuket is the definitive answer. AGS pairs it with Red Mountain and Blue Canyon for a complete Phuket golf trilogy that showcases the full range of what the island offers."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Ocean"
+  },
+  "schema": {
+    "name": "Mission Hills Phuket Golf Resort",
+    "description": "Phuket's only oceanfront course — Jack Nicklaus and the Andaman Sea in perfect dialogue.",
+    "imageUrl": "/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-thailand-1.webp",
+    "addressLocality": "Phuket",
+    "addressCountry": "TH",
+    "numberOfHoles": 18,
+    "courseLength": 7005,
+    "par": 72,
+    "designer": "Jack Nicklaus",
+    "sameAs": [
+      "https://www.missionhillsphuket.com/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Mission Hills Phuket Golf Resort</strong> is a premier Par 72 championship layout in Phuket, Thailand, crafted by <strong>Jack Nicklaus</strong> (2004) and stretching to <strong>7,005 Yards</strong> across a oceanfront, andaman sea views environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its mangrove forest & sea-view holes (Over Phang Nga Bay waters) and dual paspalum green targets (Twin greens on coastal holes).",
+    "From an itinerary-engineering perspective, Mission Hills Phuket Golf Resort (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its caddie ocean breeze calculation (Essential in crosswinds), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Phuket golf tour by AGS, Mission Hills Phuket Golf Resort provides a distinct architectural test by Jack Nicklaus that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Mission Hills Phuket Golf Resort",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/mission-hills-phuket/mission-hills-golf-phuket-thailand-1.webp",
+    "overallScore": 4.7,
+    "maxScore": 5,
+    "gradeBadge": "Jack Nicklaus Mangrove Ocean Frontage • Phuket",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Mangrove Forest & Sea-View Holes",
+        "score": 9.7,
+        "highlight": "Over Phang Nga Bay waters"
+      },
+      {
+        "label": "Dual Paspalum Green Targets",
+        "score": 9.4,
+        "highlight": "Twin greens on coastal holes"
+      },
+      {
+        "label": "Caddie Ocean Breeze Calculation",
+        "score": 9.4,
+        "highlight": "Essential in crosswinds"
+      },
+      {
+        "label": "High-End Island Clubhouse",
+        "score": 9.4,
+        "highlight": "Beachfront dining & pool"
+      }
+    ],
+    "verdict": "Jack Nicklaus engineered several signature ocean holes playing directly over the azure waters of Phang Nga Bay and coastal mangrove flats. Stunning photography and island drama."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Mission Hills Phuket Golf Resort?",
+      "a": "Mission Hills Phuket Golf Resort in Phuket, Thailand is a Par 72 championship layout designed by Jack Nicklaus (opened 2004), measuring 7,005 Yards within a oceanfront, andaman sea views setting. It is particularly noted for mangrove forest & sea-view holes (Over Phang Nga Bay waters)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Mission Hills Phuket Golf Resort?",
+      "a": "Mission Hills Phuket Golf Resort operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie ocean breeze calculation (Essential in crosswinds)), and private VIP transfers from your Phuket hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Mission Hills Phuket Golf Resort?",
+      "a": "Our field inspection highlights Mission Hills Phuket Golf Resort's dual paspalum green targets (Twin greens on coastal holes) alongside mangrove forest & sea-view holes (Over Phang Nga Bay waters). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Mission Hills Phuket Golf Resort?",
+      "a": "November through April is the prime season for Mission Hills Phuket Golf Club."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Mission Hills Kanchanaburi",
+      "path": "/courses/thailand/mission-hills-kanchanaburi/"
+    },
+    "next": {
+      "title": "Nikanti Golf Club Bangkok",
+      "path": "/courses/thailand/nikanti/"
+    }
+  }
+}

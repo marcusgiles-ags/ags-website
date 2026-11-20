@@ -1,0 +1,167 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "west-lakes-golf-club",
+  "url": "/courses/vietnam/west-lakes-golf-club/",
+  "metadata": {
+    "title": "West Lakes Golf & Villas | Championship Golf Near Saigon",
+    "titleIsAbsolute": true,
+    "description": "West Lakes Golf & Villas offers a championship 18-hole course designed by Thomson Perrett near Ho Chi Minh City.",
+    "keywords": [
+      "West Lakes Golf & Villas",
+      "Thomson Perrett Vietnam",
+      "Vietnam Golf Course",
+      "Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an.webp",
+    "ogAlt": "West Lakes Golf & Villas | Vietnam — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "West",
+    "h1Gold": "Lakes Golf & Villas",
+    "quote": "\"An exciting Thomson Perrett designed course located just outside Ho Chi Minh City, characterized by picturesque lakes and excellent conditioning.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an.webp",
+      "alt": "West Lakes Golf Hero",
+      "caption": "West Lakes Golf & Villas"
+    },
+    {
+      "src": "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an-fairway.webp",
+      "alt": "West Lakes Fairways",
+      "caption": "Pristine Zeon Zoysia fairways"
+    },
+    {
+      "src": "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an-island.webp",
+      "alt": "West Lakes Island Green",
+      "caption": "Challenging water hazards"
+    },
+    {
+      "src": "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an-aerial.webp",
+      "alt": "West Lakes Aerial",
+      "caption": "Thomson Perrett design"
+    },
+    {
+      "src": "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an-clubhouse.webp",
+      "alt": "West Lakes Clubhouse",
+      "caption": "Clubhouse and facilities"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Thomson Perrett"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2018"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "6,634 Yards (Blue Tees)"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Zeon Zoysia"
+    },
+    {
+      "label": "Setting",
+      "value": "Lakeside / Parkland"
+    },
+    {
+      "label": "Top Ranking",
+      "value": "Top Courses near HCMC"
+    }
+  ],
+  "overviewParagraphs": [
+    "West Lakes Golf & Villas brings a high-quality golf experience to the western suburbs of Ho Chi Minh City. The Thomson Perrett design makes exceptional use of the flat terrain by incorporating vast lakes, which come into play on numerous holes, requiring accuracy and thoughtful course management. The conditioning is consistently top-tier, thanks to the use of Zeon Zoysia grass, which provides lush, green fairways year-round. The greens are well-guarded and fast, ensuring a test for all skill levels. Coupled with a modern clubhouse, expansive practice facilities, and luxurious on-site villas, West Lakes is an ideal destination for a day trip from the city or a relaxing golf getaway."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Course"
+  },
+  "schema": {
+    "name": "West Lakes Golf & Villas",
+    "description": "West Lakes Golf & Villas offers a championship 18-hole course designed by Thomson Perrett near Ho Chi Minh City.",
+    "imageUrl": "/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an.webp",
+    "addressLocality": "Long An",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 6634,
+    "par": 72,
+    "designer": "Thomson Perrett",
+    "sameAs": []
+  },
+  "curatorBriefHtml": [
+    "<strong>West Lakes Golf & Villas</strong> is a premier Par 72 championship layout in Long An, Vietnam, crafted by <strong>Thomson Perrett</strong> (2018) and stretching to <strong>6,634 Yards (Blue Tees)</strong> across a lakeside / parkland environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its zeon zoysia fairway quality (Pristine turf roll from tee to green) and dramatic lakeside water carries (Water in play on key holes).",
+    "From an itinerary-engineering perspective, West Lakes Golf & Villas (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie distance & hazard reading (Accurate yardage advice), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Long An golf tour by AGS, West Lakes Golf & Villas provides a distinct architectural test by Thomson Perrett that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "West Lakes Golf & Villas",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/west-lakes-golf-club/west-lakes-golf-long-an.webp",
+    "overallScore": 4.6,
+    "maxScore": 5,
+    "gradeBadge": "Western Saigon Championship • Thomson Perrett",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Zeon Zoysia Fairway Quality",
+        "score": 9.6,
+        "highlight": "Pristine turf roll from tee to green"
+      },
+      {
+        "label": "Dramatic Lakeside Water Carries",
+        "score": 9.3,
+        "highlight": "Water in play on key holes"
+      },
+      {
+        "label": "Caddie Distance & Hazard Reading",
+        "score": 9.3,
+        "highlight": "Accurate yardage advice"
+      },
+      {
+        "label": "Modern Western Clubhouse Comfort",
+        "score": 9.3,
+        "highlight": "Spacious lockers and dining"
+      }
+    ],
+    "verdict": "The first course in Western Ho Chi Minh City to feature Zeon Zoysia grass from tee to green. Designed by Thomson Perrett, it weaves through vast lakes with superb year-round turf."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for West Lakes Golf & Villas?",
+      "a": "West Lakes Golf & Villas in Long An, Vietnam is a Par 72 championship layout designed by Thomson Perrett (opened 2018), measuring 6,634 Yards (Blue Tees) within a lakeside / parkland setting. It is particularly noted for zeon zoysia fairway quality (Pristine turf roll from tee to green)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at West Lakes Golf & Villas?",
+      "a": "West Lakes Golf & Villas operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie distance & hazard reading (Accurate yardage advice)), and private VIP transfers from your Long An hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at West Lakes Golf & Villas?",
+      "a": "Our field inspection highlights West Lakes Golf & Villas's dramatic lakeside water carries (Water in play on key holes) alongside zeon zoysia fairway quality (Pristine turf roll from tee to green). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play West Lakes Golf & Villas?",
+      "a": "Peak playing conditions at West Lakes Golf & Villas in Long An typically run during the cooler, drier months from November through April, with early morning tee times recommended year-round."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Vinpearl Golf Nam Hoi An",
+      "path": "/courses/vietnam/vinpearl-nam-hoi-an/"
+    },
+    "next": {
+      "title": "Ba Na Hills Golf Club",
+      "path": "/courses/vietnam/ba-na-hills/"
+    }
+  }
+}

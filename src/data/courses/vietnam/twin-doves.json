@@ -1,0 +1,163 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "twin-doves",
+  "url": "/courses/vietnam/twin-doves/",
+  "metadata": {
+    "title": "Twin Doves Golf Club | 27-Hole Championship Golf in Vietnam",
+    "titleIsAbsolute": true,
+    "description": "Play Twin Doves Golf Club - an exclusive 27-hole Peter Rousseau designed private championship golf course near Ho Chi Minh City.",
+    "keywords": [
+      "Twin Doves Golf Club",
+      "Vietnam Golf Tours",
+      "Binh Duong Golf",
+      "Ho Chi Minh City Golf",
+      "Luna Stella Sole Courses"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/twin-doves/twin-doves-clubhouse-practice-green.webp",
+    "ogAlt": "Twin Doves Golf Club 27-Hole Championship Golf Vietnam - Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Twin Doves",
+    "h1Gold": "Golf Club",
+    "quote": "\"A tranquil 27-hole private estate - strategic design meets natural elegance.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/twin-doves/twin-doves-clubhouse-practice-green.webp",
+      "alt": "Twin Doves Golf Club impressive modern clubhouse and practice green Binh Duong Vietnam 2026",
+      "caption": "Modern Clubhouse & Practice Green"
+    },
+    {
+      "src": "/images/courses/vietnam/twin-doves/twin-doves-4th-hole.webp",
+      "alt": "Twin Doves Golf Club 4th hole water hazard championship course Binh Duong Vietnam 2026",
+      "caption": "Championship 4th Hole"
+    },
+    {
+      "src": "/images/courses/vietnam/twin-doves/twin-doves-golf-course-approach.webp",
+      "alt": "Twin Doves Golf Club strategic fairway approach Luna course Binh Duong Vietnam 2026",
+      "caption": "Strategic Fairway Approach"
+    },
+    {
+      "src": "/images/courses/vietnam/twin-doves/twin-doves-saigon-aerial.webp",
+      "alt": "Twin Doves Golf Club aerial view of 27-hole layout near Ho Chi Minh City Vietnam 2026",
+      "caption": "Aerial View of 27-Hole Layout"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Peter Rousseau (P+Z)"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2011"
+    },
+    {
+      "label": "Par",
+      "value": "72 (Any 18)"
+    },
+    {
+      "label": "Length",
+      "value": "7,234 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Paspalum"
+    },
+    {
+      "label": "Signature Feature",
+      "value": "27-Hole Layout & Member-Only Exclusivity"
+    }
+  ],
+  "overviewParagraphs": [
+    "Twin Doves Golf Club is widely regarded as one of the finest private clubs in southern Vietnam. Comprising the Luna, Stella, and Sole nines, the 27-hole complex provides a diverse test of golf in an idyllic setting just one hour from the bustling center of Ho Chi Minh City.",
+    "The Luna Course winds through gentle hills and mature forests, requiring pinpoint accuracy off the tee. The Stella Course demands a strategic approach, with natural creeks and lakes coming into play on almost every hole. Finally, the Sole Course offers a challenging links-style feel, characterized by strategic bunkering and island greens.",
+    "Beyond the immaculate course conditioning, Twin Doves is renowned for its exceptional facilities. The sweeping, contemporary clubhouse overlooks the 18th greens, providing an expansive space for post-round relaxation, a well-stocked pro shop, and world-class dining spanning Vietnamese, Korean, and Western cuisines."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Estate"
+  },
+  "schema": {
+    "name": "Twin Doves Golf Club",
+    "description": "A tranquil 27-hole private estate - strategic design meets natural elegance.",
+    "imageUrl": "https://www.asiagolfspecialists.com/images/courses/vietnam/twin-doves/twin-doves-clubhouse-practice-green.webp",
+    "addressLocality": "Binh Duong",
+    "addressCountry": "VN",
+    "numberOfHoles": 27,
+    "courseLength": 7234,
+    "par": 72,
+    "designer": "Peter Rousseau (P+Z)",
+    "sameAs": [
+      "https://www.twindovesgolf.vn/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Twin Doves Golf Club</strong> is a premier Par 72 (Any 18) championship layout in Binh Duong, Vietnam, crafted by <strong>Peter Rousseau (P+Z)</strong> (2011) and stretching to <strong>7,234 Yards</strong> across a championship layout environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its 27-hole rotation (luna, stella, sole) (Diverse architectural styles) and course conditioning & deep bunkering (Paspalum carpets and crisp sand).",
+    "From an itinerary-engineering perspective, Twin Doves Golf Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie pacing & etiquette (Polished and highly trained), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Binh Duong golf tour by AGS, Twin Doves Golf Club provides a distinct architectural test by Peter Rousseau (P+Z) that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Twin Doves Golf Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/twin-doves/twin-doves-clubhouse-practice-green.webp",
+    "overallScore": 4.6,
+    "maxScore": 5,
+    "gradeBadge": "27-Hole Private Club • Saigon",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "27-Hole Rotation (Luna, Stella, Sole)",
+        "score": 9.4,
+        "highlight": "Diverse architectural styles"
+      },
+      {
+        "label": "Course Conditioning & Deep Bunkering",
+        "score": 9.4,
+        "highlight": "Paspalum carpets and crisp sand"
+      },
+      {
+        "label": "Caddie Pacing & Etiquette",
+        "score": 9.4,
+        "highlight": "Polished and highly trained"
+      },
+      {
+        "label": "Elite Private Member Atmosphere",
+        "score": 9.5,
+        "highlight": "Exclusive executive feel"
+      }
+    ],
+    "verdict": "An upscale 27-hole private members' club in Binh Duong offering immaculate tournament conditioning and a seamless 5-star clubhouse environment."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Twin Doves Golf Club?",
+      "a": "Twin Doves Golf Club in Binh Duong, Vietnam is a Par 72 (Any 18) championship layout designed by Peter Rousseau (P+Z) (opened 2011), measuring 7,234 Yards within a championship layout setting. It is particularly noted for 27-hole rotation (luna, stella, sole) (Diverse architectural styles)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Twin Doves Golf Club?",
+      "a": "Twin Doves Golf Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie pacing & etiquette (Polished and highly trained)), and private VIP transfers from your Binh Duong hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Twin Doves Golf Club?",
+      "a": "Our field inspection highlights Twin Doves Golf Club's course conditioning & deep bunkering (Paspalum carpets and crisp sand) alongside 27-hole rotation (luna, stella, sole) (Diverse architectural styles). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Twin Doves Golf Club?",
+      "a": "November through April is the prime season for Twin Doves Golf Club."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "The Bluffs Grand Ho Tram",
+      "path": "/courses/vietnam/the-bluffs-ho-tram/"
+    },
+    "next": {
+      "title": "Van Tri Golf Club",
+      "path": "/courses/vietnam/van-tri-golf-club/"
+    }
+  }
+}

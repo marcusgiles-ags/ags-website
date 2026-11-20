@@ -1,0 +1,178 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "sapa-grand",
+  "url": "/courses/vietnam/sapa-grand/",
+  "metadata": {
+    "title": "Sapa Grand Golf Course | High-Altitude Mountain Golf Vietnam",
+    "titleIsAbsolute": true,
+    "description": "Sapa Grand Golf Club — Vietnam's highest-altitude golf course amid the dramatic rice terraces of the northern highlands near Sapa.",
+    "keywords": [
+      "Sapa Grand Golf Course",
+      "Sapa Golf Vietnam",
+      "Mountain Golf Vietnam",
+      "High Altitude Golf Vietnam",
+      "Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-vietnam-1.webp",
+    "ogAlt": "Sapa Grand Golf Course | High-Altitude Mountain Golf Vietnam — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Mountain Golf",
+    "h1Line1": "Sapa Grand",
+    "h1Gold": "Golf Course",
+    "quote": "\"Vietnam's highest course — terrace rice paddies, mist-filled valleys, and cool mountain air.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-vietnam-1.webp",
+      "alt": "Sapa Grand Golf Course Vietnam Mountain Aerial Misty",
+      "caption": "Vietnam Mountain Aerial Misty"
+    },
+    {
+      "src": "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-highland-2.webp",
+      "alt": "Sapa Golf Course Vietnam High Altitude Mountain Valley",
+      "caption": "Sapa Golf Course Vietnam High Altitude Mountain Valley"
+    },
+    {
+      "src": "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-elevation-3.webp",
+      "alt": "Sapa Grand Golf Vietnam Dramatic Elevation Views - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Vietnam Dramatic Elevation Views"
+    },
+    {
+      "src": "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-fairway-4.webp",
+      "alt": "Sapa Golf Course Vietnam Fairway Mountain Terrace - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Sapa Golf Course Vietnam Fairway Mountain Terrace"
+    },
+    {
+      "src": "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-championship-5.webp",
+      "alt": "Sapa Grand Golf Vietnam Championship Hole Green - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Vietnam Championship Hole Green"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Greg Norman",
+      "href": "https://gngcd.com/"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2023"
+    },
+    {
+      "label": "Location",
+      "value": "Sapa, Lao Cai Province"
+    },
+    {
+      "label": "Altitude",
+      "value": "~1,500m above sea level"
+    },
+    {
+      "label": "Par",
+      "value": "71"
+    },
+    {
+      "label": "Length",
+      "value": "6,128 Yards (Blue Tees)"
+    },
+    {
+      "label": "Setting",
+      "value": "Mountain valley, rice terraces"
+    },
+    {
+      "label": "Character",
+      "value": "High-altitude, dramatic elevation"
+    },
+    {
+      "label": "Access",
+      "value": "Sapa Town (direct)"
+    }
+  ],
+  "overviewParagraphs": [
+    "Sapa Grand Golf Course is Vietnam's most altitude-extreme golf experience — set in the hearts of one of Southeast Asia's most dramatic highland landscapes, where terraced rice paddies cascade down mountain slopes and mist rolls through valleys at 1,500 metres above sea level.",
+    "The significant elevation changes throughout the layout create a strategic challenge unlike anything available in the lowland courses. Ball flight behaves differently at altitude, approach angles are made more extreme by the sloping terrain, and the cool mountain air provides a playing environment that feels entirely removed from Vietnam's tropical lowlands.",
+    "Best incorporated into a multi-day Sapa experience combining golf with trekking and homestay cultural experiences in the Lao Cai highlands, the course appeals to adventurous discerning golfers seeking the most unique experience available in the country."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Highlands"
+  },
+  "schema": {
+    "name": "Sapa Grand Golf Course",
+    "description": "Vietnam's highest course — terrace rice paddies, mist-filled valleys, and cool mountain air.",
+    "imageUrl": "/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-vietnam-1.webp",
+    "addressLocality": "Sapa",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 6128,
+    "par": 71,
+    "designer": "IMG Design"
+  },
+  "curatorBriefHtml": [
+    "<strong>Sapa Grand Golf Course</strong> is a premier Par 71 championship layout in Sapa, Vietnam, crafted by <strong>IMG Design</strong> (2023) and stretching to <strong>6,128 Yards (Blue Tees)</strong> across a mountain valley, rice terraces environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its dramatic mountain terraces & cloud inversions (Play above mountain fog) and crisp alpine climate in tropical asia (Cool temperatures year-round).",
+    "From an itinerary-engineering perspective, Sapa Grand Golf Course (Sapa Town (direct)) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie steep slope adjustments (Calculates severe elevation changes), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Sapa golf tour by AGS, Sapa Grand Golf Course provides a distinct architectural test by IMG Design that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Sapa Grand Golf Course",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/sapa-grand/sapa-grand-golf-course-vietnam-1.webp",
+    "overallScore": 4.6,
+    "maxScore": 5,
+    "gradeBadge": "High-Altitude Cloudline Golf • Northern Border",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Dramatic Mountain Terraces & Cloud Inversions",
+        "score": 9.8,
+        "highlight": "Play above mountain fog"
+      },
+      {
+        "label": "Crisp Alpine Climate in Tropical Asia",
+        "score": 9.7,
+        "highlight": "Cool temperatures year-round"
+      },
+      {
+        "label": "Caddie Steep Slope Adjustments",
+        "score": 9.2,
+        "highlight": "Calculates severe elevation changes"
+      },
+      {
+        "label": "Mountain Resort Hospitality",
+        "score": 9.1,
+        "highlight": "Authentic highland warmth"
+      }
+    ],
+    "verdict": "Perched high in the Hoang Lien Son range near the roof of Indochina. Sapa Grand offers refreshing mountain air, steep elevation drops, and views across terraced valleys."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Sapa Grand Golf Course?",
+      "a": "Sapa Grand Golf Course in Sapa, Vietnam is a Par 71 championship layout designed by IMG Design (opened 2023), measuring 6,128 Yards (Blue Tees) within a mountain valley, rice terraces setting. It is particularly noted for dramatic mountain terraces & cloud inversions (Play above mountain fog)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Sapa Grand Golf Course?",
+      "a": "Sapa Grand Golf Course operates under sapa town (direct) protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie steep slope adjustments (Calculates severe elevation changes)), and private VIP transfers from your Sapa hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Sapa Grand Golf Course?",
+      "a": "Our field inspection highlights Sapa Grand Golf Course's crisp alpine climate in tropical asia (Cool temperatures year-round) alongside dramatic mountain terraces & cloud inversions (Play above mountain fog). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Sapa Grand Golf Course?",
+      "a": "April through October is ideal for Sapa Grand Golf Course given the high-altitude climate."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Royal Long An Golf & Country Club",
+      "path": "/courses/vietnam/royal-long-an/"
+    },
+    "next": {
+      "title": "Sea Links Golf Club",
+      "path": "/courses/vietnam/sea-links-golf-club/"
+    }
+  }
+}

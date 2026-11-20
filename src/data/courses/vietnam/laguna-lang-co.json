@@ -1,0 +1,164 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "laguna-lang-co",
+  "url": "/courses/vietnam/laguna-lang-co/",
+  "metadata": {
+    "title": "Laguna Golf Lang Co | Nick Faldo Masterpiece Central Vietnam",
+    "titleIsAbsolute": true,
+    "description": "Laguna Lang Co Golf Club — an acclaimed 18-hole Sir Nick Faldo design set between mountains and lagoon in Central Vietnam. Book with Asia Golf Specialists.",
+    "keywords": [
+      "Laguna Golf Lang Co",
+      "Nick Faldo Golf Vietnam",
+      "Lang Co Golf Course",
+      "Vietnam Golf Tours",
+      "Central Vietnam Golf"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-jungle-tropical-3.webp",
+    "ogAlt": "Laguna Golf Lang Co | Nick Faldo Masterpiece Central Vietnam — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Laguna Golf",
+    "h1Gold": "Lang Co",
+    "quote": "\"My favourite course in Asia — it has everything.\" — Sir Nick Faldo"
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-jungle-tropical-3.webp",
+      "alt": "Laguna Golf Lang Co Tropical Jungle Course Hole Vietnam",
+      "caption": "Tropical jungle course hole, Lang Co"
+    },
+    {
+      "src": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-bach-ma-mountain-5.webp",
+      "alt": "Laguna Golf Lang Co Bach Ma Mountain Backdrop Central Vietnam",
+      "caption": "Bach Ma mountain backdrop, Lang Co"
+    },
+    {
+      "src": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-nick-faldo-vietnam-1.webp",
+      "alt": "Laguna Golf Lang Co Nick Faldo Design Aerial View Vietnam",
+      "caption": "Aerial view, Nick Faldo design, Lang Co"
+    },
+    {
+      "src": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-championship-layout-4.webp",
+      "alt": "Laguna Golf Lang Co Championship Layout Faldo Signature Hole",
+      "caption": "Faldo signature hole, Laguna Lang Co"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Sir Nick Faldo",
+      "href": "https://nickfaldodesign.com/"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2013"
+    },
+    {
+      "label": "Par",
+      "value": "71"
+    },
+    {
+      "label": "Length",
+      "value": "6,891 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "TifEagle Bermuda Greens"
+    },
+    {
+      "label": "Setting",
+      "value": "Parkland"
+    }
+  ],
+  "overviewParagraphs": [
+    "Laguna Golf Lang Co is the jewel of Central Vietnam's championship golf scene. Designed by Sir Nick Faldo — who famously declared it his favourite Asian course — the layout weaves through a breathtaking tapestry of rice paddies, tropical jungle, coastal lagoons, and the dramatic backdrop of the Bach Ma National Park.",
+    "No two holes share the same visual character, making it one of the most diverse and scenic rounds available in Southeast Asia. The par-71 layout is strategically demanding, requiring players to plot their way through corridors defined by water, elevation, and natural hazards.",
+    "Positioned within the Laguna Lang Co resort, the club benefits from award-winning hospitality infrastructure. For the discerning golfer seeking a course that delivers equal measures of challenge and beauty, Lang Co stands apart from the rest."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Landscape"
+  },
+  "schema": {
+    "name": "Laguna Golf Lang Co",
+    "description": "Laguna Lang Co Golf Club — an acclaimed 18-hole Sir Nick Faldo design set between mountains and lagoon in Central Vietnam. Book with Asia Golf Specialists.",
+    "imageUrl": "/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-jungle-tropical-3.webp",
+    "addressLocality": "Lang Co",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 6891,
+    "par": 71,
+    "designer": "Sir Nick Faldo",
+    "sameAs": [
+      "https://www.lagunalangco.com/golf/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Laguna Golf Lang Co</strong> is a premier Par 71 championship layout in Lang Co, Vietnam, crafted by <strong>Sir Nick Faldo</strong> (2013) and stretching to <strong>6,891 Yards</strong> across a parkland environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its natural terrain & rice paddy routing (Signature working rice fields) and shot shaping & tactical strategy (Faldo).",
+    "From an itinerary-engineering perspective, Laguna Golf Lang Co (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie local line knowledge (Expert on elevation & green grain), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Lang Co golf tour by AGS, Laguna Golf Lang Co provides a distinct architectural test by Sir Nick Faldo that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Laguna Golf Lang Co",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-jungle-tropical-3.webp",
+    "overallScore": 4.8,
+    "maxScore": 5,
+    "gradeBadge": "Nick Faldo Parkland & Rice Paddy Design • Central Coast",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Natural Terrain & Rice Paddy Routing",
+        "score": 9.8,
+        "highlight": "Signature working rice fields"
+      },
+      {
+        "label": "Shot Shaping & Tactical Strategy",
+        "score": 9.7,
+        "highlight": "Faldo's thinking-man's layout"
+      },
+      {
+        "label": "Caddie Local Line Knowledge",
+        "score": 9.5,
+        "highlight": "Expert on elevation & green grain"
+      },
+      {
+        "label": "Integrated Banyan Tree Resort Logistics",
+        "score": 9.6,
+        "highlight": "Direct cart transfers to luxury villas"
+      }
+    ],
+    "verdict": "Sir Nick Faldo's layout weaves through jungle hills, rice paddies, and rocky ocean headlands. Demands positional golf over raw power; a truly unique Asian golf masterpiece."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Laguna Golf Lang Co?",
+      "a": "Laguna Golf Lang Co in Lang Co, Vietnam is a Par 71 championship layout designed by Sir Nick Faldo (opened 2013), measuring 6,891 Yards within a parkland setting. It is particularly noted for natural terrain & rice paddy routing (Signature working rice fields)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Laguna Golf Lang Co?",
+      "a": "Laguna Golf Lang Co operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie local line knowledge (Expert on elevation & green grain)), and private VIP transfers from your Lang Co hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Laguna Golf Lang Co?",
+      "a": "Our field inspection highlights Laguna Golf Lang Co's shot shaping & tactical strategy (Faldo) alongside natural terrain & rice paddy routing (Signature working rice fields). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Laguna Golf Lang Co?",
+      "a": "February through September suits the central location of Laguna Golf Lang Co."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "KN Golf Links Cam Ranh",
+      "path": "/courses/vietnam/kn-golf-links/"
+    },
+    "next": {
+      "title": "BRG Legend Hill Golf Resort",
+      "path": "/courses/vietnam/legend-hill/"
+    }
+  }
+}

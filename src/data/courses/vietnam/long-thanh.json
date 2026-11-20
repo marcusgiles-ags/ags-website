@@ -1,0 +1,168 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "long-thanh",
+  "url": "/courses/vietnam/long-thanh/",
+  "metadata": {
+    "title": "Long Thanh Golf Resort | Ron Fream Saigon Golf Course",
+    "titleIsAbsolute": true,
+    "description": "Experience premium golf at Long Thanh Golf Club, Ho Chi Minh City. This 27-hole championship course offers stunning views.",
+    "keywords": [
+      "Long Thanh Golf Resort",
+      "Ron Fream Golf Vietnam",
+      "Saigon Golf Course",
+      "Ho Chi Minh City Golf",
+      "Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/long-thanh/long-thanh-golf-resort-vietnam-saigon-1.webp",
+    "ogAlt": "Long Thanh Golf Resort Vietnam | Ron Fream Saigon Golf Course — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Long Thanh",
+    "h1Gold": "Golf Resort",
+    "quote": "\"Rolling terrain and relentless water — every shot demands full commitment.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-vietnam-saigon-1.webp",
+      "alt": "Long Thanh Golf Resort Vietnam Saigon Aerial View - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Resort Vietnam Saigon Aerial View"
+    },
+    {
+      "src": "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-ron-fream-design-2.webp",
+      "alt": "Long Thanh Golf Resort Ron Fream Design Vietnam Hole",
+      "caption": "Resort Ron Fream Design Vietnam Hole"
+    },
+    {
+      "src": "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-water-hazard-3.webp",
+      "alt": "Long Thanh Golf Resort Water Hazard Rolling Terrain Vietnam",
+      "caption": "Resort Water Hazard Rolling Terrain"
+    },
+    {
+      "src": "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-championship-layout-4.webp",
+      "alt": "Long Thanh Golf Resort Championship Layout Vietnam",
+      "caption": "Resort Championship Layout"
+    },
+    {
+      "src": "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-fairway-saigon-5.webp",
+      "alt": "Long Thanh Golf Resort Fairway South Vietnam Saigon",
+      "caption": "Resort Fairway South Vietnam Saigon"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Golfplan / Ron Fream"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2001"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "6,897 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Zoysia / Bermuda Greens"
+    },
+    {
+      "label": "Signature Feature",
+      "value": "Massive lake water hazards"
+    }
+  ],
+  "overviewParagraphs": [
+    "Long Thanh Golf Resort is one of the most enduring and popular golf venues in Southern Vietnam, serving the Ho Chi Minh City market since 1994. Designed by Ron Fream — the prolific American designer responsible for some of Asia's most creative layouts — the course uses its rolling topography to strong creative effect.",
+    "Massive natural and man-made lake hazards define the visual experience at Long Thanh, coming into play on hole after hole in ways that demand genuine commitment to the target line rather than cautious misses in the wrong direction. The routing rewards attacking golf balanced with intelligent course management.",
+    "Well maintained and professionally managed, Long Thanh is a staple on the Saigon golf circuit for a reason. For discerning golfers based in Ho Chi Minh City for business or leisure, it represents a reliable, high-quality round just 30 minutes from the city centre."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Challenge"
+  },
+  "schema": {
+    "name": "Long Thanh Golf Resort",
+    "description": "Rolling terrain and relentless water — every shot demands full commitment.",
+    "imageUrl": "/images/courses/vietnam/long-thanh/long-thanh-golf-resort-vietnam-saigon-1.webp",
+    "addressLocality": "Ho Chi Minh City",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 6897,
+    "par": 72,
+    "designer": "Golfplan / Ron Fream",
+    "sameAs": [
+      "https://longthanhgolf.com/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Long Thanh Golf Resort</strong> is a premier Par 72 championship layout in Ho Chi Minh City, Vietnam, crafted by <strong>Golfplan / Ron Fream</strong> (2001) and stretching to <strong>6,897 Yards</strong> across a championship layout environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its manicured tropical landscaping (Pristine palms, lakes & flowers) and lake & hill layout variety (Two distinct 18-hole experiences).",
+    "From an itinerary-engineering perspective, Long Thanh Golf Resort (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie line-reading expertise (Regarded as best in Southern Vietnam), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Ho Chi Minh City golf tour by AGS, Long Thanh Golf Resort provides a distinct architectural test by Golfplan / Ron Fream that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Long Thanh Golf Resort",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/long-thanh/long-thanh-golf-resort-vietnam-saigon-1.webp",
+    "overallScore": 4.7,
+    "maxScore": 5,
+    "gradeBadge": "36-Hole Palm & Lake Sanctuary • Ron Fream",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Manicured Tropical Landscaping",
+        "score": 9.7,
+        "highlight": "Pristine palms, lakes & flowers"
+      },
+      {
+        "label": "Lake & Hill Layout Variety",
+        "score": 9.5,
+        "highlight": "Two distinct 18-hole experiences"
+      },
+      {
+        "label": "Caddie Line-Reading Expertise",
+        "score": 9.5,
+        "highlight": "Regarded as best in Southern Vietnam"
+      },
+      {
+        "label": "Clubhouse Hospitality & Dining",
+        "score": 9.4,
+        "highlight": "Outstanding Vietnamese cuisine"
+      }
+    ],
+    "verdict": "Consistently voted among the best golf courses in Southern Vietnam. Ron Fream's 36-hole complex combines scenic lake holes with rolling hill layouts amidst pristine palms and waterfalls."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Long Thanh Golf Resort?",
+      "a": "Long Thanh Golf Resort in Ho Chi Minh City, Vietnam is a Par 72 championship layout designed by Golfplan / Ron Fream (opened 2001), measuring 6,897 Yards within a championship layout setting. It is particularly noted for manicured tropical landscaping (Pristine palms, lakes & flowers)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Long Thanh Golf Resort?",
+      "a": "Long Thanh Golf Resort operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie line-reading expertise (Regarded as best in Southern Vietnam)), and private VIP transfers from your Ho Chi Minh City hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Long Thanh Golf Resort?",
+      "a": "Our field inspection highlights Long Thanh Golf Resort's lake & hill layout variety (Two distinct 18-hole experiences) alongside manicured tropical landscaping (Pristine palms, lakes & flowers). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Long Thanh Golf Resort?",
+      "a": "November through April is the prime season for Long Thanh Golf Resort."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "BRG Legend Hill Golf Resort",
+      "path": "/courses/vietnam/legend-hill/"
+    },
+    "next": {
+      "title": "Montgomerie Links Vietnam",
+      "path": "/courses/vietnam/montgomerie-links/"
+    }
+  }
+}

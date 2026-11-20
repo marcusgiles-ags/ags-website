@@ -30,6 +30,7 @@ const today = new Date().toISOString().split('T')[0];
 const SOURCE_GLOBS = [
   // [directory, matcher] — every file that backs a sitemap URL
   ['src/app', (rel) => rel.endsWith('/page.tsx')],
+  ['src/data/courses', (rel) => rel.endsWith('.json')],
   ['src/data/blog-posts', (rel) => rel.endsWith('.json')],
   ['src/data/seo-articles', (rel) => rel.endsWith('.json')],
   ['src/data/packages', (rel) => rel.endsWith('.json')],

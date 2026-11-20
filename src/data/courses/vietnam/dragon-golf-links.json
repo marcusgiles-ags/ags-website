@@ -1,0 +1,174 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "dragon-golf-links",
+  "url": "/courses/vietnam/dragon-golf-links/",
+  "metadata": {
+    "title": "Dragon Golf Links Vietnam | Coastal Links Hai Phong",
+    "titleIsAbsolute": true,
+    "description": "Play Dragon Golf Links near Hai Phong — a sea-encroaching true links experience unlike any other in Northern Vietnam. Book with Asia Golf Specialists.",
+    "keywords": [
+      "Dragon Golf Links Vietnam",
+      "Hai Phong Golf Course",
+      "Coastal Links Vietnam",
+      "Vietnam Golf Tours",
+      "Northern Vietnam Links Golf"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/dragon-golf-links/dragon-golf-links-hai-phong-vietnam-1.webp",
+    "ogAlt": "Dragon Golf Links Vietnam | Coastal Links Hai Phong — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Dragon Golf",
+    "h1Gold": "Links",
+    "quote": "\"A true sea-encroaching links — the wind dictates every shot.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-hai-phong-vietnam-1.webp",
+      "alt": "Dragon Golf Links Hai Phong Vietnam Aerial Coastal",
+      "caption": "Aerial coastal view, Dragon Links, Hai Phong"
+    },
+    {
+      "src": "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-seaside-hole-2.webp",
+      "alt": "Dragon Golf Links Vietnam Seaside Coastal Links Hole",
+      "caption": "Seaside coastal links hole, Hai Phong"
+    },
+    {
+      "src": "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-championship-layout-3.webp",
+      "alt": "Dragon Golf Links Vietnam Championship Layout Hole",
+      "caption": "Championship layout hole, Hai Phong corridor"
+    },
+    {
+      "src": "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-fairway-ocean-4.webp",
+      "alt": "Dragon Golf Links Vietnam Ocean Fairway Northern Coast",
+      "caption": "Hai Phong coastal golf course, ocean fairway"
+    },
+    {
+      "src": "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-greens-bunkers-5.webp",
+      "alt": "Dragon Golf Links Vietnam Championship Greens Coastal Bunkers",
+      "caption": "Championship greens and coastal bunkers"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Greg Norman",
+      "href": "https://gngcd.com/"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2023"
+    },
+    {
+      "label": "Location",
+      "value": "Near Hai Phong, Northern Vietnam"
+    },
+    {
+      "label": "Style",
+      "value": "True Coastal Links"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "6,950 Yards"
+    },
+    {
+      "label": "Character",
+      "value": "Sea-encroaching, wind-exposed"
+    },
+    {
+      "label": "Setting",
+      "value": "Coastal dunes and seaside"
+    }
+  ],
+  "overviewParagraphs": [
+    "Dragon Golf Links near Hai Phong is one of the most authentic links-style golf experiences in Northern Vietnam. Positioned directly on the coast with the sea encroaching on multiple holes, the layout offers a wind-driven challenge that demands the full repertoire of creative shot-making that defines genuine links play.",
+    "Firm and fast playing conditions reward the low-running approach, and the natural coastal bunkering provides both visual drama and tactical consequence. The course changes character completely depending on wind direction, ensuring every visit feels like a fresh challenge even for returning players.",
+    "An excellent choice for the discerning golfer who wants a pure links experience in the north of Vietnam. Its coastal character, accessibility from Hanoi, and tactical depth make Dragon Golf Links a standout addition to any extended northern Vietnam golf itinerary."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Links"
+  },
+  "schema": {
+    "name": "Dragon Golf Links",
+    "description": "A true sea-encroaching links — the wind dictates every shot.",
+    "imageUrl": "/images/courses/vietnam/dragon-golf-links/dragon-golf-links-hai-phong-vietnam-1.webp",
+    "addressLocality": "Hai Phong",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 6950,
+    "par": 72,
+    "designer": "Greg Norman"
+  },
+  "curatorBriefHtml": [
+    "<strong>Dragon Golf Links</strong> is a premier Par 72 championship layout in Hai Phong, Vietnam, crafted by <strong>Greg Norman</strong> (2023) and stretching to <strong>6,950 Yards</strong> across a coastal dunes and seaside environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its peninsula ocean panorama & sea winds (Juts directly into Tonkin Gulf) and paspalum salt-tolerant turf conditioning (Lush green oceanfront carpet).",
+    "From an itinerary-engineering perspective, Dragon Golf Links (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie wind reading & club selection (Navigates 2-to-3 club breezes), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Hai Phong golf tour by AGS, Dragon Golf Links provides a distinct architectural test by Greg Norman that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Dragon Golf Links",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/dragon-golf-links/dragon-golf-links-hai-phong-vietnam-1.webp",
+    "overallScore": 4.7,
+    "maxScore": 5,
+    "gradeBadge": "Coastal Sea Reclamation Links • Hai Phong",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Peninsula Ocean Panorama & Sea Winds",
+        "score": 9.7,
+        "highlight": "Juts directly into Tonkin Gulf"
+      },
+      {
+        "label": "Paspalum Salt-Tolerant Turf Conditioning",
+        "score": 9.5,
+        "highlight": "Lush green oceanfront carpet"
+      },
+      {
+        "label": "Caddie Wind Reading & Club Selection",
+        "score": 9.4,
+        "highlight": "Navigates 2-to-3 club breezes"
+      },
+      {
+        "label": "Striking Dragon-Inspired Clubhouse",
+        "score": 9.5,
+        "highlight": "Iconic architectural landmark"
+      }
+    ],
+    "verdict": "Constructed on reclaimed land jutting directly into the Gulf of Tonkin, Dragon Golf Links exposes players to authentic coastal gale conditions and scenic open-water panoramas on nearly every hole."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Dragon Golf Links?",
+      "a": "Dragon Golf Links in Hai Phong, Vietnam is a Par 72 championship layout designed by Greg Norman (opened 2023), measuring 6,950 Yards within a coastal dunes and seaside setting. It is particularly noted for peninsula ocean panorama & sea winds (Juts directly into Tonkin Gulf)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Dragon Golf Links?",
+      "a": "Dragon Golf Links operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie wind reading & club selection (Navigates 2-to-3 club breezes)), and private VIP transfers from your Hai Phong hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Dragon Golf Links?",
+      "a": "Our field inspection highlights Dragon Golf Links's paspalum salt-tolerant turf conditioning (Lush green oceanfront carpet) alongside peninsula ocean panorama & sea winds (Juts directly into Tonkin Gulf). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Dragon Golf Links?",
+      "a": "October through April suits the northern location of Dragon Golf Links."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Chi Linh Golf",
+      "path": "/courses/vietnam/chi-linh-golf/"
+    },
+    "next": {
+      "title": "Eschuri Vung Bau Golf Resort",
+      "path": "/courses/vietnam/eschuri-vung-bau/"
+    }
+  }
+}

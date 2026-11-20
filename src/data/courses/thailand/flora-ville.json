@@ -1,0 +1,178 @@
+{
+  "country": "thailand",
+  "countryName": "Thailand",
+  "countryCode": "TH",
+  "slug": "flora-ville",
+  "url": "/courses/thailand/flora-ville/",
+  "metadata": {
+    "title": "Flora Ville Golf & Country Club | Thailand",
+    "titleIsAbsolute": true,
+    "description": "Play Flora Ville Golf & Country Club Bangkok — classic parkland experience focused on lush greenery and floral aesthetics near Bangkok. Book with AGS.",
+    "keywords": [
+      "Flora Ville Golf Country Club Bangkok",
+      "Bangkok Parkland Golf",
+      "Flora Ville Golf Thailand",
+      "Bangkok Golf Course",
+      "Thailand Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/thailand/flora-ville/flora-ville-golf-country-club-bangkok-thailand-1.webp",
+    "ogAlt": "Flora Ville Golf & Country Club Bangkok | Classic Parkland Floral Thailand — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage — Classic Bangkok Parkland",
+    "h1Line1": "Flora Ville",
+    "h1Gold": "Golf & Country Club",
+    "quote": "\"A garden of golf — lush tropical parkland and floral beauty just beyond the Bangkok skyline.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-bangkok-thailand-1.webp",
+      "alt": "Flora Ville Golf Country Club Bangkok Thailand Parkland Aerial",
+      "caption": "Flora Ville Golf Country Club Bangkok Thailand Parkland Aerial"
+    },
+    {
+      "src": "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-floral-2.webp",
+      "alt": "Flora Ville Golf Bangkok Thailand Floral Gardens Parkland Course",
+      "caption": "Flora Ville Golf Bangkok Thailand Floral Gardens Parkland Course"
+    },
+    {
+      "src": "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-fairway-3.webp",
+      "alt": "Flora Ville Golf Club Thailand Championship Fairway Parkland",
+      "caption": "Flora Ville Golf Club Thailand Championship Fairway Parkland"
+    },
+    {
+      "src": "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-green-4.webp",
+      "alt": "Flora Ville Golf Bangkok Thailand Championship Green Lush",
+      "caption": "Flora Ville Golf Bangkok Thailand Championship Green Lush"
+    },
+    {
+      "src": "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-hole-5.webp",
+      "alt": "Flora Ville Golf Club Bangkok Thailand Signature Hole",
+      "caption": "Flora Ville Golf Club Bangkok Thailand Signature Hole"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Nick Faldo",
+      "href": "https://nickfaldodesign.com/"
+    },
+    {
+      "label": "Year Opened",
+      "value": "1998"
+    },
+    {
+      "label": "Location",
+      "value": "Bangkok region"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "6,728 Yards (Blue Tees)"
+    },
+    {
+      "label": "Setting",
+      "value": "Classic parkland, tropical gardens"
+    },
+    {
+      "label": "Character",
+      "value": "Lush, green, floral aesthetic"
+    },
+    {
+      "label": "Appeal",
+      "value": "All abilities welcome"
+    },
+    {
+      "label": "Facilities",
+      "value": "Full clubhouse and practice range"
+    }
+  ],
+  "overviewParagraphs": [
+    "Flora Ville Golf & Country Club provides a beautifully cultivated parkland golf experience near Bangkok — a course where the horticultural presentation is as much the attraction as the golf itself. Tropical flowering plants, manicured hedgerows, and lush green aesthetics create a visual environment that feels genuinely like a garden course, with the golf layout providing an enjoyable challenge through this botanical backdrop.",
+    "The course design is accessible and welcoming to all standards of golfer, with generous fairways, clearly defined hazards, and greens that reward proper alignment and committed putting strokes. There is no artificial difficulty here — the challenge comes from executing shots properly within a benign but well-constructed layout that makes good golf rewarding and poor golf still enjoyable.",
+    "For Bangkok programs that need a relaxed, scenic round without the premium difficulty of Alpine or Nikanti, AGS recommends Flora Ville as an excellent choice for mixed-ability groups, corporate programs with non-players who occasionally pick up a club, or as a gentle introduction day for Sydney or Melbourne golfers making their first Thailand golf trip."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "Gardens"
+  },
+  "schema": {
+    "name": "Flora Ville Golf & Country Club",
+    "description": "A garden of golf — lush tropical parkland and floral beauty just beyond the Bangkok skyline.",
+    "imageUrl": "/images/courses/thailand/flora-ville/flora-ville-golf-country-club-bangkok-thailand-1.webp",
+    "addressLocality": "Bangkok",
+    "addressCountry": "TH",
+    "numberOfHoles": 18,
+    "courseLength": 6728,
+    "par": 72,
+    "designer": "Pirapon Namatra"
+  },
+  "curatorBriefHtml": [
+    "<strong>Flora Ville Golf & Country Club</strong> is a premier Par 72 championship layout in Bangkok, Thailand, crafted by <strong>Pirapon Namatra</strong> (1998) and stretching to <strong>6,728 Yards (Blue Tees)</strong> across a classic parkland, tropical gardens environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its mature trees & tranquil water hazards (Shaded parkland corridors) and generous fairways & large greens (Playable and rewarding).",
+    "From an itinerary-engineering perspective, Flora Ville Golf & Country Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Thailand dry season. Our curatorial scorecard specifically notes its courteous caddie service (Attentive yardage help), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Bangkok golf tour by AGS, Flora Ville Golf & Country Club provides a distinct architectural test by Pirapon Namatra that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Flora Ville Golf & Country Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/thailand/flora-ville/flora-ville-golf-country-club-bangkok-thailand-1.webp",
+    "overallScore": 4.5,
+    "maxScore": 5,
+    "gradeBadge": "Lakeside Parkland Sanctuary • Pathum Thani",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Mature Trees & Tranquil Water Hazards",
+        "score": 9.3,
+        "highlight": "Shaded parkland corridors"
+      },
+      {
+        "label": "Generous Fairways & Large Greens",
+        "score": 9.3,
+        "highlight": "Playable and rewarding"
+      },
+      {
+        "label": "Courteous Caddie Service",
+        "score": 9.3,
+        "highlight": "Attentive yardage help"
+      },
+      {
+        "label": "Modern Renovated Clubhouse",
+        "score": 9.2,
+        "highlight": "Comfortable dining & lockers"
+      }
+    ],
+    "verdict": "A peaceful parkland escape just 30 minutes from downtown Bangkok. Generous fairways and lush tree-lined corridors provide a relaxed, classic day on the links."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Flora Ville Golf & Country Club?",
+      "a": "Flora Ville Golf & Country Club in Bangkok, Thailand is a Par 72 championship layout designed by Pirapon Namatra (opened 1998), measuring 6,728 Yards (Blue Tees) within a classic parkland, tropical gardens setting. It is particularly noted for mature trees & tranquil water hazards (Shaded parkland corridors)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Flora Ville Golf & Country Club?",
+      "a": "Flora Ville Golf & Country Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (courteous caddie service (Attentive yardage help)), and private VIP transfers from your Bangkok hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Flora Ville Golf & Country Club?",
+      "a": "Our field inspection highlights Flora Ville Golf & Country Club's generous fairways & large greens (Playable and rewarding) alongside mature trees & tranquil water hazards (Shaded parkland corridors). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Flora Ville Golf & Country Club?",
+      "a": "November through April is the best season for Flora Ville Golf Club Bangkok."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Chiang Mai Highlands Golf Club",
+      "path": "/courses/thailand/chiang-mai-highlands/"
+    },
+    "next": {
+      "title": "Laem Chabang International CC",
+      "path": "/courses/thailand/laem-chabang/"
+    }
+  }
+}

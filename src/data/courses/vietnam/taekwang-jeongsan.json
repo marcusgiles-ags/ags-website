@@ -1,0 +1,165 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "taekwang-jeongsan",
+  "url": "/courses/vietnam/taekwang-jeongsan/",
+  "metadata": {
+    "title": "Taekwang Jeongsan Country Club | Saigon River Golf Vietnam",
+    "titleIsAbsolute": true,
+    "description": "Reach Taekwang Jeongsan by private speedboat down the Saigon River — a unique Ron Fream golf experience near Ho Chi Minh City. Book with AGS.",
+    "keywords": [
+      "Taekwang Jeongsan Country Club",
+      "Saigon River Golf",
+      "Ho Chi Minh City Golf",
+      "Vietnam Golf Tours",
+      "Ron Fream Golf Vietnam"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-vietnam-1.webp",
+    "ogAlt": "Taekwang Jeongsan Country Club | Saigon River Golf Vietnam — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Taekwang Jeongsan",
+    "h1Gold": "Country Club",
+    "quote": "\"The only course in Asia you arrive at by private speedboat down the Saigon River.\""
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-vietnam-1.webp",
+      "alt": "Taekwang Jeongsan Country Club Vietnam Aerial Golf",
+      "caption": "Vietnam Aerial Golf"
+    },
+    {
+      "src": "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-saigon-river-2.webp",
+      "alt": "Taekwang Jeongsan Country Club Saigon River Speedboat Access",
+      "caption": "Saigon River Speedboat Access"
+    },
+    {
+      "src": "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-layout-3.webp",
+      "alt": "Taekwang Jeongsan Country Club Ron Fream Design Vietnam Hole",
+      "caption": "Ron Fream Design Vietnam Hole"
+    },
+    {
+      "src": "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-fairway-4.webp",
+      "alt": "Taekwang Jeongsan Country Club Fairway Championship Vietnam",
+      "caption": "Fairway Championship"
+    },
+    {
+      "src": "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-greens-5.webp",
+      "alt": "Taekwang Jeongsan Country Club Championship Greens Vietnam",
+      "caption": "Championship Greens"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Golfplan / Ron Fream"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2012"
+    },
+    {
+      "label": "Par",
+      "value": "72"
+    },
+    {
+      "label": "Length",
+      "value": "7,174 Yards"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Paspalum / Bermuda"
+    },
+    {
+      "label": "Access",
+      "value": "Private speedboat (Saigon River)"
+    }
+  ],
+  "overviewParagraphs": [
+    "Taekwang Jeongsan Country Club occupies a unique position in Vietnam's golf landscape — literally. Situated on a river island south of Ho Chi Minh City, the club is accessible exclusively by private speedboat from the Saigon River pier, making the journey to the first tee a uniquely cinematic experience.",
+    "Designed by Ron Fream of Golfplan, the layout is known for its use of challenging, strategic bunkering and strong par-4 corridors through dense tropical vegetation. The course offers a private, exclusive atmosphere that stands in sharp contrast to the busier resort circuits around the city.",
+    "Taekwang Jeongsan caters to a discerning clientele seeking a private-members experience in southern Vietnam. For the discerning golf traveller who has played the standard Saigon circuit, this destination offers something genuinely different and memorable."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "River Island"
+  },
+  "schema": {
+    "name": "Taekwang Jeongsan Country Club",
+    "description": "The only course in Asia you arrive at by private speedboat down the Saigon River.",
+    "imageUrl": "/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-vietnam-1.webp",
+    "addressLocality": "Ho Chi Minh City",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 7174,
+    "par": 72,
+    "designer": "Golfplan / Ron Fream"
+  },
+  "curatorBriefHtml": [
+    "<strong>Taekwang Jeongsan Country Club</strong> is a premier Par 72 championship layout in Ho Chi Minh City, Vietnam, crafted by <strong>Golfplan / Ron Fream</strong> (2012) and stretching to <strong>7,174 Yards</strong> across a championship layout environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its private river speedboat transfer (30-min cruise from downtown Saigon) and island breeze & tree-lined fairways (Refreshing river micro-climate).",
+    "From an itinerary-engineering perspective, Taekwang Jeongsan Country Club (Private speedboat (Saigon River)) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie consistency & professionalism (Disciplined service), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Ho Chi Minh City golf tour by AGS, Taekwang Jeongsan Country Club provides a distinct architectural test by Golfplan / Ron Fream that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "scorecard": {
+    "itemName": "Taekwang Jeongsan Country Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/taekwang-jeongsan/taekwang-jeongsan-country-club-vietnam-1.webp",
+    "overallScore": 4.6,
+    "maxScore": 5,
+    "gradeBadge": "Saigon River Island Golf • Dai Phuoc",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Private River Speedboat Transfer",
+        "score": 9.6,
+        "highlight": "30-min cruise from downtown Saigon"
+      },
+      {
+        "label": "Island Breeze & Tree-Lined Fairways",
+        "score": 9.3,
+        "highlight": "Refreshing river micro-climate"
+      },
+      {
+        "label": "Caddie Consistency & Professionalism",
+        "score": 9.4,
+        "highlight": "Disciplined service"
+      },
+      {
+        "label": "Korean-Standard Clubhouse Luxury",
+        "score": 9.5,
+        "highlight": "High-end Korean dining & bathhouse"
+      }
+    ],
+    "verdict": "Located on Dai Phuoc Island on the Dong Nai River, accessible by direct boat from downtown Saigon. A tranquil island layout offering firm greens, cooling breezes, and great dining."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Taekwang Jeongsan Country Club?",
+      "a": "Taekwang Jeongsan Country Club in Ho Chi Minh City, Vietnam is a Par 72 championship layout designed by Golfplan / Ron Fream (opened 2012), measuring 7,174 Yards within a championship layout setting. It is particularly noted for private river speedboat transfer (30-min cruise from downtown Saigon)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Taekwang Jeongsan Country Club?",
+      "a": "Taekwang Jeongsan Country Club operates under private speedboat (saigon river) protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie consistency & professionalism (Disciplined service)), and private VIP transfers from your Ho Chi Minh City hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Taekwang Jeongsan Country Club?",
+      "a": "Our field inspection highlights Taekwang Jeongsan Country Club's island breeze & tree-lined fairways (Refreshing river micro-climate) alongside private river speedboat transfer (30-min cruise from downtown Saigon). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Taekwang Jeongsan Country Club?",
+      "a": "November through April offers the best conditions at Taekwang Jeongsan Country Club."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Sky Lake Golf Club Sky Course",
+      "path": "/courses/vietnam/sky-lake-sky/"
+    },
+    "next": {
+      "title": "Tan Son Nhat Golf Course",
+      "path": "/courses/vietnam/tan-son-nhat/"
+    }
+  }
+}

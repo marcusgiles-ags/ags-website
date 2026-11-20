@@ -1,0 +1,178 @@
+{
+  "country": "vietnam",
+  "countryName": "Vietnam",
+  "countryCode": "VN",
+  "slug": "hoiana-shores",
+  "url": "/courses/vietnam/hoiana-shores/",
+  "metadata": {
+    "title": "Hoiana Shores Golf Club | Vietnam's First True Coastal Links",
+    "titleIsAbsolute": true,
+    "description": "Hoiana Shores Golf Club — Vietnam's first true links course by Robert Trent Jones Jr. on the East Sea near Hoi An. A must-play.",
+    "keywords": [
+      "Hoiana Shores Golf Club",
+      "Robert Trent Jones Jr Vietnam",
+      "Vietnam Coastal Links Golf",
+      "Hoi An Golf Course",
+      "Vietnam Golf Tours"
+    ],
+    "ogImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+    "ogAlt": "Hoiana Shores Golf Club | Vietnam — Asia Golf Specialists"
+  },
+  "hero": {
+    "badge": "AGS Course Heritage",
+    "h1Line1": "Hoiana Shores",
+    "h1Gold": "Golf Club",
+    "quote": "\"Vietnam's first true links experience, sculpted from the East Sea's edge.\" — Robert Trent Jones Jr."
+  },
+  "images": [
+    {
+      "src": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+      "alt": "Hoiana Shores Golf Club Coastal Links Vietnam Panoramic View",
+      "caption": "Coastal links panorama, Hoiana Shores Golf Club"
+    },
+    {
+      "src": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-robert-trent-jones-jr-2.webp",
+      "alt": "Hoiana Shores Golf Club Robert Trent Jones Jr Design Fairway",
+      "caption": "Designed by Robert Trent Jones Jr."
+    },
+    {
+      "src": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-east-sea-links-3.webp",
+      "alt": "Hoiana Shores Golf Club East Sea Links Hole Vietnam",
+      "caption": "Links hole along the East Sea"
+    },
+    {
+      "src": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-dunes-hoi-an-4.webp",
+      "alt": "Hoiana Shores Golf Club Coastal Sand Dunes Hoi An - Premium Southeast Asia Golf Tours 2026",
+      "caption": "Coastal sand dunes, Hoiana Shores"
+    },
+    {
+      "src": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-championship-layout-5.webp",
+      "alt": "Hoiana Shores Golf Club Championship Layout Vietnam Green",
+      "caption": "Championship layout, Hoiana Shores Golf Club"
+    }
+  ],
+  "specs": [
+    {
+      "label": "Designer",
+      "value": "Robert Trent Jones II",
+      "href": "https://www.rtj2.com/"
+    },
+    {
+      "label": "Year Opened",
+      "value": "2019"
+    },
+    {
+      "label": "Par",
+      "value": "71"
+    },
+    {
+      "label": "Length",
+      "value": "6,554 Yards (Blue Tees)"
+    },
+    {
+      "label": "Grass Type",
+      "value": "Zeon Zoysia"
+    },
+    {
+      "label": "Setting",
+      "value": "Links"
+    },
+    {
+      "label": "Top 100 Asia Ranking",
+      "value": "#2 in Asia (2026)",
+      "href": "https://www.top100golfcourses.com/golf-courses/asia/vietnam"
+    }
+  ],
+  "overviewParagraphs": [
+    "Hoiana Shores Golf Club stands as one of the most significant golf openings in Southeast Asia in recent years. Designed by the legendary Robert Trent Jones Jr., it is the first course in Vietnam to sit directly on the East Sea, delivering a true links experience in a tropical setting.",
+    "The 18-hole layout winds through natural coastal dunes near the UNESCO World Heritage site of Hoi An, offering spectacular panoramic ocean views from nearly every hole. The course demands respect for the wind, rewarding players who think their way around rather than overpower it.",
+    "Part of the prestigious Hoiana integrated resort, the club features world-class clubhouse facilities, a luxury pro-shop, and a strategic practice facility. For discerning golfers seeking the authentic links challenge in an exotic location, Hoiana Shores is unmissable."
+  ],
+  "galleryHeading": {
+    "prefix": "Experience the",
+    "gold": "East Sea Links"
+  },
+  "schema": {
+    "name": "Hoiana Shores Golf Club",
+    "description": "Hoiana Shores Golf Club — Vietnam",
+    "imageUrl": "/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-coastal-vietnam-1.webp",
+    "addressLocality": "Hoi An",
+    "addressCountry": "VN",
+    "numberOfHoles": 18,
+    "courseLength": 6554,
+    "par": 71,
+    "designer": "Robert Trent Jones Jr.",
+    "sameAs": [
+      "https://www.hoianashores.com/"
+    ]
+  },
+  "curatorBriefHtml": [
+    "<strong>Hoiana Shores Golf Club</strong> is a premier Par 71 championship links layout in Hoi An, Vietnam, crafted by <strong>Robert Trent Jones Jr.</strong> (2019) and playing <strong>6,554 Yards from the Blue Tees</strong> (7,004 yards from the Back Tips) across a coastal dunes environment. In Asia Golf Specialists&apos; (AGS) field evaluations, the course stands out for its turf quality &amp; pure links sand base (Zeon Zoysia • Firm, fast links roll) and strategic dunes routing &amp; ocean drama (Robert Trent Jones II coastal design).",
+    "From an itinerary-engineering perspective, Hoiana Shores Golf Club (Resort & Visitor Access via AGS) requires advance flight allocation and experienced local caddie pairing—particularly during the peak Vietnam dry season. Our curatorial scorecard specifically notes its caddie wind & contour reading (Experienced local caddies on subtle dunes), making pre-reserved morning tee times and private door-to-clubhouse VIP transfers essential for maintaining pace of play.",
+    "When integrated into a multi-round Hoi An golf tour by AGS, Hoiana Shores Golf Club provides a distinct architectural test by Robert Trent Jones Jr. that complements neighboring regional layouts while keeping daily hotel-to-tee transfer times streamlined."
+  ],
+  "reviewLink": {
+    "href": "/blog/hoiana-shores-golf-club-review/",
+    "label": "Hoiana Shores Golf Club Review: Vietnam's #1 Links Course"
+  },
+  "scorecard": {
+    "itemName": "Hoiana Shores Golf Club",
+    "itemImage": "https://www.asiagolfspecialists.com/images/courses/vietnam/hoiana-shores/hoiana-shores-golf-club-dunes-hoi-an-4.webp",
+    "overallScore": 4.9,
+    "maxScore": 5,
+    "gradeBadge": "Vietnam's Premier Links Layout • Asia Top 10",
+    "experienceTier": "C",
+    "inspectionDate": "Spring 2026 Inspection",
+    "criteria": [
+      {
+        "label": "Turf Quality & Pure Links Sand Base",
+        "score": 9.9,
+        "highlight": "Zeon Zoysia • Firm, fast links roll"
+      },
+      {
+        "label": "Strategic Dunes Routing & Ocean Drama",
+        "score": 9.8,
+        "highlight": "Robert Trent Jones II coastal design"
+      },
+      {
+        "label": "Caddie Wind & Contour Reading",
+        "score": 9.7,
+        "highlight": "Experienced local caddies on subtle dunes"
+      },
+      {
+        "label": "Luxury Clubhouse & Beachfront Facilities",
+        "score": 9.6,
+        "highlight": "5-star Hoiana Resort integration"
+      }
+    ],
+    "verdict": "A tour-de-force in modern links architecture. Robert Trent Jones Jr. sculpted a layout that directly hugs the East Sea dunes, demanding creative ground-game imagination in shifting afternoon sea breezes. Indisputably one of the top championship golf experiences in Asia."
+  },
+  "faqs": [
+    {
+      "q": "What are the key course specifications for Hoiana Shores Golf Club?",
+      "a": "Hoiana Shores Golf Club in Hoi An, Vietnam is a Par 71 championship links layout designed by Robert Trent Jones Jr. (opened 2019), measuring 6,554 Yards from the Blue Tees (7,004 yards from the tips) within a coastal dunes setting. It is particularly noted for turf quality & pure links sand base (Zeon Zoysia • Firm, fast links roll)."
+    },
+    {
+      "q": "How do I secure tee times and caddies at Hoiana Shores Golf Club?",
+      "a": "Hoiana Shores Golf Club operates under resort & visitor access via ags protocols. Asia Golf Specialists secures guaranteed morning tee times, compulsory caddie and cart pairings (caddie wind & contour reading (Experienced local caddies on subtle dunes)), and private VIP transfers from your Hoi An hotel as part of a custom golf itinerary."
+    },
+    {
+      "q": "What playing conditions and turf can golfers expect at Hoiana Shores Golf Club?",
+      "a": "Our field inspection highlights Hoiana Shores Golf Club's strategic dunes routing & ocean drama (Robert Trent Jones II coastal design) alongside turf quality & pure links sand base (Zeon Zoysia • Firm, fast links roll). Standard championship golf attire (collared shirts, tailored trousers or shorts, and soft-spike golf shoes) is strictly enforced by the starter."
+    },
+    {
+      "q": "What is the best time of year to play Hoiana Shores Golf Club?",
+      "a": "February through September is the prime season for Hoiana Shores Golf Club."
+    }
+  ],
+  "nav": {
+    "prev": {
+      "title": "Heron Lake Golf Course Vietnam",
+      "path": "/courses/vietnam/heron-lake/"
+    },
+    "next": {
+      "title": "BRG Kings Island Golf Resort",
+      "path": "/courses/vietnam/kings-island/"
+    }
+  }
+}
