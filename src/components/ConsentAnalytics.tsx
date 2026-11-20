@@ -64,6 +64,9 @@ export function updateConsent(choice: 'accepted' | 'declined') {
 export default function ConsentAnalytics() {
   useEffect(() => {
     if (typeof window === 'undefined') return;
+    // Never send localhost or Vercel preview/staging sessions into production GA4.
+    const host = window.location.hostname;
+    if (host !== 'www.asiagolfspecialists.com' && host !== 'asiagolfspecialists.com') return;
     const w = window as any;
     if (w.__agsAnalyticsInit) return;
     w.__agsAnalyticsInit = true;

@@ -19,11 +19,21 @@ export default function ConciergeWhatsAppButton({
       `Hi Marcus & AGS team, I'm interested in the "${itemTitle}" ${label} (${destination}). Could you share availability, customization options, and pricing for our group?`
     );
     if (typeof window !== "undefined") {
-      const w = window as unknown as { dataLayer?: Array<Record<string, unknown>> };
+      const w = window as unknown as {
+        dataLayer?: Array<Record<string, unknown>>;
+        gtag?: (...args: unknown[]) => void;
+      };
       if (w.dataLayer) {
         w.dataLayer.push({
           event: itemType === "tour" ? "whatsapp_tour_click" : "whatsapp_package_click",
           item_title: itemTitle,
+          destination,
+        });
+      }
+      if (typeof w.gtag === "function") {
+        w.gtag("event", "whatsapp_concierge_click", {
+          venue_type: itemType,
+          venue_name: itemTitle,
           destination,
         });
       }

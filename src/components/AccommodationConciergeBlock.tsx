@@ -21,11 +21,21 @@ export default function AccommodationConciergeBlock({
       `Hi Marcus & AGS team, I'm interested in staying at ${hotelName} (${destinationLabel}) as part of a golf trip. Could you share contracted rates, tee-time pairings, and availability?`
     );
     if (typeof window !== "undefined") {
-      const w = window as unknown as { dataLayer?: Array<Record<string, unknown>> };
+      const w = window as unknown as {
+        dataLayer?: Array<Record<string, unknown>>;
+        gtag?: (...args: unknown[]) => void;
+      };
       if (w.dataLayer) {
         w.dataLayer.push({
           event: "whatsapp_accommodation_click",
           hotel_name: hotelName,
+          destination: destinationLabel,
+        });
+      }
+      if (typeof w.gtag === "function") {
+        w.gtag("event", "whatsapp_concierge_click", {
+          venue_type: "accommodation",
+          venue_name: hotelName,
           destination: destinationLabel,
         });
       }

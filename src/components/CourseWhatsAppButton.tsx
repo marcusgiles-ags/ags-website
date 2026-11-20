@@ -24,6 +24,13 @@ export default function CourseWhatsAppButton({
           destination: countryName,
         });
       }
+      if (typeof w.gtag === "function") {
+        w.gtag("event", "whatsapp_concierge_click", {
+          venue_type: "course",
+          venue_name: courseName,
+          destination: countryName,
+        });
+      }
       window.open(`https://wa.me/84935601099?text=${msg}`, "_blank", "noopener,noreferrer");
     }
   };
