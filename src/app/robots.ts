@@ -60,6 +60,18 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
       {
+        userAgent: 'Claude-SearchBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'Claude-User',
+        allow: '/',
+      },
+      {
+        userAgent: 'Perplexity-User',
+        allow: '/',
+      },
+      {
         userAgent: 'cohere-ai',       // Cohere AI search
         allow: '/',
       },
@@ -75,21 +87,21 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: 'CCBot',
         allow: '/',
       },
-      // ─── Block AI Training Scrapers (not search — no user benefit) ────────
       {
-        userAgent: 'Amazonbot',
-        disallow: '/',
+        userAgent: 'Amazonbot',       // Amazon Alexa / Rufus AI answers
+        allow: '/',
       },
       {
-        userAgent: 'Applebot-Extended',
-        disallow: '/',
+        userAgent: 'Applebot-Extended', // Apple Intelligence / Siri AI answers
+        allow: '/',
       },
+      {
+        userAgent: 'meta-externalagent', // Meta AI web search & citations
+        allow: '/',
+      },
+      // ─── Block Non-Search High-Volume Scrapers ────────────────────────────
       {
         userAgent: 'Bytespider',
-        disallow: '/',
-      },
-      {
-        userAgent: 'meta-externalagent',
         disallow: '/',
       },
     ],
