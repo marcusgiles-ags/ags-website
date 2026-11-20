@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -129,16 +130,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Tamarind Village</strong> operates as a premier <strong>5 Star</strong> heritage boutique hotel positioned in Chiang Mai, Thailand. Featuring an architectural inventory of 45 rooms, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Charming Lanna timber architecture) and direct arterial access to Alpine Golf Resort Chiang Mai (45 min), Chiangmai Highlands (45 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Tamarind Village minimizes daily transit friction across the Chiang Mai corridor while elevating off-course recovery through the village spa, ruen tamarind restaurant and post-round recovery & wellness (Courtyard pool under 200-year tamarind tree). Every AGS itinerary anchored at Tamarind Village includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Tamarind Village&apos;s breakfast & dining quality (Ruen Tamarind authentic Northern cuisine), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Entered through a dramatic arched bamboo corridor off Ratchadamnoen Road inside Chiang Mai&apos;s historic walled Old City, the 45-room Tamarind Village is our curated boutique heritage partner for travellers who want authentic Lanna culture at their doorstep. Whitewashed low-rise courtyards wrap around a 200-year-old tamarind tree, creating an oasis of shade and quiet steps from Chiang Mai&apos;s revered temples.</p>
+                        <p style={{ marginBottom: '1rem' }}>Golfers staying in the Old City enjoy straightforward morning outbound pickups by AGS luxury private touring vehicles: Summit Green Valley is 30 minutes north, Mae Jo is 35 minutes, and Chiangmai Highlands and Alpine Golf Resort Chiang Mai are roughly 45 to 50 minutes east.</p>
+                        <p>After your round, cool off in the shaded courtyard pool, book a northern Thai Tok Sen or herbal compress massage at The Village Spa, and dine at Ruen Tamarind before stepping straight onto the famous Sunday Walking Street right outside the bamboo lane.</p>
                     </div>
                 </div>
             </section>
@@ -155,8 +150,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Lanna Heritage Garden Sanctuary • Chiang Mai"
     inspectionDate="Curated AGS Partner — Vetted via Client Feedback"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -185,43 +180,44 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Tamarind Village to the nearest championship golf courses in Chiang Mai?","acceptedAnswer":{"@type":"Answer","text":"Tamarind Village is positioned in Chiang Mai, Thailand, offering direct private transfer access to Alpine Golf Resort Chiang Mai (45 min), Chiangmai Highlands (45 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Tamarind Village?","acceptedAnswer":{"@type":"Answer","text":"Tamarind Village features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Tamarind Village offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Tamarind Village enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Courtyard pool under 200-year tamarind tree) and breakfast & dining quality (Ruen Tamarind authentic Northern cuisine)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Tamarind Village?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Tamarind Village as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How far is Tamarind Village from Chiangmai Highlands and Alpine Golf Resort Chiang Mai?","acceptedAnswer":{"@type":"Answer","text":"Both Chiangmai Highlands Golf & Spa Resort and Alpine Golf Resort Chiang Mai are roughly 45–50 minutes east by private AGS vehicle, while Summit Green Valley is 30 minutes north."}},{"@type":"Question","name":"Which room categories at Tamarind Village offer the best space for golfers?","acceptedAnswer":{"@type":"Answer","text":"Lanna Deluxe rooms and Tamarind Suites provide generous private terraces and extra floor space compared to entry Lanna rooms — making them our recommendation for golfers travelling with full club cases."}},{"@type":"Question","name":"Can AGS vehicles pick up golfers smoothly from Tamarind Village in the Old City?","acceptedAnswer":{"@type":"Answer","text":"Yes. Morning golf departures (6:30–8:30 AM) happen smoothly right at the Ratchadamnoen entrance; on Sunday afternoons/evenings when the Walking Street closes the street to cars, our drivers use the adjacent temple side-lane two minutes away."}},{"@type":"Question","name":"Who is Tamarind Village best suited for on a Chiang Mai golf itinerary?","acceptedAnswer":{"@type":"Answer","text":"Couples and culturally curious small fourballs who want walkable Old City temples, night markets, and authentic Lanna boutique charm rather than a secluded countryside resort."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Tamarind Village to the nearest championship golf courses in Chiang Mai?",
-                    "a": "Tamarind Village is positioned in Chiang Mai, Thailand, offering direct private transfer access to Alpine Golf Resort Chiang Mai (45 min), Chiangmai Highlands (45 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Tamarind Village?",
-                    "a": "Tamarind Village features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Tamarind Village offer?",
-                    "a": "Guests at Tamarind Village enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Courtyard pool under 200-year tamarind tree) and breakfast & dining quality (Ruen Tamarind authentic Northern cuisine)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Tamarind Village?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Tamarind Village as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How far is Tamarind Village from Chiangmai Highlands and Alpine Golf Resort Chiang Mai?",
+    "a": "Both Chiangmai Highlands Golf & Spa Resort and Alpine Golf Resort Chiang Mai are roughly 45–50 minutes east by private AGS vehicle, while Summit Green Valley is 30 minutes north."
+  },
+  {
+    "q": "Which room categories at Tamarind Village offer the best space for golfers?",
+    "a": "Lanna Deluxe rooms and Tamarind Suites provide generous private terraces and extra floor space compared to entry Lanna rooms — making them our recommendation for golfers travelling with full club cases."
+  },
+  {
+    "q": "Can AGS vehicles pick up golfers smoothly from Tamarind Village in the Old City?",
+    "a": "Yes. Morning golf departures (6:30–8:30 AM) happen smoothly right at the Ratchadamnoen entrance; on Sunday afternoons/evenings when the Walking Street closes the street to cars, our drivers use the adjacent temple side-lane two minutes away."
+  },
+  {
+    "q": "Who is Tamarind Village best suited for on a Chiang Mai golf itinerary?",
+    "a": "Couples and culturally curious small fourballs who want walkable Old City temples, night markets, and authentic Lanna boutique charm rather than a secluded countryside resort."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Tamarind Village" location="Chiang Mai" countryName="Thailand" />
 
             <VenueItineraries venueHref="/accommodations/thailand/tamarind-village/" venueName="Tamarind Village" venueType="accommodation" />
 

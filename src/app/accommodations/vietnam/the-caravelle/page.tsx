@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -62,7 +63,7 @@ export default function AccommodationPage() {
 <DestinationBackLink country="Vietnam" countryLink="/destinations/vietnam/accommodations/" />
  <div className="badge" style={{ display: 'inline-block', padding: '0.5rem 1rem', border: '1px solid var(--color-gold)', color: 'var(--color-gold)', fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '1.5rem' }}>AGS Preferred Property — Vietnam</div>
  <h1 style={{ marginBottom: '1rem' }}>The Caravelle Saigon</h1>
- <p style={{ fontSize: '1.25rem', maxWidth: '700px', fontStyle: 'italic', color: '#ccc' }} itemProp="description" id="exec-summary">"Experience legendary luxury at this iconic Ho Chi Minh City hotel. Enjoy panoramic views, Saigon Saigon Rooftop Bar, and easy access to Vietnam & Thailand Golf Tours."</p>
+ <p style={{ fontSize: '1.25rem', maxWidth: '700px', fontStyle: 'italic', color: '#ccc' }} itemProp="description" id="exec-summary">"Experience legendary luxury at this iconic Ho Chi Minh City hotel. Enjoy panoramic views, Saigon Saigon Rooftop Bar, and prime District 1 access to Southern Vietnam's championship golf courses."</p>
  </div>
  </header>
  <section className="section">
@@ -143,16 +144,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>The Caravelle Saigon</strong> operates as a premier <strong>5 Star</strong> luxury city accommodation positioned in Ho Chi Minh City, Vietnam. Featuring an architectural inventory of bespoke luxury suites, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Refurbished heritage suites with soundproofing) and direct arterial access to Tan Son Nhat Golf Course.
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, The Caravelle Saigon minimizes daily transit friction across the Ho Chi Minh City corridor while elevating off-course recovery through saigon saigon rooftop bar, free-form pool, central location and post-round recovery & wellness (Freeform pool & Kara Spa). Every AGS itinerary anchored at The Caravelle Saigon includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights The Caravelle Saigon&apos;s breakfast & dining quality (Iconic Saigon Saigon Rooftop Bar), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Anchoring Lam Son Square opposite the Saigon Opera House since 1959, The Caravelle Saigon combines living Saigon history with refreshed 5-star rooms — a reliable District 1 favourite Marcus has personally stayed at. Its Signature Floors and soundproofed Opera-facing suites strike an ideal balance between lively downtown location and restful pre-round sleep.</p>
+                        <p style={{ marginBottom: '1rem' }}>For Southern Vietnam itineraries, the Caravelle&apos;s central Lam Son Square address puts Tan Son Nhat Golf Course 25 to 30 minutes north, Vietnam Golf &amp; Country Club 40 minutes northeast, and Long Thanh Golf Resort 50 minutes east via private AGS vehicle, with Dong Khoi&apos;s dining and bars literally steps outside the front doors.</p>
+                        <p>No 19th hole in Ho Chi Minh City beats returning from an afternoon round for sunset drinks and live music at the legendary 9th-floor Saigon Saigon Rooftop Bar, backed by Kara Spa and Reflections fine dining.</p>
                     </div>
                 </div>
             </section>
@@ -169,8 +164,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Storied Historic Landmark • Saigon"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -198,43 +193,44 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is The Caravelle Saigon to the nearest championship golf courses in Ho Chi Minh City?","acceptedAnswer":{"@type":"Answer","text":"The Caravelle Saigon is positioned in Ho Chi Minh City, Vietnam, offering direct private transfer access to Tan Son Nhat Golf Course. Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at The Caravelle Saigon?","acceptedAnswer":{"@type":"Answer","text":"The Caravelle Saigon features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does The Caravelle Saigon offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at The Caravelle Saigon enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Freeform pool & Kara Spa) and breakfast & dining quality (Iconic Saigon Saigon Rooftop Bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at The Caravelle Saigon?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at The Caravelle Saigon as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why do travelling golf groups consistently pick The Caravelle Saigon?","acceptedAnswer":{"@type":"Answer","text":"The Caravelle pairs refurbished 5-star rooms and Signature Lounge perks with an unbeatable walkable District 1 address right next to the Opera House — plus the famous Saigon Saigon Rooftop Bar for effortless post-round drinks."}},{"@type":"Question","name":"What are the transfer times from The Caravelle Saigon to Ho Chi Minh City golf clubs?","acceptedAnswer":{"@type":"Answer","text":"Tan Son Nhat Golf Course is 25–30 minutes, Vietnam Golf & Country Club is 40 minutes, Long Thanh Golf Resort is 50 minutes, and Taekwang Jeongsan is roughly 55–60 minutes in a private AGS touring vehicle."}},{"@type":"Question","name":"Is upgrading to Signature Rooms worth it at The Caravelle Saigon?","acceptedAnswer":{"@type":"Answer","text":"Yes. Signature Floor rooms unlock the 26th-floor Signature Lounge — including private check-in, full buffet breakfast, all-day refreshments, and complimentary evening cocktails and canapes overlooking the city."}},{"@type":"Question","name":"Can AGS pair a stay at The Caravelle Saigon with a coastal extension at The Bluffs Ho Tram?","acceptedAnswer":{"@type":"Answer","text":"Yes. Most Southern Vietnam groups spend 3–4 nights at The Caravelle playing Saigon's top clubs and exploring District 1, then transfer 2 hours 15 minutes southeast to InterContinental Grand Ho Tram for The Bluffs."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is The Caravelle Saigon to the nearest championship golf courses in Ho Chi Minh City?",
-                    "a": "The Caravelle Saigon is positioned in Ho Chi Minh City, Vietnam, offering direct private transfer access to Tan Son Nhat Golf Course. Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at The Caravelle Saigon?",
-                    "a": "The Caravelle Saigon features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does The Caravelle Saigon offer?",
-                    "a": "Guests at The Caravelle Saigon enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Freeform pool & Kara Spa) and breakfast & dining quality (Iconic Saigon Saigon Rooftop Bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at The Caravelle Saigon?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at The Caravelle Saigon as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Why do travelling golf groups consistently pick The Caravelle Saigon?",
+    "a": "The Caravelle pairs refurbished 5-star rooms and Signature Lounge perks with an unbeatable walkable District 1 address right next to the Opera House — plus the famous Saigon Saigon Rooftop Bar for effortless post-round drinks."
+  },
+  {
+    "q": "What are the transfer times from The Caravelle Saigon to Ho Chi Minh City golf clubs?",
+    "a": "Tan Son Nhat Golf Course is 25–30 minutes, Vietnam Golf & Country Club is 40 minutes, Long Thanh Golf Resort is 50 minutes, and Taekwang Jeongsan is roughly 55–60 minutes in a private AGS touring vehicle."
+  },
+  {
+    "q": "Is upgrading to Signature Rooms worth it at The Caravelle Saigon?",
+    "a": "Yes. Signature Floor rooms unlock the 26th-floor Signature Lounge — including private check-in, full buffet breakfast, all-day refreshments, and complimentary evening cocktails and canapes overlooking the city."
+  },
+  {
+    "q": "Can AGS pair a stay at The Caravelle Saigon with a coastal extension at The Bluffs Ho Tram?",
+    "a": "Yes. Most Southern Vietnam groups spend 3–4 nights at The Caravelle playing Saigon's top clubs and exploring District 1, then transfer 2 hours 15 minutes southeast to InterContinental Grand Ho Tram for The Bluffs."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="The Caravelle Saigon" location="Ho Chi Minh City" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/the-caravelle/" venueName="The Caravelle Saigon" venueType="accommodation" />
 

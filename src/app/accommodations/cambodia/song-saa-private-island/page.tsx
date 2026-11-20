@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -131,16 +132,10 @@ export default function SongSaaPrivateIsland() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Song Saa Private Island</strong> operates as a premier <strong>5 Star (Independent Luxury)</strong> ultra-luxury private island resort positioned in Koh Rong Archipelago, Cambodia. Featuring an architectural inventory of 24 overwater, jungle & ocean-view villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Reclaimed timber overwater villas) and direct arterial access to Angkor Golf Resort & Phokeethra Country Club.
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Song Saa Private Island minimizes daily transit friction across the Koh Rong Archipelago corridor while elevating off-course recovery through overwater spa, marine conservation, infinity pool and post-round recovery & wellness (Open-air ocean breeze spa pods). Every AGS itinerary anchored at Song Saa Private Island includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Song Saa Private Island&apos;s breakfast & dining quality (Vista overwater fine dining & sunset bar), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Spanning two untouched twin islands connected by a wooden footbridge in Cambodia&apos;s Koh Rong Marine Reserve, the 24-villa Song Saa Private Island is our curated barefoot-luxury extension for golfers finishing a Phnom Penh and Siem Reap championship tour. Handcrafted from reclaimed local timber and driftwood, its Overwater, Ocean-View, and Jungle Pool Villas offer absolute castaway privacy.</p>
+                        <p style={{ marginBottom: '1rem' }}>Rather than a daily golf basecamp, Song Saa serves as the ultimate 3-to-4-night post-golf decompression finale: after playing Vattanac, Chhun On, and Angkor Golf Resort, AGS arranges your domestic flight to Sihanoukville (KOS) — or private helicopter charter from Phnom Penh — followed by a 45-minute luxury speedboat ride straight onto Song Saa&apos;s jetty.</p>
+                        <p>Stays operate on an all-inclusive luxury rhythm covering gourmet island dining at overwater Vista Restaurant, house wines and cocktails, guided reef snorkelling and kayaking in the protected marine sanctuary, and open-air rainforest spa rituals.</p>
                     </div>
                 </div>
             </section>
@@ -157,8 +152,8 @@ export default function SongSaaPrivateIsland() {
     maxScore={5.0}
     gradeBadge="Untouched Private Island Luxury • Koh Rong"
     inspectionDate="Curated AGS Partner — Vetted via Client Feedback"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -187,43 +182,44 @@ export default function SongSaaPrivateIsland() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Song Saa Private Island to the nearest championship golf courses in Koh Rong Archipelago?","acceptedAnswer":{"@type":"Answer","text":"Song Saa Private Island is positioned in Koh Rong Archipelago, Cambodia, offering direct private transfer access to Angkor Golf Resort & Phokeethra Country Club. Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Song Saa Private Island?","acceptedAnswer":{"@type":"Answer","text":"Song Saa Private Island features Luxury Suites & Private Pool Villas within a Ultra-Luxury Private Island Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Song Saa Private Island offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Song Saa Private Island enjoy Overwater Spa, Marine Conservation, Infinity Pool, alongside post-round recovery & wellness (Open-air ocean breeze spa pods) and breakfast & dining quality (Vista overwater fine dining & sunset bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Song Saa Private Island?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Song Saa Private Island as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are there golf courses on Song Saa Private Island, or is it a post-golf beach extension?","acceptedAnswer":{"@type":"Answer","text":"Song Saa is a dedicated private-island marine sanctuary with no golf course on-island — AGS designs it as a 3-to-4-night barefoot luxury recovery finale immediately after your championship golf rounds in Siem Reap and Phnom Penh."}},{"@type":"Question","name":"How do travellers reach Song Saa Private Island after playing golf in Phnom Penh or Siem Reap?","acceptedAnswer":{"@type":"Answer","text":"Fly 50 minutes from Siem Reap to Sihanoukville (KOS) or drive 2.5–3 hours down the new Phnom Penh–Sihanoukville Expressway, then board Song Saa's private 45-minute speedboat transfer (private helicopter charters directly to the island are also available)."}},{"@type":"Question","name":"Is Song Saa Private Island all-inclusive?","acceptedAnswer":{"@type":"Answer","text":"Yes. Song Saa's signature island rates include all a-la-carte meals across Vista and Driftwood Bar, unlimited house wines, spirits, and beers, daily replenished minibar, snorkelling/kayaking gear, and island conservation excursions."}},{"@type":"Question","name":"Which villa category is best for couples or fourballs decompressing after golf?","acceptedAnswer":{"@type":"Answer","text":"One-Bedroom Overwater Pool Villas deliver iconic turquoise lagoon steps for couples, while the Two-Bedroom Royal Overwater Villa gives four golfers or two couples a private sea-front deck and pool."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Song Saa Private Island to the nearest championship golf courses in Koh Rong Archipelago?",
-                    "a": "Song Saa Private Island is positioned in Koh Rong Archipelago, Cambodia, offering direct private transfer access to Angkor Golf Resort & Phokeethra Country Club. Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Song Saa Private Island?",
-                    "a": "Song Saa Private Island features Luxury Suites & Private Pool Villas within a Ultra-Luxury Private Island Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Song Saa Private Island offer?",
-                    "a": "Guests at Song Saa Private Island enjoy Overwater Spa, Marine Conservation, Infinity Pool, alongside post-round recovery & wellness (Open-air ocean breeze spa pods) and breakfast & dining quality (Vista overwater fine dining & sunset bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Song Saa Private Island?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Song Saa Private Island as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Are there golf courses on Song Saa Private Island, or is it a post-golf beach extension?",
+    "a": "Song Saa is a dedicated private-island marine sanctuary with no golf course on-island — AGS designs it as a 3-to-4-night barefoot luxury recovery finale immediately after your championship golf rounds in Siem Reap and Phnom Penh."
+  },
+  {
+    "q": "How do travellers reach Song Saa Private Island after playing golf in Phnom Penh or Siem Reap?",
+    "a": "Fly 50 minutes from Siem Reap to Sihanoukville (KOS) or drive 2.5–3 hours down the new Phnom Penh–Sihanoukville Expressway, then board Song Saa's private 45-minute speedboat transfer (private helicopter charters directly to the island are also available)."
+  },
+  {
+    "q": "Is Song Saa Private Island all-inclusive?",
+    "a": "Yes. Song Saa's signature island rates include all a-la-carte meals across Vista and Driftwood Bar, unlimited house wines, spirits, and beers, daily replenished minibar, snorkelling/kayaking gear, and island conservation excursions."
+  },
+  {
+    "q": "Which villa category is best for couples or fourballs decompressing after golf?",
+    "a": "One-Bedroom Overwater Pool Villas deliver iconic turquoise lagoon steps for couples, while the Two-Bedroom Royal Overwater Villa gives four golfers or two couples a private sea-front deck and pool."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Song Saa Private Island" location="Koh Rong Archipelago" countryName="Cambodia" />
 
             <VenueItineraries venueHref="/accommodations/cambodia/song-saa-private-island/" venueName="Song Saa Private Island" venueType="accommodation" />
 

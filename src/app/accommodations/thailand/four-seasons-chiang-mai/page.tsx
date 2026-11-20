@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -131,16 +132,10 @@ export default function FourSeasonsChiangMai() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Four Seasons Resort Chiang Mai</strong> operates as a premier <strong>5 Star (Forbes Five-Star)</strong> luxury highland villa resort positioned in Mae Rim Valley, Chiang Mai, Thailand. Featuring an architectural inventory of 98 pavilions, suites & pool residences, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Lanna pavilion terraces over rice fields) and direct arterial access to Alpine Golf Chiang Mai (20 min), CM Highlands (25 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Four Seasons Resort Chiang Mai minimizes daily transit friction across the Chiang Mai corridor while elevating off-course recovery through elephant camp, cooking school, spa and post-round recovery & wellness (Wara Cheewa Spa herbal compresses). Every AGS itinerary anchored at Four Seasons Resort Chiang Mai includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Four Seasons Resort Chiang Mai&apos;s breakfast & dining quality (Khao Restaurant Northern Thai mastery), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Nestled among working terraced emerald rice paddies in the cool Mae Rim Valley roughly 30 minutes north of Chiang Mai&apos;s Old City, Forbes 5-Star Four Seasons Resort Chiang Mai is our curated northern Thailand luxury partner for tranquil highland golf itineraries. Its 98 Lanna-style pavilions, pool villas, and multi-bedroom Private Residences feature covered outdoor salas overlooking rice terraces and misty Doi Suthep ridges.</p>
+                        <p style={{ marginBottom: '1rem' }}>Staying in Mae Rim puts golfers roughly 15 minutes from Summit Green Valley Chiang Mai, 35 minutes from Mae Jo Golf Resort, and 50 to 55 minutes from Chiangmai Highlands and Alpine Golf Resort Chiang Mai via private AGS vehicle — trading city traffic for crisp morning mountain air.</p>
+                        <p>Non-golfing afternoons feel restorative and deeply local: traditional northern Thai herbal poultices at Wara Cheewa Spa, rice-planting or culinary classes at Rim Tai Kitchen, Khao restaurant&apos;s elevated Lanna cuisine, and open-air sunset cocktails at Ratree Bar.</p>
                     </div>
                 </div>
             </section>
@@ -157,8 +152,8 @@ export default function FourSeasonsChiangMai() {
     maxScore={5.0}
     gradeBadge="Working Rice Valley Paradise • Mae Rim, Chiang Mai"
     inspectionDate="Curated AGS Partner — Vetted via Client Feedback"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -187,43 +182,44 @@ export default function FourSeasonsChiangMai() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Four Seasons Resort Chiang Mai to the nearest championship golf courses in Chiang Mai?","acceptedAnswer":{"@type":"Answer","text":"Four Seasons Resort Chiang Mai is positioned in Mae Rim Valley, Chiang Mai, Thailand, offering direct private transfer access to Alpine Golf Chiang Mai (20 min), CM Highlands (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Four Seasons Resort Chiang Mai?","acceptedAnswer":{"@type":"Answer","text":"Four Seasons Resort Chiang Mai features 98 Pavilions, Suites & Pool Residences within a Luxury Highland Villa Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Four Seasons Resort Chiang Mai offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Four Seasons Resort Chiang Mai enjoy Elephant Camp, Cooking School, Spa, alongside post-round recovery & wellness (Wara Cheewa Spa herbal compresses) and breakfast & dining quality (Khao Restaurant Northern Thai mastery)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Four Seasons Resort Chiang Mai?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Four Seasons Resort Chiang Mai as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How far is Four Seasons Resort Chiang Mai from Chiang Mai's top golf courses?","acceptedAnswer":{"@type":"Answer","text":"Summit Green Valley Chiang Mai is 15 minutes away, Mae Jo Golf Resort is 35 minutes, and Chiangmai Highlands Golf & Spa Resort or Alpine Golf Resort Chiang Mai are roughly 50–55 minutes via private AGS touring vehicle."}},{"@type":"Question","name":"Which accommodations at Four Seasons Chiang Mai work best for 4-to-8-player golf groups?","acceptedAnswer":{"@type":"Answer","text":"The 2-, 3-, and 4-Bedroom Private Residences feature massive open-air teak salas, private swimming pools, full kitchens, and dedicated residence staff — ideal for travelling golf groups seeking shared private estate luxury."}},{"@type":"Question","name":"When is the best season to visit Four Seasons Resort Chiang Mai for golf?","acceptedAnswer":{"@type":"Answer","text":"November through February delivers crisp, cool northern mornings (15–26°C) and clear blue mountain skies; note that we generally steer golfers away from March–April during northern Thailand's agricultural burning season."}},{"@type":"Question","name":"How easy is it to visit Chiang Mai's Old City temples and night markets from Mae Rim?","acceptedAnswer":{"@type":"Answer","text":"Central Chiang Mai and the Old City sit roughly 30 minutes south by resort shuttle or private AGS vehicle, giving you complete rural serenity by day with effortless evening city access."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Four Seasons Resort Chiang Mai to the nearest championship golf courses in Chiang Mai?",
-                    "a": "Four Seasons Resort Chiang Mai is positioned in Mae Rim Valley, Chiang Mai, Thailand, offering direct private transfer access to Alpine Golf Chiang Mai (20 min), CM Highlands (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Four Seasons Resort Chiang Mai?",
-                    "a": "Four Seasons Resort Chiang Mai features 98 Pavilions, Suites & Pool Residences within a Luxury Highland Villa Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Four Seasons Resort Chiang Mai offer?",
-                    "a": "Guests at Four Seasons Resort Chiang Mai enjoy Elephant Camp, Cooking School, Spa, alongside post-round recovery & wellness (Wara Cheewa Spa herbal compresses) and breakfast & dining quality (Khao Restaurant Northern Thai mastery)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Four Seasons Resort Chiang Mai?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Four Seasons Resort Chiang Mai as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How far is Four Seasons Resort Chiang Mai from Chiang Mai's top golf courses?",
+    "a": "Summit Green Valley Chiang Mai is 15 minutes away, Mae Jo Golf Resort is 35 minutes, and Chiangmai Highlands Golf & Spa Resort or Alpine Golf Resort Chiang Mai are roughly 50–55 minutes via private AGS touring vehicle."
+  },
+  {
+    "q": "Which accommodations at Four Seasons Chiang Mai work best for 4-to-8-player golf groups?",
+    "a": "The 2-, 3-, and 4-Bedroom Private Residences feature massive open-air teak salas, private swimming pools, full kitchens, and dedicated residence staff — ideal for travelling golf groups seeking shared private estate luxury."
+  },
+  {
+    "q": "When is the best season to visit Four Seasons Resort Chiang Mai for golf?",
+    "a": "November through February delivers crisp, cool northern mornings (15–26°C) and clear blue mountain skies; note that we generally steer golfers away from March–April during northern Thailand's agricultural burning season."
+  },
+  {
+    "q": "How easy is it to visit Chiang Mai's Old City temples and night markets from Mae Rim?",
+    "a": "Central Chiang Mai and the Old City sit roughly 30 minutes south by resort shuttle or private AGS vehicle, giving you complete rural serenity by day with effortless evening city access."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Four Seasons Resort Chiang Mai" location="Chiang Mai" countryName="Thailand" />
 
             <VenueItineraries venueHref="/accommodations/thailand/four-seasons-chiang-mai/" venueName="Four Seasons Resort Chiang Mai" venueType="accommodation" />
 

@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -63,7 +64,7 @@ export default function ZannierPhumBaitang() {
 <DestinationBackLink country="Cambodia" countryLink="/destinations/cambodia/accommodations/" />
  <div className="badge" style={{ display: 'inline-block', padding: '0.5rem 1rem', border: '1px solid var(--color-gold)', color: 'var(--color-gold)', fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '1.5rem' }}>AGS Preferred Property — Cambodia</div>
  <h1 style={{ marginBottom: '1rem' }}>Zannier Hotels <br /><span className="text-gold">Phum Baitang</span></h1>
- <p style={{ fontSize: '1.25rem', maxWidth: '700px', fontStyle: 'italic', color: '#ccc' }} itemProp="description" id="exec-summary">"A luxury 'Green Village' of stilted villas in eight acres of Siem Reap rice paddies — where rustic Khmer authenticity meets ultra-luxury."</p>
+ <p style={{ fontSize: '1.25rem', maxWidth: '700px', fontStyle: 'italic', color: '#ccc' }} itemProp="description" id="exec-summary">"A luxury 'Green Village' of stilted villas in 20 acres (8 hectares) of Siem Reap rice paddies — where rustic Khmer authenticity meets ultra-luxury."</p>
  </div>
  </header>
  <section className="section">
@@ -77,8 +78,8 @@ export default function ZannierPhumBaitang() {
  ["Star Rating", "5 Star"],
  ["Location", "Phum Baitang, Siem Reap, Cambodia"],
  ["Total Villas", "45 Stilted Villas & Residences"],
- ["Setting", "8 Acres of traditional rice paddies"],
- ["Nearest Golf", "Angkor Golf Resort (15 min), Chhun On (20 min)"],
+ ["Setting", "20 Acres (8 Hectares) of working rice paddies"],
+ ["Nearest Golf", "Angkor Golf Resort (15 min), Phokeethra Country Club (25 min)"],
  ["Key Amenity", "Infinity Pool, Spa, Local Cultural Programme"],
  ].map(([k, v], i, arr) => (<tr key={k}><th style={{ textAlign: 'left', padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none', color: 'var(--color-gold)' }}>{k}</th><td style={{ padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none' }}>{v}</td></tr>))}
  </tbody>
@@ -131,16 +132,10 @@ export default function ZannierPhumBaitang() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Zannier Hotels Phum Baitang</strong> operates as a premier <strong>5 Star</strong> boutique luxury villa resort positioned in Phum Baitang, Siem Reap, Cambodia. Featuring an architectural inventory of luxury suites & private pool villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Handcrafted wooden stilted villas) and direct arterial access to Angkor Golf Resort (15 min), Chhun On (20 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Zannier Hotels Phum Baitang minimizes daily transit friction across the Siem Reap corridor while elevating off-course recovery through infinity pool, spa, local cultural programme and post-round recovery & wellness (Spa Temple herbal compresses & pool). Every AGS itinerary anchored at Zannier Hotels Phum Baitang includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Zannier Hotels Phum Baitang&apos;s breakfast & dining quality (Hang Bay farm-to-table fine dining), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Sprawling across 20 acres (8 hectares) of working emerald rice paddies and lemongrass gardens on the quiet southwestern edge of Siem Reap, the 45-villa Zannier Hotels Phum Baitang (&quot;Green Village&quot;) is one of Southeast Asia&apos;s most evocative architectural retreats — and a property Marcus has personally stayed at. Every villa is modelled on traditional stilted Cambodian timber farmhouses with thatched roofs, weathered wood verandahs, and deep stone soaking tubs.</p>
+                        <p style={{ marginBottom: '1rem' }}>Its southwestern location actually shortens morning golf runs compared to downtown hotels: Sir Nick Faldo&apos;s Angkor Golf Resort sits just 12 to 15 minutes away and Phokeethra Country Club is 20 to 25 minutes via private AGS touring vehicle, while central Siem Reap and Angkor Wat remain 10 to 15 minutes away.</p>
+                        <p>After 18 holes, guests swim laps in the striking 50-metre green-stone infinity pool gazing over grazing water buffalo, unwind at the serene Spa Temple, take sunset drinks in a restored 100-year-old farmhouse at Sunset Lounge, and dine on refined Cambodian classics at Bay Phsar or wood-fired steaks at Hang Bay.</p>
                     </div>
                 </div>
             </section>
@@ -157,8 +152,8 @@ export default function ZannierPhumBaitang() {
     maxScore={5.0}
     gradeBadge="Authentic Khmer Stilted Village • Siem Reap"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -168,7 +163,7 @@ export default function ZannierPhumBaitang() {
       {
             label: "Villa & Room Privacy",
             score: 9.9,
-            highlight: "20 hectares of lush green rice terraces"
+            highlight: "20 acres of lush green rice terraces"
       },
       {
             label: "Post-Round Recovery & Wellness",
@@ -181,49 +176,50 @@ export default function ZannierPhumBaitang() {
             highlight: "Hang Bay farm-to-table fine dining"
       }
 ]}
-    verdict="Set across 20 hectares of working rice paddies. Traditional Khmer stilted wooden villas, a 50-meter green-stone infinity pool, and roaming water buffalo create a deeply peaceful rural escape."
+    verdict="Set across 20 acres (8 hectares) of working rice paddies. Traditional Khmer stilted wooden villas, a 50-meter green-stone infinity pool, and roaming water buffalo create a deeply peaceful rural escape."
   />
 
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Zannier Hotels Phum Baitang to the nearest championship golf courses in Siem Reap?","acceptedAnswer":{"@type":"Answer","text":"Zannier Hotels Phum Baitang is positioned in Phum Baitang, Siem Reap, Cambodia, offering direct private transfer access to Angkor Golf Resort (15 min), Chhun On (20 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Zannier Hotels Phum Baitang?","acceptedAnswer":{"@type":"Answer","text":"Zannier Hotels Phum Baitang features Luxury Suites & Private Pool Villas within a Boutique Luxury Villa Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Zannier Hotels Phum Baitang offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Zannier Hotels Phum Baitang enjoy Infinity Pool, Spa, Local Cultural Programme, alongside post-round recovery & wellness (Spa Temple herbal compresses & pool) and breakfast & dining quality (Hang Bay farm-to-table fine dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Zannier Hotels Phum Baitang?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Zannier Hotels Phum Baitang as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Zannier Phum Baitang to Angkor Golf Resort and Phokeethra Country Club?","acceptedAnswer":{"@type":"Answer","text":"Positioned on the quiet southwestern edge of Siem Reap, Zannier Phum Baitang is only 12–15 minutes from Angkor Golf Resort and 20–25 minutes from Phokeethra Country Club via private AGS touring vehicle."}},{"@type":"Question","name":"Should golfers book Terrace Villas or Pool Villas at Zannier Phum Baitang?","acceptedAnswer":{"@type":"Answer","text":"Both feature hand-crafted stilted Khmer timber architecture and open rice-field decks; Pool Villas add a private plunge pool and extra outdoor lounge space, making them our top pick for hot Cambodian afternoons after golf."}},{"@type":"Question","name":"What is the post-round atmosphere like at Zannier Phum Baitang?","acceptedAnswer":{"@type":"Answer","text":"Deeply peaceful and unhurried — anchored by a 50-metre infinity pool overlooking working rice paddies, the restored 100-year-old wooden Sunset Lounge for evening cocktails, Spa Temple herbal bodywork, and two acclaimed farm-to-table restaurants."}},{"@type":"Question","name":"How far is Zannier Phum Baitang from Siem Reap's Old Market and Angkor Wat?","acceptedAnswer":{"@type":"Answer","text":"Siem Reap's Old Market and dining district sit roughly 10 minutes away by private car or tuk-tuk, and Angkor Wat's main temples are 15–20 minutes north."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Zannier Hotels Phum Baitang to the nearest championship golf courses in Siem Reap?",
-                    "a": "Zannier Hotels Phum Baitang is positioned in Phum Baitang, Siem Reap, Cambodia, offering direct private transfer access to Angkor Golf Resort (15 min), Chhun On (20 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Zannier Hotels Phum Baitang?",
-                    "a": "Zannier Hotels Phum Baitang features Luxury Suites & Private Pool Villas within a Boutique Luxury Villa Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Zannier Hotels Phum Baitang offer?",
-                    "a": "Guests at Zannier Hotels Phum Baitang enjoy Infinity Pool, Spa, Local Cultural Programme, alongside post-round recovery & wellness (Spa Temple herbal compresses & pool) and breakfast & dining quality (Hang Bay farm-to-table fine dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Zannier Hotels Phum Baitang?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Zannier Hotels Phum Baitang as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How close is Zannier Phum Baitang to Angkor Golf Resort and Phokeethra Country Club?",
+    "a": "Positioned on the quiet southwestern edge of Siem Reap, Zannier Phum Baitang is only 12–15 minutes from Angkor Golf Resort and 20–25 minutes from Phokeethra Country Club via private AGS touring vehicle."
+  },
+  {
+    "q": "Should golfers book Terrace Villas or Pool Villas at Zannier Phum Baitang?",
+    "a": "Both feature hand-crafted stilted Khmer timber architecture and open rice-field decks; Pool Villas add a private plunge pool and extra outdoor lounge space, making them our top pick for hot Cambodian afternoons after golf."
+  },
+  {
+    "q": "What is the post-round atmosphere like at Zannier Phum Baitang?",
+    "a": "Deeply peaceful and unhurried — anchored by a 50-metre infinity pool overlooking working rice paddies, the restored 100-year-old wooden Sunset Lounge for evening cocktails, Spa Temple herbal bodywork, and two acclaimed farm-to-table restaurants."
+  },
+  {
+    "q": "How far is Zannier Phum Baitang from Siem Reap's Old Market and Angkor Wat?",
+    "a": "Siem Reap's Old Market and dining district sit roughly 10 minutes away by private car or tuk-tuk, and Angkor Wat's main temples are 15–20 minutes north."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Zannier Hotels Phum Baitang" location="Siem Reap" countryName="Cambodia" />
 
             <VenueItineraries venueHref="/accommodations/cambodia/zannier-phum-baitang/" venueName="Zannier Hotels Phum Baitang" venueType="accommodation" />
 

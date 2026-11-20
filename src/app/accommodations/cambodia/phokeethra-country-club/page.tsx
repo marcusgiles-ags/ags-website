@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -78,7 +79,7 @@ export default function PhokeethraCountryClub() {
  ["Location", "Vithei Charles de Gaulle, Siem Reap, Cambodia"],
  ["Total Rooms", "238 Rooms, Suites & Cabanas"],
  ["Setting", "Directly linked to Phokeethra Country Club"],
- ["Nearest Golf", "Phokeethra CC (on-site), Angkor GR (15 min)"],
+ ["Nearest Golf", "Angkor Golf Resort (15 min), Phokeethra CC (25 min via hotel shuttle)"],
  ["Key Amenity", "Golf-walk Access, So Spa, 2 Pools"],
  ].map(([k, v], i, arr) => (<tr key={k}><th style={{ textAlign: 'left', padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none', color: 'var(--color-gold)' }}>{k}</th><td style={{ padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none' }}>{v}</td></tr>))}
  </tbody>
@@ -131,16 +132,10 @@ export default function PhokeethraCountryClub() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Sokha Hotels Phokeethra Country Club</strong> operates as a premier <strong>5 Star (Sofitel Collection)</strong> luxury colonial golf & spa resort positioned in Vithei Charles de Gaulle, Siem Reap, Cambodia. Featuring an architectural inventory of 238 rooms, suites & cabanas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (French colonial timber suites) and direct arterial access to Phokeethra CC (on-site), Angkor GR (15 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Sokha Hotels Phokeethra Country Club minimizes daily transit friction across the Siem Reap corridor while elevating off-course recovery through golf-walk access, so spa, 2 pools and post-round recovery & wellness (Expansive lagoon pool & So Spa). Every AGS itinerary anchored at Sokha Hotels Phokeethra Country Club includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Sokha Hotels Phokeethra Country Club&apos;s breakfast & dining quality (The Citadel international dining & bar), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Anchored in classical French-Indochinese style along Charles de Gaulle Boulevard in Siem Reap, the 238-room Phokeethra luxury golf resort (Sofitel Angkor Phokeethra Golf &amp; Spa Resort) is our site-verified flagship for larger golf groups wanting direct club privileges at Cambodia&apos;s original international tournament venue. Wide timber verandahs, lotus ponds, and Siem Reap&apos;s largest free-form lagoon swimming pool create a spacious, classic resort atmosphere.</p>
+                        <p style={{ marginBottom: '1rem' }}>As the sister resort of Phokeethra Country Club, guests enjoy priority tee times and coordinated 25-minute private transfers straight to Phokeethra&apos;s fairways, plus quick 15-minute access to Sir Nick Faldo&apos;s Angkor Golf Resort via AGS touring vehicles.</p>
+                        <p>Off the course, golfers recover beside the sprawling lagoon pool with swim-up drinks, book French-Khmer therapies at Sofitel SPA with L&apos;Occitane, and gather for generous breakfasts at The Citadel or fine French dining at Mouhot&apos;s Dream.</p>
                     </div>
                 </div>
             </section>
@@ -157,8 +152,8 @@ export default function PhokeethraCountryClub() {
     maxScore={5.0}
     gradeBadge="Colonial Golf Resort • Siem Reap"
     inspectionDate="Site-Verified by AGS On-Ground Team"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -187,43 +182,44 @@ export default function PhokeethraCountryClub() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Sokha Hotels Phokeethra Country Club to the nearest championship golf courses in Siem Reap?","acceptedAnswer":{"@type":"Answer","text":"Sokha Hotels Phokeethra Country Club is positioned in Vithei Charles de Gaulle, Siem Reap, Cambodia, offering direct private transfer access to Phokeethra CC (on-site), Angkor GR (15 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Sokha Hotels Phokeethra Country Club?","acceptedAnswer":{"@type":"Answer","text":"Sokha Hotels Phokeethra Country Club features 238 Rooms, Suites & Cabanas within a Luxury Colonial Golf & Spa Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Sokha Hotels Phokeethra Country Club offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Sokha Hotels Phokeethra Country Club enjoy Golf-walk Access, So Spa, 2 Pools, alongside post-round recovery & wellness (Expansive lagoon pool & So Spa) and breakfast & dining quality (The Citadel international dining & bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Sokha Hotels Phokeethra Country Club?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Sokha Hotels Phokeethra Country Club as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Phokeethra Country Club located right on the hotel grounds or a short transfer away?","acceptedAnswer":{"@type":"Answer","text":"The hotel sits on central Charles de Gaulle Boulevard near Angkor Wat, while Phokeethra Country Club's 18-hole championship course lies roughly 25 minutes west — with priority tee times and seamless private transfers coordinated by AGS and the resort."}},{"@type":"Question","name":"Why does this property suit larger 8-to-16-player Siem Reap golf groups?","acceptedAnswer":{"@type":"Answer","text":"With 238 rooms and suites, a massive free-form lagoon pool, multiple bars and restaurants, and Club Millesime lounge upgrades, it handles larger touring parties comfortably without sacrificing 5-star polish."}},{"@type":"Question","name":"How far is the resort from Angkor Golf Resort and Angkor Wat?","acceptedAnswer":{"@type":"Answer","text":"Angkor Wat's entrance is roughly 10 minutes north, Angkor Golf Resort is 15 minutes west, and Siem Reap's lively Pub Street and Old Market dining area sit just 5 minutes south."}},{"@type":"Question","name":"Are Club Millesime room upgrades worth adding for a golf stay?","acceptedAnswer":{"@type":"Answer","text":"Yes — Club Millesime suites include private check-in, daily afternoon tea, and complimentary evening cocktails and canapes, making post-round group debriefs effortless."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Sokha Hotels Phokeethra Country Club to the nearest championship golf courses in Siem Reap?",
-                    "a": "Sokha Hotels Phokeethra Country Club is positioned in Vithei Charles de Gaulle, Siem Reap, Cambodia, offering direct private transfer access to Phokeethra CC (on-site), Angkor GR (15 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Sokha Hotels Phokeethra Country Club?",
-                    "a": "Sokha Hotels Phokeethra Country Club features 238 Rooms, Suites & Cabanas within a Luxury Colonial Golf & Spa Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Sokha Hotels Phokeethra Country Club offer?",
-                    "a": "Guests at Sokha Hotels Phokeethra Country Club enjoy Golf-walk Access, So Spa, 2 Pools, alongside post-round recovery & wellness (Expansive lagoon pool & So Spa) and breakfast & dining quality (The Citadel international dining & bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Sokha Hotels Phokeethra Country Club?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Sokha Hotels Phokeethra Country Club as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Is Phokeethra Country Club located right on the hotel grounds or a short transfer away?",
+    "a": "The hotel sits on central Charles de Gaulle Boulevard near Angkor Wat, while Phokeethra Country Club's 18-hole championship course lies roughly 25 minutes west — with priority tee times and seamless private transfers coordinated by AGS and the resort."
+  },
+  {
+    "q": "Why does this property suit larger 8-to-16-player Siem Reap golf groups?",
+    "a": "With 238 rooms and suites, a massive free-form lagoon pool, multiple bars and restaurants, and Club Millesime lounge upgrades, it handles larger touring parties comfortably without sacrificing 5-star polish."
+  },
+  {
+    "q": "How far is the resort from Angkor Golf Resort and Angkor Wat?",
+    "a": "Angkor Wat's entrance is roughly 10 minutes north, Angkor Golf Resort is 15 minutes west, and Siem Reap's lively Pub Street and Old Market dining area sit just 5 minutes south."
+  },
+  {
+    "q": "Are Club Millesime room upgrades worth adding for a golf stay?",
+    "a": "Yes — Club Millesime suites include private check-in, daily afternoon tea, and complimentary evening cocktails and canapes, making post-round group debriefs effortless."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Sokha Hotels Phokeethra Country Club" location="Siem Reap" countryName="Cambodia" />
 
             <VenueItineraries venueHref="/accommodations/cambodia/phokeethra-country-club/" venueName="Sokha Hotels Phokeethra Country Club" venueType="accommodation" />
 

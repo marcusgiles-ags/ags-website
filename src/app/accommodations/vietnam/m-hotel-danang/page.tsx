@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -161,16 +162,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>M Hotel Da Nang</strong> operates as a premier <strong>5 Star</strong> luxury golf resort positioned in My Khe Beach, Da Nang. Featuring an architectural inventory of bespoke luxury suites, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Crisp modern city rooms) and direct arterial access to Hoiana Shores GC & Ba Na Hills GC.
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, M Hotel Da Nang minimizes daily transit friction across the Da Nang corridor while elevating off-course recovery through private pool, full-service spa, and signature dining and post-round recovery & wellness (Rooftop oceanview pool & fitness). Every AGS itinerary anchored at M Hotel Da Nang includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights M Hotel Da Nang&apos;s breakfast & dining quality (Hearty international morning buffet), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Fronting My Khe Beach along Vo Nguyen Giap Boulevard, M Hotel Da Nang brings sharp contemporary lines, high-floor ocean panoramas, and dual infinity pools to Da Nang&apos;s vibrant beachfront strip. Our site verifications confirm crisp soundproofing, fast lift banks, and smooth curbside loading — practical details that matter when fourballs are rolling out at 6:30 AM with full golf bags.</p>
+                        <p style={{ marginBottom: '1rem' }}>Staying on Da Nang&apos;s My Khe corridor keeps morning drives short in every direction: Montgomerie Links and BRG Da Nang are 15 to 20 minutes south, Hoiana Shores is 35 minutes south, Ba Na Hills is 40 minutes inland, and Da Nang International Airport (DAD) is just 15 minutes west.</p>
+                        <p>After 18 holes, golfers split their afternoon between the rooftop infinity pool overlooking the East Sea, the well-equipped gym and spa, and Da Nang&apos;s bustling beachfront seafood restaurants and Han River bars.</p>
                     </div>
                 </div>
             </section>
@@ -187,8 +182,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Modern Coastal City Hotel • Da Nang"
     inspectionDate="Site-Verified by AGS On-Ground Team"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -216,44 +211,45 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is M Hotel Da Nang to the nearest championship golf courses in Da Nang?","acceptedAnswer":{"@type":"Answer","text":"M Hotel Da Nang is positioned in My Khe Beach, Da Nang, offering direct private transfer access to Hoiana Shores GC & Ba Na Hills GC. Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at M Hotel Da Nang?","acceptedAnswer":{"@type":"Answer","text":"M Hotel Da Nang features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does M Hotel Da Nang offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at M Hotel Da Nang enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Rooftop oceanview pool & fitness) and breakfast & dining quality (Hearty international morning buffet)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at M Hotel Da Nang?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at M Hotel Da Nang as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How far is M Hotel Da Nang from Da Nang's championship golf courses?","acceptedAnswer":{"@type":"Answer","text":"Montgomerie Links and BRG Da Nang Golf Resort are 15–20 minutes south, Hoiana Shores Golf Club is 35 minutes south, and Ba Na Hills Golf Club is approximately 40 minutes inland via private AGS vehicle."}},{"@type":"Question","name":"Why choose M Hotel Da Nang over staying further south in Hoi An?","acceptedAnswer":{"@type":"Answer","text":"M Hotel Da Nang puts you 15 minutes from Da Nang Airport, directly opposite My Khe Beach, and close to Da Nang's modern nightlife, seafood dining, and Han River skyline — cutting overall road time across multi-course Da Nang itineraries."}},{"@type":"Question","name":"Which room tiers at M Hotel Da Nang are recommended for golf groups?","acceptedAnswer":{"@type":"Answer","text":"Ocean Front Deluxe Twin rooms and Panorama Suites provide wide sea views, clean modern bathrooms, and comfortable storage space for golf luggage."}},{"@type":"Question","name":"Are there good dining and post-round drink options within walking distance?","acceptedAnswer":{"@type":"Answer","text":"Yes. Vo Nguyen Giap beachfront promenade is lined with renowned local seafood venues, craft breweries, casual beach bars, and international restaurants within a 5-minute walk."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is M Hotel Da Nang to the nearest championship golf courses in Da Nang?",
-                    "a": "M Hotel Da Nang is positioned in My Khe Beach, Da Nang, offering direct private transfer access to Hoiana Shores GC & Ba Na Hills GC. Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at M Hotel Da Nang?",
-                    "a": "M Hotel Da Nang features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does M Hotel Da Nang offer?",
-                    "a": "Guests at M Hotel Da Nang enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Rooftop oceanview pool & fitness) and breakfast & dining quality (Hearty international morning buffet)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at M Hotel Da Nang?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at M Hotel Da Nang as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How far is M Hotel Da Nang from Da Nang's championship golf courses?",
+    "a": "Montgomerie Links and BRG Da Nang Golf Resort are 15–20 minutes south, Hoiana Shores Golf Club is 35 minutes south, and Ba Na Hills Golf Club is approximately 40 minutes inland via private AGS vehicle."
+  },
+  {
+    "q": "Why choose M Hotel Da Nang over staying further south in Hoi An?",
+    "a": "M Hotel Da Nang puts you 15 minutes from Da Nang Airport, directly opposite My Khe Beach, and close to Da Nang's modern nightlife, seafood dining, and Han River skyline — cutting overall road time across multi-course Da Nang itineraries."
+  },
+  {
+    "q": "Which room tiers at M Hotel Da Nang are recommended for golf groups?",
+    "a": "Ocean Front Deluxe Twin rooms and Panorama Suites provide wide sea views, clean modern bathrooms, and comfortable storage space for golf luggage."
+  },
+  {
+    "q": "Are there good dining and post-round drink options within walking distance?",
+    "a": "Yes. Vo Nguyen Giap beachfront promenade is lined with renowned local seafood venues, craft breweries, casual beach bars, and international restaurants within a 5-minute walk."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
         
+            <AccommodationConciergeBlock hotelName="M Hotel Da Nang" location="Da Nang" countryName="Vietnam" />
+
             <VenueItineraries venueHref="/accommodations/vietnam/m-hotel-danang/" venueName="M Hotel Da Nang" venueType="accommodation" />
 
 </main>

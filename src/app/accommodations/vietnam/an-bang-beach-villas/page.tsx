@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -418,7 +419,9 @@ export default function AnBangBeachVillas() {
         </div>
       </section>
 
-      <VenueItineraries venueHref="/accommodations/vietnam/an-bang-beach-villas/" venueName="An Bang Beach Private Golf Villas" venueType="accommodation" />
+      <AccommodationConciergeBlock hotelName="An Bang Beach Private Golf Villas" location="Hoi An" countryName="Vietnam" />
+
+            <VenueItineraries venueHref="/accommodations/vietnam/an-bang-beach-villas/" venueName="An Bang Beach Private Golf Villas" venueType="accommodation" />
 
       <section className="section">
         <div className="container text-center">

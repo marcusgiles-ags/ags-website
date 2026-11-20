@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -131,16 +132,10 @@ export default function BluffsGrandHoTram() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>InterContinental Grand Ho Tram</strong> operates as a premier <strong>5 Star</strong> luxury casino & golf resort positioned in Ho Tram Strip, Ba Ria-Vung Tau, Vietnam. Featuring an architectural inventory of 541 rooms & suites, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Ocean-facing suites with deep sleep) and direct arterial access to The Bluffs Ho Tram Strip (Top 100 World, on-site).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, InterContinental Grand Ho Tram minimizes daily transit friction across the Ho Tram corridor while elevating off-course recovery through on-site casino, 4 pools, private beach and post-round recovery & wellness (Multiple pools, Lotus Spa & sauna). Every AGS itinerary anchored at InterContinental Grand Ho Tram includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights InterContinental Grand Ho Tram&apos;s breakfast & dining quality (15+ restaurants, sports bar & grill), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Rising directly across the coastal road from Greg Norman&apos;s World Top 100 links at The Bluffs Grand Ho Tram Strip, the 541-room InterContinental Grand Ho Tram is Southern Vietnam&apos;s flagship stay-and-play resort — and a property Marcus has personally stayed at and vetted for touring groups. Many upper-floor suites look straight down onto the rolling sand dunes of The Bluffs and out over the East Sea.</p>
+                        <p style={{ marginBottom: '1rem' }}>Logistics could not be tighter: complimentary resort shuttles shuttle golfers from the hotel porte-cochere to The Bluffs clubhouse in two minutes flat, making 36-hole days effortless. Located roughly 2 hours to 2 hours 15 minutes southeast of Ho Chi Minh City via the Dau Giay expressway, it pairs naturally as a 2-to-3-night coastal finale after Saigon city rounds at Tan Son Nhat or Long Thanh.</p>
+                        <p>Off the course, few Asian golf resorts match its evening variety — four oceanfront swimming pools, Lotus Spa, a live international casino, sports bars showing Australian and global fixtures, and more than a dozen restaurants from Cantonese fine dining to casual poolside grills.</p>
                     </div>
                 </div>
             </section>
@@ -157,8 +152,8 @@ export default function BluffsGrandHoTram() {
     maxScore={5.0}
     gradeBadge="Integrated Luxury Casino Resort • Ho Tram"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -187,43 +182,44 @@ export default function BluffsGrandHoTram() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is InterContinental Grand Ho Tram to the nearest championship golf courses in Ho Tram?","acceptedAnswer":{"@type":"Answer","text":"InterContinental Grand Ho Tram is positioned in Ho Tram Strip, Ba Ria-Vung Tau, Vietnam, offering direct private transfer access to The Bluffs Ho Tram Strip (Top 100 World, on-site). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at InterContinental Grand Ho Tram?","acceptedAnswer":{"@type":"Answer","text":"InterContinental Grand Ho Tram features 541 Rooms & Suites within a Luxury Casino & Golf Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does InterContinental Grand Ho Tram offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at InterContinental Grand Ho Tram enjoy On-site casino, 4 pools, private beach, alongside post-round recovery & wellness (Multiple pools, Lotus Spa & sauna) and breakfast & dining quality (15+ restaurants, sports bar & grill)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at InterContinental Grand Ho Tram?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at InterContinental Grand Ho Tram as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long is the transfer from Ho Chi Minh City (SGN) to InterContinental Grand Ho Tram?","acceptedAnswer":{"@type":"Answer","text":"Expect approximately 2 hours to 2 hours 15 minutes door-to-door from Tan Son Nhat Airport or District 1 in an AGS luxury private touring vehicle, depending on Saigon departure hour."}},{"@type":"Question","name":"How do golfers get from InterContinental Grand Ho Tram to The Bluffs clubhouse?","acceptedAnswer":{"@type":"Answer","text":"The Bluffs Grand Ho Tram Strip sits directly opposite the resort entrance — a 2-minute buggy or dedicated shuttle transfer from lobby to bag-drop."}},{"@type":"Question","name":"Which room views should golfers request at InterContinental Grand Ho Tram?","acceptedAnswer":{"@type":"Answer","text":"Request Golf View rooms to overlook Greg Norman's links dunes and practice area, or high-floor Ocean View King/Twin suites for uninterrupted sunrise vistas over the East Sea."}},{"@type":"Question","name":"Is there enough dining and nightlife on-site for a 3-night golf group stay?","acceptedAnswer":{"@type":"Answer","text":"Yes. The integrated complex features over 15 dining and bar venues including Khói BBQ, Ginger, sports lounges, a lively casino floor, bowling, and multiple oceanfront pools — plus local seafood restaurants five minutes down the Ho Tram strip."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is InterContinental Grand Ho Tram to the nearest championship golf courses in Ho Tram?",
-                    "a": "InterContinental Grand Ho Tram is positioned in Ho Tram Strip, Ba Ria-Vung Tau, Vietnam, offering direct private transfer access to The Bluffs Ho Tram Strip (Top 100 World, on-site). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at InterContinental Grand Ho Tram?",
-                    "a": "InterContinental Grand Ho Tram features 541 Rooms & Suites within a Luxury Casino & Golf Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does InterContinental Grand Ho Tram offer?",
-                    "a": "Guests at InterContinental Grand Ho Tram enjoy On-site casino, 4 pools, private beach, alongside post-round recovery & wellness (Multiple pools, Lotus Spa & sauna) and breakfast & dining quality (15+ restaurants, sports bar & grill)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at InterContinental Grand Ho Tram?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at InterContinental Grand Ho Tram as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How long is the transfer from Ho Chi Minh City (SGN) to InterContinental Grand Ho Tram?",
+    "a": "Expect approximately 2 hours to 2 hours 15 minutes door-to-door from Tan Son Nhat Airport or District 1 in an AGS luxury private touring vehicle, depending on Saigon departure hour."
+  },
+  {
+    "q": "How do golfers get from InterContinental Grand Ho Tram to The Bluffs clubhouse?",
+    "a": "The Bluffs Grand Ho Tram Strip sits directly opposite the resort entrance — a 2-minute buggy or dedicated shuttle transfer from lobby to bag-drop."
+  },
+  {
+    "q": "Which room views should golfers request at InterContinental Grand Ho Tram?",
+    "a": "Request Golf View rooms to overlook Greg Norman's links dunes and practice area, or high-floor Ocean View King/Twin suites for uninterrupted sunrise vistas over the East Sea."
+  },
+  {
+    "q": "Is there enough dining and nightlife on-site for a 3-night golf group stay?",
+    "a": "Yes. The integrated complex features over 15 dining and bar venues including Khói BBQ, Ginger, sports lounges, a lively casino floor, bowling, and multiple oceanfront pools — plus local seafood restaurants five minutes down the Ho Tram strip."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="InterContinental Grand Ho Tram" location="Ho Tram" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/bluffs-grand-ho-tram/" venueName="InterContinental Grand Ho Tram" venueType="accommodation" />
 

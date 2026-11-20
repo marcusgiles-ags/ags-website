@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -133,16 +134,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Chicland Hotel Da Nang</strong> operates as a premier <strong>5 Star</strong> eco-chic urban hotel positioned in Da Nang, Vietnam. Featuring an architectural inventory of 153 rooms & suites, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Natural materials & ocean acoustic calm) and direct arterial access to Montgomerie Links (15 min), BRG Da Nang (15 min), Ba Na Hills (40 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Chicland Hotel Da Nang minimizes daily transit friction across the Da Nang corridor while elevating off-course recovery through rooftop infinity pool, trà house, ocean view balconies and post-round recovery & wellness (Rooftop infinity pool & sky lounge). Every AGS itinerary anchored at Chicland Hotel Da Nang includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Chicland Hotel Da Nang&apos;s breakfast & dining quality (Organic healthy buffet & specialty coffee), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Draped in cascading vertical gardens along Vo Nguyen Giap Boulevard opposite My Khe Beach, Chicland Hotel Da Nang is a 153-room architectural standout designed by Vo Trong Nghia Architects. Our site inspections consistently confirm its crisp acoustic calm, natural basalt-and-bamboo interiors, and value-driven beachfront location for modern golf travellers.</p>
+                        <p style={{ marginBottom: '1rem' }}>Geographically, My Khe Beach sits in the sweet spot of Da Nang&apos;s golf map: 15 to 20 minutes from Montgomerie Links and BRG Da Nang Golf Resort, 35 minutes from Hoiana Shores, and 40 minutes from Ba Na Hills Golf Club — plus just 15 minutes from Da Nang International Airport (DAD).</p>
+                        <p>After a morning round, golfers head straight to the rooftop infinity pool and lounge overlooking the East Sea and Son Tra Peninsula, then walk out to Da Nang&apos;s best local seafood spots, craft beer taprooms, and beachfront cafes right along the promenade.</p>
                     </div>
                 </div>
             </section>
@@ -159,8 +154,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Eco-Chic Beachfront High-Rise • Da Nang"
     inspectionDate="Site-Verified by AGS On-Ground Team"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -189,43 +184,44 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Chicland Hotel Da Nang to the nearest championship golf courses in Da Nang?","acceptedAnswer":{"@type":"Answer","text":"Chicland Hotel Da Nang is positioned in Da Nang, Vietnam, offering direct private transfer access to Montgomerie Links (15 min), BRG Da Nang (15 min), Ba Na Hills (40 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Chicland Hotel Da Nang?","acceptedAnswer":{"@type":"Answer","text":"Chicland Hotel Da Nang features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Chicland Hotel Da Nang offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Chicland Hotel Da Nang enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Rooftop infinity pool & sky lounge) and breakfast & dining quality (Organic healthy buffet & specialty coffee)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Chicland Hotel Da Nang?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Chicland Hotel Da Nang as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How far is Chicland Hotel Da Nang from Da Nang Airport and the coastal golf courses?","acceptedAnswer":{"@type":"Answer","text":"Da Nang International Airport is just 15 minutes away. Montgomerie Links and BRG Da Nang are 15–20 minutes south along the coastal highway, Hoiana Shores is 35 minutes, and Ba Na Hills is 40 minutes inland."}},{"@type":"Question","name":"Which room categories at Chicland Hotel are best for golfers?","acceptedAnswer":{"@type":"Answer","text":"Opt for Oceanfront Deluxe or Chicland Apartment suites on higher floors — they provide unobstructed sea balconies, wider floor plans for hard golf cases, and plenty of natural light."}},{"@type":"Question","name":"Is Chicland Hotel a good fit for golf groups who want Da Nang nightlife and seafood restaurants?","acceptedAnswer":{"@type":"Answer","text":"Yes. Unlike secluded resorts further south toward Hoi An, Chicland sits directly on My Khe Beach within a 5-to-10-minute walk or Grab ride of Da Nang's renowned coastal seafood restaurants, rooftop bars, and riverfront dining."}},{"@type":"Question","name":"Does Chicland offer post-round spa and recovery facilities?","acceptedAnswer":{"@type":"Answer","text":"Yes. Alongside its dramatic rooftop infinity pool and fitness room, Chicland features an in-house spa offering Vietnamese acupressure and hot-stone massages suited for post-golf recovery."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Chicland Hotel Da Nang to the nearest championship golf courses in Da Nang?",
-                    "a": "Chicland Hotel Da Nang is positioned in Da Nang, Vietnam, offering direct private transfer access to Montgomerie Links (15 min), BRG Da Nang (15 min), Ba Na Hills (40 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Chicland Hotel Da Nang?",
-                    "a": "Chicland Hotel Da Nang features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Chicland Hotel Da Nang offer?",
-                    "a": "Guests at Chicland Hotel Da Nang enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Rooftop infinity pool & sky lounge) and breakfast & dining quality (Organic healthy buffet & specialty coffee)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Chicland Hotel Da Nang?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Chicland Hotel Da Nang as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How far is Chicland Hotel Da Nang from Da Nang Airport and the coastal golf courses?",
+    "a": "Da Nang International Airport is just 15 minutes away. Montgomerie Links and BRG Da Nang are 15–20 minutes south along the coastal highway, Hoiana Shores is 35 minutes, and Ba Na Hills is 40 minutes inland."
+  },
+  {
+    "q": "Which room categories at Chicland Hotel are best for golfers?",
+    "a": "Opt for Oceanfront Deluxe or Chicland Apartment suites on higher floors — they provide unobstructed sea balconies, wider floor plans for hard golf cases, and plenty of natural light."
+  },
+  {
+    "q": "Is Chicland Hotel a good fit for golf groups who want Da Nang nightlife and seafood restaurants?",
+    "a": "Yes. Unlike secluded resorts further south toward Hoi An, Chicland sits directly on My Khe Beach within a 5-to-10-minute walk or Grab ride of Da Nang's renowned coastal seafood restaurants, rooftop bars, and riverfront dining."
+  },
+  {
+    "q": "Does Chicland offer post-round spa and recovery facilities?",
+    "a": "Yes. Alongside its dramatic rooftop infinity pool and fitness room, Chicland features an in-house spa offering Vietnamese acupressure and hot-stone massages suited for post-golf recovery."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Chicland Hotel Da Nang" location="Da Nang" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/chicland-da-nang/" venueName="Chicland Hotel Da Nang" venueType="accommodation" />
 

@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -129,16 +130,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>The Standard Hua Hin</strong> operates as a premier <strong>5 Star</strong> beachfront luxury resort positioned in Hua Hin, Thailand. Featuring an architectural inventory of 199 rooms & villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Mid-century modern aesthetic) and direct arterial access to Black Mountain Golf Club (30 min), Banyan Golf Club (20 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, The Standard Hua Hin minimizes daily transit friction across the Hua Hin corridor while elevating off-course recovery through beachfront pool, lido restaurant, the standard spa and post-round recovery & wellness (Vibrant yellow pool scene & spa). Every AGS itinerary anchored at The Standard Hua Hin includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights The Standard Hua Hin&apos;s breakfast & dining quality (Praça beachside Thai Izakaya & cocktails), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Bringing playful mid-century Miami modernism to a lush beachfront garden right on Naresdamri Road, the 199-room Standard Hua Hin is Hua Hin&apos;s most energetic 5-star beachfront resort — personally stayed at and vetted by Marcus for lively golf groups and style-conscious couples. Shaded frangipani pathways wind between retro-chic pool villas, yellow-striped cabanas, and direct Gulf of Thailand sand.</p>
+                        <p style={{ marginBottom: '1rem' }}>Location is a major win for Hua Hin golf itineraries: Pineapple Valley (formerly Banyan) Golf Club is 20 minutes away, Black Mountain Golf Club is 25 to 30 minutes inland, Springfield Royal is 30 minutes, and Hua Hin&apos;s famous Night Market and seafood piers are just a five-minute walk.</p>
+                        <p>Few resorts handle post-round fun better: trade scorecards over spritzes at the beachfront Lido Pool &amp; Bar, book the colourful mud-lounge and recovery massages at The Standard Spa, and finish the evening with spicy Thai izakaya plates at Praça in a restored heritage beach house.</p>
                     </div>
                 </div>
             </section>
@@ -155,8 +150,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Retro Chic Beachfront Resort • Hua Hin"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -185,45 +180,46 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is The Standard Hua Hin to the nearest championship golf courses in Hua Hin?","acceptedAnswer":{"@type":"Answer","text":"The Standard Hua Hin is positioned in Hua Hin, Thailand, offering direct private transfer access to Black Mountain Golf Club (30 min), Banyan Golf Club (20 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at The Standard Hua Hin?","acceptedAnswer":{"@type":"Answer","text":"The Standard Hua Hin features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does The Standard Hua Hin offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at The Standard Hua Hin enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Vibrant yellow pool scene & spa) and breakfast & dining quality (Praça beachside Thai Izakaya & cocktails)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at The Standard Hua Hin?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at The Standard Hua Hin as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is The Standard Hua Hin to Black Mountain and Pineapple Valley Golf Clubs?","acceptedAnswer":{"@type":"Answer","text":"Pineapple Valley (formerly Banyan) Golf Club is 20 minutes south, Black Mountain Golf Club is 25–30 minutes inland, and Springfield Royal Country Club is 30 minutes via private AGS touring vehicle."}},{"@type":"Question","name":"Should golf groups book Hotel Rooms or Pool Villas at The Standard Hua Hin?","acceptedAnswer":{"@type":"Answer","text":"Standard and Superior Twin rooms in the low-rise wings offer great design and value for 4-to-12-player buddy groups, while Canopy Villas and Bayside Pool Villas add private plunge pools and garden decks for couples."}},{"@type":"Question","name":"Is The Standard Hua Hin within walking distance of Hua Hin town and nightlife?","acceptedAnswer":{"@type":"Answer","text":"Yes. Unlike resorts 15–20 minutes north in Cha-Am, The Standard sits right in central Hua Hin — just a 5-to-10-minute walk to Hua Hin Night Market, waterfront seafood restaurants, and lively bars."}},{"@type":"Question","name":"What is the post-round atmosphere like at The Standard Hua Hin?","acceptedAnswer":{"@type":"Answer","text":"Upbeat, social, and design-forward — centred on the vibrant beachfront Lido Pool, DJ sunset sessions on weekends, Praça Thai Izakaya right on the sand, and The Standard Spa."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is The Standard Hua Hin to the nearest championship golf courses in Hua Hin?",
-                    "a": "The Standard Hua Hin is positioned in Hua Hin, Thailand, offering direct private transfer access to Black Mountain Golf Club (30 min), Banyan Golf Club (20 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at The Standard Hua Hin?",
-                    "a": "The Standard Hua Hin features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does The Standard Hua Hin offer?",
-                    "a": "Guests at The Standard Hua Hin enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Vibrant yellow pool scene & spa) and breakfast & dining quality (Praça beachside Thai Izakaya & cocktails)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at The Standard Hua Hin?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at The Standard Hua Hin as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How close is The Standard Hua Hin to Black Mountain and Pineapple Valley Golf Clubs?",
+    "a": "Pineapple Valley (formerly Banyan) Golf Club is 20 minutes south, Black Mountain Golf Club is 25–30 minutes inland, and Springfield Royal Country Club is 30 minutes via private AGS touring vehicle."
+  },
+  {
+    "q": "Should golf groups book Hotel Rooms or Pool Villas at The Standard Hua Hin?",
+    "a": "Standard and Superior Twin rooms in the low-rise wings offer great design and value for 4-to-12-player buddy groups, while Canopy Villas and Bayside Pool Villas add private plunge pools and garden decks for couples."
+  },
+  {
+    "q": "Is The Standard Hua Hin within walking distance of Hua Hin town and nightlife?",
+    "a": "Yes. Unlike resorts 15–20 minutes north in Cha-Am, The Standard sits right in central Hua Hin — just a 5-to-10-minute walk to Hua Hin Night Market, waterfront seafood restaurants, and lively bars."
+  },
+  {
+    "q": "What is the post-round atmosphere like at The Standard Hua Hin?",
+    "a": "Upbeat, social, and design-forward — centred on the vibrant beachfront Lido Pool, DJ sunset sessions on weekends, Praça Thai Izakaya right on the sand, and The Standard Spa."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
 
- <VenueItineraries venueHref="/accommodations/thailand/the-standard-hua-hin/" venueName="The Standard Hua Hin" venueType="accommodation" />
+ <AccommodationConciergeBlock hotelName="The Standard Hua Hin" location="Hua Hin" countryName="Thailand" />
+
+            <VenueItineraries venueHref="/accommodations/thailand/the-standard-hua-hin/" venueName="The Standard Hua Hin" venueType="accommodation" />
 
 </main>
  );

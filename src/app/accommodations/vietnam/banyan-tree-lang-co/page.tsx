@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -165,16 +166,10 @@ export default function BanyanTreeLangCo() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Banyan Tree Lang Co</strong> operates as a premier <strong>5 Star Deluxe</strong> ultra-luxury all-pool villa resort positioned in Lang Cô Bay, Central Vietnam. Featuring an architectural inventory of luxury suites & private pool villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Palatial lagoon & beach pool villas) and direct arterial access to Laguna Golf Lang Cô (On-site).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Banyan Tree Lang Co minimizes daily transit friction across the Lang Co corridor while elevating off-course recovery through private infinity pool, award-winning banyan tree spa and post-round recovery & wellness (World-renowned Banyan Tree Spa). Every AGS itinerary anchored at Banyan Tree Lang Co includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Banyan Tree Lang Co&apos;s breakfast & dining quality (Saffron cliffside Thai & beachfront dining), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Set on a crescent bay framed by the Truong Son mountains and the East Sea, Banyan Tree Lang Co is one of Marcus&apos;s personal benchmark stays in Vietnam. All 72 residences are standalone private pool villas — ranging from Lagoon Pool Villas to dramatic Hilltop Seaview Pool Villas — eliminating busy corridors and delivering complete privacy between rounds.</p>
+                        <p style={{ marginBottom: '1rem' }}>For dedicated stay-and-play logistics, nothing in Central Vietnam is smoother: resort buggies carry golfers directly from their villa porch to Sir Nick Faldo&apos;s championship Laguna Golf Lang Co clubhouse in under five minutes. It also pairs cleanly as a 2-to-3-night northern anchor alongside Da Nang or Hoi An (roughly 65–75 minutes south through the Hai Van Tunnel) and Hue&apos;s Golden Sands Golf Resort (60 minutes north).</p>
+                        <p>Between rounds, Banyan Tree&apos;s signature spa therapists excel at sports-recovery bodywork, while hilltop Thai dining at Saffron and fresh coastal seafood at Azura turn non-golfing afternoons into a highlight for travelling partners.</p>
                     </div>
                 </div>
             </section>
@@ -192,8 +187,8 @@ export default function BanyanTreeLangCo() {
     maxScore={5.0}
     gradeBadge="All-Pool Villa Oceanfront Sanctuary • Forbes 5-Star"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -222,43 +217,44 @@ export default function BanyanTreeLangCo() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Banyan Tree Lang Co to the nearest championship golf courses in Lang Co?","acceptedAnswer":{"@type":"Answer","text":"Banyan Tree Lang Co is positioned in Lang Cô Bay, Central Vietnam, offering direct private transfer access to Laguna Golf Lang Cô (On-site). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Banyan Tree Lang Co?","acceptedAnswer":{"@type":"Answer","text":"Banyan Tree Lang Co features Luxury Suites & Private Pool Villas within a Ultra-Luxury All-Pool Villa Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Banyan Tree Lang Co offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Banyan Tree Lang Co enjoy Private Infinity Pool, Award-Winning Banyan Tree Spa, alongside post-round recovery & wellness (World-renowned Banyan Tree Spa) and breakfast & dining quality (Saffron cliffside Thai & beachfront dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Banyan Tree Lang Co?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Banyan Tree Lang Co as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do golfers get from Banyan Tree Lang Co villas to Laguna Golf Lang Co?","acceptedAnswer":{"@type":"Answer","text":"Complimentary resort buggies collect you directly from your private pool villa and drop you at the Laguna Golf Lang Co clubhouse bag-drop in under 5 minutes — zero road transfers required."}},{"@type":"Question","name":"Should we choose Lagoon Pool Villas or Seaview Hill Pool Villas for a golf trip?","acceptedAnswer":{"@type":"Answer","text":"Lagoon Pool Villas sit closer to the beach, spa, and main restaurants with generous private infinity pools, while 1-to-3-bedroom Seaview Hill Pool Villas perch high on the headland and work brilliantly for golf groups wanting shared entertaining decks and sweeping bay views."}},{"@type":"Question","name":"How far is Banyan Tree Lang Co from Da Nang International Airport (DAD) and Hoi An?","acceptedAnswer":{"@type":"Answer","text":"Da Nang International Airport is roughly 60–65 minutes south via the Hai Van Tunnel, and Hoi An is approximately 85–90 minutes. AGS handles all private coastal transfers with full luggage and golf-bag capacity."}},{"@type":"Question","name":"Is Banyan Tree Lang Co suitable for non-golfing partners on a multi-day itinerary?","acceptedAnswer":{"@type":"Answer","text":"Exceptionally so. Every villa has its own private infinity pool, backed by the renowned Banyan Tree Spa, three kilometres of quiet Canh Duong beach, kayaking on the canal, and easy day trips to Hue's Imperial Citadel."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Banyan Tree Lang Co to the nearest championship golf courses in Lang Co?",
-                    "a": "Banyan Tree Lang Co is positioned in Lang Cô Bay, Central Vietnam, offering direct private transfer access to Laguna Golf Lang Cô (On-site). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Banyan Tree Lang Co?",
-                    "a": "Banyan Tree Lang Co features Luxury Suites & Private Pool Villas within a Ultra-Luxury All-Pool Villa Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Banyan Tree Lang Co offer?",
-                    "a": "Guests at Banyan Tree Lang Co enjoy Private Infinity Pool, Award-Winning Banyan Tree Spa, alongside post-round recovery & wellness (World-renowned Banyan Tree Spa) and breakfast & dining quality (Saffron cliffside Thai & beachfront dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Banyan Tree Lang Co?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Banyan Tree Lang Co as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How do golfers get from Banyan Tree Lang Co villas to Laguna Golf Lang Co?",
+    "a": "Complimentary resort buggies collect you directly from your private pool villa and drop you at the Laguna Golf Lang Co clubhouse bag-drop in under 5 minutes — zero road transfers required."
+  },
+  {
+    "q": "Should we choose Lagoon Pool Villas or Seaview Hill Pool Villas for a golf trip?",
+    "a": "Lagoon Pool Villas sit closer to the beach, spa, and main restaurants with generous private infinity pools, while 1-to-3-bedroom Seaview Hill Pool Villas perch high on the headland and work brilliantly for golf groups wanting shared entertaining decks and sweeping bay views."
+  },
+  {
+    "q": "How far is Banyan Tree Lang Co from Da Nang International Airport (DAD) and Hoi An?",
+    "a": "Da Nang International Airport is roughly 60–65 minutes south via the Hai Van Tunnel, and Hoi An is approximately 85–90 minutes. AGS handles all private coastal transfers with full luggage and golf-bag capacity."
+  },
+  {
+    "q": "Is Banyan Tree Lang Co suitable for non-golfing partners on a multi-day itinerary?",
+    "a": "Exceptionally so. Every villa has its own private infinity pool, backed by the renowned Banyan Tree Spa, three kilometres of quiet Canh Duong beach, kayaking on the canal, and easy day trips to Hue's Imperial Citadel."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Banyan Tree Lang Co" location="Lang Co" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/banyan-tree-lang-co/" venueName="Banyan Tree Lang Co" venueType="accommodation" />
 

@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -129,16 +130,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Raffles Hotel Le Royal</strong> operates as a premier <strong>5 Star</strong> grand heritage hotel positioned in Phnom Penh, Cambodia. Featuring an architectural inventory of 175 rooms & suites, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Colonial state suites & ceiling fans) and direct arterial access to Grand Phnom Penh Golf Club (30 min), Vattanac Golf Resort (45 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Raffles Hotel Le Royal minimizes daily transit friction across the Phnom Penh corridor while elevating off-course recovery through elephant bar, two swimming pools, raffles spa and post-round recovery & wellness (Shaded courtyard pools & spa). Every AGS itinerary anchored at Raffles Hotel Le Royal includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Raffles Hotel Le Royal&apos;s breakfast & dining quality (Restaurant Le Royal royal Khmer dining), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Gracing a leafy colonial compound in Daun Penh since 1929, the 175-room Raffles Hotel Le Royal is Phnom Penh&apos;s timeless heritage sanctuary — personally stayed at and vetted by Marcus for golfers exploring Cambodia&apos;s rising capital golf scene. Surrounded by frangipani courtyards and two shaded swimming pools, it offers old-world calm steps from Wat Phnom and the Mekong riverside.</p>
+                        <p style={{ marginBottom: '1rem' }}>For Phnom Penh golf itineraries anchored by Sir Nick Faldo&apos;s 36-hole Vattanac Golf Resort (East &amp; West) and Chhun On Golf Resort, AGS schedules crisp early-morning departures from the Raffles driveway — reaching Vattanac Golf Resort in 35 to 45 minutes, Grand Phnom Penh in 30 minutes, and Garden City or Chhun On in 40 to 50 minutes.</p>
+                        <p>Returning to Le Royal after 18 holes feels unmistakably special: cool off in the tranquil lap pool, book restorative treatments at Raffles Spa, sip a Femme Fatale at the storied Elephant Bar, and dine on Royal Cambodian recipes at Restaurant Le Royal.</p>
                     </div>
                 </div>
             </section>
@@ -155,8 +150,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Historic French Heritage Landmark • Phnom Penh"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -185,43 +180,44 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Raffles Hotel Le Royal to the nearest championship golf courses in Phnom Penh?","acceptedAnswer":{"@type":"Answer","text":"Raffles Hotel Le Royal is positioned in Phnom Penh, Cambodia, offering direct private transfer access to Grand Phnom Penh Golf Club (30 min), Vattanac Golf Resort (45 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Raffles Hotel Le Royal?","acceptedAnswer":{"@type":"Answer","text":"Raffles Hotel Le Royal features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Raffles Hotel Le Royal offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Raffles Hotel Le Royal enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Shaded courtyard pools & spa) and breakfast & dining quality (Restaurant Le Royal royal Khmer dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Raffles Hotel Le Royal?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Raffles Hotel Le Royal as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which Phnom Penh golf courses pair best with a stay at Raffles Hotel Le Royal?","acceptedAnswer":{"@type":"Answer","text":"Vattanac Golf Resort (East & West courses, 35–45 min), Chhun On Golf Resort (45–50 min), Garden City Golf Club (40 min), and Grand Phnom Penh Golf Club (30 min) are all easily accessed via private AGS transfers."}},{"@type":"Question","name":"What room types at Raffles Hotel Le Royal are recommended for travelling golfers?","acceptedAnswer":{"@type":"Answer","text":"State Rooms and Landmark Rooms with private balconies overlooking the courtyard pools offer airy colonial ceilings, quiet rest, and plenty of floor space for golf luggage."}},{"@type":"Question","name":"How does Raffles Hotel Le Royal compare to Rosewood Phnom Penh for a golf stay?","acceptedAnswer":{"@type":"Answer","text":"Choose Raffles Le Royal if you love 1929 French-colonial heritage, outdoor resort-style courtyard pools, and Elephant Bar charm; choose Rosewood Phnom Penh if you prefer sleek modern skyscraper luxury and panoramic rooftop skyline bars."}},{"@type":"Question","name":"Can we combine Phnom Penh golf at Raffles Le Royal with Siem Reap at Raffles Grand Hotel d'Angkor?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Twin-Raffles Cambodia Golf Trail pairs 3 nights at Raffles Le Royal (playing Vattanac East & West and Chhun On) with a short domestic flight to Siem Reap for 3–4 nights at Raffles Grand Hotel d'Angkor."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Raffles Hotel Le Royal to the nearest championship golf courses in Phnom Penh?",
-                    "a": "Raffles Hotel Le Royal is positioned in Phnom Penh, Cambodia, offering direct private transfer access to Grand Phnom Penh Golf Club (30 min), Vattanac Golf Resort (45 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Raffles Hotel Le Royal?",
-                    "a": "Raffles Hotel Le Royal features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Raffles Hotel Le Royal offer?",
-                    "a": "Guests at Raffles Hotel Le Royal enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Shaded courtyard pools & spa) and breakfast & dining quality (Restaurant Le Royal royal Khmer dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Raffles Hotel Le Royal?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Raffles Hotel Le Royal as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Which Phnom Penh golf courses pair best with a stay at Raffles Hotel Le Royal?",
+    "a": "Vattanac Golf Resort (East & West courses, 35–45 min), Chhun On Golf Resort (45–50 min), Garden City Golf Club (40 min), and Grand Phnom Penh Golf Club (30 min) are all easily accessed via private AGS transfers."
+  },
+  {
+    "q": "What room types at Raffles Hotel Le Royal are recommended for travelling golfers?",
+    "a": "State Rooms and Landmark Rooms with private balconies overlooking the courtyard pools offer airy colonial ceilings, quiet rest, and plenty of floor space for golf luggage."
+  },
+  {
+    "q": "How does Raffles Hotel Le Royal compare to Rosewood Phnom Penh for a golf stay?",
+    "a": "Choose Raffles Le Royal if you love 1929 French-colonial heritage, outdoor resort-style courtyard pools, and Elephant Bar charm; choose Rosewood Phnom Penh if you prefer sleek modern skyscraper luxury and panoramic rooftop skyline bars."
+  },
+  {
+    "q": "Can we combine Phnom Penh golf at Raffles Le Royal with Siem Reap at Raffles Grand Hotel d'Angkor?",
+    "a": "Yes — our Twin-Raffles Cambodia Golf Trail pairs 3 nights at Raffles Le Royal (playing Vattanac East & West and Chhun On) with a short domestic flight to Siem Reap for 3–4 nights at Raffles Grand Hotel d'Angkor."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Raffles Hotel Le Royal" location="Phnom Penh" countryName="Cambodia" />
 
             <VenueItineraries venueHref="/accommodations/cambodia/raffles-hotel-le-royal/" venueName="Raffles Hotel Le Royal" venueType="accommodation" />
 

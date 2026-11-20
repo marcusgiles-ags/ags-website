@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -129,16 +130,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Fusion Suites Saigon</strong> operates as a premier <strong>5 Star</strong> all-suite wellness hotel positioned in Ho Chi Minh City, Vietnam. Featuring an architectural inventory of 76 suites, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Scandinavian wood & acoustic glass) and direct arterial access to Tan Son Nhat GC (30 min), Vietnam Golf & Country Club (45 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Fusion Suites Saigon minimizes daily transit friction across the Ho Chi Minh City corridor while elevating off-course recovery through daily spa treatments included, fresh restaurant and post-round recovery & wellness (Daily chromotherapy spa treatment included). Every AGS itinerary anchored at Fusion Suites Saigon includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Fusion Suites Saigon&apos;s breakfast & dining quality (Fresh healthy breakfast & juices), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Tucked on a quieter leafy street opposite Tao Dan Park in District 1, Fusion Suites Saigon offers 76 Scandinavian-minimalist all-suite residences designed around calm urban recovery. During our site verifications, its natural timber finishes, generous studio floorplans, and included daily reflexology or spa therapy stood out as a smart alternative to crowded high-rise business hotels in Ho Chi Minh City.</p>
+                        <p style={{ marginBottom: '1rem' }}>For Saigon golf logistics, staying on the western side of District 1 cuts morning outbound friction: Tan Son Nhat Golf Course is roughly 25 to 30 minutes north, Long Thanh and Jeongsan are 45 to 60 minutes east, and Twin Doves or Song Be are 55 to 65 minutes north via private AGS vehicle.</p>
+                        <p>Each suite includes a sitting area and kitchenette with plenty of space for golf travel covers, while the Fresh Restaurant serves nourishing early breakfasts and cold-pressed juices before you head out to beat Saigon&apos;s midday heat.</p>
                     </div>
                 </div>
             </section>
@@ -155,8 +150,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Modern Wellness Suites • Saigon"
     inspectionDate="Site-Verified by AGS On-Ground Team"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -185,43 +180,44 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Fusion Suites Saigon to the nearest championship golf courses in Ho Chi Minh City?","acceptedAnswer":{"@type":"Answer","text":"Fusion Suites Saigon is positioned in Ho Chi Minh City, Vietnam, offering direct private transfer access to Tan Son Nhat GC (30 min), Vietnam Golf & Country Club (45 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Fusion Suites Saigon?","acceptedAnswer":{"@type":"Answer","text":"Fusion Suites Saigon features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Fusion Suites Saigon offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Fusion Suites Saigon enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Daily chromotherapy spa treatment included) and breakfast & dining quality (Fresh healthy breakfast & juices)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Fusion Suites Saigon?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Fusion Suites Saigon as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is a daily spa treatment really included at Fusion Suites Saigon?","acceptedAnswer":{"@type":"Answer","text":"Yes. Fusion's signature concept includes a daily complimentary foot reflexology or wellness treatment per guest (subject to advance reservation, which AGS schedules around your afternoon return from the course)."}},{"@type":"Question","name":"Which Saigon golf clubs are easiest to reach from Fusion Suites Saigon?","acceptedAnswer":{"@type":"Answer","text":"Tan Son Nhat Golf Course is 25–30 minutes away, Vietnam Golf & Country Club is 40–45 minutes, Long Thanh Golf Resort is 50 minutes, and Taekwang Jeongsan is roughly 55 minutes by private AGS transfer."}},{"@type":"Question","name":"What room types work best for golf mates sharing or needing extra luggage space?","acceptedAnswer":{"@type":"Answer","text":"Corner Suites and Two-Bedroom Family Suites offer expansive layouts with separate living zones, giving golfers ample room to store hard cases and dry gear between rounds."}},{"@type":"Question","name":"How walkable is District 1 dining and nightlife from Fusion Suites Saigon?","acceptedAnswer":{"@type":"Answer","text":"Ben Thanh Market, Tao Dan Park, and District 1's craft cocktail bars and Vietnamese restaurants are within a 5-to-15-minute walk, while Dong Khoi and Saigon's rooftop bars are a 5-minute ride away."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Fusion Suites Saigon to the nearest championship golf courses in Ho Chi Minh City?",
-                    "a": "Fusion Suites Saigon is positioned in Ho Chi Minh City, Vietnam, offering direct private transfer access to Tan Son Nhat GC (30 min), Vietnam Golf & Country Club (45 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Fusion Suites Saigon?",
-                    "a": "Fusion Suites Saigon features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Fusion Suites Saigon offer?",
-                    "a": "Guests at Fusion Suites Saigon enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Daily chromotherapy spa treatment included) and breakfast & dining quality (Fresh healthy breakfast & juices)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Fusion Suites Saigon?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Fusion Suites Saigon as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Is a daily spa treatment really included at Fusion Suites Saigon?",
+    "a": "Yes. Fusion's signature concept includes a daily complimentary foot reflexology or wellness treatment per guest (subject to advance reservation, which AGS schedules around your afternoon return from the course)."
+  },
+  {
+    "q": "Which Saigon golf clubs are easiest to reach from Fusion Suites Saigon?",
+    "a": "Tan Son Nhat Golf Course is 25–30 minutes away, Vietnam Golf & Country Club is 40–45 minutes, Long Thanh Golf Resort is 50 minutes, and Taekwang Jeongsan is roughly 55 minutes by private AGS transfer."
+  },
+  {
+    "q": "What room types work best for golf mates sharing or needing extra luggage space?",
+    "a": "Corner Suites and Two-Bedroom Family Suites offer expansive layouts with separate living zones, giving golfers ample room to store hard cases and dry gear between rounds."
+  },
+  {
+    "q": "How walkable is District 1 dining and nightlife from Fusion Suites Saigon?",
+    "a": "Ben Thanh Market, Tao Dan Park, and District 1's craft cocktail bars and Vietnamese restaurants are within a 5-to-15-minute walk, while Dong Khoi and Saigon's rooftop bars are a 5-minute ride away."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Fusion Suites Saigon" location="Ho Chi Minh City" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/fusion-suites-saigon/" venueName="Fusion Suites Saigon" venueType="accommodation" />
 

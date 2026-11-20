@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -129,16 +130,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>The Oriental Jade Hotel</strong> operates as a premier <strong>5 Star</strong> luxury boutique hotel positioned in Hanoi, Vietnam. Featuring an architectural inventory of 120 rooms & suites, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Elegant neoclassical suites) and direct arterial access to BRG Kings Island (60 min), Sky Lake (60 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, The Oriental Jade Hotel minimizes daily transit friction across the Hanoi corridor while elevating off-course recovery through o'spa lotus, rooftop pool, thang long signature restaurant and post-round recovery & wellness (Rooftop pool overlooking Hoan Kiem). Every AGS itinerary anchored at The Oriental Jade Hotel includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights The Oriental Jade Hotel&apos;s breakfast & dining quality (Thang Long signature breakfast & sky bar), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Positioned on Hang Trong Street just two minutes on foot from Hoan Kiem Lake and St. Joseph&apos;s Cathedral, the 120-room Oriental Jade Hotel brings polished 5-star boutique hospitality to Hanoi&apos;s Old Quarter. On our site inspections, its warm staff, clean neoclassical rooms, and dramatic 12th-floor rooftop pool overlooking the lake and cathedral spires stood out as exceptional value for Hanoi golf tours.</p>
+                        <p style={{ marginBottom: '1rem' }}>Because Hang Trong sits just inside the western edge of Hoan Kiem rather than deep inside narrow Old Quarter alleys, AGS luxury private touring vehicles execute prompt morning pickups for Long Bien (30 minutes), Van Tri (40 minutes), BRG Legend Hill (50 minutes), Sky Lake (55 minutes), and BRG Kings Island (60 minutes).</p>
+                        <p>After 18 holes, golfers unwind at O&apos;Spa Lotus, catch golden hour at Sixteen Sky Bar beside the rooftop pool, and step straight out to Hanoi&apos;s famous street-food lanes, bun cha eateries, and rooftop cocktail lounges.</p>
                     </div>
                 </div>
             </section>
@@ -155,8 +150,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Boutique Old Quarter Luxury • Hanoi"
     inspectionDate="Site-Verified by AGS On-Ground Team"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -185,43 +180,44 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is The Oriental Jade Hotel to the nearest championship golf courses in Hanoi?","acceptedAnswer":{"@type":"Answer","text":"The Oriental Jade Hotel is positioned in Hanoi, Vietnam, offering direct private transfer access to BRG Kings Island (60 min), Sky Lake (60 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at The Oriental Jade Hotel?","acceptedAnswer":{"@type":"Answer","text":"The Oriental Jade Hotel features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does The Oriental Jade Hotel offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at The Oriental Jade Hotel enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Rooftop pool overlooking Hoan Kiem) and breakfast & dining quality (Thang Long signature breakfast & sky bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at The Oriental Jade Hotel?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at The Oriental Jade Hotel as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do AGS golf vehicles handle pickup at The Oriental Jade Hotel in Hanoi's Old Quarter?","acceptedAnswer":{"@type":"Answer","text":"Unlike hotels buried inside narrow Old Quarter pedestrian lanes, Hang Trong Street allows straightforward vehicle staging outside the hotel (outside weekend evening lake closures, where our drivers coordinate a 1-minute corner drop-off seamlessly)."}},{"@type":"Question","name":"Which room categories at The Oriental Jade Hotel should golfers choose?","acceptedAnswer":{"@type":"Answer","text":"Emerald Lake View rooms and Oriental Suites on higher floors offer direct views across Hoan Kiem Lake, crisp acoustic glazing against street noise, and comfortable space for golf bags."}},{"@type":"Question","name":"How far is The Oriental Jade Hotel from Hanoi's championship courses?","acceptedAnswer":{"@type":"Answer","text":"Long Bien Golf Course is 25–30 minutes, Van Tri Golf Club is 35–40 minutes, BRG Legend Hill is 50 minutes, and Sky Lake or BRG Kings Island are roughly 55–60 minutes via private AGS vehicle."}},{"@type":"Question","name":"What are the standout on-site amenities for post-round recovery?","acceptedAnswer":{"@type":"Answer","text":"The 12th-floor rooftop swimming pool and Sixteen Sky Bar overlook Hoan Kiem Lake and St. Joseph's Cathedral, complemented by O'Spa Lotus and hearty morning breakfasts at Thang Long Signature Restaurant."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is The Oriental Jade Hotel to the nearest championship golf courses in Hanoi?",
-                    "a": "The Oriental Jade Hotel is positioned in Hanoi, Vietnam, offering direct private transfer access to BRG Kings Island (60 min), Sky Lake (60 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at The Oriental Jade Hotel?",
-                    "a": "The Oriental Jade Hotel features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does The Oriental Jade Hotel offer?",
-                    "a": "Guests at The Oriental Jade Hotel enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Rooftop pool overlooking Hoan Kiem) and breakfast & dining quality (Thang Long signature breakfast & sky bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at The Oriental Jade Hotel?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at The Oriental Jade Hotel as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How do AGS golf vehicles handle pickup at The Oriental Jade Hotel in Hanoi's Old Quarter?",
+    "a": "Unlike hotels buried inside narrow Old Quarter pedestrian lanes, Hang Trong Street allows straightforward vehicle staging outside the hotel (outside weekend evening lake closures, where our drivers coordinate a 1-minute corner drop-off seamlessly)."
+  },
+  {
+    "q": "Which room categories at The Oriental Jade Hotel should golfers choose?",
+    "a": "Emerald Lake View rooms and Oriental Suites on higher floors offer direct views across Hoan Kiem Lake, crisp acoustic glazing against street noise, and comfortable space for golf bags."
+  },
+  {
+    "q": "How far is The Oriental Jade Hotel from Hanoi's championship courses?",
+    "a": "Long Bien Golf Course is 25–30 minutes, Van Tri Golf Club is 35–40 minutes, BRG Legend Hill is 50 minutes, and Sky Lake or BRG Kings Island are roughly 55–60 minutes via private AGS vehicle."
+  },
+  {
+    "q": "What are the standout on-site amenities for post-round recovery?",
+    "a": "The 12th-floor rooftop swimming pool and Sixteen Sky Bar overlook Hoan Kiem Lake and St. Joseph's Cathedral, complemented by O'Spa Lotus and hearty morning breakfasts at Thang Long Signature Restaurant."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="The Oriental Jade Hotel" location="Hanoi" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/the-oriental-jade/" venueName="The Oriental Jade Hotel" venueType="accommodation" />
 

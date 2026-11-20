@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -178,16 +179,10 @@ export default function FourSeasonsNamHai() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Four Seasons Resort The Nam Hai</strong> operates as a premier <strong>5 Star Ultra-Deluxe</strong> ultra-luxury all-villa beachfront resort positioned in Hoi An corridor, Central Vietnam. Featuring an architectural inventory of pool villas & residence villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Feng Shui pool villas, acoustic privacy) and direct arterial access to Montgomerie Links & BRG Da Nang (5-10 mins).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Four Seasons Resort The Nam Hai minimizes daily transit friction across the Hoi An corridor while elevating off-course recovery through three-tiered infinity pool, signature cooking academy and post-round recovery & wellness (Three-tiered infinity pools & spa). Every AGS itinerary anchored at Four Seasons Resort The Nam Hai includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Four Seasons Resort The Nam Hai&apos;s breakfast & dining quality (Gourmet pre-round dining & Cooking Academy), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Spread along one kilometre of quiet Ha My Beach between Da Nang and Hoi An, Four Seasons Resort The Nam Hai is Central Vietnam&apos;s ultimate ultra-luxury all-villa retreat — and a property Marcus has personally stayed at and benchmarks every coastal resort against. Every guest stays in a standalone Feng Shui-inspired one-bedroom villa or a multi-bedroom beachfront pool residence with dedicated Villa Attendant service.</p>
+                        <p style={{ marginBottom: '1rem' }}>Its position on the coastal strip puts golfers in the fastest lane to Central Vietnam&apos;s headline courses: Montgomerie Links and BRG Da Nang (Norman &amp; Nicklaus) sit just 5 to 10 minutes north, Hoiana Shores Golf Club is 20 minutes south, and Ba Na Hills is roughly 45 minutes inland. Your AGS driver meets your Villa Attendant directly at the main arrival pavilion so golf clubs transition seamlessly.</p>
+                        <p>Between rounds, three tiered infinity pools step straight down toward the East Sea, while the Heart of the Earth Spa (floating pavilions over a lotus lagoon), Cooking Academy, and La Sen beachfront dining deliver unmatched downtime for both avid players and non-golfing partners.</p>
                     </div>
                 </div>
             </section>
@@ -204,8 +199,8 @@ export default function FourSeasonsNamHai() {
     maxScore={5.0}
     gradeBadge="Forbes 5-Star • Michelin Selected • Central Coast"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       { label: "Suite Comfort & Rest Quality", score: 9.9, highlight: "Feng Shui pool villas, acoustic privacy" },
       { label: "Villa & Beachfront Privacy", score: 9.9, highlight: "Direct private Ha My Beach frontage" },
@@ -217,43 +212,44 @@ export default function FourSeasonsNamHai() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Four Seasons Resort The Nam Hai to the nearest championship golf courses in Hoi An?","acceptedAnswer":{"@type":"Answer","text":"Four Seasons Resort The Nam Hai is positioned in Hoi An corridor, Central Vietnam, offering direct private transfer access to Montgomerie Links & BRG Da Nang (5-10 mins). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Four Seasons Resort The Nam Hai?","acceptedAnswer":{"@type":"Answer","text":"Four Seasons Resort The Nam Hai features Pool Villas & Residence Villas within a Ultra-Luxury All-Villa Beachfront Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Four Seasons Resort The Nam Hai offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Four Seasons Resort The Nam Hai enjoy Three-tiered Infinity Pool, Signature Cooking Academy, alongside post-round recovery & wellness (Three-tiered infinity pools & spa) and breakfast & dining quality (Gourmet pre-round dining & Cooking Academy)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Four Seasons Resort The Nam Hai?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Four Seasons Resort The Nam Hai as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which golf courses are closest to Four Seasons Resort The Nam Hai?","acceptedAnswer":{"@type":"Answer","text":"Montgomerie Links and BRG Da Nang Golf Resort are both 5–10 minutes north along the coastal boulevard, Hoiana Shores Golf Club is 20 minutes south, and Ba Na Hills Golf Club is approximately 45 minutes inland."}},{"@type":"Question","name":"Are the multi-bedroom Pool Villas at The Nam Hai suitable for travelling golf groups?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Nam Hai's 3-, 4-, and 5-bedroom Beachfront Pool Villas feature private heated pools, full living/dining pavilions, and dedicated butler service — making them the pinnacle private estate option for executive foursomes or 8-player squads."}},{"@type":"Question","name":"How far is Four Seasons The Nam Hai from Hoi An Ancient Town and Da Nang Airport?","acceptedAnswer":{"@type":"Answer","text":"Hoi An Ancient Town is 15 minutes south via resort shuttle or private vehicle, and Da Nang International Airport (DAD) is 30 minutes north."}},{"@type":"Question","name":"What makes The Nam Hai stand out for couples where only one partner plays golf?","acceptedAnswer":{"@type":"Answer","text":"Non-golfing partners enjoy private Ha My beach frontage, three oceanfront pools, singing-bowl sound healing at Heart of the Earth Spa, Vietnamese culinary classes, and complimentary shuttles into Hoi An's lantern quarter."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Four Seasons Resort The Nam Hai to the nearest championship golf courses in Hoi An?",
-                    "a": "Four Seasons Resort The Nam Hai is positioned in Hoi An corridor, Central Vietnam, offering direct private transfer access to Montgomerie Links & BRG Da Nang (5-10 mins). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Four Seasons Resort The Nam Hai?",
-                    "a": "Four Seasons Resort The Nam Hai features Pool Villas & Residence Villas within a Ultra-Luxury All-Villa Beachfront Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Four Seasons Resort The Nam Hai offer?",
-                    "a": "Guests at Four Seasons Resort The Nam Hai enjoy Three-tiered Infinity Pool, Signature Cooking Academy, alongside post-round recovery & wellness (Three-tiered infinity pools & spa) and breakfast & dining quality (Gourmet pre-round dining & Cooking Academy)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Four Seasons Resort The Nam Hai?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Four Seasons Resort The Nam Hai as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Which golf courses are closest to Four Seasons Resort The Nam Hai?",
+    "a": "Montgomerie Links and BRG Da Nang Golf Resort are both 5–10 minutes north along the coastal boulevard, Hoiana Shores Golf Club is 20 minutes south, and Ba Na Hills Golf Club is approximately 45 minutes inland."
+  },
+  {
+    "q": "Are the multi-bedroom Pool Villas at The Nam Hai suitable for travelling golf groups?",
+    "a": "Yes. The Nam Hai's 3-, 4-, and 5-bedroom Beachfront Pool Villas feature private heated pools, full living/dining pavilions, and dedicated butler service — making them the pinnacle private estate option for executive foursomes or 8-player squads."
+  },
+  {
+    "q": "How far is Four Seasons The Nam Hai from Hoi An Ancient Town and Da Nang Airport?",
+    "a": "Hoi An Ancient Town is 15 minutes south via resort shuttle or private vehicle, and Da Nang International Airport (DAD) is 30 minutes north."
+  },
+  {
+    "q": "What makes The Nam Hai stand out for couples where only one partner plays golf?",
+    "a": "Non-golfing partners enjoy private Ha My beach frontage, three oceanfront pools, singing-bowl sound healing at Heart of the Earth Spa, Vietnamese culinary classes, and complimentary shuttles into Hoi An's lantern quarter."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Four Seasons Resort The Nam Hai" location="Hoi An" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/four-seasons-nam-hai/" venueName="Four Seasons Resort The Nam Hai" venueType="accommodation" />
 

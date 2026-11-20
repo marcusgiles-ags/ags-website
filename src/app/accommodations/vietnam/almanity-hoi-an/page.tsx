@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -129,16 +130,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Almanity Hoi An Wellness Resort</strong> operates as a premier <strong>5 Star</strong> wellness resort positioned in Hoi An, Vietnam. Featuring an architectural inventory of 139 rooms, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Minimalist Zen styling & sound sleep) and direct arterial access to Hoiana Shores (25 min), Montgomerie Links (25 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Almanity Hoi An Wellness Resort minimizes daily transit friction across the Hoi An corridor while elevating off-course recovery through my chi spa, blue bottle bar, organic farm and post-round recovery & wellness (Daily hydrotherapy & herbal sauna). Every AGS itinerary anchored at Almanity Hoi An Wellness Resort includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Almanity Hoi An Wellness Resort&apos;s breakfast & dining quality (Organic farm-to-table morning buffet), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Positioned along Ly Thuong Kiet Street just a ten-minute stroll from Hoi An Ancient Town, Almanity Hoi An Wellness Resort wraps 139 minimalist rooms around a calm saltwater courtyard pool. During our site visits, what sets Almanity apart for golfers is how immediately the pace drops the moment you step past the street entrance into its terraced garden enclosure.</p>
+                        <p style={{ marginBottom: '1rem' }}>For Central Vietnam itineraries anchored around Hoiana Shores Golf Club (25 minutes south) and Montgomerie Links or BRG Da Nang (25 minutes north), Almanity gives travelling fourballs and couples a practical, quiet base within easy walking distance of Hoi An tailors and evening restaurants. Your AGS luxury private touring vehicle picks up right at the main porte-cochere for early morning tee times.</p>
+                        <p>Post-round recovery is built into the stay: My Chi Spa combines herbal steam rooms, hydrotherapy circuits, and deep-tissue massage tailored to tight lower backs after consecutive coastal rounds, while the organic breakfast spread opens early enough for 7:30 AM starts.</p>
                     </div>
                 </div>
             </section>
@@ -155,8 +150,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Heritage Town Wellness Resort • Central Coast"
     inspectionDate="Site-Verified by AGS On-Ground Team"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -185,43 +180,44 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Almanity Hoi An Wellness Resort to the nearest championship golf courses in Hoi An?","acceptedAnswer":{"@type":"Answer","text":"Almanity Hoi An Wellness Resort is positioned in Hoi An, Vietnam, offering direct private transfer access to Hoiana Shores (25 min), Montgomerie Links (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Almanity Hoi An Wellness Resort?","acceptedAnswer":{"@type":"Answer","text":"Almanity Hoi An Wellness Resort features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Almanity Hoi An Wellness Resort offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Almanity Hoi An Wellness Resort enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Daily hydrotherapy & herbal sauna) and breakfast & dining quality (Organic farm-to-table morning buffet)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Almanity Hoi An Wellness Resort?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Almanity Hoi An Wellness Resort as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How far is Almanity Hoi An from Hoiana Shores, Montgomerie Links, and Ba Na Hills?","acceptedAnswer":{"@type":"Answer","text":"By AGS luxury private touring vehicle, Hoiana Shores Golf Club is approximately 25 minutes south via the coastal road, Montgomerie Links and BRG Da Nang are 25 minutes north, and Ba Na Hills Golf Club is roughly 55 minutes inland."}},{"@type":"Question","name":"Which room categories at Almanity Hoi An suit travelling golf groups best?","acceptedAnswer":{"@type":"Answer","text":"The My Spirit and My Energy Courtyard rooms overlook the central saltwater pool and offer easy twin-bed setups for golf mates, while couples prefer the My Mind Loft suites with split-level living space and private balconies."}},{"@type":"Question","name":"Are spa treatments included with a stay at Almanity Hoi An Wellness Resort?","acceptedAnswer":{"@type":"Answer","text":"Depending on the seasonal package contracted through AGS, stays include daily spa credit or complimentary 60-minute My Chi Spa sessions plus complimentary access to the herbal steam room, sauna, and saltwater pool."}},{"@type":"Question","name":"Can you walk to Hoi An Ancient Town restaurants from Almanity after golf?","acceptedAnswer":{"@type":"Answer","text":"Yes. The pedestrian lantern streets, riverside bars, and bespoke tailors of Hoi An Ancient Town sit roughly 800 metres from the resort entrance — an easy 10-minute walk or 3-minute shuttle ride."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Almanity Hoi An Wellness Resort to the nearest championship golf courses in Hoi An?",
-                    "a": "Almanity Hoi An Wellness Resort is positioned in Hoi An, Vietnam, offering direct private transfer access to Hoiana Shores (25 min), Montgomerie Links (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Almanity Hoi An Wellness Resort?",
-                    "a": "Almanity Hoi An Wellness Resort features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Almanity Hoi An Wellness Resort offer?",
-                    "a": "Guests at Almanity Hoi An Wellness Resort enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Daily hydrotherapy & herbal sauna) and breakfast & dining quality (Organic farm-to-table morning buffet)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Almanity Hoi An Wellness Resort?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Almanity Hoi An Wellness Resort as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How far is Almanity Hoi An from Hoiana Shores, Montgomerie Links, and Ba Na Hills?",
+    "a": "By AGS luxury private touring vehicle, Hoiana Shores Golf Club is approximately 25 minutes south via the coastal road, Montgomerie Links and BRG Da Nang are 25 minutes north, and Ba Na Hills Golf Club is roughly 55 minutes inland."
+  },
+  {
+    "q": "Which room categories at Almanity Hoi An suit travelling golf groups best?",
+    "a": "The My Spirit and My Energy Courtyard rooms overlook the central saltwater pool and offer easy twin-bed setups for golf mates, while couples prefer the My Mind Loft suites with split-level living space and private balconies."
+  },
+  {
+    "q": "Are spa treatments included with a stay at Almanity Hoi An Wellness Resort?",
+    "a": "Depending on the seasonal package contracted through AGS, stays include daily spa credit or complimentary 60-minute My Chi Spa sessions plus complimentary access to the herbal steam room, sauna, and saltwater pool."
+  },
+  {
+    "q": "Can you walk to Hoi An Ancient Town restaurants from Almanity after golf?",
+    "a": "Yes. The pedestrian lantern streets, riverside bars, and bespoke tailors of Hoi An Ancient Town sit roughly 800 metres from the resort entrance — an easy 10-minute walk or 3-minute shuttle ride."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Almanity Hoi An Wellness Resort" location="Hoi An" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/almanity-hoi-an/" venueName="Almanity Hoi An Wellness Resort" venueType="accommodation" />
 

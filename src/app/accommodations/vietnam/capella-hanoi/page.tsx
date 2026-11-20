@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -114,18 +115,12 @@ export default function CapellaHanoi() {
  
  {/* GEO Executive Summary / AI Citation Block */}
  <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
- <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
- <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
- <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Capella Hanoi</strong> operates as a premier <strong>5 Star (Forbes Travel Guide)</strong> luxury boutique hotel positioned in Hoan Kiem, Hanoi, Vietnam. Featuring an architectural inventory of 47 themed suites, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Bill Bensley opera suites, acoustic quiet) and direct arterial access to Van Tri Golf Club (35 min), Legend Hill (45 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Capella Hanoi minimizes daily transit friction across the Hanoi corridor while elevating off-course recovery through bill bensley and post-round recovery & wellness (Auriga Spa indoor pool & hydrotherapy). Every AGS itinerary anchored at Capella Hanoi includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Capella Hanoi&apos;s breakfast & dining quality (Michelin-starred Hibana by Koki & breakfast), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+                    <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Crafted by Bill Bensley as an intimate 47-suite tribute to the 1920s Golden Age of Opera just steps from the Hanoi Opera House, Capella Hanoi is a Forbes 5-Star property Marcus has personally stayed at and recommends for executive groups and milestone couples tours. No two suites share the exact same memorabilia or theatrical detailing, yet the acoustic insulation shuts out Hanoi street bustle completely.</p>
+                        <p style={{ marginBottom: '1rem' }}>Positioned in the French Quarter (Hoan Kiem), Capella puts golfers 30 to 45 minutes from Van Tri Golf Club and Long Bien Golf Course, and 50 to 65 minutes from northern championship heavyweights including Sky Lake, BRG Kings Island, and BRG Legend Hill. Capella Culturists coordinate seamlessly with AGS drivers so clubs are loaded ahead of dawn departures.</p>
+                        <p>After 18 holes, golfers return to Auriga Spa&apos;s La Grotta indoor heated pool and thermal suites before evening drinks at Diva&apos;s Lounge or Michelin-starred Japanese teppanyaki at Hibana by Koki.</p>
                     </div>
                 </div>
             </section>
@@ -142,8 +137,8 @@ export default function CapellaHanoi() {
     maxScore={5.0}
     gradeBadge="Opera-Inspired Masterpiece • Forbes 5-Star • Michelin Star"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -171,41 +166,42 @@ export default function CapellaHanoi() {
 
 
  {/* FAQ Section */}
- <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
- <div className="container" style={{ maxWidth: "860px" }}>
- <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
- Frequently Asked Questions
- </h2>
- <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
- {[
-          {
-                    "q": "How close is Capella Hanoi to the nearest championship golf courses in Hanoi?",
-                    "a": "Capella Hanoi is positioned in Hoan Kiem, Hanoi, Vietnam, offering direct private transfer access to Van Tri Golf Club (35 min), Legend Hill (45 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Capella Hanoi?",
-                    "a": "Capella Hanoi features 47 Themed Suites within a Luxury Boutique Hotel setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Capella Hanoi offer?",
-                    "a": "Guests at Capella Hanoi enjoy Bill Bensley, alongside post-round recovery & wellness (Auriga Spa indoor pool & hydrotherapy) and breakfast & dining quality (Michelin-starred Hibana by Koki & breakfast)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Capella Hanoi?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Capella Hanoi as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
- <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
- <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
- <span>{faq.q}</span>
- <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
- </summary>
- <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
- </details>
- ))}
- </div>
- </div>
- </section>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which Hanoi golf courses pair best with a stay at Capella Hanoi?","acceptedAnswer":{"@type":"Answer","text":"Van Tri Golf Club (35–40 min) and Long Bien Golf Course (25–30 min) are the closest, while BRG Legend Hill (45–50 min), Sky Lake Resort & Golf Club (55–60 min), and BRG Kings Island (60 min) are easily reached via private AGS transfers."}},{"@type":"Question","name":"What makes Capella Hanoi different from larger 5-star business hotels in Hanoi?","acceptedAnswer":{"@type":"Answer","text":"With only 47 suites, Capella delivers deeply personalised butler-style service through its Capella Culturists, complimentary daily champagne & afternoon tea in The Living Room, and Michelin-starred dining under one roof."}},{"@type":"Question","name":"Can AGS secure reservations at Michelin-starred Hibana by Koki during our golf stay?","acceptedAnswer":{"@type":"Answer","text":"Yes. Hibana by Koki has extremely limited counter seating around the teppan grill, so AGS books your preferred dinner seating as soon as your Hanoi itinerary dates are confirmed."}},{"@type":"Question","name":"Does Capella Hanoi work for 4-to-8-player executive golf groups?","acceptedAnswer":{"@type":"Answer","text":"Yes. Its Premier and Capella Suites offer generous layouts, and top-floor Opera Suites with wrap-around terraces make ideal private hospitality venues for executive foursomes and corporate hosts."}}]}) }} />
+            <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
+                <div className="container" style={{ maxWidth: "860px" }}>
+                    <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
+                        Frequently Asked Questions
+                    </h2>
+                    <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
+                        {([
+  {
+    "q": "Which Hanoi golf courses pair best with a stay at Capella Hanoi?",
+    "a": "Van Tri Golf Club (35–40 min) and Long Bien Golf Course (25–30 min) are the closest, while BRG Legend Hill (45–50 min), Sky Lake Resort & Golf Club (55–60 min), and BRG Kings Island (60 min) are easily reached via private AGS transfers."
+  },
+  {
+    "q": "What makes Capella Hanoi different from larger 5-star business hotels in Hanoi?",
+    "a": "With only 47 suites, Capella delivers deeply personalised butler-style service through its Capella Culturists, complimentary daily champagne & afternoon tea in The Living Room, and Michelin-starred dining under one roof."
+  },
+  {
+    "q": "Can AGS secure reservations at Michelin-starred Hibana by Koki during our golf stay?",
+    "a": "Yes. Hibana by Koki has extremely limited counter seating around the teppan grill, so AGS books your preferred dinner seating as soon as your Hanoi itinerary dates are confirmed."
+  },
+  {
+    "q": "Does Capella Hanoi work for 4-to-8-player executive golf groups?",
+    "a": "Yes. Its Premier and Capella Suites offer generous layouts, and top-floor Opera Suites with wrap-around terraces make ideal private hospitality venues for executive foursomes and corporate hosts."
+  }
+]).map((faq, i) => (
+                            <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
+                                <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
+                                    <span>{faq.q}</span>
+                                    <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
+                                </summary>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                            </details>
+                        ))}
+                    </div>
+                </div>
+            </section>
 
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
  "@context": "https://schema.org",
@@ -257,6 +253,8 @@ export default function CapellaHanoi() {
  ]
  }) }} />
  
+            <AccommodationConciergeBlock hotelName="Capella Hanoi" location="Hanoi" countryName="Vietnam" />
+
             <VenueItineraries venueHref="/accommodations/vietnam/capella-hanoi/" venueName="Capella Hanoi" venueType="accommodation" />
 
 </main>

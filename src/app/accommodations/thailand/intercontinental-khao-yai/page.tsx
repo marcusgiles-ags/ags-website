@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -78,7 +79,7 @@ export default function InterContinentalKhaoYai() {
  ["Location", "Khao Yai, Nakhon Ratchasima, Thailand"],
  ["Total Rooms", "106 Carriages & Villas"],
  ["Setting", "UNESCO Khao Yai National Park boundary"],
- ["Nearest Golf", "Mission Hills Kanchanaburi (45 min)"],
+ ["Nearest Golf", "Toscana Valley (15 min), Rancho Charnvee (20 min), Kirimaya (25 min)"],
  ["Designer", "Bill Bensley (Upcycled Heritage Rail Concept)"],
  ].map(([k, v], i, arr) => (<tr key={k}><th style={{ textAlign: 'left', padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none', color: 'var(--color-gold)' }}>{k}</th><td style={{ padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none' }}>{v}</td></tr>))}
  </tbody>
@@ -131,16 +132,10 @@ export default function InterContinentalKhaoYai() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>InterContinental Khao Yai Resort</strong> operates as a premier <strong>5 Star (IHG Luxury Collection)</strong> luxury heritage rail resort positioned in Khao Yai, Nakhon Ratchasima, Thailand. Featuring an architectural inventory of 106 carriages & villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Upcycled luxury train carriage suites) and direct arterial access to Mission Hills Kanchanaburi (45 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, InterContinental Khao Yai Resort minimizes daily transit friction across the Khao Yai corridor while elevating off-course recovery through unesco khao yai national park boundary and post-round recovery & wellness (Peaceful Swan Lake pool & spa). Every AGS itinerary anchored at InterContinental Khao Yai Resort includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights InterContinental Khao Yai Resort&apos;s breakfast & dining quality (Poirot French heritage dining car), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Surrounded by 30,000 trees and five tranquil lakes near the border of UNESCO-listed Khao Yai National Park, InterContinental Khao Yai Resort is Bill Bensley&apos;s imaginative tribute to Thailand&apos;s golden age of rail travel — and our curated highland partner outside Bangkok. Its 64 rooms, suites, and upcycled heritage train-carriage villas turn an overnight highland stay into a memorable architectural story.</p>
+                        <p style={{ marginBottom: '1rem' }}>Positioned roughly 2.5 to 3 hours northeast of Bangkok, Khao Yai delivers noticeably cooler highland air and scenic mountain golf: Toscana Valley Country Club sits 15 minutes away, Rancho Charnvee Resort &amp; Country Club is 20 minutes, and Jack Nicklaus&apos;s Kirimaya Golf Resort is 25 minutes via private AGS transfer.</p>
+                        <p>Post-round relaxation leans into vintage charm: unwind at Back on Track Spa (set inside restored heritage rail cars), swim beside Swan Lake, and dine on French brasserie classics inside the theatrical Poirot dining carriage.</p>
                     </div>
                 </div>
             </section>
@@ -157,8 +152,8 @@ export default function InterContinentalKhaoYai() {
     maxScore={5.0}
     gradeBadge="Heritage Train Car Resort • Bill Bensley"
     inspectionDate="Curated AGS Partner — Vetted via Client Feedback"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -187,43 +182,44 @@ export default function InterContinentalKhaoYai() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is InterContinental Khao Yai Resort to the nearest championship golf courses in Khao Yai?","acceptedAnswer":{"@type":"Answer","text":"InterContinental Khao Yai Resort is positioned in Khao Yai, Nakhon Ratchasima, Thailand, offering direct private transfer access to Mission Hills Kanchanaburi (45 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at InterContinental Khao Yai Resort?","acceptedAnswer":{"@type":"Answer","text":"InterContinental Khao Yai Resort features 106 Carriages & Villas within a Luxury Heritage Rail Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does InterContinental Khao Yai Resort offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at InterContinental Khao Yai Resort enjoy UNESCO Khao Yai National Park boundary, alongside post-round recovery & wellness (Peaceful Swan Lake pool & spa) and breakfast & dining quality (Poirot French heritage dining car)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at InterContinental Khao Yai Resort?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at InterContinental Khao Yai Resort as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which golf courses are actually near InterContinental Khao Yai Resort?","acceptedAnswer":{"@type":"Answer","text":"Toscana Valley Country Club (15 minutes), Rancho Charnvee Resort & Country Club (20 minutes), Kirimaya Golf Resort (25 minutes), and Mountain Creek Golf Resort (35 minutes) all sit right in the Khao Yai highlands."}},{"@type":"Question","name":"How long is the private transfer from Bangkok to InterContinental Khao Yai Resort?","acceptedAnswer":{"@type":"Answer","text":"Via the Bang Pa-in–Korat highway corridor, private AGS transfers take approximately 2 hours 30 minutes to 3 hours from Suvarnabhumi Airport (BKK) or central Bangkok."}},{"@type":"Question","name":"Should we book the Heritage Railcar Suites or regular King/Twin rooms?","acceptedAnswer":{"@type":"Answer","text":"Heritage Railcar Suites and One-Bedroom Railcar Pool Villas are the signature experience — crafted from authentic reclaimed Thai train carriages with outdoor soaking tubs and private lakeside decks — though Classic rooms work smoothly for twin-share golf groups."}},{"@type":"Question","name":"What non-golf activities pair well with a Khao Yai highland golf stopover?","acceptedAnswer":{"@type":"Answer","text":"Khao Yai is Thailand's premier vineyard and national-park region: AGS can add afternoon winery tastings at GranMonte or PB Valley and guided wildlife excursions inside Khao Yai National Park."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is InterContinental Khao Yai Resort to the nearest championship golf courses in Khao Yai?",
-                    "a": "InterContinental Khao Yai Resort is positioned in Khao Yai, Nakhon Ratchasima, Thailand, offering direct private transfer access to Mission Hills Kanchanaburi (45 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at InterContinental Khao Yai Resort?",
-                    "a": "InterContinental Khao Yai Resort features 106 Carriages & Villas within a Luxury Heritage Rail Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does InterContinental Khao Yai Resort offer?",
-                    "a": "Guests at InterContinental Khao Yai Resort enjoy UNESCO Khao Yai National Park boundary, alongside post-round recovery & wellness (Peaceful Swan Lake pool & spa) and breakfast & dining quality (Poirot French heritage dining car)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at InterContinental Khao Yai Resort?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at InterContinental Khao Yai Resort as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Which golf courses are actually near InterContinental Khao Yai Resort?",
+    "a": "Toscana Valley Country Club (15 minutes), Rancho Charnvee Resort & Country Club (20 minutes), Kirimaya Golf Resort (25 minutes), and Mountain Creek Golf Resort (35 minutes) all sit right in the Khao Yai highlands."
+  },
+  {
+    "q": "How long is the private transfer from Bangkok to InterContinental Khao Yai Resort?",
+    "a": "Via the Bang Pa-in–Korat highway corridor, private AGS transfers take approximately 2 hours 30 minutes to 3 hours from Suvarnabhumi Airport (BKK) or central Bangkok."
+  },
+  {
+    "q": "Should we book the Heritage Railcar Suites or regular King/Twin rooms?",
+    "a": "Heritage Railcar Suites and One-Bedroom Railcar Pool Villas are the signature experience — crafted from authentic reclaimed Thai train carriages with outdoor soaking tubs and private lakeside decks — though Classic rooms work smoothly for twin-share golf groups."
+  },
+  {
+    "q": "What non-golf activities pair well with a Khao Yai highland golf stopover?",
+    "a": "Khao Yai is Thailand's premier vineyard and national-park region: AGS can add afternoon winery tastings at GranMonte or PB Valley and guided wildlife excursions inside Khao Yai National Park."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="InterContinental Khao Yai Resort" location="Khao Yai" countryName="Thailand" />
 
             <VenueItineraries venueHref="/accommodations/thailand/intercontinental-khao-yai/" venueName="InterContinental Khao Yai Resort" venueType="accommodation" />
 

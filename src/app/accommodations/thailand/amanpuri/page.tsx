@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -118,16 +119,10 @@ export default function Amanpuri() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Amanpuri</strong> operates as a premier <strong>5 Star (Aman Collection)</strong> ultra-exclusive private pavilion resort positioned in Pansea Beach, Surin, Phuket, Thailand. Featuring an architectural inventory of luxury suites & private pool villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Ayutthaya-inspired teak pavilions) and direct arterial access to Blue Canyon CC (20 min), Laguna Golf (25 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Amanpuri minimizes daily transit friction across the Phuket corridor while elevating off-course recovery through private beach, aman spa, 2 restaurants and post-round recovery & wellness (Holistic wellness center & cryotherapy). Every AGS itinerary anchored at Amanpuri includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Amanpuri&apos;s breakfast & dining quality (World-class Italian & Japanese beach dining), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Opened in 1988 on a private coconut-palm headland overlooking Pansea Beach on Phuket&apos;s west coast, Forbes 5-Star Amanpuri is the original flagship of the Aman collection and our curated ultra-luxury partner for private Phuket golf escapes. Designed by Ed Tuttle around Ayutthaya-inspired Thai teak pavilions and standalone 2-to-9-bedroom Private Villas, it delivers rare seclusion far above Phuket&apos;s busy southern strips.</p>
+                        <p style={{ marginBottom: '1rem' }}>From Amanpuri&apos;s headland, private AGS touring vehicles reach Laguna Golf Phuket in 20 minutes, Red Mountain Golf Club and Loch Palm in 30 to 35 minutes, and Blue Canyon Country Club in 35 minutes, with Phuket International Airport (HKT) roughly 35 minutes north.</p>
+                        <p>Between rounds, guests have exclusive access to Pansea Beach&apos;s quiet cove, the Aman Holistic Wellness Centre with Thai bodywork and cryotherapy recovery, Nama Japanese dining, Arva Italian, and private resort yacht charters into Phang Nga Bay.</p>
                     </div>
                 </div>
             </section>
@@ -144,8 +139,8 @@ export default function Amanpuri() {
     maxScore={5.0}
     gradeBadge="The Original Aman Landmark • Forbes 5-Star • Phuket"
     inspectionDate="Curated AGS Partner — Vetted via Client Feedback"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -174,38 +169,37 @@ export default function Amanpuri() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Amanpuri to the nearest championship golf courses in Phuket?","acceptedAnswer":{"@type":"Answer","text":"Amanpuri is positioned in Pansea Beach, Surin, Phuket, Thailand, offering direct private transfer access to Blue Canyon CC (20 min), Laguna Golf (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Amanpuri?","acceptedAnswer":{"@type":"Answer","text":"Amanpuri features Luxury Suites & Private Pool Villas within a Ultra-Exclusive Private Pavilion Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Amanpuri offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Amanpuri enjoy Private Beach, Aman Spa, 2 Restaurants, alongside post-round recovery & wellness (Holistic wellness center & cryotherapy) and breakfast & dining quality (World-class Italian & Japanese beach dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Amanpuri?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Amanpuri as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which Phuket golf courses pair best with a stay at Amanpuri?","acceptedAnswer":{"@type":"Answer","text":"Laguna Golf Phuket sits 20 minutes north, Red Mountain Golf Club and Loch Palm are 30–35 minutes inland, and Blue Canyon Country Club (Canyon & Lakes courses) is roughly 35 minutes away via private AGS transfer."}},{"@type":"Question","name":"Should golf groups book Pavilions or Private Villas at Amanpuri?","acceptedAnswer":{"@type":"Answer","text":"Couples favour Ocean or Garden Pavilions perched among the coconut palms, while 4-to-12-player golf parties can reserve Amanpuri's multi-bedroom Private Villas complete with private infinity pools, live-in Thai chefs, and dedicated villa hosts."}},{"@type":"Question","name":"How private is Pansea Beach at Amanpuri compared to other Phuket resorts?","acceptedAnswer":{"@type":"Answer","text":"Pansea Beach is shared with only one neighbouring luxury estate and has no public road access, giving Amanpuri guests one of the quietest white-sand coves on Phuket's west coast."}},{"@type":"Question","name":"Can AGS arrange private Phang Nga Bay yacht days alongside our Phuket golf rounds?","acceptedAnswer":{"@type":"Answer","text":"Yes. Amanpuri operates its own fleet of sleek cruisers directly from Pansea Beach, allowing AGS to build seamless rest-day island charters between rounds at Red Mountain and Blue Canyon."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Amanpuri to the nearest championship golf courses in Phuket?",
-                    "a": "Amanpuri is positioned in Pansea Beach, Surin, Phuket, Thailand, offering direct private transfer access to Blue Canyon CC (20 min), Laguna Golf (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Amanpuri?",
-                    "a": "Amanpuri features Luxury Suites & Private Pool Villas within a Ultra-Exclusive Private Pavilion Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Amanpuri offer?",
-                    "a": "Guests at Amanpuri enjoy Private Beach, Aman Spa, 2 Restaurants, alongside post-round recovery & wellness (Holistic wellness center & cryotherapy) and breakfast & dining quality (World-class Italian & Japanese beach dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Amanpuri?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Amanpuri as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Which Phuket golf courses pair best with a stay at Amanpuri?",
+    "a": "Laguna Golf Phuket sits 20 minutes north, Red Mountain Golf Club and Loch Palm are 30–35 minutes inland, and Blue Canyon Country Club (Canyon & Lakes courses) is roughly 35 minutes away via private AGS transfer."
+  },
+  {
+    "q": "Should golf groups book Pavilions or Private Villas at Amanpuri?",
+    "a": "Couples favour Ocean or Garden Pavilions perched among the coconut palms, while 4-to-12-player golf parties can reserve Amanpuri's multi-bedroom Private Villas complete with private infinity pools, live-in Thai chefs, and dedicated villa hosts."
+  },
+  {
+    "q": "How private is Pansea Beach at Amanpuri compared to other Phuket resorts?",
+    "a": "Pansea Beach is shared with only one neighbouring luxury estate and has no public road access, giving Amanpuri guests one of the quietest white-sand coves on Phuket's west coast."
+  },
+  {
+    "q": "Can AGS arrange private Phang Nga Bay yacht days alongside our Phuket golf rounds?",
+    "a": "Yes. Amanpuri operates its own fleet of sleek cruisers directly from Pansea Beach, allowing AGS to build seamless rest-day island charters between rounds at Red Mountain and Blue Canyon."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
@@ -252,6 +246,8 @@ export default function Amanpuri() {
                 ]
             }) }} />
  
+            <AccommodationConciergeBlock hotelName="Amanpuri" location="Phuket" countryName="Thailand" />
+
             <VenueItineraries venueHref="/accommodations/thailand/amanpuri/" venueName="Amanpuri" venueType="accommodation" />
 
 </main>

@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -79,7 +80,7 @@ export default function InterContinentalDanang() {
  ["Location", "Son Tra Peninsula, Da Nang, Vietnam"],
  ["Total Rooms", "197 Rooms, Suites & Villas"],
  ["Setting", "Private cove of Son Tra UNESCO-adjacent Nature Reserve"],
- ["Nearest Golf", "Ba Na Hills GC (30 min), BRG Da Nang (25 min)"],
+ ["Nearest Golf", "BRG Da Nang (30–35 min), Montgomerie Links (35 min), Ba Na Hills (50–60 min)"],
  ["Designer", "Bill Bensley (Whimsical Luxury Concept)"],
                                     ["Global Recognition", (
                                         <span key="rec">
@@ -166,16 +167,10 @@ export default function InterContinentalDanang() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>InterContinental Danang Sun Peninsula Resort</strong> operates as a premier <strong>5 Star (IHG Luxury Collection)</strong> ultra-luxury clifftop resort positioned in Son Tra Peninsula, Da Nang, Vietnam. Featuring an architectural inventory of 197 rooms, suites & villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Four-level Heaven/Earth clifftop villas) and direct arterial access to Ba Na Hills GC (30 min), BRG Da Nang (25 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, InterContinental Danang Sun Peninsula Resort minimizes daily transit friction across the Da Nang corridor while elevating off-course recovery through private cove of son tra unesco-adjacent nature reserve and post-round recovery & wellness (Mi Sol sound therapy & clifftop pools). Every AGS itinerary anchored at InterContinental Danang Sun Peninsula Resort includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights InterContinental Danang Sun Peninsula Resort&apos;s breakfast & dining quality (La Maison 1888 by Pierre Gagnaire & Citron), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Carved dramatically into the rainforest hillsides of Son Tra Peninsula overlooking private Bai Bac Bay, InterContinental Danang Sun Peninsula Resort is Bill Bensley&apos;s theatrical Vietnamese masterpiece — and a resort Marcus has personally stayed at for marquee luxury itineraries. Its 197 rooms, suites, and beachfront villas span four ascending levels (Sea, Earth, Sky, and Heaven) connected by the Nam Tram funicular.</p>
+                        <p style={{ marginBottom: '1rem' }}>Because the resort occupies an isolated nature reserve peninsula north of Da Nang, golfers trade slightly longer morning transfers for unmatched privacy and scenery: expect 30 to 35 minutes to BRG Da Nang and Montgomerie Links, 50 to 55 minutes to Hoiana Shores, and 50 to 60 minutes to Ba Na Hills Golf Club. AGS buffers departure schedules accurately so you never rush the winding peninsula descent.</p>
+                        <p>The reward upon returning from the course is unrivalled in Vietnam: private white-sand cove swimming, Mi Sol Spa&apos;s sound-healing treatments, sunset drinks in Citron&apos;s cantilevered conical-hat booths, and Michelin-starred French fine dining at La Maison 1888.</p>
                     </div>
                 </div>
             </section>
@@ -192,8 +187,8 @@ export default function InterContinentalDanang() {
     maxScore={5.0}
     gradeBadge="Monkey Mountain Cliffside Icon • Bill Bensley"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -222,43 +217,44 @@ export default function InterContinentalDanang() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is InterContinental Danang Sun Peninsula Resort to the nearest championship golf courses in Da Nang?","acceptedAnswer":{"@type":"Answer","text":"InterContinental Danang Sun Peninsula Resort is positioned in Son Tra Peninsula, Da Nang, Vietnam, offering direct private transfer access to Ba Na Hills GC (30 min), BRG Da Nang (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at InterContinental Danang Sun Peninsula Resort?","acceptedAnswer":{"@type":"Answer","text":"InterContinental Danang Sun Peninsula Resort features 197 Rooms, Suites & Villas within a Ultra-Luxury Clifftop Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does InterContinental Danang Sun Peninsula Resort offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at InterContinental Danang Sun Peninsula Resort enjoy Private cove of Son Tra UNESCO-adjacent Nature Reserve, alongside post-round recovery & wellness (Mi Sol sound therapy & clifftop pools) and breakfast & dining quality (La Maison 1888 by Pierre Gagnaire & Citron)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at InterContinental Danang Sun Peninsula Resort?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at InterContinental Danang Sun Peninsula Resort as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the realistic golf transfer times from InterContinental Danang on Son Tra Peninsula?","acceptedAnswer":{"@type":"Answer","text":"Because the resort sits inside the scenic Son Tra Nature Reserve, allow 30–35 minutes to BRG Da Nang and Montgomerie Links, 50–55 minutes to Hoiana Shores Golf Club, and 50–60 minutes to Ba Na Hills Golf Club in your AGS private touring vehicle."}},{"@type":"Question","name":"Which level (Sea, Earth, Sky, or Heaven) should golfers book at InterContinental Danang?","acceptedAnswer":{"@type":"Answer","text":"Club InterContinental Suites on the Sky and Heaven levels offer sweeping elevated bay panoramas plus Club Lounge privileges and priority dining access, while Spa Lagoon and Bai Bac Bay Beachfront Villas give direct sand and pool seclusion."}},{"@type":"Question","name":"Can AGS arrange reservations at La Maison 1888 during our golf stay?","acceptedAnswer":{"@type":"Answer","text":"Yes. La Maison 1888 (Vietnam's Michelin-starred French restaurant helmed by Christian Le Squer) books out weeks in advance, so AGS secures your dinner table alongside your tee times."}},{"@type":"Question","name":"Is InterContinental Danang better suited for couples or large 12-player golf groups?","acceptedAnswer":{"@type":"Answer","text":"It shines brightest for couples, VIP foursomes, and executive 4-to-8-player retreats seeking bucket-list architecture, private-cove quiet, and culinary prestige rather than late-night city bar hopping."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is InterContinental Danang Sun Peninsula Resort to the nearest championship golf courses in Da Nang?",
-                    "a": "InterContinental Danang Sun Peninsula Resort is positioned in Son Tra Peninsula, Da Nang, Vietnam, offering direct private transfer access to Ba Na Hills GC (30 min), BRG Da Nang (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at InterContinental Danang Sun Peninsula Resort?",
-                    "a": "InterContinental Danang Sun Peninsula Resort features 197 Rooms, Suites & Villas within a Ultra-Luxury Clifftop Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does InterContinental Danang Sun Peninsula Resort offer?",
-                    "a": "Guests at InterContinental Danang Sun Peninsula Resort enjoy Private cove of Son Tra UNESCO-adjacent Nature Reserve, alongside post-round recovery & wellness (Mi Sol sound therapy & clifftop pools) and breakfast & dining quality (La Maison 1888 by Pierre Gagnaire & Citron)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at InterContinental Danang Sun Peninsula Resort?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at InterContinental Danang Sun Peninsula Resort as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "What are the realistic golf transfer times from InterContinental Danang on Son Tra Peninsula?",
+    "a": "Because the resort sits inside the scenic Son Tra Nature Reserve, allow 30–35 minutes to BRG Da Nang and Montgomerie Links, 50–55 minutes to Hoiana Shores Golf Club, and 50–60 minutes to Ba Na Hills Golf Club in your AGS private touring vehicle."
+  },
+  {
+    "q": "Which level (Sea, Earth, Sky, or Heaven) should golfers book at InterContinental Danang?",
+    "a": "Club InterContinental Suites on the Sky and Heaven levels offer sweeping elevated bay panoramas plus Club Lounge privileges and priority dining access, while Spa Lagoon and Bai Bac Bay Beachfront Villas give direct sand and pool seclusion."
+  },
+  {
+    "q": "Can AGS arrange reservations at La Maison 1888 during our golf stay?",
+    "a": "Yes. La Maison 1888 (Vietnam's Michelin-starred French restaurant helmed by Christian Le Squer) books out weeks in advance, so AGS secures your dinner table alongside your tee times."
+  },
+  {
+    "q": "Is InterContinental Danang better suited for couples or large 12-player golf groups?",
+    "a": "It shines brightest for couples, VIP foursomes, and executive 4-to-8-player retreats seeking bucket-list architecture, private-cove quiet, and culinary prestige rather than late-night city bar hopping."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="InterContinental Danang Sun Peninsula Resort" location="Da Nang" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/intercontinental-danang/" venueName="InterContinental Danang Sun Peninsula Resort" venueType="accommodation" />
 

@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -129,16 +130,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>FLC Grand Hotel Ha Long</strong> operates as a premier <strong>5 Star</strong> golf resort positioned in Ha Long, Vietnam. Featuring an architectural inventory of 649 rooms & villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Panoramic bayview balconies) and direct arterial access to FLC Ha Long Bay Golf Club (On-site).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, FLC Grand Hotel Ha Long minimizes daily transit friction across the Ha Long corridor while elevating off-course recovery through on-site golf, infinity pool, grand spa and post-round recovery & wellness (Direct golf access, indoor & outdoor pools). Every AGS itinerary anchored at FLC Grand Hotel Ha Long includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights FLC Grand Hotel Ha Long&apos;s breakfast & dining quality (Grand buffet & rooftop sky lounge), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Perched roughly 100 metres above Ha Long City with sweeping views over the limestone karsts of UNESCO-listed Ha Long Bay, the 649-room FLC Grand Hotel Ha Long is Northern Vietnam&apos;s premier hilltop stay-and-play base. During our site verifications, its commanding elevation above the bay and seamless integration with the on-site championship golf course make it the logical anchor for Quang Ninh golf itineraries.</p>
+                        <p style={{ marginBottom: '1rem' }}>Golfers wake up steps from the Schmidt-Curley-designed FLC Ha Long Bay Golf Club, where several elevated holes frame the bay itself — eliminating morning commutes entirely. It also connects smoothly by highway to Silk Path Dong Trieu Golf &amp; Country Club (55 minutes) and Dragon Golf Links in Hai Phong (60 minutes).</p>
+                        <p>Between rounds, the resort provides an expansive outdoor bay-view infinity pool, an indoor heated pool for cooler northern winter mornings (November through March), Grand Spa, and rooftop sky-bar sunset views before optional overnight Ha Long Bay luxury cruises.</p>
                     </div>
                 </div>
             </section>
@@ -155,8 +150,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Clifftop UNESCO Resort • Ha Long"
     inspectionDate="Site-Verified by AGS On-Ground Team"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -185,43 +180,44 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is FLC Grand Hotel Ha Long to the nearest championship golf courses in Ha Long?","acceptedAnswer":{"@type":"Answer","text":"FLC Grand Hotel Ha Long is positioned in Ha Long, Vietnam, offering direct private transfer access to FLC Ha Long Bay Golf Club (On-site). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at FLC Grand Hotel Ha Long?","acceptedAnswer":{"@type":"Answer","text":"FLC Grand Hotel Ha Long features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does FLC Grand Hotel Ha Long offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at FLC Grand Hotel Ha Long enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Direct golf access, indoor & outdoor pools) and breakfast & dining quality (Grand buffet & rooftop sky lounge)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at FLC Grand Hotel Ha Long?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at FLC Grand Hotel Ha Long as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is FLC Ha Long Bay Golf Club located on-site at FLC Grand Hotel Ha Long?","acceptedAnswer":{"@type":"Answer","text":"Yes. The clubhouse sits directly within the hilltop resort complex — just a 2-to-3-minute shuttle or buggy ride from the hotel lobby."}},{"@type":"Question","name":"How long is the drive from Hanoi or Hai Phong Airport to FLC Grand Hotel Ha Long?","acceptedAnswer":{"@type":"Answer","text":"Via the modern Hanoi–Hai Phong–Ha Long expressway, private AGS transfers take approximately 2 hours 15 minutes from central Hanoi, 2 hours 30 minutes from Noi Bai Airport (HAN), or 50 minutes from Cat Bi Airport (HPH) in Hai Phong."}},{"@type":"Question","name":"Can we combine a stay at FLC Grand Hotel Ha Long with an overnight Ha Long Bay cruise?","acceptedAnswer":{"@type":"Answer","text":"Yes. Tuan Chau Marina and Ha Long International Cruise Port sit 15–20 minutes downhill from the hotel, allowing AGS to store your golf bags securely while you spend 1 or 2 nights cruising the bay."}},{"@type":"Question","name":"What is the best time of year for golf at FLC Grand Hotel Ha Long?","acceptedAnswer":{"@type":"Answer","text":"October through April offers the crispest playing temperatures (18–26°C) and clear views over the karsts; note that December through February mornings can be cool, so pack a light windproof layer."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is FLC Grand Hotel Ha Long to the nearest championship golf courses in Ha Long?",
-                    "a": "FLC Grand Hotel Ha Long is positioned in Ha Long, Vietnam, offering direct private transfer access to FLC Ha Long Bay Golf Club (On-site). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at FLC Grand Hotel Ha Long?",
-                    "a": "FLC Grand Hotel Ha Long features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does FLC Grand Hotel Ha Long offer?",
-                    "a": "Guests at FLC Grand Hotel Ha Long enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Direct golf access, indoor & outdoor pools) and breakfast & dining quality (Grand buffet & rooftop sky lounge)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at FLC Grand Hotel Ha Long?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at FLC Grand Hotel Ha Long as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Is FLC Ha Long Bay Golf Club located on-site at FLC Grand Hotel Ha Long?",
+    "a": "Yes. The clubhouse sits directly within the hilltop resort complex — just a 2-to-3-minute shuttle or buggy ride from the hotel lobby."
+  },
+  {
+    "q": "How long is the drive from Hanoi or Hai Phong Airport to FLC Grand Hotel Ha Long?",
+    "a": "Via the modern Hanoi–Hai Phong–Ha Long expressway, private AGS transfers take approximately 2 hours 15 minutes from central Hanoi, 2 hours 30 minutes from Noi Bai Airport (HAN), or 50 minutes from Cat Bi Airport (HPH) in Hai Phong."
+  },
+  {
+    "q": "Can we combine a stay at FLC Grand Hotel Ha Long with an overnight Ha Long Bay cruise?",
+    "a": "Yes. Tuan Chau Marina and Ha Long International Cruise Port sit 15–20 minutes downhill from the hotel, allowing AGS to store your golf bags securely while you spend 1 or 2 nights cruising the bay."
+  },
+  {
+    "q": "What is the best time of year for golf at FLC Grand Hotel Ha Long?",
+    "a": "October through April offers the crispest playing temperatures (18–26°C) and clear views over the karsts; note that December through February mornings can be cool, so pack a light windproof layer."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="FLC Grand Hotel Ha Long" location="Ha Long" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/flc-halong-bay/" venueName="FLC Grand Hotel Ha Long" venueType="accommodation" />
 

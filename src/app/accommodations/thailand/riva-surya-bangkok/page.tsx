@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -129,16 +130,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Riva Surya Bangkok</strong> operates as a premier <strong>5 Star</strong> riverside boutique hotel positioned in Bangkok, Thailand. Featuring an architectural inventory of 68 rooms, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Riverfront balcony rooms with views) and direct arterial access to Alpine Golf Club (60 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Riva Surya Bangkok minimizes daily transit friction across the Bangkok corridor while elevating off-course recovery through riverside pool, babble & rum restaurant and post-round recovery & wellness (Riverside pool & peaceful sun deck). Every AGS itinerary anchored at Riva Surya Bangkok includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Riva Surya Bangkok&apos;s breakfast & dining quality (Babble & Rum waterside dining & cocktails), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Positioned directly on the banks of the Chao Phraya River along historic Phra Arthit Road, the 68-room Riva Surya Bangkok is a stylish boutique riverside alternative to Bangkok&apos;s sprawling glass towers — personally stayed at and vetted by Marcus. Its river-facing balcony rooms watch longtail boats and illuminated temple ferries glide past right below your terrace.</p>
+                        <p style={{ marginBottom: '1rem' }}>For golfers who want authentic Old Bangkok atmosphere, Grand Palace proximity, and breezy riverfront evenings while playing the city&apos;s northern and western courses, AGS schedules prompt morning departures from Phra Arthit before peak traffic — reaching Nikanti Golf Club, Thai Country Club, Alpine Golf Club, or Riverdale in 50 to 70 minutes.</p>
+                        <p>After a warm round on Bangkok&apos;s championship layouts, the riverfront swimming pool and Babble &amp; Rum&apos;s waterside terrace provide relaxed sunset drinks and modern Thai dining without the formality of a massive convention hotel.</p>
                     </div>
                 </div>
             </section>
@@ -155,8 +150,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Chao Phraya Riverfront Boutique • Bangkok"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -185,43 +180,44 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Riva Surya Bangkok to the nearest championship golf courses in Bangkok?","acceptedAnswer":{"@type":"Answer","text":"Riva Surya Bangkok is positioned in Bangkok, Thailand, offering direct private transfer access to Alpine Golf Club (60 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Riva Surya Bangkok?","acceptedAnswer":{"@type":"Answer","text":"Riva Surya Bangkok features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Riva Surya Bangkok offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Riva Surya Bangkok enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Riverside pool & peaceful sun deck) and breakfast & dining quality (Babble & Rum waterside dining & cocktails)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Riva Surya Bangkok?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Riva Surya Bangkok as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why choose Riva Surya Bangkok over a Sukhumvit high-rise hotel for a Bangkok golf trip?","acceptedAnswer":{"@type":"Answer","text":"Riva Surya offers intimate 68-room riverside charm, direct Chao Phraya River ferry access right beside the hotel, walkable heritage lanes, and relaxed sunset drinks at Babble & Rum — ideal for couples and small groups who prefer character over corporate towers."}},{"@type":"Question","name":"What are realistic morning golf transfer times from Riva Surya Bangkok?","acceptedAnswer":{"@type":"Answer","text":"Allow 45–55 minutes to Riverdale Golf Club, 55–65 minutes to Alpine Golf Club or Nikanti Golf Club, and 60–70 minutes to Thai Country Club or Amata Spring with early AGS morning departures."}},{"@type":"Question","name":"Which room categories at Riva Surya Bangkok have river balconies?","acceptedAnswer":{"@type":"Answer","text":"Riva Rooms and Premium Riva Suites face the Chao Phraya River directly with private timber balconies; Urban Rooms face Phra Arthit Road and suit budget-conscious stays."}},{"@type":"Question","name":"Is Phra Arthit Road convenient for sightseeing and evening dining?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Grand Palace, Wat Pho, Wat Arun (via river ferry), indie riverside cafes, and boutique cocktail bars sit within minutes of the front lobby, while Asiatique and ICONSIAM are a scenic boat ride south."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Riva Surya Bangkok to the nearest championship golf courses in Bangkok?",
-                    "a": "Riva Surya Bangkok is positioned in Bangkok, Thailand, offering direct private transfer access to Alpine Golf Club (60 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Riva Surya Bangkok?",
-                    "a": "Riva Surya Bangkok features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Riva Surya Bangkok offer?",
-                    "a": "Guests at Riva Surya Bangkok enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Riverside pool & peaceful sun deck) and breakfast & dining quality (Babble & Rum waterside dining & cocktails)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Riva Surya Bangkok?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Riva Surya Bangkok as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Why choose Riva Surya Bangkok over a Sukhumvit high-rise hotel for a Bangkok golf trip?",
+    "a": "Riva Surya offers intimate 68-room riverside charm, direct Chao Phraya River ferry access right beside the hotel, walkable heritage lanes, and relaxed sunset drinks at Babble & Rum — ideal for couples and small groups who prefer character over corporate towers."
+  },
+  {
+    "q": "What are realistic morning golf transfer times from Riva Surya Bangkok?",
+    "a": "Allow 45–55 minutes to Riverdale Golf Club, 55–65 minutes to Alpine Golf Club or Nikanti Golf Club, and 60–70 minutes to Thai Country Club or Amata Spring with early AGS morning departures."
+  },
+  {
+    "q": "Which room categories at Riva Surya Bangkok have river balconies?",
+    "a": "Riva Rooms and Premium Riva Suites face the Chao Phraya River directly with private timber balconies; Urban Rooms face Phra Arthit Road and suit budget-conscious stays."
+  },
+  {
+    "q": "Is Phra Arthit Road convenient for sightseeing and evening dining?",
+    "a": "Yes. The Grand Palace, Wat Pho, Wat Arun (via river ferry), indie riverside cafes, and boutique cocktail bars sit within minutes of the front lobby, while Asiatique and ICONSIAM are a scenic boat ride south."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Riva Surya Bangkok" location="Bangkok" countryName="Thailand" />
 
             <VenueItineraries venueHref="/accommodations/thailand/riva-surya-bangkok/" venueName="Riva Surya Bangkok" venueType="accommodation" />
 

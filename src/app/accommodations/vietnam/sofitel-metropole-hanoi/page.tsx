@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -173,16 +174,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Sofitel Legend Metropole Hanoi</strong> operates as a premier <strong>5 Star</strong> luxury heritage hotel positioned in Hanoi, Vietnam. Featuring an architectural inventory of bespoke luxury suites, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Timeless French colonial wing suites) and direct arterial access to Long Bien Golf Course, BRG Legend Hill.
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Sofitel Legend Metropole Hanoi minimizes daily transit friction across the Hanoi corridor while elevating off-course recovery through le spa du metropole, heated pool, historic bunker and post-round recovery & wellness (Le Spa du Metropole therapy). Every AGS itinerary anchored at Sofitel Legend Metropole Hanoi includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Sofitel Legend Metropole Hanoi&apos;s breakfast & dining quality (Le Beaulieu French fine dining & Bamboo Bar), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Standing proudly in Hanoi&apos;s French Quarter since 1901, Forbes 5-Star Sofitel Legend Metropole Hanoi is Indochina&apos;s most storied grand hotel — and a landmark Marcus has personally stayed at for heritage-focused Northern Vietnam golf tours. Between the timber-shuttered Heritage Wing and the contemporary Opera Wing, its leafy courtyard pool and historic wartime bunker create an atmosphere no modern tower can replicate.</p>
+                        <p style={{ marginBottom: '1rem' }}>From Hoan Kiem, AGS private transfers connect smoothly to Long Bien Golf Course (25 to 30 minutes), Van Tri Golf Club (35 to 40 minutes), BRG Legend Hill (45 to 50 minutes), Sky Lake (55 to 60 minutes), and BRG Kings Island (60 minutes). The hotel&apos;s seasoned concierge team handles early golf-bag staging seamlessly every morning.</p>
+                        <p>Post-round traditions here are unmatched in Hanoi: cool off beside the heated courtyard pool with a cocktail at Bamboo Bar, book a deep-tissue session at Le Spa du Metropole, and dine on Michelin-recognised French cuisine at Le Beaulieu or northern Vietnamese classics at Spice Garden.</p>
                     </div>
                 </div>
             </section>
@@ -199,8 +194,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Historic French Colonial Legend • Forbes 5-Star"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -228,43 +223,44 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Sofitel Legend Metropole Hanoi to the nearest championship golf courses in Hanoi?","acceptedAnswer":{"@type":"Answer","text":"Sofitel Legend Metropole Hanoi is positioned in Hanoi, Vietnam, offering direct private transfer access to Long Bien Golf Course, BRG Legend Hill. Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Sofitel Legend Metropole Hanoi?","acceptedAnswer":{"@type":"Answer","text":"Sofitel Legend Metropole Hanoi features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Sofitel Legend Metropole Hanoi offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Sofitel Legend Metropole Hanoi enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Le Spa du Metropole therapy) and breakfast & dining quality (Le Beaulieu French fine dining & Bamboo Bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Sofitel Legend Metropole Hanoi?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Sofitel Legend Metropole Hanoi as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Should golfers book the Heritage Wing or the Opera Wing at Sofitel Legend Metropole Hanoi?","acceptedAnswer":{"@type":"Answer","text":"Choose the freshly restored Heritage Wing for classic 1901 colonial architecture, hardwood floors, and French shutters; choose the Opera Wing for slightly larger contemporary rooms, neoclassical marble bathrooms, and Club Metropole Lounge access."}},{"@type":"Question","name":"How far is Sofitel Legend Metropole Hanoi from Hanoi's championship golf courses?","acceptedAnswer":{"@type":"Answer","text":"Long Bien Golf Course is 25–30 minutes away, Van Tri Golf Club is 35–40 minutes, BRG Legend Hill is 45–50 minutes, and Sky Lake or BRG Kings Island are roughly 55–60 minutes by private AGS vehicle."}},{"@type":"Question","name":"Is the Metropole courtyard pool heated during Hanoi's cooler winter golf season?","acceptedAnswer":{"@type":"Answer","text":"Yes. Unlike many Hanoi hotel pools, the Metropole's iconic courtyard swimming pool is heated year-round, making post-round swims comfortable even from November through February."}},{"@type":"Question","name":"What cultural and dining highlights are on-site at the Metropole?","acceptedAnswer":{"@type":"Answer","text":"Guests receive complimentary guided tours of the hotel's preserved Path of History & wartime bunker, alongside classic French fine dining at Le Beaulieu, Angelina whisky lounge, and Bamboo Bar."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Sofitel Legend Metropole Hanoi to the nearest championship golf courses in Hanoi?",
-                    "a": "Sofitel Legend Metropole Hanoi is positioned in Hanoi, Vietnam, offering direct private transfer access to Long Bien Golf Course, BRG Legend Hill. Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Sofitel Legend Metropole Hanoi?",
-                    "a": "Sofitel Legend Metropole Hanoi features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Sofitel Legend Metropole Hanoi offer?",
-                    "a": "Guests at Sofitel Legend Metropole Hanoi enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Le Spa du Metropole therapy) and breakfast & dining quality (Le Beaulieu French fine dining & Bamboo Bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Sofitel Legend Metropole Hanoi?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Sofitel Legend Metropole Hanoi as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Should golfers book the Heritage Wing or the Opera Wing at Sofitel Legend Metropole Hanoi?",
+    "a": "Choose the freshly restored Heritage Wing for classic 1901 colonial architecture, hardwood floors, and French shutters; choose the Opera Wing for slightly larger contemporary rooms, neoclassical marble bathrooms, and Club Metropole Lounge access."
+  },
+  {
+    "q": "How far is Sofitel Legend Metropole Hanoi from Hanoi's championship golf courses?",
+    "a": "Long Bien Golf Course is 25–30 minutes away, Van Tri Golf Club is 35–40 minutes, BRG Legend Hill is 45–50 minutes, and Sky Lake or BRG Kings Island are roughly 55–60 minutes by private AGS vehicle."
+  },
+  {
+    "q": "Is the Metropole courtyard pool heated during Hanoi's cooler winter golf season?",
+    "a": "Yes. Unlike many Hanoi hotel pools, the Metropole's iconic courtyard swimming pool is heated year-round, making post-round swims comfortable even from November through February."
+  },
+  {
+    "q": "What cultural and dining highlights are on-site at the Metropole?",
+    "a": "Guests receive complimentary guided tours of the hotel's preserved Path of History & wartime bunker, alongside classic French fine dining at Le Beaulieu, Angelina whisky lounge, and Bamboo Bar."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Sofitel Legend Metropole Hanoi" location="Hanoi" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/sofitel-metropole-hanoi/" venueName="Sofitel Legend Metropole Hanoi" venueType="accommodation" />
 

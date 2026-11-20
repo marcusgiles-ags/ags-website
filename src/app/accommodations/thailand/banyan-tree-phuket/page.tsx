@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -132,16 +133,10 @@ export default function BanyanTreePhuket() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Banyan Tree Phuket</strong> operates as a premier <strong>5 Star (Banyan Tree Collection)</strong> ultra-luxury all-pool-villa resort positioned in Laguna Phuket, Bang Tao Bay, Phuket, Thailand. Featuring an architectural inventory of luxury suites & private pool villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Expansive private pool villas) and direct arterial access to Laguna Golf Phuket (on-site, 2 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Banyan Tree Phuket minimizes daily transit friction across the Phuket corridor while elevating off-course recovery through doublepool villas, villa host, banyan tree spa and post-round recovery & wellness (Iconic Banyan Tree Spa originator). Every AGS itinerary anchored at Banyan Tree Phuket includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Banyan Tree Phuket&apos;s breakfast & dining quality (Saffron Thai fine dining & golf clubhouse), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Set beside shimmering saltwater lagoons inside the gated Laguna Phuket estate along Bang Tao Bay, the 150-villa Banyan Tree Phuket is an all-pool-villa classic that Marcus has personally stayed at and consistently recommends as Phuket&apos;s easiest luxury golf basecamp. Every guest stays in a high-walled tropical garden pool villa — from Serenity Pool Villas for couples to expansive DoublePool Villas for milestone stays.</p>
+                        <p style={{ marginBottom: '1rem' }}>Golf access is genuinely doorstep-simple: Sir Nick Faldo&apos;s Laguna Golf Phuket sits two minutes away inside the same estate with complimentary resort buggy transfers straight to the clubhouse. Beyond Laguna, private AGS transfers reach Blue Canyon Country Club in 25 minutes and Red Mountain Golf Club in 35 minutes.</p>
+                        <p>After 18 holes, golfers return to the original Banyan Tree Spa — renowned across Asia for deep sports-recovery therapies — followed by signature Thai fine dining at Saffron, breezy drinks along Bang Tao Beach, and Boat Avenue&apos;s vibrant restaurants five minutes outside the gate.</p>
                     </div>
                 </div>
             </section>
@@ -158,8 +153,8 @@ export default function BanyanTreePhuket() {
     maxScore={5.0}
     gradeBadge="Laguna Luxury Pool Villa Icon • Phuket"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -188,43 +183,44 @@ export default function BanyanTreePhuket() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Banyan Tree Phuket to the nearest championship golf courses in Phuket?","acceptedAnswer":{"@type":"Answer","text":"Banyan Tree Phuket is positioned in Laguna Phuket, Bang Tao Bay, Phuket, Thailand, offering direct private transfer access to Laguna Golf Phuket (on-site, 2 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Banyan Tree Phuket?","acceptedAnswer":{"@type":"Answer","text":"Banyan Tree Phuket features Luxury Suites & Private Pool Villas within a Ultra-Luxury All-Pool-Villa Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Banyan Tree Phuket offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Banyan Tree Phuket enjoy DoublePool Villas, Villa Host, Banyan Tree Spa, alongside post-round recovery & wellness (Iconic Banyan Tree Spa originator) and breakfast & dining quality (Saffron Thai fine dining & golf clubhouse)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Banyan Tree Phuket?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Banyan Tree Phuket as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Banyan Tree Phuket to Laguna Golf Phuket and Red Mountain?","acceptedAnswer":{"@type":"Answer","text":"Laguna Golf Phuket is on-site inside the Laguna estate (2 minutes by resort buggy). Blue Canyon Country Club is roughly 25 minutes north, and Red Mountain Golf Club is 35 minutes inland via private AGS vehicle."}},{"@type":"Question","name":"What are the best villa categories at Banyan Tree Phuket for golf groups?","acceptedAnswer":{"@type":"Answer","text":"Two-Bedroom Pool Villas and DoublePool Villas give fourballs shared poolside entertaining pavilions with separate bedrooms and dedicated Villa Hosts, while Banyan Pool Villas are ideal for couples and single-occupancy golfers."}},{"@type":"Question","name":"How far is Banyan Tree Phuket from Phuket International Airport (HKT)?","acceptedAnswer":{"@type":"Answer","text":"Phuket International Airport is approximately 25–30 minutes north via private AGS airport transfer, avoiding the heavier traffic around Patong and southern Phuket."}},{"@type":"Question","name":"Are there dining and nightlife options outside the resort within easy reach?","acceptedAnswer":{"@type":"Answer","text":"Yes. Aside from Banyan Tree's Saffron, Watercourt, and Tre restaurants, Bang Tao Beach's chic beach clubs (Catch, Carpe Diem) and Boat Avenue's dining precinct sit just 5–10 minutes away."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Banyan Tree Phuket to the nearest championship golf courses in Phuket?",
-                    "a": "Banyan Tree Phuket is positioned in Laguna Phuket, Bang Tao Bay, Phuket, Thailand, offering direct private transfer access to Laguna Golf Phuket (on-site, 2 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Banyan Tree Phuket?",
-                    "a": "Banyan Tree Phuket features Luxury Suites & Private Pool Villas within a Ultra-Luxury All-Pool-Villa Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Banyan Tree Phuket offer?",
-                    "a": "Guests at Banyan Tree Phuket enjoy DoublePool Villas, Villa Host, Banyan Tree Spa, alongside post-round recovery & wellness (Iconic Banyan Tree Spa originator) and breakfast & dining quality (Saffron Thai fine dining & golf clubhouse)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Banyan Tree Phuket?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Banyan Tree Phuket as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How close is Banyan Tree Phuket to Laguna Golf Phuket and Red Mountain?",
+    "a": "Laguna Golf Phuket is on-site inside the Laguna estate (2 minutes by resort buggy). Blue Canyon Country Club is roughly 25 minutes north, and Red Mountain Golf Club is 35 minutes inland via private AGS vehicle."
+  },
+  {
+    "q": "What are the best villa categories at Banyan Tree Phuket for golf groups?",
+    "a": "Two-Bedroom Pool Villas and DoublePool Villas give fourballs shared poolside entertaining pavilions with separate bedrooms and dedicated Villa Hosts, while Banyan Pool Villas are ideal for couples and single-occupancy golfers."
+  },
+  {
+    "q": "How far is Banyan Tree Phuket from Phuket International Airport (HKT)?",
+    "a": "Phuket International Airport is approximately 25–30 minutes north via private AGS airport transfer, avoiding the heavier traffic around Patong and southern Phuket."
+  },
+  {
+    "q": "Are there dining and nightlife options outside the resort within easy reach?",
+    "a": "Yes. Aside from Banyan Tree's Saffron, Watercourt, and Tre restaurants, Bang Tao Beach's chic beach clubs (Catch, Carpe Diem) and Boat Avenue's dining precinct sit just 5–10 minutes away."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Banyan Tree Phuket" location="Phuket" countryName="Thailand" />
 
             <VenueItineraries venueHref="/accommodations/thailand/banyan-tree-phuket/" venueName="Banyan Tree Phuket" venueType="accommodation" />
 

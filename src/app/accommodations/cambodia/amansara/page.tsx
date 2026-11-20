@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -110,16 +111,10 @@ export default function Amansara() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Amansara</strong> operates as a premier <strong>5 Star (Aman Collection)</strong> ultra-exclusive heritage villa hotel positioned in Charles de Gaulle Street, Siem Reap, Cambodia. Featuring an architectural inventory of luxury suites & private pool villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Minimalist New Khmer pool suites) and direct arterial access to Angkor Golf Resort (10 min), Phokeethra CC (15 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Amansara minimizes daily transit friction across the Siem Reap corridor while elevating off-course recovery through custom remorks, private pool, aman spa and post-round recovery & wellness (Aman Spa Apsara water rituals). Every AGS itinerary anchored at Amansara includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Amansara&apos;s breakfast & dining quality (Custom royal Khmer pavilion dining), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Originally built in 1962 as the private guesthouse for King Norodom Sihanouk on tree-lined Road to Angkor, the 24-suite Amansara is Cambodia&apos;s most exclusive architectural sanctuary — and our curated ultra-luxury partner in Siem Reap. Behind discreet white garden walls, modernist New Khmer curves surround a calm courtyard lawn and curving lap pool just ten minutes from Angkor Wat.</p>
+                        <p style={{ marginBottom: '1rem' }}>Golfers staying at Amansara enjoy rapid, zero-stress private AGS transfers to Sir Nick Faldo&apos;s Angkor Golf Resort (15 minutes) and Phokeethra Country Club (25 minutes), while custom-fitted Amansara remorks and expert temple historians handle sunrise Angkor Archaeological Park visits on non-golf mornings.</p>
+                        <p>Between rounds, guests retreat to 12 private-pool Courtyard Suites or the serene Aman Spa with Khmer herbal water therapies, followed by seasonal Cambodian and Western dining inside the soaring circular dining room or private candlelit picnics beside Angkor&apos;s quiet rural reservoirs.</p>
                     </div>
                 </div>
             </section>
@@ -136,8 +131,8 @@ export default function Amansara() {
     maxScore={5.0}
     gradeBadge="Former Royal Guest House • Siem Reap"
     inspectionDate="Curated AGS Partner — Vetted via Client Feedback"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -166,38 +161,37 @@ export default function Amansara() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Amansara to the nearest championship golf courses in Siem Reap?","acceptedAnswer":{"@type":"Answer","text":"Amansara is positioned in Charles de Gaulle Street, Siem Reap, Cambodia, offering direct private transfer access to Angkor Golf Resort (10 min), Phokeethra CC (15 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Amansara?","acceptedAnswer":{"@type":"Answer","text":"Amansara features Luxury Suites & Private Pool Villas within a Ultra-Exclusive Heritage Villa Hotel setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Amansara offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Amansara enjoy Custom Remorks, Private Pool, Aman Spa, alongside post-round recovery & wellness (Aman Spa Apsara water rituals) and breakfast & dining quality (Custom royal Khmer pavilion dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Amansara?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Amansara as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How far is Amansara from Siem Reap's championship golf courses?","acceptedAnswer":{"@type":"Answer","text":"Angkor Golf Resort sits approximately 15 minutes west, Phokeethra Country Club is 25 minutes west, and Siem Reap Booyoung Country Club is 20 minutes away via private AGS touring vehicle."}},{"@type":"Question","name":"What is included in a stay at Amansara booked through Asia Golf Specialists?","acceptedAnswer":{"@type":"Answer","text":"Amansara stays include daily breakfast, choice of lunch or dinner, non-alcoholic beverages, complimentary remork transport around Siem Reap, daily laundry, and private guided temple excursions (with AGS layering in golf transfers and tee times)."}},{"@type":"Question","name":"Should we choose standard Suites or Pool Suites at Amansara?","acceptedAnswer":{"@type":"Answer","text":"All 24 suites share spacious open-plan modernist living rooms and private walled gardens; Pool Suites add a heated private plunge pool inside your courtyard — our top recommendation for warm post-round afternoons."}},{"@type":"Question","name":"How long is the transfer from Siem Reap Angkor International Airport (SAI) to Amansara?","acceptedAnswer":{"@type":"Answer","text":"The new Siem Reap Angkor International Airport (SAI) lies roughly 50–60 minutes east of Siem Reap; AGS or Amansara's private fleet handles seamless VIP tarmac-to-suite transfers."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Amansara to the nearest championship golf courses in Siem Reap?",
-                    "a": "Amansara is positioned in Charles de Gaulle Street, Siem Reap, Cambodia, offering direct private transfer access to Angkor Golf Resort (10 min), Phokeethra CC (15 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Amansara?",
-                    "a": "Amansara features Luxury Suites & Private Pool Villas within a Ultra-Exclusive Heritage Villa Hotel setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Amansara offer?",
-                    "a": "Guests at Amansara enjoy Custom Remorks, Private Pool, Aman Spa, alongside post-round recovery & wellness (Aman Spa Apsara water rituals) and breakfast & dining quality (Custom royal Khmer pavilion dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Amansara?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Amansara as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How far is Amansara from Siem Reap's championship golf courses?",
+    "a": "Angkor Golf Resort sits approximately 15 minutes west, Phokeethra Country Club is 25 minutes west, and Siem Reap Booyoung Country Club is 20 minutes away via private AGS touring vehicle."
+  },
+  {
+    "q": "What is included in a stay at Amansara booked through Asia Golf Specialists?",
+    "a": "Amansara stays include daily breakfast, choice of lunch or dinner, non-alcoholic beverages, complimentary remork transport around Siem Reap, daily laundry, and private guided temple excursions (with AGS layering in golf transfers and tee times)."
+  },
+  {
+    "q": "Should we choose standard Suites or Pool Suites at Amansara?",
+    "a": "All 24 suites share spacious open-plan modernist living rooms and private walled gardens; Pool Suites add a heated private plunge pool inside your courtyard — our top recommendation for warm post-round afternoons."
+  },
+  {
+    "q": "How long is the transfer from Siem Reap Angkor International Airport (SAI) to Amansara?",
+    "a": "The new Siem Reap Angkor International Airport (SAI) lies roughly 50–60 minutes east of Siem Reap; AGS or Amansara's private fleet handles seamless VIP tarmac-to-suite transfers."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
@@ -228,7 +222,9 @@ export default function Amansara() {
                 ]
             }) }} />
  
- <VenueItineraries venueHref="/accommodations/cambodia/amansara/" venueName="Amansara" venueType="accommodation" />
+ <AccommodationConciergeBlock hotelName="Amansara" location="Siem Reap" countryName="Cambodia" />
+
+            <VenueItineraries venueHref="/accommodations/cambodia/amansara/" venueName="Amansara" venueType="accommodation" />
 
 </main>
  );

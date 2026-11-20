@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -131,16 +132,10 @@ export default function ChivaSom() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Chiva-Som International Health Resort</strong> operates as a premier <strong>5 Star (Independently Managed)</strong> international health & wellness resort positioned in Hua Hin, Prachuap Khiri Khan, Thailand. Featuring an architectural inventory of 54 suites & pavilions (exclusive setting), the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Oceanfront rooms & digital detox calm) and direct arterial access to Black Mountain GC (20 min), Banyan GC (25 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Chiva-Som International Health Resort minimizes daily transit friction across the Hua Hin corridor while elevating off-course recovery through 57 treatment rooms, medical wellness, pool and post-round recovery & wellness (World-famous physiotherapy & sports rehab). Every AGS itinerary anchored at Chiva-Som International Health Resort includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Chiva-Som International Health Resort&apos;s breakfast & dining quality (Gourmet nutritional spa cuisine), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Occupying seven acres of serene beachfront gardens along the Gulf of Thailand in royal Hua Hin, the 54-room Chiva-Som International Health Resort is one of the world&apos;s most celebrated destination wellness retreats — and a property Marcus has personally stayed at. Designed around holistic physical longevity, its adults-only, device-conscious grounds offer deep stillness unmatched by conventional beach hotels.</p>
+                        <p style={{ marginBottom: '1rem' }}>For golfers wanting to pair championship Thai fairways with serious sports physiotherapy, mobility work, and post-round recovery, Chiva-Som sits roughly 20 to 25 minutes from Black Mountain Golf Club and Pineapple Valley (formerly Banyan) Golf Club. AGS structures tee times to dovetail cleanly with your daily scheduled physiotherapy, hydrotherapy, and personal training sessions.</p>
+                        <p>Dining centres on vibrant, nutrient-dense spa cuisine at Taste of Siam and Emerald Room, supported by 57 treatment rooms, saltwater watsu pools, infrared saunas, and medical-grade sports rehab specialists.</p>
                     </div>
                 </div>
             </section>
@@ -157,8 +152,8 @@ export default function ChivaSom() {
     maxScore={5.0}
     gradeBadge="World-Leading Health & Wellness Pioneer • Hua Hin"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -187,43 +182,44 @@ export default function ChivaSom() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Chiva-Som International Health Resort to the nearest championship golf courses in Hua Hin?","acceptedAnswer":{"@type":"Answer","text":"Chiva-Som International Health Resort is positioned in Hua Hin, Prachuap Khiri Khan, Thailand, offering direct private transfer access to Black Mountain GC (20 min), Banyan GC (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Chiva-Som International Health Resort?","acceptedAnswer":{"@type":"Answer","text":"Chiva-Som International Health Resort features 54 Suites & Pavilions (exclusive setting) within a International Health & Wellness Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Chiva-Som International Health Resort offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Chiva-Som International Health Resort enjoy 57 Treatment Rooms, Medical Wellness, Pool, alongside post-round recovery & wellness (World-famous physiotherapy & sports rehab) and breakfast & dining quality (Gourmet nutritional spa cuisine)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Chiva-Som International Health Resort?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Chiva-Som International Health Resort as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you actually play golf while staying on a wellness retreat at Chiva-Som Hua Hin?","acceptedAnswer":{"@type":"Answer","text":"Yes. While Chiva-Som is primarily an immersive wellness sanctuary, AGS coordinates morning tee times at Black Mountain (25 min) and Pineapple Valley (20 min) paired with targeted afternoon sports physiotherapy, stretching, and recovery sessions back at the resort."}},{"@type":"Question","name":"What is included in a Chiva-Som stay booked through AGS?","acceptedAnswer":{"@type":"Answer","text":"All Chiva-Som retreats include three tailored wellness meals daily, an initial health & wellness consultation, daily massage or treatment allowance, unlimited group movement classes, and full access to the hydrotherapy suites and gymnasium."}},{"@type":"Question","name":"What should golf groups know about Chiva-Som's house rules before booking?","acceptedAnswer":{"@type":"Answer","text":"Chiva-Som welcomes guests aged 16+ and maintains quiet, phone-free public areas plus a refined, wellness-focused evening atmosphere — making it best suited to couples, solo golfers, and wellness-minded pairs rather than loud buddy-trip parties."}},{"@type":"Question","name":"How long is the private transfer from Bangkok Airport (BKK) to Chiva-Som Hua Hin?","acceptedAnswer":{"@type":"Answer","text":"Expect approximately 2 hours 45 minutes to 3 hours door-to-door from Suvarnabhumi Airport (BKK) in an AGS luxury private touring vehicle."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Chiva-Som International Health Resort to the nearest championship golf courses in Hua Hin?",
-                    "a": "Chiva-Som International Health Resort is positioned in Hua Hin, Prachuap Khiri Khan, Thailand, offering direct private transfer access to Black Mountain GC (20 min), Banyan GC (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Chiva-Som International Health Resort?",
-                    "a": "Chiva-Som International Health Resort features 54 Suites & Pavilions (exclusive setting) within a International Health & Wellness Resort setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Chiva-Som International Health Resort offer?",
-                    "a": "Guests at Chiva-Som International Health Resort enjoy 57 Treatment Rooms, Medical Wellness, Pool, alongside post-round recovery & wellness (World-famous physiotherapy & sports rehab) and breakfast & dining quality (Gourmet nutritional spa cuisine)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Chiva-Som International Health Resort?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Chiva-Som International Health Resort as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "Can you actually play golf while staying on a wellness retreat at Chiva-Som Hua Hin?",
+    "a": "Yes. While Chiva-Som is primarily an immersive wellness sanctuary, AGS coordinates morning tee times at Black Mountain (25 min) and Pineapple Valley (20 min) paired with targeted afternoon sports physiotherapy, stretching, and recovery sessions back at the resort."
+  },
+  {
+    "q": "What is included in a Chiva-Som stay booked through AGS?",
+    "a": "All Chiva-Som retreats include three tailored wellness meals daily, an initial health & wellness consultation, daily massage or treatment allowance, unlimited group movement classes, and full access to the hydrotherapy suites and gymnasium."
+  },
+  {
+    "q": "What should golf groups know about Chiva-Som's house rules before booking?",
+    "a": "Chiva-Som welcomes guests aged 16+ and maintains quiet, phone-free public areas plus a refined, wellness-focused evening atmosphere — making it best suited to couples, solo golfers, and wellness-minded pairs rather than loud buddy-trip parties."
+  },
+  {
+    "q": "How long is the private transfer from Bangkok Airport (BKK) to Chiva-Som Hua Hin?",
+    "a": "Expect approximately 2 hours 45 minutes to 3 hours door-to-door from Suvarnabhumi Airport (BKK) in an AGS luxury private touring vehicle."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Chiva-Som International Health Resort" location="Hua Hin" countryName="Thailand" />
 
             <VenueItineraries venueHref="/accommodations/thailand/chiva-som/" venueName="Chiva-Som International Health Resort" venueType="accommodation" />
 

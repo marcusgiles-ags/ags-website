@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -160,16 +161,10 @@ export default function NewWorldHoiana() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>New World Hoiana Beach Resort</strong> operates as a premier <strong>5 Star Ultra-Premium</strong> luxury beachfront resort & suites positioned in Hoi An corridor, Central Vietnam. Featuring an architectural inventory of 330 keys (rooms & suites), the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Ocean-facing suites with deep sleep) and direct arterial access to Hoiana Shores Golf Club (On-site).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, New World Hoiana Beach Resort minimizes daily transit friction across the Hoi An corridor while elevating off-course recovery through direct beach access, world-class casino, spa and post-round recovery & wellness (Direct cart transfers to Hoiana Shores). Every AGS itinerary anchored at New World Hoiana Beach Resort includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights New World Hoiana Beach Resort&apos;s breakfast & dining quality (Multiple fine-dining options & beach club), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Anchored directly along a four-kilometre stretch of quiet East Sea shoreline inside the Hoiana integrated resort complex, the 330-room New World Hoiana Beach Resort is the definitive modern stay-and-play base for Robert Trent Jones Jr.&apos;s Hoiana Shores Golf Club. Our site inspections highlight its clean contemporary ocean-facing rooms, expansive beachfront pool deck, and seamless resort-wide logistics.</p>
+                        <p style={{ marginBottom: '1rem' }}>For golfers whose priority is playing Hoiana Shores multiple times — including sunrise or late-afternoon golden-hour rounds — nothing beats a three-minute resort shuttle straight from lobby to the Hoiana Shores clubhouse. Hoi An Ancient Town sits 15 minutes north across the Cua Dai Bridge, while Montgomerie Links and BRG Da Nang are 30 minutes north.</p>
+                        <p>Off the fairways, the broader Hoiana complex delivers genuine big-resort energy: NOX Beach Club with cabana service and multiple dining kitchens, Downtime Renew Spa, an international casino floor, and over a dozen restaurants ranging from Cantonese banquets to relaxed poolside grills.</p>
                     </div>
                 </div>
             </section>
@@ -187,8 +182,8 @@ export default function NewWorldHoiana() {
     maxScore={5.0}
     gradeBadge="Integrated Luxury Beach Resort • Central Coast"
     inspectionDate="Site-Verified by AGS On-Ground Team"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -217,43 +212,44 @@ export default function NewWorldHoiana() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is New World Hoiana Beach Resort to the nearest championship golf courses in Hoi An?","acceptedAnswer":{"@type":"Answer","text":"New World Hoiana Beach Resort is positioned in Hoi An corridor, Central Vietnam, offering direct private transfer access to Hoiana Shores Golf Club (On-site). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at New World Hoiana Beach Resort?","acceptedAnswer":{"@type":"Answer","text":"New World Hoiana Beach Resort features 330 Keys (Rooms & Suites) within a Luxury Beachfront Resort & Suites setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does New World Hoiana Beach Resort offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at New World Hoiana Beach Resort enjoy Direct Beach Access, World-Class Casino, Spa, alongside post-round recovery & wellness (Direct cart transfers to Hoiana Shores) and breakfast & dining quality (Multiple fine-dining options & beach club)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at New World Hoiana Beach Resort?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at New World Hoiana Beach Resort as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is New World Hoiana Beach Resort to Hoiana Shores Golf Club?","acceptedAnswer":{"@type":"Answer","text":"Hoiana Shores Golf Club sits right inside the same beachfront resort estate — just a 3-to-5-minute complimentary shuttle from the hotel lobby to the clubhouse bag-drop."}},{"@type":"Question","name":"What room types work best for 4-to-12-player golf groups at New World Hoiana Beach Resort?","acceptedAnswer":{"@type":"Answer","text":"Deluxe Ocean View Twin rooms provide spacious balconies and straightforward twin-share setups, while Premier Ocean Suites and Penthouse residences offer generous entertaining terraces for group hosts."}},{"@type":"Question","name":"How far is New World Hoiana Beach Resort from Hoi An Ancient Town and Da Nang Airport?","acceptedAnswer":{"@type":"Answer","text":"Hoi An Ancient Town is 15 minutes north via private transfer or resort shuttle, and Da Nang International Airport (DAD) is roughly 45–50 minutes north."}},{"@type":"Question","name":"What dining and evening entertainment options are available on-site?","acceptedAnswer":{"@type":"Answer","text":"Guests have immediate access to NOX Beach Club, Blend, Aroma, multiple Chinese and Asian specialty restaurants, rooftop bars, and the Hoiana casino — plus easy 15-minute transfers into Hoi An for lantern-lit riverside dining."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is New World Hoiana Beach Resort to the nearest championship golf courses in Hoi An?",
-                    "a": "New World Hoiana Beach Resort is positioned in Hoi An corridor, Central Vietnam, offering direct private transfer access to Hoiana Shores Golf Club (On-site). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at New World Hoiana Beach Resort?",
-                    "a": "New World Hoiana Beach Resort features 330 Keys (Rooms & Suites) within a Luxury Beachfront Resort & Suites setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does New World Hoiana Beach Resort offer?",
-                    "a": "Guests at New World Hoiana Beach Resort enjoy Direct Beach Access, World-Class Casino, Spa, alongside post-round recovery & wellness (Direct cart transfers to Hoiana Shores) and breakfast & dining quality (Multiple fine-dining options & beach club)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at New World Hoiana Beach Resort?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at New World Hoiana Beach Resort as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How close is New World Hoiana Beach Resort to Hoiana Shores Golf Club?",
+    "a": "Hoiana Shores Golf Club sits right inside the same beachfront resort estate — just a 3-to-5-minute complimentary shuttle from the hotel lobby to the clubhouse bag-drop."
+  },
+  {
+    "q": "What room types work best for 4-to-12-player golf groups at New World Hoiana Beach Resort?",
+    "a": "Deluxe Ocean View Twin rooms provide spacious balconies and straightforward twin-share setups, while Premier Ocean Suites and Penthouse residences offer generous entertaining terraces for group hosts."
+  },
+  {
+    "q": "How far is New World Hoiana Beach Resort from Hoi An Ancient Town and Da Nang Airport?",
+    "a": "Hoi An Ancient Town is 15 minutes north via private transfer or resort shuttle, and Da Nang International Airport (DAD) is roughly 45–50 minutes north."
+  },
+  {
+    "q": "What dining and evening entertainment options are available on-site?",
+    "a": "Guests have immediate access to NOX Beach Club, Blend, Aroma, multiple Chinese and Asian specialty restaurants, rooftop bars, and the Hoiana casino — plus easy 15-minute transfers into Hoi An for lantern-lit riverside dining."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="New World Hoiana Beach Resort" location="Hoi An" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/new-world-hoiana/" venueName="New World Hoiana Beach Resort" venueType="accommodation" />
 

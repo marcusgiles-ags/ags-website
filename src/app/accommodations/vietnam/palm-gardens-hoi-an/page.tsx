@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -65,7 +66,7 @@ export default function PalmGardensHoiAn() {
 <DestinationBackLink country="Vietnam" countryLink="/destinations/vietnam/accommodations/" />
  <div className="badge" style={{ display: 'inline-block', padding: '0.5rem 1rem', border: '1px solid var(--color-gold)', color: 'var(--color-gold)', fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '1.5rem' }}>AGS Preferred Property — Vietnam</div>
  <h1 style={{ marginBottom: '1rem' }}>Palm Garden <br /><span className="text-gold">Beach Resort Hoi An</span></h1>
- <p style={{ fontSize: '1.25rem', maxWidth: '700px', fontStyle: 'italic', color: '#ccc' }} itemProp="description" id="exec-summary">"Hoi An's quintessential beachside retreate — spacious, relaxed, and perfectly positioned for the coast's finest courses."</p>
+ <p style={{ fontSize: '1.25rem', maxWidth: '700px', fontStyle: 'italic', color: '#ccc' }} itemProp="description" id="exec-summary">"Hoi An's quintessential beachside retreat — spacious, relaxed, and perfectly positioned for the coast's finest courses."</p>
  </div>
  </header>
  <section className="section">
@@ -80,7 +81,7 @@ export default function PalmGardensHoiAn() {
  ["Location", "An Bang Beach, Hoi An, Quang Nam, Vietnam"],
  ["Total Rooms", "186 Rooms, Villas & Bungalows"],
  ["Setting", "Beachfront, 5 min to Hoi An Ancient Town"],
- ["Nearest Golf", "Hoiana Shores GC (10 min), Ba Na Hills (35 min)"],
+ ["Nearest Golf", "Hoiana Shores GC (15–20 min), Montgomerie Links (20 min), Ba Na Hills (50 min)"],
  ["Key Amenity", "3 Pools, Spa, Private Beach, Tennis"],
  ].map(([k, v], i, arr) => (<tr key={k}><th style={{ textAlign: 'left', padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none', color: 'var(--color-gold)' }}>{k}</th><td style={{ padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none' }}>{v}</td></tr>))}
  </tbody>
@@ -133,16 +134,10 @@ export default function PalmGardensHoiAn() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Palm Garden Beach Resort Hoi An</strong> operates as a premier <strong>5 Star</strong> luxury beachfront resort & spa positioned in An Bang Beach, Hoi An, Quang Nam, Vietnam. Featuring an architectural inventory of 186 rooms, villas & bungalows, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Shaded palm grove bungalows) and direct arterial access to Hoiana Shores GC (10 min), Ba Na Hills (35 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Palm Garden Beach Resort Hoi An minimizes daily transit friction across the Hoi An corridor while elevating off-course recovery through 3 pools, spa, private beach, tennis and post-round recovery & wellness (Vast lagoon pool & palm spa). Every AGS itinerary anchored at Palm Garden Beach Resort Hoi An includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Palm Garden Beach Resort Hoi An&apos;s breakfast & dining quality (Extensive beachfront international buffet), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Spread across five hectares of shaded tropical palms directly on Cua Dai Beach just south of An Bang, Palm Garden Beach Resort Hoi An is a relaxed, proven beachfront classic that Marcus has personally stayed at and trusts for larger touring parties. Rather than high-rise corridors, its 186 rooms and garden or beachfront bungalows nestle beneath more than 400 palm varieties leading straight onto private sand.</p>
+                        <p style={{ marginBottom: '1rem' }}>Location-wise, Palm Garden sits squarely between Hoi An&apos;s southern and northern fairways: Hoiana Shores Golf Club is 15 to 20 minutes south across Cua Dai Bridge, Montgomerie Links and BRG Da Nang are 20 to 25 minutes north, and Hoi An Ancient Town is just 10 minutes inland.</p>
+                        <p>Golf groups love the resort&apos;s easygoing pace: a huge 52-metre free-form beachfront swimming pool, breezy oceanfront dining at Colibri Beach Restaurant, Palm Spa recovery massages, and spacious bungalows where fourballs can gather on garden verandahs.</p>
                     </div>
                 </div>
             </section>
@@ -159,8 +154,8 @@ export default function PalmGardensHoiAn() {
     maxScore={5.0}
     gradeBadge="Classic Tropical Beach Resort • Hoi An"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -189,43 +184,44 @@ export default function PalmGardensHoiAn() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Palm Garden Beach Resort Hoi An to the nearest championship golf courses in Hoi An?","acceptedAnswer":{"@type":"Answer","text":"Palm Garden Beach Resort Hoi An is positioned in An Bang Beach, Hoi An, Quang Nam, Vietnam, offering direct private transfer access to Hoiana Shores GC (10 min), Ba Na Hills (35 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Palm Garden Beach Resort Hoi An?","acceptedAnswer":{"@type":"Answer","text":"Palm Garden Beach Resort Hoi An features 186 Rooms, Villas & Bungalows within a Luxury Beachfront Resort & Spa setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Palm Garden Beach Resort Hoi An offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Palm Garden Beach Resort Hoi An enjoy 3 Pools, Spa, Private Beach, Tennis, alongside post-round recovery & wellness (Vast lagoon pool & palm spa) and breakfast & dining quality (Extensive beachfront international buffet)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Palm Garden Beach Resort Hoi An?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Palm Garden Beach Resort Hoi An as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the golf transfer times from Palm Garden Beach Resort Hoi An?","acceptedAnswer":{"@type":"Answer","text":"Hoiana Shores Golf Club is 15–20 minutes south across Cua Dai Bridge, Montgomerie Links and BRG Da Nang are 20–25 minutes north, and Ba Na Hills Golf Club is roughly 50 minutes inland via AGS private touring vehicle."}},{"@type":"Question","name":"Should golfers choose Garden View Rooms or Beachfront Bungalows at Palm Garden?","acceptedAnswer":{"@type":"Answer","text":"Superior and Deluxe Garden Rooms deliver great value for 8-to-16-player golf groups wanting twin beds, while Beachfront Bungalows place you steps from the ocean with private shaded terraces ideal for couples."}},{"@type":"Question","name":"How far is Palm Garden Beach Resort from Hoi An Ancient Town and An Bang Beach?","acceptedAnswer":{"@type":"Answer","text":"Hoi An Ancient Town is 10 minutes away by shuttle or car, and An Bang Beach's lively beachfront bars and restaurants sit just 5 minutes up the coastal road."}},{"@type":"Question","name":"Is Palm Garden Beach Resort well suited to larger 8-to-20-player club tours?","acceptedAnswer":{"@type":"Answer","text":"Yes. With 186 rooms, wide tropical grounds, a massive beachfront pool, and flexible private beachfront BBQ setups, Palm Garden handles larger touring groups smoothly without feeling cramped."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Palm Garden Beach Resort Hoi An to the nearest championship golf courses in Hoi An?",
-                    "a": "Palm Garden Beach Resort Hoi An is positioned in An Bang Beach, Hoi An, Quang Nam, Vietnam, offering direct private transfer access to Hoiana Shores GC (10 min), Ba Na Hills (35 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Palm Garden Beach Resort Hoi An?",
-                    "a": "Palm Garden Beach Resort Hoi An features 186 Rooms, Villas & Bungalows within a Luxury Beachfront Resort & Spa setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Palm Garden Beach Resort Hoi An offer?",
-                    "a": "Guests at Palm Garden Beach Resort Hoi An enjoy 3 Pools, Spa, Private Beach, Tennis, alongside post-round recovery & wellness (Vast lagoon pool & palm spa) and breakfast & dining quality (Extensive beachfront international buffet)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Palm Garden Beach Resort Hoi An?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Palm Garden Beach Resort Hoi An as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "What are the golf transfer times from Palm Garden Beach Resort Hoi An?",
+    "a": "Hoiana Shores Golf Club is 15–20 minutes south across Cua Dai Bridge, Montgomerie Links and BRG Da Nang are 20–25 minutes north, and Ba Na Hills Golf Club is roughly 50 minutes inland via AGS private touring vehicle."
+  },
+  {
+    "q": "Should golfers choose Garden View Rooms or Beachfront Bungalows at Palm Garden?",
+    "a": "Superior and Deluxe Garden Rooms deliver great value for 8-to-16-player golf groups wanting twin beds, while Beachfront Bungalows place you steps from the ocean with private shaded terraces ideal for couples."
+  },
+  {
+    "q": "How far is Palm Garden Beach Resort from Hoi An Ancient Town and An Bang Beach?",
+    "a": "Hoi An Ancient Town is 10 minutes away by shuttle or car, and An Bang Beach's lively beachfront bars and restaurants sit just 5 minutes up the coastal road."
+  },
+  {
+    "q": "Is Palm Garden Beach Resort well suited to larger 8-to-20-player club tours?",
+    "a": "Yes. With 186 rooms, wide tropical grounds, a massive beachfront pool, and flexible private beachfront BBQ setups, Palm Garden handles larger touring groups smoothly without feeling cramped."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Palm Garden Beach Resort Hoi An" location="Hoi An" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/palm-gardens-hoi-an/" venueName="Palm Garden Beach Resort Hoi An" venueType="accommodation" />
 

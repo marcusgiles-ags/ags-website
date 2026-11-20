@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -130,16 +131,10 @@ export default function AccommodationPage() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Silk Path Dong Trieu Golf & Villas</strong> operates as a premier <strong>5 Star</strong> golf & villa resort positioned in Dong Trieu, Vietnam. Featuring an architectural inventory of private luxury villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Modern fairway-fronting villas) and direct arterial access to Silk Path Dong Trieu Golf Club (On-site).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Silk Path Dong Trieu Golf & Villas minimizes daily transit friction across the Dong Trieu corridor while elevating off-course recovery through private villa pools, in-villa bbq, on-site golf and post-round recovery & wellness (Immediate doorstep access to 27 holes). Every AGS itinerary anchored at Silk Path Dong Trieu Golf & Villas includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Silk Path Dong Trieu Golf & Villas&apos;s breakfast & dining quality (Fresh regional Quang Ninh dining), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Set quietly along the fairways of Sir Nick Faldo&apos;s 27-hole Silk Path Dong Trieu Golf &amp; Country Club in Quang Ninh, the resort&apos;s private luxury villas offer Northern Vietnam&apos;s purest stay-and-play countryside retreat — personally stayed at and vetted by Marcus. Surrounded by rolling pine hills and calm valley lakes, the villas deliver clean contemporary finishes far removed from Hanoi traffic.</p>
+                        <p style={{ marginBottom: '1rem' }}>Golf logistics are zero-commute: roll straight from your villa terrace to the clubhouse and practice facilities in minutes for morning and afternoon rounds across Faldo&apos;s championship 18-hole layout and bonus 9-hole Academy course. It also links smoothly to FLC Ha Long Bay Golf Club (55 minutes east) and Chi Linh Golf (25 minutes west).</p>
+                        <p>Evenings are relaxed and private — unwind beside your villa pool, host a freshly grilled regional Quang Ninh seafood BBQ arranged by AGS, and wake up rested for first-off tee times.</p>
                     </div>
                 </div>
             </section>
@@ -156,8 +151,8 @@ export default function AccommodationPage() {
     maxScore={5.0}
     gradeBadge="Golf Course Villa Resort • Quang Ninh"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -186,43 +181,44 @@ export default function AccommodationPage() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Silk Path Dong Trieu Golf & Villas to the nearest championship golf courses in Dong Trieu?","acceptedAnswer":{"@type":"Answer","text":"Silk Path Dong Trieu Golf & Villas is positioned in Dong Trieu, Vietnam, offering direct private transfer access to Silk Path Dong Trieu Golf Club (On-site). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Silk Path Dong Trieu Golf & Villas?","acceptedAnswer":{"@type":"Answer","text":"Silk Path Dong Trieu Golf & Villas features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Silk Path Dong Trieu Golf & Villas offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Silk Path Dong Trieu Golf & Villas enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Immediate doorstep access to 27 holes) and breakfast & dining quality (Fresh regional Quang Ninh dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Silk Path Dong Trieu Golf & Villas?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Silk Path Dong Trieu Golf & Villas as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How far are the Silk Path Dong Trieu Villas from the golf course clubhouse?","acceptedAnswer":{"@type":"Answer","text":"The villas sit directly inside the Silk Path Dong Trieu estate alongside the fairways — just a 2-to-3-minute buggy transfer from your villa door to the clubhouse."}},{"@type":"Question","name":"How long is the drive from Hanoi and Ha Long Bay to Silk Path Dong Trieu?","acceptedAnswer":{"@type":"Answer","text":"Expect approximately 1 hour 45 minutes to 2 hours from Hanoi (or Noi Bai Airport) and roughly 55 minutes inland from Ha Long Bay's cruise marinas via private AGS touring vehicle."}},{"@type":"Question","name":"Do the villas at Silk Path Dong Trieu suit 4-to-8-player golf groups?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-bedroom fairway villas feature shared lounges, private terraces, and pools — ideal for golf groups who want private evening catch-ups and doorstep access to 27 holes of Faldo golf."}},{"@type":"Question","name":"Which nearby courses can we pair with Silk Path Dong Trieu on a Northern Vietnam tour?","acceptedAnswer":{"@type":"Answer","text":"Silk Path Dong Trieu pairs effortlessly with Chi Linh Golf (25 minutes), FLC Ha Long Bay Golf Club (55 minutes), Dragon Golf Links in Hai Phong (65 minutes), and an overnight luxury cruise on Ha Long Bay."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Silk Path Dong Trieu Golf & Villas to the nearest championship golf courses in Dong Trieu?",
-                    "a": "Silk Path Dong Trieu Golf & Villas is positioned in Dong Trieu, Vietnam, offering direct private transfer access to Silk Path Dong Trieu Golf Club (On-site). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Silk Path Dong Trieu Golf & Villas?",
-                    "a": "Silk Path Dong Trieu Golf & Villas features Luxury Suites & Private Pool Villas within a 5-Star Luxury Golf Basecamp setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Silk Path Dong Trieu Golf & Villas offer?",
-                    "a": "Guests at Silk Path Dong Trieu Golf & Villas enjoy Executive Spa, Horizon Pool & Private Dining, alongside post-round recovery & wellness (Immediate doorstep access to 27 holes) and breakfast & dining quality (Fresh regional Quang Ninh dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Silk Path Dong Trieu Golf & Villas?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Silk Path Dong Trieu Golf & Villas as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How far are the Silk Path Dong Trieu Villas from the golf course clubhouse?",
+    "a": "The villas sit directly inside the Silk Path Dong Trieu estate alongside the fairways — just a 2-to-3-minute buggy transfer from your villa door to the clubhouse."
+  },
+  {
+    "q": "How long is the drive from Hanoi and Ha Long Bay to Silk Path Dong Trieu?",
+    "a": "Expect approximately 1 hour 45 minutes to 2 hours from Hanoi (or Noi Bai Airport) and roughly 55 minutes inland from Ha Long Bay's cruise marinas via private AGS touring vehicle."
+  },
+  {
+    "q": "Do the villas at Silk Path Dong Trieu suit 4-to-8-player golf groups?",
+    "a": "Yes. Multi-bedroom fairway villas feature shared lounges, private terraces, and pools — ideal for golf groups who want private evening catch-ups and doorstep access to 27 holes of Faldo golf."
+  },
+  {
+    "q": "Which nearby courses can we pair with Silk Path Dong Trieu on a Northern Vietnam tour?",
+    "a": "Silk Path Dong Trieu pairs effortlessly with Chi Linh Golf (25 minutes), FLC Ha Long Bay Golf Club (55 minutes), Dragon Golf Links in Hai Phong (65 minutes), and an overnight luxury cruise on Ha Long Bay."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Silk Path Dong Trieu Golf & Villas" location="Dong Trieu" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/silk-path-dong-trieu/" venueName="Silk Path Dong Trieu Golf & Villas" venueType="accommodation" />
 

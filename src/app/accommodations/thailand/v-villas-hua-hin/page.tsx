@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -105,21 +106,15 @@ export default function VVillasHuaHin() {
  
  {/* GEO Executive Summary / AI Citation Block */}
  <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
- <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
- <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
- <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>V Villas Hua Hin (MGallery)</strong> operates as a premier <strong>5 Star (MGallery Collection)</strong> luxury private pool villas positioned in Hua Hin Beach, Thailand. Featuring an architectural inventory of luxury suites & private pool villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Palatial multi-bedroom pool villas) and direct arterial access to Black Mountain (25 min), Banyan (20 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, V Villas Hua Hin (MGallery) minimizes daily transit friction across the Hua Hin corridor while elevating off-course recovery through 24-hour butler service, michelin key awarded and post-round recovery & wellness (V Spa treatments & beachfront pool). Every AGS itinerary anchored at V Villas Hua Hin (MGallery) includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights V Villas Hua Hin (MGallery)&apos;s breakfast & dining quality (Villazzo award-winning sunken dining), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+                    <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Designed by French architectural studio J+H Boiffils as a Michelin-Key-awarded enclave of just 28 high-walled private pool villas stepping down to Hua Hin Beach, V Villas Hua Hin (MGallery) is our site-verified choice for golfers who prioritise total privacy and 24-hour butler care. Terraced reflecting pools and sleek dark-timber architecture channel quiet sophistication minutes south of central Hua Hin.</p>
+                        <p style={{ marginBottom: '1rem' }}>Golf logistics stay crisp and unhurried: Pineapple Valley (formerly Banyan) Golf Club sits 15 to 20 minutes away, Black Mountain Golf Club is 25 minutes inland, and your dedicated butler coordinates directly with AGS drivers so clubs are loaded ahead of morning tee times.</p>
+                        <p>After 18 holes, guests return to private 9-metre villa pools, sunken over-water fine dining at Villazzo Restaurant, rooftop cocktails at AKOYA|Beach Lounge, and in-villa V Spa recovery massages.</p>
                     </div>
- </div>
- </section>
+                </div>
+            </section>
 
   {/* AGS Curatorial Evaluation & Verified Review */}
   <CuratorScorecard
@@ -133,8 +128,8 @@ export default function VVillasHuaHin() {
     maxScore={5.0}
     gradeBadge="Private Pool Villa Sanctuary • Hua Hin"
     inspectionDate="Site-Verified by AGS On-Ground Team"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -162,41 +157,42 @@ export default function VVillasHuaHin() {
 
 
  {/* FAQ Section */}
- <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
- <div className="container" style={{ maxWidth: "860px" }}>
- <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
- Frequently Asked Questions
- </h2>
- <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
- {[
-          {
-                    "q": "How close is V Villas Hua Hin (MGallery) to the nearest championship golf courses in Hua Hin?",
-                    "a": "V Villas Hua Hin (MGallery) is positioned in Hua Hin Beach, Thailand, offering direct private transfer access to Black Mountain (25 min), Banyan (20 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at V Villas Hua Hin (MGallery)?",
-                    "a": "V Villas Hua Hin (MGallery) features Luxury Suites & Private Pool Villas within a Luxury Private Pool Villas setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does V Villas Hua Hin (MGallery) offer?",
-                    "a": "Guests at V Villas Hua Hin (MGallery) enjoy 24-Hour Butler Service, Michelin Key Awarded, alongside post-round recovery & wellness (V Spa treatments & beachfront pool) and breakfast & dining quality (Villazzo award-winning sunken dining)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at V Villas Hua Hin (MGallery)?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at V Villas Hua Hin (MGallery) as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
- <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
- <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
- <span>{faq.q}</span>
- <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
- </summary>
- <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
- </details>
- ))}
- </div>
- </div>
- </section>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What villa sizes are available at V Villas Hua Hin for fourballs and small golf groups?","acceptedAnswer":{"@type":"Answer","text":"V Villas offers One-, Two-, and Three-Bedroom Private Pool Villas plus Beachfront Pool Villa Suites — making the 2- and 3-bedroom residences an ultra-private layout for fourballs and couples travelling together."}},{"@type":"Question","name":"How far is V Villas Hua Hin from Black Mountain and Pineapple Valley Golf Clubs?","acceptedAnswer":{"@type":"Answer","text":"Pineapple Valley (formerly Banyan) Golf Club is roughly 15–20 minutes away, Black Mountain Golf Club is 25 minutes, and Palm Hills or Springfield Royal are 25–35 minutes by private AGS transfer."}},{"@type":"Question","name":"Does every villa at V Villas Hua Hin include 24-hour butler service?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every villa is assigned a dedicated 24-hour butler who handles morning floating or in-villa breakfasts before early tee times, garment pressing, spa bookings, and private BBQ setups."}},{"@type":"Question","name":"How close is V Villas Hua Hin to Hua Hin dining and shopping?","acceptedAnswer":{"@type":"Answer","text":"Bluport Hua Hin Resort Mall sits right across the street (2 minutes), Cicada Weekend Market is 5 minutes south, and central Hua Hin Night Market is a quick 7-minute ride north."}}]}) }} />
+            <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
+                <div className="container" style={{ maxWidth: "860px" }}>
+                    <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
+                        Frequently Asked Questions
+                    </h2>
+                    <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
+                        {([
+  {
+    "q": "What villa sizes are available at V Villas Hua Hin for fourballs and small golf groups?",
+    "a": "V Villas offers One-, Two-, and Three-Bedroom Private Pool Villas plus Beachfront Pool Villa Suites — making the 2- and 3-bedroom residences an ultra-private layout for fourballs and couples travelling together."
+  },
+  {
+    "q": "How far is V Villas Hua Hin from Black Mountain and Pineapple Valley Golf Clubs?",
+    "a": "Pineapple Valley (formerly Banyan) Golf Club is roughly 15–20 minutes away, Black Mountain Golf Club is 25 minutes, and Palm Hills or Springfield Royal are 25–35 minutes by private AGS transfer."
+  },
+  {
+    "q": "Does every villa at V Villas Hua Hin include 24-hour butler service?",
+    "a": "Yes. Every villa is assigned a dedicated 24-hour butler who handles morning floating or in-villa breakfasts before early tee times, garment pressing, spa bookings, and private BBQ setups."
+  },
+  {
+    "q": "How close is V Villas Hua Hin to Hua Hin dining and shopping?",
+    "a": "Bluport Hua Hin Resort Mall sits right across the street (2 minutes), Cicada Weekend Market is 5 minutes south, and central Hua Hin Night Market is a quick 7-minute ride north."
+  }
+]).map((faq, i) => (
+                            <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
+                                <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
+                                    <span>{faq.q}</span>
+                                    <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
+                                </summary>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                            </details>
+                        ))}
+                    </div>
+                </div>
+            </section>
 
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
  "@context": "https://schema.org",
@@ -237,6 +233,8 @@ export default function VVillasHuaHin() {
  ]
  }) }} />
  
+            <AccommodationConciergeBlock hotelName="V Villas Hua Hin (MGallery)" location="Hua Hin" countryName="Thailand" />
+
             <VenueItineraries venueHref="/accommodations/thailand/v-villas-hua-hin/" venueName="V Villas Hua Hin (MGallery)" venueType="accommodation" />
 
 </main>

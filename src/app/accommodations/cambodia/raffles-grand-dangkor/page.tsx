@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -80,7 +81,7 @@ export default function RafflesGrandDangkor() {
  ["Location", "1 Vithei Charles de Gaulle, Siem Reap, Cambodia"],
  ["Total Rooms", "119 Rooms & Suites"],
  ["Heritage", "Opened 1932, sensitively restored to original grandeur"],
- ["Nearest Golf", "Angkor Golf Resort (10 min), Phokeethra CC (5 min)"],
+ ["Nearest Golf", "Angkor Golf Resort (15 min), Phokeethra CC (25 min)"],
  ["Key Amenity", "Elephant Bar (est. 1932), Pool, Spa, Butlers"],
  ].map(([k, v], i, arr) => (<tr key={k}><th style={{ textAlign: 'left', padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none', color: 'var(--color-gold)' }}>{k}</th><td style={{ padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none' }}>{v}</td></tr>))}
  </tbody>
@@ -145,16 +146,10 @@ export default function RafflesGrandDangkor() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Raffles Grand Hotel d</strong> operates as a premier <strong>5 Star (Raffles Collection)</strong> grand heritage luxury hotel positioned in 1 Vithei Charles de Gaulle, Siem Reap, Cambodia. Featuring an architectural inventory of 119 rooms & suites, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Restored French colonial suites) and direct arterial access to Angkor Golf Resort (10 min), Phokeethra CC (5 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Raffles Grand Hotel d minimizes daily transit friction across the Siem Reap corridor while elevating off-course recovery through elephant bar (est. 1932), pool, spa, butlers and post-round recovery & wellness (Iconic 35m Royal Swimming Pool). Every AGS itinerary anchored at Raffles Grand Hotel d includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Raffles Grand Hotel d&apos;s breakfast & dining quality (Historic 1932 dining & Elephant Bar), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Opened in 1932 facing the Royal Gardens in Siem Reap, the meticulously restored 119-room Raffles Grand Hotel d&apos;Angkor is Cambodia&apos;s undisputed heritage grand dame — and a property Marcus has personally stayed at for marquee Indochina golf tours. From its original timber cage elevator to liveried doormen and 15 acres of manicured French gardens, every corner breathes golden-age travel prestige.</p>
+                        <p style={{ marginBottom: '1rem' }}>Its prime Royal Quarter address puts AGS touring vehicles 15 minutes from Angkor Golf Resort and 25 minutes from Phokeethra Country Club, with Angkor Wat just ten minutes north — allowing seamless morning rounds and afternoon temple exploration.</p>
+                        <p>After 18 holes in Cambodian warmth, few post-round rituals in Southeast Asia rival laps in the iconic 35-metre Royal Swimming Pool (inspired by ancient Angkorian baths), followed by an Airavata cocktail in the historic Elephant Bar and Royal Khmer tasting menus at 1932.</p>
                     </div>
                 </div>
             </section>
@@ -171,8 +166,8 @@ export default function RafflesGrandDangkor() {
     maxScore={5.0}
     gradeBadge="Historic 1932 Grand Luxury Icon • Siem Reap"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -201,43 +196,44 @@ export default function RafflesGrandDangkor() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Raffles Grand Hotel d to the nearest championship golf courses in Siem Reap?","acceptedAnswer":{"@type":"Answer","text":"Raffles Grand Hotel d is positioned in 1 Vithei Charles de Gaulle, Siem Reap, Cambodia, offering direct private transfer access to Angkor Golf Resort (10 min), Phokeethra CC (5 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Raffles Grand Hotel d?","acceptedAnswer":{"@type":"Answer","text":"Raffles Grand Hotel d features 119 Rooms & Suites within a Grand Heritage Luxury Hotel setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Raffles Grand Hotel d offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Raffles Grand Hotel d enjoy Elephant Bar (est. 1932), Pool, Spa, Butlers, alongside post-round recovery & wellness (Iconic 35m Royal Swimming Pool) and breakfast & dining quality (Historic 1932 dining & Elephant Bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Raffles Grand Hotel d?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Raffles Grand Hotel d as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Raffles Grand Hotel d'Angkor to Siem Reap's championship golf courses?","acceptedAnswer":{"@type":"Answer","text":"Sir Nick Faldo's Angkor Golf Resort is 15 minutes west, Siem Reap Booyoung Country Club is 20 minutes, and Phokeethra Country Club is 25 minutes west via private AGS vehicle."}},{"@type":"Question","name":"Which room categories at Raffles Grand Hotel d'Angkor should golfers pick?","acceptedAnswer":{"@type":"Answer","text":"State Rooms overlooking the 35-metre Royal Pool blend restored 1932 teak flooring with generous modern bathrooms, while Landmark Rooms and Cabana Poolside Suites add direct poolside terrace access and Raffles Butler service."}},{"@type":"Question","name":"What are the signature on-site experiences outside of golf?","acceptedAnswer":{"@type":"Answer","text":"Evening drinks at the legendary Elephant Bar (home to over 100 gins and classic Indochina cocktails), the 35-metre Royal Pool, Raffles Spa, and Royal Khmer cuisine at Restaurant 1932."}},{"@type":"Question","name":"Can AGS arrange early golfer breakfasts and private Angkor Wat sunrise access from Raffles?","acceptedAnswer":{"@type":"Answer","text":"Yes. Raffles' concierge and AGS work hand-in-hand on early hot breakfasts or takeaway baskets before dawn tee times and private Angkor temple mornings with licensed English-speaking historians."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Raffles Grand Hotel d to the nearest championship golf courses in Siem Reap?",
-                    "a": "Raffles Grand Hotel d is positioned in 1 Vithei Charles de Gaulle, Siem Reap, Cambodia, offering direct private transfer access to Angkor Golf Resort (10 min), Phokeethra CC (5 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Raffles Grand Hotel d?",
-                    "a": "Raffles Grand Hotel d features 119 Rooms & Suites within a Grand Heritage Luxury Hotel setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Raffles Grand Hotel d offer?",
-                    "a": "Guests at Raffles Grand Hotel d enjoy Elephant Bar (est. 1932), Pool, Spa, Butlers, alongside post-round recovery & wellness (Iconic 35m Royal Swimming Pool) and breakfast & dining quality (Historic 1932 dining & Elephant Bar)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Raffles Grand Hotel d?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Raffles Grand Hotel d as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How close is Raffles Grand Hotel d'Angkor to Siem Reap's championship golf courses?",
+    "a": "Sir Nick Faldo's Angkor Golf Resort is 15 minutes west, Siem Reap Booyoung Country Club is 20 minutes, and Phokeethra Country Club is 25 minutes west via private AGS vehicle."
+  },
+  {
+    "q": "Which room categories at Raffles Grand Hotel d'Angkor should golfers pick?",
+    "a": "State Rooms overlooking the 35-metre Royal Pool blend restored 1932 teak flooring with generous modern bathrooms, while Landmark Rooms and Cabana Poolside Suites add direct poolside terrace access and Raffles Butler service."
+  },
+  {
+    "q": "What are the signature on-site experiences outside of golf?",
+    "a": "Evening drinks at the legendary Elephant Bar (home to over 100 gins and classic Indochina cocktails), the 35-metre Royal Pool, Raffles Spa, and Royal Khmer cuisine at Restaurant 1932."
+  },
+  {
+    "q": "Can AGS arrange early golfer breakfasts and private Angkor Wat sunrise access from Raffles?",
+    "a": "Yes. Raffles' concierge and AGS work hand-in-hand on early hot breakfasts or takeaway baskets before dawn tee times and private Angkor temple mornings with licensed English-speaking historians."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Raffles Grand Hotel d'Angkor" location="Siem Reap" countryName="Cambodia" />
 
             <VenueItineraries venueHref="/accommodations/cambodia/raffles-grand-dangkor/" venueName="Raffles Grand Hotel d" venueType="accommodation" />
 

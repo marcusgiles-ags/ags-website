@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -78,7 +79,7 @@ export default function RosewoodPhnomPenh() {
  ["Location", "Vattanac Capital Tower, Phnom Penh, Cambodia"],
  ["Total Rooms", "175 Suites (avg 72sqm, tower floors 29–39)"],
  ["Setting", "Commanding 360° Mekong River panorama"],
- ["Nearest Golf", "Vattanac Golf Resort (20 min), Garden City (25 min)"],
+ ["Nearest Golf", "Vattanac Golf Resort (35–40 min), Garden City (35–40 min), Chhun On (45 min)"],
  ["Key Amenity", "Infinity Pool, Sense Spa, Rooftop Bar & Dining"],
                                     ["Global Recognition", (
                                         <span key="rec">
@@ -155,16 +156,10 @@ export default function RosewoodPhnomPenh() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Rosewood Phnom Penh</strong> operates as a premier <strong>5 Star (Rosewood Collection)</strong> ultra-luxury urban skyscraper hotel positioned in Vattanac Capital Tower, Phnom Penh, Cambodia. Featuring an architectural inventory of 175 suites (avg 72sqm, tower floors 29–39), the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Ultra-contemporary residential suites) and direct arterial access to Vattanac Golf Resort (20 min), Garden City (25 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Rosewood Phnom Penh minimizes daily transit friction across the Phnom Penh corridor while elevating off-course recovery through infinity pool, sense spa, rooftop bar & dining and post-round recovery & wellness (Sense, A Rosewood Spa hydrotherapy). Every AGS itinerary anchored at Rosewood Phnom Penh includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Rosewood Phnom Penh&apos;s breakfast & dining quality (Sora Sky Bar & Michelin-quality Iza), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Occupying the top 14 floors (levels 25 to 39) of the sculptural Vattanac Capital Tower soaring 188 metres above the Mekong confluence, Forbes 5-Star Rosewood Phnom Penh is Cambodia&apos;s pinnacle of contemporary urban luxury — verified directly on our site inspections. Averaging an expansive 72 square metres, its 175 residential-style rooms and suites float above city bustle with floor-to-ceiling Mekong panoramas.</p>
+                        <p style={{ marginBottom: '1rem' }}>Crucially for golfers, the hotel shares ownership lineage with Sir Nick Faldo&apos;s flagship Vattanac Golf Resort (East &amp; West courses), ensuring smooth priority tee-time coordination through AGS. Morning private transfers reach Vattanac Golf Resort or Garden City in 35 to 40 minutes, and Chhun On Golf Resort in roughly 45 minutes.</p>
+                        <p>Post-round hospitality is unmatched in Phnom Penh: unwind in the 22-metre indoor lap pool and Sense, A Rosewood Spa, then head to the cantilevered 37th-floor Sora Sky Bar for sunset cocktails before contemporary Japanese robata at Iza or prime dry-aged steaks at Cuts.</p>
                     </div>
                 </div>
             </section>
@@ -181,8 +176,8 @@ export default function RosewoodPhnomPenh() {
     maxScore={5.0}
     gradeBadge="Skyline Luxury Landmark • Vattanac Capital Tower"
     inspectionDate="Site-Verified by AGS On-Ground Team"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -205,49 +200,50 @@ export default function RosewoodPhnomPenh() {
             highlight: "Sora Sky Bar & Michelin-quality Iza"
       }
 ]}
-    verdict="Soaring 188 meters above Phnom Penh inside the iconic Vattanac Capital Tower. Unparalleled panoramic views of the Mekong River, residential residential sophistication, and the renowned Sora rooftop lounge."
+    verdict="Soaring 188 meters above Phnom Penh inside the iconic Vattanac Capital Tower. Unparalleled panoramic views of the Mekong River, residential sophistication, and the renowned Sora rooftop lounge."
   />
 
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Rosewood Phnom Penh to the nearest championship golf courses in Phnom Penh?","acceptedAnswer":{"@type":"Answer","text":"Rosewood Phnom Penh is positioned in Vattanac Capital Tower, Phnom Penh, Cambodia, offering direct private transfer access to Vattanac Golf Resort (20 min), Garden City (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Rosewood Phnom Penh?","acceptedAnswer":{"@type":"Answer","text":"Rosewood Phnom Penh features 175 Suites (avg 72sqm, tower floors 29–39) within a Ultra-Luxury Urban Skyscraper Hotel setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Rosewood Phnom Penh offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Rosewood Phnom Penh enjoy Infinity Pool, Sense Spa, Rooftop Bar & Dining, alongside post-round recovery & wellness (Sense, A Rosewood Spa hydrotherapy) and breakfast & dining quality (Sora Sky Bar & Michelin-quality Iza)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Rosewood Phnom Penh?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Rosewood Phnom Penh as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How far is Rosewood Phnom Penh from Vattanac Golf Resort and Chhun On Golf Resort?","acceptedAnswer":{"@type":"Answer","text":"In morning traffic, private AGS transfers reach Vattanac Golf Resort (East & West) and Garden City Golf Club in approximately 35–40 minutes, and Chhun On Golf Resort in roughly 45 minutes."}},{"@type":"Question","name":"What makes Rosewood Phnom Penh special for executive golf groups?","acceptedAnswer":{"@type":"Answer","text":"Massive modern suites (starting at 50–72 sqm), seamless corporate hospitality lounges, Cuts Steakhouse, Iza Japanese dining, and Sora — Phnom Penh's highest cantilevered sky bar — all inside one ultra-secure Forbes 5-Star tower."}},{"@type":"Question","name":"Does Rosewood Phnom Penh have strong post-round spa and wellness facilities?","acceptedAnswer":{"@type":"Answer","text":"Yes. Sense, A Rosewood Spa features hydrotherapy suites, traditional Khmer healing treatments, a 22-metre heated lap pool overlooking the skyline, and a comprehensive Technogym fitness centre."}},{"@type":"Question","name":"How long is the transfer from Phnom Penh's airport to Rosewood Phnom Penh?","acceptedAnswer":{"@type":"Answer","text":"Private AGS airport transfers take roughly 35–45 minutes depending on flight arrival hour and city traffic, with seamless VIP hotel concierge arrival."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Rosewood Phnom Penh to the nearest championship golf courses in Phnom Penh?",
-                    "a": "Rosewood Phnom Penh is positioned in Vattanac Capital Tower, Phnom Penh, Cambodia, offering direct private transfer access to Vattanac Golf Resort (20 min), Garden City (25 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Rosewood Phnom Penh?",
-                    "a": "Rosewood Phnom Penh features 175 Suites (avg 72sqm, tower floors 29–39) within a Ultra-Luxury Urban Skyscraper Hotel setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Rosewood Phnom Penh offer?",
-                    "a": "Guests at Rosewood Phnom Penh enjoy Infinity Pool, Sense Spa, Rooftop Bar & Dining, alongside post-round recovery & wellness (Sense, A Rosewood Spa hydrotherapy) and breakfast & dining quality (Sora Sky Bar & Michelin-quality Iza)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Rosewood Phnom Penh?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Cambodia, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Rosewood Phnom Penh as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How far is Rosewood Phnom Penh from Vattanac Golf Resort and Chhun On Golf Resort?",
+    "a": "In morning traffic, private AGS transfers reach Vattanac Golf Resort (East & West) and Garden City Golf Club in approximately 35–40 minutes, and Chhun On Golf Resort in roughly 45 minutes."
+  },
+  {
+    "q": "What makes Rosewood Phnom Penh special for executive golf groups?",
+    "a": "Massive modern suites (starting at 50–72 sqm), seamless corporate hospitality lounges, Cuts Steakhouse, Iza Japanese dining, and Sora — Phnom Penh's highest cantilevered sky bar — all inside one ultra-secure Forbes 5-Star tower."
+  },
+  {
+    "q": "Does Rosewood Phnom Penh have strong post-round spa and wellness facilities?",
+    "a": "Yes. Sense, A Rosewood Spa features hydrotherapy suites, traditional Khmer healing treatments, a 22-metre heated lap pool overlooking the skyline, and a comprehensive Technogym fitness centre."
+  },
+  {
+    "q": "How long is the transfer from Phnom Penh's airport to Rosewood Phnom Penh?",
+    "a": "Private AGS airport transfers take roughly 35–45 minutes depending on flight arrival hour and city traffic, with seamless VIP hotel concierge arrival."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Rosewood Phnom Penh" location="Phnom Penh" countryName="Cambodia" />
 
             <VenueItineraries venueHref="/accommodations/cambodia/rosewood-phnom-penh/" venueName="Rosewood Phnom Penh" venueType="accommodation" />
 

@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -132,16 +133,10 @@ export default function LittleRiversideHoiAn() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Little Riverside Hoi An</strong> operates as a premier <strong>5 Star</strong> luxury boutique hotel & spa positioned in Thu Bon Riverfront, Hoi An, Vietnam. Featuring an architectural inventory of luxury suites & private pool villas, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Quaint riverview balcony suites) and direct arterial access to Hoiana Shores GC (20 min), Montgomerie Links (30 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Little Riverside Hoi An minimizes daily transit friction across the Hoi An corridor while elevating off-course recovery through rooftop swimming pool, on-site spa, fitness center and post-round recovery & wellness (Waterfront pool & intimate spa). Every AGS itinerary anchored at Little Riverside Hoi An includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Little Riverside Hoi An&apos;s breakfast & dining quality (Traditional Hoi An local breakfast), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Tucked quietly along the Thu Bon riverbank just a few minutes&apos; walk from Hoi An&apos;s Ancient Town, Little Riverside Hoi An is an intimate boutique property styled in warm Faifo ochre walls and carved timber. On our site inspections, its compact scale and attentive local team deliver a relaxed, welcoming feel that larger high-rise resorts rarely match.</p>
+                        <p style={{ marginBottom: '1rem' }}>Golf logistics remain straightforward along Hoi An&apos;s southern edge: Hoiana Shores Golf Club lies 20 to 25 minutes south, Montgomerie Links and BRG Da Nang sit 25 to 30 minutes north, and Ba Na Hills Golf Club is roughly 55 minutes inland via private AGS vehicle.</p>
+                        <p>Between rounds, guests unwind at the river-facing swimming pool, take complimentary resort bicycles out toward An Bang Beach, or step straight into Hoi An&apos;s evening riverside dining and bespoke tailoring district.</p>
                     </div>
                 </div>
             </section>
@@ -158,8 +153,8 @@ export default function LittleRiversideHoiAn() {
     maxScore={5.0}
     gradeBadge="Boutique River Retreat • Hoi An"
     inspectionDate="Site-Verified by AGS On-Ground Team"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -188,43 +183,44 @@ export default function LittleRiversideHoiAn() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Little Riverside Hoi An to the nearest championship golf courses in Hoi An?","acceptedAnswer":{"@type":"Answer","text":"Little Riverside Hoi An is positioned in Thu Bon Riverfront, Hoi An, Vietnam, offering direct private transfer access to Hoiana Shores GC (20 min), Montgomerie Links (30 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Little Riverside Hoi An?","acceptedAnswer":{"@type":"Answer","text":"Little Riverside Hoi An features Luxury Suites & Private Pool Villas within a Luxury Boutique Hotel & Spa setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Little Riverside Hoi An offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Little Riverside Hoi An enjoy Rooftop swimming pool, on-site spa, fitness center, alongside post-round recovery & wellness (Waterfront pool & intimate spa) and breakfast & dining quality (Traditional Hoi An local breakfast)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Little Riverside Hoi An?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Little Riverside Hoi An as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Little Riverside Hoi An to Hoiana Shores and Montgomerie Links?","acceptedAnswer":{"@type":"Answer","text":"Hoiana Shores Golf Club is roughly 20–25 minutes south, Montgomerie Links and BRG Da Nang are 25–30 minutes north, and Da Nang International Airport (DAD) is 45 minutes away in a private AGS touring vehicle."}},{"@type":"Question","name":"Which rooms at Little Riverside Hoi An offer the best views and space for golfers?","acceptedAnswer":{"@type":"Answer","text":"Little River Suites and Riverfront Balcony Suites overlook the Thu Bon River directly and provide generous floor space for twin beds and golf travel bags."}},{"@type":"Question","name":"Can you walk to Hoi An Ancient Town restaurants from Little Riverside?","acceptedAnswer":{"@type":"Answer","text":"Yes. The lantern-lit streets, riverside restaurants, and tailoring shops of Hoi An Ancient Town sit roughly 5–7 minutes away on foot along the riverbank."}},{"@type":"Question","name":"Does Little Riverside Hoi An work well for couples or smaller fourballs?","acceptedAnswer":{"@type":"Answer","text":"Yes. Its intimate boutique scale makes it a strong fit for couples and 4-player groups seeking authentic Hoi An charm and personal service at smart value."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Little Riverside Hoi An to the nearest championship golf courses in Hoi An?",
-                    "a": "Little Riverside Hoi An is positioned in Thu Bon Riverfront, Hoi An, Vietnam, offering direct private transfer access to Hoiana Shores GC (20 min), Montgomerie Links (30 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Little Riverside Hoi An?",
-                    "a": "Little Riverside Hoi An features Luxury Suites & Private Pool Villas within a Luxury Boutique Hotel & Spa setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Little Riverside Hoi An offer?",
-                    "a": "Guests at Little Riverside Hoi An enjoy Rooftop swimming pool, on-site spa, fitness center, alongside post-round recovery & wellness (Waterfront pool & intimate spa) and breakfast & dining quality (Traditional Hoi An local breakfast)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Little Riverside Hoi An?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Vietnam, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Little Riverside Hoi An as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How close is Little Riverside Hoi An to Hoiana Shores and Montgomerie Links?",
+    "a": "Hoiana Shores Golf Club is roughly 20–25 minutes south, Montgomerie Links and BRG Da Nang are 25–30 minutes north, and Da Nang International Airport (DAD) is 45 minutes away in a private AGS touring vehicle."
+  },
+  {
+    "q": "Which rooms at Little Riverside Hoi An offer the best views and space for golfers?",
+    "a": "Little River Suites and Riverfront Balcony Suites overlook the Thu Bon River directly and provide generous floor space for twin beds and golf travel bags."
+  },
+  {
+    "q": "Can you walk to Hoi An Ancient Town restaurants from Little Riverside?",
+    "a": "Yes. The lantern-lit streets, riverside restaurants, and tailoring shops of Hoi An Ancient Town sit roughly 5–7 minutes away on foot along the riverbank."
+  },
+  {
+    "q": "Does Little Riverside Hoi An work well for couples or smaller fourballs?",
+    "a": "Yes. Its intimate boutique scale makes it a strong fit for couples and 4-player groups seeking authentic Hoi An charm and personal service at smart value."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Little Riverside Hoi An" location="Hoi An" countryName="Vietnam" />
 
             <VenueItineraries venueHref="/accommodations/vietnam/little-riverside-hoi-an/" venueName="Little Riverside Hoi An" venueType="accommodation" />
 

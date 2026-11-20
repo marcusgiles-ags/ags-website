@@ -1,3 +1,4 @@
+import AccommodationConciergeBlock from "@/components/AccommodationConciergeBlock";
 import VenueItineraries from "@/components/VenueItineraries";
 import Link from "next/link";
 import Image from "next/image";
@@ -78,7 +79,7 @@ export default function SindhornKempinski() {
  ["Location", "Langsuan, Lumpini, Bangkok, Thailand"],
  ["Total Rooms", "176 Rooms, Suites & Residences"],
  ["Setting", "Bangkok's Green Corridor, adjacent Lumpini Park"],
- ["Nearest Golf", "Alpine Golf Club (20 min), Nikanti (30 min)"],
+ ["Nearest Golf", "Alpine Golf Club (50 min), Thai Country Club (55 min), Nikanti (65 min)"],
  ["Key Amenity", "Garden Terrace Suites, Spa, Rooftop Pool"],
  ].map(([k, v], i, arr) => (<tr key={k}><th style={{ textAlign: 'left', padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none', color: 'var(--color-gold)' }}>{k}</th><td style={{ padding: '1rem', borderBottom: i < arr.length - 1 ? '1px solid rgba(212, 175, 55, 0.2)' : 'none' }}>{v}</td></tr>))}
  </tbody>
@@ -131,16 +132,10 @@ export default function SindhornKempinski() {
             <section className="geo-summary" style={{ background: 'var(--color-primary)', padding: '4rem 2rem', borderBottom: '1px solid rgba(212, 175, 55, 0.1)' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
                     <h2 style={{ color: 'var(--color-gold)', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1.5rem' }}>The Curator&apos;s Brief</h2>
-                    <div style={{ color: 'rgba(245, 241, 230, 0.8)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <strong>Sindhorn Kempinski Hotel Bangkok</strong> operates as a premier <strong>5 Star (Kempinski Collection)</strong> urban luxury suite hotel positioned in Langsuan, Lumpini, Bangkok, Thailand. Featuring an architectural inventory of 176 rooms, suites & residences, the property is vetted by Asia Golf Specialists (AGS) for its suite comfort & rest quality (Soundproofed oversized suites) and direct arterial access to Alpine Golf Club (20 min), Nikanti (30 min).
-                        </p>
-                        <p style={{ marginBottom: '1rem' }}>
-                            From a golf-logistics perspective, Sindhorn Kempinski Hotel Bangkok minimizes daily transit friction across the Bangkok corridor while elevating off-course recovery through garden terrace suites, spa, rooftop pool and post-round recovery & wellness (4,000sqm Sindhorn Wellness by Resense). Every AGS itinerary anchored at Sindhorn Kempinski Hotel Bangkok includes dedicated VIP executive transfers, cold-towel arrival staging, and direct bag-drop coordination between the concierge desk and your caddie master.
-                        </p>
-                        <p>
-                            Our curatorial inspection also highlights Sindhorn Kempinski Hotel Bangkok&apos;s breakfast & dining quality (Flourish Mediterranean & Thai breakfast), ensuring touring groups departing for dawn tee times receive tailored pre-round nutrition and seamless late-afternoon hospitality upon returning from the 18th green.
-                        </p>
+                    <div style={{ color: 'rgba(245, 241, 230, 0.85)', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'left' }}>
+                        <p style={{ marginBottom: '1rem' }}>Set back inside the tranquil leafy enclave of Sindhorn Village beside Lumpini Park in Langsuan, Sindhorn Kempinski Hotel Bangkok is one of Bangkok&apos;s finest contemporary 5-star sanctuaries — and a property Marcus has personally stayed at and rates among Asia&apos;s best city recovery hotels. Entry-level Grand Deluxe rooms start at a remarkably spacious 66 square metres with private balconies and triple-glazed silence.</p>
+                        <p style={{ marginBottom: '1rem' }}>Its Langsuan position connects rapidly onto Bangkok&apos;s expressway network for morning golf runs: expect 50 to 55 minutes to Alpine Golf Club, Riverdale, or Thai Country Club, and 60 to 70 minutes to Nikanti Golf Club or Siam Country Club Bangkok via private AGS touring vehicle.</p>
+                        <p>What makes Sindhorn Kempinski extraordinary after 18 holes in Bangkok humidity is Sindhorn Wellness by Resense — a 4,000-square-metre thermal wonderland featuring a tepidarium, bio-sauna, rasul mud room, cold bucket showers, and heated cantilevered saltwater lap pool.</p>
                     </div>
                 </div>
             </section>
@@ -157,8 +152,8 @@ export default function SindhornKempinski() {
     maxScore={5.0}
     gradeBadge="Lush Green Urban Oasis • Langsuan, Bangkok"
     inspectionDate="Personally Stayed & Inspected — Marcus Giles"
-    leadCurator="AGS Accommodations Review Team"
-    leadCuratorTitle="Asia Golf Specialists"
+    leadCurator="Marcus Giles"
+    leadCuratorTitle="Founder & Managing Director, Asia Golf Specialists"
     criteria={[
       {
             label: "Suite Comfort & Rest Quality",
@@ -187,43 +182,44 @@ export default function SindhornKempinski() {
 
 
             {/* FAQ Section */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close is Sindhorn Kempinski Hotel Bangkok to the nearest championship golf courses in Bangkok?","acceptedAnswer":{"@type":"Answer","text":"Sindhorn Kempinski Hotel Bangkok is positioned in Langsuan, Lumpini, Bangkok, Thailand, offering direct private transfer access to Alpine Golf Club (20 min), Nikanti (30 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."}},{"@type":"Question","name":"What room or villa configurations work best for golf groups at Sindhorn Kempinski Hotel Bangkok?","acceptedAnswer":{"@type":"Answer","text":"Sindhorn Kempinski Hotel Bangkok features 176 Rooms, Suites & Residences within a Urban Luxury Suite Hotel setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."}},{"@type":"Question","name":"What post-round recovery and dining amenities does Sindhorn Kempinski Hotel Bangkok offer?","acceptedAnswer":{"@type":"Answer","text":"Guests at Sindhorn Kempinski Hotel Bangkok enjoy Garden Terrace Suites, Spa, Rooftop Pool, alongside post-round recovery & wellness (4,000sqm Sindhorn Wellness by Resense) and breakfast & dining quality (Flourish Mediterranean & Thai breakfast)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."}},{"@type":"Question","name":"Can Asia Golf Specialists secure preferred group rates and upgrades at Sindhorn Kempinski Hotel Bangkok?","acceptedAnswer":{"@type":"Answer","text":"Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Sindhorn Kempinski Hotel Bangkok as part of a complete stay-and-play golf package."}}]}) }} />
-                        
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How spacious are the rooms at Sindhorn Kempinski for travelling golfers with hard cases?","acceptedAnswer":{"@type":"Answer","text":"Even the entry-level Grand Deluxe rooms measure 66 sqm (nearly double typical Bangkok 5-star rooms) with walk-in wardrobes and balconies, while Executive Club Suites and Two-Bedroom Residences easily accommodate fourballs and full golf luggage."}},{"@type":"Question","name":"What are the realistic morning drive times from Sindhorn Kempinski to Bangkok's top golf clubs?","acceptedAnswer":{"@type":"Answer","text":"With early AGS expressway departures, expect 45–55 minutes to Alpine Golf Club, Siam Country Club Bangkok, or Thai Country Club, and 60–70 minutes to Nikanti Golf Club."}},{"@type":"Question","name":"Is access to the 4,000 sqm thermal wellness area included for hotel guests?","acceptedAnswer":{"@type":"Answer","text":"Yes. Hotel guests enjoy complimentary access to the cantilevered saltwater infinity pool, state-of-the-art fitness studio, and thermal wellness facilities at Sindhorn Wellness by Resense."}},{"@type":"Question","name":"What dining and bar venues are located inside or beside Sindhorn Kempinski?","acceptedAnswer":{"@type":"Answer","text":"On-site highlights include Flourish for morning breakfast and all-day dining, Ki Izakaya, and Firefly Bar for classic cocktails and live jazz — plus Velaa Sindhorn Village's artisan dining strip right across the garden lawn."}}]}) }} />
             <section style={{ backgroundColor: "rgba(212,175,55,0.04)", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)", padding: "5rem 0" }}>
                 <div className="container" style={{ maxWidth: "860px" }}>
                     <h2 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, marginBottom: "2.5rem", color: "#D4AF37", textAlign: "center" }}>
                         Frequently Asked Questions
                     </h2>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-                        {[
-          {
-                    "q": "How close is Sindhorn Kempinski Hotel Bangkok to the nearest championship golf courses in Bangkok?",
-                    "a": "Sindhorn Kempinski Hotel Bangkok is positioned in Langsuan, Lumpini, Bangkok, Thailand, offering direct private transfer access to Alpine Golf Club (20 min), Nikanti (30 min). Asia Golf Specialists coordinates door-to-tee VIP executive transport for every round on your itinerary."
-          },
-          {
-                    "q": "What room or villa configurations work best for golf groups at Sindhorn Kempinski Hotel Bangkok?",
-                    "a": "Sindhorn Kempinski Hotel Bangkok features 176 Rooms, Suites & Residences within a Urban Luxury Suite Hotel setting. Our travel designers configure twin-share suites, single-occupancy sanctuaries, or multi-bedroom private pool villas depending on your group size and privacy preferences."
-          },
-          {
-                    "q": "What post-round recovery and dining amenities does Sindhorn Kempinski Hotel Bangkok offer?",
-                    "a": "Guests at Sindhorn Kempinski Hotel Bangkok enjoy Garden Terrace Suites, Spa, Rooftop Pool, alongside post-round recovery & wellness (4,000sqm Sindhorn Wellness by Resense) and breakfast & dining quality (Flourish Mediterranean & Thai breakfast)—ideal for post-round hydrotherapy, leaderboard debriefs, and early-morning tee time departures."
-          },
-          {
-                    "q": "Can Asia Golf Specialists secure preferred group rates and upgrades at Sindhorn Kempinski Hotel Bangkok?",
-                    "a": "Yes. As a preferred luxury golf tour operator in Thailand, AGS secures contracted touring rates, priority room allocations, and VIP welcome amenities at Sindhorn Kempinski Hotel Bangkok as part of a complete stay-and-play golf package."
-          }
-].map((faq, i) => (
+                        {([
+  {
+    "q": "How spacious are the rooms at Sindhorn Kempinski for travelling golfers with hard cases?",
+    "a": "Even the entry-level Grand Deluxe rooms measure 66 sqm (nearly double typical Bangkok 5-star rooms) with walk-in wardrobes and balconies, while Executive Club Suites and Two-Bedroom Residences easily accommodate fourballs and full golf luggage."
+  },
+  {
+    "q": "What are the realistic morning drive times from Sindhorn Kempinski to Bangkok's top golf clubs?",
+    "a": "With early AGS expressway departures, expect 45–55 minutes to Alpine Golf Club, Siam Country Club Bangkok, or Thai Country Club, and 60–70 minutes to Nikanti Golf Club."
+  },
+  {
+    "q": "Is access to the 4,000 sqm thermal wellness area included for hotel guests?",
+    "a": "Yes. Hotel guests enjoy complimentary access to the cantilevered saltwater infinity pool, state-of-the-art fitness studio, and thermal wellness facilities at Sindhorn Wellness by Resense."
+  },
+  {
+    "q": "What dining and bar venues are located inside or beside Sindhorn Kempinski?",
+    "a": "On-site highlights include Flourish for morning breakfast and all-day dining, Ki Izakaya, and Firefly Bar for classic cocktails and live jazz — plus Velaa Sindhorn Village's artisan dining strip right across the garden lawn."
+  }
+]).map((faq, i) => (
                             <details key={i} style={{ borderBottom: "1px solid rgba(212,175,55,0.12)", padding: "1.5rem 0" }}>
                                 <summary style={{ fontSize: "1.05rem", fontWeight: 600, cursor: "pointer", color: "#F8FAFC", listStyle: "none", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                                     <span>{faq.q}</span>
                                     <span style={{ color: "#D4AF37", fontSize: "1.2rem", flexShrink: 0 }}>+</span>
                                 </summary>
-                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.65)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
+                                <p style={{ marginTop: "1rem", color: "rgba(248,250,252,0.72)", lineHeight: 1.75, fontSize: "1rem" }}>{faq.a}</p>
                             </details>
                         ))}
                     </div>
                 </div>
             </section>
+
+            <AccommodationConciergeBlock hotelName="Sindhorn Kempinski Hotel Bangkok" location="Bangkok" countryName="Thailand" />
 
             <VenueItineraries venueHref="/accommodations/thailand/sindhorn-kempinski/" venueName="Sindhorn Kempinski Hotel Bangkok" venueType="accommodation" />
 
