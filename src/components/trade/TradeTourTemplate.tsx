@@ -1,9 +1,10 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import type { TradeTourData, TradeImageMedia } from "@/data/trade/trade-tours";
+import { captureAttribution, getAttribution, buildTrackedSourceUrl } from "@/lib/attribution";
 
 interface TradeTourTemplateProps {
   data: TradeTourData;
@@ -30,6 +31,9 @@ export default function TradeTourTemplate({ data }: TradeTourTemplateProps) {
 
   // ─── B2B Booking / Hold Form State ──────────────────────────────────────────
   const [formSubmitted, setFormSubmitted] = useState<boolean>(false);
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
+  const [submitError, setSubmitError] = useState<string>("");
+  const calcMountedRef = useRef<boolean>(false);
   const [formData, setFormData] = useState({
     agencyName: "",
     agentName: "",
@@ -39,6 +43,18 @@ export default function TradeTourTemplate({ data }: TradeTourTemplateProps) {
     estimatedPax: "4",
     notes: "",
   });
+
+  const tourFullTitle = `${data.titlePrefix} ${data.titleHighlight}`.trim();
+
+  const pushTradeEvent = (payload: Record<string, unknown>) => {
+    if (typeof window === "undefined") return;
+    const w = window as unknown as {
+      dataLayer?: Array<Record<string, unknown>>;
+      gtag?: (...args: unknown[]) => void;
+    };
+    w.dataLayer = w.dataLayer || [];
+    w.dataLayer.push(payload);
+  };
 
   // ─── Dynamic Pricing Calculations ───────────────────────────────────────────
   const pricing = useMemo(() => {
@@ -88,17 +104,54 @@ export default function TradeTourTemplate({ data }: TradeTourTemplateProps) {
     marginType,
   ]);
 
+  // ─── Track Margin Calculator Adjustments (Debounced) ────────────────────────
+  useEffect(() => {
+    if (!calcMountedRef.current) {
+      calcMountedRef.current = true;
+      return;
+    }
+    const timer = setTimeout(() => {
+      pushTradeEvent({
+        event: "trade_calculator_used",
+        venue_type: "trade_portal",
+        venue_name: tourFullTitle,
+        destination: data.location || "Vietnam",
+        group_size: String(pricing.totalGolfers),
+        estimated_aud: pricing.totalNettCost,
+        agency_margin_pct: marginType === "percent" ? marginPercent : undefined,
+      });
+    }, 1200);
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [twinGolfers, singleGolfers, marginPercent, customMarginDollar, marginType, includeUpgrade]);
+
   // ─── Copy Handlers ──────────────────────────────────────────────────────────
   const handleCopyUrl = (url: string) => {
     const fullUrl = `https://www.asiagolfspecialists.com${url}`;
     navigator.clipboard.writeText(fullUrl);
     setCopiedUrl(url);
+    pushTradeEvent({
+      event: "trade_asset_copied",
+      venue_type: "trade_portal",
+      venue_name: tourFullTitle,
+      destination: data.location || "Vietnam",
+      asset_type: "image_url",
+      asset_label: url.split("/").pop() || "image",
+    });
     setTimeout(() => setCopiedUrl(null), 2500);
   };
 
   const handleCopySnippet = (text: string, index: number) => {
     navigator.clipboard.writeText(text);
     setCopiedSnippetIndex(index);
+    pushTradeEvent({
+      event: "trade_asset_copied",
+      venue_type: "trade_portal",
+      venue_name: tourFullTitle,
+      destination: data.location || "Vietnam",
+      asset_type: "pitch_snippet",
+      asset_label: `snippet_${index + 1}`,
+    });
     setTimeout(() => setCopiedSnippetIndex(null), 2500);
   };
 
@@ -114,7 +167,107 @@ export default function TradeTourTemplate({ data }: TradeTourTemplateProps) {
     ].join("\n");
     navigator.clipboard.writeText(lines);
     setAllAssetsCopied(true);
+    pushTradeEvent({
+      event: "trade_asset_copied",
+      venue_type: "trade_portal",
+      venue_name: tourFullTitle,
+      destination: data.location || "Vietnam",
+      asset_type: "all_assets",
+      asset_label: `${data.mediaAssets.length}_assets`,
+    });
     setTimeout(() => setAllAssetsCopied(false), 3000);
+  };
+
+  // ─── B2B Wholesale Hold Submission ──────────────────────────────────────────
+  const handleTradeHoldSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (isSubmitting) return;
+    setIsSubmitting(true);
+    setSubmitError("");
+
+    const attr = captureAttribution() || getAttribution();
+    const activeRef = (attr?.ref || "").trim().toUpperCase();
+    const currentUrl = typeof window !== "undefined" ? window.location.href : "";
+
+    let telemetryProfile = null;
+    try {
+      const raw = localStorage.getItem("ags_telemetry");
+      if (raw) telemetryProfile = JSON.parse(raw);
+    } catch { /* silent */ }
+
+    const summaryMessage = [
+      `[B2B WHOLESALE HOLD REQUEST]`,
+      `Agency: ${formData.agencyName}`,
+      `Advisor: ${formData.agentName}`,
+      `Tour: ${tourFullTitle} (${data.resortName})`,
+      `Calculator Ref: ${pricing.totalGolfers} pax ($${pricing.totalNettCost.toLocaleString()} AUD Nett | $${pricing.totalClientQuote.toLocaleString()} AUD Retail)`,
+      `Preferred Dates: ${formData.preferredDates}`,
+      `Notes: ${formData.notes || "None"}`,
+    ].join(" | ");
+
+    try {
+      const res = await fetch("/api/leads", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: `${formData.agentName} (${formData.agencyName})`,
+          email: formData.agentEmail,
+          phonePrefix: "",
+          phone: formData.agentPhone,
+          destination: `${data.location || "Vietnam"} — ${tourFullTitle}`,
+          groupSize: formData.estimatedPax,
+          travelMonth: formData.preferredDates,
+          hotelTier: `B2B Wholesale (${data.resortName})`,
+          message: summaryMessage,
+          referralCode: activeRef || undefined,
+          privacy_consent: true,
+          marketing_consent: false,
+          metadata: {
+            lead_source: attr?.initial_referrer || (typeof window !== "undefined" ? document.referrer || "Trade Portal" : "Trade Portal"),
+            landing_page: buildTrackedSourceUrl(currentUrl, attr, activeRef),
+            first_landing_page: attr?.first_landing_page || currentUrl,
+            device_type: typeof window !== "undefined" && /Mobile|Android|iPhone/i.test(navigator.userAgent) ? "Mobile" : "Desktop",
+            package_title: `[B2B] ${tourFullTitle}`,
+            utm_source: attr?.utm_source || undefined,
+            utm_medium: attr?.utm_medium || undefined,
+            utm_campaign: attr?.utm_campaign || undefined,
+            utm_content: attr?.utm_content || undefined,
+            ref: activeRef || undefined,
+          },
+          telemetry: telemetryProfile,
+        }),
+      });
+
+      if (res.ok) {
+        setFormSubmitted(true);
+        pushTradeEvent({
+          event: "form_submission_enquiry",
+          form_type: "trade_hold",
+          destination: data.location || "Vietnam",
+          group_size: formData.estimatedPax,
+          venue_type: "trade_portal",
+          venue_name: tourFullTitle,
+          estimated_aud: pricing.totalNettCost,
+          referral_code: activeRef || undefined,
+        });
+        pushTradeEvent({
+          event: "trade_hold_request",
+          venue_type: "trade_portal",
+          venue_name: tourFullTitle,
+          destination: data.location || "Vietnam",
+          group_size: formData.estimatedPax,
+          estimated_aud: pricing.totalNettCost,
+          referral_code: activeRef || undefined,
+        });
+      } else {
+        const errBody = await res.json().catch(() => ({}));
+        setSubmitError(errBody.error || "Unable to submit hold request right now. Please message Marcus on WhatsApp (+84 935 601 099).");
+      }
+    } catch {
+      setSubmitError("Connection error submitting your hold request. Please message Marcus on WhatsApp (+84 935 601 099).");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   // Filtered Media
@@ -2919,13 +3072,24 @@ export default function TradeTourTemplate({ data }: TradeTourTemplateProps) {
             </div>
           ) : (
             <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                setFormSubmitted(true);
-              }}
+              onSubmit={handleTradeHoldSubmit}
               style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}
             >
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.25rem" }}>
+              {submitError && (
+                <div
+                  style={{
+                    padding: "0.85rem 1rem",
+                    borderRadius: "6px",
+                    backgroundColor: "rgba(239, 68, 68, 0.12)",
+                    border: "1px solid rgba(239, 68, 68, 0.45)",
+                    color: "#FCA5A5",
+                    fontSize: "0.85rem",
+                  }}
+                >
+                  {submitError}
+                </div>
+              )}
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "1.25rem" }}>
                 <div>
                   <label style={{ display: "block", fontSize: "0.8rem", fontWeight: 600, marginBottom: "0.4rem", color: "#CBD5E1" }}>
                     Agency / Company Name *
@@ -3087,6 +3251,7 @@ export default function TradeTourTemplate({ data }: TradeTourTemplateProps) {
 
               <button
                 type="submit"
+                disabled={isSubmitting}
                 style={{
                   background: "linear-gradient(135deg, #D4AF37 0%, #AA820A 100%)",
                   color: "#030712",
@@ -3097,13 +3262,14 @@ export default function TradeTourTemplate({ data }: TradeTourTemplateProps) {
                   fontSize: "0.95rem",
                   letterSpacing: "0.1em",
                   textTransform: "uppercase",
-                  cursor: "pointer",
+                  cursor: isSubmitting ? "wait" : "pointer",
+                  opacity: isSubmitting ? 0.7 : 1,
                   boxShadow: "0 10px 25px rgba(212, 175, 55, 0.35)",
                   marginTop: "0.5rem",
                   transition: "transform 0.15s ease",
                 }}
               >
-                Request 7-Day Wholesale Hold Voucher
+                {isSubmitting ? "Submitting Hold Request..." : "Request 7-Day Wholesale Hold Voucher"}
               </button>
             </form>
           )}
@@ -3135,8 +3301,21 @@ export default function TradeTourTemplate({ data }: TradeTourTemplateProps) {
                 type="button"
                 onClick={() => {
                   const msg = encodeURIComponent(
-                    `Hi Marcus, I am an advisor inquiring about wholesale group dates for ${data.titlePrefix} ${data.titleHighlight}.`
+                    `Hi Marcus, I am an advisor inquiring about wholesale group dates for ${tourFullTitle}.`
                   );
+                  pushTradeEvent({
+                    event: "whatsapp_concierge_click",
+                    venue_type: "trade_portal",
+                    venue_name: tourFullTitle,
+                    destination: data.location || "Vietnam",
+                  });
+                  if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+                    (window as any).gtag("event", "whatsapp_concierge_click", {
+                      venue_type: "trade_portal",
+                      venue_name: tourFullTitle,
+                      destination: data.location || "Vietnam",
+                    });
+                  }
                   window.open(`https://wa.me/84935601099?text=${msg}`, "_blank", "noopener,noreferrer");
                 }}
                 style={{

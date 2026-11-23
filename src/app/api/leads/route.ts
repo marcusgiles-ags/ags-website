@@ -68,6 +68,41 @@ export async function POST(request: Request) {
         ? `[Partner Ref: ${refCode}] ${baseMessage}`.trim()
         : baseMessage || null;
 
+    // Extract visitor browsing journey from ags_telemetry (if present)
+    const rawTelemetry = d.telemetry && typeof d.telemetry === 'object' ? d.telemetry as {
+      pagesVisited?: unknown;
+      articlesRead?: unknown;
+      sessionStart?: unknown;
+    } : null;
+    const pagesVisited = Array.isArray(rawTelemetry?.pagesVisited)
+      ? rawTelemetry.pagesVisited.filter((x): x is string => typeof x === 'string').slice(-15)
+      : [];
+    const articlesRead = Array.isArray(rawTelemetry?.articlesRead)
+      ? rawTelemetry.articlesRead.filter((x): x is string => typeof x === 'string').slice(-15)
+      : [];
+    const sessionSeconds =
+      typeof rawTelemetry?.sessionStart === 'number' && rawTelemetry.sessionStart > 0
+        ? Math.max(0, Math.round((Date.now() - rawTelemetry.sessionStart) / 1000))
+        : null;
+    const formattedDuration =
+      sessionSeconds !== null
+        ? sessionSeconds >= 60
+          ? `${Math.floor(sessionSeconds / 60)}m ${sessionSeconds % 60}s`
+          : `${sessionSeconds}s`
+        : '—';
+    const telemetryJson =
+      pagesVisited.length > 0 || articlesRead.length > 0 || sessionSeconds !== null
+        ? {
+            pagesVisited,
+            articlesRead,
+            sessionSeconds,
+          }
+        : null;
+
+    const isB2BTradeHold =
+      Boolean(taggedMessage && taggedMessage.includes('[B2B WHOLESALE HOLD REQUEST]')) ||
+      Boolean(d.metadata?.package_title && d.metadata.package_title.startsWith('[B2B]'));
+
     const db = getSupabaseServerClient();
 
     // ── 1. Insert lead into web_inquiries ─────────────────────────
@@ -85,6 +120,7 @@ export async function POST(request: Request) {
           source_url:         sourceUrl       || null,
           destination:        d.destination   || null,
           group_size:         d.groupSize     || null,
+          group_dynamics:     telemetryJson,
           travel_date:        travelDate      || null,
           hotel_tier:         d.hotelTier     || null,
           handicap:           d.handicap      || null,
@@ -160,27 +196,36 @@ export async function POST(request: Request) {
         .filter(Boolean)
         .join(' / ');
 
-      const html = emailTemplate('New Consultation Enquiry', {
-        'Name':              d.name,
-        'Email':             d.email,
-        'Phone':             phone,
-        'Nationality':       d.nationality || '—',
-        'Destination':       d.destination || '—',
-        'Group Size':        d.groupSize   || '—',
-        'Travel Date':       travelDate    || '—',
-        'Hotel Tier':        d.hotelTier   || '—',
-        'Handicap':          d.handicap    || '—',
-        'Partner / Ref Code': refCode      || '—',
-        'Campaign (UTM)':    campaignLabel || '—',
-        'Message':           taggedMessage || '—',
-        'Marketing':         d.marketing_consent ? '✅ Opted In' : 'No',
-        'First Landing':     firstLanding  || '—',
-        'Source':            sourceUrl,
-        'Lead ID':           String(leadId ?? 'DB_OFFLINE'),
-        'DB Persisted':      dbPersisted ? 'Yes' : 'NO — CHECK SUPABASE',
-      });
+      const html = emailTemplate(
+        isB2BTradeHold ? 'New B2B Wholesale Hold Request' : 'New Consultation Enquiry',
+        {
+          'Name':              d.name,
+          'Email':             d.email,
+          'Phone':             phone,
+          'Nationality':       d.nationality || '—',
+          'Destination':       d.destination || '—',
+          'Group Size':        d.groupSize   || '—',
+          'Travel Date':       travelDate    || '—',
+          'Hotel Tier':        d.hotelTier   || '—',
+          'Handicap':          d.handicap    || '—',
+          'Partner / Ref Code': refCode      || '—',
+          'Campaign (UTM)':    campaignLabel || '—',
+          'Message':           taggedMessage || '—',
+          'Browsing Journey':  pagesVisited.length > 0 ? pagesVisited.join(' -> ') : '—',
+          'Articles Read':     articlesRead.length > 0 ? articlesRead.join(', ') : '—',
+          'Time on Site':      formattedDuration,
+          'Marketing':         d.marketing_consent ? '✅ Opted In' : 'No',
+          'First Landing':     firstLanding  || '—',
+          'Source':            sourceUrl,
+          'Lead ID':           String(leadId ?? 'DB_OFFLINE'),
+          'DB Persisted':      dbPersisted ? 'Yes' : 'NO — CHECK SUPABASE',
+        }
+      );
       const subjectSuffix = refCode ? ` [Ref: ${refCode}]` : '';
-      await sendDualNotification(`🏌️ New AGS Enquiry — Consultation Request${subjectSuffix}`, html);
+      const emailSubject = isB2BTradeHold
+        ? `🤝 [B2B WHOLESALE HOLD REQUEST] ${d.name}${subjectSuffix}`
+        : `🏌️ New AGS Enquiry — Consultation Request${subjectSuffix}`;
+      await sendDualNotification(emailSubject, html);
       emailSent = true;
     } catch (mailErr) {
       console.error('[leads] CRITICAL Email failed:', mailErr);

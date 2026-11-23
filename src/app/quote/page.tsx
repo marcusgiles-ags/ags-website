@@ -18,6 +18,15 @@ function getDefaultTravelWindow() {
 export default function QuoteForm() {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [configuredBrief, setConfiguredBrief] = useState<{
+    packageSlug: string;
+    title: string;
+    destination: string;
+    group: string;
+    duration: string;
+    estUsd: string;
+    estAud: string;
+  } | null>(null);
   const defaultTravel = getDefaultTravelWindow();
 
   // Expanded Form State
@@ -59,6 +68,62 @@ export default function QuoteForm() {
 
     if (attr?.ref) {
       setFormData(prev => ({ ...prev, referralCode: prev.referralCode || attr.ref || '' }));
+    }
+
+    // Read PackageConfigurator query parameters (?package, ?title, ?destination, ?group, ?duration, ?estUsd, ?estAud)
+    const params = new URLSearchParams(window.location.search);
+    const pkgSlug = params.get('package') || '';
+    const pkgTitle = params.get('title') || '';
+    const pkgDest = params.get('destination') || '';
+    const pkgGroup = params.get('group') || '';
+    const pkgDuration = params.get('duration') || '';
+    const pkgEstUsd = params.get('estUsd') || '';
+    const pkgEstAud = params.get('estAud') || '';
+
+    if (pkgTitle || pkgSlug) {
+      setConfiguredBrief({
+        packageSlug: pkgSlug,
+        title: pkgTitle || pkgSlug,
+        destination: pkgDest,
+        group: pkgGroup,
+        duration: pkgDuration,
+        estUsd: pkgEstUsd,
+        estAud: pkgEstAud,
+      });
+
+      const destLower = pkgDest.toLowerCase();
+      const mappedDest = destLower.includes('thailand')
+        ? 'Thailand'
+        : destLower.includes('cambodia')
+        ? 'Cambodia'
+        : destLower.includes('multi')
+        ? 'Multi-Country'
+        : 'Vietnam';
+
+      const grpLower = pkgGroup.toLowerCase();
+      const mappedGroup = grpLower.includes('16')
+        ? '16+'
+        : grpLower.includes('12')
+        ? '12'
+        : grpLower.includes('8')
+        ? '8'
+        : grpLower.includes('couple') || grpLower.includes('2')
+        ? '2'
+        : grpLower.includes('1') || grpLower.includes('solo')
+        ? '1'
+        : '4';
+
+      const audFmt = pkgEstAud && !Number.isNaN(Number(pkgEstAud)) ? `~$${Number(pkgEstAud).toLocaleString()} AUD` : '';
+      const usdFmt = pkgEstUsd && !Number.isNaN(Number(pkgEstUsd)) ? `$${Number(pkgEstUsd).toLocaleString()} USD` : '';
+      const priceNote = [audFmt, usdFmt].filter(Boolean).join(' / ');
+      const prefilledMsg = `Configured Package: ${pkgTitle || pkgSlug}${pkgDuration ? ` • ${pkgDuration}` : ''}${pkgGroup ? ` • ${pkgGroup}` : ''}${priceNote ? ` (${priceNote} per golfer est.)` : ''}.`;
+
+      setFormData(prev => ({
+        ...prev,
+        destination: mappedDest,
+        groupSize: mappedGroup,
+        message: prev.message || prefilledMsg,
+      }));
     }
 
     setMetadata({
@@ -132,6 +197,9 @@ export default function QuoteForm() {
               form_type: 'quote_page',
               destination: formData.destination,
               group_size: formData.groupSize,
+              package_slug: configuredBrief?.packageSlug || undefined,
+              venue_name: configuredBrief?.title || undefined,
+              estimated_aud: configuredBrief?.estAud ? Number(configuredBrief.estAud) : undefined,
               referral_code: activeRef || undefined,
               utm_source: metadata.utm_source || undefined,
               utm_medium: metadata.utm_medium || undefined,
@@ -208,6 +276,31 @@ export default function QuoteForm() {
               <h1 style={{ fontSize: 'clamp(2.25rem, 5vw, 3rem)', marginBottom: '1rem', color: 'white' }}>Design Your <span style={{ color: '#A68A6B' }}>Escape.</span></h1>
               <p style={{ opacity: 0.85, color: 'white', fontSize: '1.05rem', lineHeight: 1.6 }} itemProp="description" id="exec-summary">Bespoke golf itineraries engineered directly on the ground by Founder Marcus Giles &amp; our expat concierge team—zero third-party markups.</p>
             </div>
+
+            {configuredBrief && (
+              <div
+                style={{
+                  marginBottom: '2rem',
+                  padding: '1.15rem 1.35rem',
+                  borderRadius: '10px',
+                  backgroundColor: 'rgba(212, 175, 55, 0.08)',
+                  border: '1px solid rgba(212, 175, 55, 0.45)',
+                  color: '#F8FAFC',
+                }}
+              >
+                <div style={{ fontSize: '0.72rem', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#D4AF37', marginBottom: '0.35rem' }}>
+                  Pre-Configured Itinerary Brief Loaded
+                </div>
+                <div style={{ fontSize: '0.98rem', lineHeight: 1.55 }}>
+                  Configuring: <strong>{configuredBrief.title}</strong>
+                  {configuredBrief.group ? ` • ${configuredBrief.group}` : ''}
+                  {configuredBrief.duration ? ` • ${configuredBrief.duration}` : ''}
+                  {configuredBrief.estAud && !Number.isNaN(Number(configuredBrief.estAud))
+                    ? ` (~$${Number(configuredBrief.estAud).toLocaleString()} AUD/golfer)`
+                    : ''}
+                </div>
+              </div>
+            )}
 
             <form onSubmit={submitLead} style={{ display: 'flex', flexDirection: 'column', gap: '1.75rem' }}>
               

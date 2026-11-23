@@ -47,6 +47,12 @@ export default function InlineFastInquiry({
     const activeRef = (referralCode || attr?.ref || "").trim().toUpperCase();
     const currentUrl = typeof window !== "undefined" ? window.location.href : "";
 
+    let telemetryProfile = null;
+    try {
+      const raw = localStorage.getItem("ags_telemetry");
+      if (raw) telemetryProfile = JSON.parse(raw);
+    } catch { /* silent */ }
+
     const isEmail = contact.includes("@");
     const payload = {
       name,
@@ -70,6 +76,7 @@ export default function InlineFastInquiry({
         utm_content: attr?.utm_content,
         ref: activeRef || undefined,
       },
+      telemetry: telemetryProfile,
     };
 
     try {
