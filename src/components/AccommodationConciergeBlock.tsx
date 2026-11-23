@@ -27,8 +27,9 @@ export default function AccommodationConciergeBlock({
       };
       if (w.dataLayer) {
         w.dataLayer.push({
-          event: "whatsapp_accommodation_click",
-          hotel_name: hotelName,
+          event: "whatsapp_concierge_click",
+          venue_type: "accommodation",
+          venue_name: hotelName,
           destination: destinationLabel,
         });
       }

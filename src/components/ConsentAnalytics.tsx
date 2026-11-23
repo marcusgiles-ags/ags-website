@@ -94,13 +94,20 @@ export default function ConsentAnalytics() {
     try { stored = localStorage.getItem(CONSENT_KEY); } catch { /* storage blocked */ }
     if (stored === 'accepted' || stored === 'declined') updateConsent(stored);
 
-    // 3. Load GTM (deferred for Core Web Vitals) with the standard gtm.js event
-    //    so "All Pages"/gtm.js triggers in the container can fire.
+    // 3. Load GTM (deferred for Core Web Vitals & bot hygiene) with the standard
+    //    gtm.js event so "All Pages"/gtm.js triggers in the container can fire.
+    //    Skip automated headless browsers (navigator.webdriver) to prevent
+    //    zero-engagement cloud scraper spikes (e.g. AWS Singapore) polluting GA4.
+    if (typeof navigator !== 'undefined' && (navigator as any).webdriver) return;
+
     let loaded = false;
+    let fallbackTimer: ReturnType<typeof setTimeout> | null = null;
     const events = ['scroll', 'touchstart', 'mousemove', 'click', 'keydown'] as const;
     const loadGTM = () => {
       if (loaded) return;
+      if (typeof document !== 'undefined' && document.visibilityState === 'hidden') return;
       loaded = true;
+      if (fallbackTimer) clearTimeout(fallbackTimer);
       events.forEach((e) => window.removeEventListener(e, loadGTM));
       w.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
       const script = document.createElement('script');
@@ -110,15 +117,14 @@ export default function ConsentAnalytics() {
     };
 
     events.forEach((e) => window.addEventListener(e, loadGTM, { passive: true, once: true }));
-    // Fallback: load as soon as the main thread is idle (max ~1.5s) so that
-    // short, no-interaction visits are still counted.
-    if ('requestIdleCallback' in window) {
-      w.requestIdleCallback(loadGTM, { timeout: 1500 });
-    } else {
-      setTimeout(loadGTM, 1500);
-    }
+    // Bot-safe fallback: only fire after 3.5s on a genuinely visible foreground tab
+    // (avoids requestIdleCallback firing at ~100ms for headless scrapers).
+    fallbackTimer = setTimeout(loadGTM, 3500);
 
-    return () => events.forEach((e) => window.removeEventListener(e, loadGTM));
+    return () => {
+      if (fallbackTimer) clearTimeout(fallbackTimer);
+      events.forEach((e) => window.removeEventListener(e, loadGTM));
+    };
   }, []);
 
   return null;

@@ -9,8 +9,11 @@ import Image from 'next/image';
 import ArticleNavigation from '@/components/ArticleNavigation';
 import ArticleCTA from '@/components/ArticleCTA';
 import CourseComparison from '@/components/CourseComparison';
+import InlineFastInquiry from '@/components/InlineFastInquiry';
+import ConciergeWhatsAppButton from '@/components/ConciergeWhatsAppButton';
 import Navbar from "@/components/Navbar";
 import { getTurnkeyRecommendations } from '@/lib/turnkeyRecommendations';
+import lastmodManifest from '@/data/lastmod-manifest.json';
 
 export type DestinationCountry = 'vietnam' | 'thailand' | 'cambodia';
 
@@ -365,6 +368,28 @@ export default async function DestinationArticleTemplate({
                 </div>
             </section>
 
+            {/* Inline Fast Inquiry & Direct WhatsApp Concierge Capture */}
+            <section
+                aria-label="Direct Concierge Enquiry"
+                style={{
+                    backgroundColor: "#040918",
+                    borderBottom: "1px solid rgba(212,175,55,0.14)",
+                    padding: "4rem 1rem 2rem",
+                }}
+            >
+                <div className="container" style={{ maxWidth: "860px", margin: "0 auto" }}>
+                    <ConciergeWhatsAppButton
+                        itemType="article"
+                        itemTitle={article.title}
+                        destination={wikiPlace.name}
+                    />
+                    <InlineFastInquiry
+                        packageTitle={article.title}
+                        destination={wikiPlace.name}
+                    />
+                </div>
+            </section>
+
             {/* FAQ Section */}
             {article.faqs?.length > 0 && (
                 <section
@@ -445,7 +470,7 @@ export default async function DestinationArticleTemplate({
                                 "headline": article.title,
                                 "description": plainTextDescription,
                                 "datePublished": article.dateAdded,
-                                "dateModified": article.dateAdded,
+                                "dateModified": (lastmodManifest as Record<string, { lastmod: string }>)[`src/data/seo-articles/${article.slug}.json`]?.lastmod || article.dateAdded,
                                 "image": article.heroImage ? {
                                     "@type": "ImageObject",
                                     "url": article.heroImage.startsWith('http') ? article.heroImage : `https://www.asiagolfspecialists.com${article.heroImage}`,
@@ -453,13 +478,27 @@ export default async function DestinationArticleTemplate({
                                     "height": 630
                                 } : undefined,
                                 "author": {
-                                      "@type": "Organization",
-                                      "name": "AGS Course Review Team",
-                                      "url": "https://www.asiagolfspecialists.com/about/"
+                                      "@type": "Person",
+                                      "@id": "https://www.asiagolfspecialists.com/#marcus-giles",
+                                      "name": "Marcus Giles",
+                                      "jobTitle": "Founder & Managing Director",
+                                      "url": "https://www.asiagolfspecialists.com/about/#founder",
+                                      "sameAs": ["https://www.linkedin.com/in/marcus-giles-golf/"]
                                   },
                                 "publisher": {
-                                    "@type": "Organization",
+                                    "@type": "TravelAgency",
+                                    "@id": "https://www.asiagolfspecialists.com/#organization",
                                     "name": "Asia Golf Specialists",
+                                    "url": "https://www.asiagolfspecialists.com/",
+                                    "image": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp",
+                                    "address": {
+                                        "@type": "PostalAddress",
+                                        "streetAddress": "27 Nguyen Phan Vinh",
+                                        "addressLocality": "Hoi An",
+                                        "addressRegion": "Da Nang",
+                                        "postalCode": "550000",
+                                        "addressCountry": "VN"
+                                    },
                                     "logo": {
                                         "@type": "ImageObject",
                                         "url": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp"

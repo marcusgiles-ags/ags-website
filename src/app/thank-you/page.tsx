@@ -66,7 +66,7 @@ export default function ThankYouPage() {
               margin: '0 auto 3rem',
               lineHeight: 1.6
             }} itemProp="description" id="exec-summary">
-              We have received your inquiry. One of our Golf Specialists will assemble your bespoke itinerary and contact you within <span style={{ fontWeight: 600, color: '#A68A6B' }}>48 hours.</span>
+              We have received your inquiry. Marcus Giles or one of our Australian Golf Specialists in Da Nang will assemble your bespoke itinerary and contact you within <span style={{ fontWeight: 600, color: '#A68A6B' }}>24 hours.</span>
             </p>
 
             <div style={{ 

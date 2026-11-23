@@ -8,17 +8,17 @@ import path from "path";
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: "SE Asia Golf Guides, Course Reviews & 2026 Costs | AGS" },
+  title: { absolute: "SE Asia Golf Guides, Reviews & 2026/27 Costs | AGS" },
   description:
-    "Unfiltered Vietnam, Thailand & Cambodia golf course reviews, 2026 green-fee & caddie cost guides, and seasonal weather matrices by Founder Marcus Giles.",
+    "Unfiltered Vietnam, Thailand & Cambodia golf course reviews, 2026/27 green-fee & caddie cost matrices, and regional weather calendars by Marcus Giles.",
   alternates: {
     canonical: "https://www.asiagolfspecialists.com/blog/",
   },
   openGraph: {
         
-    title: { absolute: "SE Asia Golf Guides, Course Reviews & 2026 Costs | AGS" },
+    title: { absolute: "SE Asia Golf Guides, Reviews & 2026/27 Costs | AGS" },
     description:
-      "Unfiltered Vietnam, Thailand & Cambodia golf course reviews, 2026 green-fee & caddie cost guides, and seasonal weather matrices by Founder Marcus Giles.",
+      "Unfiltered Vietnam, Thailand & Cambodia golf course reviews, 2026/27 green-fee & caddie cost matrices, and regional weather calendars by Marcus Giles.",
     url: "https://www.asiagolfspecialists.com/blog/",
     siteName: "Asia Golf Specialists",
     type: "website",
@@ -33,8 +33,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: { absolute: "SE Asia Golf Guides, Course Reviews & 2026 Costs | AGS" },
-    description: "Unfiltered Vietnam, Thailand & Cambodia golf course reviews, 2026 green-fee & caddie cost guides, and seasonal weather matrices by Founder Marcus Giles.",
+    title: { absolute: "SE Asia Golf Guides, Reviews & 2026/27 Costs | AGS" },
+    description: "Unfiltered Vietnam, Thailand & Cambodia golf course reviews, 2026/27 green-fee & caddie cost matrices, and regional weather calendars by Marcus Giles.",
     images: ["https://www.asiagolfspecialists.com/images/homepage/hero-slider/vietnam-coastal-golf-course-hoiana-shores-aerial-beachside.webp"],
   },
 };

@@ -27,8 +27,9 @@ export async function POST(request: Request) {
     const db = getSupabaseServerClient();
 
     // Store as a 'guide' inquiry with minimal data (email-only capture)
+    let dbPersisted = false;
     try {
-      await db.from('web_inquiries').insert({
+      const { error } = await db.from('web_inquiries').insert({
         name:             'Guide Request',
         email:            email,
         inquiry_type:     'guide',
@@ -37,8 +38,10 @@ export async function POST(request: Request) {
         ip_hash:          ipHash,
         source_url:       request.headers.get('referer') || null,
       });
+      if (error) throw error;
+      dbPersisted = true;
     } catch (dbErr) {
-      console.error('[guide-request] Supabase insert failed:', dbErr);
+      console.error('[guide-request] CRITICAL Supabase insert failed:', dbErr);
     }
 
     // Log behavioral event
@@ -54,6 +57,7 @@ export async function POST(request: Request) {
 
     return NextResponse.json({
       success: true,
+      db_persisted: dbPersisted,
       message: 'Guide request captured',
       downloadUrl: '/downloads/ags-guide-2026.html',
     });

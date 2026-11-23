@@ -5,9 +5,20 @@ import Navbar from "@/components/Navbar";
 import { captureAttribution, getAttribution, buildTrackedSourceUrl } from "@/lib/attribution";
 
 
+function getDefaultTravelWindow() {
+  const now = new Date();
+  const target = new Date(now.getFullYear(), now.getMonth() + 3, 1);
+  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  return {
+    month: months[target.getMonth()],
+    year: String(target.getFullYear()),
+  };
+}
+
 export default function QuoteForm() {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const defaultTravel = getDefaultTravelWindow();
 
   // Expanded Form State
   const [formData, setFormData] = useState({
@@ -18,8 +29,8 @@ export default function QuoteForm() {
     nationality: '',
     destination: 'Vietnam',
     groupSize: '4',
-    travelMonth: 'September',
-    travelYear: '2026',
+    travelMonth: defaultTravel.month,
+    travelYear: defaultTravel.year,
     hotelTier: 'Luxury 5-Star',
     referralCode: '',
     message: '',
@@ -118,6 +129,7 @@ export default function QuoteForm() {
           if ((window as any).dataLayer) {
             (window as any).dataLayer.push({
               event: 'form_submission_enquiry',
+              form_type: 'quote_page',
               destination: formData.destination,
               group_size: formData.groupSize,
               referral_code: activeRef || undefined,
@@ -183,21 +195,24 @@ export default function QuoteForm() {
         <div className="container" style={{ maxWidth: '650px' }}>
           <div style={{ 
             backgroundColor: 'rgba(255, 255, 255, 0.02)', 
-            padding: '4rem 3rem', 
+            padding: 'clamp(1.75rem, 5vw, 4rem) clamp(1.25rem, 4vw, 3rem)', 
             borderRadius: '16px',
             border: '1px solid rgba(166, 138, 107, 0.15)',
             boxShadow: '0 30px 60px rgba(0,0,0,0.4)',
             backdropFilter: 'blur(10px)'
           }}>
-            <div className="text-center" style={{ marginBottom: '4rem' }}>
-              <h1 style={{ fontSize: '3rem', marginBottom: '1rem', color: 'white' }}>Design Your <span style={{ color: '#A68A6B' }}>Escape.</span></h1>
-              <p style={{ opacity: 0.8, color: 'white', fontSize: '1.1rem' }} itemProp="description" id="exec-summary">Bespoke golf itineraries for the discerning international traveler.</p>
+            <div className="text-center" style={{ marginBottom: '3rem' }}>
+              <span style={{ display: 'inline-block', color: '#D4AF37', fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.16em', textTransform: 'uppercase', marginBottom: '0.75rem' }}>
+                Direct 24-Hour Proposal &bull; Australian Expat Team in Da Nang
+              </span>
+              <h1 style={{ fontSize: 'clamp(2.25rem, 5vw, 3rem)', marginBottom: '1rem', color: 'white' }}>Design Your <span style={{ color: '#A68A6B' }}>Escape.</span></h1>
+              <p style={{ opacity: 0.85, color: 'white', fontSize: '1.05rem', lineHeight: 1.6 }} itemProp="description" id="exec-summary">Bespoke golf itineraries engineered directly on the ground by Founder Marcus Giles &amp; our expat concierge team—zero third-party markups.</p>
             </div>
 
-            <form onSubmit={submitLead} style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+            <form onSubmit={submitLead} style={{ display: 'flex', flexDirection: 'column', gap: '1.75rem' }}>
               
               {/* Row 1: Name & Email */}
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.25rem' }}>
                 <div>
                   <label htmlFor="name" style={labelStyle}>Full Name</label>
                   <input id="name" name="name" type="text" value={formData.name} onChange={handleInputChange} required placeholder="John Citizen" style={inputStyle} />
@@ -209,7 +224,7 @@ export default function QuoteForm() {
               </div>
 
               {/* Nationality (& Optional Referral Code when pre-tagged) */}
-              <div style={{ display: 'grid', gridTemplateColumns: formData.referralCode ? '1fr 1fr' : '1fr', gap: '1.5rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: formData.referralCode ? 'repeat(auto-fit, minmax(220px, 1fr))' : '1fr', gap: '1.25rem' }}>
                 <div>
                   <label htmlFor="nationality" style={labelStyle}>Nationality</label>
                   <input id="nationality" name="nationality" type="text" value={formData.nationality} onChange={handleInputChange} placeholder="e.g. Australian" style={inputStyle} />
@@ -328,7 +343,7 @@ export default function QuoteForm() {
               </div>
 
               {/* Row 3: Destination & Group Size */}
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.25rem' }}>
                 <div>
                   <label htmlFor="destination" style={labelStyle}>Primary Destination</label>
                   <select id="destination" name="destination" value={formData.destination} onChange={handleInputChange} style={inputStyle}>
@@ -354,14 +369,14 @@ export default function QuoteForm() {
               {/* Row 4: Travel Date */}
               <div>
                 <label style={labelStyle}>Estimated Travel Date</label>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.25rem' }}>
                   <select name="travelMonth" value={formData.travelMonth} onChange={handleInputChange} style={inputStyle}>
                     {["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"].map(m => (
                       <option key={m} value={m} style={{ color: 'black' }}>{m}</option>
                     ))}
                   </select>
                   <select name="travelYear" value={formData.travelYear} onChange={handleInputChange} style={inputStyle}>
-                    {["2026", "2027", "2028"].map(y => (
+                    {["2026", "2027", "2028", "2029"].map(y => (
                       <option key={y} value={y} style={{ color: 'black' }}>{y}</option>
                     ))}
                   </select>
@@ -371,7 +386,7 @@ export default function QuoteForm() {
               {/* Row 5: Hotel Tier (Radio Buttons) */}
               <div>
                 <label style={labelStyle}>Preferred Hotel Tier</label>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
                   {[
                     "Private Beachfront Villa", 
                     "Luxury 5-Star", 

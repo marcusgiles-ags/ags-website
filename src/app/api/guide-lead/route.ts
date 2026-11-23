@@ -50,6 +50,7 @@ export async function POST(req: Request) {
 
     // ── 1. Insert guide download lead ──────────────────────────────
     let leadId: number | null = null;
+    let dbPersisted = false;
     try {
       const { data, error } = await db
         .from('web_inquiries')
@@ -70,8 +71,9 @@ export async function POST(req: Request) {
 
       if (error) throw error;
       leadId = data?.id ?? null;
+      dbPersisted = leadId !== null;
     } catch (dbErr) {
-      console.error('[guide-lead] Supabase insert failed:', dbErr);
+      console.error('[guide-lead] CRITICAL Supabase insert failed:', dbErr);
     }
 
     // ── 2. Log consent records ─────────────────────────────────────
@@ -118,6 +120,7 @@ export async function POST(req: Request) {
     } catch { /* non-critical */ }
 
     // ── 4. Send dual notification ──────────────────────────────────
+    let emailSent = false;
     try {
       const campaignLabel = [utmSource, utmMedium, utmCampaign].filter(Boolean).join(' / ');
       const html = emailTemplate('New Portfolio Guide Download', {
@@ -129,15 +132,24 @@ export async function POST(req: Request) {
         'Source':             sourceUrl  || '—',
         'Marketing':          d.marketing_consent ? '✅ Opted In' : 'No',
         'Time':               new Date().toISOString(),
-        'Lead ID':            String(leadId ?? 'N/A'),
+        'Lead ID':            String(leadId ?? 'DB_OFFLINE'),
+        'DB Persisted':       dbPersisted ? 'Yes' : 'NO — CHECK SUPABASE',
       });
       const subjectSuffix = refCode ? ` [Ref: ${refCode}]` : '';
       await sendDualNotification(`📥 New AGS Guide Download — Lead Captured${subjectSuffix}`, html);
+      emailSent = true;
     } catch (mailErr) {
-      console.error('[guide-lead] Email failed:', mailErr);
+      console.error('[guide-lead] CRITICAL Email failed:', mailErr);
     }
 
-    return NextResponse.json({ success: true });
+    if (!dbPersisted && !emailSent) {
+      return NextResponse.json(
+        { error: 'Unable to register guide request right now. Please try again shortly.', db_persisted: false, email_sent: false },
+        { status: 503 }
+      );
+    }
+
+    return NextResponse.json({ success: true, lead_id: leadId, db_persisted: dbPersisted, email_sent: emailSent });
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json({ error: 'Validation failed' }, { status: 400 });

@@ -34,6 +34,7 @@ export async function POST(request: Request) {
     const db = getSupabaseServerClient();
 
     // ── 1. Insert tournament signup ────────────────────────────────
+    let dbPersisted = false;
     try {
       const { error } = await db.from('tournament_signups').insert({
         name:              d.name,
@@ -48,8 +49,9 @@ export async function POST(request: Request) {
         ip_hash:           ipHash,
       });
       if (error) throw error;
+      dbPersisted = true;
     } catch (dbErr) {
-      console.error('[tournament] Supabase insert failed:', dbErr);
+      console.error('[tournament] CRITICAL Supabase insert failed:', dbErr);
     }
 
     // ── 2. Log consent ─────────────────────────────────────────────
@@ -80,6 +82,7 @@ export async function POST(request: Request) {
     }
 
     // ── 3. Send dual notification email ────────────────────────────
+    let emailSent = false;
     try {
       const html = emailTemplate("New Tournament Signup — The Horn Blower's Invitational", {
         'Name':       d.name,
@@ -90,13 +93,22 @@ export async function POST(request: Request) {
         'Shirt Size': d.shirt_size    || '—',
         'Marketing':  d.marketing_consent ? '✅ Opted In' : 'No',
         'Time':       new Date().toISOString(),
+        'DB Persisted': dbPersisted ? 'Yes' : 'NO — CHECK SUPABASE',
       });
       await sendDualNotification("🏆 New Tournament Registration — Horn Blower's Invitational", html);
+      emailSent = true;
     } catch (mailErr) {
-      console.error('[tournament] Email failed:', mailErr);
+      console.error('[tournament] CRITICAL Email failed:', mailErr);
     }
 
-    return NextResponse.json({ success: true }, { status: 200 });
+    if (!dbPersisted && !emailSent) {
+      return NextResponse.json(
+        { error: 'Unable to submit registration right now. Please contact concierge@asiagolfspecialists.com.', db_persisted: false, email_sent: false },
+        { status: 503 }
+      );
+    }
+
+    return NextResponse.json({ success: true, db_persisted: dbPersisted, email_sent: emailSent }, { status: 200 });
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json({ error: 'Validation failed', details: (error as any).errors }, { status: 400 });

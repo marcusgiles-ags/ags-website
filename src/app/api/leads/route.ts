@@ -72,6 +72,7 @@ export async function POST(request: Request) {
 
     // ── 1. Insert lead into web_inquiries ─────────────────────────
     let leadId: number | null = null;
+    let dbPersisted = false;
     try {
       const { data, error } = await db
         .from('web_inquiries')
@@ -98,8 +99,9 @@ export async function POST(request: Request) {
 
       if (error) throw error;
       leadId = data?.id ?? null;
+      dbPersisted = leadId !== null;
     } catch (dbErr) {
-      console.error('[leads] Supabase insert failed:', dbErr);
+      console.error('[leads] CRITICAL Supabase insert failed:', dbErr);
     }
 
     // ── 2. Log consent ─────────────────────────────────────────────
@@ -148,6 +150,7 @@ export async function POST(request: Request) {
     } catch { /* non-critical */ }
 
     // ── 4. Send dual notification email ────────────────────────────
+    let emailSent = false;
     try {
       const campaignLabel = [
         d.metadata?.utm_source,
@@ -173,15 +176,31 @@ export async function POST(request: Request) {
         'Marketing':         d.marketing_consent ? '✅ Opted In' : 'No',
         'First Landing':     firstLanding  || '—',
         'Source':            sourceUrl,
-        'Lead ID':           String(leadId ?? 'N/A'),
+        'Lead ID':           String(leadId ?? 'DB_OFFLINE'),
+        'DB Persisted':      dbPersisted ? 'Yes' : 'NO — CHECK SUPABASE',
       });
       const subjectSuffix = refCode ? ` [Ref: ${refCode}]` : '';
       await sendDualNotification(`🏌️ New AGS Enquiry — Consultation Request${subjectSuffix}`, html);
+      emailSent = true;
     } catch (mailErr) {
-      console.error('[leads] Email failed:', mailErr);
+      console.error('[leads] CRITICAL Email failed:', mailErr);
     }
 
-    return NextResponse.json({ success: true }, { status: 200 });
+    if (!dbPersisted && !emailSent) {
+      return NextResponse.json(
+        {
+          error: 'We could not deliver your inquiry right now. Please message us directly on WhatsApp (+84 935 601 099) or email concierge@asiagolfspecialists.com.',
+          db_persisted: false,
+          email_sent: false,
+        },
+        { status: 503 }
+      );
+    }
+
+    return NextResponse.json(
+      { success: true, lead_id: leadId, db_persisted: dbPersisted, email_sent: emailSent },
+      { status: 200 }
+    );
 
   } catch (error) {
     if (error instanceof z.ZodError) {

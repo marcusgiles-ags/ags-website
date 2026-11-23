@@ -6,7 +6,10 @@ import fs from "fs";
 import path from "path";
 
 import ArticleCTA from "@/components/ArticleCTA";
+import InlineFastInquiry from "@/components/InlineFastInquiry";
+import ConciergeWhatsAppButton from "@/components/ConciergeWhatsAppButton";
 import { getTurnkeyRecommendations } from "@/lib/turnkeyRecommendations";
+import lastmodManifest from "@/data/lastmod-manifest.json";
 
 // Re-check for newly approved/scheduled posts every hour without a manual redeploy
 export const revalidate = 3600;
@@ -165,6 +168,8 @@ export default async function BlogPost({
       : `https://www.asiagolfspecialists.com${post.heroImage}`
     : "https://www.asiagolfspecialists.com/images/og-default.jpg";
 
+  const manifestDate = (lastmodManifest as Record<string, { lastmod: string }>)[`src/data/blog-posts/${slug}.json`]?.lastmod;
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -172,7 +177,7 @@ export default async function BlogPost({
     description: post.description || "",
     url: `https://www.asiagolfspecialists.com/blog/${slug}/`,
     datePublished: post.publishDate || new Date().toISOString(),
-    dateModified: post.publishDate || new Date().toISOString(),
+    dateModified: manifestDate || post.publishDate || new Date().toISOString(),
     image: absHeroImage,
     author: {
       "@type": "Person",
@@ -501,12 +506,27 @@ export default async function BlogPost({
             </div>
           </div>
           <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
-            <Link
-              href="/quote/"
+            <a
+              href="#fast-inquiry"
               className="btn-primary"
               style={{ padding: "0.7rem 1.35rem", fontSize: "0.82rem", whiteSpace: "nowrap" }}
             >
-              Get Custom Quote (48hr)
+              Quick Enquiry (24hr)
+            </a>
+            <Link
+              href="/quote/"
+              style={{
+                padding: "0.7rem 1.15rem",
+                fontSize: "0.82rem",
+                whiteSpace: "nowrap",
+                border: "1px solid rgba(212,175,55,0.5)",
+                color: "#D4AF37",
+                borderRadius: "4px",
+                textDecoration: "none",
+                fontWeight: 600,
+              }}
+            >
+              Full Custom Quote
             </Link>
           </div>
         </div>
@@ -655,50 +675,37 @@ export default async function BlogPost({
         </div>
       </section>
 
-      {/* CTA Block — Rendered via client component to handle GTM tracking */}
+      {/* Inline Fast Inquiry & Direct WhatsApp Concierge Capture */}
       <section
+        aria-label="Direct Concierge Enquiry"
         style={{
-          padding: "6rem 0",
-          background: "radial-gradient(ellipse at 50% 0%, rgba(212,175,55,0.08) 0%, rgba(2,6,23,0) 70%)",
+          padding: "4rem 1rem 2rem",
+          backgroundColor: "#020617",
+          borderTop: "1px solid rgba(212,175,55,0.14)",
         }}
       >
-        <div className="container" style={{ textAlign: "center", maxWidth: "640px" }}>
-          <span
-            style={{
-              color: "#D4AF37",
-              fontSize: "0.72rem",
-              letterSpacing: "0.2em",
-              textTransform: "uppercase",
-              fontWeight: 600,
-              display: "block",
-              marginBottom: "1.5rem",
-            }}
-          >
-            Asia Golf Specialists
-          </span>
-          
-          <ArticleCTA 
-            ctaText={post.ctaText || "Design Your Bespoke Golf Journey"}
-            ctaButton="Request a Custom Quote"
-            slug={post.slug}
-            title={post.title}
-            category={categories}
-            country={countries.join(", ")}
+        <div className="container" style={{ maxWidth: "860px", margin: "0 auto" }}>
+          <ConciergeWhatsAppButton
+            itemType="article"
+            itemTitle={post.title}
+            destination={countries[0] || "Southeast Asia"}
           />
-
-          <p
-            style={{
-              color: "rgba(248,250,252,0.6)",
-              marginTop: "2.5rem",
-              lineHeight: 1.7,
-              fontSize: "1.05rem",
-            }}
-          >
-            Our specialists engineer every detail — tee times, villas, transfers, and cultural
-            experiences — built exclusively around you.
-          </p>
+          <InlineFastInquiry
+            packageTitle={post.title}
+            destination={countries[0] || "Southeast Asia"}
+          />
         </div>
       </section>
+
+      {/* Secondary Full Quote CTA Block */}
+      <ArticleCTA
+        ctaText={post.ctaText || "Design Your Bespoke Golf Journey"}
+        ctaButton="Build a Full Custom Quote"
+        slug={post.slug}
+        title={post.title}
+        category={categories}
+        country={countries.join(", ")}
+      />
 
       {/* Related Posts */}
       {post.relatedPosts?.length > 0 && (

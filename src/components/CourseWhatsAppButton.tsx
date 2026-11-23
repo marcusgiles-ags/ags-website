@@ -19,8 +19,9 @@ export default function CourseWhatsAppButton({
       const w = window as any;
       if (w.dataLayer) {
         w.dataLayer.push({
-          event: "whatsapp_course_click",
-          course_name: courseName,
+          event: "whatsapp_concierge_click",
+          venue_type: "course",
+          venue_name: courseName,
           destination: countryName,
         });
       }

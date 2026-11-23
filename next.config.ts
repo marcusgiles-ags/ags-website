@@ -274,26 +274,36 @@ const nextConfig: NextConfig = {
         destination: "/accommodations/vietnam/an-bang-beach-villas/",
         permanent: true,
       },
-      // Temporary (307) redirects for held-back competitor comparison drafts so they do not return 404 while unpublished
+      // Consolidate 3 cannibalizing flagship Vietnam course review blog posts into canonical /courses/vietnam/* pages
       {
-        source: "/blog/:slug(asia-golf-specialists-vs-(?:ata-holidays|golf-explorer|golfing-getaways|the-golf-travel-agency))/",
-        destination: "/about/",
-        permanent: false,
+        source: "/blog/ba-na-hills-golf-club-review/",
+        destination: "/courses/vietnam/ba-na-hills/",
+        permanent: true,
       },
       {
-        source: "/blog/:slug(asia-golf-specialists-vs-(?:ata-holidays|golf-explorer|golfing-getaways|the-golf-travel-agency))",
-        destination: "/about/",
-        permanent: false,
+        source: "/blog/ba-na-hills-golf-club-review",
+        destination: "/courses/vietnam/ba-na-hills/",
+        permanent: true,
       },
       {
-        source: "/compare/:slug(ata-holidays|golf-explorer|golfing-getaways|the-golf-travel-agency)/",
-        destination: "/about/",
-        permanent: false,
+        source: "/blog/hoiana-shores-golf-club-review/",
+        destination: "/courses/vietnam/hoiana-shores/",
+        permanent: true,
       },
       {
-        source: "/compare/:slug(ata-holidays|golf-explorer|golfing-getaways|the-golf-travel-agency)",
-        destination: "/about/",
-        permanent: false,
+        source: "/blog/hoiana-shores-golf-club-review",
+        destination: "/courses/vietnam/hoiana-shores/",
+        permanent: true,
+      },
+      {
+        source: "/blog/the-bluffs-ho-tram-review/",
+        destination: "/courses/vietnam/the-bluffs-ho-tram/",
+        permanent: true,
+      },
+      {
+        source: "/blog/the-bluffs-ho-tram-review",
+        destination: "/courses/vietnam/the-bluffs-ho-tram/",
+        permanent: true,
       },
       {
         source: "/blog/7-day-vietnam-golf-itinerary-central-coast/",

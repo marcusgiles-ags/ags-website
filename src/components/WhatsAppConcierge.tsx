@@ -1,11 +1,40 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
+import { CONSENT_KEY } from "@/components/ConsentAnalytics";
+
+function formatPageContext(pathname: string): string {
+  if (!pathname || pathname === "/") return "Southeast Asia golf tours";
+  const parts = pathname.split("/").filter(Boolean);
+  const slug = parts[parts.length - 1] || "";
+  if (!slug) return "Southeast Asia golf tours";
+  return slug
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+}
 
 export default function WhatsAppConcierge() {
+  const pathname = usePathname() || "/";
   const [isOpen, setIsOpen] = useState(false);
   const [customMsg, setCustomMsg] = useState("");
   const [isDismissed, setIsDismissed] = useState(false);
+  const [consentBannerVisible, setConsentBannerVisible] = useState(false);
+
+  useEffect(() => {
+    const syncBanner = () => {
+      try {
+        setConsentBannerVisible(!localStorage.getItem(CONSENT_KEY));
+      } catch {
+        setConsentBannerVisible(false);
+      }
+    };
+    syncBanner();
+    const timer = setInterval(syncBanner, 1500);
+    return () => clearInterval(timer);
+  }, []);
+
+  const pageContext = formatPageContext(pathname);
 
   // Direct WhatsApp contact link (configured via NEXT_PUBLIC_WHATSAPP_NUMBER or defaults to Marcus Giles +84 935 601 099)
   const defaultNumber = "84935601099";
@@ -21,13 +50,16 @@ export default function WhatsAppConcierge() {
       if (w.dataLayer) {
         w.dataLayer.push({
           event: "whatsapp_concierge_click",
-          message_topic: messageText.substring(0, 30),
+          venue_type: "floating_concierge",
+          venue_name: pageContext,
+          message_topic: messageText.substring(0, 40),
         });
       }
       if (typeof w.gtag === "function") {
-        w.gtag("event", "contact", {
-          event_category: "WhatsAppConcierge",
-          event_label: messageText.substring(0, 30),
+        w.gtag("event", "whatsapp_concierge_click", {
+          venue_type: "floating_concierge",
+          venue_name: pageContext,
+          event_label: messageText.substring(0, 40),
         });
       }
     }
@@ -75,10 +107,11 @@ export default function WhatsAppConcierge() {
     <div
       style={{
         position: "fixed",
-        bottom: "24px",
+        bottom: consentBannerVisible ? "118px" : "24px",
         right: "24px",
         zIndex: 1000,
         fontFamily: "var(--font-sans, sans-serif)",
+        transition: "bottom 0.25s ease",
       }}
     >
       {/* Expanded Modal Card */}
@@ -160,7 +193,7 @@ export default function WhatsAppConcierge() {
                 type="button"
                 onClick={() =>
                   handleOpenWhatsApp(
-                    "Hi AGS, I'm planning a golf trip to Southeast Asia and would love to discuss a custom itinerary."
+                    `Hi Marcus & AGS team, I'm looking at "${pageContext}" on your site and would love to discuss a custom golf itinerary.`
                   )
                 }
                 style={{

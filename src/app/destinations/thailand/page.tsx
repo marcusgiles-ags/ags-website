@@ -1,22 +1,24 @@
 import Link from "next/link";
 import HeroSlider from "@/components/HeroSlider";
 import ReadMoreExpander from "@/components/ReadMoreExpander";
+import InlineFastInquiry from "@/components/InlineFastInquiry";
+import ConciergeWhatsAppButton from "@/components/ConciergeWhatsAppButton";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import fs from 'fs';
 import path from 'path';
 
 export const metadata = {
- title: { absolute: "Luxury Thailand Golf Vacations 2026 | Ultimate Hub" },
- description: "Experience luxury golf tours in Thailand & Vietnam 2026. Play championship courses & stay 5-star. Asia Golf Specialists.",
+ title: { absolute: "Luxury Golf Holidays & Tours Thailand (2026/27) | AGS" },
+ description: "Bespoke 2026/27 Thailand luxury golf holidays & 5-star spa packages across Bangkok, Hua Hin, Phuket & Chiang Mai—priority tee times & private transfers.",
  keywords: "Thailand golf vacations, best golf courses Thailand, Phuket golf packages, Bangkok golf tours, Thailand hub",
  alternates: {
    canonical: "https://www.asiagolfspecialists.com/destinations/thailand/",
  },
     openGraph: {
         type: "website",
-        title: { absolute: "Luxury Thailand Golf Vacations 2026 | Ultimate Hub" },
-        description: "Experience luxury golf tours in Thailand & Vietnam 2026. Play championship courses & stay 5-star. Asia Golf Specialists.",
+        title: { absolute: "Luxury Golf Holidays & Tours Thailand (2026/27) | AGS" },
+        description: "Bespoke 2026/27 Thailand luxury golf holidays & 5-star spa packages across Bangkok, Hua Hin, Phuket & Chiang Mai—priority tee times & private transfers.",
         url: "https://www.asiagolfspecialists.com/destinations/thailand/",
         siteName: "Asia Golf Specialists",
         images: [{
@@ -28,8 +30,8 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: { absolute: "Luxury Thailand Golf Vacations 2026 | Ultimate Hub" },
-        description: "Experience luxury golf tours in Thailand & Vietnam 2026. Play championship courses & stay 5-star. Asia Golf Specialists.",
+        title: { absolute: "Luxury Golf Holidays & Tours Thailand (2026/27) | AGS" },
+        description: "Bespoke 2026/27 Thailand luxury golf holidays & 5-star spa packages across Bangkok, Hua Hin, Phuket & Chiang Mai—priority tee times & private transfers.",
         images: ["https://www.asiagolfspecialists.com/images/destinations/thailand/hero/thailand-travel-brochure-hero.webp"],
     },
 };
@@ -264,53 +266,73 @@ export default function ThailandHub() {
   <p>Thailand is unequivocally the capital of golf in Southeast Asia. With over 300 courses scattered across the Kingdom, ranging from bustling urban layouts in Bangkok to pristine coastal fairways in Phuket, it presents an unparalleled ecosystem for the traveling golfer. But navigating this vast landscape requires absolute precision. At Asia Golf Specialists, we engineer Thailand golf itineraries that bypass the mass-market tourist traps, elevating you directly to the Kingdom's most elite, private, and immaculately groomed championship courses.</p>
   <p>Review our <Link href="/blog/best-time-to-golf-in-thailand/" style={{ color: "#D4AF37", textDecoration: "underline" }}>Month-by-Month Guide to the Best Time to Golf in Thailand</Link>, compare our <Link href="/blog/top-10-golf-courses-thailand-2026/" style={{ color: "#D4AF37", textDecoration: "underline" }}>Top 10 Championship Golf Courses in Thailand</Link>, or explore our curated <Link href="/blog/golf-and-spa-thailand/" style={{ color: "#D4AF37", textDecoration: "underline" }}>Luxury Golf &amp; Spa Thailand Resort Pairings</Link> across Phuket, Hua Hin, and Bangkok.</p>
   <div style={{ marginTop: '2rem' }}>
-    <h3 style={{ color: '#F8FAFC', fontSize: '1.5rem', marginBottom: '1rem', fontFamily: 'var(--font-primary-serif)' }}>Comparison: Classic Itinerary Architectures</h3>
-    <p>When engineering a Thailand golf tour, we structure itineraries around distinct regional travel styles and course access requirements. Here is an overview of our premier architectures:</p>
+    <h3 style={{ color: '#F8FAFC', fontSize: '1.5rem', marginBottom: '1rem', fontFamily: 'var(--font-primary-serif)' }}>2026/27 Thailand Luxury Golf &amp; 5-Star Spa Packages (USD &amp; AUD Matrix)</h3>
+    <p>Every AGS Thailand itinerary is benchmarked against published 2026/27 green-fee and 5-star sanctuary rack rates with flat $120 USD/day private touring logistics and zero hidden broker markups:</p>
     <div style={{ overflowX: 'auto', marginBottom: '2rem' }}>
       <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.95rem' }}>
         <thead>
           <tr style={{ backgroundColor: 'rgba(212, 175, 55, 0.1)', borderBottom: '2px solid #D4AF37' }}>
-            <th style={{ padding: '1rem', color: '#D4AF37', fontWeight: 600 }}>Itinerary Name</th>
+            <th style={{ padding: '1rem', color: '#D4AF37', fontWeight: 600 }}>Itinerary / Package</th>
             <th style={{ padding: '1rem', color: '#D4AF37', fontWeight: 600 }}>Duration</th>
-            <th style={{ padding: '1rem', color: '#D4AF37', fontWeight: 600 }}>Regions Covered</th>
-            <th style={{ padding: '1rem', color: '#D4AF37', fontWeight: 600 }}>Best Suited For</th>
+            <th style={{ padding: '1rem', color: '#D4AF37', fontWeight: 600 }}>Guide From (USD / AUD)</th>
+            <th style={{ padding: '1rem', color: '#D4AF37', fontWeight: 600 }}>Signature Courses &amp; 5-Star Stays</th>
           </tr>
         </thead>
         <tbody>
           <tr style={{ borderBottom: '1px solid rgba(248, 250, 252, 0.1)' }}>
             <td style={{ padding: '1rem', fontWeight: 600, color: '#F8FAFC' }}>
-              <Link href="/packages/phuket-banyan-tree-championship/" style={{ color: "#D4AF37", textDecoration: "underline" }}>Phuket Championship Coast &amp; Banyan Tree Sanctuary</Link>
+              <Link href="/tours/thailand-royal-siam/" style={{ color: "#D4AF37", textDecoration: "underline" }}>Thailand Royal Siam Signature Tour</Link>
             </td>
-            <td style={{ padding: '1rem' }}>7 Days</td>
-            <td style={{ padding: '1rem' }}>Phuket &amp; Phang Nga (Red Mountain, Blue Canyon, Aquella)</td>
-            <td style={{ padding: '1rem' }}>Tropical island luxury, dramatic elevation changes, and private pool villa recovery.</td>
+            <td style={{ padding: '1rem' }}>7 Days / 4 Rounds</td>
+            <td style={{ padding: '1rem', whiteSpace: 'nowrap' }}>$1,390 USD (~$2,140 AUD)</td>
+            <td style={{ padding: '1rem' }}>Siam Country Club Old Course, Thai Country Club, Alpine &amp; 5-star Bangkok/Pattaya stays.</td>
           </tr>
           <tr style={{ borderBottom: '1px solid rgba(248, 250, 252, 0.1)' }}>
             <td style={{ padding: '1rem', fontWeight: 600, color: '#F8FAFC' }}>
-              <Link href="/packages/hua-hin-standard-seaside-golf/" style={{ color: "#D4AF37", textDecoration: "underline" }}>Hua Hin Standard Seaside Golf Classic</Link>
+              <Link href="/tours/the-bangkok-and-hua-hin-fairways/" style={{ color: "#D4AF37", textDecoration: "underline" }}>The Bangkok &amp; Hua Hin Fairways</Link>
             </td>
-            <td style={{ padding: '1rem' }}>7 Days</td>
-            <td style={{ padding: '1rem' }}>Hua Hin (Black Mountain, Pineapple Valley, Royal Hua Hin)</td>
-            <td style={{ padding: '1rem' }}>Royal seaside links, unhurried pace, and world-class championship conditioning.</td>
+            <td style={{ padding: '1rem' }}>8 Days / 5 Rounds</td>
+            <td style={{ padding: '1rem', whiteSpace: 'nowrap' }}>$1,650 USD (~$2,540 AUD)</td>
+            <td style={{ padding: '1rem' }}>Black Mountain, Pineapple Valley (Banyan), Nikanti &amp; Sindhorn Kempinski / V Villas.</td>
+          </tr>
+          <tr style={{ borderBottom: '1px solid rgba(248, 250, 252, 0.1)' }}>
+            <td style={{ padding: '1rem', fontWeight: 600, color: '#F8FAFC' }}>
+              <Link href="/packages/amanpuri-phuket-ultimate-sanctuary/" style={{ color: "#D4AF37", textDecoration: "underline" }}>Amanpuri Phuket Ultimate Golf &amp; Spa Sanctuary</Link>
+            </td>
+            <td style={{ padding: '1rem' }}>7 Days / 4 Rounds</td>
+            <td style={{ padding: '1rem', whiteSpace: 'nowrap' }}>Bespoke 5-Star Pool Villa</td>
+            <td style={{ padding: '1rem' }}>Red Mountain, Blue Canyon Canyon Course, Aquella &amp; Amanpuri / Banyan Tree Phuket recovery.</td>
+          </tr>
+          <tr style={{ borderBottom: '1px solid rgba(248, 250, 252, 0.1)' }}>
+            <td style={{ padding: '1rem', fontWeight: 600, color: '#F8FAFC' }}>
+              <Link href="/packages/chiva-som-hua-hin-wellness-golf/" style={{ color: "#D4AF37", textDecoration: "underline" }}>Chiva-Som Hua Hin Wellness &amp; Championship Golf</Link>
+            </td>
+            <td style={{ padding: '1rem' }}>7 Days / 3–4 Rounds</td>
+            <td style={{ padding: '1rem', whiteSpace: 'nowrap' }}>Couples &amp; Wellness Focus</td>
+            <td style={{ padding: '1rem' }}>Black Mountain, Springfield Royal &amp; world-leading Chiva-Som beachfront wellness sanctuary.</td>
           </tr>
           <tr style={{ borderBottom: '1px solid rgba(248, 250, 252, 0.1)' }}>
             <td style={{ padding: '1rem', fontWeight: 600, color: '#F8FAFC' }}>
               <Link href="/packages/bangkok-elite-private-clubs/" style={{ color: "#D4AF37", textDecoration: "underline" }}>Bangkok Elite Private Clubs Experience</Link>
             </td>
-            <td style={{ padding: '1rem' }}>6 Days</td>
-            <td style={{ padding: '1rem' }}>Bangkok Metropolis (Thai Country Club, Alpine, Nikanti)</td>
-            <td style={{ padding: '1rem' }}>Private club prestige, Michelin dining, and urban luxury logistics.</td>
-          </tr>
-          <tr style={{ borderBottom: '1px solid rgba(248, 250, 252, 0.1)' }}>
-            <td style={{ padding: '1rem', fontWeight: 600, color: '#F8FAFC' }}>
-              <Link href="/tours/thailand-royal-siam/" style={{ color: "#D4AF37", textDecoration: "underline" }}>Thailand Royal Siam Odyssey</Link>
-            </td>
-            <td style={{ padding: '1rem' }}>14 Days</td>
-            <td style={{ padding: '1rem' }}>Bangkok, Hua Hin &amp; Phuket</td>
-            <td style={{ padding: '1rem' }}>Our flagship hosted tour encompassing Thailand's greatest championship fairways.</td>
+            <td style={{ padding: '1rem' }}>6 Days / 4 Rounds</td>
+            <td style={{ padding: '1rem', whiteSpace: 'nowrap' }}>Private Club Access</td>
+            <td style={{ padding: '1rem' }}>Thai Country Club, Alpine Golf Club, Ballyshear Links &amp; Michelin-star Bangkok dining.</td>
           </tr>
         </tbody>
       </table>
+    </div>
+    <div style={{ marginTop: '2.5rem' }}>
+      <ConciergeWhatsAppButton
+        itemType="article"
+        itemTitle="Thailand Luxury Golf Holidays & 5-Star Spa Tours (2026/27)"
+        destination="Thailand"
+        buttonLabel="Plan My Thailand Golf Trip on WhatsApp"
+      />
+      <InlineFastInquiry
+        packageTitle="Bespoke Thailand Luxury Golf & Spa Holiday"
+        destination="Thailand"
+      />
     </div>
   </div>
  </div>

@@ -5,16 +5,16 @@ import fs from "fs";
 import path from "path";
 
 export const metadata = {
-    title: { absolute: "67 Best Golf Courses in Vietnam, Thailand & Cambodia | AGS" },
-    description: "Compare all 67 championship golf courses in Vietnam, Thailand & Cambodia — verified pars, architects, green-fee bands, and priority tee times for Aussie groups.",
+    title: { absolute: "67 Best SE Asia Golf Courses & 2026/27 Green Fees | AGS" },
+    description: "Compare all 67 championship golf courses in Vietnam, Thailand & Cambodia—with verified pars, architects, 2026/27 fee tiers & guaranteed morning tee times.",
     keywords: ["championship golf courses Southeast Asia", "golf courses Vietnam Da Nang", "golf courses Thailand Bangkok Hua Hin", "golf courses Cambodia Siem Reap", "luxury golf Asia"],
     alternates: {
         canonical: "https://www.asiagolfspecialists.com/courses/",
     },
     openGraph: {
         type: "website",
-        title: { absolute: "67 Best Golf Courses in Vietnam, Thailand & Cambodia | AGS" },
-        description: "Compare all 67 championship golf courses in Vietnam, Thailand & Cambodia — verified pars, architects, green-fee bands, and priority tee times for Aussie groups.",
+        title: { absolute: "67 Best SE Asia Golf Courses & 2026/27 Green Fees | AGS" },
+        description: "Compare all 67 championship golf courses in Vietnam, Thailand & Cambodia—with verified pars, architects, 2026/27 fee tiers & guaranteed morning tee times.",
         url: "https://www.asiagolfspecialists.com/courses/",
         siteName: "Asia Golf Specialists",
         images: [{
@@ -26,8 +26,8 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: { absolute: "67 Best Golf Courses in Vietnam, Thailand & Cambodia | AGS" },
-        description: "Compare all 67 championship golf courses in Vietnam, Thailand & Cambodia — verified pars, architects, green-fee bands, and priority tee times for Aussie groups.",
+        title: { absolute: "67 Best SE Asia Golf Courses & 2026/27 Green Fees | AGS" },
+        description: "Compare all 67 championship golf courses in Vietnam, Thailand & Cambodia—with verified pars, architects, 2026/27 fee tiers & guaranteed morning tee times.",
         images: ["https://www.asiagolfspecialists.com/images/courses/vietnam-courses-lagunalang-09aerialfwsunrise.webp"],
     },
 };

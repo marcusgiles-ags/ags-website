@@ -32,8 +32,8 @@
   "lastmod": "2026-11-20"
  },
  "src/app/accommodations/cambodia/zannier-phum-baitang/page.tsx": {
-  "hash": "485529538bafb5f1",
-  "lastmod": "2026-11-20"
+  "hash": "72d3d9d117fc637d",
+  "lastmod": "2026-11-23"
  },
  "src/app/accommodations/page.tsx": {
   "hash": "63bc01ba42b9cc62",
@@ -56,8 +56,8 @@
   "lastmod": "2026-11-20"
  },
  "src/app/accommodations/thailand/intercontinental-khao-yai/page.tsx": {
-  "hash": "982e1d3cd84b4e18",
-  "lastmod": "2026-11-20"
+  "hash": "f876e372b5790bd7",
+  "lastmod": "2026-11-23"
  },
  "src/app/accommodations/thailand/riva-surya-bangkok/page.tsx": {
   "hash": "6b8322bd76c0d3d2",
@@ -188,20 +188,20 @@
   "lastmod": "2026-11-20"
  },
  "src/app/blog/[slug]/page.tsx": {
-  "hash": "2a3d991b91baa809",
-  "lastmod": "2026-11-20"
+  "hash": "287f33e13ab2d8c2",
+  "lastmod": "2026-11-23"
  },
  "src/app/blog/page.tsx": {
-  "hash": "de93b7cb9e87060f",
-  "lastmod": "2026-11-18"
+  "hash": "dd9f301a9c9de7cc",
+  "lastmod": "2026-11-23"
  },
  "src/app/courses/[country]/[slug]/page.tsx": {
   "hash": "3bfcef98926ca6d2",
   "lastmod": "2026-11-20"
  },
  "src/app/courses/page.tsx": {
-  "hash": "033ea2c48dd0246c",
-  "lastmod": "2026-11-20"
+  "hash": "8c58ce969acd26ac",
+  "lastmod": "2026-11-23"
  },
  "src/app/destinations/cambodia/[slug]/page.tsx": {
   "hash": "e4120a166e7e6378",
@@ -260,8 +260,8 @@
   "lastmod": "2026-11-18"
  },
  "src/app/destinations/thailand/page.tsx": {
-  "hash": "3b475482cb3f7d96",
-  "lastmod": "2026-11-18"
+  "hash": "86f8b21eeef29b29",
+  "lastmod": "2026-11-23"
  },
  "src/app/destinations/vietnam/[slug]/page.tsx": {
   "hash": "d797e915464fe330",
@@ -316,8 +316,8 @@
   "lastmod": "2026-10-19"
  },
  "src/app/packages/[slug]/page.tsx": {
-  "hash": "9ab4792d48178aa5",
-  "lastmod": "2026-11-20"
+  "hash": "b5d32f9e087feb43",
+  "lastmod": "2026-11-23"
  },
  "src/app/packages/page.tsx": {
   "hash": "c979e466aa7b6dd9",
@@ -340,12 +340,12 @@
   "lastmod": "2026-10-22"
  },
  "src/app/quote/page.tsx": {
-  "hash": "da4d9bcd83cbff51",
-  "lastmod": "2026-11-12"
+  "hash": "334ea3926c56dc18",
+  "lastmod": "2026-11-23"
  },
  "src/app/quote/thank-you/page.tsx": {
-  "hash": "de3af2856a228110",
-  "lastmod": "2026-06-28"
+  "hash": "7e2f79c3a0d3556a",
+  "lastmod": "2026-11-23"
  },
  "src/app/site-directory/page.tsx": {
   "hash": "467d0c32cda80ae2",
@@ -356,8 +356,8 @@
   "lastmod": "2026-10-19"
  },
  "src/app/thank-you/page.tsx": {
-  "hash": "2892c21a5e1ebd49",
-  "lastmod": "2026-06-28"
+  "hash": "7a61438b47906341",
+  "lastmod": "2026-11-23"
  },
  "src/app/tours/cambodia-angkor-odyssey/page.tsx": {
   "hash": "21b1b4ded5eaa68b",
@@ -480,28 +480,28 @@
   "lastmod": "2026-11-05"
  },
  "src/data/blog-posts/ba-na-hills-golf-club-review.json": {
-  "hash": "592c4b1424eb9ab7",
-  "lastmod": "2026-11-20"
+  "hash": "aafe51ddda48f57a",
+  "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/beginners-guide-golf-in-vietnam.json": {
-  "hash": "4369fd241c5f3c15",
-  "lastmod": "2026-11-18"
+  "hash": "78b6fd51f98bd1d8",
+  "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/best-golf-courses-da-nang-hoi-an-ranked-2026.json": {
   "hash": "a16844fedff996d1",
   "lastmod": "2026-10-22"
  },
  "src/data/blog-posts/best-time-to-golf-in-thailand.json": {
-  "hash": "8f1790b50992d068",
-  "lastmod": "2026-11-18"
+  "hash": "034dbde6a7619a72",
+  "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/best-time-to-golf-in-vietnam.json": {
-  "hash": "9d2576b07b55021c",
-  "lastmod": "2026-11-12"
+  "hash": "fd0427d3cfaf5a25",
+  "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/caddie-culture-southeast-asia.json": {
-  "hash": "8849c7f3e8fb3fef",
-  "lastmod": "2026-11-12"
+  "hash": "b2efc0df1e3807a6",
+  "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/corporate-executive-retreats.json": {
   "hash": "3ac809ed2e8c2db0",
@@ -524,8 +524,8 @@
   "lastmod": "2026-11-18"
  },
  "src/data/blog-posts/golf-and-spa-thailand.json": {
-  "hash": "33be783d8f874594",
-  "lastmod": "2026-11-12"
+  "hash": "31527da804ea33be",
+  "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/golf-holidays-from-australia.json": {
   "hash": "b86ef93c454ea01d",
@@ -540,8 +540,8 @@
   "lastmod": "2026-11-18"
  },
  "src/data/blog-posts/hoiana-shores-golf-club-review.json": {
-  "hash": "e8de5a8880f38060",
-  "lastmod": "2026-11-20"
+  "hash": "98e782b1f87ef3b6",
+  "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/how-much-does-vietnam-golf-holiday-cost.json": {
   "hash": "172dfc17f48e4e7a",
@@ -568,20 +568,20 @@
   "lastmod": "2026-11-18"
  },
  "src/data/blog-posts/the-bluffs-ho-tram-review.json": {
-  "hash": "479e77b17077eeab",
-  "lastmod": "2026-11-18"
+  "hash": "0d67eca93db51d7a",
+  "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/the-truth-about-vietnam-golf-deals.json": {
   "hash": "1180ff2b08e58a2c",
   "lastmod": "2026-11-18"
  },
  "src/data/blog-posts/top-10-golf-courses-thailand-2026.json": {
-  "hash": "3aee1bfe6b6e03a3",
-  "lastmod": "2026-11-12"
+  "hash": "cfaf4016f73701cf",
+  "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/top-10-golf-courses-vietnam-2026.json": {
-  "hash": "20b6367d6b76f013",
-  "lastmod": "2026-11-18"
+  "hash": "f838af65dec24cc2",
+  "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/vietnam-vs-thailand-golf-holiday.json": {
   "hash": "cd41c461599411ef",
@@ -720,8 +720,8 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/ba-na-hills.json": {
-  "hash": "115cd737a5156edc",
-  "lastmod": "2026-11-20"
+  "hash": "4c2fd0ce5029d311",
+  "lastmod": "2026-11-23"
  },
  "src/data/courses/vietnam/brg-da-nang-nicklaus.json": {
   "hash": "bee2dd44879bede1",
@@ -756,8 +756,8 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/hoiana-shores.json": {
-  "hash": "0b5fe9a2691c6d65",
-  "lastmod": "2026-11-20"
+  "hash": "5a0de3aad74f4e48",
+  "lastmod": "2026-11-23"
  },
  "src/data/courses/vietnam/kings-island.json": {
   "hash": "d6c9ffd9ff57b778",
@@ -836,8 +836,8 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/the-bluffs-ho-tram.json": {
-  "hash": "3a3813c96521ec32",
-  "lastmod": "2026-11-20"
+  "hash": "4619a0be5196a33f",
+  "lastmod": "2026-11-23"
  },
  "src/data/courses/vietnam/twin-doves.json": {
   "hash": "96f4b189ce94c5a2",
@@ -1228,8 +1228,8 @@
   "lastmod": "2026-11-18"
  },
  "src/data/seo-articles/true-cost-golf-vietnam-2026-da-nang-pricing-guide.json": {
-  "hash": "142db40c44647847",
-  "lastmod": "2026-11-18"
+  "hash": "881079a20beddf36",
+  "lastmod": "2026-11-23"
  },
  "src/data/seo-articles/ultimate-vietnam-golf-itinerary-australians.json": {
   "hash": "562c5557d166a453",

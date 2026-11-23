@@ -17,7 +17,7 @@ export default function InlineFastInquiry({
   defaultReferralCode = "",
 }: InlineFastInquiryProps) {
   const [groupSize, setGroupSize] = useState<string>("4");
-  const [travelMonth, setTravelMonth] = useState<string>("November 2026 (Peak Season)");
+  const [travelMonth, setTravelMonth] = useState<string>("January 2027 (Peak Season)");
   const [name, setName] = useState("");
   const [contact, setContact] = useState("");
   const [referralCode, setReferralCode] = useState(defaultReferralCode);
@@ -268,7 +268,7 @@ export default function InlineFastInquiry({
               >
                 1. Group Size ({defaultGroupProfile} typical)
               </label>
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "0.5rem" }}>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(115px, 1fr))", gap: "0.5rem" }}>
                 {[
                   { id: "2", label: "2 Golfers" },
                   { id: "4", label: "4 Golfers" },
@@ -302,7 +302,7 @@ export default function InlineFastInquiry({
             </div>
 
             {/* Travel Timing & Destination */}
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "1rem" }}>
               <div>
                 <label
                   style={{
@@ -376,7 +376,7 @@ export default function InlineFastInquiry({
             </div>
 
             {/* Name & Contact */}
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "1rem" }}>
               <div>
                 <label
                   style={{

@@ -3,20 +3,29 @@
 import React from "react";
 
 interface ConciergeWhatsAppButtonProps {
-  itemType: "tour" | "package";
+  itemType: "tour" | "package" | "article";
   itemTitle: string;
   destination: string;
+  buttonLabel?: string;
 }
 
 export default function ConciergeWhatsAppButton({
   itemType,
   itemTitle,
   destination,
+  buttonLabel,
 }: ConciergeWhatsAppButtonProps) {
   const handleWhatsApp = () => {
-    const label = itemType === "tour" ? "Signature Tour" : "golf package";
+    const label =
+      itemType === "tour"
+        ? "Signature Tour"
+        : itemType === "package"
+        ? "golf package"
+        : "golf trip planning guide";
     const msg = encodeURIComponent(
-      `Hi Marcus & AGS team, I'm interested in the "${itemTitle}" ${label} (${destination}). Could you share availability, customization options, and pricing for our group?`
+      itemType === "article"
+        ? `Hi Marcus & AGS team, I just read "${itemTitle}" (${destination}) and would like help planning a custom golf trip. Could we chat about options and pricing?`
+        : `Hi Marcus & AGS team, I'm interested in the "${itemTitle}" ${label} (${destination}). Could you share availability, customization options, and pricing for our group?`
     );
     if (typeof window !== "undefined") {
       const w = window as unknown as {
@@ -25,8 +34,9 @@ export default function ConciergeWhatsAppButton({
       };
       if (w.dataLayer) {
         w.dataLayer.push({
-          event: itemType === "tour" ? "whatsapp_tour_click" : "whatsapp_package_click",
-          item_title: itemTitle,
+          event: "whatsapp_concierge_click",
+          venue_type: itemType,
+          venue_name: itemTitle,
           destination,
         });
       }
@@ -40,6 +50,13 @@ export default function ConciergeWhatsAppButton({
       window.open(`https://wa.me/84935601099?text=${msg}`, "_blank", "noopener,noreferrer");
     }
   };
+
+  const defaultButtonText =
+    itemType === "tour"
+      ? "Chat on WhatsApp About This Tour"
+      : itemType === "package"
+      ? "Chat on WhatsApp About This Package"
+      : "Ask Marcus on WhatsApp (24hr Concierge)";
 
   return (
     <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
@@ -62,7 +79,7 @@ export default function ConciergeWhatsAppButton({
           cursor: "pointer",
         }}
       >
-        <span>Chat on WhatsApp About This {itemType === "tour" ? "Tour" : "Package"}</span>
+        <span>{buttonLabel || defaultButtonText}</span>
       </button>
     </div>
   );

@@ -64,7 +64,7 @@ export default function ThankYouPage() {
               margin: '0 auto 3rem',
               lineHeight: 1.6
             }} itemProp="description" id="exec-summary">
-              Your bespoke luxury golf itinerary is now being curated. One of our specialists will be in touch within <span style={{ fontWeight: 600, color: 'var(--color-gold)' }}>48 hours</span> to discuss your details.
+              Your bespoke luxury golf itinerary is now being curated. Marcus Giles or one of our specialists will be in touch within <span style={{ fontWeight: 600, color: 'var(--color-gold)' }}>24 hours</span> to discuss your details.
             </p>
 
             <div style={{ 
