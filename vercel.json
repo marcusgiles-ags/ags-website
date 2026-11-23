@@ -35,6 +35,10 @@
     {
       "path": "/api/ping-sitemap",
       "schedule": "0 3 * * 1"
+    },
+    {
+      "path": "/api/cron/supabase-keepalive",
+      "schedule": "0 3 * * 1,4"
     }
   ]
 }
