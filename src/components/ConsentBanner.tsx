@@ -81,12 +81,12 @@ export default function ConsentBanner() {
           lineHeight: 1.6,
         }}>
           <strong style={{ color: '#B8860B', letterSpacing: '0.05em' }}>Asia Golf Specialists respects your privacy.</strong>
-          {' '}We use Google Analytics to understand how visitors use our site and improve our golf travel recommendations.
+          {' '}We use Google Analytics and Meta Pixel cookies to understand how visitors use our site and tailor our golf travel recommendations.
           All data is handled in accordance with our{' '}
           <a href="/privacy-policy/" style={{ color: '#B8860B', textDecoration: 'underline', fontWeight: 600 }}>
             Privacy Policy
           </a>
-          {' '}and Vietnam Decree 13/2023. In the EU, UK, Switzerland and Vietnam, analytics cookies are only set if you accept; you can decline at any time.
+          {' '}and Vietnam Decree 13/2023. In the EU, UK, Switzerland and Vietnam, analytics and marketing cookies are only set if you accept; you can decline at any time.
         </p>
       </div>
 

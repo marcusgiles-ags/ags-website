@@ -11,9 +11,11 @@ import { useEffect } from 'react';
  *
  * Consent defaults are REGION-BASED:
  *  - Opt-in regions (EEA, UK, Switzerland, Vietnam / Decree 13): analytics
- *    denied until the visitor clicks "Accept All".
- *  - All other regions (incl. Australia, Singapore, US): analytics granted,
- *    advertising signals denied unless the visitor accepts.
+ *    and advertising storage denied until the visitor clicks "Accept All".
+ *  - All other regions (incl. Australia, New Zealand, Singapore, US): analytics
+ *    and advertising storage granted by default (opt-out via the banner), so
+ *    GA4 and consent-gated Meta Pixel tags measure Aussie audiences while
+ *    honouring an explicit "Decline" click immediately.
  *  - An explicit stored choice ('accepted' / 'declined') always overrides.
  *
  * REGRESSION NOTE (Oct 2026): a worldwide 'analytics_storage: denied' default
@@ -84,9 +86,9 @@ export default function ConsentAnalytics() {
     });
     gtag('consent', 'default', {
       analytics_storage: 'granted',
-      ad_storage: 'denied',
-      ad_user_data: 'denied',
-      ad_personalization: 'denied',
+      ad_storage: 'granted',
+      ad_user_data: 'granted',
+      ad_personalization: 'granted',
     });
 
     // 2. Honour any explicit choice already made on the banner.
