@@ -146,6 +146,43 @@ export default function PackageConfigurator({
         </div>
       </div>
 
+      {/* Expat Ground Curator Trust & Flexibility Strip (Brings /about/ 8m+ Trust Signal directly onto Package Pages) */}
+      <div style={{
+        backgroundColor: 'rgba(212, 175, 55, 0.06)',
+        border: '1px solid rgba(212, 175, 55, 0.25)',
+        borderLeft: '4px solid #D4AF37',
+        borderRadius: '6px',
+        padding: '1.15rem 1.4rem',
+        marginBottom: '2rem',
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        gap: '1rem'
+      }}>
+        <div style={{ flex: '1 1 460px' }}>
+          <div style={{ fontSize: '0.72rem', color: '#D4AF37', textTransform: 'uppercase', letterSpacing: '0.14em', fontWeight: 700, marginBottom: '0.3rem' }}>
+            On-the-Ground Australian Expat Curation &bull; 100% Customizable Itinerary
+          </div>
+          <p style={{ margin: 0, fontSize: '0.88rem', color: 'rgba(248, 250, 252, 0.85)', lineHeight: 1.55 }}>
+            Personally engineered by <strong>Marcus Giles</strong> (Founder &amp; Managing Director, based in Da Nang). Don&apos;t treat this package as a fixed template — adjust your group size and duration below, or ask us to swap any course, villa tier, or rest day with luxury private touring vehicles and zero middleman markups.
+          </p>
+        </div>
+        <Link
+          href="/about/"
+          style={{
+            fontSize: '0.78rem',
+            color: '#D4AF37',
+            textDecoration: 'underline',
+            fontWeight: 600,
+            whiteSpace: 'nowrap',
+            letterSpacing: '0.04em'
+          }}
+        >
+          Meet Marcus &amp; Our Expat Team &rarr;
+        </Link>
+      </div>
+
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2.5rem', marginBottom: '2.5rem' }}>
         {/* Step 1: Group Size Selector */}
         <div>

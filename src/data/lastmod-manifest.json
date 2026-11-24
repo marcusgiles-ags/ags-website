@@ -292,8 +292,8 @@
   "lastmod": "2026-11-18"
  },
  "src/app/destinations/vietnam/page.tsx": {
-  "hash": "92a823a284a572d1",
-  "lastmod": "2026-11-12"
+  "hash": "b182b515bd306a6d",
+  "lastmod": "2026-11-24"
  },
  "src/app/download-guide/page.tsx": {
   "hash": "866c5c3c792a6ab7",
@@ -484,8 +484,8 @@
   "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/beginners-guide-golf-in-vietnam.json": {
-  "hash": "78b6fd51f98bd1d8",
-  "lastmod": "2026-11-23"
+  "hash": "6ecc01c6e9b9b035",
+  "lastmod": "2026-11-24"
  },
  "src/data/blog-posts/best-golf-courses-da-nang-hoi-an-ranked-2026.json": {
   "hash": "a16844fedff996d1",
@@ -496,12 +496,12 @@
   "lastmod": "2026-11-23"
  },
  "src/data/blog-posts/best-time-to-golf-in-vietnam.json": {
-  "hash": "fd0427d3cfaf5a25",
-  "lastmod": "2026-11-23"
+  "hash": "eb9cfa11d3b749c5",
+  "lastmod": "2026-11-24"
  },
  "src/data/blog-posts/caddie-culture-southeast-asia.json": {
-  "hash": "b2efc0df1e3807a6",
-  "lastmod": "2026-11-23"
+  "hash": "36fa24aefe6aa135",
+  "lastmod": "2026-11-24"
  },
  "src/data/blog-posts/corporate-executive-retreats.json": {
   "hash": "3ac809ed2e8c2db0",
@@ -772,8 +772,8 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/legend-hill.json": {
-  "hash": "1a47ab1beb1c3b9f",
-  "lastmod": "2026-11-20"
+  "hash": "c910e1d55ac6fec0",
+  "lastmod": "2026-11-24"
  },
  "src/data/courses/vietnam/long-thanh.json": {
   "hash": "0edd89cfeabe7bda",
@@ -832,8 +832,8 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/thanh-lanh-valley.json": {
-  "hash": "4d34bdbd6cdd0faa",
-  "lastmod": "2026-11-20"
+  "hash": "fc6141eb23f64fb5",
+  "lastmod": "2026-11-24"
  },
  "src/data/courses/vietnam/the-bluffs-ho-tram.json": {
   "hash": "4619a0be5196a33f",
