@@ -1,7 +1,7 @@
 {
  "src/app/about/page.tsx": {
-  "hash": "f9ae9da856d4f738",
-  "lastmod": "2026-11-20"
+  "hash": "75d94ca22b5359df",
+  "lastmod": "2026-11-25"
  },
  "src/app/accommodations/cambodia/amansara/page.tsx": {
   "hash": "6baf1b16eb59d73f",
@@ -36,8 +36,8 @@
   "lastmod": "2026-11-23"
  },
  "src/app/accommodations/page.tsx": {
-  "hash": "63bc01ba42b9cc62",
-  "lastmod": "2026-11-18"
+  "hash": "b07ae7d7fa2186eb",
+  "lastmod": "2026-11-25"
  },
  "src/app/accommodations/thailand/amanpuri/page.tsx": {
   "hash": "d14f4e8aba0644bb",
@@ -188,8 +188,8 @@
   "lastmod": "2026-11-20"
  },
  "src/app/blog/[slug]/page.tsx": {
-  "hash": "287f33e13ab2d8c2",
-  "lastmod": "2026-11-23"
+  "hash": "8f3a0585122f035b",
+  "lastmod": "2026-11-25"
  },
  "src/app/blog/page.tsx": {
   "hash": "dd9f301a9c9de7cc",
@@ -200,20 +200,20 @@
   "lastmod": "2026-11-20"
  },
  "src/app/courses/page.tsx": {
-  "hash": "8c58ce969acd26ac",
-  "lastmod": "2026-11-23"
+  "hash": "89d5f9a9f6848740",
+  "lastmod": "2026-11-25"
  },
  "src/app/destinations/cambodia/[slug]/page.tsx": {
   "hash": "e4120a166e7e6378",
   "lastmod": "2026-11-20"
  },
  "src/app/destinations/cambodia/accommodations/page.tsx": {
-  "hash": "7dcdc357606145b7",
-  "lastmod": "2026-10-22"
+  "hash": "6350bb7a52a91cc3",
+  "lastmod": "2026-11-25"
  },
  "src/app/destinations/cambodia/courses/page.tsx": {
-  "hash": "bc17d0b3e5662694",
-  "lastmod": "2026-10-22"
+  "hash": "5da30df379fbf2b4",
+  "lastmod": "2026-11-25"
  },
  "src/app/destinations/cambodia/culinary/page.tsx": {
   "hash": "e1b64b9e0f52f7b8",
@@ -228,8 +228,8 @@
   "lastmod": "2026-11-18"
  },
  "src/app/destinations/cambodia/page.tsx": {
-  "hash": "64882f945581dce3",
-  "lastmod": "2026-11-12"
+  "hash": "5dd346e22615fbe6",
+  "lastmod": "2026-11-25"
  },
  "src/app/destinations/page.tsx": {
   "hash": "f20903ca4b5026e8",
@@ -240,12 +240,12 @@
   "lastmod": "2026-11-20"
  },
  "src/app/destinations/thailand/accommodations/page.tsx": {
-  "hash": "4b2b48fe5232b59b",
-  "lastmod": "2026-10-28"
+  "hash": "66587756bb56d8cd",
+  "lastmod": "2026-11-25"
  },
  "src/app/destinations/thailand/courses/page.tsx": {
-  "hash": "0538bef37b98b391",
-  "lastmod": "2026-11-18"
+  "hash": "9f5e6ad6a3da9686",
+  "lastmod": "2026-11-25"
  },
  "src/app/destinations/thailand/culinary/page.tsx": {
   "hash": "f44406c0b1446811",
@@ -260,24 +260,24 @@
   "lastmod": "2026-11-18"
  },
  "src/app/destinations/thailand/page.tsx": {
-  "hash": "86f8b21eeef29b29",
-  "lastmod": "2026-11-23"
+  "hash": "2448b0be7f1c7480",
+  "lastmod": "2026-11-25"
  },
  "src/app/destinations/vietnam/[slug]/page.tsx": {
   "hash": "d797e915464fe330",
   "lastmod": "2026-11-20"
  },
  "src/app/destinations/vietnam/accommodations/page.tsx": {
-  "hash": "fbefe55929d2fb81",
-  "lastmod": "2026-11-18"
+  "hash": "c4c6b7f4c9f4c0db",
+  "lastmod": "2026-11-25"
  },
  "src/app/destinations/vietnam/course-conditions/page.tsx": {
-  "hash": "ff34a8811fbca9ea",
-  "lastmod": "2026-11-20"
+  "hash": "7e0fe3199b92740b",
+  "lastmod": "2026-11-25"
  },
  "src/app/destinations/vietnam/courses/page.tsx": {
-  "hash": "078ab2639ca7ed1e",
-  "lastmod": "2026-11-06"
+  "hash": "8ae64d9f1d78a3a6",
+  "lastmod": "2026-11-25"
  },
  "src/app/destinations/vietnam/culinary/page.tsx": {
   "hash": "6772c27065c73378",
@@ -292,8 +292,8 @@
   "lastmod": "2026-11-18"
  },
  "src/app/destinations/vietnam/page.tsx": {
-  "hash": "b182b515bd306a6d",
-  "lastmod": "2026-11-24"
+  "hash": "6a1c19d72abc8c79",
+  "lastmod": "2026-11-25"
  },
  "src/app/download-guide/page.tsx": {
   "hash": "866c5c3c792a6ab7",
@@ -316,8 +316,8 @@
   "lastmod": "2026-10-19"
  },
  "src/app/packages/[slug]/page.tsx": {
-  "hash": "b5d32f9e087feb43",
-  "lastmod": "2026-11-23"
+  "hash": "dd765f936d274049",
+  "lastmod": "2026-11-25"
  },
  "src/app/packages/page.tsx": {
   "hash": "c979e466aa7b6dd9",
@@ -326,10 +326,6 @@
  "src/app/page.tsx": {
   "hash": "3f5c1e46a5623030",
   "lastmod": "2026-11-20"
- },
- "src/app/preview-hero/page.tsx": {
-  "hash": "d90ef91cad195a2c",
-  "lastmod": "2026-10-27"
  },
  "src/app/privacy-policy/page.tsx": {
   "hash": "d57a21f474494f54",
@@ -348,8 +344,8 @@
   "lastmod": "2026-11-23"
  },
  "src/app/site-directory/page.tsx": {
-  "hash": "467d0c32cda80ae2",
-  "lastmod": "2026-11-20"
+  "hash": "e58cf1fedff1ccfb",
+  "lastmod": "2026-11-25"
  },
  "src/app/terms-of-service/page.tsx": {
   "hash": "1b48abb524b44069",
@@ -368,8 +364,8 @@
   "lastmod": "2026-10-28"
  },
  "src/app/tours/page.tsx": {
-  "hash": "3995d55ca0f5d036",
-  "lastmod": "2026-10-28"
+  "hash": "b244b261a1231045",
+  "lastmod": "2026-11-25"
  },
  "src/app/tours/thailand-royal-siam/page.tsx": {
   "hash": "dcee1154f31a5a17",
@@ -732,8 +728,8 @@
   "lastmod": "2026-11-20"
  },
  "src/data/courses/vietnam/chi-linh-golf.json": {
-  "hash": "8aa7d1e3522d4974",
-  "lastmod": "2026-11-20"
+  "hash": "769843d996b9e00a",
+  "lastmod": "2026-11-25"
  },
  "src/data/courses/vietnam/dragon-golf-links.json": {
   "hash": "0c606b63ac7743b8",

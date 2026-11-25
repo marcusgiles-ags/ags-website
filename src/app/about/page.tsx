@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import { buildOrganizationIdRef } from "@/lib/schema";
 
 export const metadata = {
     title: "About Us | Bespoke Golf Travel Architects",
@@ -319,74 +320,7 @@ export default function About() {
                     "name": "About Asia Golf Specialists",
                     "url": "https://www.asiagolfspecialists.com/about/",
                     "description": "Meet Asia Golf Specialists and Founder Marcus Giles — Australian-led luxury golf tour curators with on-the-ground concierges across Vietnam, Thailand, and Cambodia.",
-                    "mainEntity": {
-                        "@type": "TravelAgency",
-                        "@id": "https://www.asiagolfspecialists.com/#organization",
-                        "name": "Asia Golf Specialists",
-                        "url": "https://www.asiagolfspecialists.com/",
-                        "image": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-transparent.webp",
-                        "telephone": "+84 935 601 099",
-                        "address": {
-                            "@type": "PostalAddress",
-                            "streetAddress": "27 Nguyen Phan Vinh",
-                            "addressLocality": "Hoi An",
-                            "addressRegion": "Da Nang",
-                            "postalCode": "550000",
-                            "addressCountry": "VN"
-                        },
-                        "founder": {
-                            "@type": "Person",
-                            "@id": "https://www.asiagolfspecialists.com/#marcus-giles",
-                            "name": "Marcus Giles",
-                            "jobTitle": "Founder & Managing Director",
-                            "url": "https://www.asiagolfspecialists.com/about/#founder",
-                            "sameAs": [
-                                "https://www.linkedin.com/in/marcus-giles-golf/"
-                            ],
-                            "alumniOf": [
-                                { "@type": "Organization", "name": "13th Beach Golf Links" },
-                                { "@type": "Organization", "name": "Ba Na Hills Golf Club" },
-                                { "@type": "Organization", "name": "Asian Golf Industry Federation (AGIF)" }
-                            ]
-                        },
-                        "sameAs": [
-                            "https://www.linkedin.com/company/asia-golf-specialists/",
-                            "https://www.linkedin.com/in/marcus-giles-golf/",
-                            "https://www.instagram.com/asiagolfspecialists/",
-                            "https://www.facebook.com/asiagolfspecialists/",
-                            "https://www.google.com/maps/place/Asia+Golf+Specialists/@14.5027506,103.509948,3779908m/data=!3m1!1e3!4m6!3m5!1s0x8bc99bf190000767:0x9a7594b1b8f477a2!8m2!3d14.5027506!4d103.509948!16s%2Fg%2F11nj0hlmqy",
-                            "https://share.google/R7EjdnCG1r726lVVz",
-                            "https://www.google.com/search?kgmid=/g/11nj0hlmqy"
-                        ],
-                        "aggregateRating": {
-                            "@type": "AggregateRating",
-                            "ratingValue": "5.0",
-                            "bestRating": "5",
-                            "worstRating": "1",
-                            "ratingCount": "3",
-                            "reviewCount": "3"
-                        },
-                        "review": [
-                            {
-                                "@type": "Review",
-                                "author": { "@type": "Person", "name": "Nathan M." },
-                                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-                                "reviewBody": "AAA Communication, Experience & Service! Marcus and his team delivered an outstanding and memorable six-day golfing experience."
-                            },
-                            {
-                                "@type": "Review",
-                                "author": { "@type": "Person", "name": "Brad J." },
-                                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-                                "reviewBody": "Awesome Trip. Golf courses were sensational and the whole trip was so well organised."
-                            },
-                            {
-                                "@type": "Review",
-                                "author": { "@type": "Person", "name": "Cameron H." },
-                                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-                                "reviewBody": "The team at Asia Golf Specialists arranged a remarkable experience, every part was so well organised. The golf courses were amazing, the city, the culture the energy was so great to be a part of."
-                            }
-                        ]
-                    }
+                    "mainEntity": buildOrganizationIdRef()
                 })
             }} />
 </div>

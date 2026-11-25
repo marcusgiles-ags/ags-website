@@ -103,12 +103,12 @@ export async function POST(request: Request) {
       Boolean(taggedMessage && taggedMessage.includes('[B2B WHOLESALE HOLD REQUEST]')) ||
       Boolean(d.metadata?.package_title && d.metadata.package_title.startsWith('[B2B]'));
 
-    const db = getSupabaseServerClient();
-
     // ── 1. Insert lead into web_inquiries ─────────────────────────
+    let db: ReturnType<typeof getSupabaseServerClient> | null = null;
     let leadId: number | null = null;
     let dbPersisted = false;
     try {
+      db = getSupabaseServerClient();
       const { data, error } = await db
         .from('web_inquiries')
         .insert({
@@ -142,34 +142,36 @@ export async function POST(request: Request) {
 
     // ── 2. Log consent ─────────────────────────────────────────────
     try {
-      const consentRows: DbConsentLogInsert[] = [
-        {
-          email:          d.email,
-          consent_type:   'privacy',
-          consent_given:  true,
-          policy_version: CURRENT_POLICY_VERSION,
-          ip_hash:        ipHash,
-          source_form:    'quote-form',
-        },
-      ];
-      if (d.marketing_consent) {
-        consentRows.push({
-          email:          d.email,
-          consent_type:   'marketing',
-          consent_given:  true,
-          policy_version: CURRENT_POLICY_VERSION,
-          ip_hash:        ipHash,
-          source_form:    'quote-form',
-        });
+      if (db) {
+        const consentRows: DbConsentLogInsert[] = [
+          {
+            email:          d.email,
+            consent_type:   'privacy',
+            consent_given:  true,
+            policy_version: CURRENT_POLICY_VERSION,
+            ip_hash:        ipHash,
+            source_form:    'quote-form',
+          },
+        ];
+        if (d.marketing_consent) {
+          consentRows.push({
+            email:          d.email,
+            consent_type:   'marketing',
+            consent_given:  true,
+            policy_version: CURRENT_POLICY_VERSION,
+            ip_hash:        ipHash,
+            source_form:    'quote-form',
+          });
+        }
+        await db.from('consent_logs').insert(consentRows);
       }
-      await db.from('consent_logs').insert(consentRows);
     } catch (consentErr) {
       console.warn('[leads] Consent log failed:', consentErr);
     }
 
     // ── 3. Log behavioral event ────────────────────────────────────
     try {
-      if (leadId) {
+      if (db && leadId) {
         const evtRow: DbBehavioralEvtInsert = {
           session_id:   ipHash ?? 'anon',
           event_type:   'form_start',

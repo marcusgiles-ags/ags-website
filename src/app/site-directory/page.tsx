@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar';
 import fs from 'fs';
 import path from 'path';
 
-// Helper: get all article data
+// Helper: get all indexable SEO articles (exclude noindex lifestyle articles from crawl directory)
 function getSeoArticles(): { title: string; url: string; category: string }[] {
   const dataDir = path.join(process.cwd(), 'src/data/seo-articles');
   if (!fs.existsSync(dataDir)) return [];
@@ -13,6 +13,7 @@ function getSeoArticles(): { title: string; url: string; category: string }[] {
       try {
         const raw = fs.readFileSync(path.join(dataDir, file), 'utf-8');
         const article = JSON.parse(raw);
+        if (article.noindex) return null;
         return { title: article.title, url: `/destinations/${article.category}/${article.slug}/`, category: article.category };
       } catch {
         return null;
@@ -187,22 +188,13 @@ export default function SiteDirectory() {
                 <li><Link href="/destinations/vietnam/" style={linkStyle}>Vietnam Golf Hub</Link></li>
                 <li><Link href="/destinations/vietnam/courses/" style={linkStyle}>Vietnam Golf Courses</Link></li>
                 <li><Link href="/destinations/vietnam/accommodations/" style={linkStyle}>Vietnam Luxury Accommodations</Link></li>
-                <li><Link href="/destinations/vietnam/culinary/" style={linkStyle}>Vietnam Culinary Guides</Link></li>
-                <li><Link href="/destinations/vietnam/culture/" style={linkStyle}>Vietnam Cultural Experiences</Link></li>
-                <li><Link href="/destinations/vietnam/nightlife/" style={linkStyle}>Vietnam Nightlife Guides</Link></li>
                 <li><Link href="/destinations/vietnam/course-conditions/" style={linkStyle}>Vietnam Course Maintenance Tracker</Link></li>
                 <li><Link href="/destinations/thailand/" style={linkStyle}>Thailand Golf Hub</Link></li>
                 <li><Link href="/destinations/thailand/courses/" style={linkStyle}>Thailand Golf Courses</Link></li>
                 <li><Link href="/destinations/thailand/accommodations/" style={linkStyle}>Thailand Luxury Accommodations</Link></li>
-                <li><Link href="/destinations/thailand/culinary/" style={linkStyle}>Thailand Culinary Guides</Link></li>
-                <li><Link href="/destinations/thailand/culture/" style={linkStyle}>Thailand Cultural Experiences</Link></li>
-                <li><Link href="/destinations/thailand/nightlife/" style={linkStyle}>Thailand Nightlife Guides</Link></li>
                 <li><Link href="/destinations/cambodia/" style={linkStyle}>Cambodia Golf Hub</Link></li>
                 <li><Link href="/destinations/cambodia/courses/" style={linkStyle}>Cambodia Golf Courses</Link></li>
                 <li><Link href="/destinations/cambodia/accommodations/" style={linkStyle}>Cambodia Luxury Accommodations</Link></li>
-                <li><Link href="/destinations/cambodia/culinary/" style={linkStyle}>Cambodia Culinary Guides</Link></li>
-                <li><Link href="/destinations/cambodia/culture/" style={linkStyle}>Cambodia Cultural Experiences</Link></li>
-                <li><Link href="/destinations/cambodia/nightlife/" style={linkStyle}>Cambodia Nightlife Guides</Link></li>
                 <li><Link href="/courses/" style={linkStyle}>All Golf Courses</Link></li>
                 <li><Link href="/accommodations/" style={linkStyle}>All Luxury Accommodations</Link></li>
                 <li><Link href="/tours/" style={linkStyle}>Curated Tours</Link></li>

@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar';
 import InlineFastInquiry from '@/components/InlineFastInquiry';
 import ConciergeWhatsAppButton from '@/components/ConciergeWhatsAppButton';
 import PackageConfigurator from '@/components/PackageConfigurator';
+import { buildTravelAgencyRef } from '@/lib/schema';
 
 export const dynamicParams = false;
 
@@ -199,21 +200,7 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
     "url": `https://www.asiagolfspecialists.com/packages/${slug}/`,
     "image": `https://www.asiagolfspecialists.com${data.heroImage}`,
     "touristType": [data.groupProfile, data.intent, "Golf Travelers"],
-    "provider": {
-      "@type": "TravelAgency",
-      "@id": "https://www.asiagolfspecialists.com/#organization",
-      "name": "Asia Golf Specialists",
-      "url": "https://www.asiagolfspecialists.com/",
-      "image": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "27 Nguyen Phan Vinh",
-        "addressLocality": "Hoi An",
-        "addressRegion": "Da Nang",
-        "postalCode": "550000",
-        "addressCountry": "VN"
-      }
-    },
+    "provider": buildTravelAgencyRef(),
     "itinerary": {
       "@type": "ItemList",
       "itemListElement": data.itinerary.map((day) => ({

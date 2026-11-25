@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { buildFounderRef, buildOrganizationIdRef, buildPublisherRef } from "@/lib/schema";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import fs from "fs";
@@ -179,56 +180,14 @@ export default async function BlogPost({
     datePublished: post.publishDate || new Date().toISOString(),
     dateModified: manifestDate || post.publishDate || new Date().toISOString(),
     image: absHeroImage,
-    author: {
-      "@type": "Person",
-      "@id": "https://www.asiagolfspecialists.com/#marcus-giles",
-      name: "Marcus Giles",
-      jobTitle: "Founder & Managing Director",
-      url: "https://www.asiagolfspecialists.com/about/#founder",
-      sameAs: ["https://www.linkedin.com/in/marcus-giles-golf/"],
-    },
-    publisher: {
-      "@type": "TravelAgency",
-      "@id": "https://www.asiagolfspecialists.com/#organization",
-      name: "Asia Golf Specialists",
-      url: "https://www.asiagolfspecialists.com/",
-      image: "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "27 Nguyen Phan Vinh",
-        addressLocality: "Hoi An",
-        addressRegion: "Da Nang",
-        postalCode: "550000",
-        addressCountry: "VN",
-      },
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp",
-        width: 512,
-        height: 512,
-      },
-    },
+    author: buildFounderRef(),
+    publisher: buildPublisherRef(),
     about: [
       { "@type": "Thing", name: "Golf", sameAs: "https://en.wikipedia.org/wiki/Golf" },
       { "@type": "Thing", name: "Golf Tourism", sameAs: "https://en.wikipedia.org/wiki/Golf_tourism" },
       { "@type": "Thing", name: "Southeast Asia", sameAs: "https://en.wikipedia.org/wiki/Southeast_Asia" },
       { "@type": "Thing", name: "Golf Tour Operator", sameAs: "https://en.wikipedia.org/wiki/Tour_operator" },
-      {
-        "@type": "TravelAgency",
-        "@id": "https://www.asiagolfspecialists.com/#organization",
-        name: "Asia Golf Specialists",
-        url: "https://www.asiagolfspecialists.com/",
-        image: "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp",
-        priceRange: "$$$$",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "27 Nguyen Phan Vinh",
-          addressLocality: "Hoi An",
-          addressRegion: "Da Nang",
-          postalCode: "550000",
-          addressCountry: "VN",
-        },
-      },
+      buildOrganizationIdRef(),
     ],
     keywords: Array.isArray(post.keywords) ? post.keywords.join(", ") : "",
     inLanguage: "en",
@@ -278,7 +237,9 @@ export default async function BlogPost({
     ? "KH"
     : "VN";
 
-  const isReview = post.title.toLowerCase().includes("review");
+  // Only emit venue Review schema for actual golf course or hotel reviews — never tour-operator comparisons (e.g. asia-golf-specialists-vs-*)
+  const isOperatorComparison = slug.startsWith("asia-golf-specialists-vs-") || /\bvs\b/i.test(post.title);
+  const isReview = !isOperatorComparison && post.title.toLowerCase().includes("review");
   const reviewSchema = isReview ? {
     "@context": "https://schema.org",
     "@type": "Review",
@@ -296,12 +257,8 @@ export default async function BlogPost({
       "ratingValue": "5",
       "bestRating": "5"
     },
-    "author": {
-      "@type": "Person",
-      "@id": "https://www.asiagolfspecialists.com/#marcus-giles",
-      "name": "Marcus Giles",
-      "url": "https://www.asiagolfspecialists.com/about/#founder"
-    }
+    "author": buildFounderRef(),
+    "publisher": buildPublisherRef()
   } : null;
 
   const primaryCountryKey = countries.includes("Thailand")

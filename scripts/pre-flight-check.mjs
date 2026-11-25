@@ -704,6 +704,30 @@ console.log('\n--- 12. Next-Gen Tour Lock, Hydration, Schema & LLMs Data Gate --
     }
   }
 
+  // 5. RootLayout & Review Snippets Governance Guard (prevents WRS <head> duplication & multiple AggregateRating GSC errors)
+  const rootLayoutSrc = fs.readFileSync(path.join(rootDir, 'src/app/layout.tsx'), 'utf-8');
+  const headMatch = rootLayoutSrc.match(/<head>[\s\S]*?<\/head>/i);
+  if (headMatch && headMatch[0].includes('application/ld+json')) {
+    fail('src/app/layout.tsx must NOT place <script type="application/ld+json"> inside <head> (causes Next.js App Router WRS hydration duplication)');
+  }
+  const stripComments = (src) => src.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\/\/.*$/gm, '');
+  if (stripComments(rootLayoutSrc).includes('aggregateRating')) {
+    fail('src/app/layout.tsx must NOT emit sitewide first-party aggregateRating on #organization (violates Google Review Snippets policy)');
+  }
+  const aboutSrc = fs.readFileSync(path.join(rootDir, 'src/app/about/page.tsx'), 'utf-8');
+  if (stripComments(aboutSrc).includes('aggregateRating')) {
+    fail('src/app/about/page.tsx must NOT emit duplicate/self-serving aggregateRating on #organization');
+  }
+  const schemaLibPath = path.join(rootDir, 'src/lib/schema.ts');
+  if (!fs.existsSync(schemaLibPath)) {
+    fail('src/lib/schema.ts centralized schema builder is missing');
+  } else {
+    const schemaLibSrc = fs.readFileSync(schemaLibPath, 'utf-8');
+    if (stripComments(schemaLibSrc).includes('aggregateRating')) {
+      fail('src/lib/schema.ts must NOT inject first-party aggregateRating onto #organization');
+    }
+  }
+
   if (gate12Ok) {
     reportPass('Next-Gen Tour Server Components, hydration boundaries, Schema types, TSX metadata, and LLMs.txt specs verified');
   }

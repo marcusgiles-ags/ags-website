@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import { buildFounderRef, buildPublisherRef } from "@/lib/schema";
 
 export const metadata = {
     title: { absolute: "Vietnam Golf Course Conditions Report | October 2026 Update" },
@@ -24,34 +25,8 @@ export const metadata = {
 };
 
 export default function CourseConditionsPage() {
-    const articleSchema = {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Vietnam Golf Course Conditions Report",
-        "description": "Live on-the-ground intelligence and seasonal playability for Vietnam's flagship golf layouts. Check Stimpmeter green speeds, turf drainage, and weather.",
-        "url": "https://www.asiagolfspecialists.com/destinations/vietnam/course-conditions/",
-        "image": "https://www.asiagolfspecialists.com/images/courses/vietnam/vietnam-golf-course-hoiana-shores-championship-layout.webp",
-        "datePublished": "2026-10-01",
-        "dateModified": "2026-11-20",
-        "author": {
-            "@type": "Person",
-            "@id": "https://www.asiagolfspecialists.com/#marcus-giles",
-            "name": "Marcus Giles",
-            "url": "https://www.asiagolfspecialists.com/about/#founder"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.asiagolfspecialists.com/#organization",
-            "name": "Asia Golf Specialists"
-        }
-    };
-
     return (
         <main style={{ backgroundColor: '#020617', color: 'var(--color-tertiary)', minHeight: '100vh' }}>
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-            />
             <Navbar />
 
             {/* Hero Section */}
@@ -190,28 +165,15 @@ export default function CourseConditionsPage() {
                                 "headline": "Vietnam Golf Course Conditions Report | October 2026 Update",
                                 "description": "Live on-the-ground intelligence and seasonal playability for Vietnam's flagship golf layouts. Get the latest turf conditions, weather impact, and green speeds.",
                                 "datePublished": "2026-10-01",
-                                "dateModified": "2026-10-23",
+                                "dateModified": "2026-11-20",
                                 "image": {
                                     "@type": "ImageObject",
                                     "url": "https://www.asiagolfspecialists.com/images/courses/vietnam/vietnam-golf-course-hoiana-shores-championship-layout.webp",
                                     "width": 1200,
                                     "height": 630
                                 },
-                                "author": {
-                                    "@type": "Organization",
-                                    "name": "AGS Course Review Team",
-                                    "url": "https://www.asiagolfspecialists.com/about/"
-                                },
-                                "publisher": {
-                                    "@type": "Organization",
-                                    "@id": "https://www.asiagolfspecialists.com/#organization",
-                                    "name": "Asia Golf Specialists",
-                                    "url": "https://www.asiagolfspecialists.com/",
-                                    "logo": {
-                                        "@type": "ImageObject",
-                                        "url": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp"
-                                    }
-                                },
+                                "author": buildFounderRef(),
+                                "publisher": buildPublisherRef(),
                                 "about": [
                                     { "@type": "Thing", "name": "Golf", "sameAs": "https://en.wikipedia.org/wiki/Golf" },
                                     { "@type": "Place", "name": "Vietnam", "sameAs": "https://en.wikipedia.org/wiki/Vietnam" }

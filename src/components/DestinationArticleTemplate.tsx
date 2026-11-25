@@ -13,6 +13,7 @@ import InlineFastInquiry from '@/components/InlineFastInquiry';
 import ConciergeWhatsAppButton from '@/components/ConciergeWhatsAppButton';
 import Navbar from "@/components/Navbar";
 import { getTurnkeyRecommendations } from '@/lib/turnkeyRecommendations';
+import { buildFounderRef, buildOrganizationIdRef, buildPublisherRef } from '@/lib/schema';
 import lastmodManifest from '@/data/lastmod-manifest.json';
 
 export type DestinationCountry = 'vietnam' | 'thailand' | 'cambodia';
@@ -111,7 +112,7 @@ export default async function DestinationArticleTemplate({
     const currentCountry = article.category !== 'general' ? article.category : 'destination';
 
     const articles = getDestinationArticles(country)
-        .filter(a => a.subcategory === article.subcategory && a.category !== 'general')
+        .filter(a => a.subcategory === article.subcategory && a.category !== 'general' && (!article.noindex ? !a.noindex : true))
         .sort((a, b) => a.slug.localeCompare(b.slug));
 
     const currentIndex = articles.findIndex(a => a.slug === slug);
@@ -152,7 +153,15 @@ export default async function DestinationArticleTemplate({
                             remarkPlugins={[remarkGfm]}
                             rehypePlugins={[rehypeRaw]}
                             components={{
-                                p({ children }) {
+                                p({ node, children }) {
+                                    const hasImageChild = Boolean(
+                                        node?.children?.some(
+                                            (child: any) => child?.type === 'element' && child?.tagName === 'img'
+                                        )
+                                    );
+                                    if (hasImageChild) {
+                                        return <div style={{ marginBottom: '1.5rem' }}>{children}</div>;
+                                    }
                                     return <p style={{ marginBottom: '1.5rem' }}>{children}</p>;
                                 },
                                 h2({ children }) {
@@ -186,7 +195,7 @@ export default async function DestinationArticleTemplate({
                                 },
                                 img({ src, alt }) {
                                     return (
-                                        <div style={{ display: 'block', width: '100%', height: '420px', position: 'relative', margin: '2.5rem 0', borderRadius: '8px', overflow: 'hidden' }}>
+                                        <span style={{ display: 'block', width: '100%', height: '420px', position: 'relative', margin: '2.5rem 0', borderRadius: '8px', overflow: 'hidden' }}>
                                             <Image
                                                 src={(src as string) || ''}
                                                 alt={alt || ''}
@@ -195,7 +204,7 @@ export default async function DestinationArticleTemplate({
                                                 style={{ objectFit: 'cover' }}
                                                 loading="lazy"
                                             />
-                                        </div>
+                                        </span>
                                     );
                                 }
                             }}
@@ -477,55 +486,15 @@ export default async function DestinationArticleTemplate({
                                     "width": 1200,
                                     "height": 630
                                 } : undefined,
-                                "author": {
-                                      "@type": "Person",
-                                      "@id": "https://www.asiagolfspecialists.com/#marcus-giles",
-                                      "name": "Marcus Giles",
-                                      "jobTitle": "Founder & Managing Director",
-                                      "url": "https://www.asiagolfspecialists.com/about/#founder",
-                                      "sameAs": ["https://www.linkedin.com/in/marcus-giles-golf/"]
-                                  },
-                                "publisher": {
-                                    "@type": "TravelAgency",
-                                    "@id": "https://www.asiagolfspecialists.com/#organization",
-                                    "name": "Asia Golf Specialists",
-                                    "url": "https://www.asiagolfspecialists.com/",
-                                    "image": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp",
-                                    "address": {
-                                        "@type": "PostalAddress",
-                                        "streetAddress": "27 Nguyen Phan Vinh",
-                                        "addressLocality": "Hoi An",
-                                        "addressRegion": "Da Nang",
-                                        "postalCode": "550000",
-                                        "addressCountry": "VN"
-                                    },
-                                    "logo": {
-                                        "@type": "ImageObject",
-                                        "url": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp"
-                                    }
-                                },
-                                  "about": [
-                                      { "@type": "Thing", "name": "Golf", "sameAs": "https://en.wikipedia.org/wiki/Golf" },
-                                      { "@type": "Thing", "name": "Golf Tourism", "sameAs": "https://en.wikipedia.org/wiki/Golf_tourism" },
-                                      { "@type": "Place", "name": wikiPlace.name, "sameAs": wikiPlace.sameAs },
-                                      { "@type": "Thing", "name": "Golf Tour Operator", "sameAs": "https://en.wikipedia.org/wiki/Tour_operator" },
-                                      {
-                                          "@type": "TravelAgency",
-                                          "@id": "https://www.asiagolfspecialists.com/#organization",
-                                          "name": "Asia Golf Specialists",
-                                          "url": "https://www.asiagolfspecialists.com/",
-                                          "image": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp",
-                                          "priceRange": "$$$$",
-                                          "address": {
-                                              "@type": "PostalAddress",
-                                              "streetAddress": "27 Nguyen Phan Vinh",
-                                              "addressLocality": "Hoi An",
-                                              "addressRegion": "Da Nang",
-                                              "postalCode": "550000",
-                                              "addressCountry": "VN"
-                                          }
-                                      }
-                                  ]
+                                "author": buildFounderRef(),
+                                "publisher": buildPublisherRef(),
+                                "about": [
+                                    { "@type": "Thing", "name": "Golf", "sameAs": "https://en.wikipedia.org/wiki/Golf" },
+                                    { "@type": "Thing", "name": "Golf Tourism", "sameAs": "https://en.wikipedia.org/wiki/Golf_tourism" },
+                                    { "@type": "Place", "name": wikiPlace.name, "sameAs": wikiPlace.sameAs },
+                                    { "@type": "Thing", "name": "Golf Tour Operator", "sameAs": "https://en.wikipedia.org/wiki/Tour_operator" },
+                                    buildOrganizationIdRef()
+                                ]
                             },
                             {
                                 "@type": "BreadcrumbList",

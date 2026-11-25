@@ -1,4 +1,5 @@
 import React from "react";
+import { buildFounderRef, buildPublisherRef } from "@/lib/schema";
 
 export interface CuratorCriterion {
   label: string;
@@ -82,33 +83,8 @@ export default function CuratorScorecard({
       bestRating: maxScore.toString(),
       worstRating: "1",
     },
-    author: {
-      "@type": "Person",
-      "@id": "https://www.asiagolfspecialists.com/#marcus-giles",
-      name: curatorName,
-      jobTitle: "Founder & Managing Director",
-      url: "https://www.asiagolfspecialists.com/about/#founder",
-      sameAs: ["https://www.linkedin.com/in/marcus-giles-golf/"],
-    },
-    publisher: {
-      "@type": "TravelAgency",
-      "@id": "https://www.asiagolfspecialists.com/#organization",
-      name: "Asia Golf Specialists",
-      url: "https://www.asiagolfspecialists.com/",
-      image: "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-transparent.webp",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "27 Nguyen Phan Vinh",
-        addressLocality: "Hoi An",
-        addressRegion: "Da Nang",
-        postalCode: "550000",
-        addressCountry: "VN",
-      },
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd-220.webp",
-      },
-    },
+    author: buildFounderRef(curatorName),
+    publisher: buildPublisherRef(),
     reviewBody: verdict,
   };
 

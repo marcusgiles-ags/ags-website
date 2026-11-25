@@ -46,12 +46,12 @@ export async function POST(req: Request) {
     const firstLanding = d.metadata?.first_landing_page?.trim() || '';
     const sourceUrl = (d.metadata?.landing_page || firstLanding || '').slice(0, 500);
 
-    const db = getSupabaseServerClient();
-
     // ── 1. Insert guide download lead ──────────────────────────────
+    let db: ReturnType<typeof getSupabaseServerClient> | null = null;
     let leadId: number | null = null;
     let dbPersisted = false;
     try {
+      db = getSupabaseServerClient();
       const { data, error } = await db
         .from('web_inquiries')
         .insert({
@@ -78,45 +78,49 @@ export async function POST(req: Request) {
 
     // ── 2. Log consent records ─────────────────────────────────────
     try {
-      const consentRows: DbConsentLogInsert[] = [
-        {
-          email:          d.email,
-          consent_type:   'privacy',
-          consent_given:  true,
-          policy_version: CURRENT_POLICY_VERSION,
-          ip_hash:        ipHash,
-          source_form:    'guide-download',
-        },
-      ];
-      if (d.marketing_consent) {
-        consentRows.push({
-          email:          d.email,
-          consent_type:   'marketing',
-          consent_given:  true,
-          policy_version: CURRENT_POLICY_VERSION,
-          ip_hash:        ipHash,
-          source_form:    'guide-download',
-        });
+      if (db) {
+        const consentRows: DbConsentLogInsert[] = [
+          {
+            email:          d.email,
+            consent_type:   'privacy',
+            consent_given:  true,
+            policy_version: CURRENT_POLICY_VERSION,
+            ip_hash:        ipHash,
+            source_form:    'guide-download',
+          },
+        ];
+        if (d.marketing_consent) {
+          consentRows.push({
+            email:          d.email,
+            consent_type:   'marketing',
+            consent_given:  true,
+            policy_version: CURRENT_POLICY_VERSION,
+            ip_hash:        ipHash,
+            source_form:    'guide-download',
+          });
+        }
+        await db.from('consent_logs').insert(consentRows);
       }
-      await db.from('consent_logs').insert(consentRows);
     } catch (consentErr) {
       console.warn('[guide-lead] Consent log failed:', consentErr);
     }
 
     // ── 3. Log behavioral event ────────────────────────────────────
     try {
-      const evtRow: DbBehavioralEvtInsert = {
-        session_id:   ipHash ?? 'anon',
-        event_type:   'guide_download',
-        entity_type:  'general',
-        entity_slug:  refCode ? `ags-guide-2026:${refCode.toLowerCase()}` : 'ags-guide-2026',
-        lead_id:      leadId,
-        utm_source:   utmSource,
-        utm_medium:   utmMedium,
-        utm_campaign: utmCampaign,
-        referrer:     firstLanding || sourceUrl || null,
-      };
-      await db.from('behavioral_events').insert(evtRow);
+      if (db) {
+        const evtRow: DbBehavioralEvtInsert = {
+          session_id:   ipHash ?? 'anon',
+          event_type:   'guide_download',
+          entity_type:  'general',
+          entity_slug:  refCode ? `ags-guide-2026:${refCode.toLowerCase()}` : 'ags-guide-2026',
+          lead_id:      leadId,
+          utm_source:   utmSource,
+          utm_medium:   utmMedium,
+          utm_campaign: utmCampaign,
+          referrer:     firstLanding || sourceUrl || null,
+        };
+        await db.from('behavioral_events').insert(evtRow);
+      }
     } catch { /* non-critical */ }
 
     // ── 4. Send dual notification ──────────────────────────────────

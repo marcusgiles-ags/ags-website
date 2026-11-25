@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
+import { buildOrganizationIdRef } from "@/lib/schema";
 
 export const metadata: Metadata = {
     title: { absolute: "Luxury Golf Tours Southeast Asia | Signature Itineraries" },
@@ -297,31 +298,13 @@ export default function ToursIndex() {
                     "@context": "https://schema.org",
                     "@graph": [
                         {
-                            "@type": "TravelAgency",
-                            "@id": "https://www.asiagolfspecialists.com/#organization",
-                            "name": "Asia Golf Specialists",
-                            "url": "https://www.asiagolfspecialists.com/",
-                            "image": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp",
-                            "priceRange": "$$$$",
-                            "description": "Asia Golf Specialists (AGS) is Southeast Asia's premier luxury golf tour operator, founded and led by Australian expat golfers with decade-deep regional expertise in Vietnam, Thailand, and Cambodia.",
-                            "areaServed": ["Vietnam", "Thailand", "Cambodia"],
-                            "address": {
-                                "@type": "PostalAddress",
-                                "streetAddress": "27 Nguyen Phan Vinh",
-                                "addressLocality": "Hoi An",
-                                "addressRegion": "Da Nang",
-                                "postalCode": "550000",
-                                "addressCountry": "VN"
-                            }
-                        },
-                        {
                             "@type": "CollectionPage",
                             "@id": "https://www.asiagolfspecialists.com/tours/",
                             "name": "Signature Golf Tours — Asia Golf Specialists",
                             "description": "Flagship luxury golf tour itineraries across Vietnam, Thailand, and Cambodia.",
                             "url": "https://www.asiagolfspecialists.com/tours/",
                             "dateModified": "2026-10-28",
-                            "publisher": { "@id": "https://www.asiagolfspecialists.com/#organization" }
+                            "publisher": buildOrganizationIdRef()
                         },
                         {
                             "@type": "ItemList",

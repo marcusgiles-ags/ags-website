@@ -1,3 +1,4 @@
+import { buildPublisherRef } from "@/lib/schema";
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
@@ -274,22 +275,7 @@ export default function VietnamCourses() {
                         "@id": "https://www.asiagolfspecialists.com/destinations/vietnam/courses/",
                         "name": "Premium Golf Courses in Vietnam | Asia Golf Specialists",
                         "url": "https://www.asiagolfspecialists.com/destinations/vietnam/courses/",
-                        "publisher": {
-                            "@type": "TravelAgency",
-                            "@id": "https://www.asiagolfspecialists.com/#organization",
-                            "name": "Asia Golf Specialists",
-                            "url": "https://www.asiagolfspecialists.com/",
-                            "image": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp",
-                            "priceRange": "$$$$",
-                            "address": {
-                                "@type": "PostalAddress",
-                                "streetAddress": "27 Nguyen Phan Vinh",
-                                "addressLocality": "Hoi An",
-                                "addressRegion": "Da Nang",
-                                "postalCode": "550000",
-                                "addressCountry": "VN"
-                            }
-                        }
+                        "publisher": buildPublisherRef()
                     },
                     {
                         "@type": "ItemList",

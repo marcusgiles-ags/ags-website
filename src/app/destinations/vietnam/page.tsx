@@ -1,3 +1,4 @@
+import { buildPublisherRef } from "@/lib/schema";
 import Link from "next/link";
 import HeroSlider from "@/components/HeroSlider";
 import ReadMoreExpander from "@/components/ReadMoreExpander";
@@ -478,22 +479,7 @@ export default function VietnamHub() {
                             "description": "Premium Vietnam golf packages. Conquer championship fairways in Da Nang, Hoi An, and Hanoi with elite private caddies and 5-star villa stays.",
                             "url": "https://www.asiagolfspecialists.com/destinations/vietnam/",
                             "about": { "@id": "https://www.asiagolfspecialists.com/destinations/vietnam/#destination" },
-                            "publisher": {
-                                "@type": "TravelAgency",
-                                "@id": "https://www.asiagolfspecialists.com/#organization",
-                                "name": "Asia Golf Specialists",
-                                "url": "https://www.asiagolfspecialists.com/",
-                                "image": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-logo-the-club-mark-nobkgrd.webp",
-                                "priceRange": "$$",
-                                "address": {
-                                    "@type": "PostalAddress",
-                                    "streetAddress": "27 Nguyen Phan Vinh",
-                                    "addressLocality": "Hoi An",
-                                    "addressRegion": "Da Nang",
-                                    "postalCode": "550000",
-                                    "addressCountry": "VN"
-                                }
-                            }
+                            "publisher": buildPublisherRef()
                         },
                         {
                             "@type": "TouristDestination",

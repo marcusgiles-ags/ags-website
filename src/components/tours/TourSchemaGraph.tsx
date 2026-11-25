@@ -1,5 +1,6 @@
 import type { TourData } from "@/types/tour";
 import venueMedia from "@/data/venue-media.json";
+import { buildTravelAgencyRef } from "@/lib/schema";
 
 export default function TourSchemaGraph({ data }: { data: TourData }) {
   const tourTitle = data.schema.name;
@@ -31,36 +32,10 @@ export default function TourSchemaGraph({ data }: { data: TourData }) {
                 "priceCurrency": data.schema.priceCurrency,
               },
               "availability": "https://schema.org/InStock",
-              "seller": {
-                "@type": "TravelAgency",
-                "name": "Asia Golf Specialists",
-                "url": "https://www.asiagolfspecialists.com/",
-                "image": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-clubmark-outline-white.webp",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "27 Nguyen Phan Vinh",
-                  "addressLocality": "Hoi An",
-                  "addressRegion": "Da Nang",
-                  "postalCode": "550000",
-                  "addressCountry": "VN",
-                },
-              },
+              "seller": buildTravelAgencyRef(),
               "url": "https://www.asiagolfspecialists.com/quote/",
             },
-            "provider": {
-              "@type": "TravelAgency",
-              "name": "Asia Golf Specialists",
-              "url": "https://www.asiagolfspecialists.com/",
-              "image": "https://www.asiagolfspecialists.com/images/brand-library/logos/ags-clubmark-outline-white.webp",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "27 Nguyen Phan Vinh",
-                "addressLocality": "Hoi An",
-                "addressRegion": "Da Nang",
-                "postalCode": "550000",
-                "addressCountry": "VN",
-              },
-            },
+            "provider": buildTravelAgencyRef(),
             "itinerary": {
               "@type": "ItemList",
               "itemListElement": data.chapters.map((chapter) => ({
@@ -130,40 +105,44 @@ export default function TourSchemaGraph({ data }: { data: TourData }) {
         }}
       />
 
-      {/* 4. VideoObject Schemas */}
-      {data.chapters
-        .map((c) => {
-          const media = c.courseHref ? (venueMedia as Record<string, any>)[c.courseHref] : null;
-          if (media && media.hasVideo && media.embedId) {
-            const countryMap: Record<string, string> = {
-              vietnam: "Vietnam",
-              thailand: "Thailand",
-              cambodia: "Cambodia",
-            };
-            const locationLabel = (media.country && countryMap[media.country]) || "Southeast Asia";
-            return {
-              "@context": "https://schema.org",
-              "@type": "VideoObject",
-              "name": media.videoTitle || `${media.facilityName} Official Flyover`,
-              "description": `Official venue aerial flyover and architectural preview of ${media.facilityName} in ${locationLabel}, featured on ${data.schema.name} tour by Asia Golf Specialists.`,
-              "thumbnailUrl": [`https://img.youtube.com/vi/${media.embedId}/hqdefault.jpg`],
-              "uploadDate": "2024-01-01T08:00:00+07:00",
-              "embedUrl": `https://www.youtube-nocookie.com/embed/${media.embedId}`,
-              "contentUrl": `https://www.youtube.com/watch?v=${media.embedId}`,
-            };
-          }
-          return null;
-        })
-        .filter(Boolean)
-        .map((videoSchema, idx) => (
-          <script
-            key={idx}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(videoSchema),
-            }}
-          />
-        ))}
+      {/* 4. VideoObject Schemas (deduplicated by embedId so multi-day stays/venues never emit duplicate VideoObject blocks) */}
+      {(() => {
+        const seenEmbedIds = new Set<string>();
+        return data.chapters
+          .map((c) => {
+            const media = c.courseHref ? (venueMedia as Record<string, any>)[c.courseHref] : null;
+            if (media && media.hasVideo && media.embedId && !seenEmbedIds.has(media.embedId)) {
+              seenEmbedIds.add(media.embedId);
+              const countryMap: Record<string, string> = {
+                vietnam: "Vietnam",
+                thailand: "Thailand",
+                cambodia: "Cambodia",
+              };
+              const locationLabel = (media.country && countryMap[media.country]) || "Southeast Asia";
+              return {
+                "@context": "https://schema.org",
+                "@type": "VideoObject",
+                "name": media.videoTitle || `${media.facilityName} Official Flyover`,
+                "description": `Official venue aerial flyover and architectural preview of ${media.facilityName} in ${locationLabel}, featured on ${data.schema.name} tour by Asia Golf Specialists.`,
+                "thumbnailUrl": [`https://img.youtube.com/vi/${media.embedId}/hqdefault.jpg`],
+                "uploadDate": "2024-01-01T08:00:00+07:00",
+                "embedUrl": `https://www.youtube-nocookie.com/embed/${media.embedId}`,
+                "contentUrl": `https://www.youtube.com/watch?v=${media.embedId}`,
+              };
+            }
+            return null;
+          })
+          .filter(Boolean)
+          .map((videoSchema, idx) => (
+            <script
+              key={idx}
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify(videoSchema),
+              }}
+            />
+          ));
+      })()}
     </>
   );
 }
