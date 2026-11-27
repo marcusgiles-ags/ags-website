@@ -3,14 +3,14 @@ import NextGenTourTemplate from "@/components/NextGenTourTemplate";
 import { theLannaHeritageGolfTrailData } from "@/data/tours/the-lanna-heritage-golf-trail.data";
 
 export const metadata: Metadata = {
-  title: { absolute: "6-Day Luxury Golf Tour | Lanna Heritage Golf Trail 2026" },
+  title: { absolute: "6-Day Luxury Golf Tour | Lanna Heritage Trail 2026/27" },
   description: "The Lanna Heritage Golf Trail: 6-day Chiang Mai highland golf tour in Northern Thailand playing Alpine Chiang Mai, Chiang Mai Highlands & Mae Jo.",
   alternates: {
     canonical: "https://www.asiagolfspecialists.com/tours/the-lanna-heritage-golf-trail/",
   },
   openGraph: {
     type: "website",
-    title: { absolute: "6-Day Luxury Golf Tour | Lanna Heritage Golf Trail 2026" },
+    title: { absolute: "6-Day Luxury Golf Tour | Lanna Heritage Trail 2026/27" },
     description: "The Lanna Heritage Golf Trail: 6-day Chiang Mai highland golf tour in Northern Thailand playing Alpine Chiang Mai, Chiang Mai Highlands & Mae Jo.",
     url: "https://www.asiagolfspecialists.com/tours/the-lanna-heritage-golf-trail/",
     siteName: "Asia Golf Specialists",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: { absolute: "6-Day Luxury Golf Tour | Lanna Heritage Golf Trail 2026" },
+    title: { absolute: "6-Day Luxury Golf Tour | Lanna Heritage Trail 2026/27" },
     description: "The Lanna Heritage Golf Trail: 6-day Chiang Mai highland golf tour in Northern Thailand playing Alpine Chiang Mai, Chiang Mai Highlands & Mae Jo.",
     images: ["https://www.asiagolfspecialists.com/images/courses/thailand/alpine-chiang-mai/alpine-golf-resort-chiang-mai-fairway-3.webp"],
   },

@@ -54,9 +54,14 @@ const SAMPLE_ROUTES = [
   { path: '/destinations/vietnam/true-cost-golf-vietnam-2026-da-nang-pricing-guide/', label: 'GSC Flagged Article (True Cost)' },
   { path: '/destinations/vietnam/planning-12-man-golf-trip-vietnam-logistics-caddies-costs-2026/', label: '12-Man Vietnam Guide' },
 
-  // Blog posts (standard guide, course review, and competitor comparison)
+  // Blog posts (top organic guides, course reviews, and competitor comparison)
   { path: '/blog/best-time-to-golf-in-vietnam/', label: 'Blog Guide (Best Time VN)' },
+  { path: '/blog/beginners-guide-golf-in-vietnam/', label: 'Blog Guide (Beginners VN)' },
+  { path: '/blog/top-10-golf-courses-vietnam-2026/', label: 'Blog Guide (Top 10 VN)' },
+  { path: '/blog/best-time-to-golf-in-thailand/', label: 'Blog Guide (Best Time TH)' },
   { path: '/blog/hoiana-shores-golf-club-review/', label: 'Blog Course Review (Hoiana)' },
+  { path: '/blog/ba-na-hills-golf-club-review/', label: 'Blog Course Review (Ba Na Hills)' },
+  { path: '/blog/the-bluffs-ho-tram-review/', label: 'Blog Course Review (The Bluffs)' },
   { path: '/blog/asia-golf-specialists-vs-golfasian/', label: 'Blog Competitor Comparison (Golfasian)', forbidGolfCourseReview: true },
 
   // Commercial Venues & Products (with CuratorScorecard / TouristTrip)

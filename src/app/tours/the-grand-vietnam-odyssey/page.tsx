@@ -3,14 +3,14 @@ import NextGenTourTemplate from "@/components/NextGenTourTemplate";
 import { theGrandVietnamOdysseyData } from "@/data/tours/the-grand-vietnam-odyssey.data";
 
 export const metadata: Metadata = {
-  title: { absolute: "14-Day Luxury Golf Tour | Grand Vietnam Odyssey 2026" },
+  title: { absolute: "14-Day Luxury Golf Tour | Grand Vietnam Odyssey 2026/27" },
   description: "The Grand Vietnam Odyssey: 14-day pan-Vietnam luxury golf tour from Hanoi through Da Nang & Hoi An to Saigon and Ho Tram featuring 9 championship golf rounds.",
   alternates: {
     canonical: "https://www.asiagolfspecialists.com/tours/the-grand-vietnam-odyssey/",
   },
   openGraph: {
     type: "website",
-    title: { absolute: "14-Day Luxury Golf Tour | Grand Vietnam Odyssey 2026" },
+    title: { absolute: "14-Day Luxury Golf Tour | Grand Vietnam Odyssey 2026/27" },
     description: "The Grand Vietnam Odyssey: 14-day pan-Vietnam luxury golf tour from Hanoi through Da Nang & Hoi An to Saigon and Ho Tram featuring 9 championship golf rounds.",
     url: "https://www.asiagolfspecialists.com/tours/the-grand-vietnam-odyssey/",
     siteName: "Asia Golf Specialists",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: { absolute: "14-Day Luxury Golf Tour | Grand Vietnam Odyssey 2026" },
+    title: { absolute: "14-Day Luxury Golf Tour | Grand Vietnam Odyssey 2026/27" },
     description: "The Grand Vietnam Odyssey: 14-day pan-Vietnam luxury golf tour from Hanoi through Da Nang & Hoi An to Saigon and Ho Tram featuring 9 championship golf rounds.",
     images: ["https://www.asiagolfspecialists.com/images/courses/vietnam/silk-path-dong-trieu/silk-path-dong-trieu-golf-fairway-4.webp"],
   },

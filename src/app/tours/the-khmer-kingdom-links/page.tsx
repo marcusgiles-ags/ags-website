@@ -3,14 +3,14 @@ import NextGenTourTemplate from "@/components/NextGenTourTemplate";
 import { theKhmerKingdomLinksData } from "@/data/tours/the-khmer-kingdom-links.data";
 
 export const metadata: Metadata = {
-  title: { absolute: "7-Day Luxury Golf Tour | Khmer Kingdom Links 2026" },
+  title: { absolute: "7-Day Luxury Golf Tour | Khmer Kingdom Links 2026/27" },
   description: "The Khmer Kingdom Links: 7-day Cambodia luxury golf tour across Phnom Penh and Siem Reap playing Vattanac, Grand Phnom Penh, Angkor & Phokeethra at Raffles.",
   alternates: {
     canonical: "https://www.asiagolfspecialists.com/tours/the-khmer-kingdom-links/",
   },
   openGraph: {
     type: "website",
-    title: { absolute: "7-Day Luxury Golf Tour | Khmer Kingdom Links 2026" },
+    title: { absolute: "7-Day Luxury Golf Tour | Khmer Kingdom Links 2026/27" },
     description: "The Khmer Kingdom Links: 7-day Cambodia luxury golf tour across Phnom Penh and Siem Reap playing Vattanac, Grand Phnom Penh, Angkor & Phokeethra at Raffles.",
     url: "https://www.asiagolfspecialists.com/tours/the-khmer-kingdom-links/",
     siteName: "Asia Golf Specialists",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: { absolute: "7-Day Luxury Golf Tour | Khmer Kingdom Links 2026" },
+    title: { absolute: "7-Day Luxury Golf Tour | Khmer Kingdom Links 2026/27" },
     description: "The Khmer Kingdom Links: 7-day Cambodia luxury golf tour across Phnom Penh and Siem Reap playing Vattanac, Grand Phnom Penh, Angkor & Phokeethra at Raffles.",
     images: ["https://www.asiagolfspecialists.com/images/courses/cambodia/vattanac-west/vattanac-7th-west-5902.webp"],
   },

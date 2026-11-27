@@ -9,14 +9,14 @@ import { Metadata } from "next";
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-    title: { absolute: "Asia Golf Specialists | Luxury Golf Tours SE Asia 2026" },
+    title: { absolute: "Asia Golf Specialists | Luxury Golf Tours SE Asia 2026/27" },
     description: "Luxury golf tours in Vietnam & Thailand. Experience championship fairways, 5-star villas, and VIP logistics for discerning travelers.",
     alternates: {
         canonical: "https://www.asiagolfspecialists.com/",
     },
     openGraph: {
         type: "website",
-        title: { absolute: "Asia Golf Specialists | Luxury Golf Tours SE Asia 2026" },
+        title: { absolute: "Asia Golf Specialists | Luxury Golf Tours SE Asia 2026/27" },
         description: "Luxury golf tours in Vietnam & Thailand. Experience championship fairways, 5-star villas, and VIP logistics for discerning travelers.",
         url: "https://www.asiagolfspecialists.com/",
         siteName: "Asia Golf Specialists",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: { absolute: "Asia Golf Specialists | Luxury Golf Tours SE Asia 2026" },
+        title: { absolute: "Asia Golf Specialists | Luxury Golf Tours SE Asia 2026/27" },
         description: "Luxury golf tours in Vietnam & Thailand. Experience championship fairways, 5-star villas, and VIP logistics for discerning travelers.",
         images: ["https://www.asiagolfspecialists.com/images/homepage/hero-slider/vietnam-coastal-golf-course-hoiana-shores-aerial-beachside.jpg"],
     },

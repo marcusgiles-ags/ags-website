@@ -261,7 +261,9 @@ export default async function BlogPost({
     "publisher": buildPublisherRef()
   } : null;
 
-  const primaryCountryKey = countries.includes("Thailand")
+  const primaryCountryKey = countries.includes("Vietnam")
+    ? "vietnam"
+    : countries.includes("Thailand")
     ? "thailand"
     : countries.includes("Cambodia")
     ? "cambodia"
@@ -271,6 +273,39 @@ export default async function BlogPost({
     slug,
     post.title
   );
+
+  // Split HTML ONLY at a balanced depth-0 top-level block boundary near the midpoint
+  // (never inside an unclosed <div>/<section>/<table>/<ul>) so SSR and Chromium hydration match 100%.
+  const splitBlogHtmlAtMidpoint = (html: string): [string, string] => {
+    const tagRe = /<\/?(div|section|article|blockquote|table|ul|ol)\b[^>]*>/gi;
+    const zeroDepthPoints: number[] = [];
+    let depth = 0;
+    let m: RegExpExecArray | null;
+    while ((m = tagRe.exec(html)) !== null) {
+      const fullTag = m[0];
+      if (fullTag.endsWith("/>")) continue;
+      if (fullTag.startsWith("</")) {
+        depth = Math.max(0, depth - 1);
+        if (depth === 0) {
+          const pos = m.index + fullTag.length;
+          const nextChunk = html.slice(pos).trimStart();
+          if (/^<(h2|div|section|p)\b/i.test(nextChunk)) {
+            zeroDepthPoints.push(pos);
+          }
+        }
+      } else {
+        depth++;
+      }
+    }
+    if (zeroDepthPoints.length === 0) return [html, ""];
+    const mid = html.length * 0.48;
+    // Choose a balanced zero-depth split strictly between 25% and 78% of the article length
+    const valid = zeroDepthPoints.filter((p) => p > html.length * 0.25 && p < html.length * 0.78);
+    if (valid.length === 0) return [html, ""];
+    const best = valid.reduce((a, b) => (Math.abs(a - mid) < Math.abs(b - mid) ? a : b));
+    return [html.slice(0, best), html.slice(best)];
+  };
+  const [contentTop, contentBottom] = splitBlogHtmlAtMidpoint(content);
   const directCourseLink =
     slug === "hoiana-shores-golf-club-review"
       ? { name: "Hoiana Shores Golf Club Profile & Tee Times", href: "/courses/vietnam/hoiana-shores/" }
@@ -489,7 +524,7 @@ export default async function BlogPost({
         </div>
       </section>
 
-      {/* Article Body */}
+      {/* Article Body with Mid-Article Contextual Turnkey Conversion Card */}
       <div
         style={{
           display: "grid",
@@ -497,10 +532,80 @@ export default async function BlogPost({
           padding: "5rem 1rem",
         }}
       >
-        <article
-          style={{ gridColumn: 2 }}
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
+        <article style={{ gridColumn: 2 }}>
+          <div dangerouslySetInnerHTML={{ __html: contentTop }} />
+
+          <aside
+            aria-label="Matched Turnkey Golf Itinerary"
+            style={{
+              margin: "3rem 0",
+              padding: "1.75rem",
+              borderRadius: "10px",
+              background: "linear-gradient(135deg, rgba(15, 23, 42, 0.96) 0%, rgba(8, 17, 38, 0.98) 100%)",
+              border: "1px solid rgba(212, 175, 55, 0.38)",
+              boxShadow: "0 16px 36px rgba(0, 0, 0, 0.4)",
+            }}
+          >
+            <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-between", gap: "1.25rem", marginBottom: "1.25rem" }}>
+              <div style={{ flex: "1 1 360px" }}>
+                <div style={{ color: "#D4AF37", fontSize: "0.72rem", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", marginBottom: "0.4rem" }}>
+                  Matched 2026/27 Turnkey Blueprint • Zero Intermediaries
+                </div>
+                <h3 style={{ fontFamily: "var(--font-primary-serif)", fontSize: "1.45rem", color: "#F8FAFC", margin: "0 0 0.45rem 0", lineHeight: 1.25 }}>
+                  {signatureTour.title} <span style={{ color: "#D4AF37", fontSize: "1rem", fontWeight: 400 }}>({signatureTour.duration})</span>
+                </h3>
+                <p style={{ color: "rgba(248, 250, 252, 0.8)", fontSize: "0.94rem", lineHeight: 1.6, margin: 0 }}>
+                  {signatureTour.highlight}
+                  {flagshipPackage.guidePrice ? ` Modular packages ${flagshipPackage.guidePrice}.` : ""}
+                </p>
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.65rem", minWidth: "220px" }}>
+                <Link
+                  href={signatureTour.url}
+                  className="btn-primary"
+                  style={{ textAlign: "center", padding: "0.75rem 1.25rem", fontSize: "0.82rem", textDecoration: "none" }}
+                >
+                  Explore {signatureTour.title} &rarr;
+                </Link>
+                <Link
+                  href={flagshipPackage.url}
+                  style={{
+                    textAlign: "center",
+                    padding: "0.65rem 1.1rem",
+                    fontSize: "0.8rem",
+                    border: "1px solid rgba(212,175,55,0.45)",
+                    color: "#D4AF37",
+                    borderRadius: "4px",
+                    textDecoration: "none",
+                    fontWeight: 600,
+                  }}
+                >
+                  Configure {flagshipPackage.title}
+                </Link>
+              </div>
+            </div>
+            <div style={{ borderTop: "1px solid rgba(212,175,55,0.16)", paddingTop: "1rem", display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-between", gap: "0.75rem" }}>
+              <span style={{ fontSize: "0.82rem", color: "rgba(248,250,252,0.72)" }}>
+                Want exact 2026/27 tee-time availability or 4-to-16 golfer pricing?
+              </span>
+              <div style={{ display: "flex", gap: "0.75rem", alignItems: "center", flexWrap: "wrap" }}>
+                <a
+                  href="#fast-inquiry"
+                  style={{ color: "#D4AF37", fontSize: "0.84rem", fontWeight: 600, textDecoration: "underline" }}
+                >
+                  24hr Custom Quote &darr;
+                </a>
+                <ConciergeWhatsAppButton
+                  itemType="article"
+                  itemTitle={post.title}
+                  destination={countries[0] || "Southeast Asia"}
+                />
+              </div>
+            </div>
+          </aside>
+
+          {contentBottom && <div dangerouslySetInnerHTML={{ __html: contentBottom }} />}
+        </article>
       </div>
 
       {/* FAQ Section */}

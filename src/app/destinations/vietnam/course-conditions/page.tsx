@@ -4,14 +4,14 @@ import Navbar from "@/components/Navbar";
 import { buildFounderRef, buildPublisherRef } from "@/lib/schema";
 
 export const metadata = {
-    title: { absolute: "Vietnam Golf Course Conditions Report | October 2026 Update" },
+    title: { absolute: "Vietnam Golf Course Conditions Report | 2026/27 Live Update" },
     description: "Live on-the-ground intelligence and seasonal playability for Vietnam's flagship golf layouts. Check Stimpmeter green speeds, turf drainage, and weather.",
     alternates: {
         canonical: "https://www.asiagolfspecialists.com/destinations/vietnam/course-conditions/",
     },
     openGraph: {
         type: "website",
-        title: { absolute: "Vietnam Golf Course Conditions Report | October 2026 Update" },
+        title: { absolute: "Vietnam Golf Course Conditions Report | 2026/27 Live Update" },
         description: "Live on-the-ground intelligence and seasonal playability for Vietnam's flagship golf layouts. Check Stimpmeter green speeds, turf drainage, and weather.",
         url: "https://www.asiagolfspecialists.com/destinations/vietnam/course-conditions/",
         siteName: "Asia Golf Specialists",

@@ -3,14 +3,14 @@ import NextGenTourTemplate from "@/components/NextGenTourTemplate";
 import { hoiAnBeachfrontBlissData } from "@/data/tours/hoi-an-beachfront-bliss.data";
 
 export const metadata: Metadata = {
-  title: { absolute: "7-Day Luxury Golf Tour | Hoi An Beachfront Bliss 2026" },
+  title: { absolute: "7-Day Luxury Golf Tour | Hoi An Beachfront Bliss 2026/27" },
   description: "7-day luxury beachfront golf tour in Central Vietnam playing Montgomerie Links, Vinpearl Nam Hoi An, Laguna Lang Co, and Ba Na Hills from Palm Gardens Resort.",
   alternates: {
     canonical: "https://www.asiagolfspecialists.com/tours/hoi-an-beachfront-bliss/",
   },
   openGraph: {
     type: "website",
-    title: { absolute: "7-Day Luxury Golf Tour | Hoi An Beachfront Bliss 2026" },
+    title: { absolute: "7-Day Luxury Golf Tour | Hoi An Beachfront Bliss 2026/27" },
     description: "7-day luxury beachfront golf tour in Central Vietnam playing Montgomerie Links, Vinpearl Nam Hoi An, Laguna Lang Co, and Ba Na Hills from Palm Gardens Resort.",
     url: "https://www.asiagolfspecialists.com/tours/hoi-an-beachfront-bliss/",
     siteName: "Asia Golf Specialists",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: { absolute: "7-Day Luxury Golf Tour | Hoi An Beachfront Bliss 2026" },
+    title: { absolute: "7-Day Luxury Golf Tour | Hoi An Beachfront Bliss 2026/27" },
     description: "7-day luxury beachfront golf tour in Central Vietnam playing Montgomerie Links, Vinpearl Nam Hoi An, Laguna Lang Co, and Ba Na Hills from Palm Gardens Resort.",
     images: ["https://www.asiagolfspecialists.com/images/courses/vietnam/laguna-lang-co/laguna-golf-lang-co-jungle-tropical-3.webp"],
   },

@@ -16,7 +16,7 @@ export const metadata = {
  },
     openGraph: {
         type: "website",
-        title: { absolute: "Luxury Cambodia Golf Tours 2026 | AGS Ultimate Hub" },
+        title: { absolute: "Luxury Cambodia Golf Tours 2026/27 | AGS Ultimate Hub" },
         description: "Experience luxury golf tours in Cambodia, Vietnam & Thailand. Play top courses like Angkor Golf Resort. Bespoke itineraries from Asia Golf Specialists.",
         url: "https://www.asiagolfspecialists.com/destinations/cambodia/",
         siteName: "Asia Golf Specialists",
@@ -29,7 +29,7 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: { absolute: "Luxury Cambodia Golf Tours 2026 | AGS Ultimate Hub" },
+        title: { absolute: "Luxury Cambodia Golf Tours 2026/27 | AGS Ultimate Hub" },
         description: "Experience luxury golf tours in Cambodia, Vietnam & Thailand. Play top courses like Angkor Golf Resort. Bespoke itineraries from Asia Golf Specialists.",
         images: ["https://www.asiagolfspecialists.com/images/destinations/cambodia/hero/cambodia-angkor-wat-majestic-hero.webp"],
     },
